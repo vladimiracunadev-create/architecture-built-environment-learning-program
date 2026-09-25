@@ -1,0 +1,4762 @@
+[
+  {
+    "id": "ARQ-001",
+    "title": "Arquitectura como sistema: del encargo al fin de vida",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-001.md"
+  },
+  {
+    "id": "ARQ-002",
+    "title": "Habitar, construir, urbanizar y conservar: diferencias",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-002.md"
+  },
+  {
+    "id": "ARQ-003",
+    "title": "Escalas: objeto, recinto, edificio, barrio y territorio",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-003.md"
+  },
+  {
+    "id": "ARQ-004",
+    "title": "Necesidades, deseos y derechos de quienes habitan",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-004.md"
+  },
+  {
+    "id": "ARQ-005",
+    "title": "Ética del encargo y conflictos de interés",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-005.md"
+  },
+  {
+    "id": "ARQ-006",
+    "title": "Autores, equipos, profesiones y oficios",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-006.md"
+  },
+  {
+    "id": "ARQ-007",
+    "title": "Calidad espacial frente a apariencia fotográfica",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-007.md"
+  },
+  {
+    "id": "ARQ-008",
+    "title": "Incertidumbre, evidencia y límites del conocimiento",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-008.md"
+  },
+  {
+    "id": "ARQ-009",
+    "title": "Cómo estudiar arquitectura sin confundir aprendizaje con habilitación",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-009.md"
+  },
+  {
+    "id": "ARQ-010",
+    "title": "Lectura integral de un edificio cotidiano",
+    "part": 1,
+    "is_new": false,
+    "source": "classes/parte-01/ARQ-010.md"
+  },
+  {
+    "id": "ARQ-011",
+    "title": "Planta, corte y elevación: leer lo que no muestra una fotografía",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-011.md"
+  },
+  {
+    "id": "ARQ-012",
+    "title": "Escalas, cotas, unidades y tolerancias",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-012.md"
+  },
+  {
+    "id": "ARQ-013",
+    "title": "Croquis de observación y síntesis",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-013.md"
+  },
+  {
+    "id": "ARQ-014",
+    "title": "Proyección ortogonal y axonometría",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-014.md"
+  },
+  {
+    "id": "ARQ-015",
+    "title": "Perspectiva, profundidad y percepción",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-015.md"
+  },
+  {
+    "id": "ARQ-016",
+    "title": "Jerarquías de línea, convenciones y leyendas",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-016.md"
+  },
+  {
+    "id": "ARQ-017",
+    "title": "Modelos físicos: materiales y lectura de maquetas",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-017.md"
+  },
+  {
+    "id": "ARQ-018",
+    "title": "Levantamiento de un recinto y registro de incertidumbre",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-018.md"
+  },
+  {
+    "id": "ARQ-019",
+    "title": "Detalle constructivo como descripción de encuentros",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-019.md"
+  },
+  {
+    "id": "ARQ-020",
+    "title": "Revisión cruzada de un juego de planos",
+    "part": 2,
+    "is_new": false,
+    "source": "classes/parte-02/ARQ-020.md"
+  },
+  {
+    "id": "ARQ-021",
+    "title": "Dimensiones, conversiones y órdenes de magnitud",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-021.md"
+  },
+  {
+    "id": "ARQ-022",
+    "title": "Razón, proporción, porcentaje y semejanza",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-022.md"
+  },
+  {
+    "id": "ARQ-023",
+    "title": "Áreas, volúmenes y cubicaciones",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-023.md"
+  },
+  {
+    "id": "ARQ-024",
+    "title": "Trigonometría para pendientes, sombras y levantamientos",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-024.md"
+  },
+  {
+    "id": "ARQ-025",
+    "title": "Vectores, fuerzas y momentos",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-025.md"
+  },
+  {
+    "id": "ARQ-026",
+    "title": "Funciones, gráficos y sensibilidad",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-026.md"
+  },
+  {
+    "id": "ARQ-027",
+    "title": "Derivadas e integrales como herramientas de interpretación",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-027.md"
+  },
+  {
+    "id": "ARQ-028",
+    "title": "Energía, potencia y conservación",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-028.md"
+  },
+  {
+    "id": "ARQ-029",
+    "title": "Probabilidad, incertidumbre y error de medida",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-029.md"
+  },
+  {
+    "id": "ARQ-030",
+    "title": "Modelos discretos, cálculo numérico y validación",
+    "part": 3,
+    "is_new": false,
+    "source": "classes/parte-03/ARQ-030.md"
+  },
+  {
+    "id": "ARQ-031",
+    "title": "Del pedido del cliente a un programa de necesidades",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-031.md"
+  },
+  {
+    "id": "ARQ-032",
+    "title": "Entrevistas, observación y consentimiento",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-032.md"
+  },
+  {
+    "id": "ARQ-033",
+    "title": "Actividades, relaciones y adyacencias",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-033.md"
+  },
+  {
+    "id": "ARQ-034",
+    "title": "Antropometría sin reducir a las personas al promedio",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-034.md"
+  },
+  {
+    "id": "ARQ-035",
+    "title": "Privacidad, cuidado y diversidad cultural",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-035.md"
+  },
+  {
+    "id": "ARQ-036",
+    "title": "Infancias, envejecimiento y autonomía",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-036.md"
+  },
+  {
+    "id": "ARQ-037",
+    "title": "Confort percibido y experiencia sensorial",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-037.md"
+  },
+  {
+    "id": "ARQ-038",
+    "title": "Participación comunitaria y devolución de resultados",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-038.md"
+  },
+  {
+    "id": "ARQ-039",
+    "title": "Escenarios de uso, cambio y apropiación",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-039.md"
+  },
+  {
+    "id": "ARQ-040",
+    "title": "Validación del programa y control de cambios",
+    "part": 4,
+    "is_new": false,
+    "source": "classes/parte-04/ARQ-040.md"
+  },
+  {
+    "id": "ARQ-041",
+    "title": "Cómo leer la historia de la arquitectura sin reducirla a estilos",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-041.md"
+  },
+  {
+    "id": "ARQ-042",
+    "title": "Refugios, movilidad, sedentarismo y arqueología",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-042.md"
+  },
+  {
+    "id": "ARQ-043",
+    "title": "Mesopotamia: ciudad, agua y poder",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-043.md"
+  },
+  {
+    "id": "ARQ-044",
+    "title": "Egipto: territorio, técnicas y monumentalidad",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-044.md"
+  },
+  {
+    "id": "ARQ-045",
+    "title": "Grecia: espacio cívico, templo y paisaje",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-045.md"
+  },
+  {
+    "id": "ARQ-046",
+    "title": "Roma: infraestructura, vivienda y construcción",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-046.md"
+  },
+  {
+    "id": "ARQ-047",
+    "title": "Sur de Asia: ciudades y tradiciones constructivas",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-047.md"
+  },
+  {
+    "id": "ARQ-048",
+    "title": "China: organización espacial y sistemas de madera",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-048.md"
+  },
+  {
+    "id": "ARQ-049",
+    "title": "África: diversidad de ciudades y arquitecturas de tierra",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-049.md"
+  },
+  {
+    "id": "ARQ-050",
+    "title": "Américas precoloniales: territorio, técnica y comunidad",
+    "part": 5,
+    "is_new": false,
+    "source": "classes/parte-05/ARQ-050.md"
+  },
+  {
+    "id": "ARQ-051",
+    "title": "Arquitecturas bizantinas y continuidad de saberes",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-051.md"
+  },
+  {
+    "id": "ARQ-052",
+    "title": "Arquitecturas islámicas: patios, ciudades y redes",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-052.md"
+  },
+  {
+    "id": "ARQ-053",
+    "title": "Románico: construcción, monasterio y territorio",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-053.md"
+  },
+  {
+    "id": "ARQ-054",
+    "title": "Gótico: estructura, luz y organización del trabajo",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-054.md"
+  },
+  {
+    "id": "ARQ-055",
+    "title": "Renacimiento: perspectiva, tratado y ciudad",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-055.md"
+  },
+  {
+    "id": "ARQ-056",
+    "title": "Barrocos: poder, espacio y experiencia",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-056.md"
+  },
+  {
+    "id": "ARQ-057",
+    "title": "Japón: madera, modulación y reconstrucción",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-057.md"
+  },
+  {
+    "id": "ARQ-058",
+    "title": "Sur y sudeste asiático: clima, templo y ciudad",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-058.md"
+  },
+  {
+    "id": "ARQ-059",
+    "title": "Colonialidad, intercambio y transformaciones urbanas",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-059.md"
+  },
+  {
+    "id": "ARQ-060",
+    "title": "Oficios, aprendizaje y transmisión del conocimiento",
+    "part": 6,
+    "is_new": false,
+    "source": "classes/parte-06/ARQ-060.md"
+  },
+  {
+    "id": "ARQ-061",
+    "title": "Industrialización: hierro, vidrio y nuevas infraestructuras",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-061.md"
+  },
+  {
+    "id": "ARQ-062",
+    "title": "Reformas urbanas, salubridad y vivienda obrera",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-062.md"
+  },
+  {
+    "id": "ARQ-063",
+    "title": "Arts and Crafts y crítica de la producción industrial",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-063.md"
+  },
+  {
+    "id": "ARQ-064",
+    "title": "Art Nouveau y nuevas continuidades materiales",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-064.md"
+  },
+  {
+    "id": "ARQ-065",
+    "title": "Bauhaus: pedagogía, producción y proyecto social",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-065.md"
+  },
+  {
+    "id": "ARQ-066",
+    "title": "Movimiento moderno y pluralidad de sus propuestas",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-066.md"
+  },
+  {
+    "id": "ARQ-067",
+    "title": "Vivienda colectiva, estandarización y vida cotidiana",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-067.md"
+  },
+  {
+    "id": "ARQ-068",
+    "title": "Arquitectura orgánica y relación con el lugar",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-068.md"
+  },
+  {
+    "id": "ARQ-069",
+    "title": "Brutalismos: material, institución y uso",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-069.md"
+  },
+  {
+    "id": "ARQ-070",
+    "title": "Modernidades no europeas y revisión del canon",
+    "part": 7,
+    "is_new": false,
+    "source": "classes/parte-07/ARQ-070.md"
+  },
+  {
+    "id": "ARQ-071",
+    "title": "Posmodernismos y revisión del lenguaje arquitectónico",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-071.md"
+  },
+  {
+    "id": "ARQ-072",
+    "title": "High-tech y expresión de los sistemas",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-072.md"
+  },
+  {
+    "id": "ARQ-073",
+    "title": "Deconstructivismo: geometría y discurso",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-073.md"
+  },
+  {
+    "id": "ARQ-074",
+    "title": "Regionalismo crítico y pertenencia al lugar",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-074.md"
+  },
+  {
+    "id": "ARQ-075",
+    "title": "Minimalismos y complejidad de la ejecución",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-075.md"
+  },
+  {
+    "id": "ARQ-076",
+    "title": "Diseño paramétrico y límites de la optimización formal",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-076.md"
+  },
+  {
+    "id": "ARQ-077",
+    "title": "Arquitectura social, incremental y participativa",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-077.md"
+  },
+  {
+    "id": "ARQ-078",
+    "title": "Diseño regenerativo: promesa, alcance y verificación",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-078.md"
+  },
+  {
+    "id": "ARQ-079",
+    "title": "Prácticas de cuidado, género y justicia espacial",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-079.md"
+  },
+  {
+    "id": "ARQ-080",
+    "title": "Crítica de la imagen, el icono y la arquitectura mediática",
+    "part": 8,
+    "is_new": false,
+    "source": "classes/parte-08/ARQ-080.md"
+  },
+  {
+    "id": "ARQ-081",
+    "title": "Territorios andinos y sistemas de asentamiento",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-081.md"
+  },
+  {
+    "id": "ARQ-082",
+    "title": "Arquitecturas indígenas: diversidad, autoría y consentimiento",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-082.md"
+  },
+  {
+    "id": "ARQ-083",
+    "title": "Arquitecturas de tierra y patios en distintos climas",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-083.md"
+  },
+  {
+    "id": "ARQ-084",
+    "title": "Carpinterías y patrimonio de Chiloé",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-084.md"
+  },
+  {
+    "id": "ARQ-085",
+    "title": "Ciudades portuarias, pendientes e infraestructuras",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-085.md"
+  },
+  {
+    "id": "ARQ-086",
+    "title": "Vivienda, urbanización y políticas habitacionales",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-086.md"
+  },
+  {
+    "id": "ARQ-087",
+    "title": "Arquitecturas modernas latinoamericanas",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-087.md"
+  },
+  {
+    "id": "ARQ-088",
+    "title": "Reconstrucción y memoria de desastres",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-088.md"
+  },
+  {
+    "id": "ARQ-089",
+    "title": "Autoconstrucción, informalidad y acompañamiento técnico",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-089.md"
+  },
+  {
+    "id": "ARQ-090",
+    "title": "Lectura de un barrio chileno con evidencia local",
+    "part": 9,
+    "is_new": false,
+    "source": "classes/parte-09/ARQ-090.md"
+  },
+  {
+    "id": "ARQ-091",
+    "title": "Espacio, forma y organización",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-091.md"
+  },
+  {
+    "id": "ARQ-092",
+    "title": "Proporción, ritmo y jerarquía sin determinismos",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-092.md"
+  },
+  {
+    "id": "ARQ-093",
+    "title": "Lleno, vacío, umbral y transición",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-093.md"
+  },
+  {
+    "id": "ARQ-094",
+    "title": "Luz como material de proyecto",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-094.md"
+  },
+  {
+    "id": "ARQ-095",
+    "title": "Color, textura y percepción situada",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-095.md"
+  },
+  {
+    "id": "ARQ-096",
+    "title": "Tectónica: cómo se expresa la construcción",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-096.md"
+  },
+  {
+    "id": "ARQ-097",
+    "title": "Tipología, precedente y transformación",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-097.md"
+  },
+  {
+    "id": "ARQ-098",
+    "title": "Estilo, lenguaje, moda y apropiación",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-098.md"
+  },
+  {
+    "id": "ARQ-099",
+    "title": "Crítica escrita y discusión de proyectos",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-099.md"
+  },
+  {
+    "id": "ARQ-100",
+    "title": "Composición integrada con restricciones reales",
+    "part": 10,
+    "is_new": false,
+    "source": "classes/parte-10/ARQ-100.md"
+  },
+  {
+    "id": "ARQ-101",
+    "title": "Límites, dominio, servidumbres y antecedentes prediales",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-101.md"
+  },
+  {
+    "id": "ARQ-102",
+    "title": "Topografía, cotas y referencias altimétricas",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-102.md"
+  },
+  {
+    "id": "ARQ-103",
+    "title": "Sistemas de coordenadas y georreferenciación",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-103.md"
+  },
+  {
+    "id": "ARQ-104",
+    "title": "Lectura de pendientes y escorrentías",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-104.md"
+  },
+  {
+    "id": "ARQ-105",
+    "title": "Sol, viento y obstrucciones del entorno",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-105.md"
+  },
+  {
+    "id": "ARQ-106",
+    "title": "Redes, accesos y capacidad de servicios",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-106.md"
+  },
+  {
+    "id": "ARQ-107",
+    "title": "SIG: capas, escalas y calidad de los datos",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-107.md"
+  },
+  {
+    "id": "ARQ-108",
+    "title": "Fotogrametría y levantamiento digital: límites",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-108.md"
+  },
+  {
+    "id": "ARQ-109",
+    "title": "Cartografías participativas y conflictos de información",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-109.md"
+  },
+  {
+    "id": "ARQ-110",
+    "title": "Síntesis de aptitud y restricciones del sitio",
+    "part": 11,
+    "is_new": false,
+    "source": "classes/parte-11/ARQ-110.md"
+  },
+  {
+    "id": "ARQ-111",
+    "title": "Tejido urbano: trama, parcela, manzana y calle",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-111.md"
+  },
+  {
+    "id": "ARQ-112",
+    "title": "Densidad, intensidad y mezcla de usos",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-112.md"
+  },
+  {
+    "id": "ARQ-113",
+    "title": "Movilidad, caminabilidad y transporte público",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-113.md"
+  },
+  {
+    "id": "ARQ-114",
+    "title": "Espacio público, permanencia y apropiación",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-114.md"
+  },
+  {
+    "id": "ARQ-115",
+    "title": "Infraestructura, equipamientos y desigualdad territorial",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-115.md"
+  },
+  {
+    "id": "ARQ-116",
+    "title": "Vivienda asequible y desplazamiento",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-116.md"
+  },
+  {
+    "id": "ARQ-117",
+    "title": "Instrumentos de planificación territorial en Chile",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-117.md"
+  },
+  {
+    "id": "ARQ-118",
+    "title": "Regeneración urbana y participación",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-118.md"
+  },
+  {
+    "id": "ARQ-119",
+    "title": "Evaluación de alternativas territoriales",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-119.md"
+  },
+  {
+    "id": "ARQ-120",
+    "title": "Proyecto de barrio: vivienda, servicios y paisaje",
+    "part": 12,
+    "is_new": false,
+    "source": "classes/parte-12/ARQ-120.md"
+  },
+  {
+    "id": "ARQ-121",
+    "title": "Paisaje como sistema vivo y cultural",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-121.md"
+  },
+  {
+    "id": "ARQ-122",
+    "title": "Suelo vivo, compactación y permeabilidad",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-122.md"
+  },
+  {
+    "id": "ARQ-123",
+    "title": "Vegetación, biodiversidad y especies adecuadas al sitio",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-123.md"
+  },
+  {
+    "id": "ARQ-124",
+    "title": "Agua, cuencas y drenaje urbano sostenible",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-124.md"
+  },
+  {
+    "id": "ARQ-125",
+    "title": "Sombra, isla de calor y refugios climáticos",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-125.md"
+  },
+  {
+    "id": "ARQ-126",
+    "title": "Infraestructura verde y azul",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-126.md"
+  },
+  {
+    "id": "ARQ-127",
+    "title": "Bordes, conectividad ecológica y fragmentación",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-127.md"
+  },
+  {
+    "id": "ARQ-128",
+    "title": "Paisajes productivos y seguridad alimentaria",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-128.md"
+  },
+  {
+    "id": "ARQ-129",
+    "title": "Mantenimiento y estacionalidad del paisaje",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-129.md"
+  },
+  {
+    "id": "ARQ-130",
+    "title": "Proyecto paisajístico integrado con infraestructura",
+    "part": 13,
+    "is_new": false,
+    "source": "classes/parte-13/ARQ-130.md"
+  },
+  {
+    "id": "ARQ-131",
+    "title": "Problema de diseño e hipótesis de solución",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-131.md"
+  },
+  {
+    "id": "ARQ-132",
+    "title": "Precedentes: aprender sin copiar",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-132.md"
+  },
+  {
+    "id": "ARQ-133",
+    "title": "Diagramas de relaciones y organización",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-133.md"
+  },
+  {
+    "id": "ARQ-134",
+    "title": "Generación de alternativas comparables",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-134.md"
+  },
+  {
+    "id": "ARQ-135",
+    "title": "Evaluación multicriterio y conflictos",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-135.md"
+  },
+  {
+    "id": "ARQ-136",
+    "title": "Prototipos espaciales y pruebas de uso",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-136.md"
+  },
+  {
+    "id": "ARQ-137",
+    "title": "Integración temprana de estructura e instalaciones",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-137.md"
+  },
+  {
+    "id": "ARQ-138",
+    "title": "Crítica, revisión y trazabilidad de cambios",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-138.md"
+  },
+  {
+    "id": "ARQ-139",
+    "title": "Comunicación al cliente y a comunidades",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-139.md"
+  },
+  {
+    "id": "ARQ-140",
+    "title": "Síntesis del anteproyecto y decisiones pendientes",
+    "part": 14,
+    "is_new": false,
+    "source": "classes/parte-14/ARQ-140.md"
+  },
+  {
+    "id": "ARQ-141",
+    "title": "Vivienda, hogar y diversidad de unidades domésticas",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-141.md"
+  },
+  {
+    "id": "ARQ-142",
+    "title": "Vivienda unifamiliar y relación con el terreno",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-142.md"
+  },
+  {
+    "id": "ARQ-143",
+    "title": "Vivienda colectiva y espacios compartidos",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-143.md"
+  },
+  {
+    "id": "ARQ-144",
+    "title": "Vivienda incremental y crecimiento responsable",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-144.md"
+  },
+  {
+    "id": "ARQ-145",
+    "title": "Flexibilidad, adaptabilidad y accesibilidad",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-145.md"
+  },
+  {
+    "id": "ARQ-146",
+    "title": "Privacidad, acústica y relaciones vecinales",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-146.md"
+  },
+  {
+    "id": "ARQ-147",
+    "title": "Cocina, cuidados y distribución del trabajo doméstico",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-147.md"
+  },
+  {
+    "id": "ARQ-148",
+    "title": "Densificación y rehabilitación de vivienda existente",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-148.md"
+  },
+  {
+    "id": "ARQ-149",
+    "title": "Habitabilidad, asequibilidad y costo de operación",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-149.md"
+  },
+  {
+    "id": "ARQ-150",
+    "title": "Evaluación integral de un conjunto habitacional",
+    "part": 15,
+    "is_new": false,
+    "source": "classes/parte-15/ARQ-150.md"
+  },
+  {
+    "id": "ARQ-151",
+    "title": "Escuelas: pedagogía, espacio y comunidad",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-151.md"
+  },
+  {
+    "id": "ARQ-152",
+    "title": "Salud: flujos, higiene y continuidad operativa",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-152.md"
+  },
+  {
+    "id": "ARQ-153",
+    "title": "Bibliotecas y centros culturales",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-153.md"
+  },
+  {
+    "id": "ARQ-154",
+    "title": "Museos: conservación, exposición y público",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-154.md"
+  },
+  {
+    "id": "ARQ-155",
+    "title": "Deporte y recreación inclusiva",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-155.md"
+  },
+  {
+    "id": "ARQ-156",
+    "title": "Residencias, cuidados y atención de larga duración",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-156.md"
+  },
+  {
+    "id": "ARQ-157",
+    "title": "Edificios cívicos y acceso a servicios",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-157.md"
+  },
+  {
+    "id": "ARQ-158",
+    "title": "Espacios religiosos y diversidad cultural",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-158.md"
+  },
+  {
+    "id": "ARQ-159",
+    "title": "Diseño universal en equipamientos complejos",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-159.md"
+  },
+  {
+    "id": "ARQ-160",
+    "title": "Coordinación de estándares sectoriales y operación",
+    "part": 16,
+    "is_new": false,
+    "source": "classes/parte-16/ARQ-160.md"
+  },
+  {
+    "id": "ARQ-161",
+    "title": "Locales comerciales: operación, acceso y experiencia",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-161.md"
+  },
+  {
+    "id": "ARQ-162",
+    "title": "Oficinas, trabajo híbrido y cambio de uso",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-162.md"
+  },
+  {
+    "id": "ARQ-163",
+    "title": "Hoteles, turismo y relación con el lugar",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-163.md"
+  },
+  {
+    "id": "ARQ-164",
+    "title": "Mercados, alimentos y separación de flujos",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-164.md"
+  },
+  {
+    "id": "ARQ-165",
+    "title": "Bodegas, logística y circulación de equipos",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-165.md"
+  },
+  {
+    "id": "ARQ-166",
+    "title": "Industria: riesgos y coordinación de especialidades",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-166.md"
+  },
+  {
+    "id": "ARQ-167",
+    "title": "Laboratorios y recintos de requisitos especiales",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-167.md"
+  },
+  {
+    "id": "ARQ-168",
+    "title": "Terminales de transporte y orientación de usuarios",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-168.md"
+  },
+  {
+    "id": "ARQ-169",
+    "title": "Centros de datos y continuidad de infraestructura",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-169.md"
+  },
+  {
+    "id": "ARQ-170",
+    "title": "Reutilización de edificios productivos",
+    "part": 17,
+    "is_new": false,
+    "source": "classes/parte-17/ARQ-170.md"
+  },
+  {
+    "id": "ARQ-171",
+    "title": "Accesibilidad como cadena de decisiones",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-171.md"
+  },
+  {
+    "id": "ARQ-172",
+    "title": "Rutas accesibles y cambios de nivel",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-172.md"
+  },
+  {
+    "id": "ARQ-173",
+    "title": "Puertas, maniobras y áreas de transferencia",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-173.md"
+  },
+  {
+    "id": "ARQ-174",
+    "title": "Servicios higiénicos y privacidad",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-174.md"
+  },
+  {
+    "id": "ARQ-175",
+    "title": "Orientación, contraste y comunicación multisensorial",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-175.md"
+  },
+  {
+    "id": "ARQ-176",
+    "title": "Accesibilidad cognitiva y carga de información",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-176.md"
+  },
+  {
+    "id": "ARQ-177",
+    "title": "Acústica, iluminación y diversidad sensorial",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-177.md"
+  },
+  {
+    "id": "ARQ-178",
+    "title": "Evacuación inclusiva y apoyos operativos",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-178.md"
+  },
+  {
+    "id": "ARQ-179",
+    "title": "Patrimonio, adaptaciones razonadas y restricciones",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-179.md"
+  },
+  {
+    "id": "ARQ-180",
+    "title": "Prueba de uso y devolución con personas usuarias",
+    "part": 18,
+    "is_new": false,
+    "source": "classes/parte-18/ARQ-180.md"
+  },
+  {
+    "id": "ARQ-181",
+    "title": "Del mapa geológico a la investigación del terreno",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-181.md"
+  },
+  {
+    "id": "ARQ-182",
+    "title": "Tipos de suelo y propiedades de comportamiento",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-182.md"
+  },
+  {
+    "id": "ARQ-183",
+    "title": "Reconocimiento, muestreo y ensayos: quién los ejecuta",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-183.md"
+  },
+  {
+    "id": "ARQ-184",
+    "title": "Agua subterránea y variaciones del terreno",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-184.md"
+  },
+  {
+    "id": "ARQ-185",
+    "title": "Capacidad de soporte y asentamientos: conceptos",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-185.md"
+  },
+  {
+    "id": "ARQ-186",
+    "title": "Fundaciones superficiales y profundas: selección conceptual",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-186.md"
+  },
+  {
+    "id": "ARQ-187",
+    "title": "Taludes, excavaciones y obras temporales",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-187.md"
+  },
+  {
+    "id": "ARQ-188",
+    "title": "Licuefacción y efectos del sitio",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-188.md"
+  },
+  {
+    "id": "ARQ-189",
+    "title": "Interacción suelo–estructura y edificios vecinos",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-189.md"
+  },
+  {
+    "id": "ARQ-190",
+    "title": "Interpretación crítica de un informe geotécnico",
+    "part": 19,
+    "is_new": false,
+    "source": "classes/parte-19/ARQ-190.md"
+  },
+  {
+    "id": "ARQ-191",
+    "title": "Camino de cargas y continuidad hasta el terreno",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-191.md"
+  },
+  {
+    "id": "ARQ-192",
+    "title": "Apoyos, vínculos y diagramas de cuerpo libre",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-192.md"
+  },
+  {
+    "id": "ARQ-193",
+    "title": "Tracción, compresión y cortante",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-193.md"
+  },
+  {
+    "id": "ARQ-194",
+    "title": "Flexión, rigidez y deformaciones",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-194.md"
+  },
+  {
+    "id": "ARQ-195",
+    "title": "Pandeo y estabilidad",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-195.md"
+  },
+  {
+    "id": "ARQ-196",
+    "title": "Elasticidad, plasticidad y ductilidad",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-196.md"
+  },
+  {
+    "id": "ARQ-197",
+    "title": "Acciones permanentes, variables y excepcionales",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-197.md"
+  },
+  {
+    "id": "ARQ-198",
+    "title": "Dinámica, período, amortiguamiento y resonancia",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-198.md"
+  },
+  {
+    "id": "ARQ-199",
+    "title": "Modelos, discretización y error de idealización",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-199.md"
+  },
+  {
+    "id": "ARQ-200",
+    "title": "Lectura de resultados sin delegar el juicio al software",
+    "part": 20,
+    "is_new": false,
+    "source": "classes/parte-20/ARQ-200.md"
+  },
+  {
+    "id": "ARQ-201",
+    "title": "Muros portantes y distribución del espacio",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-201.md"
+  },
+  {
+    "id": "ARQ-202",
+    "title": "Pórticos y plantas flexibles",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-202.md"
+  },
+  {
+    "id": "ARQ-203",
+    "title": "Arriostramientos y diagonales",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-203.md"
+  },
+  {
+    "id": "ARQ-204",
+    "title": "Losas y sistemas de piso",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-204.md"
+  },
+  {
+    "id": "ARQ-205",
+    "title": "Cerchas, cubiertas y grandes luces",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-205.md"
+  },
+  {
+    "id": "ARQ-206",
+    "title": "Arcos, bóvedas y cascarones",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-206.md"
+  },
+  {
+    "id": "ARQ-207",
+    "title": "Estructuras tensadas y neumáticas",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-207.md"
+  },
+  {
+    "id": "ARQ-208",
+    "title": "Sistemas mixtos y prefabricación",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-208.md"
+  },
+  {
+    "id": "ARQ-209",
+    "title": "Núcleos, juntas y continuidad vertical",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-209.md"
+  },
+  {
+    "id": "ARQ-210",
+    "title": "Coordinación entre estructura, envolvente e instalaciones",
+    "part": 21,
+    "is_new": false,
+    "source": "classes/parte-21/ARQ-210.md"
+  },
+  {
+    "id": "ARQ-211",
+    "title": "Tierra como material: variabilidad y caracterización",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-211.md"
+  },
+  {
+    "id": "ARQ-212",
+    "title": "Adobe, tapial y bloques de tierra: diferencias",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-212.md"
+  },
+  {
+    "id": "ARQ-213",
+    "title": "Piedra, extracción y labra",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-213.md"
+  },
+  {
+    "id": "ARQ-214",
+    "title": "Ladrillos y unidades cerámicas",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-214.md"
+  },
+  {
+    "id": "ARQ-215",
+    "title": "Morteros, juntas y compatibilidad",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-215.md"
+  },
+  {
+    "id": "ARQ-216",
+    "title": "Albañilería confinada, armada y no reforzada",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-216.md"
+  },
+  {
+    "id": "ARQ-217",
+    "title": "Agua, sales y degradación",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-217.md"
+  },
+  {
+    "id": "ARQ-218",
+    "title": "Comportamiento térmico y masa",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-218.md"
+  },
+  {
+    "id": "ARQ-219",
+    "title": "Sismo y límites de soluciones tradicionales",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-219.md"
+  },
+  {
+    "id": "ARQ-220",
+    "title": "Conservación, reparación y elección contextual",
+    "part": 22,
+    "is_new": false,
+    "source": "classes/parte-22/ARQ-220.md"
+  },
+  {
+    "id": "ARQ-221",
+    "title": "Elegir madera: propiedades, humedad, uniones y evidencia",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-221.md"
+  },
+  {
+    "id": "ARQ-222",
+    "title": "Anatomía, anisotropía y variabilidad de la madera",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-222.md"
+  },
+  {
+    "id": "ARQ-223",
+    "title": "Humedad, secado y estabilidad dimensional",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-223.md"
+  },
+  {
+    "id": "ARQ-224",
+    "title": "Entramados ligeros y panelización",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-224.md"
+  },
+  {
+    "id": "ARQ-225",
+    "title": "Madera laminada, CLT y productos de ingeniería",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-225.md"
+  },
+  {
+    "id": "ARQ-226",
+    "title": "Uniones mecánicas y transferencia de esfuerzos",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-226.md"
+  },
+  {
+    "id": "ARQ-227",
+    "title": "Fuego, protección y estrategia de resistencia",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-227.md"
+  },
+  {
+    "id": "ARQ-228",
+    "title": "Durabilidad, hongos, insectos y mantenimiento",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-228.md"
+  },
+  {
+    "id": "ARQ-229",
+    "title": "Bambú y otros recursos biobasados",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-229.md"
+  },
+  {
+    "id": "ARQ-230",
+    "title": "Trazabilidad forestal, carbono y comparación de alternativas",
+    "part": 23,
+    "is_new": false,
+    "source": "classes/parte-23/ARQ-230.md"
+  },
+  {
+    "id": "ARQ-231",
+    "title": "Cemento, áridos, agua y adiciones",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-231.md"
+  },
+  {
+    "id": "ARQ-232",
+    "title": "Dosificación, consistencia y resistencia: conceptos",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-232.md"
+  },
+  {
+    "id": "ARQ-233",
+    "title": "Armaduras y colaboración con el hormigón",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-233.md"
+  },
+  {
+    "id": "ARQ-234",
+    "title": "Moldajes, colocación y compactación",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-234.md"
+  },
+  {
+    "id": "ARQ-235",
+    "title": "Curado, retracción y fisuración",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-235.md"
+  },
+  {
+    "id": "ARQ-236",
+    "title": "Durabilidad y clases de exposición: lectura crítica",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-236.md"
+  },
+  {
+    "id": "ARQ-237",
+    "title": "Prefabricados y montaje",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-237.md"
+  },
+  {
+    "id": "ARQ-238",
+    "title": "Pretensado y postensado: coordinación y límites",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-238.md"
+  },
+  {
+    "id": "ARQ-239",
+    "title": "Reparación, corrosión y diagnóstico",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-239.md"
+  },
+  {
+    "id": "ARQ-240",
+    "title": "Descarbonización de mezclas y evidencia ambiental",
+    "part": 24,
+    "is_new": false,
+    "source": "classes/parte-24/ARQ-240.md"
+  },
+  {
+    "id": "ARQ-241",
+    "title": "Acero estructural: propiedades y familias de perfiles",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-241.md"
+  },
+  {
+    "id": "ARQ-242",
+    "title": "Uniones apernadas y soldadas: coordinación",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-242.md"
+  },
+  {
+    "id": "ARQ-243",
+    "title": "Corrosión y sistemas de protección",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-243.md"
+  },
+  {
+    "id": "ARQ-244",
+    "title": "Aluminio, aleaciones y dilatación",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-244.md"
+  },
+  {
+    "id": "ARQ-245",
+    "title": "Vidrio: seguridad, capas y comportamiento",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-245.md"
+  },
+  {
+    "id": "ARQ-246",
+    "title": "Fachadas ligeras y muros cortina",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-246.md"
+  },
+  {
+    "id": "ARQ-247",
+    "title": "Puentes térmicos en sistemas metálicos",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-247.md"
+  },
+  {
+    "id": "ARQ-248",
+    "title": "Compatibilidad y corrosión galvánica",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-248.md"
+  },
+  {
+    "id": "ARQ-249",
+    "title": "Fabricación, tolerancias y montaje",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-249.md"
+  },
+  {
+    "id": "ARQ-250",
+    "title": "Reutilización, reciclaje y trazabilidad",
+    "part": 25,
+    "is_new": false,
+    "source": "classes/parte-25/ARQ-250.md"
+  },
+  {
+    "id": "ARQ-251",
+    "title": "Aislamiento térmico: conductividad y desempeño en sistema",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-251.md"
+  },
+  {
+    "id": "ARQ-252",
+    "title": "Absorción acústica y materiales porosos",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-252.md"
+  },
+  {
+    "id": "ARQ-253",
+    "title": "Membranas de agua, aire y vapor: funciones diferentes",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-253.md"
+  },
+  {
+    "id": "ARQ-254",
+    "title": "Polímeros, sellos y envejecimiento",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-254.md"
+  },
+  {
+    "id": "ARQ-255",
+    "title": "Paneles compuestos y núcleos",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-255.md"
+  },
+  {
+    "id": "ARQ-256",
+    "title": "Pinturas, revestimientos y emisiones",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-256.md"
+  },
+  {
+    "id": "ARQ-257",
+    "title": "Pavimentos: desgaste, limpieza y deslizamiento",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-257.md"
+  },
+  {
+    "id": "ARQ-258",
+    "title": "Adhesivos, fijaciones y compatibilidad",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-258.md"
+  },
+  {
+    "id": "ARQ-259",
+    "title": "Productos emergentes y validación independiente",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-259.md"
+  },
+  {
+    "id": "ARQ-260",
+    "title": "Muestras, ensayos y aprobación de equivalencias",
+    "part": 26,
+    "is_new": false,
+    "source": "classes/parte-26/ARQ-260.md"
+  },
+  {
+    "id": "ARQ-261",
+    "title": "La envolvente como sistema: calor, aire, agua y encuentros",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-261.md"
+  },
+  {
+    "id": "ARQ-262",
+    "title": "Cubiertas inclinadas y evacuación de agua",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-262.md"
+  },
+  {
+    "id": "ARQ-263",
+    "title": "Cubiertas planas, pendientes y puntos singulares",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-263.md"
+  },
+  {
+    "id": "ARQ-264",
+    "title": "Muros, cámaras y fachadas ventiladas",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-264.md"
+  },
+  {
+    "id": "ARQ-265",
+    "title": "Ventanas, puertas y encuentros perimetrales",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-265.md"
+  },
+  {
+    "id": "ARQ-266",
+    "title": "Barrera de aire y continuidad",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-266.md"
+  },
+  {
+    "id": "ARQ-267",
+    "title": "Vapor, condensación y capacidad de secado",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-267.md"
+  },
+  {
+    "id": "ARQ-268",
+    "title": "Puentes térmicos y discontinuidades",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-268.md"
+  },
+  {
+    "id": "ARQ-269",
+    "title": "Juntas de movimiento y tolerancias",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-269.md"
+  },
+  {
+    "id": "ARQ-270",
+    "title": "Plan de ensayos y revisión de envolvente",
+    "part": 27,
+    "is_new": false,
+    "source": "classes/parte-27/ARQ-270.md"
+  },
+  {
+    "id": "ARQ-271",
+    "title": "Datos climáticos, series y representatividad",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-271.md"
+  },
+  {
+    "id": "ARQ-272",
+    "title": "Trayectoria solar y orientación",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-272.md"
+  },
+  {
+    "id": "ARQ-273",
+    "title": "Sombra, protección solar y estacionalidad",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-273.md"
+  },
+  {
+    "id": "ARQ-274",
+    "title": "Ventilación natural y diferencias de presión",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-274.md"
+  },
+  {
+    "id": "ARQ-275",
+    "title": "Masa térmica y oscilación diaria",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-275.md"
+  },
+  {
+    "id": "ARQ-276",
+    "title": "Aislamiento y compacidad",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-276.md"
+  },
+  {
+    "id": "ARQ-277",
+    "title": "Patios, galerías y espacios intermedios",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-277.md"
+  },
+  {
+    "id": "ARQ-278",
+    "title": "Climas cálidos, fríos, secos y húmedos",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-278.md"
+  },
+  {
+    "id": "ARQ-279",
+    "title": "Sobrecalentamiento y escenarios futuros",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-279.md"
+  },
+  {
+    "id": "ARQ-280",
+    "title": "Evaluación comparada de estrategias pasivas",
+    "part": 28,
+    "is_new": false,
+    "source": "classes/parte-28/ARQ-280.md"
+  },
+  {
+    "id": "ARQ-281",
+    "title": "Demanda, consumo y servicio energético",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-281.md"
+  },
+  {
+    "id": "ARQ-282",
+    "title": "Balances de calor y pérdidas de transmisión",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-282.md"
+  },
+  {
+    "id": "ARQ-283",
+    "title": "Infiltración, ventilación y recuperación de calor",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-283.md"
+  },
+  {
+    "id": "ARQ-284",
+    "title": "Ganancias internas y solares",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-284.md"
+  },
+  {
+    "id": "ARQ-285",
+    "title": "Modelación energética: entradas, supuestos y calibración",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-285.md"
+  },
+  {
+    "id": "ARQ-286",
+    "title": "Sistemas activos y eficiencia estacional",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-286.md"
+  },
+  {
+    "id": "ARQ-287",
+    "title": "Energía renovable e integración arquitectónica",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-287.md"
+  },
+  {
+    "id": "ARQ-288",
+    "title": "Desempeño diseñado frente a uso real",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-288.md"
+  },
+  {
+    "id": "ARQ-289",
+    "title": "Comisionamiento energético y medición",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-289.md"
+  },
+  {
+    "id": "ARQ-290",
+    "title": "Comparación de alternativas sin dobles conteos",
+    "part": 29,
+    "is_new": false,
+    "source": "classes/parte-29/ARQ-290.md"
+  },
+  {
+    "id": "ARQ-291",
+    "title": "Luz natural: disponibilidad y distribución",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-291.md"
+  },
+  {
+    "id": "ARQ-292",
+    "title": "Deslumbramiento y contraste",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-292.md"
+  },
+  {
+    "id": "ARQ-293",
+    "title": "Iluminación artificial y tareas visuales",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-293.md"
+  },
+  {
+    "id": "ARQ-294",
+    "title": "Color, espectro y límites de inferencias sobre salud",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-294.md"
+  },
+  {
+    "id": "ARQ-295",
+    "title": "Sonido, frecuencia y percepción",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-295.md"
+  },
+  {
+    "id": "ARQ-296",
+    "title": "Aislamiento frente a absorción acústica",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-296.md"
+  },
+  {
+    "id": "ARQ-297",
+    "title": "Reverberación e inteligibilidad",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-297.md"
+  },
+  {
+    "id": "ARQ-298",
+    "title": "Ruido de equipos, vibraciones y flancos",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-298.md"
+  },
+  {
+    "id": "ARQ-299",
+    "title": "Integración de luz, sonido y materialidad",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-299.md"
+  },
+  {
+    "id": "ARQ-300",
+    "title": "Mediciones y evaluación posocupacional sensorial",
+    "part": 30,
+    "is_new": false,
+    "source": "classes/parte-30/ARQ-300.md"
+  },
+  {
+    "id": "ARQ-301",
+    "title": "Abastecimiento de agua y demanda",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-301.md"
+  },
+  {
+    "id": "ARQ-302",
+    "title": "Presión, caudal y almacenamiento: conceptos",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-302.md"
+  },
+  {
+    "id": "ARQ-303",
+    "title": "Agua caliente y distribución",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-303.md"
+  },
+  {
+    "id": "ARQ-304",
+    "title": "Aguas servidas y ventilación sanitaria",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-304.md"
+  },
+  {
+    "id": "ARQ-305",
+    "title": "Aguas lluvias y puntos de desborde",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-305.md"
+  },
+  {
+    "id": "ARQ-306",
+    "title": "Reúso de aguas: riesgos y autorizaciones",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-306.md"
+  },
+  {
+    "id": "ARQ-307",
+    "title": "Equipos, salas técnicas y mantenimiento",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-307.md"
+  },
+  {
+    "id": "ARQ-308",
+    "title": "Coordinación de pendientes y pasos",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-308.md"
+  },
+  {
+    "id": "ARQ-309",
+    "title": "Pruebas, recepción y documentación sanitaria",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-309.md"
+  },
+  {
+    "id": "ARQ-310",
+    "title": "Sequía, continuidad y gestión de consumo",
+    "part": 31,
+    "is_new": false,
+    "source": "classes/parte-31/ARQ-310.md"
+  },
+  {
+    "id": "ARQ-311",
+    "title": "Calidad de aire interior y fuentes de contaminantes",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-311.md"
+  },
+  {
+    "id": "ARQ-312",
+    "title": "Ventilación higiénica y estrategias de renovación",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-312.md"
+  },
+  {
+    "id": "ARQ-313",
+    "title": "Carga térmica frente a capacidad de equipos",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-313.md"
+  },
+  {
+    "id": "ARQ-314",
+    "title": "Bombas de calor y ciclos básicos",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-314.md"
+  },
+  {
+    "id": "ARQ-315",
+    "title": "Distribución por aire y por agua",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-315.md"
+  },
+  {
+    "id": "ARQ-316",
+    "title": "Humedad, filtración y control",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-316.md"
+  },
+  {
+    "id": "ARQ-317",
+    "title": "Salas técnicas, ductos y registros",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-317.md"
+  },
+  {
+    "id": "ARQ-318",
+    "title": "Ruido, vibración y coordinación",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-318.md"
+  },
+  {
+    "id": "ARQ-319",
+    "title": "Comisionamiento y modos de falla",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-319.md"
+  },
+  {
+    "id": "ARQ-320",
+    "title": "Operación, mantenimiento y consumo real",
+    "part": 32,
+    "is_new": false,
+    "source": "classes/parte-32/ARQ-320.md"
+  },
+  {
+    "id": "ARQ-321",
+    "title": "Abastecimiento eléctrico y tableros",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-321.md"
+  },
+  {
+    "id": "ARQ-322",
+    "title": "Puesta a tierra y protecciones: conceptos",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-322.md"
+  },
+  {
+    "id": "ARQ-323",
+    "title": "Alumbrado de emergencia y respaldo",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-323.md"
+  },
+  {
+    "id": "ARQ-324",
+    "title": "Gas, combustibles y ventilación de recintos",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-324.md"
+  },
+  {
+    "id": "ARQ-325",
+    "title": "Telecomunicaciones y redes de datos",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-325.md"
+  },
+  {
+    "id": "ARQ-326",
+    "title": "Control de acceso y seguridad electrónica",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-326.md"
+  },
+  {
+    "id": "ARQ-327",
+    "title": "Automatización, sensores y edificios conectados",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-327.md"
+  },
+  {
+    "id": "ARQ-328",
+    "title": "Ascensores, plataformas y escaleras mecánicas",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-328.md"
+  },
+  {
+    "id": "ARQ-329",
+    "title": "Ciberseguridad de sistemas de edificio",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-329.md"
+  },
+  {
+    "id": "ARQ-330",
+    "title": "Pruebas integradas, manuales y recepción",
+    "part": 33,
+    "is_new": false,
+    "source": "classes/parte-33/ARQ-330.md"
+  },
+  {
+    "id": "ARQ-331",
+    "title": "Incendio: inicio, crecimiento y propagación",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-331.md"
+  },
+  {
+    "id": "ARQ-332",
+    "title": "Reacción al fuego y resistencia al fuego",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-332.md"
+  },
+  {
+    "id": "ARQ-333",
+    "title": "Compartimentación y continuidad",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-333.md"
+  },
+  {
+    "id": "ARQ-334",
+    "title": "Vías de evacuación y ocupación",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-334.md"
+  },
+  {
+    "id": "ARQ-335",
+    "title": "Humo, visibilidad y protección de recorridos",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-335.md"
+  },
+  {
+    "id": "ARQ-336",
+    "title": "Detección, alarma y extinción",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-336.md"
+  },
+  {
+    "id": "ARQ-337",
+    "title": "Acceso de emergencia y coordinación operacional",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-337.md"
+  },
+  {
+    "id": "ARQ-338",
+    "title": "Fachadas, materiales y propagación exterior",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-338.md"
+  },
+  {
+    "id": "ARQ-339",
+    "title": "Evacuación inclusiva y simulacros responsables",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-339.md"
+  },
+  {
+    "id": "ARQ-340",
+    "title": "Inspección, mantenimiento y gestión de cambios",
+    "part": 34,
+    "is_new": false,
+    "source": "classes/parte-34/ARQ-340.md"
+  },
+  {
+    "id": "ARQ-341",
+    "title": "Diseñar frente al sismo: comportamiento, daño y límites",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-341.md"
+  },
+  {
+    "id": "ARQ-342",
+    "title": "Movimiento del suelo, sitio y demanda",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-342.md"
+  },
+  {
+    "id": "ARQ-343",
+    "title": "Regularidad en planta y elevación",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-343.md"
+  },
+  {
+    "id": "ARQ-344",
+    "title": "Torsión, discontinuidades y piso débil",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-344.md"
+  },
+  {
+    "id": "ARQ-345",
+    "title": "Ductilidad, redundancia y jerarquías resistentes",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-345.md"
+  },
+  {
+    "id": "ARQ-346",
+    "title": "Diafragmas, colectores y conexiones",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-346.md"
+  },
+  {
+    "id": "ARQ-347",
+    "title": "Aislamiento sísmico y disipación: alcances",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-347.md"
+  },
+  {
+    "id": "ARQ-348",
+    "title": "Componentes no estructurales y anclajes",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-348.md"
+  },
+  {
+    "id": "ARQ-349",
+    "title": "Daño, reparación y recuperación funcional",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-349.md"
+  },
+  {
+    "id": "ARQ-350",
+    "title": "Lectura normativa y coordinación interdisciplinaria",
+    "part": 35,
+    "is_new": false,
+    "source": "classes/parte-35/ARQ-350.md"
+  },
+  {
+    "id": "ARQ-351",
+    "title": "Tsunami: exposición, aviso y evacuación territorial",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-351.md"
+  },
+  {
+    "id": "ARQ-352",
+    "title": "Inundación fluvial y ocupación de planicies",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-352.md"
+  },
+  {
+    "id": "ARQ-353",
+    "title": "Inundación pluvial y drenaje insuficiente",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-353.md"
+  },
+  {
+    "id": "ARQ-354",
+    "title": "Marejadas, erosión costera y nivel del mar",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-354.md"
+  },
+  {
+    "id": "ARQ-355",
+    "title": "Flotación, presión hidrostática y socavación: conceptos",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-355.md"
+  },
+  {
+    "id": "ARQ-356",
+    "title": "Materiales y recuperación tras ingreso de agua",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-356.md"
+  },
+  {
+    "id": "ARQ-357",
+    "title": "Infraestructura crítica y continuidad",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-357.md"
+  },
+  {
+    "id": "ARQ-358",
+    "title": "Evacuación inclusiva y rutas oficiales",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-358.md"
+  },
+  {
+    "id": "ARQ-359",
+    "title": "Soluciones basadas en naturaleza y límites",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-359.md"
+  },
+  {
+    "id": "ARQ-360",
+    "title": "Decisión de localizar, adaptar o no construir",
+    "part": 36,
+    "is_new": false,
+    "source": "classes/parte-36/ARQ-360.md"
+  },
+  {
+    "id": "ARQ-361",
+    "title": "Viento: presión, succión y continuidad de fijaciones",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-361.md"
+  },
+  {
+    "id": "ARQ-362",
+    "title": "Lluvia impulsada por viento y filtraciones",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-362.md"
+  },
+  {
+    "id": "ARQ-363",
+    "title": "Nieve, hielo y acumulaciones",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-363.md"
+  },
+  {
+    "id": "ARQ-364",
+    "title": "Tormentas eléctricas y coordinación de protección",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-364.md"
+  },
+  {
+    "id": "ARQ-365",
+    "title": "Calor extremo y refugio térmico",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-365.md"
+  },
+  {
+    "id": "ARQ-366",
+    "title": "Frío extremo y continuidad de servicios",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-366.md"
+  },
+  {
+    "id": "ARQ-367",
+    "title": "Sequía, vegetación y disponibilidad de agua",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-367.md"
+  },
+  {
+    "id": "ARQ-368",
+    "title": "Incendio de interfaz urbano-forestal",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-368.md"
+  },
+  {
+    "id": "ARQ-369",
+    "title": "Amenazas combinadas y falla de suministros",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-369.md"
+  },
+  {
+    "id": "ARQ-370",
+    "title": "Actualización del diseño ante cambio climático",
+    "part": 37,
+    "is_new": false,
+    "source": "classes/parte-37/ARQ-370.md"
+  },
+  {
+    "id": "ARQ-371",
+    "title": "Del peligro al riesgo: sitio, personas y decisiones",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-371.md"
+  },
+  {
+    "id": "ARQ-372",
+    "title": "Remociones en masa y estabilidad de laderas",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-372.md"
+  },
+  {
+    "id": "ARQ-373",
+    "title": "Volcanes, ceniza y lahares",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-373.md"
+  },
+  {
+    "id": "ARQ-374",
+    "title": "Subsidencia, cavidades y suelos problemáticos",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-374.md"
+  },
+  {
+    "id": "ARQ-375",
+    "title": "Cascadas de eventos y dependencia de infraestructuras",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-375.md"
+  },
+  {
+    "id": "ARQ-376",
+    "title": "Exposición social y vulnerabilidad diferenciada",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-376.md"
+  },
+  {
+    "id": "ARQ-377",
+    "title": "Planes de emergencia: roles, comunicación y apoyo",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-377.md"
+  },
+  {
+    "id": "ARQ-378",
+    "title": "Inspección y restricciones después de un evento",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-378.md"
+  },
+  {
+    "id": "ARQ-379",
+    "title": "Reconstrucción, reubicación y reducción de riesgo",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-379.md"
+  },
+  {
+    "id": "ARQ-380",
+    "title": "Ejercicio integrado de incertidumbre y decisión",
+    "part": 38,
+    "is_new": false,
+    "source": "classes/parte-38/ARQ-380.md"
+  },
+  {
+    "id": "ARQ-381",
+    "title": "Preparación del sitio, replanteo y trazado",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-381.md"
+  },
+  {
+    "id": "ARQ-382",
+    "title": "Excavaciones y obras provisionales",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-382.md"
+  },
+  {
+    "id": "ARQ-383",
+    "title": "Obra gruesa y secuencias resistentes",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-383.md"
+  },
+  {
+    "id": "ARQ-384",
+    "title": "Carpintería, moldajes y montaje",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-384.md"
+  },
+  {
+    "id": "ARQ-385",
+    "title": "Albañilería, revestimientos y terminaciones",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-385.md"
+  },
+  {
+    "id": "ARQ-386",
+    "title": "Instaladores y coordinación de pasos",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-386.md"
+  },
+  {
+    "id": "ARQ-387",
+    "title": "Prefabricación, logística y montaje industrializado",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-387.md"
+  },
+  {
+    "id": "ARQ-388",
+    "title": "Tolerancias, muestras y prototipos",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-388.md"
+  },
+  {
+    "id": "ARQ-389",
+    "title": "Capataz, jefatura y comunicación de obra",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-389.md"
+  },
+  {
+    "id": "ARQ-390",
+    "title": "Cierre de frentes, limpieza y entrega",
+    "part": 39,
+    "is_new": false,
+    "source": "classes/parte-39/ARQ-390.md"
+  },
+  {
+    "id": "ARQ-391",
+    "title": "Cómo leer normas, ISO y obligaciones sin confundirlas",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-391.md"
+  },
+  {
+    "id": "ARQ-392",
+    "title": "Jerarquía normativa y jurisdicción",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-392.md"
+  },
+  {
+    "id": "ARQ-393",
+    "title": "LGUC, OGUC e instrumentos territoriales: mapa de consulta",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-393.md"
+  },
+  {
+    "id": "ARQ-394",
+    "title": "Permisos, recepciones y antecedentes del proyecto",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-394.md"
+  },
+  {
+    "id": "ARQ-395",
+    "title": "Responsabilidades, habilitaciones y revisión independiente",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-395.md"
+  },
+  {
+    "id": "ARQ-396",
+    "title": "Normas técnicas chilenas: edición, adopción y vigencia",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-396.md"
+  },
+  {
+    "id": "ARQ-397",
+    "title": "Gestión de calidad, ambiente y seguridad con ISO",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-397.md"
+  },
+  {
+    "id": "ARQ-398",
+    "title": "Normas de desempeño: térmica, acústica y accesibilidad",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-398.md"
+  },
+  {
+    "id": "ARQ-399",
+    "title": "Contratos y normas extranjeras: incorporación y conflictos",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-399.md"
+  },
+  {
+    "id": "ARQ-400",
+    "title": "Gestión de cambios normativos y auditoría de fuentes",
+    "part": 40,
+    "is_new": false,
+    "source": "classes/parte-40/ARQ-400.md"
+  },
+  {
+    "id": "ARQ-401",
+    "title": "Memoria, planos, especificaciones y mediciones",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-401.md"
+  },
+  {
+    "id": "ARQ-402",
+    "title": "Especificar por desempeño y por prescripción",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-402.md"
+  },
+  {
+    "id": "ARQ-403",
+    "title": "Coherencia entre disciplinas",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-403.md"
+  },
+  {
+    "id": "ARQ-404",
+    "title": "Licitación, consultas y aclaraciones",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-404.md"
+  },
+  {
+    "id": "ARQ-405",
+    "title": "Ofertas, exclusiones y comparación responsable",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-405.md"
+  },
+  {
+    "id": "ARQ-406",
+    "title": "Contratos, alcance y distribución de riesgos",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-406.md"
+  },
+  {
+    "id": "ARQ-407",
+    "title": "Subcontratos, suministros y aprobaciones",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-407.md"
+  },
+  {
+    "id": "ARQ-408",
+    "title": "Solicitudes de información y cambios",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-408.md"
+  },
+  {
+    "id": "ARQ-409",
+    "title": "Registro de instrucciones y versiones",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-409.md"
+  },
+  {
+    "id": "ARQ-410",
+    "title": "Documentos finales y evidencia de aceptación",
+    "part": 41,
+    "is_new": false,
+    "source": "classes/parte-41/ARQ-410.md"
+  },
+  {
+    "id": "ARQ-411",
+    "title": "Factibilidad técnica, territorial y económica",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-411.md"
+  },
+  {
+    "id": "ARQ-412",
+    "title": "Superficies útiles, construidas y criterios de medición",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-412.md"
+  },
+  {
+    "id": "ARQ-413",
+    "title": "Cubicaciones y cantidades de obra",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-413.md"
+  },
+  {
+    "id": "ARQ-414",
+    "title": "Precios unitarios y rendimientos: estructura conceptual",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-414.md"
+  },
+  {
+    "id": "ARQ-415",
+    "title": "Costos directos, indirectos y contingencias",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-415.md"
+  },
+  {
+    "id": "ARQ-416",
+    "title": "Caja, pagos y avance reconocido",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-416.md"
+  },
+  {
+    "id": "ARQ-417",
+    "title": "Comparación de ofertas y cambios de alcance",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-417.md"
+  },
+  {
+    "id": "ARQ-418",
+    "title": "Costo de ciclo de vida y mantenimiento",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-418.md"
+  },
+  {
+    "id": "ARQ-419",
+    "title": "Valor, asequibilidad y economía social",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-419.md"
+  },
+  {
+    "id": "ARQ-420",
+    "title": "Sensibilidad, riesgos y defensa de una alternativa",
+    "part": 42,
+    "is_new": false,
+    "source": "classes/parte-42/ARQ-420.md"
+  },
+  {
+    "id": "ARQ-421",
+    "title": "Desglose del trabajo y planificación de construcción",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-421.md"
+  },
+  {
+    "id": "ARQ-422",
+    "title": "Dependencias, ruta crítica y restricciones",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-422.md"
+  },
+  {
+    "id": "ARQ-423",
+    "title": "Logística, suministros y almacenamiento",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-423.md"
+  },
+  {
+    "id": "ARQ-424",
+    "title": "Plan de calidad e inspecciones",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-424.md"
+  },
+  {
+    "id": "ARQ-425",
+    "title": "Ensayos, trazabilidad y no conformidades",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-425.md"
+  },
+  {
+    "id": "ARQ-426",
+    "title": "Seguridad y salud: identificación y control de peligros",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-426.md"
+  },
+  {
+    "id": "ARQ-427",
+    "title": "Medioambiente de faena y relación con vecinos",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-427.md"
+  },
+  {
+    "id": "ARQ-428",
+    "title": "Gestión de cambios y resolución de conflictos",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-428.md"
+  },
+  {
+    "id": "ARQ-429",
+    "title": "Avance, productividad y límites de indicadores",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-429.md"
+  },
+  {
+    "id": "ARQ-430",
+    "title": "Recepción, pendientes y cierre de contratos",
+    "part": 43,
+    "is_new": false,
+    "source": "classes/parte-43/ARQ-430.md"
+  },
+  {
+    "id": "ARQ-431",
+    "title": "BIM es gestión de información, no solo modelar en 3D",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-431.md"
+  },
+  {
+    "id": "ARQ-432",
+    "title": "Requisitos de información y usos del modelo",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-432.md"
+  },
+  {
+    "id": "ARQ-433",
+    "title": "Coordinación, responsabilidades y entorno común de datos",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-433.md"
+  },
+  {
+    "id": "ARQ-434",
+    "title": "IFC, clasificación y datos de objetos",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-434.md"
+  },
+  {
+    "id": "ARQ-435",
+    "title": "Interferencias y comprobaciones basadas en reglas",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-435.md"
+  },
+  {
+    "id": "ARQ-436",
+    "title": "Modelos 4D, 5D y vínculo con obra",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-436.md"
+  },
+  {
+    "id": "ARQ-437",
+    "title": "SIG, BIM y contexto territorial",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-437.md"
+  },
+  {
+    "id": "ARQ-438",
+    "title": "Diseño paramétrico, automatización y validación",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-438.md"
+  },
+  {
+    "id": "ARQ-439",
+    "title": "IA: alternativas, sesgos, privacidad y verificación humana",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-439.md"
+  },
+  {
+    "id": "ARQ-440",
+    "title": "Entrega digital, archivo y datos para operar",
+    "part": 44,
+    "is_new": false,
+    "source": "classes/parte-44/ARQ-440.md"
+  },
+  {
+    "id": "ARQ-441",
+    "title": "Comparar impactos: unidad funcional, vida útil y límites",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-441.md"
+  },
+  {
+    "id": "ARQ-442",
+    "title": "Inventario de materiales, energía y transporte",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-442.md"
+  },
+  {
+    "id": "ARQ-443",
+    "title": "Carbono incorporado y operativo",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-443.md"
+  },
+  {
+    "id": "ARQ-444",
+    "title": "Declaraciones ambientales y comparabilidad",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-444.md"
+  },
+  {
+    "id": "ARQ-445",
+    "title": "Agua, biodiversidad y otros impactos",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-445.md"
+  },
+  {
+    "id": "ARQ-446",
+    "title": "Durabilidad, adaptabilidad y mantenimiento",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-446.md"
+  },
+  {
+    "id": "ARQ-447",
+    "title": "Desmontaje, reúso y diseño circular",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-447.md"
+  },
+  {
+    "id": "ARQ-448",
+    "title": "Residuos, recuperación y riesgos de materiales",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-448.md"
+  },
+  {
+    "id": "ARQ-449",
+    "title": "Certificaciones de edificios y límites del sello",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-449.md"
+  },
+  {
+    "id": "ARQ-450",
+    "title": "Balance ambiental y social sin afirmaciones absolutas",
+    "part": 45,
+    "is_new": false,
+    "source": "classes/parte-45/ARQ-450.md"
+  },
+  {
+    "id": "ARQ-451",
+    "title": "Reconocer valor y daño antes de intervenir",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-451.md"
+  },
+  {
+    "id": "ARQ-452",
+    "title": "Levantamiento histórico y material",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-452.md"
+  },
+  {
+    "id": "ARQ-453",
+    "title": "Humedad, sales, fisuras y causas posibles",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-453.md"
+  },
+  {
+    "id": "ARQ-454",
+    "title": "Inspección, ensayos y diagnóstico diferencial",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-454.md"
+  },
+  {
+    "id": "ARQ-455",
+    "title": "Compatibilidad de reparaciones",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-455.md"
+  },
+  {
+    "id": "ARQ-456",
+    "title": "Refuerzo estructural y coordinación patrimonial",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-456.md"
+  },
+  {
+    "id": "ARQ-457",
+    "title": "Rehabilitación energética y riesgos de humedad",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-457.md"
+  },
+  {
+    "id": "ARQ-458",
+    "title": "Cambio de uso, accesibilidad y seguridad",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-458.md"
+  },
+  {
+    "id": "ARQ-459",
+    "title": "Conservación preventiva y participación",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-459.md"
+  },
+  {
+    "id": "ARQ-460",
+    "title": "Comparar conservar, transformar y sustituir",
+    "part": 46,
+    "is_new": false,
+    "source": "classes/parte-46/ARQ-460.md"
+  },
+  {
+    "id": "ARQ-461",
+    "title": "Del edificio entregado al edificio que funciona",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-461.md"
+  },
+  {
+    "id": "ARQ-462",
+    "title": "Inventario de activos y criticidad",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-462.md"
+  },
+  {
+    "id": "ARQ-463",
+    "title": "Manuales útiles y formación de usuarios",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-463.md"
+  },
+  {
+    "id": "ARQ-464",
+    "title": "Mantenimiento preventivo, predictivo y correctivo",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-464.md"
+  },
+  {
+    "id": "ARQ-465",
+    "title": "Inspecciones, garantías y trazabilidad",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-465.md"
+  },
+  {
+    "id": "ARQ-466",
+    "title": "Medición de confort, consumo y satisfacción",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-466.md"
+  },
+  {
+    "id": "ARQ-467",
+    "title": "Accesibilidad y seguridad durante la operación",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-467.md"
+  },
+  {
+    "id": "ARQ-468",
+    "title": "Cambios de uso y obsolescencia",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-468.md"
+  },
+  {
+    "id": "ARQ-469",
+    "title": "Gestión de instalaciones y continuidad",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-469.md"
+  },
+  {
+    "id": "ARQ-470",
+    "title": "Evaluación posocupacional y retroalimentación al diseño",
+    "part": 47,
+    "is_new": false,
+    "source": "classes/parte-47/ARQ-470.md"
+  },
+  {
+    "id": "ARQ-471",
+    "title": "Encargo integrador y organización interdisciplinaria",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-471.md"
+  },
+  {
+    "id": "ARQ-472",
+    "title": "Investigación de sitio y definición de necesidades",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-472.md"
+  },
+  {
+    "id": "ARQ-473",
+    "title": "Anteproyecto y comparación argumentada",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-473.md"
+  },
+  {
+    "id": "ARQ-474",
+    "title": "Desarrollo, coordinación y verificaciones",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-474.md"
+  },
+  {
+    "id": "ARQ-475",
+    "title": "Documentación, costo y estrategia de construcción",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-475.md"
+  },
+  {
+    "id": "ARQ-476",
+    "title": "Entrega, operación y fin de vida del caso",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-476.md"
+  },
+  {
+    "id": "ARQ-477",
+    "title": "Dirección de estudio, ética y relación con clientes",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-477.md"
+  },
+  {
+    "id": "ARQ-478",
+    "title": "Carreras, especializaciones y formación continua",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-478.md"
+  },
+  {
+    "id": "ARQ-479",
+    "title": "Investigación arquitectónica y comunicación de resultados",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-479.md"
+  },
+  {
+    "id": "ARQ-480",
+    "title": "Defensa final: evidencia, límites y decisiones pendientes",
+    "part": 48,
+    "is_new": false,
+    "source": "classes/parte-48/ARQ-480.md"
+  },
+  {
+    "id": "ARQ-481",
+    "title": "Casa unifamiliar: sitio, programa y ciclo de vida",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-481.md"
+  },
+  {
+    "id": "ARQ-482",
+    "title": "Casa patio, pareada y en hilera: densidad baja y media",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-482.md"
+  },
+  {
+    "id": "ARQ-483",
+    "title": "Vivienda colectiva: accesos, núcleos y espacios comunes",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-483.md"
+  },
+  {
+    "id": "ARQ-484",
+    "title": "Torre residencial: verticalidad, privacidad y servicios",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-484.md"
+  },
+  {
+    "id": "ARQ-485",
+    "title": "Vivienda incremental: crecimiento y estados intermedios",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-485.md"
+  },
+  {
+    "id": "ARQ-486",
+    "title": "Cohousing, residencias e intergeneracionalidad",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-486.md"
+  },
+  {
+    "id": "ARQ-487",
+    "title": "Vivienda rural y remota: clima, autonomía y logística",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-487.md"
+  },
+  {
+    "id": "ARQ-488",
+    "title": "Vivienda modular e industrializada",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-488.md"
+  },
+  {
+    "id": "ARQ-489",
+    "title": "Rehabilitación residencial y cambio demográfico",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-489.md"
+  },
+  {
+    "id": "ARQ-490",
+    "title": "Proyecto residencial integral: del terreno a la operación",
+    "part": 49,
+    "is_new": false,
+    "source": "classes/parte-49/ARQ-490.md"
+  },
+  {
+    "id": "ARQ-491",
+    "title": "Qué hace alto a un edificio: contexto, proporción y medición",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-491.md"
+  },
+  {
+    "id": "ARQ-492",
+    "title": "Historia tecnológica del rascacielos",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-492.md"
+  },
+  {
+    "id": "ARQ-493",
+    "title": "Núcleo, ascensores y zonificación vertical",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-493.md"
+  },
+  {
+    "id": "ARQ-494",
+    "title": "Sistemas resistentes: marcos, tubos, megacolumnas y outriggers",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-494.md"
+  },
+  {
+    "id": "ARQ-495",
+    "title": "Viento, torsión, aceleración y percepción",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-495.md"
+  },
+  {
+    "id": "ARQ-496",
+    "title": "Fachada de gran altura: presión, movimiento y mantenimiento",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-496.md"
+  },
+  {
+    "id": "ARQ-497",
+    "title": "Distribución vertical de agua, energía y climatización",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-497.md"
+  },
+  {
+    "id": "ARQ-498",
+    "title": "Incendio, evacuación, refugio y continuidad",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-498.md"
+  },
+  {
+    "id": "ARQ-499",
+    "title": "Construcción, logística y mantenimiento de torres",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-499.md"
+  },
+  {
+    "id": "ARQ-500",
+    "title": "Proyecto integrado de torre mixta",
+    "part": 50,
+    "is_new": false,
+    "source": "classes/parte-50/ARQ-500.md"
+  },
+  {
+    "id": "ARQ-501",
+    "title": "Iglesia y templo como tipo espacial",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-501.md"
+  },
+  {
+    "id": "ARQ-502",
+    "title": "Basílicas, catedrales y grandes naves",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-502.md"
+  },
+  {
+    "id": "ARQ-503",
+    "title": "Monasterios, claustros y vida comunitaria",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-503.md"
+  },
+  {
+    "id": "ARQ-504",
+    "title": "Mezquitas, patios y orientación ritual",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-504.md"
+  },
+  {
+    "id": "ARQ-505",
+    "title": "Sinagogas y diversidad de configuraciones",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-505.md"
+  },
+  {
+    "id": "ARQ-506",
+    "title": "Templos asiáticos y secuencias ceremoniales",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-506.md"
+  },
+  {
+    "id": "ARQ-507",
+    "title": "Acústica, música y palabra en espacios religiosos",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-507.md"
+  },
+  {
+    "id": "ARQ-508",
+    "title": "Luz, iconografía y materialidad ceremonial",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-508.md"
+  },
+  {
+    "id": "ARQ-509",
+    "title": "Patrimonio, uso vivo y adaptación",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-509.md"
+  },
+  {
+    "id": "ARQ-510",
+    "title": "Proyecto ceremonial contemporáneo",
+    "part": 51,
+    "is_new": false,
+    "source": "classes/parte-51/ARQ-510.md"
+  },
+  {
+    "id": "ARQ-511",
+    "title": "Fortificación y paisaje defensivo",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-511.md"
+  },
+  {
+    "id": "ARQ-512",
+    "title": "Castillo medieval: recinto, torre y patio",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-512.md"
+  },
+  {
+    "id": "ARQ-513",
+    "title": "Murallas, bastiones y artillería",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-513.md"
+  },
+  {
+    "id": "ARQ-514",
+    "title": "Ciudadela, fuerte y control territorial",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-514.md"
+  },
+  {
+    "id": "ARQ-515",
+    "title": "Puentes levadizos, fosos y accesos",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-515.md"
+  },
+  {
+    "id": "ARQ-516",
+    "title": "Abastecimiento, asedio y logística",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-516.md"
+  },
+  {
+    "id": "ARQ-517",
+    "title": "Materiales, daño y evolución histórica",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-517.md"
+  },
+  {
+    "id": "ARQ-518",
+    "title": "Fortificaciones costeras y artillería",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-518.md"
+  },
+  {
+    "id": "ARQ-519",
+    "title": "Reutilización patrimonial de defensas",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-519.md"
+  },
+  {
+    "id": "ARQ-520",
+    "title": "Proyecto de interpretación y adaptación",
+    "part": 52,
+    "is_new": false,
+    "source": "classes/parte-52/ARQ-520.md"
+  },
+  {
+    "id": "ARQ-521",
+    "title": "Hospital como sistema de flujos",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-521.md"
+  },
+  {
+    "id": "ARQ-522",
+    "title": "Urgencias y diagnóstico",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-522.md"
+  },
+  {
+    "id": "ARQ-523",
+    "title": "Hospitalización y unidades de cuidado",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-523.md"
+  },
+  {
+    "id": "ARQ-524",
+    "title": "Quirófanos y áreas críticas",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-524.md"
+  },
+  {
+    "id": "ARQ-525",
+    "title": "Ambulatorio y atención primaria",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-525.md"
+  },
+  {
+    "id": "ARQ-526",
+    "title": "Logística, farmacia y suministros",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-526.md"
+  },
+  {
+    "id": "ARQ-527",
+    "title": "Aislamiento, aire y control ambiental",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-527.md"
+  },
+  {
+    "id": "ARQ-528",
+    "title": "Circulaciones separadas y orientación",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-528.md"
+  },
+  {
+    "id": "ARQ-529",
+    "title": "Expansión, resiliencia y continuidad",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-529.md"
+  },
+  {
+    "id": "ARQ-530",
+    "title": "Proyecto integrado de hospital",
+    "part": 53,
+    "is_new": false,
+    "source": "classes/parte-53/ARQ-530.md"
+  },
+  {
+    "id": "ARQ-531",
+    "title": "Aeropuerto: landside, terminal y airside",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-531.md"
+  },
+  {
+    "id": "ARQ-532",
+    "title": "Procesamiento de pasajeros y controles",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-532.md"
+  },
+  {
+    "id": "ARQ-533",
+    "title": "Llegadas, salidas y conexiones",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-533.md"
+  },
+  {
+    "id": "ARQ-534",
+    "title": "Equipaje y logística",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-534.md"
+  },
+  {
+    "id": "ARQ-535",
+    "title": "Puertas, posiciones y embarque",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-535.md"
+  },
+  {
+    "id": "ARQ-536",
+    "title": "Grandes luces y envolventes terminales",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-536.md"
+  },
+  {
+    "id": "ARQ-537",
+    "title": "Torre de control y edificios auxiliares",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-537.md"
+  },
+  {
+    "id": "ARQ-538",
+    "title": "Accesos, estacionamientos e intermodalidad",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-538.md"
+  },
+  {
+    "id": "ARQ-539",
+    "title": "Expansión modular y operación continua",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-539.md"
+  },
+  {
+    "id": "ARQ-540",
+    "title": "Proyecto de terminal aeroportuaria",
+    "part": 54,
+    "is_new": false,
+    "source": "classes/parte-54/ARQ-540.md"
+  },
+  {
+    "id": "ARQ-541",
+    "title": "Estación ferroviaria: ciudad, andén y vestíbulo",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-541.md"
+  },
+  {
+    "id": "ARQ-542",
+    "title": "Plataformas, gálibos y circulación",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-542.md"
+  },
+  {
+    "id": "ARQ-543",
+    "title": "Intercambios y conexiones multimodales",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-543.md"
+  },
+  {
+    "id": "ARQ-544",
+    "title": "Metro: estación subterránea y acceso",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-544.md"
+  },
+  {
+    "id": "ARQ-545",
+    "title": "Túneles, pozos y ventilación de estación",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-545.md"
+  },
+  {
+    "id": "ARQ-546",
+    "title": "Evacuación y manejo de multitudes",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-546.md"
+  },
+  {
+    "id": "ARQ-547",
+    "title": "Ruido, vibración y estructura ferroviaria",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-547.md"
+  },
+  {
+    "id": "ARQ-548",
+    "title": "Accesibilidad, señalética y wayfinding",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-548.md"
+  },
+  {
+    "id": "ARQ-549",
+    "title": "Operación, mantenimiento y cierres parciales",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-549.md"
+  },
+  {
+    "id": "ARQ-550",
+    "title": "Proyecto de intercambiador tren-metro",
+    "part": 55,
+    "is_new": false,
+    "source": "classes/parte-55/ARQ-550.md"
+  },
+  {
+    "id": "ARQ-551",
+    "title": "Puente como tipología y camino de cargas",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-551.md"
+  },
+  {
+    "id": "ARQ-552",
+    "title": "Puentes viga y losa",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-552.md"
+  },
+  {
+    "id": "ARQ-553",
+    "title": "Puentes arco",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-553.md"
+  },
+  {
+    "id": "ARQ-554",
+    "title": "Puentes de celosía",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-554.md"
+  },
+  {
+    "id": "ARQ-555",
+    "title": "Puentes atirantados",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-555.md"
+  },
+  {
+    "id": "ARQ-556",
+    "title": "Puentes colgantes",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-556.md"
+  },
+  {
+    "id": "ARQ-557",
+    "title": "Puentes móviles y especiales",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-557.md"
+  },
+  {
+    "id": "ARQ-558",
+    "title": "Pilas, estribos, apoyos y juntas",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-558.md"
+  },
+  {
+    "id": "ARQ-559",
+    "title": "Montaje, inspección, fatiga y corrosión",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-559.md"
+  },
+  {
+    "id": "ARQ-560",
+    "title": "Anteproyecto comparado de puente",
+    "part": 56,
+    "is_new": false,
+    "source": "classes/parte-56/ARQ-560.md"
+  },
+  {
+    "id": "ARQ-561",
+    "title": "Túnel: geología, trazado y sección",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-561.md"
+  },
+  {
+    "id": "ARQ-562",
+    "title": "Métodos de excavación y soporte conceptual",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-562.md"
+  },
+  {
+    "id": "ARQ-563",
+    "title": "Túneles urbanos y edificios vecinos",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-563.md"
+  },
+  {
+    "id": "ARQ-564",
+    "title": "Agua, drenaje e impermeabilización",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-564.md"
+  },
+  {
+    "id": "ARQ-565",
+    "title": "Ventilación y calidad ambiental subterránea",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-565.md"
+  },
+  {
+    "id": "ARQ-566",
+    "title": "Incendio, evacuación y rescate",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-566.md"
+  },
+  {
+    "id": "ARQ-567",
+    "title": "Estaciones y cavernas subterráneas",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-567.md"
+  },
+  {
+    "id": "ARQ-568",
+    "title": "Servicios, galerías y mantenimiento",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-568.md"
+  },
+  {
+    "id": "ARQ-569",
+    "title": "Monitoreo, asentamientos y operación",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-569.md"
+  },
+  {
+    "id": "ARQ-570",
+    "title": "Proyecto conceptual de infraestructura subterránea",
+    "part": 57,
+    "is_new": false,
+    "source": "classes/parte-57/ARQ-570.md"
+  },
+  {
+    "id": "ARQ-571",
+    "title": "Estadio: bowl, campo y ciudad",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-571.md"
+  },
+  {
+    "id": "ARQ-572",
+    "title": "Visibilidad y geometría de graderíos",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-572.md"
+  },
+  {
+    "id": "ARQ-573",
+    "title": "Acceso, control y distribución de multitudes",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-573.md"
+  },
+  {
+    "id": "ARQ-574",
+    "title": "Cubiertas de grandes luces",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-574.md"
+  },
+  {
+    "id": "ARQ-575",
+    "title": "Arenas cerradas y configuración variable",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-575.md"
+  },
+  {
+    "id": "ARQ-576",
+    "title": "Eventos temporales y conversión",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-576.md"
+  },
+  {
+    "id": "ARQ-577",
+    "title": "Hospitalidad, prensa y servicios",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-577.md"
+  },
+  {
+    "id": "ARQ-578",
+    "title": "Evacuación, emergencia y operación",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-578.md"
+  },
+  {
+    "id": "ARQ-579",
+    "title": "Mantenimiento y legado urbano",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-579.md"
+  },
+  {
+    "id": "ARQ-580",
+    "title": "Proyecto integrado de estadio o arena",
+    "part": 58,
+    "is_new": false,
+    "source": "classes/parte-58/ARQ-580.md"
+  },
+  {
+    "id": "ARQ-581",
+    "title": "Teatro: escena, sala y backstage",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-581.md"
+  },
+  {
+    "id": "ARQ-582",
+    "title": "Auditorio: visión y acústica",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-582.md"
+  },
+  {
+    "id": "ARQ-583",
+    "title": "Ópera y maquinaria escénica",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-583.md"
+  },
+  {
+    "id": "ARQ-584",
+    "title": "Museo: colección, público y conservación",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-584.md"
+  },
+  {
+    "id": "ARQ-585",
+    "title": "Galerías y flexibilidad expositiva",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-585.md"
+  },
+  {
+    "id": "ARQ-586",
+    "title": "Centros culturales híbridos",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-586.md"
+  },
+  {
+    "id": "ARQ-587",
+    "title": "Depósitos, talleres y logística cultural",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-587.md"
+  },
+  {
+    "id": "ARQ-588",
+    "title": "Acústica, luz y conservación integradas",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-588.md"
+  },
+  {
+    "id": "ARQ-589",
+    "title": "Rehabilitación de edificios culturales",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-589.md"
+  },
+  {
+    "id": "ARQ-590",
+    "title": "Proyecto integrado de centro cultural",
+    "part": 59,
+    "is_new": false,
+    "source": "classes/parte-59/ARQ-590.md"
+  },
+  {
+    "id": "ARQ-591",
+    "title": "Centro de datos: carga TI y edificio",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-591.md"
+  },
+  {
+    "id": "ARQ-592",
+    "title": "Redundancia, disponibilidad y topologías",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-592.md"
+  },
+  {
+    "id": "ARQ-593",
+    "title": "Energía, UPS y generación de respaldo",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-593.md"
+  },
+  {
+    "id": "ARQ-594",
+    "title": "Enfriamiento, flujo de aire y agua",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-594.md"
+  },
+  {
+    "id": "ARQ-595",
+    "title": "Salas blancas, racks y pisos técnicos",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-595.md"
+  },
+  {
+    "id": "ARQ-596",
+    "title": "Seguridad física y ciberfísica",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-596.md"
+  },
+  {
+    "id": "ARQ-597",
+    "title": "Laboratorios: programa y contención",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-597.md"
+  },
+  {
+    "id": "ARQ-598",
+    "title": "Edificios científicos y equipos sensibles",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-598.md"
+  },
+  {
+    "id": "ARQ-599",
+    "title": "Continuidad, mantenimiento y expansión",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-599.md"
+  },
+  {
+    "id": "ARQ-600",
+    "title": "Proyecto de edificio tecnológico crítico",
+    "part": 60,
+    "is_new": false,
+    "source": "classes/parte-60/ARQ-600.md"
+  },
+  {
+    "id": "ARQ-601",
+    "title": "Fábrica como flujo de proceso",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-601.md"
+  },
+  {
+    "id": "ARQ-602",
+    "title": "Naves industriales y grandes luces",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-602.md"
+  },
+  {
+    "id": "ARQ-603",
+    "title": "Logística interna y almacenamiento",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-603.md"
+  },
+  {
+    "id": "ARQ-604",
+    "title": "Plantas de alimentos y separación higiénica",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-604.md"
+  },
+  {
+    "id": "ARQ-605",
+    "title": "Industria química: zonificación de riesgos",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-605.md"
+  },
+  {
+    "id": "ARQ-606",
+    "title": "Talleres, manufactura y flexibilidad",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-606.md"
+  },
+  {
+    "id": "ARQ-607",
+    "title": "Servicios industriales y utilidades",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-607.md"
+  },
+  {
+    "id": "ARQ-608",
+    "title": "Automatización, robótica y seguridad espacial",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-608.md"
+  },
+  {
+    "id": "ARQ-609",
+    "title": "Expansión por etapas y operación",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-609.md"
+  },
+  {
+    "id": "ARQ-610",
+    "title": "Proyecto integrado de planta productiva",
+    "part": 61,
+    "is_new": false,
+    "source": "classes/parte-61/ARQ-610.md"
+  },
+  {
+    "id": "ARQ-611",
+    "title": "Puerto y terminal como sistema territorial",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-611.md"
+  },
+  {
+    "id": "ARQ-612",
+    "title": "Muelles, patios y conexión terrestre",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-612.md"
+  },
+  {
+    "id": "ARQ-613",
+    "title": "Terminal de contenedores",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-613.md"
+  },
+  {
+    "id": "ARQ-614",
+    "title": "Terminal de pasajeros y cruceros",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-614.md"
+  },
+  {
+    "id": "ARQ-615",
+    "title": "Bodegas y edificios portuarios",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-615.md"
+  },
+  {
+    "id": "ARQ-616",
+    "title": "Corrosión y ambiente marino",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-616.md"
+  },
+  {
+    "id": "ARQ-617",
+    "title": "Oleaje, mareas y niveles de operación",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-617.md"
+  },
+  {
+    "id": "ARQ-618",
+    "title": "Seguridad, aduanas y logística",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-618.md"
+  },
+  {
+    "id": "ARQ-619",
+    "title": "Waterfront productivo y ciudad",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-619.md"
+  },
+  {
+    "id": "ARQ-620",
+    "title": "Proyecto conceptual de terminal marítimo",
+    "part": 62,
+    "is_new": false,
+    "source": "classes/parte-62/ARQ-620.md"
+  },
+  {
+    "id": "ARQ-621",
+    "title": "Edificio cívico y acceso democrático",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-621.md"
+  },
+  {
+    "id": "ARQ-622",
+    "title": "Municipios y servicios públicos",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-622.md"
+  },
+  {
+    "id": "ARQ-623",
+    "title": "Tribunales y recorridos diferenciados",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-623.md"
+  },
+  {
+    "id": "ARQ-624",
+    "title": "Edificios legislativos y deliberación",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-624.md"
+  },
+  {
+    "id": "ARQ-625",
+    "title": "Comisarías y atención pública",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-625.md"
+  },
+  {
+    "id": "ARQ-626",
+    "title": "Prisiones: seguridad, dignidad y operación",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-626.md"
+  },
+  {
+    "id": "ARQ-627",
+    "title": "Archivos y edificios de custodia",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-627.md"
+  },
+  {
+    "id": "ARQ-628",
+    "title": "Control de acceso y capas de seguridad",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-628.md"
+  },
+  {
+    "id": "ARQ-629",
+    "title": "Continuidad institucional y emergencias",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-629.md"
+  },
+  {
+    "id": "ARQ-630",
+    "title": "Proyecto cívico de alta complejidad",
+    "part": 63,
+    "is_new": false,
+    "source": "classes/parte-63/ARQ-630.md"
+  },
+  {
+    "id": "ARQ-631",
+    "title": "Hotel: habitación, pasillo y servicio",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-631.md"
+  },
+  {
+    "id": "ARQ-632",
+    "title": "Lobby, restaurante y espacios comunes",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-632.md"
+  },
+  {
+    "id": "ARQ-633",
+    "title": "Back-of-house y logística hotelera",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-633.md"
+  },
+  {
+    "id": "ARQ-634",
+    "title": "Resort y relación con paisaje",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-634.md"
+  },
+  {
+    "id": "ARQ-635",
+    "title": "Hostales y alojamiento compacto",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-635.md"
+  },
+  {
+    "id": "ARQ-636",
+    "title": "Centro comercial y recorridos",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-636.md"
+  },
+  {
+    "id": "ARQ-637",
+    "title": "Retail de gran formato y reposición",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-637.md"
+  },
+  {
+    "id": "ARQ-638",
+    "title": "Mercados y comercio de alimentos",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-638.md"
+  },
+  {
+    "id": "ARQ-639",
+    "title": "Adaptabilidad y cambios de marca",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-639.md"
+  },
+  {
+    "id": "ARQ-640",
+    "title": "Proyecto integrado de hospitalidad y comercio",
+    "part": 64,
+    "is_new": false,
+    "source": "classes/parte-64/ARQ-640.md"
+  },
+  {
+    "id": "ARQ-641",
+    "title": "Escuela: aula, patio y comunidad",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-641.md"
+  },
+  {
+    "id": "ARQ-642",
+    "title": "Jardines infantiles y primera infancia",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-642.md"
+  },
+  {
+    "id": "ARQ-643",
+    "title": "Liceos y educación media",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-643.md"
+  },
+  {
+    "id": "ARQ-644",
+    "title": "Universidad: aulas, bibliotecas y vida campus",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-644.md"
+  },
+  {
+    "id": "ARQ-645",
+    "title": "Laboratorios docentes y talleres",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-645.md"
+  },
+  {
+    "id": "ARQ-646",
+    "title": "Residencias estudiantiles",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-646.md"
+  },
+  {
+    "id": "ARQ-647",
+    "title": "Campus, paisaje y movilidad",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-647.md"
+  },
+  {
+    "id": "ARQ-648",
+    "title": "Flexibilidad pedagógica y tecnología",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-648.md"
+  },
+  {
+    "id": "ARQ-649",
+    "title": "Crecimiento por etapas y uso comunitario",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-649.md"
+  },
+  {
+    "id": "ARQ-650",
+    "title": "Proyecto integrado de campus",
+    "part": 65,
+    "is_new": false,
+    "source": "classes/parte-65/ARQ-650.md"
+  },
+  {
+    "id": "ARQ-651",
+    "title": "Maqueta de masa y emplazamiento",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-651.md"
+  },
+  {
+    "id": "ARQ-652",
+    "title": "Maqueta espacial y seccional",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-652.md"
+  },
+  {
+    "id": "ARQ-653",
+    "title": "Maqueta estructural conceptual",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-653.md"
+  },
+  {
+    "id": "ARQ-654",
+    "title": "Maqueta de detalle y ensamblaje",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-654.md"
+  },
+  {
+    "id": "ARQ-655",
+    "title": "Modelos de luz y sombra",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-655.md"
+  },
+  {
+    "id": "ARQ-656",
+    "title": "Prototipos 1:1 y mock-ups",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-656.md"
+  },
+  {
+    "id": "ARQ-657",
+    "title": "Fabricación digital y control geométrico",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-657.md"
+  },
+  {
+    "id": "ARQ-658",
+    "title": "Realidad virtual y modelos inmersivos",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-658.md"
+  },
+  {
+    "id": "ARQ-659",
+    "title": "Validación cruzada entre físico y digital",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-659.md"
+  },
+  {
+    "id": "ARQ-660",
+    "title": "Portafolio de representación y prototipado",
+    "part": 66,
+    "is_new": false,
+    "source": "classes/parte-66/ARQ-660.md"
+  },
+  {
+    "id": "ARQ-661",
+    "title": "Torres de observación y miradores",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-661.md"
+  },
+  {
+    "id": "ARQ-662",
+    "title": "Torres de telecomunicaciones",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-662.md"
+  },
+  {
+    "id": "ARQ-663",
+    "title": "Chimeneas y estructuras industriales altas",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-663.md"
+  },
+  {
+    "id": "ARQ-664",
+    "title": "Monumentos y estructuras conmemorativas",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-664.md"
+  },
+  {
+    "id": "ARQ-665",
+    "title": "Cubiertas tensadas y pabellones especiales",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-665.md"
+  },
+  {
+    "id": "ARQ-666",
+    "title": "Torres eólicas y soportes energéticos",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-666.md"
+  },
+  {
+    "id": "ARQ-667",
+    "title": "Pasarelas y estructuras peatonales singulares",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-667.md"
+  },
+  {
+    "id": "ARQ-668",
+    "title": "Plataformas y estructuras offshore conceptuales",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-668.md"
+  },
+  {
+    "id": "ARQ-669",
+    "title": "Mantenimiento de estructuras de acceso complejo",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-669.md"
+  },
+  {
+    "id": "ARQ-670",
+    "title": "Proyecto de infraestructura especial",
+    "part": 67,
+    "is_new": true,
+    "source": "classes/parte-67/ARQ-670.md"
+  },
+  {
+    "id": "ARQ-671",
+    "title": "Comparar una casa, un hospital y un aeropuerto",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-671.md"
+  },
+  {
+    "id": "ARQ-672",
+    "title": "Comparar iglesia, museo y estadio",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-672.md"
+  },
+  {
+    "id": "ARQ-673",
+    "title": "Comparar rascacielos, torre y centro de datos",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-673.md"
+  },
+  {
+    "id": "ARQ-674",
+    "title": "Comparar estación, metro y terminal aeroportuaria",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-674.md"
+  },
+  {
+    "id": "ARQ-675",
+    "title": "Comparar puente, túnel y puerto",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-675.md"
+  },
+  {
+    "id": "ARQ-676",
+    "title": "Comparar castillo y edificio de alta seguridad",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-676.md"
+  },
+  {
+    "id": "ARQ-677",
+    "title": "Comparar escuela, hotel y residencia",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-677.md"
+  },
+  {
+    "id": "ARQ-678",
+    "title": "Comparar fábrica y laboratorio",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-678.md"
+  },
+  {
+    "id": "ARQ-679",
+    "title": "Transferencia responsable entre tipologías",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-679.md"
+  },
+  {
+    "id": "ARQ-680",
+    "title": "Defensa final de tipologías y grandes obras",
+    "part": 68,
+    "is_new": true,
+    "source": "classes/parte-68/ARQ-680.md"
+  }
+]

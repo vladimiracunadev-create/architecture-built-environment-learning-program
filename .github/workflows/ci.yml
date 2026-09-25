@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Currículo y sitio
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependencias de build
+        run: python -m pip install -r requirements-build.txt
+      - name: Validar fuentes
+        run: python scripts/validate_repo.py
+      - name: Generar 680 páginas HTML
+        run: python scripts/build_site.py
+      - name: Validar salida
+        run: python scripts/validate_repo.py
+      - name: Resumen
+        if: always()
+        run: |
+          echo "### Arquitectura · programa integral" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Clases esperadas: **680**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Partes esperadas: **68**" >> "$GITHUB_STEP_SUMMARY"
+

@@ -1,0 +1,30 @@
+{
+  "version": "1.0-definitiva",
+  "parts": 68,
+  "planned_classes": 680,
+  "written_classes": 680,
+  "pending_classes": 0,
+  "new_classes": [
+    "ARQ-661",
+    "ARQ-662",
+    "ARQ-663",
+    "ARQ-664",
+    "ARQ-665",
+    "ARQ-666",
+    "ARQ-667",
+    "ARQ-668",
+    "ARQ-669",
+    "ARQ-670",
+    "ARQ-671",
+    "ARQ-672",
+    "ARQ-673",
+    "ARQ-674",
+    "ARQ-675",
+    "ARQ-676",
+    "ARQ-677",
+    "ARQ-678",
+    "ARQ-679",
+    "ARQ-680"
+  ],
+  "external_specialist_review": "pending"
+}
