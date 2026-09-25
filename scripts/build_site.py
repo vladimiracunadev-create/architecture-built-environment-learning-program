@@ -25,6 +25,20 @@ CSS = r"""
 @media print{.topbar,.footer,.lesson-nav{display:none}.doc{border:0;box-shadow:none;margin:0;max-width:none;padding:0}body{background:#fff}.doc a{color:inherit}}
 """
 
+CSS += r"""
+.status-table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line)}.status-table th,.status-table td{padding:.85rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.status-table th{background:#ebe6da}.status-ok{color:var(--teal);font-weight:850}.status-pending{color:#8d472f;font-weight:850}.resource-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.resource-card{display:block;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--clay);padding:1.2rem;text-decoration:none;color:var(--ink);border-radius:7px}.resource-card strong{display:block;font-family:Georgia,serif;font-size:1.75rem;color:var(--clay)}.resource-card span{font-size:.9rem;color:var(--muted)}.part-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem}.part-card{background:var(--card);border:1px solid var(--line);padding:1rem;border-radius:7px;text-decoration:none;color:var(--ink)}.part-card small{display:block;color:var(--clay);font-weight:850}.part-card strong{display:block;margin:.2rem 0}.part-card span{font-size:.85rem;color:var(--muted)}.band{background:#e7e1d5;border-block:1px solid var(--line);margin:2rem 0}.prose{max-width:820px}.meta-line{color:var(--muted);font-size:.9rem}.inventory-list{display:grid;grid-template-columns:repeat(2,1fr);gap:.65rem}.inventory-link{background:var(--card);border:1px solid var(--line);padding:.9rem;border-radius:7px;text-decoration:none;color:var(--ink)}.inventory-link small{display:block;color:var(--clay);font-weight:800}.callout{background:#183f45;color:#eff7f3;padding:1.3rem;border-radius:8px}.callout a{color:#f4d987}@media(max-width:900px){.resource-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:780px){.part-grid,.inventory-list{grid-template-columns:1fr}}@media(max-width:480px){.resource-grid{grid-template-columns:1fr}}
+"""
+
+CSS += ".resource-card b{display:block;margin:.15rem 0 .35rem}.resource-card span{display:block}\n"
+
+RESOURCE_TYPES = {
+    "rol": ("roles", "Roles y oficios", "personas, responsabilidades y límites del trabajo"),
+    "ruta": ("rutas", "Rutas de aprendizaje", "recorridos guiados a través del currículo"),
+    "plantilla": ("plantillas", "Plantillas", "instrumentos para registrar decisiones y evidencia"),
+    "documento": ("documentos", "Documentos transversales", "método, alcance, estado y continuidad"),
+    "fuente": ("fuentes", "Fuentes", "referencias con apoyo y límites de uso"),
+}
+
 
 def load_catalog() -> list[dict]:
     return json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
@@ -36,6 +50,41 @@ def legacy_entries() -> list[dict]:
     start = text.index(marker) + len(marker)
     end = text.index("];\nconst byId", start) + 1
     return json.loads(text[start:end])
+
+
+def display_title(entry: dict) -> str:
+    match = re.search(r"<h1[^>]*>(.*?)</h1>", entry["html"], re.S | re.I)
+    if not match:
+        return entry["title"]
+    value = re.sub(r"<[^>]+>", "", match.group(1))
+    value = html.unescape(value).strip()
+    return re.sub(rf"^{re.escape(entry['id'])}\s*[·—:-]\s*", "", value, flags=re.I)
+
+
+def part_titles() -> dict[int, str]:
+    text = READER.read_text(encoding="utf-8")
+    matches = re.findall(r'<option value="(\d+)">(\d+)\s*·\s*([^<]+)</option>', text)
+    titles = {int(value): html.unescape(title).strip() for value, _number, title in matches}
+    if set(titles) != set(range(1, 69)):
+        raise ValueError("could not recover the 68 canonical part titles")
+    return titles
+
+
+def entry_path(entry: dict) -> str:
+    folder = RESOURCE_TYPES[entry["kind"]][0]
+    return f"{folder}/{entry['id'].lower()}.html"
+
+
+def link_legacy_html(content: str, lookup: dict[str, dict]) -> str:
+    def replace(match: re.Match) -> str:
+        target = match.group(1)
+        entry = lookup.get(target)
+        if entry:
+            return f'href="../{entry_path(entry)}"'
+        if re.fullmatch(r"ARQ-\d{3}", target):
+            return f'href="../clases/{target.lower()}.html"'
+        return match.group(0)
+    return re.sub(r'href="#([^"]+)"', replace, content)
 
 
 def render_markdown(text: str) -> str:
@@ -60,7 +109,7 @@ def shell(title: str, body: str, *, description: str = "", prefix: str = "") -> 
 <meta property="og:type" content="website"><meta property="og:url" content="{PAGES_URL}">
 <title>{safe_title}</title><link rel="icon" href="{prefix}assets/mark.svg"><link rel="stylesheet" href="{prefix}assets/site.css"></head>
 <body><a class="skip" href="#main">Saltar al contenido</a><header class="topbar"><div class="inner">
-<a class="brand" href="{prefix}index.html">⌂ ARQ · 680</a><nav class="nav" aria-label="Principal"><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}metodo.html">Método</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
+<a class="brand" href="{prefix}index.html">⌂ ARQ · 680</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}recursos.html">Recursos</a><a href="{prefix}metodo.html">Método</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
 </div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Material educativo independiente. No otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><a href="{prefix}catalogo.html">680 clases</a> · <a href="{prefix}metodo.html">Alcance</a> · <a href="{REPO_URL}">Código fuente</a></small></div></footer></body></html>"""
 
 
@@ -78,12 +127,25 @@ def nav(previous: dict | None, following: dict | None) -> str:
     return f'<nav class="lesson-nav" aria-label="Clases adyacentes">{link(previous, "← Anterior")}{link(following, "Siguiente →")}</nav>'
 
 
-def landing() -> str:
-    body = """<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición definitiva v1.0 · Español</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Un programa secuencial para aprender a leer el proyecto como sistema: personas, lugar, materia, técnica, recursos, operación y tiempo.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las 680 clases</a><a class="button" href="metodo.html">Conocer el método</a></div></div></section>
-<div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>680</strong><span>clases completas</span></div><div class="stat"><strong>68</strong><span>partes curriculares</span></div><div class="stat"><strong>80</strong><span>roles y oficios mapeados</span></div><div class="stat"><strong>20</strong><span>clases finales en v1.0</span></div></section>
-<section class="section"><p class="eyebrow" style="color:var(--clay)">De punta a punta</p><h2>Aprender a decidir, no a copiar soluciones</h2><p class="lede">Cada clase separa dato, hipótesis, cálculo, evidencia, responsabilidad y autorización. Los casos son didácticos y declaran sus fronteras.</p><div class="grid"><article class="card"><span class="num">01 · Secuencia</span><h3>De fundamentos a integración</h3><p>Representación, historia, territorio, estructuras, instalaciones, gestión, patrimonio y grandes tipologías.</p></article><article class="card"><span class="num">02 · Evidencia</span><h3>Fuentes con alcance</h3><p>Las referencias enseñan mecanismos; no se convierten automáticamente en norma aplicable a un caso real.</p></article><article class="card"><span class="num">03 · Continuidad</span><h3>Proyecto, obra y operación</h3><p>Las decisiones se siguen desde el encargo hasta el mantenimiento, la adaptación y el fin de vida.</p></article></div></section>
-<section class="section"><h2>Una biblioteca abierta y navegable</h2><p class="lede">El contenido fuente vive en Markdown. El sitio transforma cada clase en una página HTML rápida, enlazable e imprimible; el lector monolítico original permanece disponible para consulta offline.</p><div class="actions"><a class="button primary" style="background:var(--teal);color:#fff;border-color:var(--teal)" href="catalogo.html">Abrir catálogo</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="artefactos.html">Descargar artefactos</a></div></section></div></main>"""
-    return shell("Arquitectura, construcción y entorno habitado", body, description="680 clases en 68 partes sobre arquitectura, construcción y entorno habitado, publicadas como HTML en GitHub Pages.")
+def landing(catalog: list[dict], entries: list[dict], titles: dict[int, str]) -> str:
+    counts = {kind: sum(entry["kind"] == kind for entry in entries) for kind in RESOURCE_TYPES}
+    parts = "".join(
+        f'<a class="part-card" href="partes/parte-{part:02d}.html"><small>Parte {part:02d}</small><strong>{html.escape(titles[part])}</strong><span>ARQ-{(part-1)*10+1:03d} → ARQ-{part*10:03d}</span></a>'
+        for part in range(1, 69)
+    )
+    resources = "".join(
+        f'<a class="resource-card" href="{folder}/index.html"><strong>{counts[kind]}</strong><b>{label}</b><span>{description}</span></a>'
+        for kind, (folder, label, description) in RESOURCE_TYPES.items()
+    )
+    body = f"""<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición definitiva v1.0 · Español · 24 septiembre 2026</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Del encargo al uso, la conservación y el fin de vida. Un programa secuencial para estudiar personas, lugar, historia, materia, técnica, recursos, operación y tiempo.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las 680 clases</a><a class="button" href="#estado">Comprobar el estado</a></div></div></section>
+<div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>680</strong><span>clases completas</span></div><div class="stat"><strong>68</strong><span>partes · 10 clases cada una</span></div><div class="stat"><strong>1.435</strong><span>entradas navegables</span></div><div class="stat"><strong>0</strong><span>clases pendientes</span></div></section>
+<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado verificable</p><h2>Qué está completo y qué sigue abierto</h2><p class="lede">Estas cifras se calculan desde el catálogo, el lector v1.0 y los archivos fuente. El programa declara sus límites en vez de convertir una entrega editorial en acreditación profesional.</p><table class="status-table"><thead><tr><th>Superficie</th><th>Estado</th><th>Evidencia pública</th></tr></thead><tbody><tr><td>Secuencia curricular</td><td class="status-ok">680 / 680</td><td>ARQ-001 → ARQ-680, sin huecos; 10 clases en cada parte.</td></tr><tr><td>Contenido fuente</td><td class="status-ok">680 Markdown</td><td>Una fuente editable por clase y una página HTML generada por clase.</td></tr><tr><td>Conocimiento transversal</td><td class="status-ok">755 recursos</td><td>611 fuentes · 80 roles · 36 plantillas · 16 documentos · 12 rutas.</td></tr><tr><td>Integridad de entregables</td><td class="status-ok">SHA-256</td><td>Hashes versionados y comprobados automáticamente.</td></tr><tr><td>Revisión externa especializada</td><td class="status-pending">Pendiente</td><td>No se presenta como realizada ni se sustituye por CI.</td></tr></tbody></table></section>
+</div><section class="band"><div class="wrap section"><p class="eyebrow" style="color:var(--clay)">Biblioteca completa</p><h2>Más que un índice de clases</h2><p class="lede">Roles, recorridos, instrumentos, documentos y referencias conservan el mismo alcance editorial del lector original y ahora tienen URL propia.</p><div class="resource-grid">{resources}</div></div></section>
+<div class="wrap"><section class="section"><p class="eyebrow" style="color:var(--clay)">De punta a punta</p><h2>Aprender a decidir, no a copiar soluciones</h2><div class="grid"><article class="card"><span class="num">01 · Secuencia</span><h3>Del fundamento a la integración</h3><p>Representación, historia, territorio, estructuras, instalaciones, gestión, patrimonio y grandes tipologías.</p></article><article class="card"><span class="num">02 · Evidencia</span><h3>Dato, hipótesis y límite</h3><p>Las fuentes enseñan mecanismos y contexto; no se convierten automáticamente en norma aplicable a una obra.</p></article><article class="card"><span class="num">03 · Ciclo de vida</span><h3>Proyecto, obra y operación</h3><p>Las decisiones se siguen desde el encargo hasta el mantenimiento, la adaptación y el fin de vida.</p></article></div></section>
+<section class="section"><h2>Las 68 partes</h2><p class="lede">Cada bloque contiene diez clases y una portada propia con su intervalo, foco y acceso directo.</p><div class="part-grid">{parts}</div></section>
+<section class="section"><div class="callout"><h2>Alcance profesional explícito</h2><p>Completar este programa no otorga título, licencia, firma, permiso ni habilitación profesional. Los casos numéricos son didácticos salvo atribución explícita. Toda obra real requiere antecedentes, normativa vigente, especialistas competentes, coordinación, revisión y autorizaciones aplicables.</p><p><a href="metodo.html">Leer método, límites y criterios de transferencia →</a></p></div></section>
+<section class="section"><h2>Markdown como fuente; HTML como experiencia</h2><p class="lede">Las 680 clases viven como Markdown versionado. El build produce el portal, 68 portadas de parte, páginas de clase y las 755 fichas transversales. El lector offline original y los PDF permanecen disponibles como artefactos.</p><div class="actions"><a class="button primary" style="background:var(--teal);color:#fff;border-color:var(--teal)" href="catalogo.html">Abrir catálogo</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="artefactos.html">Ver artefactos</a></div></section></div></main>"""
+    return shell("Arquitectura, construcción y entorno habitado", body, description="680 clases, 68 partes y 755 recursos sobre arquitectura, construcción y entorno habitado.")
 
 
 def catalog_page(catalog: list[dict]) -> str:
@@ -97,6 +159,56 @@ def catalog_page(catalog: list[dict]) -> str:
     return shell("Catálogo de 680 clases · Arquitectura", body)
 
 
+def parts_index(catalog: list[dict], titles: dict[int, str]) -> str:
+    cards = "".join(
+        f'<a class="part-card" href="parte-{part:02d}.html"><small>Parte {part:02d}</small><strong>{html.escape(titles[part])}</strong><span>ARQ-{(part-1)*10+1:03d} → ARQ-{part*10:03d} · 10 clases</span></a>'
+        for part in range(1, 69)
+    )
+    body = f'<main id="main" class="wrap section"><p class="kicker">Mapa curricular</p><h1>68 partes · 680 clases</h1><p class="lede">La secuencia completa, desde fundamentos del habitar hasta casos integradores de tipologías y grandes obras.</p><div class="part-grid">{cards}</div></main>'
+    return shell("68 partes · Arquitectura", body, prefix="../")
+
+
+def part_page(part: int, catalog: list[dict], titles: dict[int, str]) -> str:
+    lessons = [item for item in catalog if item["part"] == part]
+    cards = "".join(
+        f'<a class="lesson-link" href="../clases/{item["id"].lower()}.html"><span class="lesson-code">{item["id"]}</span><span class="lesson-title">{html.escape(item["title"])}</span></a>'
+        for item in lessons
+    )
+    previous = f'parte-{part-1:02d}.html' if part > 1 else 'index.html'
+    following = f'parte-{part+1:02d}.html' if part < 68 else 'index.html'
+    previous_label = "← Parte anterior" if part > 1 else "← Mapa de partes"
+    following_label = "Parte siguiente →" if part < 68 else "Mapa de partes →"
+    body = f'<main id="main" class="wrap section"><p class="kicker">Parte {part:02d} de 68</p><h1>{html.escape(titles[part])}</h1><p class="lede">Diez clases · {lessons[0]["id"]} → {lessons[-1]["id"]}</p><div class="catalog-list">{cards}</div><nav class="lesson-nav"><a href="{previous}">{previous_label}</a><a href="{following}">{following_label}</a></nav></main>'
+    return shell(f'Parte {part:02d} · {titles[part]}', body, prefix="../")
+
+
+def resources_portal(entries: list[dict]) -> str:
+    cards = []
+    for kind, (folder, label, description) in RESOURCE_TYPES.items():
+        count = sum(entry["kind"] == kind for entry in entries)
+        cards.append(f'<a class="resource-card" href="{folder}/index.html"><strong>{count}</strong><b>{label}</b><span>{description}</span></a>')
+    body = f'<main id="main" class="wrap section"><p class="kicker">Superficie de conocimiento</p><h1>755 recursos transversales</h1><p class="lede">El programa conecta el currículo con responsabilidades, recorridos, instrumentos, documentos editoriales y referencias. Cada registro del lector v1.0 tiene una página pública y enlazable.</p><div class="resource-grid">{"".join(cards)}</div><section class="section"><div class="callout"><h2>Cómo leer las fuentes</h2><p>Una referencia apoya una afirmación dentro del alcance declarado por la clase. No implica adopción íntegra, vigencia universal ni autorización normativa para un proyecto real.</p><p><a href="metodo.html">Revisar el método y los límites →</a></p></div></section></main>'
+    return shell("Recursos transversales · Arquitectura", body)
+
+
+def resource_index(kind: str, entries: list[dict]) -> str:
+    folder, label, description = RESOURCE_TYPES[kind]
+    selected = [entry for entry in entries if entry["kind"] == kind]
+    cards = "".join(
+        f'<a class="inventory-link" href="{entry["id"].lower()}.html"><small>{html.escape(entry["id"])}</small>{html.escape(display_title(entry))}</a>'
+        for entry in selected
+    )
+    body = f'<main id="main" class="wrap section"><p class="kicker">Inventario verificable</p><h1>{len(selected)} {html.escape(label.lower())}</h1><p class="lede">{html.escape(description.capitalize())}. Inventario derivado del lector definitivo v1.0.</p><div class="inventory-list">{cards}</div></main>'
+    return shell(f'{label} · Arquitectura', body, prefix="../")
+
+
+def resource_page(entry: dict, lookup: dict[str, dict]) -> str:
+    _folder, label, _description = RESOURCE_TYPES[entry["kind"]]
+    content = link_legacy_html(entry["html"], lookup)
+    body = f'<main id="main" class="doc"><p class="kicker">{html.escape(label)} · {html.escape(entry["id"])}</p>{content}<nav class="lesson-nav"><a href="index.html">← Volver al inventario</a><a href="../recursos.html">Todos los recursos →</a></nav></main>'
+    return shell(f'{display_title(entry)} · {label}', body, description=display_title(entry), prefix="../")
+
+
 def page_from_markdown(name: str, source: Path, title: str) -> None:
     rendered = render_markdown(source.read_text(encoding="utf-8"))
     body = f'<main id="main" class="doc">{rendered}</main>'
@@ -105,13 +217,21 @@ def page_from_markdown(name: str, source: Path, title: str) -> None:
 
 def main() -> int:
     catalog = load_catalog()
+    entries = legacy_entries()
+    titles = part_titles()
+    resource_entries = [entry for entry in entries if entry["kind"] in RESOURCE_TYPES]
+    lookup = {entry["id"]: entry for entry in resource_entries}
     if OUT.exists():
         shutil.rmtree(OUT)
     (OUT / "assets").mkdir(parents=True)
     write("assets/site.css", CSS.strip() + "\n")
     shutil.copy2(ROOT / "assets" / "mark.svg", OUT / "assets" / "mark.svg")
-    write("index.html", landing())
+    write("index.html", landing(catalog, entries, titles))
     write("catalogo.html", catalog_page(catalog))
+    write("recursos.html", resources_portal(entries))
+    write("partes/index.html", parts_index(catalog, titles))
+    for part in range(1, 69):
+        write(f"partes/parte-{part:02d}.html", part_page(part, catalog, titles))
 
     for index, item in enumerate(catalog):
         content = render_markdown((ROOT / item["source"]).read_text(encoding="utf-8"))
@@ -120,10 +240,10 @@ def main() -> int:
         body = f'<main id="main" class="doc"><p class="kicker">Parte {item["part"]:02d} · Clase {index+1} de 680</p>{content}{nav(previous, following)}</main>'
         write(f'clases/{item["id"].lower()}.html', shell(f'{item["id"]} · {item["title"]}', body, description=item["title"], prefix="../"))
 
-    sources = [entry for entry in legacy_entries() if entry["kind"] == "fuente"]
-    for source in sources:
-        body = f'<main id="main" class="doc"><p class="kicker">Fuente y alcance de uso</p>{source["html"]}</main>'
-        write(f'fuentes/{source["id"].lower()}.html', shell(source["title"], body, prefix="../"))
+    for kind, (folder, _label, _description) in RESOURCE_TYPES.items():
+        write(f"{folder}/index.html", resource_index(kind, entries))
+    for entry in resource_entries:
+        write(entry_path(entry), resource_page(entry, lookup))
 
     page_from_markdown("metodo.html", ROOT / "docs" / "METODO_Y_ALCANCE.md", "Método y alcance · Arquitectura")
     page_from_markdown("artefactos.html", ROOT / "docs" / "ARTEFACTOS.md", "Descargas · Arquitectura")
@@ -132,7 +252,10 @@ def main() -> int:
         shutil.copy2(ROOT / filename, OUT / filename)
     write(".nojekyll", "")
     write("404.html", shell("Página no encontrada", '<main id="main" class="doc"><h1>Página no encontrada</h1><p>Vuelve al <a href="index.html">inicio</a> o consulta el <a href="catalogo.html">catálogo completo</a>.</p></main>'))
-    print(f"Built {len(catalog)} lessons, {len(sources)} source pages and the portal in {OUT}")
+    print(
+        f"Built {len(catalog)} lessons, 68 part pages, "
+        f"{len(resource_entries)} resource pages and the portal in {OUT}"
+    )
     return 0
 
 

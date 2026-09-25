@@ -11,6 +11,13 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+EXPECTED_RESOURCES = {
+    "fuentes": 611,
+    "roles": 80,
+    "plantillas": 36,
+    "documentos": 16,
+    "rutas": 12,
+}
 
 
 def fail(message: str) -> None:
@@ -67,7 +74,25 @@ def main() -> int:
         pages = list((site / "clases").glob("arq-*.html"))
         if len(pages) != 680:
             fail(f"generated site has {len(pages)} lesson pages, expected 680")
-        for required in ("index.html", "catalogo.html", "metodo.html", "artefactos.html", ".nojekyll"):
+        part_pages = list((site / "partes").glob("parte-*.html"))
+        if len(part_pages) != 68:
+            fail(f"generated site has {len(part_pages)} part pages, expected 68")
+        for folder, expected_count in EXPECTED_RESOURCES.items():
+            resource_pages = [path for path in (site / folder).glob("*.html") if path.name != "index.html"]
+            if len(resource_pages) != expected_count:
+                fail(
+                    f"generated site has {len(resource_pages)} pages in {folder}, "
+                    f"expected {expected_count}"
+                )
+        for required in (
+            "index.html",
+            "catalogo.html",
+            "recursos.html",
+            "partes/index.html",
+            "metodo.html",
+            "artefactos.html",
+            ".nojekyll",
+        ):
             if not (site / required).exists():
                 fail(f"generated site is missing {required}")
         broken = []
@@ -87,7 +112,10 @@ def main() -> int:
                     broken.append(f"{page.relative_to(site)} -> {raw}")
         if broken:
             fail("broken generated links:\n" + "\n".join(broken[:25]))
-    print("OK: 680 lessons · 68 parts · checksums · UTF-8 · generated site")
+    print(
+        "OK: 680 lessons · 68 parts · 755 resources · "
+        "checksums · UTF-8 · generated site"
+    )
     return 0
 
 
