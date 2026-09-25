@@ -10,12 +10,15 @@
 [![Deploy Pages](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml)
 [![Clases](https://img.shields.io/badge/clases-680%20·%2068%20partes-b85c38?style=for-the-badge)](classes/README.md)
 [![Rutas](https://img.shields.io/badge/rutas-12-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
-[![Fuentes](https://img.shields.io/badge/fuentes-611%20·%20177%20dominios-ddb967?style=for-the-badge)](docs/FUENTES_Y_EVIDENCIA.md)
+[![Fuentes](https://img.shields.io/badge/fuentes-622%20URLs%20·%20189%20dominios-ddb967?style=for-the-badge)](sources/README.md)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
+[![Código](https://img.shields.io/badge/código-Apache--2.0-3fb950?style=for-the-badge)](LICENSE)
+[![Contenido](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-7c5cff?style=for-the-badge)](LICENSE-CONTENT.md)
+[![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/architecture-built-environment-learning-program?style=social)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/stargazers)
 
 [🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Currículo completo](classes/README.md) · [🚀 Cómo usarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [📖 Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md) · [✅ Estado real](docs/ESTADO_VERIFICABLE.md)
 
-[🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md) · [👷 Roles y oficios](docs/ROLES_Y_OFICIOS.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [📦 Artefactos](docs/ARTEFACTOS.md) · [🔎 Auditoría de la referencia](docs/AUDITORIA_DOCUMENTAL_REFERENCIA.md)
+[🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md) · [👷 Roles y oficios](docs/ROLES_Y_OFICIOS.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [🧾 Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md) · [⚖️ Licencias](docs/LICENCIAS_Y_DERECHOS.md)
 
 </div>
 
@@ -75,9 +78,13 @@ Cada ejercicio intenta mantener visibles:
 
 Una propuesta también se evalúa por construcción, limpieza, inspección, mantenimiento, cambio de uso, continuidad operacional, reparación y fin de vida. Por eso el programa incorpora mandantes, proyectistas, ingenierías, oficios, autoridades, operación y usuarios.
 
-## 📖 De dónde sale el material
+## 📖 De dónde salen las clases y sus indicaciones
 
-Las clases tienen redacción propia y utilizan **611 fichas de fuente de 177 dominios**. Entre las procedencias más frecuentes están ISO, UNESCO, OpenStax, MIT OpenCourseWare, EPA, OMS, FHWA, NIST, National Park Service y organismos chilenos como BCN, MINVU y SENAPRED.
+La secuencia, redacción, preguntas, ejercicios, casos ficticios y soluciones son una **elaboración editorial original atribuida a Vladimir Acuña**, salvo atribución expresa. No proceden de una carrera oficial ni cuentan con acreditación de UNESCO, UIA, RIBA, una universidad o un colegio profesional.
+
+La amplitud general toma como referencia la revisión 2026 de la Carta UNESCO–UIA; el ciclo y los intercambios de información usan RIBA Plan of Work 2020 como referencia comparativa. Los cinco lentes del programa, el orden de 680 clases y su método pedagógico son una síntesis propia, no una reproducción de esos marcos.
+
+El registro reproducible detecta **1.939 relaciones clase–fuente**, **622 URLs externas únicas** y **189 dominios** en las secciones de fuentes de las 680 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas.
 
 Cada ficha debe distinguir:
 
@@ -86,7 +93,7 @@ Cada ficha debe distinguir:
 3. afirmación que apoya;
 4. límite de lo que permite concluir.
 
-Una cita no convierte una guía extranjera en norma chilena, no acredita lectura íntegra, no demuestra vigencia y no valida un proyecto. El método completo y sus limitaciones están en [Fuentes, evidencia y alcance de uso](docs/FUENTES_Y_EVIDENCIA.md).
+Una cita no convierte una guía extranjera en norma chilena, no acredita lectura íntegra, no demuestra vigencia y no valida un proyecto. Consulta [Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md), el [registro central de fuentes](sources/README.md) y [Fuentes, evidencia y alcance de uso](docs/FUENTES_Y_EVIDENCIA.md).
 
 ## 🗺️ Dos fases y 68 partes
 
@@ -246,11 +253,12 @@ El lector offline conserva también documentos históricos de la evolución del 
 |---|---|---|
 | Integridad curricular | 680/680 clases; 68 partes; 10 clases por parte | revisión disciplinar |
 | Capa Markdown | 680 clases + 68 README de parte + índice | calidad homogénea |
-| Fuentes | 611 fichas; 177 dominios; 0 fichas sin URL | vigencia o aplicabilidad automática |
+| Fuentes en clases | 1.939 relaciones; 622 URLs únicas; 189 dominios | vigencia o aplicabilidad automática |
+| Fichas navegables v1.0 | 611 fichas curadas; 0 sin URL | identidad con el registro derivado |
 | Portal | clases, partes y 755 recursos con enlaces internos validados | accesibilidad WCAG certificada |
 | Artefactos | lector y PDF con hashes versionados | validez técnica para obra |
 | Revisión externa | **pendiente** | — |
-| Licencia | **pendiente de elección** | permiso de reutilización |
+| Licencias | Apache-2.0 para código; CC BY-NC-SA 4.0 para contenido | derechos sobre obras externas |
 
 El detalle, la metodología de conteo y las brechas abiertas están en [Estado verificable del programa](docs/ESTADO_VERIFICABLE.md). Ése es el documento de estado actual; las notas de versiones anteriores se conservan como historia.
 
@@ -271,6 +279,7 @@ Reproducción local:
 
 ```bash
 python -m pip install -r requirements-build.txt
+python scripts/build_bibliography.py
 python scripts/generate_curriculum_docs.py
 python scripts/build_site.py
 python scripts/validate_repo.py
@@ -287,6 +296,7 @@ El validador exige ARQ-001–680, diez clases por parte, estado coherente, hashe
 │       ├── README.md             # propósito, preguntas, resultados y navegación
 │       └── ARQ-XXX.md            # diez clases por parte
 ├── docs/                         # estado, método, fuentes, uso, rutas, roles y casos
+├── sources/                      # bibliografía central y clases que usan cada URL
 ├── data/catalog.json             # catálogo canónico de clases
 ├── scripts/                      # importación, documentación, build y validación
 ├── assets/                       # identidad visual
@@ -312,9 +322,13 @@ El validador exige ARQ-001–680, diez clases por parte, estado coherente, hashe
 
 ## 📄 Licencia y derechos
 
-El repositorio todavía **no contiene una licencia elegida** para el código ni para el contenido. No se presenta como Apache, MIT, Creative Commons ni dominio público. Hasta que se publique una licencia explícita, no debe asumirse autorización de copia, modificación o redistribución más allá de lo permitido por la ley.
+- **Código, scripts, workflows y estilos propios:** [Apache License 2.0](LICENSE).
+- **Clases, documentación, ejercicios y material pedagógico original:** [CC BY-NC-SA 4.0](LICENSE-CONTENT.md).
+- **Catálogos y registros:** [licencias de datos](DATA_LICENSES.md).
+- **Marca, PDF, lector y salidas:** [licencias de activos](ASSET_LICENSES.md).
+- **Obras y herramientas externas:** conservan sus propios derechos; consulta [avisos de terceros](THIRD_PARTY_NOTICES.md).
 
-Las obras externas se enlazan y atribuyen; no se reproducen como contenido del programa. Consulta [Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md).
+Copyright © 2026 **Vladimir Acuña** (`vladimiracunadev-create`). Consulta también [marcas y nombres](TRADEMARKS.md), la [auditoría de licenciamiento](LICENSING_AUDIT.md) y [seguridad y ética profesional](docs/SEGURIDAD_Y_ETICA_PROFESIONAL.md). Las licencias no convierten una fuente externa en contenido propio ni conceden habilitación profesional.
 
 ## 🤝 Contribuir
 
@@ -330,4 +344,20 @@ La prioridad no es aumentar el número de clases. Es revisar especialidades, vig
 
 ---
 
-Hecho con vocación educativa y criterio de trazabilidad por [Vladimir Acuña](https://github.com/vladimiracunadev-create).
+<div align="center">
+
+**Hecho para quien quiere estudiar el entorno construido de principio a fin.**
+
+[⬆️ Volver al índice de clases](classes/README.md)
+
+<br>
+
+**¿Te resulta útil? ⭐ Dale una estrella al repositorio.**
+
+[![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/architecture-built-environment-learning-program?style=social)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vladimiracunadev-create/architecture-built-environment-learning-program?style=social)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/network/members)
+[![Follow](https://img.shields.io/github/followers/vladimiracunadev-create?style=social&label=Follow)](https://github.com/vladimiracunadev-create)
+
+Hecho con 🧠, arquitectura y criterio de trazabilidad por [Vladimir Acuña](https://github.com/vladimiracunadev-create).
+
+</div>

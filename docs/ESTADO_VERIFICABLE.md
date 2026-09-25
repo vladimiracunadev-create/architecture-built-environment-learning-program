@@ -38,14 +38,16 @@ La mediana es de **1.796 palabras por clase**; el corpus curricular supera **1,1
 
 | Superficie | Resultado |
 |---|---:|
-| Fichas de fuente | **611** |
-| Dominios de procedencia | **177** |
+| Relaciones clase–fuente derivadas | **1.939** |
+| URLs externas únicas en clases | **622** |
+| Dominios externos en clases | **189** |
+| Fichas editoriales navegables del lector v1.0 | **611** |
 | Clases con apartado de fuentes | **680/680** |
-| Fuentes sin URL | **0** |
+| Entradas del registro derivado sin URL | **0** |
 | Verificación periódica de disponibilidad externa | **no implementada** |
 | Revisión de vigencia normativa por jurisdicción | **pendiente** |
 
-Cada ficha distingue qué se consultó, qué afirmación apoya y qué no permite concluir. Una URL accesible no demuestra vigencia, aplicabilidad jurídica, lectura íntegra ni equivalencia entre jurisdicciones.
+Cada clase distingue qué se consultó, qué afirmación apoya y qué no permite concluir. `sources/bibliography.json` conecta cada URL con las clases que la usan. Las 611 fichas del lector son un inventario editorial histórico y navegable; no deben confundirse con las 622 URLs únicas derivadas del corpus actual.
 
 ## 4. Publicación y artefactos
 
@@ -66,7 +68,7 @@ Cada ficha distingue qué se consultó, qué afirmación apoya y qué no permite
 1. **Revisión externa por especialidades.** No se ha realizado una revisión integral por arquitectura, estructuras, geotecnia, instalaciones, incendio, accesibilidad, patrimonio, costos, construcción y operación.
 2. **Vigencia de fuentes externas.** El repositorio registra fuentes y límites, pero todavía no ejecuta una comprobación periódica de disponibilidad, sustitución o retiro.
 3. **Uniformidad editorial.** Resultados, continuidad, errores y autoevaluación no usan todavía la misma pauta en las 680 clases.
-4. **Licencia de publicación.** No se ha elegido una licencia para el contenido ni para los scripts. En ausencia de licencia, no se debe asumir permiso de reutilización.
+4. **Licencias y terceros.** Código propio bajo Apache-2.0 y contenido original bajo CC BY-NC-SA 4.0. Las obras externas conservan sus derechos y requieren revisar sus términos antes de reutilizarlas.
 5. **Lector offline histórico.** Conserva documentos de etapas anteriores. Cuando una afirmación histórica contradice el estado actual, este documento y las fuentes Markdown actuales prevalecen como marcador de estado.
 6. **Accesibilidad especializada.** El sitio usa HTML semántico, navegación por teclado y diseño adaptable; no cuenta aún con auditoría WCAG externa.
 
@@ -74,9 +76,9 @@ Cada ficha distingue qué se consultó, qué afirmación apoya y qué no permite
 
 ```bash
 python scripts/generate_curriculum_docs.py
+python scripts/build_bibliography.py
 python scripts/build_site.py
 python scripts/validate_repo.py
 ```
 
 El CI ejecuta el build y la validación en cada push y pull request. Que el CI esté en verde demuestra que las comprobaciones automatizadas pasaron; no demuestra corrección disciplinar de cada clase.
-

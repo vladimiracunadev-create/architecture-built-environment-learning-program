@@ -6,10 +6,17 @@ on:
     paths:
       - "classes/**"
       - "data/**"
+      - "sources/**"
       - "docs/**"
       - "assets/**"
       - "scripts/build_site.py"
       - "scripts/generate_curriculum_docs.py"
+      - "scripts/build_bibliography.py"
+      - "LICENSE*"
+      - "*_LICENSES.md"
+      - "THIRD_PARTY_NOTICES.md"
+      - "TRADEMARKS.md"
+      - "LICENSING_AUDIT.md"
       - "requirements-build.txt"
       - "programa-arquitectura-lector-definitivo-v1.0.html"
       - "*.pdf"
@@ -42,6 +49,7 @@ jobs:
       - name: Generar y validar sitio
         run: |
           python scripts/generate_curriculum_docs.py --check
+          python scripts/build_bibliography.py --check
           python scripts/build_site.py
           python scripts/validate_repo.py
       - name: Configurar Pages

@@ -24,9 +24,10 @@ Una contribución a una clase debe conservar su identificador `ARQ-XXX`, parte y
 1. Crea una rama descriptiva.
 2. Edita la fuente Markdown en `classes/`.
 3. Ejecuta `python scripts/generate_curriculum_docs.py --check`.
-4. Ejecuta `python scripts/build_site.py`.
-5. Ejecuta `python scripts/validate_repo.py`.
-6. Abre un pull request explicando el cambio, la evidencia y las superficies revisadas.
+4. Ejecuta `python scripts/build_bibliography.py --check`.
+5. Ejecuta `python scripts/build_site.py`.
+6. Ejecuta `python scripts/validate_repo.py`.
+7. Abre un pull request explicando el cambio, la evidencia y las superficies revisadas.
 
 El directorio `site/` es generado y no se versiona.
 

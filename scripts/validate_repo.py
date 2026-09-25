@@ -110,6 +110,45 @@ def main() -> int:
     if len(domains) != 177:
         fail(f"source-domain count changed: {len(domains)}")
 
+    bibliography = json.loads(
+        (ROOT / "sources" / "bibliography.json").read_text(encoding="utf-8")
+    )
+    bibliography_truth = (
+        bibliography["class_count"],
+        bibliography["citation_occurrences"],
+        bibliography["unique_sources"],
+        bibliography["unique_domains"],
+        len(bibliography["entries"]),
+    )
+    if bibliography_truth != (680, 1939, 622, 189, 622):
+        fail(f"derived bibliography changed: {bibliography_truth}")
+    for entry in bibliography["entries"]:
+        if not entry["locator"].startswith("https://") or not entry["used_in"]:
+            fail(f"incomplete bibliography entry: {entry['id']}")
+
+    for required_license in (
+        "LICENSE",
+        "LICENSE-CONTENT.md",
+        "DATA_LICENSES.md",
+        "ASSET_LICENSES.md",
+        "THIRD_PARTY_NOTICES.md",
+        "TRADEMARKS.md",
+        "LICENSING_AUDIT.md",
+    ):
+        if not (ROOT / required_license).is_file():
+            fail(f"missing license or notice: {required_license}")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    for marker in (
+        "Apache--2.0",
+        "CC%20BY--NC--SA%204.0",
+        "GitHub stars",
+        "GitHub forks",
+        "followers",
+        "Procedencia editorial",
+    ):
+        if marker not in readme:
+            fail(f"README is missing required publication marker: {marker}")
+
     forbidden = ("mÃ", "Ã¡", "Ã©", "Ã³", "Â·", "ðŸ", "â€“", "â€”")
     for path in ROOT.rglob("*.md"):
         if (
@@ -208,6 +247,12 @@ def main() -> int:
             "roles-y-oficios.html",
             "casos-integradores.html",
             "auditoria-documental.html",
+            "procedencia-editorial.html",
+            "licencias-y-derechos.html",
+            "matriz-paridad-referencia.html",
+            "seguridad-etica-profesional.html",
+            "bibliografia.html",
+            "sources/bibliography.json",
             ".nojekyll",
         ):
             if not (site / required).exists():
@@ -231,8 +276,8 @@ def main() -> int:
             fail("broken generated links:\n" + "\n".join(broken[:25]))
     print(
         "OK: 680 lessons · 68 parts · 755 resources · "
-        "69 curriculum README files · Markdown links · "
-        "checksums · UTF-8 · generated site"
+        "69 curriculum README files · 622 source URLs · licenses · "
+        "Markdown links · checksums · UTF-8 · generated site"
     )
     return 0
 
