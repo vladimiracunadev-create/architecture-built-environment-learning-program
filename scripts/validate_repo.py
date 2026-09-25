@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """Validate curriculum truth, UTF-8 text, generated pages and internal links."""
 
 from __future__ import annotations
@@ -19,6 +20,21 @@ EXPECTED_RESOURCES = {
     "documentos": 16,
     "rutas": 12,
 }
+APACHE_2_LICENSE_SHA256 = "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+REQUIRED_LEGAL_FILES = (
+    "LICENSE",
+    "LICENSE-CONTENT.md",
+    "DATA_LICENSES.md",
+    "ASSET_LICENSES.md",
+    "THIRD_PARTY_NOTICES.md",
+    "TRADEMARKS.md",
+    "LICENSING_AUDIT.md",
+    "DCO",
+    "docs/LICENSING_MATRIX.md",
+    "docs/COMMERCIAL_USE.md",
+    "docs/LICENSING_HISTORY.md",
+    "docs/NORMATIVE_BOUNDARY.md",
+)
 
 
 def fail(message: str) -> None:
@@ -125,18 +141,98 @@ def main() -> int:
     for entry in bibliography["entries"]:
         if not entry["locator"].startswith("https://") or not entry["used_in"]:
             fail(f"incomplete bibliography entry: {entry['id']}")
+        required_source_fields = {
+            "type",
+            "title",
+            "locator",
+            "publisher_or_author",
+            "authority_domain",
+            "license",
+            "redistribution",
+            "used_in",
+            "uses",
+        }
+        if not required_source_fields.issubset(entry):
+            fail(f"source traceability fields missing: {entry['id']}")
+        if entry["redistribution"] != "link-only":
+            fail(f"external source is not link-only: {entry['id']}")
+        if entry["license"].get("status") not in {"unknown", "declared-in-class"}:
+            fail(f"invalid source license status: {entry['id']}")
+        if entry["used_in"] != [use["class"] for use in entry["uses"]]:
+            fail(f"source use records disagree: {entry['id']}")
+        for use in entry["uses"]:
+            if set(use) != {
+                "class",
+                "function",
+                "consultation_scope",
+                "limitation",
+                "accessed_on",
+            }:
+                fail(f"incomplete per-class source record: {entry['id']}")
+    if bibliography.get("schema_version") != 2:
+        fail("bibliography must use traceability schema version 2")
 
-    for required_license in (
-        "LICENSE",
-        "LICENSE-CONTENT.md",
-        "DATA_LICENSES.md",
-        "ASSET_LICENSES.md",
-        "THIRD_PARTY_NOTICES.md",
-        "TRADEMARKS.md",
-        "LICENSING_AUDIT.md",
-    ):
+    for required_license in REQUIRED_LEGAL_FILES:
         if not (ROOT / required_license).is_file():
             fail(f"missing license or notice: {required_license}")
+    license_digest = hashlib.sha256((ROOT / "LICENSE").read_bytes()).hexdigest()
+    if license_digest != APACHE_2_LICENSE_SHA256:
+        fail("LICENSE is not the verified, unmodified Apache License 2.0 text")
+
+    code_files = sorted((ROOT / "scripts").glob("*.py")) + sorted(
+        (ROOT / ".github" / "workflows").glob("*.yml")
+    ) + [ROOT / ".github" / "pull_request_template.md"]
+    for path in code_files:
+        opening = "\n".join(path.read_text(encoding="utf-8").splitlines()[:5])
+        if "SPDX-License-Identifier: Apache-2.0" not in opening:
+            fail(f"missing Apache-2.0 SPDX identifier: {path.relative_to(ROOT)}")
+
+    assets_notice = (ROOT / "ASSET_LICENSES.md").read_text(encoding="utf-8")
+    assets = [path for path in (ROOT / "assets").rglob("*") if path.is_file()]
+    assets += [path for path in ROOT.glob("*.pdf") if path.is_file()]
+    assets += [
+        ROOT / "programa-arquitectura-lector-definitivo-v1.0.html",
+    ]
+    for path in assets:
+        relative = path.relative_to(ROOT).as_posix()
+        if f"`{relative}`" not in assets_notice:
+            fail(f"asset is not inventoried: {relative}")
+
+    data_notice = (ROOT / "DATA_LICENSES.md").read_text(encoding="utf-8")
+    datasets = sorted((ROOT / "data").glob("*.json")) + sorted(
+        (ROOT / "sources").glob("*.json")
+    ) + [ROOT / "STATUS_v1.0.json"]
+    for path in datasets:
+        relative = path.relative_to(ROOT).as_posix()
+        if f"`{relative}`" not in data_notice:
+            fail(f"dataset is not inventoried: {relative}")
+
+    content_license = (ROOT / "LICENSE-CONTENT.md").read_text(encoding="utf-8")
+    trademarks = (ROOT / "TRADEMARKS.md").read_text(encoding="utf-8")
+    matrix = (ROOT / "docs" / "LICENSING_MATRIX.md").read_text(encoding="utf-8")
+    if "Copyright © 2026 Vladimir Acuña" not in content_license:
+        fail("content copyright notice is missing")
+    for marker in ("assets/mark.svg", "CC BY-NC-SA 4.0", "no añade una restricción de copyright"):
+        if marker not in assets_notice + "\n" + trademarks:
+            fail(f"copyright/trademark boundary is missing: {marker}")
+    for marker in (
+        "scripts/*.py",
+        "classes/parte-XX/ARQ-XXX.md",
+        "sources/bibliography.json",
+        "programa-arquitectura-lector-definitivo-v1.0.html",
+        "site/",
+    ):
+        if marker not in matrix:
+            fail(f"licensing matrix is missing family: {marker}")
+
+    legal_text = "\n".join(
+        (ROOT / path).read_text(encoding="utf-8")
+        for path in REQUIRED_LEGAL_FILES
+        if path not in {"LICENSE", "DCO"}
+    )
+    placeholder = re.search(r"\b(?:TODO|TBD|PLACEHOLDER|INSERT HERE)\b", legal_text)
+    if placeholder:
+        fail(f"placeholder in licensing documents: {placeholder.group(0)}")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     for marker in (
         "Apache--2.0",
@@ -145,6 +241,8 @@ def main() -> int:
         "GitHub forks",
         "followers",
         "Procedencia editorial",
+        "matriz real de licencias",
+        "Uso comercial",
     ):
         if marker not in readme:
             fail(f"README is missing required publication marker: {marker}")
@@ -249,6 +347,10 @@ def main() -> int:
             "auditoria-documental.html",
             "procedencia-editorial.html",
             "licencias-y-derechos.html",
+            "matriz-licencias.html",
+            "uso-comercial.html",
+            "historia-licencias.html",
+            "frontera-normativa.html",
             "matriz-paridad-referencia.html",
             "seguridad-etica-profesional.html",
             "bibliografia.html",
@@ -274,9 +376,12 @@ def main() -> int:
                     broken.append(f"{page.relative_to(site)} -> {raw}")
         if broken:
             fail("broken generated links:\n" + "\n".join(broken[:25]))
+        generated_notice = (site / "index.html").read_text(encoding="utf-8")
+        if "Cada componente conserva su régimen" not in generated_notice:
+            fail("generated site is missing the layered-license notice")
     print(
         "OK: 680 lessons · 68 parts · 755 resources · "
-        "69 curriculum README files · 622 source URLs · licenses · "
+        "69 curriculum README files · 622 source URLs · licensing matrix · "
         "Markdown links · checksums · UTF-8 · generated site"
     )
     return 0

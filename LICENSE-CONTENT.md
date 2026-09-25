@@ -33,4 +33,6 @@ No quedan relicenciados:
 - contenido identificado con otra licencia o sujeto a términos de su titular;
 - hechos, ideas, métodos, fórmulas o requisitos que no estén protegidos por derecho de autor.
 
+La licencia CC no concede derechos de marca ni permite afirmar patrocinio o carácter oficial. Esa separación no añade restricciones de copyright a la licencia: las adaptaciones siguen pudiendo modificar el material bajo sus condiciones, mientras el uso de nombres e identificadores se analiza de forma independiente. Consulta [TRADEMARKS.md](TRADEMARKS.md).
+
 Consulta [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), [DATA_LICENSES.md](DATA_LICENSES.md), [ASSET_LICENSES.md](ASSET_LICENSES.md), [TRADEMARKS.md](TRADEMARKS.md), la [auditoría de licenciamiento](LICENSING_AUDIT.md) y la [procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md).

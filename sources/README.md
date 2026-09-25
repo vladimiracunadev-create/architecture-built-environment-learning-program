@@ -9,7 +9,9 @@ Este directorio responde de forma auditable a **qué fuentes utiliza cada clase*
 | URLs externas únicas | **622** |
 | Dominios únicos | **189** |
 
-El registro completo está en [`bibliography.json`](bibliography.json). Cada entrada contiene el localizador, un título editorial recuperado, el dominio de autoridad y todas las clases que lo usan.
+El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v2 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza.
+
+La política conservadora es `redistribution: link-only`. Cuando la licencia no consta se registra como `unknown`; eso no significa dominio público ni permiso para copiar.
 
 ## Procedencias más frecuentes
 

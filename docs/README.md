@@ -16,6 +16,10 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 - [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md) — procedencia, categorías, límites y criterio de actualización.
 - [Procedencia editorial](PROCEDENCIA_EDITORIAL.md) — origen de la secuencia, las indicaciones, los ejercicios y las clases.
 - [Licencias y derechos](LICENCIAS_Y_DERECHOS.md) — separación entre código, contenido, datos, activos y terceros.
+- [Matriz real de licencias](LICENSING_MATRIX.md) — alcance, procedencia, permisos y generación por familia de archivos.
+- [Uso comercial](COMMERCIAL_USE.md) — relación entre Apache-2.0, CC BY-NC-SA 4.0 y permisos separados.
+- [Historia del régimen](LICENSING_HISTORY.md) — revisiones históricas sin licencia explícita y adopción del modelo actual.
+- [Frontera normativa](NORMATIVE_BOUNDARY.md) — diferencia entre conocimiento didáctico y documento técnico oficial.
 - [Seguridad y ética profesional](SEGURIDAD_Y_ETICA_PROFESIONAL.md) — límites para obras, emergencias, personas, patrimonio e IA.
 - [Auditoría documental de la referencia](AUDITORIA_DOCUMENTAL_REFERENCIA.md) — qué patrones se estudiaron y cuáles se descartaron por no corresponder a este contexto.
 - [Matriz de paridad con la referencia](MATRIZ_PARIDAD_REFERENCIA.md) — comprobación explícita de elementos aplicados, adaptados y no aplicables.

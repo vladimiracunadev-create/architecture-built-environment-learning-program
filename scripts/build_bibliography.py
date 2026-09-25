@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """Build a central source registry from the 680 class Markdown files."""
 
 from __future__ import annotations
@@ -16,6 +17,15 @@ OUT_JSON = ROOT / "sources" / "bibliography.json"
 OUT_README = ROOT / "sources" / "README.md"
 SOURCE_HEADING = "## Fuentes y alcance de uso"
 URL_RE = re.compile(r"https?://[^\s)>\]]+")
+DATE_RE = re.compile(
+    r"\b(?:[0-3]?\d[-/]\d{1,2}[-/]20\d{2}|[0-3]?\d\s+de\s+"
+    r"(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\s+de\s+20\d{2})\b",
+    re.IGNORECASE,
+)
+LICENSE_RE = re.compile(
+    r"\b(Apache-2\.0|BSD-3-Clause|CC BY(?:-NC)?(?:-SA)? 4\.0|CC0-1\.0)\b",
+    re.IGNORECASE,
+)
 
 
 def class_files() -> list[Path]:
@@ -38,7 +48,19 @@ def clean_label(value: str) -> str:
 
 
 def title_for(lines: list[str], index: int) -> str:
+    for offset in range(1, 4):
+        if index - offset < 0:
+            break
+        raw = lines[index - offset].strip()
+        if raw.startswith("### "):
+            candidate = clean_label(raw)
+            if candidate:
+                return candidate
+        if raw and not raw.startswith(("Consulta", "Uso", "**Consulta", "**Apoyo", "**Límite")):
+            break
     current = clean_label(lines[index])
+    if " — " in current:
+        current = current.split(" — ", 1)[0].strip()
     if len(current) >= 8:
         return current
     for offset in range(1, 5):
@@ -48,6 +70,61 @@ def title_for(lines: list[str], index: int) -> str:
         if candidate and not candidate.lower().startswith(("uso y límite", "consulta:", "apoyo:", "límite:")):
             return candidate
     return "Fuente externa"
+
+
+def publisher_or_author_for(lines: list[str], index: int, domain: str) -> dict:
+    current = clean_label(lines[index])
+    if " — " in current:
+        value = current.rsplit(" — ", 1)[-1].strip(" .")
+        if value:
+            return {"name": value, "basis": "class-text"}
+    for offset in range(1, 4):
+        if index - offset < 0:
+            break
+        raw = lines[index - offset].strip()
+        if raw.startswith("### "):
+            value = current.strip(" .")
+            if value:
+                return {"name": value, "basis": "class-text"}
+        if raw:
+            break
+    return {"name": domain, "basis": "authority-domain-inferred"}
+
+
+def source_context(lines: list[str], index: int) -> str:
+    selected = [lines[index]]
+    for line in lines[index + 1 : index + 6]:
+        stripped = line.strip()
+        if URL_RE.search(line) or stripped.startswith(("### ", "- **[[", "- **[")):
+            break
+        selected.append(line)
+    return "\n".join(selected)
+
+
+def labeled_value(text: str, labels: tuple[str, ...]) -> str | None:
+    alternatives = "|".join(re.escape(label) for label in labels)
+    match = re.search(
+        rf"(?:\*\*)?(?:{alternatives})(?:\*\*)?\s*:\s*(.+?)(?=(?:\s+\*\*)?(?:Consulta|Apoyo|Uso|Alcance de consulta|Límite)(?:\*\*)?\s*:|$)",
+        text.replace("\n", " "),
+        re.IGNORECASE,
+    )
+    return clean_label(match.group(1)) if match else None
+
+
+def consultation_date(text: str) -> str | None:
+    candidates = []
+    for match in re.finditer(r"consult\w{0,20}.{0,45}", text, re.IGNORECASE):
+        date = DATE_RE.search(match.group(0))
+        if date:
+            candidates.append(date.group(0))
+    return candidates[-1] if candidates else None
+
+
+def declared_license(text: str) -> dict:
+    match = LICENSE_RE.search(text)
+    if not match:
+        return {"status": "unknown", "identifier": None}
+    return {"status": "declared-in-class", "identifier": match.group(1)}
 
 
 def source_type(domain: str) -> str:
@@ -73,6 +150,7 @@ def build_registry() -> dict:
             raise SystemExit(f"missing source section: {path.relative_to(ROOT)}")
         section = text.split(SOURCE_HEADING, 1)[1]
         lines = section.splitlines()
+        class_accessed_on = consultation_date(section)
         relative = path.relative_to(ROOT).as_posix()
         seen_in_class: set[str] = set()
         for index, line in enumerate(lines):
@@ -83,6 +161,7 @@ def build_registry() -> dict:
                 seen_in_class.add(url)
                 citations += 1
                 domain = urlparse(url).netloc.lower().removeprefix("www.")
+                context = source_context(lines, index)
                 record = records.setdefault(
                     url,
                     {
@@ -90,26 +169,40 @@ def build_registry() -> dict:
                         "type": source_type(domain),
                         "title": title_for(lines, index),
                         "locator": url,
+                        "publisher_or_author": publisher_or_author_for(lines, index, domain),
                         "authority_domain": domain,
                         "status": "registrada-no-verificada-en-vivo",
+                        "license": declared_license(context),
+                        "redistribution": "link-only",
                         "used_in": [],
+                        "uses": [],
                     },
                 )
                 if relative not in record["used_in"]:
                     record["used_in"].append(relative)
+                    record["uses"].append(
+                        {
+                            "class": relative,
+                            "function": labeled_value(context, ("Apoyo", "Uso", "Uso y límite")),
+                            "consultation_scope": labeled_value(context, ("Consulta", "Alcance de consulta")),
+                            "limitation": labeled_value(context, ("Límite",)),
+                            "accessed_on": consultation_date(context) or class_accessed_on,
+                        }
+                    )
 
     entries = sorted(records.values(), key=lambda item: (item["authority_domain"], item["title"], item["locator"]))
     for entry in entries:
         entry["usage_count"] = len(entry["used_in"])
 
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_from": "classes/parte-XX/ARQ-XXX.md",
-        "generated_on": "2026-09-24",
+        "generated_on": "2026-09-25",
         "policy": (
             "Registro derivado de las secciones 'Fuentes y alcance de uso'. "
             "Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, "
-            "aplicabilidad normativa ni respaldo institucional."
+            "aplicabilidad normativa, permiso de redistribución ni respaldo institucional. "
+            "Si no consta una licencia, se registra como desconocida y se conserva sólo el enlace."
         ),
         "class_count": len(files),
         "citation_occurrences": citations,
@@ -133,7 +226,9 @@ Este directorio responde de forma auditable a **qué fuentes utiliza cada clase*
 | URLs externas únicas | **{registry['unique_sources']}** |
 | Dominios únicos | **{registry['unique_domains']}** |
 
-El registro completo está en [`bibliography.json`](bibliography.json). Cada entrada contiene el localizador, un título editorial recuperado, el dominio de autoridad y todas las clases que lo usan.
+El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v2 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza.
+
+La política conservadora es `redistribution: link-only`. Cuando la licencia no consta se registra como `unknown`; eso no significa dominio público ni permiso para copiar.
 
 ## Procedencias más frecuentes
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """Recover the 680 Markdown lessons embedded in the definitive v1.0 reader."""
 
 from __future__ import annotations

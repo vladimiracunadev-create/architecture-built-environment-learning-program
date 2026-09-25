@@ -1,6 +1,6 @@
 # Avisos de terceros
 
-Inventario revisado el **2026-09-24**. Este documento no sustituye los textos de licencia o términos publicados por cada titular.
+Inventario revisado el **2026-09-25**. Este documento no sustituye los textos de licencia o términos publicados por cada titular.
 
 ## Herramientas de generación
 
@@ -18,7 +18,8 @@ El repositorio no incorpora copias de las obras utilizadas como fuentes del curr
 
 Entre las familias citadas se encuentran ISO, UNESCO, UIA, RIBA, organismos públicos chilenos, universidades, museos, organizaciones multilaterales y documentación técnica. La presencia de una referencia no implica patrocinio, acreditación ni validación del programa.
 
+Referenciar una norma no la relicencia; registrar un parámetro no autoriza trasladarlo a una obra; y una explicación pedagógica no sustituye el documento oficial, su edición vigente ni la responsabilidad profesional. La frontera operativa está en [docs/NORMATIVE_BOUNDARY.md](docs/NORMATIVE_BOUNDARY.md).
+
 ## Obligación al contribuir
 
 Antes de añadir un activo, texto extenso o dataset de terceros, documenta titular, URL, licencia o permiso, alcance de reutilización y cambios realizados. Si la licencia no está clara, enlaza el recurso en vez de copiarlo.
-

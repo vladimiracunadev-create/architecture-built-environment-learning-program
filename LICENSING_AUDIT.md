@@ -1,56 +1,61 @@
-# Auditoría de licenciamiento
+# Auditoría de licenciamiento de segundo nivel
 
-**Corte:** 24 de septiembre de 2026  
-**Naturaleza:** revisión documental del repositorio; no es asesoría jurídica.
+**Corte:** 25 de septiembre de 2026
+**Naturaleza:** revisión técnica, documental y automatizada del repositorio; no es una opinión legal.
 
 ## Resultado ejecutivo
 
-La publicación actual separa las superficies que el repositorio puede licenciar:
-
-- código, scripts, workflows, configuraciones y estilos propios: Apache-2.0;
-- clases, documentación y material pedagógico original: CC BY-NC-SA 4.0;
-- datos y activos: inventarios específicos;
-- referencias, normas y material externo: derechos y términos de sus titulares.
+Se conserva el modelo existente: Apache-2.0 para código propio; CC BY-NC-SA 4.0 para contenido pedagógico original; inventarios específicos para datos y activos; derechos de sus titulares para terceros; y protección de marca separada. La revisión no cambia el número de clases, partes ni la estructura pedagógica.
 
 ## Evidencia examinada
 
-- 680 clases Markdown y 68 índices de parte;
-- scripts, workflows, catálogo y sitio generado;
-- lector HTML y PDF de la entrega v1.0;
-- 622 URLs externas derivadas de las secciones de fuentes;
-- archivos gráficos versionados;
-- historial Git disponible y documentos legales de la referencia indicada por el autor.
+- árbol completo versionado, 680 clases y 68 README de parte;
+- archivos legales, README, documentación, clases, fuentes, datos, scripts, activos y workflows;
+- dos PDF, lector offline, generador de GitHub Pages y salida `site/` reconstruida;
+- seis commits históricos previos a esta revisión, ramas remotas y autores de commit observables;
+- 622 URLs externas únicas y 1.939 relaciones clase–fuente;
+- pipeline local y workflows de `main`.
 
-## Hallazgos y resolución
+## RESUELTO
 
-| Hallazgo | Resolución |
-|---|---|
-| El repositorio no declaraba licencia | se añadieron `LICENSE` y `LICENSE-CONTENT.md` |
-| Código y contenido tenían naturalezas distintas | se separaron Apache-2.0 y CC BY-NC-SA 4.0 |
-| Datos, PDF, marca y lector no estaban inventariados | se añadieron `DATA_LICENSES.md` y `ASSET_LICENSES.md` |
-| Las referencias podían confundirse con contenido licenciado | se añadieron avisos de terceros y registro central |
-| No había política de marcas o respaldo institucional | se añadió `TRADEMARKS.md` |
-| Faltaba atribución sugerida | se incorporó en `LICENSE-CONTENT.md` |
+- `LICENSE` coincide por SHA-256 (`c95bae1d…ccefe2c`) con el texto completo de Apache License 2.0 usado por el proyecto y el validador detecta cualquier alteración.
+- [La matriz real](docs/LICENSING_MATRIX.md) delimita por familias código, 680 clases, 68 índices de parte, documentación, catálogos, datos, SVG, PDF, lector offline y sitio generado.
+- Los cinco scripts y dos workflows propios llevan `SPDX-License-Identifier: Apache-2.0`; no se añadieron encabezados repetitivos a las 680 clases.
+- El contenido CC se limita a la expresión pedagógica original y excluye normas, documentación institucional, papers, libros, planos, fotografías, fabricantes y demás material externo.
+- El registro de fuentes usa esquema v2: título, autor u organización declarada o dominio inferido, URL, tipo, uso por clase, alcance, límite, fecha cuando consta, estado de licencia y política de redistribución.
+- Las 622 licencias externas permanecen `unknown` porque las clases no aportan una declaración verificable de licencia; por ello los 622 registros se marcan `link-only` y no se presume derecho de copia.
+- La [frontera normativa](docs/NORMATIVE_BOUNDARY.md) separa conocimiento didáctico de documento técnico oficial y de habilitación profesional.
+- `assets/mark.svg` queda coherentemente descrito como obra gráfica CC BY-NC-SA 4.0 y, en paralelo, identificador cuya marca no queda licenciada. No se añaden restricciones de copyright incompatibles con CC.
+- PDF, lector y sitio se documentan como artefactos por capas; generar o empaquetar no crea una licencia única nueva.
+- [Uso comercial](docs/COMMERCIAL_USE.md) explica el código Apache, la limitación NC del contenido público, permisos separados y posibles aplicaciones externas.
+- [Contribuciones](CONTRIBUTING.md) asigna código a Apache-2.0 y contenido a CC BY-NC-SA 4.0, exige derechos suficientes y adopta DCO 1.1 para procedencia de código sin introducir un CLA.
+- [Historia de licencias](docs/LICENSING_HISTORY.md) conserva como no licenciadas explícitamente las revisiones `8037bf0f86` a `b9b4421dca` y registra la adopción del régimen en `6165418bcf` sin retroactividad inventada.
+- `scripts/validate_repo.py` comprueba archivos legales, texto Apache, SPDX, enlaces, inventarios, esquema de fuentes, marca, capas generadas, copyright, placeholders, conteos, hashes y UTF-8; CI lo ejecuta antes y después de generar el sitio.
 
-## Historial y alcance temporal
+## RIESGO RESIDUAL
 
-Las licencias explícitas se incorporan en esta revisión. Las revisiones anteriores del repositorio no contenían una licencia declarada; este documento no inventa una licencia histórica. La edición actual sí se distribuye con los términos incluidos en sus archivos de licencia.
+- La trazabilidad automática extrae 1.872 funciones, 1.482 alcances, 1.734 límites y 1.055 fechas de las 1.939 relaciones. Los valores ausentes permanecen `null`; no se inventan metadatos.
+- La disponibilidad, vigencia, versión y términos de las URLs externas pueden cambiar.
+- Los PDF y el lector histórico sólo pueden auditarse hasta la procedencia documentada y sus hashes; su formato compuesto dificulta la señalización a nivel de fragmento.
+- Los workflows usan versiones mayores de acciones de GitHub, no SHAs inmutables. Esto es un riesgo de cadena de suministro, no una contradicción del modelo de licencias.
+- La rama `main` no está protegida por reglas remotas en el corte observado; el CI verde reduce errores, pero no obliga técnicamente a pasarlo antes de cada push.
 
-## Riesgos residuales
+## REQUIERE REVISIÓN HUMANA
 
-- La autoría se apoya en la atribución del repositorio y su historial; no se ejecutó una investigación externa de titularidad.
-- Las fuentes externas se enlazan, pero sus términos y vigencia pueden cambiar.
-- Los PDF y el lector contienen material generado a partir del programa; cualquier fragmento externo identificado conserva sus derechos.
-- No se realizó una opinión legal independiente ni una búsqueda de marcas registradas.
+- confirmar autoría y permisos cuando se aporte texto, datos o activos nuevos;
+- revisar periódicamente las fuentes de mayor impacto y registrar licencia sólo con evidencia del titular;
+- inspeccionar visualmente cambios futuros en PDF, SVG, lector y Pages;
+- evaluar si una modificación de `mark.svg` o del nombre puede generar confusión sobre oficialidad;
+- revisar contribuciones educativas firmadas, porque DCO está diseñado principalmente para procedencia de código y la aceptación del contenido depende además de la declaración CC de `CONTRIBUTING.md`.
 
-## Validación ejecutada
+## REQUIERE EVENTUAL REVISIÓN JURÍDICA
 
-El validador exige la presencia de licencias, avisos, badges, bibliografía y páginas HTML correspondientes. También verifica enlaces internos, hashes de los artefactos históricos y codificación UTF-8.
+- solicitudes de uso comercial del contenido, doble licencia o acuerdos de distribución;
+- adopción futura de CLA si se desea relicenciar contribuciones de terceros; no debe presumirse efecto retroactivo;
+- búsqueda, registro o defensa de marca y criterios de uso nominativo en jurisdicciones concretas;
+- reutilización sustancial de normas, documentación técnica, imágenes, planos, bases de datos o material con licencia desconocida;
+- análisis de una obra o despliegue profesional real, que queda fuera de esta auditoría.
 
-## Controles de mantenimiento
+## Criterio de mantenimiento
 
-1. Registrar licencia y procedencia antes de incorporar un activo o dataset.
-2. Enlazar obras externas cuando no exista permiso claro para copiarlas.
-3. Regenerar la bibliografía después de modificar fuentes.
-4. No cambiar licencias de contenido aportado por terceros sin autorización.
-5. Actualizar esta auditoría cuando cambie el régimen de distribución.
+La automatización prueba consistencia y presencia, no titularidad ni legalidad. Todo activo o dataset nuevo debe registrarse antes de incorporarse; toda fuente sin permiso claro debe enlazarse; y cualquier cambio del régimen requiere actualizar conjuntamente matriz, inventarios, historia, auditoría, contribuciones y validador.

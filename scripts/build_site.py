@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """Build the GitHub Pages site from the Markdown source of all lessons."""
 
 from __future__ import annotations
@@ -58,6 +59,22 @@ DOC_PAGES = {
     "LICENCIAS_Y_DERECHOS.md": (
         "licencias-y-derechos.html",
         "Licencias y derechos",
+    ),
+    "LICENSING_MATRIX.md": (
+        "matriz-licencias.html",
+        "Matriz real de licencias",
+    ),
+    "COMMERCIAL_USE.md": (
+        "uso-comercial.html",
+        "Uso comercial",
+    ),
+    "LICENSING_HISTORY.md": (
+        "historia-licencias.html",
+        "Historia del régimen de licencias",
+    ),
+    "NORMATIVE_BOUNDARY.md": (
+        "frontera-normativa.html",
+        "Frontera didáctica y normativa",
     ),
     "MATRIZ_PARIDAD_REFERENCIA.md": (
         "matriz-paridad-referencia.html",
@@ -179,7 +196,7 @@ def shell(title: str, body: str, *, description: str = "", prefix: str = "") -> 
 <title>{safe_title}</title><link rel="icon" href="{prefix}assets/mark.svg"><link rel="stylesheet" href="{prefix}assets/site.css"></head>
 <body><a class="skip" href="#main">Saltar al contenido</a><header class="topbar"><div class="inner">
 <a class="brand" href="{prefix}index.html">⌂ ARQ · 680</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}documentacion.html">Documentación</a><a href="{prefix}recursos.html">Recursos</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
-</div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Copyright © 2026 Vladimir Acuña · contenido <a href="{REPO_URL}/blob/main/LICENSE-CONTENT.md">CC BY-NC-SA 4.0</a> · código <a href="{REPO_URL}/blob/main/LICENSE">Apache-2.0</a>.<br>Material educativo independiente: no otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><strong>¿Te resulta útil? <a href="{STARS_URL}">⭐ Dale una estrella</a></strong><br><a href="{prefix}catalogo.html">680 clases</a> · <a href="{prefix}procedencia-editorial.html">Procedencia</a> · <a href="{prefix}licencias-y-derechos.html">Licencias</a> · <a href="{REPO_URL}">GitHub</a></small></div></footer></body></html>"""
+</div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Cada componente conserva su régimen: contenido original <a href="{REPO_URL}/blob/main/LICENSE-CONTENT.md">CC BY-NC-SA 4.0</a>, código propio <a href="{REPO_URL}/blob/main/LICENSE">Apache-2.0</a> y referencias externas bajo derechos de sus titulares.<br>Material educativo independiente: no otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><strong>¿Te resulta útil? <a href="{STARS_URL}">⭐ Dale una estrella</a></strong><br><a href="{prefix}catalogo.html">680 clases</a> · <a href="{prefix}procedencia-editorial.html">Procedencia</a> · <a href="{prefix}licencias-y-derechos.html">Licencias</a> · <a href="{REPO_URL}">GitHub</a></small></div></footer></body></html>"""
 
 
 def write(relative: str, content: str) -> None:
@@ -300,6 +317,26 @@ def documentation_portal() -> str:
                 "LICENCIAS_Y_DERECHOS.md",
                 DOC_PAGES["LICENCIAS_Y_DERECHOS.md"],
                 "código, contenido, datos, activos y material de terceros",
+            ),
+            (
+                "LICENSING_MATRIX.md",
+                DOC_PAGES["LICENSING_MATRIX.md"],
+                "alcance, origen, permisos y generación de cada familia",
+            ),
+            (
+                "COMMERCIAL_USE.md",
+                DOC_PAGES["COMMERCIAL_USE.md"],
+                "código comercial, contenido no comercial y permisos separados",
+            ),
+            (
+                "LICENSING_HISTORY.md",
+                DOC_PAGES["LICENSING_HISTORY.md"],
+                "revisiones sin licencia explícita y evolución del régimen",
+            ),
+            (
+                "NORMATIVE_BOUNDARY.md",
+                DOC_PAGES["NORMATIVE_BOUNDARY.md"],
+                "diferencia entre explicación didáctica y documento oficial",
             ),
             (
                 "MATRIZ_PARIDAD_REFERENCIA.md",

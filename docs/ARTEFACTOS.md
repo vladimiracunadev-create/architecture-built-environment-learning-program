@@ -14,6 +14,10 @@
 
 El repositorio conserva [`SHA256SUMS.txt`](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/SHA256SUMS.txt) para comprobar los entregables originales. El workflow de integración continua vuelve a verificar esos hashes en cada cambio.
 
+## Licencias por componente
+
+Generar o empaquetar no relicencia. El sitio, lector offline y PDF pueden contener simultáneamente código Apache-2.0, contenido pedagógico CC BY-NC-SA 4.0 y referencias o componentes externos bajo derechos de sus titulares. Cada capa conserva el régimen de su fuente; no se declara el contenedor completo bajo una sola licencia. Consulta la [matriz real](LICENSING_MATRIX.md) y el [inventario de activos](../ASSET_LICENSES.md).
+
 ## Fuente editable
 
 Las 680 clases viven en `classes/parte-XX/ARQ-XXX.md`. El sitio se regenera con:

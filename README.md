@@ -18,7 +18,7 @@
 
 [🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Currículo completo](classes/README.md) · [🚀 Cómo usarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [📖 Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md) · [✅ Estado real](docs/ESTADO_VERIFICABLE.md)
 
-[🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md) · [👷 Roles y oficios](docs/ROLES_Y_OFICIOS.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [🧾 Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md) · [⚖️ Licencias](docs/LICENCIAS_Y_DERECHOS.md)
+[🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md) · [👷 Roles y oficios](docs/ROLES_Y_OFICIOS.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [🧾 Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md) · [⚖️ Licencias](docs/LICENCIAS_Y_DERECHOS.md) · [🏷️ Uso comercial](docs/COMMERCIAL_USE.md)
 
 </div>
 
@@ -328,7 +328,9 @@ El validador exige ARQ-001–680, diez clases por parte, estado coherente, hashe
 - **Marca, PDF, lector y salidas:** [licencias de activos](ASSET_LICENSES.md).
 - **Obras y herramientas externas:** conservan sus propios derechos; consulta [avisos de terceros](THIRD_PARTY_NOTICES.md).
 
-Copyright © 2026 **Vladimir Acuña** (`vladimiracunadev-create`). Consulta también [marcas y nombres](TRADEMARKS.md), la [auditoría de licenciamiento](LICENSING_AUDIT.md) y [seguridad y ética profesional](docs/SEGURIDAD_Y_ETICA_PROFESIONAL.md). Las licencias no convierten una fuente externa en contenido propio ni conceden habilitación profesional.
+La [matriz real de licencias](docs/LICENSING_MATRIX.md) clasifica cada familia y las capas de los artefactos generados. Consulta también [uso comercial](docs/COMMERCIAL_USE.md), [historia del régimen](docs/LICENSING_HISTORY.md), [frontera normativa](docs/NORMATIVE_BOUNDARY.md), [marcas y nombres](TRADEMARKS.md), la [auditoría de licenciamiento](LICENSING_AUDIT.md) y [seguridad y ética profesional](docs/SEGURIDAD_Y_ETICA_PROFESIONAL.md).
+
+Copyright © 2026 **Vladimir Acuña** (`vladimiracunadev-create`). Las licencias no convierten una fuente externa en contenido propio, no relicencian normas o documentación ajena y no conceden habilitación profesional.
 
 ## 🤝 Contribuir
 

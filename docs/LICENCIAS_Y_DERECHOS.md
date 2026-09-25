@@ -10,4 +10,6 @@ El repositorio separa código, contenido, datos, activos y material de terceros.
 | Marca, PDF, lector y salidas visuales | [Licencias de activos](../ASSET_LICENSES.md) |
 | Normas, artículos, libros, sitios y herramientas externas | [Avisos de terceros](../THIRD_PARTY_NOTICES.md) y términos de cada titular |
 
-Las licencias del proyecto no convierten una referencia externa en contenido propio ni conceden habilitación profesional. Consulta también [Marcas y nombres](../TRADEMARKS.md), la [auditoría de licenciamiento](../LICENSING_AUDIT.md), [Procedencia editorial](PROCEDENCIA_EDITORIAL.md) y [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md).
+La clasificación detallada por familia, permisos y origen está en la [matriz real de licencias](LICENSING_MATRIX.md). Las salidas generadas conservan las licencias de sus componentes: un HTML, PDF o sitio no queda simplistamente bajo una sola licencia cuando mezcla código, contenido y referencias externas.
+
+Las licencias del proyecto no convierten una referencia externa en contenido propio ni conceden habilitación profesional. Consulta también [Marcas y nombres](../TRADEMARKS.md), [Uso comercial](COMMERCIAL_USE.md), [Historia del régimen](LICENSING_HISTORY.md), [Frontera normativa](NORMATIVE_BOUNDARY.md), la [auditoría de licenciamiento](../LICENSING_AUDIT.md), [Procedencia editorial](PROCEDENCIA_EDITORIAL.md) y [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md).
