@@ -39,6 +39,19 @@ RESOURCE_TYPES = {
     "fuente": ("fuentes", "Fuentes", "referencias con apoyo y límites de uso"),
 }
 
+DOC_PAGES = {
+    "ESTADO_VERIFICABLE.md": ("estado.html", "Estado verificable"),
+    "FUENTES_Y_EVIDENCIA.md": ("fuentes-y-evidencia.html", "Fuentes y evidencia"),
+    "COMO_USAR_EL_PROGRAMA.md": ("como-usar.html", "Cómo usar el programa"),
+    "RUTAS_DE_APRENDIZAJE.md": ("rutas-de-aprendizaje.html", "Rutas de aprendizaje"),
+    "ROLES_Y_OFICIOS.md": ("roles-y-oficios.html", "Roles y oficios"),
+    "CASOS_INTEGRADORES.md": ("casos-integradores.html", "Casos integradores"),
+    "AUDITORIA_DOCUMENTAL_REFERENCIA.md": (
+        "auditoria-documental.html",
+        "Auditoría documental de la referencia",
+    ),
+}
+
 
 def load_catalog() -> list[dict]:
     return json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
@@ -99,6 +112,33 @@ def render_markdown(text: str) -> str:
     )
 
 
+def render_document_markdown(text: str) -> str:
+    rendered = render_markdown(text)
+    for filename, (slug, _title) in DOC_PAGES.items():
+        rendered = rendered.replace(f'href="{filename}"', f'href="{slug}"')
+    return (
+        rendered.replace('href="../classes/README.md"', 'href="partes/index.html"')
+        .replace('href="../README.md"', 'href="index.html"')
+    )
+
+
+def render_part_markdown(text: str) -> str:
+    rendered = render_markdown(text)
+    rendered = re.sub(
+        r'href="ARQ-(\d{3})\.md"',
+        lambda match: f'href="../clases/arq-{match.group(1)}.html"',
+        rendered,
+        flags=re.I,
+    )
+    rendered = re.sub(
+        r'href="\.\./parte-(\d{2})/README\.md"',
+        lambda match: f'href="parte-{match.group(1)}.html"',
+        rendered,
+        flags=re.I,
+    )
+    return rendered.replace('href="../README.md"', 'href="index.html"')
+
+
 def shell(title: str, body: str, *, description: str = "", prefix: str = "") -> str:
     safe_title = html.escape(title)
     safe_description = html.escape(description or "Programa integral de arquitectura, construcción y entorno habitado.")
@@ -109,7 +149,7 @@ def shell(title: str, body: str, *, description: str = "", prefix: str = "") -> 
 <meta property="og:type" content="website"><meta property="og:url" content="{PAGES_URL}">
 <title>{safe_title}</title><link rel="icon" href="{prefix}assets/mark.svg"><link rel="stylesheet" href="{prefix}assets/site.css"></head>
 <body><a class="skip" href="#main">Saltar al contenido</a><header class="topbar"><div class="inner">
-<a class="brand" href="{prefix}index.html">⌂ ARQ · 680</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}recursos.html">Recursos</a><a href="{prefix}metodo.html">Método</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
+<a class="brand" href="{prefix}index.html">⌂ ARQ · 680</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}documentacion.html">Documentación</a><a href="{prefix}recursos.html">Recursos</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
 </div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Material educativo independiente. No otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><a href="{prefix}catalogo.html">680 clases</a> · <a href="{prefix}metodo.html">Alcance</a> · <a href="{REPO_URL}">Código fuente</a></small></div></footer></body></html>"""
 
 
@@ -139,7 +179,7 @@ def landing(catalog: list[dict], entries: list[dict], titles: dict[int, str]) ->
     )
     body = f"""<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición definitiva v1.0 · Español · 24 septiembre 2026</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Del encargo al uso, la conservación y el fin de vida. Un programa secuencial para estudiar personas, lugar, historia, materia, técnica, recursos, operación y tiempo.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las 680 clases</a><a class="button" href="#estado">Comprobar el estado</a></div></div></section>
 <div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>680</strong><span>clases completas</span></div><div class="stat"><strong>68</strong><span>partes · 10 clases cada una</span></div><div class="stat"><strong>1.435</strong><span>entradas navegables</span></div><div class="stat"><strong>0</strong><span>clases pendientes</span></div></section>
-<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado verificable</p><h2>Qué está completo y qué sigue abierto</h2><p class="lede">Estas cifras se calculan desde el catálogo, el lector v1.0 y los archivos fuente. El programa declara sus límites en vez de convertir una entrega editorial en acreditación profesional.</p><table class="status-table"><thead><tr><th>Superficie</th><th>Estado</th><th>Evidencia pública</th></tr></thead><tbody><tr><td>Secuencia curricular</td><td class="status-ok">680 / 680</td><td>ARQ-001 → ARQ-680, sin huecos; 10 clases en cada parte.</td></tr><tr><td>Contenido fuente</td><td class="status-ok">680 Markdown</td><td>Una fuente editable por clase y una página HTML generada por clase.</td></tr><tr><td>Conocimiento transversal</td><td class="status-ok">755 recursos</td><td>611 fuentes · 80 roles · 36 plantillas · 16 documentos · 12 rutas.</td></tr><tr><td>Integridad de entregables</td><td class="status-ok">SHA-256</td><td>Hashes versionados y comprobados automáticamente.</td></tr><tr><td>Revisión externa especializada</td><td class="status-pending">Pendiente</td><td>No se presenta como realizada ni se sustituye por CI.</td></tr></tbody></table></section>
+<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado real</p><h2>Qué demuestra el repositorio y qué permanece abierto</h2><p class="lede">“Completo” describe la malla editorial. No significa que todas las clases tengan idéntica pauta, que las fuentes sigan vigentes en toda jurisdicción ni que exista revisión profesional externa.</p><table class="status-table"><thead><tr><th>Dimensión</th><th>Evidencia comprobada</th><th>Límite abierto</th></tr></thead><tbody><tr><td>Integridad curricular</td><td class="status-ok">680/680 · 68 partes · 10 clases por parte</td><td>No acredita calidad disciplinar.</td></tr><tr><td>Anclas de clase</td><td class="status-ok">680 preguntas · 680 prácticas · 680 apartados de fuentes</td><td>Resultados, casos, errores y autoevaluación no son uniformes.</td></tr><tr><td>Procedencia</td><td class="status-ok">611 fichas · 177 dominios · 0 fuentes sin URL</td><td>Vigencia externa y aplicabilidad normativa pendientes.</td></tr><tr><td>Publicación</td><td class="status-ok">Markdown, HTML, lector offline y PDF verificables</td><td>Auditoría WCAG especializada pendiente.</td></tr><tr><td>Revisión y derechos</td><td class="status-pending">Declarados sin ocultarlos</td><td>Revisión externa y licencia todavía pendientes.</td></tr></tbody></table><p><a href="estado.html">Abrir metodología, cobertura y pendientes →</a></p></section>
 </div><section class="band"><div class="wrap section"><p class="eyebrow" style="color:var(--clay)">Biblioteca completa</p><h2>Más que un índice de clases</h2><p class="lede">Roles, recorridos, instrumentos, documentos y referencias conservan el mismo alcance editorial del lector original y ahora tienen URL propia.</p><div class="resource-grid">{resources}</div></div></section>
 <div class="wrap"><section class="section"><p class="eyebrow" style="color:var(--clay)">De punta a punta</p><h2>Aprender a decidir, no a copiar soluciones</h2><div class="grid"><article class="card"><span class="num">01 · Secuencia</span><h3>Del fundamento a la integración</h3><p>Representación, historia, territorio, estructuras, instalaciones, gestión, patrimonio y grandes tipologías.</p></article><article class="card"><span class="num">02 · Evidencia</span><h3>Dato, hipótesis y límite</h3><p>Las fuentes enseñan mecanismos y contexto; no se convierten automáticamente en norma aplicable a una obra.</p></article><article class="card"><span class="num">03 · Ciclo de vida</span><h3>Proyecto, obra y operación</h3><p>Las decisiones se siguen desde el encargo hasta el mantenimiento, la adaptación y el fin de vida.</p></article></div></section>
 <section class="section"><h2>Las 68 partes</h2><p class="lede">Cada bloque contiene diez clases y una portada propia con su intervalo, foco y acceso directo.</p><div class="part-grid">{parts}</div></section>
@@ -169,16 +209,8 @@ def parts_index(catalog: list[dict], titles: dict[int, str]) -> str:
 
 
 def part_page(part: int, catalog: list[dict], titles: dict[int, str]) -> str:
-    lessons = [item for item in catalog if item["part"] == part]
-    cards = "".join(
-        f'<a class="lesson-link" href="../clases/{item["id"].lower()}.html"><span class="lesson-code">{item["id"]}</span><span class="lesson-title">{html.escape(item["title"])}</span></a>'
-        for item in lessons
-    )
-    previous = f'parte-{part-1:02d}.html' if part > 1 else 'index.html'
-    following = f'parte-{part+1:02d}.html' if part < 68 else 'index.html'
-    previous_label = "← Parte anterior" if part > 1 else "← Mapa de partes"
-    following_label = "Parte siguiente →" if part < 68 else "Mapa de partes →"
-    body = f'<main id="main" class="wrap section"><p class="kicker">Parte {part:02d} de 68</p><h1>{html.escape(titles[part])}</h1><p class="lede">Diez clases · {lessons[0]["id"]} → {lessons[-1]["id"]}</p><div class="catalog-list">{cards}</div><nav class="lesson-nav"><a href="{previous}">{previous_label}</a><a href="{following}">{following_label}</a></nav></main>'
+    source = ROOT / "classes" / f"parte-{part:02d}" / "README.md"
+    body = f'<main id="main" class="doc">{render_part_markdown(source.read_text(encoding="utf-8"))}</main>'
     return shell(f'Parte {part:02d} · {titles[part]}', body, prefix="../")
 
 
@@ -189,6 +221,51 @@ def resources_portal(entries: list[dict]) -> str:
         cards.append(f'<a class="resource-card" href="{folder}/index.html"><strong>{count}</strong><b>{label}</b><span>{description}</span></a>')
     body = f'<main id="main" class="wrap section"><p class="kicker">Superficie de conocimiento</p><h1>755 recursos transversales</h1><p class="lede">El programa conecta el currículo con responsabilidades, recorridos, instrumentos, documentos editoriales y referencias. Cada registro del lector v1.0 tiene una página pública y enlazable.</p><div class="resource-grid">{"".join(cards)}</div><section class="section"><div class="callout"><h2>Cómo leer las fuentes</h2><p>Una referencia apoya una afirmación dentro del alcance declarado por la clase. No implica adopción íntegra, vigencia universal ni autorización normativa para un proyecto real.</p><p><a href="metodo.html">Revisar el método y los límites →</a></p></div></section></main>'
     return shell("Recursos transversales · Arquitectura", body)
+
+
+def documentation_portal() -> str:
+    cards = "".join(
+        f'<a class="resource-card" href="{slug}"><b>{html.escape(title)}</b><span>{html.escape(description)}</span></a>'
+        for filename, (slug, title), description in (
+            (
+                "ESTADO_VERIFICABLE.md",
+                DOC_PAGES["ESTADO_VERIFICABLE.md"],
+                "cobertura real, método de conteo, límites y pendientes",
+            ),
+            (
+                "FUENTES_Y_EVIDENCIA.md",
+                DOC_PAGES["FUENTES_Y_EVIDENCIA.md"],
+                "procedencia, jerarquía de afirmaciones y uso responsable",
+            ),
+            (
+                "COMO_USAR_EL_PROGRAMA.md",
+                DOC_PAGES["COMO_USAR_EL_PROGRAMA.md"],
+                "entradas para estudiantes, docentes, profesionales y mandantes",
+            ),
+            (
+                "RUTAS_DE_APRENDIZAJE.md",
+                DOC_PAGES["RUTAS_DE_APRENDIZAJE.md"],
+                "doce recorridos temáticos a través del currículo",
+            ),
+            (
+                "ROLES_Y_OFICIOS.md",
+                DOC_PAGES["ROLES_Y_OFICIOS.md"],
+                "ochenta responsabilidades agrupadas por familia",
+            ),
+            (
+                "CASOS_INTEGRADORES.md",
+                DOC_PAGES["CASOS_INTEGRADORES.md"],
+                "seis casos para coordinar decisiones y evidencia",
+            ),
+            (
+                "AUDITORIA_DOCUMENTAL_REFERENCIA.md",
+                DOC_PAGES["AUDITORIA_DOCUMENTAL_REFERENCIA.md"],
+                "qué se aprendió de la referencia y qué no se trasladó",
+            ),
+        )
+    )
+    body = f'<main id="main" class="wrap section"><p class="kicker">Documentación del programa</p><h1>Leer antes de contar</h1><p class="lede">Método, procedencia, uso, cobertura y límites documentados fuera del README para que cada afirmación pueda revisarse.</p><div class="resource-grid">{cards}</div></main>'
+    return shell("Documentación · Arquitectura", body)
 
 
 def resource_index(kind: str, entries: list[dict]) -> str:
@@ -210,7 +287,7 @@ def resource_page(entry: dict, lookup: dict[str, dict]) -> str:
 
 
 def page_from_markdown(name: str, source: Path, title: str) -> None:
-    rendered = render_markdown(source.read_text(encoding="utf-8"))
+    rendered = render_document_markdown(source.read_text(encoding="utf-8"))
     body = f'<main id="main" class="doc">{rendered}</main>'
     write(name, shell(title, body))
 
@@ -229,6 +306,7 @@ def main() -> int:
     write("index.html", landing(catalog, entries, titles))
     write("catalogo.html", catalog_page(catalog))
     write("recursos.html", resources_portal(entries))
+    write("documentacion.html", documentation_portal())
     write("partes/index.html", parts_index(catalog, titles))
     for part in range(1, 69):
         write(f"partes/parte-{part:02d}.html", part_page(part, catalog, titles))
@@ -247,6 +325,17 @@ def main() -> int:
 
     page_from_markdown("metodo.html", ROOT / "docs" / "METODO_Y_ALCANCE.md", "Método y alcance · Arquitectura")
     page_from_markdown("artefactos.html", ROOT / "docs" / "ARTEFACTOS.md", "Descargas · Arquitectura")
+    for filename, (slug, title) in DOC_PAGES.items():
+        rendered = render_document_markdown(
+            (ROOT / "docs" / filename).read_text(encoding="utf-8")
+        )
+        write(
+            slug,
+            shell(
+                f"{title} · Arquitectura",
+                f'<main id="main" class="doc">{rendered}</main>',
+            ),
+        )
     shutil.copy2(READER, OUT / "lector-offline-v1.0.html")
     for filename in ("Arquitectura_20_Clases_Finales_v1.0.pdf", "ARQ-680_Clase_Completa_v1.0.pdf"):
         shutil.copy2(ROOT / filename, OUT / filename)

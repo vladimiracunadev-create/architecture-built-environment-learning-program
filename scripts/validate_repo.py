@@ -7,6 +7,7 @@ import hashlib
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -42,14 +43,122 @@ def main() -> int:
         parts[item["part"]] += 1
     if set(parts.values()) != {10}:
         fail(f"every part must have 10 lessons: {parts}")
+    if not (ROOT / "classes" / "README.md").is_file():
+        fail("missing classes/README.md curriculum index")
+    part_readmes = list((ROOT / "classes").glob("parte-*/README.md"))
+    if len(part_readmes) != 68:
+        fail(f"found {len(part_readmes)} part README files, expected 68")
+
+    coverage_patterns = {
+        "question": r"pregunta central",
+        "practice": r"práctica|ejercicio",
+        "sources": r"fuentes y alcance",
+        "result": r"resultado|qué aprenderás",
+        "case": r"caso",
+        "self_assessment": r"autoevaluación|solución razonada",
+        "continuity": r"continuidad|siguiente|enlace",
+        "errors": r"errores",
+    }
+    coverage = Counter()
+    for item in catalog:
+        text = (ROOT / item["source"]).read_text(encoding="utf-8")
+        headings = "\n".join(re.findall(r"^##\s+(.+)$", text, re.MULTILINE)).lower()
+        for label, pattern in coverage_patterns.items():
+            coverage[label] += bool(re.search(pattern, headings))
+    expected_coverage = {
+        "question": 680,
+        "practice": 680,
+        "sources": 680,
+        "result": 645,
+        "case": 532,
+        "self_assessment": 650,
+        "continuity": 555,
+        "errors": 284,
+    }
+    if dict(coverage) != expected_coverage:
+        fail(
+            "class documentation coverage changed; update the status document "
+            f"from measured data: {dict(coverage)}"
+        )
+
+    reader_text = (
+        ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
+    ).read_text(encoding="utf-8")
+    marker = "const ENTRIES="
+    start = reader_text.index(marker) + len(marker)
+    end = reader_text.index("];\nconst byId", start) + 1
+    legacy = json.loads(reader_text[start:end])
+    legacy_counts = Counter(entry["kind"] for entry in legacy)
+    expected_legacy = Counter(
+        {
+            "redactada": 680,
+            "fuente": 611,
+            "rol": 80,
+            "plantilla": 36,
+            "documento": 16,
+            "ruta": 12,
+        }
+    )
+    if legacy_counts != expected_legacy:
+        fail(f"legacy resource counts changed: {dict(legacy_counts)}")
+    domains = set()
+    for entry in legacy:
+        if entry["kind"] != "fuente":
+            continue
+        for url in re.findall(r'https?://[^\s<"]+', entry["html"]):
+            domains.add(urlsplit(url.rstrip(".,);")).netloc.lower().removeprefix("www."))
+    if len(domains) != 177:
+        fail(f"source-domain count changed: {len(domains)}")
 
     forbidden = ("mÃ", "Ã¡", "Ã©", "Ã³", "Â·", "ðŸ", "â€“", "â€”")
     for path in ROOT.rglob("*.md"):
-        if ".reference-modern-cybersecurity-program" in path.parts:
+        if (
+            ".reference-modern-cybersecurity-program" in path.parts
+            or ".vendor" in path.parts
+        ):
             continue
         text = path.read_text(encoding="utf-8")
         if any(token in text for token in forbidden):
             fail(f"possible mojibake: {path.relative_to(ROOT)}")
+
+    markdown_broken = []
+    for page in ROOT.rglob("*.md"):
+        if (
+            ".reference-modern-cybersecurity-program" in page.parts
+            or ".vendor" in page.parts
+        ):
+            continue
+        text = page.read_text(encoding="utf-8")
+        for raw in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)', text):
+            raw = raw.strip()
+            if raw.startswith("<") and ">" in raw:
+                raw = raw[1 : raw.index(">")]
+            else:
+                raw = raw.split(maxsplit=1)[0]
+            parsed = urlsplit(raw)
+            if (
+                not raw
+                or raw.startswith(("#", "//"))
+                or parsed.scheme
+                or not parsed.path
+            ):
+                continue
+            target = (
+                ROOT / unquote(parsed.path).lstrip("/")
+                if parsed.path.startswith("/")
+                else page.parent / unquote(parsed.path)
+            ).resolve()
+            try:
+                target.relative_to(ROOT.resolve())
+            except ValueError:
+                markdown_broken.append(
+                    f"{page.relative_to(ROOT)} -> {raw} (outside repository)"
+                )
+                continue
+            if not target.exists():
+                markdown_broken.append(f"{page.relative_to(ROOT)} -> {raw}")
+    if markdown_broken:
+        fail("broken Markdown links:\n" + "\n".join(markdown_broken[:25]))
 
     status = json.loads((ROOT / "STATUS_v1.0.json").read_text(encoding="utf-8"))
     truth = (status["parts"], status["planned_classes"], status["written_classes"], status["pending_classes"])
@@ -88,9 +197,17 @@ def main() -> int:
             "index.html",
             "catalogo.html",
             "recursos.html",
+            "documentacion.html",
             "partes/index.html",
             "metodo.html",
             "artefactos.html",
+            "estado.html",
+            "fuentes-y-evidencia.html",
+            "como-usar.html",
+            "rutas-de-aprendizaje.html",
+            "roles-y-oficios.html",
+            "casos-integradores.html",
+            "auditoria-documental.html",
             ".nojekyll",
         ):
             if not (site / required).exists():
@@ -114,6 +231,7 @@ def main() -> int:
             fail("broken generated links:\n" + "\n".join(broken[:25]))
     print(
         "OK: 680 lessons · 68 parts · 755 resources · "
+        "69 curriculum README files · Markdown links · "
         "checksums · UTF-8 · generated site"
     )
     return 0
