@@ -3,8 +3,14 @@
 - Clase:
 - Fecha:
 - Pregunta:
+- Necesidad que justifica la clase:
+- Prerrequisito utilizado y evidencia recibida:
 - Decisión:
-- Evidencia utilizada:
+- Fundamento:
+- Fuente, localizador y parte consultada:
+- Afirmación que respalda la fuente:
+- Límite de la fuente:
+- Evidencia producida:
 - Hipótesis:
 - Alternativa comparada:
 - Interfaz y ciclo de vida:
@@ -13,4 +19,5 @@
 - Crítica recibida:
 - Cambio realizado:
 - Pendiente y siguiente responsable:
+- Clase o experiencia posterior que reutiliza esta evidencia:
 

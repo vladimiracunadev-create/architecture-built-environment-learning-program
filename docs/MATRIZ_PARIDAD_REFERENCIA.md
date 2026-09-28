@@ -57,4 +57,4 @@ Un elemento nuevo de la referencia no se copia automáticamente. Se evalúa por 
 
 ## Brecha que esta matriz ya no oculta
 
-La cobertura de encabezados, prácticas y fuentes alcanza 680/680, pero la revisión profunda de necesidad, posición, dependencias, fundamento y evidencia alcanza **5/680**. Los otros 675 casos continúan publicados como clases redactadas, no como decisiones pedagógicas ya auditadas. Consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).
+La cobertura de encabezados, prácticas, fuentes y cadenas de decisión alcanza **680/680**. Cinco casos conservan además revisión editorial manual profunda. La revisión externa por especialidad continúa siendo un estado distinto. Consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).

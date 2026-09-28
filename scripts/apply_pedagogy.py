@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
 PEDAGOGY = ROOT / "data" / "pedagogy.json"
-PEDAGOGICAL_DECISIONS = ROOT / "data" / "pedagogical-decisions.json"
+PEDAGOGICAL_DECISIONS = ROOT / "data" / "pedagogical-decisions-generated.json"
 START = "<!-- pedagogia-2026:inicio -->"
 END = "<!-- pedagogia-2026:fin -->"
 
@@ -155,11 +155,26 @@ def explicit_pedagogical_block(item: dict, contract: dict) -> str:
     outcomes = "\n".join(f"{index}. {value}" for index, value in enumerate(contract["outcomes"], 1))
     acceptance = "\n".join(f"- {value}" for value in contract["acceptance"])
     source_ids = sorted({source for foundation in contract["foundations"] for source in foundation["source_ids"]})
-    source_label = " + ".join(source_ids)
+    source_names = [
+        title
+        for foundation in contract["foundations"]
+        for title in foundation.get("source_titles", [])
+    ]
+    source_label = short(" + ".join(source_names or source_ids) or "pendiente explícito", 120)
+
+    def source_links(foundation: dict) -> str:
+        titles = foundation.get("source_titles", [])
+        locators = foundation.get("locators", [])
+        if titles and len(titles) == len(locators):
+            return ", ".join(
+                f"[{short(title, 72)}]({locator})" for title, locator in zip(titles, locators)
+            )
+        return ", ".join(f"`{source}`" for source in foundation["source_ids"]) or "Pendiente declarado"
+
     foundations = "\n".join(
-        f"| {index} | {foundation['decision']} | "
-        f"{', '.join(f'`{source}`' for source in foundation['source_ids'])} | "
-        f"{foundation['application']} |"
+        f"| {index} | {foundation['decision'].replace('|', '/')} | "
+        f"{source_links(foundation)} | "
+        f"{foundation['application'].replace('|', '/')} |"
         for index, foundation in enumerate(contract["foundations"], 1)
     )
     prerequisite_node = prerequisites.replace("`", "")

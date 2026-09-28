@@ -51,9 +51,107 @@ Esta parte comienza con **Fortificación y paisaje defensivo** y culmina con **P
 
 ## Estado de justificación pedagógica
 
-**Revisión profunda:** 0/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+**Cadenas de decisión documentadas:** 10/10 clases. Cada síntesis procede de la pregunta, el resultado, la práctica, las fuentes y la vecindad curricular de la clase completa; no sustituye su narrativa.
 
-Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la posición de cada clase haya sido auditada.
+### ARQ-511 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar fortificación y paisaje defensivo como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Abre la Parte 52 porque plantea primero el problema «¿Cómo estudiar fortificación y paisaje defensivo como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». La transición desde ARQ-510 · Proyecto ceremonial contemporáneo conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-512 · Castillo medieval: recinto, torre y patio desarrollará a continuación.
+
+**Entrada:** ARQ-510 · **Salida:** ARQ-512.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-512 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-512 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar castillo medieval: recinto, torre y patio como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 2 de la Parte 52. Se estudia después de ARQ-511 · Fortificación y paisaje defensivo porque usa esa base para responder «¿Cómo estudiar castillo medieval: recinto, torre y patio como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-513 · Murallas, bastiones y artillería porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-511 · **Salida:** ARQ-513.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-513 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-513 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar murallas, bastiones y artillería como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 3 de la Parte 52. Se estudia después de ARQ-512 · Castillo medieval: recinto, torre y patio porque usa esa base para responder «¿Cómo estudiar murallas, bastiones y artillería como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-514 · Ciudadela, fuerte y control territorial porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-512 · **Salida:** ARQ-514.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-514 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-514 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar ciudadela, fuerte y control territorial como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 4 de la Parte 52. Se estudia después de ARQ-513 · Murallas, bastiones y artillería porque usa esa base para responder «¿Cómo estudiar ciudadela, fuerte y control territorial como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-515 · Puentes levadizos, fosos y accesos porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-513 · **Salida:** ARQ-515.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-515 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-515 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar puentes levadizos, fosos y accesos como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 5 de la Parte 52. Se estudia después de ARQ-514 · Ciudadela, fuerte y control territorial porque usa esa base para responder «¿Cómo estudiar puentes levadizos, fosos y accesos como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-516 · Abastecimiento, asedio y logística porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-514 · **Salida:** ARQ-516.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-516 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-516 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar abastecimiento, asedio y logística como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 6 de la Parte 52. Se estudia después de ARQ-515 · Puentes levadizos, fosos y accesos porque usa esa base para responder «¿Cómo estudiar abastecimiento, asedio y logística como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-517 · Materiales, daño y evolución histórica porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-515 · **Salida:** ARQ-517.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-517 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-517 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar materiales, daño y evolución histórica como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 7 de la Parte 52. Se estudia después de ARQ-516 · Abastecimiento, asedio y logística porque usa esa base para responder «¿Cómo estudiar materiales, daño y evolución histórica como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-518 · Fortificaciones costeras y artillería porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-516 · **Salida:** ARQ-518.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-518 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-518 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar fortificaciones costeras y artillería como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 8 de la Parte 52. Se estudia después de ARQ-517 · Materiales, daño y evolución histórica porque usa esa base para responder «¿Cómo estudiar fortificaciones costeras y artillería como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-519 · Reutilización patrimonial de defensas porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-517 · **Salida:** ARQ-519.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-519 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-519 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar reutilización patrimonial de defensas como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Ocupa el lugar 9 de la Parte 52. Se estudia después de ARQ-518 · Fortificaciones costeras y artillería porque usa esa base para responder «¿Cómo estudiar reutilización patrimonial de defensas como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». Se ubica antes de ARQ-520 · Proyecto de interpretación y adaptación porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-518 · **Salida:** ARQ-520.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-520 conserva el método, no traslada automáticamente cifras ni conclusiones.
+
+### ARQ-520 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar proyecto de interpretación y adaptación como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
+
+**Posición:** Cierra la Parte 52: integra lo producido en ARQ-519 · Reutilización patrimonial de defensas para responder «¿Cómo estudiar proyecto de interpretación y adaptación como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?». La transición hacia ARQ-521 · Hospital como sistema de flujos transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
+
+**Entrada:** ARQ-519 · **Salida:** ARQ-521.
+
+**Evidencia:** Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir. La continuidad hacia ARQ-521 conserva el método, no traslada automáticamente cifras ni conclusiones.
 
 ## Cómo recorrer esta parte
 

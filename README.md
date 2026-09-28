@@ -22,6 +22,8 @@
 
 [🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md) · [👷 Roles y oficios](docs/ROLES_Y_OFICIOS.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [🧾 Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md) · [⚖️ Licencias](docs/LICENCIAS_Y_DERECHOS.md) · [🏷️ Uso comercial](docs/COMMERCIAL_USE.md)
 
+[📐 Estándar obligatorio de cada clase](docs/ESTANDAR_DOCUMENTACION_CLASE.md) · [🔎 Auditoría pedagógica](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md)
+
 </div>
 
 ---
@@ -66,12 +68,13 @@ Las clases se construyen alrededor de una decisión o problema. El corpus comple
 | Mapa visual de aprendizaje | **680/680** |
 | Evidencia y criterio de aceptación | **680/680** |
 | Autoevaluación, recuperación y continuidad | **680/680** |
+| Cadena necesidad → fuente → evidencia → continuidad | **680/680** |
 
-Esa tabla mide anatomía documental, no profundidad. La auditoría de decisiones cuenta por separado **5/680 contratos revisados en profundidad** —una clase inicial, una intermedia cuantitativa, una normativa, una avanzada práctica y el cierre— y mantiene **675 pendientes**. No se declarará una clase “sustentada” por tener encabezados, texto o enlaces.
+Las **680 cadenas** se derivan de la clase completa: pregunta, resultado, prerrequisitos, práctica, retroalimentación, fuentes y vecindad curricular. Cinco casos representativos recibieron además revisión editorial manual profunda. El estado distingue ambos niveles; no declara revisión externa ni acreditación.
 
-[Abrir la auditoría pedagógica, los cinco pilotos y el registro de decisiones →](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md)
+[Abrir la auditoría pedagógica, la extensión a 680 clases, los cinco pilotos profundos y el registro de decisiones →](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md)
 
-Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa común se genera desde [`data/pedagogy.json`](data/pedagogy.json); los contratos revisados viven en [`data/pedagogical-decisions.json`](data/pedagogical-decisions.json). [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) publica ambos estados sin confundirlos y la auditoría falla si una fuente, dependencia o resultado del piloto deja de ser trazable.
+Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa común se genera desde [`data/pedagogy.json`](data/pedagogy.json); los cinco pilotos editoriales viven en [`data/pedagogical-decisions.json`](data/pedagogical-decisions.json) y las 680 cadenas reproducibles en [`data/pedagogical-decisions-generated.json`](data/pedagogical-decisions-generated.json). [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) publica las decisiones y CI falla ante fuentes, dependencias, resultados o salidas desincronizadas.
 
 ### El conocimiento tiene procedencia verificable
 
@@ -255,9 +258,9 @@ Incluyen encargo y necesidades, ficha crítica de fuente, comparación de altern
 
 [Abrir las plantillas en el portal](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/plantillas/)
 
-### 22 documentos actuales + 16 fichas documentales v1.0
+### 23 documentos actuales + 16 fichas documentales v1.0
 
-El portal de documentación reúne 22 guías mantenidas sobre método, auditoría pedagógica, procedencia, evaluación, fuentes, normas, derechos, seguridad, portafolio y carga. El inventario histórico conserva además 16 fichas documentales del lector v1.0; no se suman ni confunden como si fueran la misma colección.
+El portal de documentación reúne 23 guías mantenidas sobre estándar de clase, método, auditoría pedagógica, procedencia, evaluación, fuentes, normas, derechos, seguridad, portafolio y carga. El inventario histórico conserva además 16 fichas documentales del lector v1.0; no se suman ni confunden como si fueran la misma colección.
 
 [Abrir la documentación actual](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentacion.html) · [Consultar las 16 fichas v1.0](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentos/)
 
@@ -282,7 +285,7 @@ El lector offline conserva también documentos históricos de la evolución del 
 | Dimensión | Resultado | No demuestra |
 |---|---|---|
 | Integridad curricular | 680/680 clases; 68 partes; 10 clases por parte | revisión disciplinar |
-| Capa pedagógica | anatomía común 680/680; contratos revisados 5/680 | 675 decisiones pendientes y efectividad con estudiantes sin pilotaje |
+| Capa pedagógica | anatomía y cadenas de decisión 680/680; cinco pilotos editoriales profundos | efectividad con estudiantes y revisión externa pendientes |
 | Talleres | 8 talleres y 48 sesiones | supervisión profesional o universitaria |
 | Capa Markdown | 680 clases + 68 README de parte + índice | calidad homogénea |
 | Fuentes en clases | 1.939 relaciones; 622 URLs; 886 usos completos | 1.053 usos parciales; vigencia externa pendiente |
@@ -318,7 +321,7 @@ python scripts/build_site.py
 python scripts/validate_repo.py
 ```
 
-El validador exige ARQ-001–680, diez clases por parte, anatomía común en 680 clases, cinco contratos profundos válidos, 48 sesiones de taller, 12 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
+El validador exige ARQ-001–680, diez clases por parte, anatomía y cadena de decisión en 680 clases, cinco pilotos editoriales preservados, 48 sesiones de taller, 12 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
 
 ## 🗂️ Arquitectura del repositorio
 

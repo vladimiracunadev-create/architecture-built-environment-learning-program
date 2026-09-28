@@ -26,9 +26,9 @@ La secuencia no pretende que una clase agote un tema. Cada parte organiza diez c
 
 ## Patrón de una clase
 
-La cobertura efectiva se mide por bloques detectables en los archivos, no por una plantilla supuesta. Las 680 clases contienen pregunta central, práctica, fuentes, resultados, autoevaluación, errores frecuentes, continuidad, mapa visual, criterio de aceptación y recuperación. La cobertura exacta, incluida la presencia desigual de casos trabajados, se publica en [Estado verificable](ESTADO_VERIFICABLE.md).
+La cobertura efectiva combina bloques detectables y una cadena de decisión específica. Las 680 clases contienen pregunta central, práctica, fuentes, resultados, autoevaluación, errores frecuentes, continuidad, mapa visual, criterio de aceptación y recuperación; además relacionan necesidad, posición, prerrequisitos, fuentes, actividad, evidencia y continuidad. La pauta obligatoria está en el [Estándar de documentación de una clase](ESTANDAR_DOCUMENTACION_CLASE.md).
 
-El contrato común añade mapa visual, evidencia mínima, criterio de aceptación, errores diagnósticos y recuperación espaciada. Un bloque cumple funciones distintas:
+El contrato generado reconstruye elementos específicos desde la clase completa; no debe sustituir su narrativa. Un bloque cumple funciones distintas:
 
 - la **pregunta central** delimita el problema;
 - los **resultados** expresan lo que debería poder producir o justificar el estudiante;
@@ -38,11 +38,11 @@ El contrato común añade mapa visual, evidencia mínima, criterio de aceptació
 - los **errores frecuentes** hacen visibles fallos de método;
 - las **fuentes** permiten rastrear conceptos y límites;
 - la **continuidad** conecta la clase con la secuencia.
-- el **mapa visual** hace explícito el ciclo pregunta–método–transferencia–evidencia–revisión;
+- el **mapa visual** hace explícita la relación concreta entre prerrequisitos, fuentes, actividad, evidencia y continuidad;
 - el **criterio de aceptación** transforma una tarea en desempeño observable;
 - la **recuperación** comprueba que el método puede reconstruirse después de la lectura.
 
-La fuente canónica de esta capa es `data/pedagogy.json`; `scripts/apply_pedagogy.py --check` impide que clases, talleres y rutas se desincronicen.
+Las fuentes canónicas son `data/pedagogy.json`, los cinco pilotos de `data/pedagogical-decisions.json` y el manifiesto reproducible `data/pedagogical-decisions-generated.json`. `scripts/build_pedagogical_decisions.py --check` y `scripts/apply_pedagogy.py --check` impiden que clases, decisiones, talleres y rutas se desincronicen.
 
 ## Método de evidencia
 
@@ -96,6 +96,8 @@ La redacción de la malla y la arquitectura pedagógica documental están comple
 ## Fuentes de verdad del repositorio
 
 - `classes/`: contenido editorial de las clases.
+- `docs/ESTANDAR_DOCUMENTACION_CLASE.md`: regla obligatoria de creación, revisión y aceptación.
+- `data/pedagogical-decisions-generated.json`: cadena específica de decisión de las 680 clases.
 - `classes/README.md` y `classes/parte-XX/README.md`: navegación curricular generada.
 - `docs/ESTADO_VERIFICABLE.md`: estado documental actual y brechas.
 - `scripts/generate_curriculum_docs.py`: generación de índices curriculares.

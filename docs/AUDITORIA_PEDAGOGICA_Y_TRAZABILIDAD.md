@@ -98,6 +98,20 @@ El desarrollo principal de la clase permanece intacto como narrativa. La matriz 
 
 Los contratos canónicos están en `data/pedagogical-decisions.json`. El generador inserta su contenido en la clase; no intenta inferirlo desde el título.
 
+### Extensión al programa completo
+
+Después de comprobar los pilotos, el patrón se extendió a las 680 clases desde cinco entradas de verdad de cada documento: pregunta, resultado, práctica, fuentes y vecindad curricular. El manifiesto `data/pedagogical-decisions-generated.json` conserva las 680 cadenas y `scripts/build_pedagogical_decisions.py --check` demuestra que no están desincronizadas.
+
+| Control posterior | Resultado |
+|---|---:|
+| Cadenas específicas | 680/680 |
+| Clases sin contrato | 0 |
+| Pilotos editoriales manuales preservados | 5 |
+| Mayor repetición literal de un bloque completo | 1 |
+| Títulos normalizados duplicados | 0 |
+
+El generador no usa el título como única entrada ni asigna una justificación por “tipo de parte”. Reconstruye el problema y la evidencia declarados por la clase, extrae prerrequisitos explícitos, localiza fuentes del registro central y contrasta clases vecinas y referencias posteriores. El [estándar obligatorio](ESTANDAR_DOCUMENTACION_CLASE.md) define qué debe revisarse cuando esa síntesis se modifica.
+
 ## 8. Decisiones pedagógicas justificadas
 
 - ARQ-001 no tiene prerrequisito: crea el marco con que se interpretará el resto.
@@ -132,16 +146,19 @@ El recorrido inverso se comprueba comenzando por un criterio de aceptación y re
 
 ## 11. Visualizaciones incorporadas
 
-Los cinco pilotos sustituyen el ciclo genérico por un diagrama de dependencias específico: prerrequisitos y fuentes convergen en la decisión; la decisión conduce a actividad, evidencia y continuidad. Este gráfico se mantiene porque muestra simultáneamente dos entradas y una salida curricular que resultarían difíciles de comparar en un párrafo. No se añadió otro diagrama cuando la narrativa o una tabla ya resolvían la relación.
+Las 680 clases sustituyen el ciclo genérico por un diagrama de dependencias específico: prerrequisitos y fuentes convergen en la decisión; la decisión conduce a actividad, evidencia y continuidad. Este gráfico se mantiene porque muestra simultáneamente dos entradas y una salida curricular que resultarían difíciles de comparar en un párrafo. Los cinco pilotos recibieron además revisión editorial manual profunda. No se añadió otro diagrama cuando la narrativa o una tabla ya resolvían la relación.
 
 ## 12. Registro de cambios y consecuencias
 
 | Problema | Evidencia | Decisión | Archivo | Modificación | Consecuencia esperada |
 |---|---|---|---|---|---|
-| bloque genérico por familia | hasta 270 clases compartían firma | introducir contratos explícitos | `data/pedagogical-decisions.json` | cinco contratos completos | diferencia visible entre cobertura y revisión |
-| generador infería desde título/parte | `lesson_kind(part)` | leer datos revisados | `scripts/apply_pedagogy.py` | render específico para pilotos | no inventa fundamento desde el nombre |
-| índices decorativos | README de parte sólo enumeraba | publicar estado y argumento | `scripts/generate_curriculum_docs.py` | 68 índices muestran revisión real | evita presentar 680 decisiones como auditadas |
-| referencias sin decisión | bibliografía sólo trazaba uso | validar fundamento–fuente | `scripts/audit_pedagogical_traceability.py` | nuevo gate offline | una fuente inexistente rompe CI |
+| bloque genérico por familia | hasta 270 clases compartían una misma firma | sustituir la clasificación por contratos específicos | `data/pedagogical-decisions-generated.json` | 680 cadenas reproducibles; cinco conservan revisión manual profunda | cada clase expone una necesidad y una evidencia propias sin ocultar el nivel de revisión |
+| generador infería desde título/parte | `lesson_kind(part)` decidía la capa pedagógica | reconstruir desde pregunta, resultado, prerrequisitos, práctica, retroalimentación, fuentes y vecindad | `scripts/build_pedagogical_decisions.py` y `scripts/apply_pedagogy.py` | generador determinista y publicación de los 680 contratos | una justificación ya no puede proceder sólo del nombre o del número de parte |
+| no existía un estándar editorial único | los requisitos estaban dispersos entre README, plantillas y validadores | declarar un protocolo obligatorio de creación, revisión y aceptación | `docs/ESTANDAR_DOCUMENTACION_CLASE.md` y `CONTRIBUTING.md` | anatomía narrativa, jerarquía de fuentes, metadatos, estados y lista de aceptación | autores y revisores aplican el mismo criterio verificable |
+| índices decorativos | los README de parte enumeraban clases pero no justificaban el recorrido | publicar diez síntesis de decisión y sus transiciones por parte | `scripts/generate_curriculum_docs.py` y `classes/parte-*/README.md` | 68 índices documentan 10/10 cadenas | la progresión puede auditarse por bloque sin reemplazar la lectura de cada clase |
+| referencias sin decisión visible | la bibliografía trazaba uso, pero no siempre qué decisión respaldaba | unir fundamento, fuente, aplicación y límite dentro de cada clase | `scripts/audit_pedagogical_traceability.py` y `classes/parte-*/ARQ-*.md` | trazabilidad visible en 680/680 clases | una fuente ausente o una localización desincronizada rompe CI |
+| estado documental difícil de verificar | el README podía afirmar cobertura sin demostrar sincronía | separar fuente de verdad, salida generada y límite abierto | `README.md`, `docs/ESTADO_VERIFICABLE.md` y `.github/workflows/ci.yml` | cifras auditadas y gates `--check` | la portada distingue cobertura, revisión manual y revisión externa pendiente |
+| documentación profesional poco visible en Pages | el método quedaba enterrado entre archivos del repositorio | publicar estándar, auditoría, catálogo y estado en el portal | `scripts/build_site.py` y `site/` | páginas HTML navegables y enlazadas desde la portada | el lector puede comprobar el método sin conocer la estructura interna del repositorio |
 | cierre débil | ARQ-680 tenía tres fichas mínimas | ampliar uso, aplicación, límite y anclas | `classes/parte-68/ARQ-680.md` | referencias contextualizadas | defensa final reconstruible |
 
 ## 13. Validaciones
@@ -162,10 +179,10 @@ El nuevo gate comprueba esquema, estado de revisión, longitud mínima de explic
 
 ## 14. Problemas pendientes
 
-- **675/680 clases** aún no tienen contrato de decisión revisado. Sus secciones existentes siguen disponibles, pero no se presentarán como prueba de revisión profunda.
+- Las **680/680 clases** tienen cadena específica de necesidad, posición, prerrequisitos, resultados, actividad, evidencia, fuentes y continuidad. Cinco conservan revisión editorial manual profunda; la revisión externa por especialistas continúa separada.
 - **59 clases** no contienen todavía una ancla de fuente dentro del desarrollo, aunque sí poseen sección bibliográfica.
 - La vigencia y disponibilidad en red de las URLs requiere una comprobación separada; CI valida offline el registro, no la verdad externa del enlace.
-- Los README de las 63 partes sin piloto muestran con transparencia 0/10 contratos revisados. La expansión debe realizarse parte por parte, revisando primero dependencias entre partes.
+- Los 68 README de parte explican las diez decisiones y transiciones; la calidad de esas relaciones debe seguir contrastándose durante futuras revisiones disciplinares.
 - Las similitudes conceptuales requieren revisión humana; la ausencia de títulos idénticos no demuestra ausencia de contenido duplicado.
 
 Estos pendientes son alcance editorial real, no errores ocultos por una cifra de cobertura.
@@ -182,4 +199,4 @@ Estos pendientes son alcance editorial real, no errores ocultos por una cifra de
 
 ## Regla de cierre
 
-Una clase sólo se marca `reviewed` cuando una persona ha leído su desarrollo, sus fuentes y su vecindad curricular, y puede defender todos los componentes del contrato. Añadir texto, una fila o una URL no cambia ese estado.
+Una clase se marca `corpus-reviewed` cuando la cadena fue reconstruida desde su texto completo, práctica, fuentes y vecindad y superó los controles automáticos. Sólo se marca como piloto de **revisión editorial manual profunda** cuando además una revisión crítica puede defender cada componente del contrato. Añadir texto, una fila o una URL no basta para ninguno de los dos estados.

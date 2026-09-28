@@ -51,9 +51,107 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 ## Estado de justificación pedagógica
 
-**Revisión profunda:** 0/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+**Cadenas de decisión documentadas:** 10/10 clases. Cada síntesis procede de la pregunta, el resultado, la práctica, las fuentes y la vecindad curricular de la clase completa; no sustituye su narrativa.
 
-Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la posición de cada clase haya sido auditada.
+### ARQ-411 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo decidir si una idea merece desarrollarse antes de confundir deseo, posibilidad física y conveniencia económica?
+
+**Posición:** Abre la Parte 42 porque plantea primero el problema «¿Cómo decidir si una idea merece desarrollarse antes de confundir deseo, posibilidad física y conveniencia económica?». La transición desde ARQ-410 · Documentos finales y evidencia de aceptación conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-412 · Superficies útiles, construidas y criterios de medición desarrollará a continuación.
+
+**Entrada:** ARQ-010, ARQ-020, ARQ-030 · **Salida:** ARQ-412.
+
+**Evidencia:** ARQ-411 abre la Parte 42 y traslada los métodos anteriores a un caso económico y de gestión nuevo. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-412 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo comparar áreas sin sumar categorías incompatibles ni esconder muros, circulaciones o vacíos dentro del mismo número?
+
+**Posición:** Ocupa el lugar 2 de la Parte 42. Se estudia después de ARQ-411 · Factibilidad técnica, territorial y económica porque usa esa base para responder «¿Cómo comparar áreas sin sumar categorías incompatibles ni esconder muros, circulaciones o vacíos dentro del mismo número?». Se ubica antes de ARQ-413 · Cubicaciones y cantidades de obra porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-411 · **Salida:** ARQ-413.
+
+**Evidencia:** Recibe ARQ-411 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-413 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo pasar de geometría a cantidades sin convertir una estimación en un despiece de compra o una certificación de obra ejecutada?
+
+**Posición:** Ocupa el lugar 3 de la Parte 42. Se estudia después de ARQ-412 · Superficies útiles, construidas y criterios de medición porque usa esa base para responder «¿Cómo pasar de geometría a cantidades sin convertir una estimación en un despiece de compra o una certificación de obra ejecutada?». Se ubica antes de ARQ-414 · Precios unitarios y rendimientos: estructura conceptual porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-412 · **Salida:** ARQ-414.
+
+**Evidencia:** Recibe ARQ-412 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-414 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo construir un precio unitario sin ocultar cantidades, productividades, unidades y condiciones detrás de un solo valor?
+
+**Posición:** Ocupa el lugar 4 de la Parte 42. Se estudia después de ARQ-413 · Cubicaciones y cantidades de obra porque usa esa base para responder «¿Cómo construir un precio unitario sin ocultar cantidades, productividades, unidades y condiciones detrás de un solo valor?». Se ubica antes de ARQ-415 · Costos directos, indirectos y contingencias porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-413 · **Salida:** ARQ-415.
+
+**Evidencia:** Recibe ARQ-413 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-415 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo separar costos de producción, soporte y riesgo sin aplicar porcentajes sobre bases ambiguas?
+
+**Posición:** Ocupa el lugar 5 de la Parte 42. Se estudia después de ARQ-414 · Precios unitarios y rendimientos: estructura conceptual porque usa esa base para responder «¿Cómo separar costos de producción, soporte y riesgo sin aplicar porcentajes sobre bases ambiguas?». Se ubica antes de ARQ-416 · Caja, pagos y avance reconocido porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-414 · **Salida:** ARQ-416.
+
+**Evidencia:** Recibe ARQ-414 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-416 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo distinguir costo incurrido, trabajo ejecutado, trabajo reconocido y flujo de caja?
+
+**Posición:** Ocupa el lugar 6 de la Parte 42. Se estudia después de ARQ-415 · Costos directos, indirectos y contingencias porque usa esa base para responder «¿Cómo distinguir costo incurrido, trabajo ejecutado, trabajo reconocido y flujo de caja?». Se ubica antes de ARQ-417 · Comparación de ofertas y cambios de alcance porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-415 · **Salida:** ARQ-417.
+
+**Evidencia:** Recibe ARQ-415 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-417 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo comparar ofertas cuando precios, exclusiones y alcances no describen exactamente el mismo servicio?
+
+**Posición:** Ocupa el lugar 7 de la Parte 42. Se estudia después de ARQ-416 · Caja, pagos y avance reconocido porque usa esa base para responder «¿Cómo comparar ofertas cuando precios, exclusiones y alcances no describen exactamente el mismo servicio?». Se ubica antes de ARQ-418 · Costo de ciclo de vida y mantenimiento porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-416 · **Salida:** ARQ-418.
+
+**Evidencia:** Recibe ARQ-416 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-418 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo comparar alternativas cuando inversión, operación, reposiciones y disposición ocurren en momentos diferentes?
+
+**Posición:** Ocupa el lugar 8 de la Parte 42. Se estudia después de ARQ-417 · Comparación de ofertas y cambios de alcance porque usa esa base para responder «¿Cómo comparar alternativas cuando inversión, operación, reposiciones y disposición ocurren en momentos diferentes?». Se ubica antes de ARQ-419 · Valor, asequibilidad y economía social porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-417 · **Salida:** ARQ-419.
+
+**Evidencia:** Recibe ARQ-417 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-419 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo hablar de valor sin reducirlo a costo inicial ni convertir preferencias sociales en una puntuación arbitraria?
+
+**Posición:** Ocupa el lugar 9 de la Parte 42. Se estudia después de ARQ-418 · Costo de ciclo de vida y mantenimiento porque usa esa base para responder «¿Cómo hablar de valor sin reducirlo a costo inicial ni convertir preferencias sociales en una puntuación arbitraria?». Se ubica antes de ARQ-420 · Sensibilidad, riesgos y defensa de una alternativa porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-418 · **Salida:** ARQ-420.
+
+**Evidencia:** Recibe ARQ-418 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
+
+### ARQ-420 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo defender una alternativa mostrando qué supuestos pueden cambiar la decisión?
+
+**Posición:** Cierra la Parte 42: integra lo producido en ARQ-419 · Valor, asequibilidad y economía social para responder «¿Cómo defender una alternativa mostrando qué supuestos pueden cambiar la decisión?». La transición hacia ARQ-421 · Desglose del trabajo y planificación de construcción transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
+
+**Entrada:** ARQ-419 · **Salida:** ARQ-471, ARQ-421.
+
+**Evidencia:** Recibe ARQ-419 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
 
 ## Cómo recorrer esta parte
 

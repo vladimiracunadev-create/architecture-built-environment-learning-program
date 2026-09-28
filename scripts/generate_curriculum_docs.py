@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
-DECISIONS = ROOT / "data" / "pedagogical-decisions.json"
+DECISIONS = ROOT / "data" / "pedagogical-decisions-generated.json"
 READER = ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
 
 
@@ -100,7 +100,7 @@ def part_readme(part: int, title: str, lessons: list[dict], decisions: dict[str,
     reviewed = [decisions[item["id"]] for item in lessons if item["id"] in decisions]
     if reviewed:
         reviewed_text = "\n\n".join(
-            f"### {record['class_id']} · decisión revisada\n\n"
+            f"### {record['class_id']} · decisión sustentada\n\n"
             f"**Necesidad:** {record['need']}\n\n"
             f"**Posición:** {record['placement']}\n\n"
             f"**Entrada:** {', '.join(record['prerequisites']) or 'sin prerrequisito'} · "
@@ -140,7 +140,7 @@ Esta parte comienza con **{lessons[0]['title']}** y culmina con **{lessons[-1]['
 
 ## Estado de justificación pedagógica
 
-**Revisión profunda:** {len(reviewed)}/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+**Cadenas de decisión documentadas:** {len(reviewed)}/10 clases. Cada síntesis procede de la pregunta, el resultado, la práctica, las fuentes y la vecindad curricular de la clase completa; no sustituye su narrativa.
 
 {reviewed_text}
 

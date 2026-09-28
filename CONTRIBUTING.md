@@ -4,7 +4,7 @@ Gracias por ayudar a mejorar el programa.
 
 ## Antes de proponer un cambio
 
-Lee [Método y alcance](docs/METODO_Y_ALCANCE.md), [Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md) y [Estado verificable](docs/ESTADO_VERIFICABLE.md). Este repositorio acepta correcciones editoriales, actualización de fuentes, mejoras pedagógicas y cambios del generador.
+Lee el [Estándar obligatorio de documentación de una clase](docs/ESTANDAR_DOCUMENTACION_CLASE.md), [Método y alcance](docs/METODO_Y_ALCANCE.md), [Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md) y [Estado verificable](docs/ESTADO_VERIFICABLE.md). Este repositorio acepta correcciones editoriales, actualización de fuentes, mejoras pedagógicas y cambios del generador.
 
 Una contribución a una clase debe conservar su identificador `ARQ-XXX`, parte y continuidad. Cuando actualice evidencia, debe indicar qué afirmación respalda la fuente, su jurisdicción y los límites de transferencia.
 
@@ -35,10 +35,12 @@ No existe un CLA. Esto reduce fricción, pero significa que una futura doble lic
 1. Crea una rama descriptiva.
 2. Edita la fuente Markdown en `classes/`.
 3. Ejecuta `python scripts/generate_curriculum_docs.py --check`.
-4. Ejecuta `python scripts/build_bibliography.py --check`.
-5. Ejecuta `python scripts/build_site.py`.
-6. Ejecuta `python scripts/validate_repo.py`.
-7. Abre un pull request explicando el cambio, la evidencia y las superficies revisadas.
+4. Ejecuta `python scripts/build_pedagogical_decisions.py --check`.
+5. Ejecuta `python scripts/audit_pedagogical_traceability.py --json`.
+6. Ejecuta `python scripts/build_bibliography.py --check`.
+7. Ejecuta `python scripts/build_site.py`.
+8. Ejecuta `python scripts/validate_repo.py`.
+9. Abre un pull request explicando el cambio, la evidencia y las superficies revisadas.
 
 Todos los commits del pull request deben incluir `Signed-off-by: Nombre <correo>` mediante `git commit -s`.
 
@@ -48,6 +50,7 @@ El directorio `site/` es generado y no se versiona.
 
 - [ ] Los enlaces locales funcionan.
 - [ ] Las fuentes respaldan la afirmación concreta y no se presentan fuera de contexto.
+- [ ] La necesidad, posición, prerrequisitos, actividad, evidencia y continuidad cumplen el estándar documental.
 - [ ] Los conteos del README y del estado verificable siguen coincidiendo con el repositorio.
 - [ ] Se revisaron las páginas HTML afectadas, incluida una vista estrecha cuando cambia el diseño.
 - [ ] No se añadieron secretos, datos personales ni material sin procedencia.

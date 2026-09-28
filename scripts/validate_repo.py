@@ -418,6 +418,7 @@ def main() -> int:
             "estado.html",
             "fuentes-y-evidencia.html",
             "estandar-fuentes.html",
+            "estandar-documentacion-clase.html",
             "como-usar.html",
             "rutas-de-aprendizaje.html",
             "roles-y-oficios.html",
@@ -474,7 +475,7 @@ def main() -> int:
     print(
         "OK: 680 lessons · 68 parts · 8 studios · 48 studio sessions · "
         "12 learning paths · 755 legacy resources · 69 curriculum README files · "
-        "622 source URLs · 886 complete source uses · 22 current documents · licensing matrix · "
+        "622 source URLs · 886 complete source uses · 23 current documents · licensing matrix · "
         "Markdown links · checksums · UTF-8 · generated site"
     )
     return 0

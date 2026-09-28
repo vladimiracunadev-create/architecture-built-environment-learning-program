@@ -51,9 +51,107 @@ Esta parte comienza con **Hotel: habitación, pasillo y servicio** y culmina con
 
 ## Estado de justificación pedagógica
 
-**Revisión profunda:** 0/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+**Cadenas de decisión documentadas:** 10/10 clases. Cada síntesis procede de la pregunta, el resultado, la práctica, las fuentes y la vecindad curricular de la clase completa; no sustituye su narrativa.
 
-Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la posición de cada clase haya sido auditada.
+### ARQ-631 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se convierte una colección de habitaciones en un hotel que pueda alojar, orientar, limpiar, mantener y servir a personas con necesidades distintas?
+
+**Posición:** Abre la Parte 64 porque plantea primero el problema «¿Cómo se convierte una colección de habitaciones en un hotel que pueda alojar, orientar, limpiar, mantener y servir a personas con necesidades distintas?». La transición desde ARQ-630 · Proyecto cívico de alta complejidad conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-632 · Lobby, restaurante y espacios comunes desarrollará a continuación.
+
+**Entrada:** ARQ-630 · **Salida:** ARQ-632.
+
+**Evidencia:** Analizarás habitación, baño, circulación, housekeeping, instalaciones y accesibilidad como un sistema. Construirás una mezcla de habitaciones sin confundir ocupación comercial con capacidad física.
+
+### ARQ-632 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo dimensionar conceptualmente espacios comunes de hotel sin confundir capacidad de asiento, demanda de paso, espera y calidad de estancia?
+
+**Posición:** Ocupa el lugar 2 de la Parte 64. Se estudia después de ARQ-631 · Hotel: habitación, pasillo y servicio porque usa esa base para responder «¿Cómo dimensionar conceptualmente espacios comunes de hotel sin confundir capacidad de asiento, demanda de paso, espera y calidad de estancia?». Se ubica antes de ARQ-633 · Back-of-house y logística hotelera porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-631 · **Salida:** ARQ-633.
+
+**Evidencia:** Diferenciarás permanencia, circulación y procesamiento. Construirás un escenario punta para recepción y restaurante, conservando horarios y denominadores.
+
+### ARQ-633 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo puede la arquitectura de servicio sostener la experiencia del huésped sin ocupar recorridos públicos ni quedar relegada a espacios residuales?
+
+**Posición:** Ocupa el lugar 3 de la Parte 64. Se estudia después de ARQ-632 · Lobby, restaurante y espacios comunes porque usa esa base para responder «¿Cómo puede la arquitectura de servicio sostener la experiencia del huésped sin ocupar recorridos públicos ni quedar relegada a espacios residuales?». Se ubica antes de ARQ-634 · Resort y relación con paisaje porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-632 · **Salida:** ARQ-634.
+
+**Evidencia:** Organizarás recepción de suministros, housekeeping, ropa limpia/sucia, residuos, personal y mantenimiento. Harás un balance de carros y recorridos.
+
+### ARQ-634 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo coordinar alojamiento disperso, paisaje, servicios y movilidad interna sin tratar el terreno como fondo escénico?
+
+**Posición:** Ocupa el lugar 4 de la Parte 64. Se estudia después de ARQ-633 · Back-of-house y logística hotelera porque usa esa base para responder «¿Cómo coordinar alojamiento disperso, paisaje, servicios y movilidad interna sin tratar el terreno como fondo escénico?». Se ubica antes de ARQ-635 · Hostales y alojamiento compacto porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-633 · **Salida:** ARQ-635.
+
+**Evidencia:** Analizarás implantación, recorridos, vistas, agua, energía, mantenimiento y operación distribuida. Diferenciarás ocupación del suelo de intensidad de uso.
+
+### ARQ-635 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo diseñar alojamiento compacto sin reducir el proyecto a maximizar camas por metro cuadrado?
+
+**Posición:** Ocupa el lugar 5 de la Parte 64. Se estudia después de ARQ-634 · Resort y relación con paisaje porque usa esa base para responder «¿Cómo diseñar alojamiento compacto sin reducir el proyecto a maximizar camas por metro cuadrado?». Se ubica antes de ARQ-636 · Centro comercial y recorridos porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-634 · **Salida:** ARQ-636.
+
+**Evidencia:** Relacionarás camas, almacenamiento, privacidad, baños, cocina común, accesibilidad y convivencia. Distinguirás densidad de capacidad de servicio.
+
+### ARQ-636 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo coordinar locales, anclas, circulaciones, servicios y cambios de uso sin tratar el centro comercial como un pasillo con tiendas?
+
+**Posición:** Ocupa el lugar 6 de la Parte 64. Se estudia después de ARQ-635 · Hostales y alojamiento compacto porque usa esa base para responder «¿Cómo coordinar locales, anclas, circulaciones, servicios y cambios de uso sin tratar el centro comercial como un pasillo con tiendas?». Se ubica antes de ARQ-637 · Retail de gran formato y reposición porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-635 · **Salida:** ARQ-637.
+
+**Evidencia:** Analizarás red de recorridos, frentes activos, núcleos verticales, logística y estados horarios. Construirás un grafo de accesos y destinos.
+
+### ARQ-637 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo funciona un edificio comercial de gran formato cuando la exposición de productos depende de almacenamiento, entregas y reposición continua?
+
+**Posición:** Ocupa el lugar 7 de la Parte 64. Se estudia después de ARQ-636 · Centro comercial y recorridos porque usa esa base para responder «¿Cómo funciona un edificio comercial de gran formato cuando la exposición de productos depende de almacenamiento, entregas y reposición continua?». Se ubica antes de ARQ-638 · Mercados y comercio de alimentos porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-636 · **Salida:** ARQ-638.
+
+**Evidencia:** Diferenciarás sala de ventas, reserva, recepción, preparación y expedición. Relacionarás grandes luces y modulación con flexibilidad, sin convertir un layout en estructura dimensionada.
+
+### ARQ-638 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo coordinar venta, preparación, frío, lavado, residuos y público en un mercado sin mezclar flujos incompatibles?
+
+**Posición:** Ocupa el lugar 8 de la Parte 64. Se estudia después de ARQ-637 · Retail de gran formato y reposición porque usa esa base para responder «¿Cómo coordinar venta, preparación, frío, lavado, residuos y público en un mercado sin mezclar flujos incompatibles?». Se ubica antes de ARQ-639 · Adaptabilidad y cambios de marca porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-637 · **Salida:** ARQ-639.
+
+**Evidencia:** Construirás un programa por operaciones alimentarias y servicios comunes. Diferenciarás recomendación de seguridad alimentaria de norma arquitectónica local.
+
+### ARQ-639 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo preparar un edificio comercial para cambios frecuentes de arrendatario sin reconstruir cada vez estructura, fachada e instalaciones principales?
+
+**Posición:** Ocupa el lugar 9 de la Parte 64. Se estudia después de ARQ-638 · Mercados y comercio de alimentos porque usa esa base para responder «¿Cómo preparar un edificio comercial para cambios frecuentes de arrendatario sin reconstruir cada vez estructura, fachada e instalaciones principales?». Se ubica antes de ARQ-640 · Proyecto integrado de hospitalidad y comercio porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-638 · **Salida:** ARQ-640.
+
+**Evidencia:** Distinguirás base building, fit-out y equipamiento del ocupante. Analizarás módulos, reservas y reversibilidad de cambios.
+
+### ARQ-640 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo coordinar hotel, restaurantes, comercio y espacios de evento en un conjunto mixto sin duplicar accesos, servicios o capacidades y sin perder independencia operativa?
+
+**Posición:** Cierra la Parte 64: integra lo producido en ARQ-639 · Adaptabilidad y cambios de marca para responder «¿Cómo coordinar hotel, restaurantes, comercio y espacios de evento en un conjunto mixto sin duplicar accesos, servicios o capacidades y sin perder independencia operativa?». La transición hacia ARQ-641 · Escuela: aula, patio y comunidad transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
+
+**Entrada:** ARQ-639 · **Salida:** ARQ-641.
+
+**Evidencia:** Construirás un programa integrado, identificarás sinergias y dependencias y defenderás una estrategia por estados de operación.
 
 ## Cómo recorrer esta parte
 

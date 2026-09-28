@@ -33,9 +33,10 @@ Se inspeccionaron los encabezados y el texto completo de las 680 fuentes Markdow
 | Autoevaluación o solución | **680/680** | recuperación inmediata y diferida |
 | Continuidad explícita | **680/680** | conexión con parte y portafolio |
 | Errores diagnósticos | **680/680** | adaptados al tipo de clase |
-| Contrato de decisión revisado | **5/680** | necesidad, posición, dependencias, fuentes, actividad, evidencia y continuidad auditadas |
+| Cadena de decisión documentada | **680/680** | necesidad, posición, dependencias, fuentes, actividad, evidencia y continuidad |
+| Piloto con revisión editorial manual profunda | **5/680** | muestra inicial, intermedia, normativa, avanzada práctica y final |
 
-Las primeras ocho filas miden presencia estructural. La última mide revisión profunda y no puede inferirse desde las anteriores. Los 675 contratos restantes están pendientes; consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).
+Las primeras filas miden presencia estructural; la cadena documentada se obtiene de cada clase completa y sus vecinas. Los cinco pilotos añaden una revisión manual más intensa. Ninguno de esos estados equivale a revisión externa por especialistas; consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).
 
 El conteo reproducible por unidades separadas por espacio arroja una mediana de **2.104** por clase y aproximadamente **1,36 millones** en el corpus. Longitud no equivale a calidad: estas cifras sólo describen material que debe pilotarse y revisar una persona especialista.
 

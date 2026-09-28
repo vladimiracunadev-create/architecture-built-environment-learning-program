@@ -51,9 +51,99 @@ Esta parte comienza con **Comparar una casa, un hospital y un aeropuerto** y cul
 
 ## Estado de justificación pedagógica
 
-**Revisión profunda:** 1/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+**Cadenas de decisión documentadas:** 10/10 clases. Cada síntesis procede de la pregunta, el resultado, la práctica, las fuentes y la vecindad curricular de la clase completa; no sustituye su narrativa.
 
-### ARQ-680 · decisión revisada
+### ARQ-671 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Qué conocimientos se transfieren entre una casa, un hospital y un aeropuerto y cuáles cambian radicalmente por escala, riesgo y operación?
+
+**Posición:** Abre la Parte 68 porque plantea primero el problema «¿Qué conocimientos se transfieren entre una casa, un hospital y un aeropuerto y cuáles cambian radicalmente por escala, riesgo y operación?». La transición desde ARQ-670 · Proyecto de infraestructura especial conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-672 · Comparar iglesia, museo y estadio desarrollará a continuación.
+
+**Entrada:** ARQ-670 · **Salida:** ARQ-672.
+
+**Evidencia:** Construirás una matriz comparativa de tres tipologías, separando invariantes metodológicas de parámetros que no deben copiarse. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-672 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo comparar tipologías de reunión masiva sin confundir ritual, contemplación, exposición y evento con una sola idea de “aforo”?
+
+**Posición:** Ocupa el lugar 2 de la Parte 68. Se estudia después de ARQ-671 · Comparar una casa, un hospital y un aeropuerto porque usa esa base para responder «¿Cómo comparar tipologías de reunión masiva sin confundir ritual, contemplación, exposición y evento con una sola idea de “aforo”?». Se ubica antes de ARQ-673 · Comparar rascacielos, torre y centro de datos porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-671 · **Salida:** ARQ-673.
+
+**Evidencia:** Distinguirás concentración, duración, orientación, acústica, patrimonio y logística en tres espacios colectivos. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-673 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Qué diferencia una estructura alta ocupada, una torre especial y un centro de datos cuando las tres dependen de infraestructura crítica y mantenimiento?
+
+**Posición:** Ocupa el lugar 3 de la Parte 68. Se estudia después de ARQ-672 · Comparar iglesia, museo y estadio porque usa esa base para responder «¿Qué diferencia una estructura alta ocupada, una torre especial y un centro de datos cuando las tres dependen de infraestructura crítica y mantenimiento?». Se ubica antes de ARQ-674 · Comparar estación, metro y terminal aeroportuaria porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-672 · **Salida:** ARQ-674.
+
+**Evidencia:** Compararás verticalidad, ocupación, densidad de equipos, continuidad y exposición ambiental sin usar una métrica única. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-674 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo cambia la arquitectura del intercambio cuando tren, metro y avión operan con frecuencias, controles y escalas diferentes?
+
+**Posición:** Ocupa el lugar 4 de la Parte 68. Se estudia después de ARQ-673 · Comparar rascacielos, torre y centro de datos porque usa esa base para responder «¿Cómo cambia la arquitectura del intercambio cuando tren, metro y avión operan con frecuencias, controles y escalas diferentes?». Se ubica antes de ARQ-675 · Comparar puente, túnel y puerto porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-673 · **Salida:** ARQ-675.
+
+**Evidencia:** Analizarás cadenas de viaje, transbordos, procesamiento, información y estados de interrupción. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-675 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo comparar infraestructuras de conexión cuando unas cruzan, otras perforan y otras transfieren entre tierra y agua?
+
+**Posición:** Ocupa el lugar 5 de la Parte 68. Se estudia después de ARQ-674 · Comparar estación, metro y terminal aeroportuaria porque usa esa base para responder «¿Cómo comparar infraestructuras de conexión cuando unas cruzan, otras perforan y otras transfieren entre tierra y agua?». Se ubica antes de ARQ-676 · Comparar castillo y edificio de alta seguridad porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-674 · **Salida:** ARQ-676.
+
+**Evidencia:** Relacionarás servicio, terreno, agua, construcción, inspección y continuidad en tres familias de infraestructura. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-676 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Qué puede aprender la arquitectura contemporánea de una fortificación histórica sin convertir su lógica defensiva en instrucciones de seguridad explotables?
+
+**Posición:** Ocupa el lugar 6 de la Parte 68. Se estudia después de ARQ-675 · Comparar puente, túnel y puerto porque usa esa base para responder «¿Qué puede aprender la arquitectura contemporánea de una fortificación histórica sin convertir su lógica defensiva en instrucciones de seguridad explotables?». Se ubica antes de ARQ-677 · Comparar escuela, hotel y residencia porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-675 · **Salida:** ARQ-677.
+
+**Evidencia:** Compararás capas espaciales, control, habitabilidad, dignidad y adaptación patrimonial desde un nivel arquitectónico no operativo. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-677 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo distinguir tres tipologías de estancia cuando todas contienen habitaciones, servicios compartidos y rutinas cotidianas?
+
+**Posición:** Ocupa el lugar 7 de la Parte 68. Se estudia después de ARQ-676 · Comparar castillo y edificio de alta seguridad porque usa esa base para responder «¿Cómo distinguir tres tipologías de estancia cuando todas contienen habitaciones, servicios compartidos y rutinas cotidianas?». Se ubica antes de ARQ-678 · Comparar fábrica y laboratorio porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-676 · **Salida:** ARQ-678.
+
+**Evidencia:** Compararás duración, propiedad, cuidado, horarios y servicios compartidos sin reducir edificios a dormitorios y pasillos. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-678 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo cambia el edificio cuando la producción se orienta a volumen repetitivo o a experimentación controlada?
+
+**Posición:** Ocupa el lugar 8 de la Parte 68. Se estudia después de ARQ-677 · Comparar escuela, hotel y residencia porque usa esa base para responder «¿Cómo cambia el edificio cuando la producción se orienta a volumen repetitivo o a experimentación controlada?». Se ubica antes de ARQ-679 · Transferencia responsable entre tipologías porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-677 · **Salida:** ARQ-679.
+
+**Evidencia:** Distinguirás proceso, incertidumbre, equipos, seguridad, contaminación, logística y capacidad de cambio. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-679 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo aprender de una tipología sin copiar números, formas o soluciones cuya evidencia pertenece a otro contexto?
+
+**Posición:** Ocupa el lugar 9 de la Parte 68. Se estudia después de ARQ-678 · Comparar fábrica y laboratorio porque usa esa base para responder «¿Cómo aprender de una tipología sin copiar números, formas o soluciones cuya evidencia pertenece a otro contexto?». Se ubica antes de ARQ-680 · Defensa final de tipologías y grandes obras porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-678 · **Salida:** ARQ-680.
+
+**Evidencia:** Construirás un protocolo explícito de transferencia: problema común, mecanismo, condiciones, diferencias, prueba y límites. La clase conserva los métodos construidos en las partes anteriores y no hereda parámetros numéricos de otros casos salvo indicación explícita.
+
+### ARQ-680 · decisión sustentada
 
 **Necesidad:** Demostrar que el estudiante puede reconstruir y defender una decisión compleja, incluidas alternativas descartadas, límites, cambios y pendientes, en vez de cerrar el programa con una presentación persuasiva pero no auditable.
 

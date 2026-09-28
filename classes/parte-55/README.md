@@ -51,9 +51,107 @@ Esta parte comienza con **Estación ferroviaria: ciudad, andén y vestíbulo** y
 
 ## Estado de justificación pedagógica
 
-**Revisión profunda:** 0/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+**Cadenas de decisión documentadas:** 10/10 clases. Cada síntesis procede de la pregunta, el resultado, la práctica, las fuentes y la vecindad curricular de la clase completa; no sustituye su narrativa.
 
-Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la posición de cada clase haya sido auditada.
+### ARQ-541 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo diseñar una estación ferroviaria que conecte ciudad, vestíbulo, andenes y tren sin reducirla a un edificio aislado?
+
+**Posición:** Abre la Parte 55 porque plantea primero el problema «¿Cómo diseñar una estación ferroviaria que conecte ciudad, vestíbulo, andenes y tren sin reducirla a un edificio aislado?». La transición desde ARQ-540 · Proyecto de terminal aeroportuaria conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-542 · Plataformas, gálibos y circulación desarrollará a continuación.
+
+**Entrada:** ARQ-540 · **Salida:** ARQ-542.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-540 conserva métodos, no cifras. ARQ-542 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-542 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo relacionar plataforma, tren, borde y circulación sin tratar una dimensión aislada como accesibilidad o seguridad completas?
+
+**Posición:** Ocupa el lugar 2 de la Parte 55. Se estudia después de ARQ-541 · Estación ferroviaria: ciudad, andén y vestíbulo porque usa esa base para responder «¿Cómo relacionar plataforma, tren, borde y circulación sin tratar una dimensión aislada como accesibilidad o seguridad completas?». Se ubica antes de ARQ-543 · Intercambios y conexiones multimodales porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-541 · **Salida:** ARQ-543.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-541 conserva métodos, no cifras. ARQ-543 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-543 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo diseñar una conexión tren–bus–metro–peatón cuando la ruta más corta no necesariamente produce la transferencia más rápida o accesible?
+
+**Posición:** Ocupa el lugar 3 de la Parte 55. Se estudia después de ARQ-542 · Plataformas, gálibos y circulación porque usa esa base para responder «¿Cómo diseñar una conexión tren–bus–metro–peatón cuando la ruta más corta no necesariamente produce la transferencia más rápida o accesible?». Se ubica antes de ARQ-544 · Metro: estación subterránea y acceso porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-542 · **Salida:** ARQ-544.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-542 conserva métodos, no cifras. ARQ-544 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-544 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo cambia el proyecto cuando la estación se organiza bajo tierra y depende de accesos, pozos, equipos y relación con la superficie?
+
+**Posición:** Ocupa el lugar 4 de la Parte 55. Se estudia después de ARQ-543 · Intercambios y conexiones multimodales porque usa esa base para responder «¿Cómo cambia el proyecto cuando la estación se organiza bajo tierra y depende de accesos, pozos, equipos y relación con la superficie?». Se ubica antes de ARQ-545 · Túneles, pozos y ventilación de estación porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-543 · **Salida:** ARQ-545.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-543 conserva métodos, no cifras. ARQ-545 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-545 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo coordinar túnel, pozos y ventilación sin confundir ventilación ordinaria con control de humo o respuesta de emergencia?
+
+**Posición:** Ocupa el lugar 5 de la Parte 55. Se estudia después de ARQ-544 · Metro: estación subterránea y acceso porque usa esa base para responder «¿Cómo coordinar túnel, pozos y ventilación sin confundir ventilación ordinaria con control de humo o respuesta de emergencia?». Se ubica antes de ARQ-546 · Evacuación y manejo de multitudes porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-544 · **Salida:** ARQ-546.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-544 conserva métodos, no cifras. ARQ-546 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-546 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo estudiar acumulación y salida de personas sin presentar un modelo simplificado como tiempo seguro de evacuación?
+
+**Posición:** Ocupa el lugar 6 de la Parte 55. Se estudia después de ARQ-545 · Túneles, pozos y ventilación de estación porque usa esa base para responder «¿Cómo estudiar acumulación y salida de personas sin presentar un modelo simplificado como tiempo seguro de evacuación?». Se ubica antes de ARQ-547 · Ruido, vibración y estructura ferroviaria porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-545 · **Salida:** ARQ-547.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-545 conserva métodos, no cifras. ARQ-547 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-547 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo relacionar tren, vía, estructura y edificios cercanos sin convertir vibración calculada en nivel sonoro o molestia?
+
+**Posición:** Ocupa el lugar 7 de la Parte 55. Se estudia después de ARQ-546 · Evacuación y manejo de multitudes porque usa esa base para responder «¿Cómo relacionar tren, vía, estructura y edificios cercanos sin convertir vibración calculada en nivel sonoro o molestia?». Se ubica antes de ARQ-548 · Accesibilidad, señalética y wayfinding porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-546 · **Salida:** ARQ-548.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-546 conserva métodos, no cifras. ARQ-548 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-548 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo comprobar una cadena de viaje accesible cuando ascensores, información, andenes y trenes pertenecen a sistemas distintos?
+
+**Posición:** Ocupa el lugar 8 de la Parte 55. Se estudia después de ARQ-547 · Ruido, vibración y estructura ferroviaria porque usa esa base para responder «¿Cómo comprobar una cadena de viaje accesible cuando ascensores, información, andenes y trenes pertenecen a sistemas distintos?». Se ubica antes de ARQ-549 · Operación, mantenimiento y cierres parciales porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-547 · **Salida:** ARQ-549.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-547 conserva métodos, no cifras. ARQ-549 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-549 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo mantener servicio cuando parte de la estación se cierra por mantenimiento sin dibujar rutas que no existen durante la obra?
+
+**Posición:** Ocupa el lugar 9 de la Parte 55. Se estudia después de ARQ-548 · Accesibilidad, señalética y wayfinding porque usa esa base para responder «¿Cómo mantener servicio cuando parte de la estación se cierra por mantenimiento sin dibujar rutas que no existen durante la obra?». Se ubica antes de ARQ-550 · Proyecto de intercambiador tren-metro porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-548 · **Salida:** ARQ-550.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-548 conserva métodos, no cifras. ARQ-550 recibe esta lógica y declara sus propios parámetros.
+
+### ARQ-550 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo integrar estación ferroviaria, metro y ciudad en un intercambiador que siga funcionando bajo diferentes estados?
+
+**Posición:** Cierra la Parte 55: integra lo producido en ARQ-549 · Operación, mantenimiento y cierres parciales para responder «¿Cómo integrar estación ferroviaria, metro y ciudad en un intercambiador que siga funcionando bajo diferentes estados?». La transición hacia ARQ-551 · Puente como tipología y camino de cargas transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
+
+**Entrada:** ARQ-549 · **Salida:** ARQ-551.
+
+**Evidencia:** Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional. La continuidad desde ARQ-549 conserva métodos, no cifras. ARQ-551 recibe esta lógica y declara sus propios parámetros.
 
 ## Cómo recorrer esta parte
 

@@ -51,9 +51,107 @@ Esta parte comienza con **Escuela: aula, patio y comunidad** y culmina con **Pro
 
 ## Estado de justificación pedagógica
 
-**Revisión profunda:** 0/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+**Cadenas de decisión documentadas:** 10/10 clases. Cada síntesis procede de la pregunta, el resultado, la práctica, las fuentes y la vecindad curricular de la clase completa; no sustituye su narrativa.
 
-Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la posición de cada clase haya sido auditada.
+### ARQ-641 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo organizar una escuela para que aula, patio, biblioteca, comedor y comunidad formen un sistema de aprendizaje y no una suma de recintos aislados?
+
+**Posición:** Abre la Parte 65 porque plantea primero el problema «¿Cómo organizar una escuela para que aula, patio, biblioteca, comedor y comunidad formen un sistema de aprendizaje y no una suma de recintos aislados?». La transición desde ARQ-640 · Proyecto integrado de hospitalidad y comercio conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-642 · Jardines infantiles y primera infancia desarrollará a continuación.
+
+**Entrada:** ARQ-640 · **Salida:** ARQ-642.
+
+**Evidencia:** Construirás un programa escolar por actividades, relaciones y estados de uso. Diferenciarás superficie, capacidad, simultaneidad y apropiación comunitaria, y comprobarás un balance de áreas sin confundirlo con calidad pedagógica. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-642 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Qué cambia en arquitectura cuando el espacio debe ser comprensible, apropiable y seguro para niñas y niños pequeños sin reducirlos a una escala geométrica?
+
+**Posición:** Ocupa el lugar 2 de la Parte 65. Se estudia después de ARQ-641 · Escuela: aula, patio y comunidad porque usa esa base para responder «¿Qué cambia en arquitectura cuando el espacio debe ser comprensible, apropiable y seguro para niñas y niños pequeños sin reducirlos a una escala geométrica?». Se ubica antes de ARQ-643 · Liceos y educación media porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-641 · **Salida:** ARQ-643.
+
+**Evidencia:** Relacionarás cuerpo, juego, cuidado, descanso, exploración, observación y comunidad. Aprenderás a distinguir escala infantil de miniaturización y a documentar relaciones entre interior, exterior y apoyo adulto. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-643 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo puede un liceo sostener enseñanza general, especialidades, trabajo colaborativo y vida adolescente sin rigidizar el edificio alrededor de un horario único?
+
+**Posición:** Ocupa el lugar 3 de la Parte 65. Se estudia después de ARQ-642 · Jardines infantiles y primera infancia porque usa esa base para responder «¿Cómo puede un liceo sostener enseñanza general, especialidades, trabajo colaborativo y vida adolescente sin rigidizar el edificio alrededor de un horario único?». Se ubica antes de ARQ-644 · Universidad: aulas, bibliotecas y vida campus porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-642 · **Salida:** ARQ-644.
+
+**Evidencia:** Analizarás aulas, talleres, laboratorios, espacios sociales y cambios de horario. Construirás una matriz de simultaneidad y reconocerás cuándo compartir un recinto crea un conflicto operativo. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-644 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se diseña una universidad cuando aprender, investigar, reunirse, comer, desplazarse y permanecer ocurren en escalas temporales distintas?
+
+**Posición:** Ocupa el lugar 4 de la Parte 65. Se estudia después de ARQ-643 · Liceos y educación media porque usa esa base para responder «¿Cómo se diseña una universidad cuando aprender, investigar, reunirse, comer, desplazarse y permanecer ocurren en escalas temporales distintas?». Se ubica antes de ARQ-645 · Laboratorios docentes y talleres porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-643 · **Salida:** ARQ-645.
+
+**Evidencia:** Distinguirás capacidad nominal, ocupación temporal y diversidad de uso. Aprenderás a leer el campus como red de destinos y soportes, no como colección de facultades independientes. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-645 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo coordinar enseñanza práctica, equipos, preparación, residuos, almacenamiento y supervisión sin tratar el laboratorio como un aula con mesones?
+
+**Posición:** Ocupa el lugar 5 de la Parte 65. Se estudia después de ARQ-644 · Universidad: aulas, bibliotecas y vida campus porque usa esa base para responder «¿Cómo coordinar enseñanza práctica, equipos, preparación, residuos, almacenamiento y supervisión sin tratar el laboratorio como un aula con mesones?». Se ubica antes de ARQ-646 · Residencias estudiantiles porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-644 · **Salida:** ARQ-646.
+
+**Evidencia:** Construirás secuencias de preparación, uso y cierre. Separarás capacidad de puestos, compatibilidad de actividades y necesidades de soporte, manteniendo la seguridad como ámbito que requiere especialistas y procedimientos aplicables. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-646 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo equilibrar privacidad, comunidad, estudio, descanso y cuidados en una residencia sin reducirla a maximizar camas por metro cuadrado?
+
+**Posición:** Ocupa el lugar 6 de la Parte 65. Se estudia después de ARQ-645 · Laboratorios docentes y talleres porque usa esa base para responder «¿Cómo equilibrar privacidad, comunidad, estudio, descanso y cuidados en una residencia sin reducirla a maximizar camas por metro cuadrado?». Se ubica antes de ARQ-647 · Campus, paisaje y movilidad porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-645 · **Salida:** ARQ-647.
+
+**Evidencia:** Relacionarás habitación, espacios compartidos, servicios y operación. Distinguirás cantidad de camas de calidad residencial y estudiarás qué se pierde cuando una mejora de eficiencia consume áreas comunes. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-647 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se diseña un campus para conectar edificios, paisaje, transporte y permanencia sin asumir que la ruta más corta es siempre la mejor?
+
+**Posición:** Ocupa el lugar 7 de la Parte 65. Se estudia después de ARQ-646 · Residencias estudiantiles porque usa esa base para responder «¿Cómo se diseña un campus para conectar edificios, paisaje, transporte y permanencia sin asumir que la ruta más corta es siempre la mejor?». Se ubica antes de ARQ-648 · Flexibilidad pedagógica y tecnología porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-646 · **Salida:** ARQ-648.
+
+**Evidencia:** Modelarás una red peatonal simplificada, compararás distancia, tiempo y calidad de conexión, y distinguirás continuidad accesible de mera proximidad geométrica. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-648 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cuándo un espacio es realmente flexible y cuándo solo tiene mobiliario movible dentro de una infraestructura rígida?
+
+**Posición:** Ocupa el lugar 8 de la Parte 65. Se estudia después de ARQ-647 · Campus, paisaje y movilidad porque usa esa base para responder «¿Cuándo un espacio es realmente flexible y cuándo solo tiene mobiliario movible dentro de una infraestructura rígida?». Se ubica antes de ARQ-649 · Crecimiento por etapas y uso comunitario porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-647 · **Salida:** ARQ-649.
+
+**Evidencia:** Distinguirás flexibilidad espacial, programática, tecnológica y operativa. Comprobarás que una partición móvil puede resolver simultaneidad pero crear nuevas demandas acústicas, de datos, ventilación y evacuación. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-649 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo crecer una institución educativa sin construir etapas que funcionen mal durante años o que bloqueen la expansión prevista?
+
+**Posición:** Ocupa el lugar 9 de la Parte 65. Se estudia después de ARQ-648 · Flexibilidad pedagógica y tecnología porque usa esa base para responder «¿Cómo crecer una institución educativa sin construir etapas que funcionen mal durante años o que bloqueen la expansión prevista?». Se ubica antes de ARQ-650 · Proyecto integrado de campus porque la evidencia producida aquí debe estar disponible para ese paso.
+
+**Entrada:** ARQ-648 · **Salida:** ARQ-650.
+
+**Evidencia:** Planificarás fases con servicios completos, identificarás dependencias temporales y distinguirás reserva de suelo de infraestructura realmente preparada para crecer. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
+
+### ARQ-650 · decisión sustentada
+
+**Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo integrar aprendizaje, residencia, paisaje, movilidad, etapas y comunidad en un campus sin perder la trazabilidad de cada decisión?
+
+**Posición:** Cierra la Parte 65: integra lo producido en ARQ-649 · Crecimiento por etapas y uso comunitario para responder «¿Cómo integrar aprendizaje, residencia, paisaje, movilidad, etapas y comunidad en un campus sin perder la trazabilidad de cada decisión?». La transición hacia ARQ-651 · Maqueta de masa y emplazamiento transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
+
+**Entrada:** ARQ-649 · **Salida:** ARQ-651.
+
+**Evidencia:** Construirás un expediente conceptual que conecte programa, red, estados de operación y crecimiento. Aprenderás a presentar una alternativa con decisiones verificadas y pendientes explícitos. Esta clase continúa la progresión de la parte y deja explícito qué información debe pasar a la siguiente sin transformar una hipótesis en dato confirmado.
 
 ## Cómo recorrer esta parte
 

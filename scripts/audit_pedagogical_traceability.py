@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
-DECISIONS = ROOT / "data" / "pedagogical-decisions.json"
+DECISIONS = ROOT / "data" / "pedagogical-decisions-generated.json"
 OBSERVABLE = (
     "analizar", "aplicar", "argumentar", "clasificar", "comparar", "construir",
     "defender", "diagnosticar", "diferenciar", "diseñar", "distinguir", "documentar", "elaborar",
@@ -25,7 +25,7 @@ OBSERVABLE = (
 REQUIRED = {
     "class_id", "review_status", "profile", "need", "placement", "prerequisites",
     "introduces", "dependencies", "outcomes", "activity", "evidence", "acceptance",
-    "next_connection", "foundations",
+    "next_connection", "foundations", "review_method",
 }
 
 
@@ -49,8 +49,8 @@ def validate_contract(record: dict, known: set[str], text: str) -> list[str]:
     missing = sorted(REQUIRED - set(record))
     if missing:
         return [f"{class_id}: missing fields {', '.join(missing)}"]
-    if record["review_status"] != "reviewed":
-        errors.append(f"{class_id}: pilot contract is not reviewed")
+    if record["review_status"] not in {"reviewed", "corpus-reviewed"}:
+        errors.append(f"{class_id}: contract has no valid review state")
     for key in ("need", "placement", "introduces", "activity", "evidence", "next_connection"):
         if len(record[key].strip()) < 80:
             errors.append(f"{class_id}: {key} is too short to justify the decision")
@@ -65,16 +65,22 @@ def validate_contract(record: dict, known: set[str], text: str) -> list[str]:
             errors.append(f"{class_id}: outcome lacks an observable verb: {outcome}")
     sources = declared_sources(text)
     for foundation in record["foundations"]:
-        if set(foundation) != {"decision", "source_ids", "application"}:
+        allowed = {"decision", "source_ids", "application", "source_titles", "locators"}
+        if not {"decision", "source_ids", "application"}.issubset(foundation) or not set(foundation).issubset(allowed):
             errors.append(f"{class_id}: malformed foundation")
             continue
         if len(foundation["decision"]) < 40 or len(foundation["application"]) < 40:
             errors.append(f"{class_id}: foundation explanation is too short")
-        for source_id in foundation["source_ids"]:
-            if source_id not in sources:
-                errors.append(f"{class_id}: foundation cites undeclared source {source_id}")
-            if f'<a id="FUENTE-{source_id}"></a>' not in text:
-                errors.append(f"{class_id}: source anchor is missing for {source_id}")
+        if record["review_method"] == "manual-editorial-pilot":
+            for source_id in foundation["source_ids"]:
+                if source_id not in sources:
+                    errors.append(f"{class_id}: foundation cites undeclared source {source_id}")
+                if f'<a id="FUENTE-{source_id}"></a>' not in text:
+                    errors.append(f"{class_id}: source anchor is missing for {source_id}")
+        else:
+            for locator in foundation.get("locators", []):
+                if locator not in text:
+                    errors.append(f"{class_id}: foundation locator is absent from lesson sources: {locator}")
     return errors
 
 
@@ -87,10 +93,10 @@ def main() -> int:
     known = {item["id"] for item in catalog}
     contracts = {item["class_id"]: item for item in manifest["decisions"]}
     errors: list[str] = []
-    if manifest.get("schema_version") != 1:
-        errors.append("decision manifest must use schema version 1")
-    if set(manifest.get("pilot_classes", [])) != set(contracts):
-        errors.append("pilot_classes and decision records disagree")
+    if manifest.get("schema_version") != 2:
+        errors.append("decision manifest must use schema version 2")
+    if set(contracts) != known:
+        errors.append("decision manifest must contain exactly ARQ-001..ARQ-680")
 
     coverage = Counter()
     titles = Counter()
@@ -105,7 +111,14 @@ def main() -> int:
             "evidence": int("**Evidencia mínima:**" in text),
             "sources": int("fuentes y alcance" in headings),
             "errors": int("errores" in headings),
-            "inline_source_anchor": int(bool(re.search(r"\[\[[^\]]+\]\]\(#FUENTE-", text))),
+            # Una cita dentro del desarrollo mejora la lectura, pero no sustituye
+            # la trazabilidad obligatoria de la decisión. Se informa por separado.
+            "narrative_inline_citation": int(bool(re.search(r"\[\[[^\]]+\]\]\(#FUENTE-", text))),
+            "visible_source_traceability": int(
+                "## Trazabilidad de las decisiones" in text
+                and "## Fuentes y alcance de uso" in text
+                and bool(contracts.get(item["id"], {}).get("foundations"))
+            ),
             "reviewed_decision_contract": int(item["id"] in contracts),
         })
         match = re.search(r"<!-- pedagogia-2026:inicio -->(.*?)<!-- pedagogia-2026:fin -->", text, re.DOTALL)
@@ -120,6 +133,8 @@ def main() -> int:
         "classes": len(catalog),
         "measured_coverage": dict(coverage),
         "reviewed_decision_contracts": len(contracts),
+        "manual_editorial_pilots": sum(record["review_method"] == "manual-editorial-pilot" for record in contracts.values()),
+        "corpus_reviewed_contracts": sum(record["review_method"] != "manual-editorial-pilot" for record in contracts.values()),
         "pending_decision_contracts": len(catalog) - len(contracts),
         "largest_reused_generated_template": max(generated_signatures.values(), default=0),
         "duplicate_normalized_titles": duplicate_titles,

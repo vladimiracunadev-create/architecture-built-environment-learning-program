@@ -4,20 +4,21 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 
 ## Empezar
 
-1. [Método y alcance](METODO_Y_ALCANCE.md) — arquitectura pedagógica, niveles de conclusión y límites.
-2. [Cómo usar el programa](COMO_USAR_EL_PROGRAMA.md) — recorridos, ritmos y formas de estudio.
-3. [Rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) — doce recorridos transversales por la malla.
-4. [Roles y oficios](ROLES_Y_OFICIOS.md) — relación entre responsabilidades, documentos y clases.
-5. [Casos integradores](CASOS_INTEGRADORES.md) — uso coordinado de varias disciplinas y entregables.
-6. [Arquitectura de evaluación](ARQUITECTURA_DE_EVALUACION.md) — evidencias y avance por clase, parte, ruta y programa.
-7. [Rúbrica común](RUBRICA_COMUN.md) — cinco dimensiones, niveles y condiciones críticas.
-8. [Portafolio y evidencias](PORTAFOLIO_Y_EVIDENCIAS.md) — versiones, crítica, privacidad y selección final.
-9. [Estándar visual](ESTANDAR_VISUAL.md) — representación disciplinar, accesibilidad y derechos.
-10. [Syllabus y carga](SYLLABUS_Y_CARGA.md) — modalidades, progresión y medición honesta del tiempo.
+1. [Estándar obligatorio de documentación de una clase](ESTANDAR_DOCUMENTACION_CLASE.md) — criterio de creación, revisión y aceptación.
+2. [Método y alcance](METODO_Y_ALCANCE.md) — arquitectura pedagógica, niveles de conclusión y límites.
+3. [Cómo usar el programa](COMO_USAR_EL_PROGRAMA.md) — recorridos, ritmos y formas de estudio.
+4. [Rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) — doce recorridos transversales por la malla.
+5. [Roles y oficios](ROLES_Y_OFICIOS.md) — relación entre responsabilidades, documentos y clases.
+6. [Casos integradores](CASOS_INTEGRADORES.md) — uso coordinado de varias disciplinas y entregables.
+7. [Arquitectura de evaluación](ARQUITECTURA_DE_EVALUACION.md) — evidencias y avance por clase, parte, ruta y programa.
+8. [Rúbrica común](RUBRICA_COMUN.md) — cinco dimensiones, niveles y condiciones críticas.
+9. [Portafolio y evidencias](PORTAFOLIO_Y_EVIDENCIAS.md) — versiones, crítica, privacidad y selección final.
+10. [Estándar visual](ESTANDAR_VISUAL.md) — representación disciplinar, accesibilidad y derechos.
+11. [Syllabus y carga](SYLLABUS_Y_CARGA.md) — modalidades, progresión y medición honesta del tiempo.
 
 ## Evidencia y control editorial
 
-- [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) — diagnóstico, análisis de referencia, cinco pilotos, decisiones, fuentes, cambios y pendientes.
+- [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) — diagnóstico, análisis de referencia, extensión a 680 clases, cinco pilotos profundos, decisiones, fuentes, cambios y pendientes.
 - [Estado verificable](ESTADO_VERIFICABLE.md) — cobertura medida, brechas conocidas y comandos reproducibles.
 - [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md) — procedencia, categorías, límites y criterio de actualización.
 - [Estándar de fuentes y trazabilidad](ESTANDAR_DE_FUENTES.md) — campos mínimos para libros, artículos, normas, webs y casos.
