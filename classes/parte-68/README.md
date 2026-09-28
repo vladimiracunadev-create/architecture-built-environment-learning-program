@@ -49,6 +49,20 @@ Esta parte comienza con **Comparar una casa, un hospital y un aeropuerto** y cul
 | 09 | [ARQ-679 · Transferencia responsable entre tipologías](ARQ-679.md) |
 | 10 | [ARQ-680 · Defensa final de tipologías y grandes obras](ARQ-680.md) |
 
+## Estado de justificación pedagógica
+
+**Revisión profunda:** 1/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+### ARQ-680 · decisión revisada
+
+**Necesidad:** Demostrar que el estudiante puede reconstruir y defender una decisión compleja, incluidas alternativas descartadas, límites, cambios y pendientes, en vez de cerrar el programa con una presentación persuasiva pero no auditable.
+
+**Posición:** Es la última clase porque exige transferir métodos de toda la Fase I y de veinte familias tipológicas, después de que ARQ-679 haya enseñado a separar mecanismos transferibles de parámetros contextuales. No introduce otra tipología: hace visible la calidad del razonamiento acumulado.
+
+**Entrada:** ARQ-480, ARQ-670, ARQ-671, ARQ-679 · **Salida:** EST-08.
+
+**Evidencia:** Dossier de defensa, matriz de trazabilidad bidireccional, registro de cambios, presentación y acta de objeciones; todos deben permitir reconstruir la decisión sin explicación oral adicional.
+
 ## Cómo recorrer esta parte
 
 1. Lee las clases en orden cuando el tema sea nuevo; la continuidad está escrita dentro de cada documento.

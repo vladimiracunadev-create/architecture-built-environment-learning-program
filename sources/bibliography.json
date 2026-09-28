@@ -16,14 +16,14 @@
     ],
     "field_coverage": {
       "function": 1872,
-      "consultation_scope": 1482,
+      "consultation_scope": 1485,
       "limitation": 1734,
-      "accessed_on": 1055
+      "accessed_on": 1058
     },
-    "complete_uses": 883,
-    "partial_uses": 1056,
-    "classes_with_all_uses_complete": 291,
-    "classes_requiring_context_review": 389,
+    "complete_uses": 886,
+    "partial_uses": 1053,
+    "classes_with_all_uses_complete": 292,
+    "classes_requiring_context_review": 388,
     "live_availability_check": "not-implemented",
     "normative_currency_review": "pending"
   },
@@ -16925,15 +16925,12 @@
         },
         {
           "class": "classes/parte-68/ARQ-680.md",
-          "function": "Ficha pública de principios generales de fiabilidad. No se leyó íntegramente ni se extraen coeficientes de proyecto.",
-          "consultation_scope": null,
-          "limitation": "Ficha pública de principios generales de fiabilidad. No se leyó íntegramente ni se extraen coeficientes de proyecto.",
-          "accessed_on": null,
-          "traceability_status": "partial",
-          "missing_fields": [
-            "consultation_scope",
-            "accessed_on"
-          ]
+          "function": "bases generales para expresar fiabilidad, incertidumbre y condiciones de una afirmación estructural. Aplicación: sustenta la obligación de declarar modelo y límites en la defensa.",
+          "consultation_scope": "20 de septiembre de 2026; ficha pública del estándar.",
+          "limitation": "no se leyó íntegramente el texto normativo, no se extraen coeficientes y la ficha no demuestra cumplimiento de un proyecto.",
+          "accessed_on": "20 de septiembre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
       "usage_count": 9
@@ -30669,15 +30666,12 @@
         },
         {
           "class": "classes/parte-68/ARQ-680.md",
-          "function": "Marco de formación arquitectónica integral. No acredita este programa ni sustituye habilitación profesional.",
-          "consultation_scope": null,
-          "limitation": "Marco de formación arquitectónica integral. No acredita este programa ni sustituye habilitación profesional.",
-          "accessed_on": null,
-          "traceability_status": "partial",
-          "missing_fields": [
-            "consultation_scope",
-            "accessed_on"
-          ]
+          "function": "integración de diseño, cultura, técnica, ambiente y responsabilidad en la formación. Aplicación: justifica que la defensa final coordine campos y explicite responsabilidades.",
+          "consultation_scope": "20 de septiembre de 2026; noticia oficial y descripción pública de la revisión.",
+          "limitation": "no se revisó aquí el texto protegido completo, no acredita este programa y no sustituye habilitación profesional.",
+          "accessed_on": "20 de septiembre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
       "usage_count": 34
@@ -31228,15 +31222,12 @@
         },
         {
           "class": "classes/parte-68/ARQ-680.md",
-          "function": "Apoyo para pensar infraestructura como sistema de servicios y dependencias, con gobernanza y resiliencia. No es diseño de detalle.",
-          "consultation_scope": null,
-          "limitation": "Apoyo para pensar infraestructura como sistema de servicios y dependencias, con gobernanza y resiliencia. No es diseño de detalle.",
-          "accessed_on": null,
-          "traceability_status": "partial",
-          "missing_fields": [
-            "consultation_scope",
-            "accessed_on"
-          ]
+          "function": "infraestructura como sistema de servicios, dependencias, gobernanza y continuidad. Aplicación: exige que la defensa muestre interfaces y consecuencias de una interrupción.",
+          "consultation_scope": "20 de septiembre de 2026; página oficial, resumen y documento enlazado.",
+          "limitation": "no proporciona el diseño de detalle de la tipología elegida ni demuestra resiliencia del caso académico.",
+          "accessed_on": "20 de septiembre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
       "usage_count": 6

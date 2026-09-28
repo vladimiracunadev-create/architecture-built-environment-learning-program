@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
 PEDAGOGY = ROOT / "data" / "pedagogy.json"
+PEDAGOGICAL_DECISIONS = ROOT / "data" / "pedagogical-decisions.json"
 START = "<!-- pedagogia-2026:inicio -->"
 END = "<!-- pedagogia-2026:fin -->"
 
@@ -147,8 +148,87 @@ Revisa la entrega a las 24–48 horas y nuevamente al cerrar la parte. Conserva 
 {END}"""
 
 
-def enrich_lesson(text: str, item: dict) -> str:
-    block = pedagogical_block(item, text)
+def explicit_pedagogical_block(item: dict, contract: dict) -> str:
+    lesson_id = item["id"]
+    prerequisites = ", ".join(f"`{value}`" for value in contract["prerequisites"]) or "Ninguno; es la entrada al programa."
+    dependencies = ", ".join(f"`{value}`" for value in contract["dependencies"])
+    outcomes = "\n".join(f"{index}. {value}" for index, value in enumerate(contract["outcomes"], 1))
+    acceptance = "\n".join(f"- {value}" for value in contract["acceptance"])
+    source_ids = sorted({source for foundation in contract["foundations"] for source in foundation["source_ids"]})
+    source_label = " + ".join(source_ids)
+    foundations = "\n".join(
+        f"| {index} | {foundation['decision']} | "
+        f"{', '.join(f'`{source}`' for source in foundation['source_ids'])} | "
+        f"{foundation['application']} |"
+        for index, foundation in enumerate(contract["foundations"], 1)
+    )
+    prerequisite_node = prerequisites.replace("`", "")
+    dependency_node = dependencies.replace("`", "")
+    return f"""{START}
+## Decisión pedagógica y posición curricular
+
+### Por qué existe
+
+{contract['need']}
+
+### Por qué está exactamente aquí
+
+{contract['placement']}
+
+- **Prerrequisitos:** {prerequisites}
+- **Capacidad que introduce:** {contract['introduces']}
+- **Clases o experiencias que dependen de ella:** {dependencies}
+
+```mermaid
+flowchart LR
+    A["Prerrequisitos · {prerequisite_node}"] --> B["{lesson_id} · necesidad y fundamento"]
+    S["Fuentes · {source_label}"] --> B
+    B --> C["Actividad auténtica"]
+    C --> D["Evidencia auditable"]
+    D --> E["Continuidad · {dependency_node}"]
+```
+
+El diagrama permite comprobar una relación que el texto lineal oculta con facilidad: esta clase recibe capacidades previas, toma decisiones apoyadas por fuentes, exige una experiencia y produce evidencia que habilita trabajo posterior. No representa un procedimiento de obra.
+
+## Resultado observable, evidencia y evaluación
+
+{outcomes}
+
+## Actividad, evidencia y criterio de aceptación
+
+**Actividad:** {contract['activity']}
+
+**Evidencia mínima:** {contract['evidence']}
+
+**Archivo sugerido:** `evidence/{lesson_id}/evidencia.md`.
+
+**Criterio de aceptación:** la entrega se acepta cuando:
+
+{acceptance}
+
+La [rúbrica común](../../docs/RUBRICA_COMUN.md) complementa estos criterios; no los reemplaza. Una entrega puede superar un promedio y continuar pendiente si oculta una condición crítica.
+
+## Trazabilidad de las decisiones
+
+| # | Decisión o fundamento | Fuente utilizada | Aplicación y límite en esta clase |
+|---:|---|---|---|
+{foundations}
+
+La tabla permite auditar las relaciones; la explicación, el caso y la práctica de la clase siguen siendo la documentación principal.
+
+## Autoevaluación, recuperación y continuidad
+
+### Errores diagnósticos
+
+Antes de avanzar, comprueba si puedes reconstruir cada resultado sin mirar la solución, señalar qué evidencia lo sostiene y nombrar una condición que obligaría a revisar tu decisión. Conserva la primera versión, la objeción recibida y la revisión.
+
+**Conexión siguiente:** {contract['next_connection']}
+{END}"""
+
+
+def enrich_lesson(text: str, item: dict, contracts: dict[str, dict]) -> str:
+    contract = contracts.get(item["id"])
+    block = explicit_pedagogical_block(item, contract) if contract else pedagogical_block(item, text)
     if START in text and END in text:
         return re.sub(
             rf"{re.escape(START)}.*?{re.escape(END)}",
@@ -338,12 +418,14 @@ def main() -> int:
     args = parser.parse_args()
     catalog = load_json(CATALOG)
     pedagogy = load_json(PEDAGOGY)
+    decision_manifest = load_json(PEDAGOGICAL_DECISIONS)
+    contracts = {record["class_id"]: record for record in decision_manifest["decisions"]}
     differences: list[str] = []
 
     for item in catalog:
         path = ROOT / item["source"]
         current = path.read_text(encoding="utf-8")
-        write_or_check(path, enrich_lesson(current, item), args.check, differences)
+        write_or_check(path, enrich_lesson(current, item, contracts), args.check, differences)
 
     studios = pedagogy["studios"]
     write_or_check(ROOT / "studios" / "README.md", studios_index(studios), args.check, differences)

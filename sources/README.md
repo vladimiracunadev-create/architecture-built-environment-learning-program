@@ -8,8 +8,8 @@ Este directorio responde de forma auditable a **qué fuentes utiliza cada clase*
 | Apariciones de URL en fuentes | **1939** |
 | URLs externas únicas | **622** |
 | Dominios únicos | **189** |
-| Usos con contexto completo | **883/1939** |
-| Clases con todos sus usos completos | **291/680** |
+| Usos con contexto completo | **886/1939** |
+| Clases con todos sus usos completos | **292/680** |
 
 El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v3 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza. Cada relación queda marcada como `complete` o `partial` e incluye la lista exacta de campos ausentes.
 
@@ -22,11 +22,11 @@ La presencia de un enlace demuestra localización, no calidad bibliográfica ni 
 | Campo exigido | Cobertura actual | Porcentaje |
 |---|---:|---:|
 | Afirmación o función que apoya | **1872/1939** | **96.5%** |
-| Parte o alcance efectivamente consultado | **1482/1939** | **76.4%** |
+| Parte o alcance efectivamente consultado | **1485/1939** | **76.6%** |
 | Límite de interpretación | **1734/1939** | **89.4%** |
-| Fecha de consulta | **1055/1939** | **54.4%** |
+| Fecha de consulta | **1058/1939** | **54.6%** |
 
-En conjunto, **883/1939 (45.5%)** usos tienen los cuatro campos y **1056** requieren revisión editorial. Esto se publica como brecha; no se reemplaza con inferencias o fechas inventadas.
+En conjunto, **886/1939 (45.7%)** usos tienen los cuatro campos y **1053** requieren revisión editorial. Esto se publica como brecha; no se reemplaza con inferencias o fechas inventadas.
 
 ## Requisitos según el tipo de fuente
 

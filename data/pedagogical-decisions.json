@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "principle": "Una clase no es solo un tema: es una decisión sustentada.",
+  "status": "pilot-validated",
+  "reviewed_on": "2026-09-28",
+  "review_policy": "Un registro solo pasa de pending a reviewed después de revisar la clase completa, sus fuentes y su posición curricular.",
+  "pilot_classes": ["ARQ-001", "ARQ-240", "ARQ-350", "ARQ-540", "ARQ-680"],
+  "decisions": [
+    {
+      "class_id": "ARQ-001", "review_status": "reviewed", "profile": ["inicial", "conceptual"],
+      "need": "Evitar que quien comienza reduzca la arquitectura a una forma final y darle un marco para reconocer personas, lugar, construcción, recursos, responsabilidades y tiempo como un sistema de decisiones.",
+      "placement": "Abre el programa porque define el objeto de estudio y el criterio con que se leerán las 679 clases siguientes. No exige vocabulario disciplinar previo; antes de representar o calcular, el estudiante necesita saber qué decisión intenta sostener y qué evidencia todavía no posee.",
+      "prerequisites": [],
+      "introduces": "Distinguir encargo, programa, proyecto, obra y operación; recorrer el ciclo de vida; separar preferencia, evidencia, responsabilidad y autorización.",
+      "dependencies": ["ARQ-002", "ARQ-003", "ARQ-004", "ARQ-008", "ARQ-010"],
+      "outcomes": ["Distinguir encargo, programa, proyecto, obra y operación en un caso nuevo.", "Construir un mapa de ciclo de vida con decisiones, actores, evidencia disponible y pendientes.", "Justificar cuándo una afirmación debe mantenerse como hipótesis o condición por verificar."],
+      "activity": "Analizar un edificio observable sin invadir espacios restringidos y producir un mapa del encargo a la transformación, más un registro de cinco decisiones y una alternativa a construir nuevo.",
+      "evidence": "Mapa de una página y registro de cinco decisiones en los que otra persona pueda reconstruir qué se decide, con qué evidencia, quién debe comprobarlo y qué permanece abierto.",
+      "acceptance": ["Diferencia observación, inferencia, preferencia, requisito y autorización.", "Incluye las etapas desde encargo hasta uso y transformación.", "Asigna cada comprobación a un actor pertinente sin atribuir facultades inexistentes.", "Expone al menos una condición que obligaría a revisar la alternativa."],
+      "next_connection": "ARQ-002 precisa las distintas formas de intervenir; ARQ-003 cambia de escala; ARQ-004 transforma necesidades en requisitos; ARQ-008 formaliza incertidumbre; ARQ-010 integra la lectura de un edificio cotidiano.",
+      "foundations": [
+        {"decision": "Tratar la formación como integración de diseño, cultura, sociedad, ambiente, técnica y responsabilidad.", "source_ids": ["EDU-UIA"], "application": "Justifica el marco sistémico inicial, no una acreditación del programa."},
+        {"decision": "Mantener separada la preferencia del cumplimiento aplicable.", "source_ids": ["CL-OGUC"], "application": "Sustenta la necesidad de localizar y leer la disposición vigente antes de afirmar cumplimiento."},
+        {"decision": "No inferir ausencia de riesgo desde un mapa incompleto.", "source_ids": ["RISK-UN"], "application": "Sustenta el ejercicio que distingue amenaza, exposición, vulnerabilidad y capacidad."},
+        {"decision": "Incluir etapas posteriores a la fabricación inicial.", "source_ids": ["ISO-14040"], "application": "Justifica introducir el ciclo de vida desde el comienzo sin convertir la clase en un curso de ACV."}
+      ]
+    },
+    {
+      "class_id": "ARQ-240", "review_status": "reviewed", "profile": ["intermedia", "cuantitativa"],
+      "need": "Impedir que una reducción declarada por unidad de mezcla se presente como mejora ambiental del servicio construido sin revisar fronteras, vida útil, cantidades, desempeño y calidad de datos.",
+      "placement": "Cierra la parte de sistemas cementicios porque requiere composición, dosificación, volumen, exposición, diagnóstico y mantenimiento. Prepara la comparación transversal de impactos de la Parte 45; ubicarla antes de ARQ-231–239 convertiría la comparación ambiental en una etiqueta sin modelo material.",
+      "prerequisites": ["ARQ-230", "ARQ-231", "ARQ-232", "ARQ-239"],
+      "introduces": "Definir unidad declarada y funcional, declarar fronteras, normalizar inventarios y formular especificaciones orientadas a evidencia.",
+      "dependencies": ["ARQ-441", "ARQ-450"],
+      "outcomes": ["Normalizar dos alternativas con una unidad funcional y fronteras explícitas.", "Comparar inventarios sin atribuirles prestaciones no demostradas.", "Redactar una especificación que solicite evidencia, versión, alcance y exclusiones."],
+      "activity": "Reconstruir el inventario ficticio CON-AMB-01, comparar dos alternativas por servicio y ejecutar una sensibilidad sobre el dato que domina la decisión.",
+      "evidence": "Hoja reproducible con factores, cantidades, unidades, fuentes, exclusiones, sensibilidad y una conclusión limitada al modelo.",
+      "acceptance": ["Todas las magnitudes conservan unidad y procedencia.", "Las alternativas usan la misma función o explican la diferencia.", "La conclusión cambia si la sensibilidad demuestra que el orden no es robusto.", "La entrega no presenta una EPD ni un cálculo didáctico como certificación del proyecto."],
+      "next_connection": "La Parte 25 cambia de familia material; ARQ-441 recupera la unidad funcional y las fronteras para comparar sistemas, y ARQ-450 integra consecuencias ambientales y sociales sin un puntaje absoluto.",
+      "foundations": [
+        {"decision": "Leer una declaración ambiental por producto, instalación, período, unidad y método.", "source_ids": ["CON-EPD", "CON-ISO-EPD"], "application": "Sustenta el control de comparabilidad y la revisión de reglas de categoría."},
+        {"decision": "No asumir equivalencia técnica por reducir cemento.", "source_ids": ["CON-SCM"], "application": "Vincula la estrategia material con propiedades, curado y condiciones de uso."},
+        {"decision": "Declarar objetivo, alcance, inventario e interpretación.", "source_ids": ["ISO-14040"], "application": "Ordena el ejercicio de ciclo de vida y limita sus conclusiones."}
+      ]
+    },
+    {
+      "class_id": "ARQ-350", "review_status": "reviewed", "profile": ["intermedia", "normativa", "coordinación"],
+      "need": "Evitar que una norma, una guía o un resultado de análisis se cite como autorización autosuficiente y enseñar a coordinar qué documento, versión, disciplina y responsable responde a cada verificación.",
+      "placement": "Cierra la secuencia sísmica después de comportamiento, sistemas, componentes, daño y recuperación. La lectura normativa sólo es significativa cuando el estudiante puede reconocer el fenómeno que la disposición intenta controlar; después habilita el trabajo multiamenaza y la lectura jurídica sistemática de la Parte 40.",
+      "prerequisites": ["ARQ-340", "ARQ-341", "ARQ-349"],
+      "introduces": "Clasificar documentos por autoridad y función, verificar vigencia, registrar interfaces y reabrir dependencias cuando cambia una decisión.",
+      "dependencies": ["ARQ-351", "ARQ-371", "ARQ-391"],
+      "outcomes": ["Clasificar una fuente como obligación, norma técnica, guía o evidencia de proyecto y explicar su alcance.", "Construir una matriz de verificación con versión, numeral, responsable, evidencia y estado.", "Diagnosticar qué decisiones y documentos deben reabrirse después de una modificación."],
+      "activity": "Auditar un extracto ficticio, reconstruir sus referencias y devolver una matriz interdisciplinaria con pendientes, responsables y condiciones de cierre.",
+      "evidence": "Matriz normativa y registro de cambio en que cada conclusión pueda seguirse hasta documento, versión, sección, evidencia y responsable.",
+      "acceptance": ["No confunde publicación, vigencia, aplicabilidad y cumplimiento del proyecto.", "Cada verificación identifica documento, versión y localizador interno.", "Las interfaces declaran quién aporta, quién revisa y quién decide.", "Un cambio reabre explícitamente sus documentos y comprobaciones dependientes."],
+      "next_connection": "ARQ-351 aplica el criterio a una amenaza territorial; ARQ-371 amplía de peligro a riesgo; ARQ-391 formaliza la lectura de normas, estándares y obligaciones.",
+      "foundations": [
+        {"decision": "Separar fiabilidad, modelos y condiciones de uso de una afirmación estructural.", "source_ids": ["STR-RELIABILITY"], "application": "Sustenta la necesidad de declarar bases y límites del modelo."},
+        {"decision": "Comprobar la versión oficialmente adoptada antes de citarla.", "source_ids": ["CL-433-2026"], "application": "Sustenta el control de publicación y vigencia en Chile."},
+        {"decision": "Incluir reocupación y recuperación funcional en la coordinación.", "source_ids": ["SIS-REC"], "application": "Amplía el criterio más allá de evitar colapso sin convertir la guía en obligación local."},
+        {"decision": "Gestionar los efectos cruzados de una modificación.", "source_ids": ["NASA-CHANGE"], "application": "Aporta un método de control de cambios transferido con límites al proyecto construido."}
+      ]
+    },
+    {
+      "class_id": "ARQ-540", "review_status": "reviewed", "profile": ["avanzada", "práctica", "proyectual"],
+      "need": "Integrar los subsistemas aeroportuarios en una decisión de proyecto sin reducir la terminal a una suma de superficies ni trasladar parámetros de una guía extranjera.",
+      "placement": "Cierra la parte aeroportuaria después de landside, airside, procesamiento, equipaje, puertas, accesibilidad, infraestructura y expansión. Funciona como síntesis proyectual antes de cambiar al sistema ferroviario y como antecedente explícito para las comparaciones de la Parte 68.",
+      "prerequisites": ["ARQ-480", "ARQ-531", "ARQ-539"],
+      "introduces": "Coordinar servicio, flujos, estados operativos, sistemas críticos, fases y evidencia normativa en una propuesta de terminal.",
+      "dependencies": ["ARQ-541", "ARQ-671", "ARQ-674"],
+      "outcomes": ["Construir un programa de áreas cuya suma y fronteras puedan reconstruirse.", "Trazar cadenas de pasajeros, equipaje, personal y abastecimiento con estados ordinarios y degradados.", "Evaluar dos estrategias de expansión y justificar interfaces que deben permanecer abiertas."],
+      "activity": "Reprogramar 60.000 m² para incorporar una reserva de fase, reconstruir las áreas afectadas y documentar qué capacidades, flujos y sistemas deben volver a verificarse.",
+      "evidence": "Expediente breve con cuadro de áreas, diagrama de cadenas, interfaces, dos alternativas de fase, decisiones respaldadas y pendientes asignados.",
+      "acceptance": ["El cuadro suma 60.000 m² y conserva la procedencia de cada traslado.", "La reserva tiene estrategia de estructura, instalaciones, acceso y fase.", "Distingue una cuenta correcta de capacidad u operación validada.", "Las referencias FAA, ICAO y DGAC se usan con jurisdicción y alcance explícitos."],
+      "next_connection": "ARQ-541 permite contrastar otro nodo de transporte; ARQ-671 exige separar invariantes de tipología y ARQ-674 compara cadenas de viaje entre estación, metro y aeropuerto.",
+      "foundations": [
+        {"decision": "Estructurar la terminal por funciones, flujos y niveles de planificación.", "source_ids": ["AIR-FAA-TERM"], "application": "Sustenta el modelo funcional, no una adopción regulatoria en Chile."},
+        {"decision": "Vincular pronóstico, capacidad, alternativas y desarrollo por etapas.", "source_ids": ["AIR-FAA-MASTER", "AIR-ICAO-MASTER"], "application": "Justifica comparar fases y conservar interfaces de expansión."},
+        {"decision": "Verificar el documento chileno aplicable y su edición.", "source_ids": ["AIR-DGAC-DAN14"], "application": "Impide tratar referencias extranjeras como regulación local."},
+        {"decision": "Analizar accesibilidad como cadena completa de viaje.", "source_ids": ["AIR-FAA-ACCESS"], "application": "Sustenta la revisión metodológica sin sustituir exigencias chilenas."}
+      ]
+    },
+    {
+      "class_id": "ARQ-680", "review_status": "reviewed", "profile": ["final", "avanzada", "integradora"],
+      "need": "Demostrar que el estudiante puede reconstruir y defender una decisión compleja, incluidas alternativas descartadas, límites, cambios y pendientes, en vez de cerrar el programa con una presentación persuasiva pero no auditable.",
+      "placement": "Es la última clase porque exige transferir métodos de toda la Fase I y de veinte familias tipológicas, después de que ARQ-679 haya enseñado a separar mecanismos transferibles de parámetros contextuales. No introduce otra tipología: hace visible la calidad del razonamiento acumulado.",
+      "prerequisites": ["ARQ-480", "ARQ-670", "ARQ-671", "ARQ-679"],
+      "introduces": "Una defensa final bidireccional: de la fuente a la decisión y del resultado nuevamente a la fuente, incluyendo revisión posterior y plan de aprendizaje.",
+      "dependencies": ["EST-08"],
+      "outcomes": ["Defender una decisión mediante una cadena reconstruible de fuentes, supuestos, alternativas, actividad, evidencia y criterio.", "Comparar dos alternativas con fronteras equivalentes y justificar por qué una se conserva.", "Diagnosticar pendientes críticos y formular un plan de verificación o aprendizaje posterior."],
+      "activity": "Preparar y defender una tipología elegida con pregunta, dos alternativas descartadas, tres interfaces, cuatro afirmaciones comprobadas, tres hipótesis, dos pendientes críticos, cambios entre versiones y evaluación posocupacional.",
+      "evidence": "Dossier de defensa, matriz de trazabilidad bidireccional, registro de cambios, presentación y acta de objeciones; todos deben permitir reconstruir la decisión sin explicación oral adicional.",
+      "acceptance": ["Cada afirmación crítica enlaza fuente o método, localizador, uso y límite.", "Las alternativas conservan función y fronteras comparables.", "Las pendientes críticas no se promedian ni se presentan como resueltas.", "La respuesta a objeciones queda registrada como conservar, revisar o investigar.", "El plan posterior identifica evidencia faltante, responsable y condición de cierre."],
+      "next_connection": "EST-08 convierte la defensa en portafolio longitudinal: compara evidencia inicial, intermedia y final, reconstruye cambios y formula el aprendizaje posterior.",
+      "foundations": [
+        {"decision": "Evaluar integración disciplinar, responsabilidad y capacidad de juicio.", "source_ids": ["UIA"], "application": "Sustenta la naturaleza integradora de la defensa, no una equivalencia con acreditación."},
+        {"decision": "Tratar infraestructura como servicio con dependencias y gobernanza.", "source_ids": ["UNDRR-CL"], "application": "Sustenta la exigencia de interfaces y continuidad, no un diseño específico."},
+        {"decision": "Mantener bases, incertidumbres y límites al formular afirmaciones de fiabilidad.", "source_ids": ["ISO2394"], "application": "Sustenta la disciplina de la evidencia sin extraer coeficientes del estándar."}
+      ]
+    }
+  ]
+}

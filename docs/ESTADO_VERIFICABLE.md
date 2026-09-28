@@ -33,6 +33,9 @@ Se inspeccionaron los encabezados y el texto completo de las 680 fuentes Markdow
 | Autoevaluación o solución | **680/680** | recuperación inmediata y diferida |
 | Continuidad explícita | **680/680** | conexión con parte y portafolio |
 | Errores diagnósticos | **680/680** | adaptados al tipo de clase |
+| Contrato de decisión revisado | **5/680** | necesidad, posición, dependencias, fuentes, actividad, evidencia y continuidad auditadas |
+
+Las primeras ocho filas miden presencia estructural. La última mide revisión profunda y no puede inferirse desde las anteriores. Los 675 contratos restantes están pendientes; consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).
 
 El conteo reproducible por unidades separadas por espacio arroja una mediana de **2.104** por clase y aproximadamente **1,36 millones** en el corpus. Longitud no equivale a calidad: estas cifras sólo describen material que debe pilotarse y revisar una persona especialista.
 
@@ -63,8 +66,8 @@ El conteo reproducible por unidades separadas por espacio arroja una mediana de 
 | Relaciones con alcance consultado | **1.482/1.939** |
 | Relaciones con límite declarado | **1.734/1.939** |
 | Relaciones con fecha de consulta | **1.055/1.939** |
-| Relaciones contextualmente completas | **883/1.939** |
-| Clases con todos sus usos completos | **291/680** |
+| Relaciones contextualmente completas | **886/1.939** |
+| Clases con todos sus usos completos | **292/680** |
 | Verificación periódica de disponibilidad externa | **no implementada** |
 | Revisión de vigencia normativa por jurisdicción | **pendiente** |
 
@@ -92,7 +95,7 @@ Cada clase tiene un apartado de fuentes, pero no todas sus relaciones poseen tod
 1. **Revisión externa por especialidades.** No se ha realizado una revisión integral por arquitectura, estructuras, geotecnia, instalaciones, incendio, accesibilidad, patrimonio, costos, construcción y operación.
 2. **Pilotos pedagógicos.** La arquitectura documental existe; falta observar comprensión, abandono, tiempos, calidad de crítica y transferencia con estudiantes reales.
 3. **Carga y calendario.** No se publican horas ni créditos hasta medirlos en condiciones declaradas.
-4. **Completitud y vigencia de fuentes.** Faltan uno o más campos contextuales en 1.056 relaciones; además, el repositorio todavía no ejecuta una comprobación periódica de disponibilidad, sustitución, retiro o vigencia normativa.
+4. **Completitud y vigencia de fuentes.** Faltan uno o más campos contextuales en 1.053 relaciones; además, el repositorio todavía no ejecuta una comprobación periódica de disponibilidad, sustitución, retiro o vigencia normativa.
 5. **Visuales disciplinares.** Todas las clases tienen mapa de aprendizaje; plantas, cortes, mapas, detalles y diagramas técnicos específicos deben ampliarse por especialidad.
 6. **Licencias y terceros.** Código propio bajo Apache-2.0 y contenido original bajo CC BY-NC-SA 4.0. Las obras externas conservan sus derechos y requieren revisar sus términos antes de reutilizarlas.
 7. **Lector offline histórico.** Conserva documentos de v1.0. Cuando una afirmación histórica contradice el estado actual, este documento y las fuentes Markdown actuales prevalecen como marcador de estado.

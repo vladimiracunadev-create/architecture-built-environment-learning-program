@@ -12,7 +12,7 @@
 [![Talleres](https://img.shields.io/badge/talleres-8%20·%2048%20sesiones-1d6b68?style=for-the-badge)](studios/README.md)
 [![Rutas](https://img.shields.io/badge/rutas-12-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
 [![Fuentes](https://img.shields.io/badge/fuentes-622%20URLs%20·%20189%20dominios-ddb967?style=for-the-badge)](sources/README.md)
-[![Trazabilidad](https://img.shields.io/badge/usos%20completos-883%20de%201.939-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
+[![Trazabilidad](https://img.shields.io/badge/usos%20completos-886%20de%201.939-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-3fb950?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-7c5cff?style=for-the-badge)](LICENSE-CONTENT.md)
@@ -54,6 +54,8 @@ No propone que una sola persona domine, calcule o autorice todo. Enseña a recon
 
 ### Una clase no es solo un tema: es una decisión sustentada
 
+Esta frase es un **criterio de aceptación**, no un lema. Una clase revisada debe permitir recorrer necesidad → fundamento → fuente → prerrequisitos → contenido → actividad → evidencia → continuidad, y reconstruir la cadena en sentido inverso.
+
 Las clases se construyen alrededor de una decisión o problema. El corpus completo garantiza tres anclas:
 
 | Componente | Cobertura |
@@ -65,7 +67,11 @@ Las clases se construyen alrededor de una decisión o problema. El corpus comple
 | Evidencia y criterio de aceptación | **680/680** |
 | Autoevaluación, recuperación y continuidad | **680/680** |
 
-Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa pedagógica común se genera desde [`data/pedagogy.json`](data/pedagogy.json), se aplica con [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) y el CI falla si una clase, taller o ruta queda desincronizada.
+Esa tabla mide anatomía documental, no profundidad. La auditoría de decisiones cuenta por separado **5/680 contratos revisados en profundidad** —una clase inicial, una intermedia cuantitativa, una normativa, una avanzada práctica y el cierre— y mantiene **675 pendientes**. No se declarará una clase “sustentada” por tener encabezados, texto o enlaces.
+
+[Abrir la auditoría pedagógica, los cinco pilotos y el registro de decisiones →](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md)
+
+Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa común se genera desde [`data/pedagogy.json`](data/pedagogy.json); los contratos revisados viven en [`data/pedagogical-decisions.json`](data/pedagogical-decisions.json). [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) publica ambos estados sin confundirlos y la auditoría falla si una fuente, dependencia o resultado del piloto deja de ser trazable.
 
 ### El conocimiento tiene procedencia verificable
 
@@ -76,7 +82,7 @@ afirmación → fuente → localizador → autoridad → edición/fecha
            → parte consultada → uso en la clase → límite → vigencia
 ```
 
-El registro no oculta sus brechas. De las **1.939 relaciones clase–fuente**, **883 (45,5 %)** declaran simultáneamente función, alcance consultado, límite y fecha; **1.056** requieren completar al menos uno de esos campos. **291/680 clases** tienen todos sus usos contextualizados. CI conserva estos valores como mínimos y falla si la trazabilidad retrocede.
+El registro no oculta sus brechas. De las **1.939 relaciones clase–fuente**, **886 (45,7 %)** declaran simultáneamente función, alcance consultado, límite y fecha; **1.053** requieren completar al menos uno de esos campos. **292/680 clases** tienen todos sus usos contextualizados. CI conserva estos valores como mínimos y falla si la trazabilidad retrocede.
 
 Los requisitos cambian según la fuente: un libro necesita edición y páginas; una norma, organismo, jurisdicción, versión y numeral; una web, autor institucional, fecha y sección consultada. El estándar completo está en [Estándar de fuentes y trazabilidad](docs/ESTANDAR_DE_FUENTES.md) y la medición reproducible en el [registro central](sources/README.md).
 
@@ -249,9 +255,9 @@ Incluyen encargo y necesidades, ficha crítica de fuente, comparación de altern
 
 [Abrir las plantillas en el portal](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/plantillas/)
 
-### 21 documentos actuales + 16 fichas documentales v1.0
+### 22 documentos actuales + 16 fichas documentales v1.0
 
-El portal de documentación reúne 21 guías mantenidas sobre método, procedencia, evaluación, fuentes, normas, derechos, seguridad, portafolio y carga. El inventario histórico conserva además 16 fichas documentales del lector v1.0; no se suman ni confunden como si fueran la misma colección.
+El portal de documentación reúne 22 guías mantenidas sobre método, auditoría pedagógica, procedencia, evaluación, fuentes, normas, derechos, seguridad, portafolio y carga. El inventario histórico conserva además 16 fichas documentales del lector v1.0; no se suman ni confunden como si fueran la misma colección.
 
 [Abrir la documentación actual](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentacion.html) · [Consultar las 16 fichas v1.0](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentos/)
 
@@ -276,10 +282,10 @@ El lector offline conserva también documentos históricos de la evolución del 
 | Dimensión | Resultado | No demuestra |
 |---|---|---|
 | Integridad curricular | 680/680 clases; 68 partes; 10 clases por parte | revisión disciplinar |
-| Capa pedagógica | 680 mapas, evidencias, criterios y recuperaciones | efectividad con estudiantes sin pilotaje |
+| Capa pedagógica | anatomía común 680/680; contratos revisados 5/680 | 675 decisiones pendientes y efectividad con estudiantes sin pilotaje |
 | Talleres | 8 talleres y 48 sesiones | supervisión profesional o universitaria |
 | Capa Markdown | 680 clases + 68 README de parte + índice | calidad homogénea |
-| Fuentes en clases | 1.939 relaciones; 622 URLs; 883 usos completos | 1.056 usos parciales; vigencia externa pendiente |
+| Fuentes en clases | 1.939 relaciones; 622 URLs; 886 usos completos | 1.053 usos parciales; vigencia externa pendiente |
 | Fichas navegables v1.0 | 611 fichas curadas; 0 sin URL | identidad con el registro derivado |
 | Portal | clases, partes y 755 recursos con enlaces internos validados | accesibilidad WCAG certificada |
 | Artefactos | lector y PDF con hashes versionados | validez técnica para obra |
@@ -312,7 +318,7 @@ python scripts/build_site.py
 python scripts/validate_repo.py
 ```
 
-El validador exige ARQ-001–680, diez clases por parte, 680 contratos pedagógicos, 680 mapas, 48 sesiones de taller, 12 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
+El validador exige ARQ-001–680, diez clases por parte, anatomía común en 680 clases, cinco contratos profundos válidos, 48 sesiones de taller, 12 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
 
 ## 🗂️ Arquitectura del repositorio
 

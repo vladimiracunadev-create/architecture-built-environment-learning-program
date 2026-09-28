@@ -14,10 +14,10 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 |---|---|---|
 | Portada visual, badges y accesos principales | README con CI, Pages, clases, rutas, fuentes, idioma y licencias | Aplicado |
 | Índice curricular completo | `classes/README.md` con 68 partes | Aplicado |
-| Portada de cada parte | 68 README generados desde sus diez clases | Aplicado |
+| Portada de cada parte | 68 README generados; ahora publican el estado real de revisión profunda | Aplicado con brecha visible |
 | Conversión Markdown → HTML | 680 clases, 68 partes y documentación en Pages | Aplicado |
 | Explicación de origen del material | `docs/PROCEDENCIA_EDITORIAL.md` | Aplicado |
-| Bibliografía central trazable | esquema v3: 622 URLs, 1.939 usos, estado completo/parcial y campos ausentes por clase | Aplicado |
+| Bibliografía central trazable | esquema v3: 622 URLs, 1.939 usos, estado completo/parcial y campos ausentes por clase | Aplicado a localización; decisión pedagógica en piloto |
 | Fuentes con alcance y límites | sección dedicada en 680/680 clases | Aplicado |
 | Cómo usar el programa | guía para perfiles y recorridos | Aplicado |
 | Rutas por interés o responsabilidad | 12 rutas y mapa de 80 roles/oficios | Aplicado |
@@ -27,7 +27,7 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 | Avisos de terceros | `THIRD_PARTY_NOTICES.md` | Aplicado |
 | Contribución, seguridad y ética | `CONTRIBUTING.md`, `SECURITY.md` y guía de ética profesional | Aplicado |
 | Política de marcas y auditoría legal | `TRADEMARKS.md` y `LICENSING_AUDIT.md` | Aplicado |
-| CI que detecta deriva documental | índices, bibliografía, enlaces, hashes, cobertura y sitio | Aplicado |
+| CI que detecta deriva documental | índices, bibliografía, enlaces, hashes, cobertura, sitio y contratos pedagógicos piloto | Aplicado |
 | Cierre con estrella, forks, seguimiento y autor | pie visual del README; estrella y licencias en todo Pages | Aplicado |
 
 ## Elementos adaptados
@@ -54,3 +54,7 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 ## Regla de mantenimiento
 
 Un elemento nuevo de la referencia no se copia automáticamente. Se evalúa por su función documental. Si ayuda a explicar, navegar, atribuir, licenciar o verificar este programa, se adapta; si simula una capacidad inexistente, se registra aquí como no aplicable.
+
+## Brecha que esta matriz ya no oculta
+
+La cobertura de encabezados, prácticas y fuentes alcanza 680/680, pero la revisión profunda de necesidad, posición, dependencias, fundamento y evidencia alcanza **5/680**. Los otros 675 casos continúan publicados como clases redactadas, no como decisiones pedagógicas ya auditadas. Consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).

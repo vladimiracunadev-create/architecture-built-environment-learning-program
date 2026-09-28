@@ -49,6 +49,20 @@ Esta parte comienza con **Aeropuerto: landside, terminal y airside** y culmina c
 | 09 | [ARQ-539 · Expansión modular y operación continua](ARQ-539.md) |
 | 10 | [ARQ-540 · Proyecto de terminal aeroportuaria](ARQ-540.md) |
 
+## Estado de justificación pedagógica
+
+**Revisión profunda:** 1/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+### ARQ-540 · decisión revisada
+
+**Necesidad:** Integrar los subsistemas aeroportuarios en una decisión de proyecto sin reducir la terminal a una suma de superficies ni trasladar parámetros de una guía extranjera.
+
+**Posición:** Cierra la parte aeroportuaria después de landside, airside, procesamiento, equipaje, puertas, accesibilidad, infraestructura y expansión. Funciona como síntesis proyectual antes de cambiar al sistema ferroviario y como antecedente explícito para las comparaciones de la Parte 68.
+
+**Entrada:** ARQ-480, ARQ-531, ARQ-539 · **Salida:** ARQ-541, ARQ-671, ARQ-674.
+
+**Evidencia:** Expediente breve con cuadro de áreas, diagrama de cadenas, interfaces, dos alternativas de fase, decisiones respaldadas y pendientes asignados.
+
 ## Cómo recorrer esta parte
 
 1. Lee las clases en orden cuando el tema sea nuevo; la continuidad está escrita dentro de cada documento.

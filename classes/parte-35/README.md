@@ -49,6 +49,20 @@ Esta parte comienza con **Diseñar frente al sismo: comportamiento, daño y lím
 | 09 | [ARQ-349 · Daño, reparación y recuperación funcional](ARQ-349.md) |
 | 10 | [ARQ-350 · Lectura normativa y coordinación interdisciplinaria](ARQ-350.md) |
 
+## Estado de justificación pedagógica
+
+**Revisión profunda:** 1/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+### ARQ-350 · decisión revisada
+
+**Necesidad:** Evitar que una norma, una guía o un resultado de análisis se cite como autorización autosuficiente y enseñar a coordinar qué documento, versión, disciplina y responsable responde a cada verificación.
+
+**Posición:** Cierra la secuencia sísmica después de comportamiento, sistemas, componentes, daño y recuperación. La lectura normativa sólo es significativa cuando el estudiante puede reconocer el fenómeno que la disposición intenta controlar; después habilita el trabajo multiamenaza y la lectura jurídica sistemática de la Parte 40.
+
+**Entrada:** ARQ-340, ARQ-341, ARQ-349 · **Salida:** ARQ-351, ARQ-371, ARQ-391.
+
+**Evidencia:** Matriz normativa y registro de cambio en que cada conclusión pueda seguirse hasta documento, versión, sección, evidencia y responsable.
+
 ## Cómo recorrer esta parte
 
 1. Lee las clases en orden cuando el tema sea nuevo; la continuidad está escrita dentro de cada documento.

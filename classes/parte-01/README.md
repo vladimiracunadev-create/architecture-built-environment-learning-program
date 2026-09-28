@@ -49,6 +49,20 @@ Esta parte comienza con **Arquitectura como sistema: del encargo al fin de vida*
 | 09 | [ARQ-009 · Cómo estudiar arquitectura sin confundir aprendizaje con habilitación](ARQ-009.md) |
 | 10 | [ARQ-010 · Lectura integral de un edificio cotidiano](ARQ-010.md) |
 
+## Estado de justificación pedagógica
+
+**Revisión profunda:** 1/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+### ARQ-001 · decisión revisada
+
+**Necesidad:** Evitar que quien comienza reduzca la arquitectura a una forma final y darle un marco para reconocer personas, lugar, construcción, recursos, responsabilidades y tiempo como un sistema de decisiones.
+
+**Posición:** Abre el programa porque define el objeto de estudio y el criterio con que se leerán las 679 clases siguientes. No exige vocabulario disciplinar previo; antes de representar o calcular, el estudiante necesita saber qué decisión intenta sostener y qué evidencia todavía no posee.
+
+**Entrada:** sin prerrequisito · **Salida:** ARQ-002, ARQ-003, ARQ-004, ARQ-008, ARQ-010.
+
+**Evidencia:** Mapa de una página y registro de cinco decisiones en los que otra persona pueda reconstruir qué se decide, con qué evidencia, quién debe comprobarlo y qué permanece abierto.
+
 ## Cómo recorrer esta parte
 
 1. Lee las clases en orden cuando el tema sea nuevo; la continuidad está escrita dentro de cada documento.

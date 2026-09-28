@@ -171,9 +171,9 @@ def main() -> int:
     }
     if traceability.get("required_context_fields") != list(minimum_field_coverage):
         fail("unexpected source traceability fields")
-    if traceability.get("complete_uses", 0) < 883:
+    if traceability.get("complete_uses", 0) < 886:
         fail("complete source-use coverage regressed")
-    if traceability.get("classes_with_all_uses_complete", 0) < 291:
+    if traceability.get("classes_with_all_uses_complete", 0) < 292:
         fail("class-level source traceability regressed")
     for field, minimum in minimum_field_coverage.items():
         if traceability.get("field_coverage", {}).get(field, 0) < minimum:
@@ -423,6 +423,7 @@ def main() -> int:
             "roles-y-oficios.html",
             "casos-integradores.html",
             "auditoria-documental.html",
+            "auditoria-pedagogica.html",
             "procedencia-editorial.html",
             "licencias-y-derechos.html",
             "matriz-licencias.html",
@@ -473,7 +474,7 @@ def main() -> int:
     print(
         "OK: 680 lessons · 68 parts · 8 studios · 48 studio sessions · "
         "12 learning paths · 755 legacy resources · 69 curriculum README files · "
-        "622 source URLs · 883 complete source uses · 21 current documents · licensing matrix · "
+        "622 source URLs · 886 complete source uses · 22 current documents · licensing matrix · "
         "Markdown links · checksums · UTF-8 · generated site"
     )
     return 0

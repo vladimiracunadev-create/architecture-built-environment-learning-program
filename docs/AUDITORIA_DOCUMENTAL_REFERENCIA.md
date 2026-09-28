@@ -1,6 +1,12 @@
 # Auditoría documental de la referencia
 
-## Alcance
+## Alcance y revisión vigente
+
+La comparación se actualizó el **28 de septiembre de 2026** contra `modern-cybersecurity-program`, revisión `d558bc26a01d89f2288f47c26d8b718e924b17bd`: 360 clases, 20 partes y 381 README bajo `classes/`. Además de la portada y el índice se inspeccionaron clases 001, 150, 221, 240 y 360; README de partes inicial, intermedia y final; registro de fuentes; generadores; validadores; CI, Pages y seguridad.
+
+La evidencia detallada, incluidos patrones rechazados y cinco pilotos, está en [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).
+
+### Corte histórico anterior
 
 Se leyó el contenido completo de todos los Markdown disponibles en:
 
@@ -38,13 +44,17 @@ La referencia usa una plantilla casi uniforme en 360 clases: objetivo, resultado
 
 Arquitectura tiene otra pauta, adecuada a su contenido: pregunta central, resultado o entrega, caso razonado, práctica, solución o autoevaluación, fuentes con alcance, interfaces y límites. La cobertura no es homogénea en todos los complementos; se publica con cifras exactas en [Estado verificable](ESTADO_VERIFICABLE.md).
 
-## Resultado de la auditoría
+## Corrección del resultado anterior
 
-La acción correcta no era copiar más secciones al README. Era construir la capa documental que faltaba:
+La acción correcta no era copiar más secciones al README. La primera reconstrucción resolvió navegación y presencia documental, pero no demostró todavía la decisión pedagógica de cada clase. El resultado vigente separa dos niveles:
 
 1. índice Markdown general;
 2. README narrativo para cada una de las 68 partes;
 3. documentación separada de estado, fuentes, uso, rutas, roles y casos;
 4. README principal que sintetiza y enlaza, en vez de repetir inventarios;
-5. sitio Pages que publique la misma arquitectura documental.
+5. sitio Pages que publique la misma arquitectura documental;
+6. contratos explícitos de necesidad, posición, fuente, actividad, evidencia y continuidad;
+7. estado público: 5 revisados y 675 pendientes, sin convertir cobertura estructural en evidencia de profundidad.
+
+La referencia tampoco se considera perfecta: su clase 360 presenta resultados vagos, glosario mecánico y un rótulo deteriorado; varias listas bibliográficas no llegan a mapear cada fuente con una decisión. Esos patrones se descartaron.
 

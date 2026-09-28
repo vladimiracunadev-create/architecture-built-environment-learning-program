@@ -45,6 +45,10 @@ RESOURCE_TYPES = {
 }
 
 DOC_PAGES = {
+    "AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md": (
+        "auditoria-pedagogica.html",
+        "Auditoría pedagógica y trazabilidad",
+    ),
     "ESTADO_VERIFICABLE.md": ("estado.html", "Estado verificable"),
     "FUENTES_Y_EVIDENCIA.md": ("fuentes-y-evidencia.html", "Fuentes y evidencia"),
     "ESTANDAR_DE_FUENTES.md": (
@@ -198,11 +202,13 @@ def render_markdown(text: str) -> str:
         text,
         extensions=["tables", "fenced_code", "toc", "sane_lists", "attr_list"],
     )
-    rendered = re.sub(
-        r'href="#(FUENTE-[^"]+)"',
-        lambda match: f'href="../fuentes/{match.group(1).lower()}.html"',
-        rendered,
-    )
+    def source_target(match: re.Match) -> str:
+        target = match.group(1)
+        if f'id="{target}"' in rendered:
+            return f'href="#{target}"'
+        return f'href="../fuentes/{target.lower()}.html"'
+
+    rendered = re.sub(r'href="#(FUENTE-[^"]+)"', source_target, rendered)
     return re.sub(
         r'<pre><code class="language-mermaid">(.*?)</code></pre>',
         lambda match: f'<pre class="mermaid">{html.unescape(match.group(1))}</pre>',
@@ -297,7 +303,7 @@ def landing(catalog: list[dict], entries: list[dict], titles: dict[int, str]) ->
     )
     body = f"""<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición pedagógica 2026 · Español · evidencia y revisión</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Del encargo al uso, la conservación y el fin de vida. 680 clases de referencia, 48 sesiones de taller, 12 rutas y evaluación mediante evidencia, crítica, revisión y portafolio.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las 680 clases</a><a class="button" href="talleres/index.html">Abrir los talleres</a><a class="button" href="#estado">Comprobar el estado</a></div></div></section>
 <div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>680</strong><span>clases de referencia</span></div><div class="stat"><strong>48</strong><span>sesiones en 8 talleres</span></div><div class="stat"><strong>12</strong><span>rutas con diagnóstico y capstone</span></div><div class="stat"><strong>680</strong><span>mapas y criterios de aceptación</span></div></section>
-<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado real</p><h2>Qué demuestra el repositorio y qué permanece abierto</h2><p class="lede">La malla de referencia está completa y la capa pedagógica es verificable. La revisión externa por especialidades y la medición de carga horaria siguen pendientes.</p><table class="status-table"><thead><tr><th>Dimensión</th><th>Evidencia comprobada</th><th>Límite abierto</th></tr></thead><tbody><tr><td>Integridad curricular</td><td class="status-ok">680/680 · 68 partes · 10 clases por parte</td><td>No acredita calidad disciplinar.</td></tr><tr><td>Contrato de clase</td><td class="status-ok">680 mapas · 680 evidencias · 680 criterios · 680 recuperaciones</td><td>La aplicación con estudiantes requiere pilotaje.</td></tr><tr><td>Integración</td><td class="status-ok">8 talleres · 48 sesiones · crítica y revisión</td><td>No sustituye estudio, taller o supervisión profesional.</td></tr><tr><td>Procedencia</td><td class="status-ok">1.939 relaciones · 622 URLs · 883 usos completos</td><td>1.056 usos parciales; vigencia externa pendiente.</td></tr><tr><td>Publicación</td><td class="status-ok">Markdown, HTML, lector offline y PDF verificables</td><td>Auditoría WCAG especializada pendiente.</td></tr><tr><td>Revisión externa</td><td class="status-pending">Declarada sin ocultarla</td><td>Revisión profesional por especialidades pendiente.</td></tr></tbody></table><p><a href="estado.html">Abrir metodología, cobertura y pendientes →</a></p></section>
+<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado real</p><h2>Qué demuestra el repositorio y qué permanece abierto</h2><p class="lede">La malla está redactada; la revisión profunda de decisiones se cuenta por separado. La revisión externa por especialidades y la medición de carga horaria siguen pendientes.</p><table class="status-table"><thead><tr><th>Dimensión</th><th>Evidencia comprobada</th><th>Límite abierto</th></tr></thead><tbody><tr><td>Integridad curricular</td><td class="status-ok">680/680 · 68 partes · 10 clases por parte</td><td>No acredita calidad disciplinar.</td></tr><tr><td>Anatomía de clase</td><td class="status-ok">680 preguntas · 680 actividades · 680 fuentes</td><td>La presencia no demuestra la decisión.</td></tr><tr><td>Decisión sustentada</td><td class="status-pending">5/680 contratos revisados</td><td>675 decisiones requieren revisión profunda.</td></tr><tr><td>Integración</td><td class="status-ok">8 talleres · 48 sesiones · crítica y revisión</td><td>No sustituye estudio, taller o supervisión profesional.</td></tr><tr><td>Procedencia</td><td class="status-ok">1.939 relaciones · 622 URLs · 886 usos completos</td><td>1.053 usos parciales; vigencia externa pendiente.</td></tr><tr><td>Publicación</td><td class="status-ok">Markdown, HTML, lector offline y PDF verificables</td><td>Auditoría WCAG especializada pendiente.</td></tr><tr><td>Revisión externa</td><td class="status-pending">Declarada sin ocultarla</td><td>Revisión profesional por especialidades pendiente.</td></tr></tbody></table><p><a href="auditoria-pedagogica.html">Abrir auditoría, pilotos y pendientes →</a></p></section>
 </div><section class="band"><div class="wrap section"><p class="eyebrow" style="color:var(--clay)">Biblioteca completa</p><h2>Más que un índice de clases</h2><p class="lede">Roles, recorridos, instrumentos, documentos y referencias conservan el mismo alcance editorial del lector original y ahora tienen URL propia.</p><div class="resource-grid">{resources}</div></div></section>
 <div class="wrap"><section class="section"><p class="eyebrow" style="color:var(--clay)">De punta a punta</p><h2>Aprender a decidir, no a copiar soluciones</h2><div class="grid"><article class="card"><span class="num">01 · Secuencia</span><h3>Del fundamento a la integración</h3><p>Representación, historia, territorio, estructuras, instalaciones, gestión, patrimonio y grandes tipologías.</p></article><article class="card"><span class="num">02 · Evidencia</span><h3>El conocimiento tiene procedencia</h3><p>Cada uso se vincula con fuente, autoridad, alcance y límite. <a href="bibliografia.html">El registro publica también lo que todavía falta</a>.</p></article><article class="card"><span class="num">03 · Ciclo de vida</span><h3>Proyecto, obra y operación</h3><p>Las decisiones se siguen desde el encargo hasta el mantenimiento, la adaptación y el fin de vida.</p></article></div></section>
 <section class="section"><h2>Las 68 partes</h2><p class="lede">Cada bloque contiene diez clases y una portada propia con su intervalo, foco y acceso directo.</p><div class="part-grid">{parts}</div></section>
@@ -345,6 +351,11 @@ def documentation_portal() -> str:
     cards = "".join(
         f'<a class="resource-card" href="{slug}"><b>{html.escape(title)}</b><span>{html.escape(description)}</span></a>'
         for filename, (slug, title), description in (
+            (
+                "AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md",
+                DOC_PAGES["AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md"],
+                "diagnóstico, referencia, cinco pilotos, trazabilidad y brechas reales",
+            ),
             (
                 "ESTADO_VERIFICABLE.md",
                 DOC_PAGES["ESTADO_VERIFICABLE.md"],
@@ -624,6 +635,9 @@ def main() -> int:
 
     for index, item in enumerate(catalog):
         content = render_markdown((ROOT / item["source"]).read_text(encoding="utf-8"))
+        content = content.replace(
+            'href="../../docs/RUBRICA_COMUN.md"', 'href="../rubrica-comun.html"'
+        )
         traceability = source_traceability_notice(source_uses[item["source"]])
         previous = catalog[index - 1] if index else None
         following = catalog[index + 1] if index + 1 < len(catalog) else None

@@ -29,6 +29,8 @@ jobs:
         run: python scripts/generate_curriculum_docs.py --check
       - name: Verificar capa pedagógica
         run: python scripts/apply_pedagogy.py --check
+      - name: Auditar decisiones pedagógicas
+        run: python scripts/audit_pedagogical_traceability.py --json
       - name: Verificar bibliografía derivada
         run: python scripts/build_bibliography.py --check
       - name: Validar fuentes
@@ -46,7 +48,8 @@ jobs:
           echo "- README de parte esperados: **68**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Talleres verticales: **8** · sesiones: **48**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Rutas con diagnóstico y capstone: **12**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Mapas y criterios de aceptación: **680/680**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Anatomía común de clase: **680/680**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Contratos pedagógicos revisados en profundidad: **5/680**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Recursos transversales esperados: **755**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Fuentes externas únicas esperadas: **622**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Usos de fuentes contextualmente completos: **883/1.939** (mínimo sin regresión)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Usos de fuentes contextualmente completos: **886/1.939** (mínimo sin regresión)" >> "$GITHUB_STEP_SUMMARY"

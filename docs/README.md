@@ -17,6 +17,7 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 
 ## Evidencia y control editorial
 
+- [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) — diagnóstico, análisis de referencia, cinco pilotos, decisiones, fuentes, cambios y pendientes.
 - [Estado verificable](ESTADO_VERIFICABLE.md) — cobertura medida, brechas conocidas y comandos reproducibles.
 - [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md) — procedencia, categorías, límites y criterio de actualización.
 - [Estándar de fuentes y trazabilidad](ESTANDAR_DE_FUENTES.md) — campos mínimos para libros, artículos, normas, webs y casos.

@@ -45,9 +45,9 @@ La presencia de una URL no se contabiliza como trazabilidad completa. Sobre las 
 | Parte o alcance consultado | **1.482** | **76,4 %** |
 | Límite de interpretación | **1.734** | **89,4 %** |
 | Fecha de consulta | **1.055** | **54,4 %** |
-| Cuatro campos simultáneos | **883** | **45,5 %** |
+| Cuatro campos simultáneos | **886** | **45,7 %** |
 
-Hay **291/680 clases** cuyos usos de fuentes están completos en los cuatro campos y **389** que requieren revisión contextual. El registro v3 publica `traceability_status` y `missing_fields` para cada relación. Los faltantes permanecen como `null`; no se sustituyen por fechas, páginas o alcances inventados.
+Hay **292/680 clases** cuyos usos de fuentes están completos en los cuatro campos y **388** que requieren revisión contextual. El registro v3 publica `traceability_status` y `missing_fields` para cada relación. Los faltantes permanecen como `null`; no se sustituyen por fechas, páginas o alcances inventados.
 
 ## Jerarquía de afirmaciones
 

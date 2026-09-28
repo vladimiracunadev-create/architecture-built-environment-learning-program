@@ -49,6 +49,12 @@ Esta parte comienza con **Posmodernismos y revisión del lenguaje arquitectónic
 | 09 | [ARQ-079 · Prácticas de cuidado, género y justicia espacial](ARQ-079.md) |
 | 10 | [ARQ-080 · Crítica de la imagen, el icono y la arquitectura mediática](ARQ-080.md) |
 
+## Estado de justificación pedagógica
+
+**Revisión profunda:** 0/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la posición de cada clase haya sido auditada.
+
 ## Cómo recorrer esta parte
 
 1. Lee las clases en orden cuando el tema sea nuevo; la continuidad está escrita dentro de cada documento.

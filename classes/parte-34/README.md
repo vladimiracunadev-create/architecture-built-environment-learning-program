@@ -49,6 +49,12 @@ Esta parte comienza con **Incendio: inicio, crecimiento y propagación** y culmi
 | 09 | [ARQ-339 · Evacuación inclusiva y simulacros responsables](ARQ-339.md) |
 | 10 | [ARQ-340 · Inspección, mantenimiento y gestión de cambios](ARQ-340.md) |
 
+## Estado de justificación pedagógica
+
+**Revisión profunda:** 0/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la posición de cada clase haya sido auditada.
+
 ## Cómo recorrer esta parte
 
 1. Lee las clases en orden cuando el tema sea nuevo; la continuidad está escrita dentro de cada documento.

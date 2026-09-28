@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
+DECISIONS = ROOT / "data" / "pedagogical-decisions.json"
 READER = ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
 
 
@@ -53,7 +54,7 @@ def relative_link(item: dict) -> str:
     return Path(item["source"]).name
 
 
-def part_readme(part: int, title: str, lessons: list[dict]) -> str:
+def part_readme(part: int, title: str, lessons: list[dict], decisions: dict[str, dict]) -> str:
     details = []
     for item in lessons:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
@@ -96,6 +97,23 @@ def part_readme(part: int, title: str, lessons: list[dict]) -> str:
         if part <= 48
         else "Fase II · tipologías y grandes obras"
     )
+    reviewed = [decisions[item["id"]] for item in lessons if item["id"] in decisions]
+    if reviewed:
+        reviewed_text = "\n\n".join(
+            f"### {record['class_id']} · decisión revisada\n\n"
+            f"**Necesidad:** {record['need']}\n\n"
+            f"**Posición:** {record['placement']}\n\n"
+            f"**Entrada:** {', '.join(record['prerequisites']) or 'sin prerrequisito'} · "
+            f"**Salida:** {', '.join(record['dependencies'])}.\n\n"
+            f"**Evidencia:** {record['evidence']}"
+            for record in reviewed
+        )
+    else:
+        reviewed_text = (
+            "Esta parte todavía no contiene una clase con contrato pedagógico de revisión profunda. "
+            "Sus preguntas, prácticas y fuentes existen, pero no se presentan como prueba de que la "
+            "posición de cada clase haya sido auditada."
+        )
     return f"""# Parte {part:02d} — {title}
 
 **{phase} · 10 clases · {lessons[0]['id']} → {lessons[-1]['id']}**
@@ -119,6 +137,12 @@ Esta parte comienza con **{lessons[0]['title']}** y culmina con **{lessons[-1]['
 | # | Clase |
 |---:|---|
 {classes}
+
+## Estado de justificación pedagógica
+
+**Revisión profunda:** {len(reviewed)}/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+{reviewed_text}
 
 ## Cómo recorrer esta parte
 
@@ -185,6 +209,8 @@ def main() -> int:
     )
     args = parser.parse_args()
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
+    decision_manifest = json.loads(DECISIONS.read_text(encoding="utf-8"))
+    decisions = {record["class_id"]: record for record in decision_manifest["decisions"]}
     titles = part_titles()
     for part in range(1, 69):
         lessons = [item for item in catalog if item["part"] == part]
@@ -193,7 +219,7 @@ def main() -> int:
         path = ROOT / "classes" / f"parte-{part:02d}" / "README.md"
         write_document(
             path,
-            part_readme(part, titles[part], lessons),
+            part_readme(part, titles[part], lessons, decisions),
             args.check,
         )
     write_document(

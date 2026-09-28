@@ -49,6 +49,20 @@ Esta parte comienza con **Cemento, áridos, agua y adiciones** y culmina con **D
 | 09 | [ARQ-239 · Reparación, corrosión y diagnóstico](ARQ-239.md) |
 | 10 | [ARQ-240 · Descarbonización de mezclas y evidencia ambiental](ARQ-240.md) |
 
+## Estado de justificación pedagógica
+
+**Revisión profunda:** 1/10 clases. La presencia de pregunta, práctica y fuentes no equivale por sí sola a una decisión sustentada.
+
+### ARQ-240 · decisión revisada
+
+**Necesidad:** Impedir que una reducción declarada por unidad de mezcla se presente como mejora ambiental del servicio construido sin revisar fronteras, vida útil, cantidades, desempeño y calidad de datos.
+
+**Posición:** Cierra la parte de sistemas cementicios porque requiere composición, dosificación, volumen, exposición, diagnóstico y mantenimiento. Prepara la comparación transversal de impactos de la Parte 45; ubicarla antes de ARQ-231–239 convertiría la comparación ambiental en una etiqueta sin modelo material.
+
+**Entrada:** ARQ-230, ARQ-231, ARQ-232, ARQ-239 · **Salida:** ARQ-441, ARQ-450.
+
+**Evidencia:** Hoja reproducible con factores, cantidades, unidades, fuentes, exclusiones, sensibilidad y una conclusión limitada al modelo.
+
 ## Cómo recorrer esta parte
 
 1. Lee las clases en orden cuando el tema sea nuevo; la continuidad está escrita dentro de cada documento.
