@@ -18,11 +18,11 @@
 [![Contenido](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-7c5cff?style=for-the-badge)](LICENSE-CONTENT.md)
 [![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/architecture-built-environment-learning-program?style=social)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/stargazers)
 
-[🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Currículo completo](classes/README.md) · [🏗️ Talleres verticales](studios/README.md) · [🚀 Cómo usarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [📖 Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md) · [✅ Estado real](docs/ESTADO_VERIFICABLE.md)
+[🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Índice de 680 clases](classes/README.md) · [📐 Cómo está documentada cada clase](docs/ESTANDAR_DOCUMENTACION_CLASE.md) · [📖 Catálogo de fuentes](sources/README.md) · [🏗️ Talleres](studios/README.md) · [🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md)
 
-[🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md) · [👷 Roles y oficios](docs/ROLES_Y_OFICIOS.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [🧾 Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md) · [⚖️ Licencias](docs/LICENCIAS_Y_DERECHOS.md) · [🏷️ Uso comercial](docs/COMMERCIAL_USE.md)
+[🚀 Cómo estudiarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [👩‍🏫 Recursos para docentes](docs/SYLLABUS_Y_CARGA.md) · [🧪 Evaluación](docs/ARQUITECTURA_DE_EVALUACION.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [✅ Estado verificable](docs/ESTADO_VERIFICABLE.md)
 
-[📐 Estándar obligatorio de cada clase](docs/ESTANDAR_DOCUMENTACION_CLASE.md) · [🔎 Auditoría pedagógica](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md)
+[📚 Documentación completa](docs/README.md) · [🧾 Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md) · [🔎 Auditoría pedagógica](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) · [⚖️ Licencias](docs/LICENCIAS_Y_DERECHOS.md) · [🤝 Contribuir](CONTRIBUTING.md)
 
 </div>
 
@@ -51,6 +51,27 @@ La secuencia reúne áreas que suelen estudiarse separadas:
 - veinte partes finales sobre tipologías y grandes infraestructuras.
 
 No propone que una sola persona domine, calcule o autorice todo. Enseña a reconocer **qué decisión existe, qué evidencia necesita, quién debe intervenir y qué permanece abierto**.
+
+Cada clase es un documento completo, no una fila de catálogo. Debe incluir:
+
+- 🎯 **pregunta central, necesidad y posición curricular**: por qué existe, qué recibe y qué habilita;
+- ✅ **resultados observables**: identificar, comparar, construir, evaluar, justificar o validar;
+- 📚 **explicación desarrollada**: fundamentos, mecanismos, límites y vocabulario en contexto;
+- 🗺️ **modelo visual útil**: diagrama sólo cuando aclara una relación que el texto no muestra bien;
+- 🧮 **caso trabajado**: datos, unidades, supuestos, frontera y resultado reproducible cuando corresponda;
+- ✍️ **actividad auténtica** y **evidencia mínima** que otra persona pueda revisar;
+- 📏 **criterios de aceptación**, errores diagnósticos, recuperación y continuidad;
+- 🔗 **trazabilidad de decisiones** y **fuentes con alcance de uso y límite**.
+
+Cinco clases permiten inspeccionar el modelo en momentos distintos del recorrido:
+
+| Caso | Por qué conviene abrirlo |
+|---|---|
+| [ARQ-001 · Arquitectura como sistema](classes/parte-01/ARQ-001.md) | entrada inicial: necesidad, actores, ciclo de vida y primeras dependencias |
+| [ARQ-240 · Descarbonización de mezclas](classes/parte-24/ARQ-240.md) | clase intermedia: evidencia ambiental, comparación y límites de transferencia |
+| [ARQ-350 · Lectura normativa](classes/parte-35/ARQ-350.md) | clase normativa: documento, vigencia, aplicabilidad, evidencia y autoridad |
+| [ARQ-540 · Proyecto de terminal aeroportuaria](classes/parte-54/ARQ-540.md) | clase avanzada y práctica: integración, interfaces, operación y continuidad |
+| [ARQ-680 · Defensa final](classes/parte-68/ARQ-680.md) | cierre: trazabilidad bidireccional, objeciones, versiones y defensa |
 
 ## 🧠 Qué hace diferente a la documentación
 
@@ -111,7 +132,25 @@ La secuencia, redacción, preguntas, ejercicios, casos ficticios y soluciones so
 
 La amplitud general toma como referencia la revisión 2026 de la Carta UNESCO–UIA; el ciclo y los intercambios de información usan RIBA Plan of Work 2020 como referencia comparativa. Los cinco lentes del programa, el orden de 680 clases y su método pedagógico son una síntesis propia, no una reproducción de esos marcos.
 
-El registro reproducible detecta **1.939 relaciones clase–fuente**, **622 URLs externas únicas** y **189 dominios** en las secciones de fuentes de las 680 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas.
+### Fuentes de referencia visibles desde la portada
+
+El programa no se apoya en una bibliografía anónima al final. Estas son fuentes representativas que intervienen en decisiones concretas del currículo:
+
+| Ámbito | Fuente primaria, oficial o académica | Partes donde se utiliza | Qué respalda y qué no autoriza |
+|---|---|---|---|
+| formación arquitectónica | [Carta UNESCO–UIA para la Educación Arquitectónica, revisión 2026](https://www.uia-architectes.org/en/news/unesco-uia-charter-for-architectural-education-revised-edition-2026/) | 01, 02, 04, 44, 48–51, 65–68 | amplitud formativa y responsabilidades; no acredita este programa |
+| proceso de proyecto | [RIBA Plan of Work 2020](https://www.riba.org/work/insights-and-resources/riba-plan-of-work/) | 01, 02, 14, 15 | etapas, estrategias e intercambios; no sustituye contratos ni normativa local |
+| regulación chilena | [Ordenanza General de Urbanismo y Construcciones — Decreto 47](https://www.bcn.cl/leychile/navegar?idNorma=8201) | 01, 02, 04, 38, 40, 46, 48, 49 | lectura del marco chileno; cada aplicación exige comprobar texto y vigencia |
+| accesibilidad | [ISO 21542:2021](https://www.iso.org/standard/71860.html) | 01, 04, 15, 18, 40, 46, 47, 49, 65, 67, 68 | conceptos de accesibilidad y usabilidad; la ficha pública no equivale a lectura íntegra ni conformidad |
+| información y BIM | [ISO 19650-1:2018](https://www.iso.org/standard/68078.html) | 02, 14, 15, 40, 44, 65, 66 | conceptos y principios de gestión de información; no certifica procesos ni entregables |
+| ciclo de vida | [ISO 14040:2006](https://www.iso.org/standard/37456.html) | 01, 15, 22–24, 27, 29, 42, 45–48 | estructura conceptual de ACV; no valida inventarios o declaraciones ambientales |
+| salud y vivienda | [WHO Housing and Health Guidelines, 2018](https://www.who.int/publications/i/item/9789241550376) | 15, 37, 49, 65 | relación entre vivienda y salud; no reemplaza diagnóstico clínico ni exigencias locales |
+| física | [OpenStax University Physics, equilibrio estático](https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium) | 02, 03, 05, 06, 14, 19, 20, 35, 46 | fundamento académico abierto; no constituye cálculo estructural de una obra |
+| riesgo | [UNDRR · Disaster risk terminology](https://www.undrr.org/terminology/disaster-risk) | 01, 09, 11, 35, 36, 38, 45, 48 | vocabulario de amenaza, exposición y vulnerabilidad; no produce por sí solo una evaluación local |
+
+El registro completo clasifica **622 fuentes**: **187 organismos públicos**, **65 normas o estándares**, **59 fuentes académicas** y **311 referencias técnicas o institucionales**. Cuando se incorpora un libro debe registrarse autor, título, año, edición, editorial, ISBN si existe y capítulo o páginas consultadas. Cuando esos datos no están documentados, el uso permanece parcial: no se inventan para completar una tabla.
+
+El registro reproducible detecta **1.939 relaciones clase–fuente**, **622 URLs externas únicas** y **189 dominios** en las secciones de fuentes de las 680 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas. El estado actual de las 622 entradas es `registrada-no-verificada-en-vivo`: CI comprueba coherencia offline, no promete que una URL externa siga disponible o vigente.
 
 Cada relación aspira a distinguir:
 
@@ -225,18 +264,18 @@ La [guía completa](docs/COMO_USAR_EL_PROGRAMA.md) propone entradas diferentes p
 
 ## 🧭 Doce rutas de aprendizaje
 
-- **Fundamentos desde cero**
-- **Proyecto arquitectónico integral**
-- **Historia, crítica y patrimonio**
-- **Territorio, paisaje y comunidad**
-- **Estructura, suelo y sismo**
-- **Construcción y oficios**
-- **Gestión de proyectos y obra**
-- **Envolvente, energía y confort**
-- **BIM, automatización e información**
-- **Sostenibilidad y circularidad**
-- **Operación y rehabilitación**
-- **Mandante informado y desarrollo de servicios**
+- [**Fundamentos desde cero**](learning-paths/ruta-01.md) — entrada para quien necesita construir vocabulario y método desde ARQ-001.
+- [**Proyecto arquitectónico integral**](learning-paths/ruta-02.md) — programa, alternativas, coordinación, documentación y defensa.
+- [**Historia, crítica y patrimonio**](learning-paths/ruta-03.md) — evidencia histórica, interpretación, conservación y límites.
+- [**Territorio, paisaje y comunidad**](learning-paths/ruta-04.md) — sitio, ecología, agua, ciudad y participación.
+- [**Estructura, suelo y sismo**](learning-paths/ruta-05.md) — comportamiento, interfaces, riesgo y coordinación responsable.
+- [**Construcción y oficios**](learning-paths/ruta-06.md) — materiales, secuencias, tolerancias, calidad y mantenibilidad.
+- [**Gestión de proyectos y obra**](learning-paths/ruta-07.md) — alcance, contratos, costos, información, obra y entrega.
+- [**Envolvente, energía y confort**](learning-paths/ruta-08.md) — clima, humedad, aire, luz, acústica y desempeño.
+- [**BIM, automatización e información**](learning-paths/ruta-09.md) — modelos, interoperabilidad, datos, control de cambios e IA.
+- [**Sostenibilidad y circularidad**](learning-paths/ruta-10.md) — carbono, ciclo de vida, recursos, desmontaje y adaptación.
+- [**Operación y rehabilitación**](learning-paths/ruta-11.md) — puesta en marcha, mantenimiento, posocupación, patologías y mejora.
+- [**Mandante informado y desarrollo de servicios**](learning-paths/ruta-12.md) — decisiones, encargos, riesgos, contratación y recepción.
 
 Cada ruta tiene una ficha pública con su recorrido. [Comparar las doce rutas →](docs/RUTAS_DE_APRENDIZAJE.md)
 
@@ -250,7 +289,20 @@ No es una lista de cargos para “convertirse” automáticamente en ellos. Cada
 
 ### Ocho talleres y seis casos integradores
 
-Los talleres convierten centro comunitario, vivienda, detalle, resiliencia, documentación, tipología compleja y tesis en ciclos completos de producción y revisión. Los seis casos documentales permanecen como marcos reutilizables. [Abrir talleres](studios/README.md) · [Ver casos →](docs/CASOS_INTEGRADORES.md)
+Los talleres convierten el contenido en ciclos completos de producción, crítica, revisión y defensa:
+
+| Taller | Integración que exige |
+|---|---|
+| [EST-01 · Habitar, observar y representar](studios/EST-01/README.md) | observación, necesidades, representación y argumento |
+| [EST-02 · Sitio, historia y proyecto comunitario](studios/EST-02/README.md) | contexto, precedentes, territorio y propuesta pública |
+| [EST-03 · Vivienda, cuidado e inclusión](studios/EST-03/README.md) | convivencia, accesibilidad, programa y experiencia cotidiana |
+| [EST-04 · Materia, envolvente y detalle](studios/EST-04/README.md) | material, interfaces, humedad, tolerancias y construcción |
+| [EST-05 · Desempeño ambiental y resiliencia](studios/EST-05/README.md) | clima, energía, amenazas, continuidad y recuperación |
+| [EST-06 · Documentar, contratar, construir y operar](studios/EST-06/README.md) | información, responsabilidades, obra, entrega y mantenimiento |
+| [EST-07 · Tipología compleja y continuidad de servicio](studios/EST-07/README.md) | sistemas críticos, flujos, interfaces y operación |
+| [EST-08 · Tesis, defensa y portafolio](studios/EST-08/README.md) | trazabilidad, objeciones, revisión y defensa final |
+
+Los seis casos documentales permanecen como marcos reutilizables. [Abrir todos los talleres](studios/README.md) · [Ver casos integradores](docs/CASOS_INTEGRADORES.md)
 
 ### 36 plantillas
 
@@ -263,6 +315,19 @@ Incluyen encargo y necesidades, ficha crítica de fuente, comparación de altern
 El portal de documentación reúne 23 guías mantenidas sobre estándar de clase, método, auditoría pedagógica, procedencia, evaluación, fuentes, normas, derechos, seguridad, portafolio y carga. El inventario histórico conserva además 16 fichas documentales del lector v1.0; no se suman ni confunden como si fueran la misma colección.
 
 [Abrir la documentación actual](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentacion.html) · [Consultar las 16 fichas v1.0](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentos/)
+
+## 👩‍🏫 Para estudiantes, docentes y revisores
+
+| Necesidad | Documento principal | Qué permite hacer |
+|---|---|---|
+| entender el modelo de clase | [Estándar obligatorio](docs/ESTANDAR_DOCUMENTACION_CLASE.md) | revisar necesidad, posición, narrativa, fuentes, actividad, evidencia y continuidad |
+| planificar una implementación | [Syllabus y carga](docs/SYLLABUS_Y_CARGA.md) | estimar dedicación, secuencia y condiciones de uso sin prometer una carrera acreditada |
+| evaluar entregas | [Arquitectura de evaluación](docs/ARQUITECTURA_DE_EVALUACION.md) y [rúbrica común](docs/RUBRICA_COMUN.md) | distinguir evidencia, criterio, condición crítica, revisión y recuperación |
+| construir un portafolio | [Portafolio y evidencias](docs/PORTAFOLIO_Y_EVIDENCIAS.md) | conservar primera versión, crítica, cambio, fundamento y asunto pendiente |
+| revisar fuentes | [Estándar de fuentes](docs/ESTANDAR_DE_FUENTES.md) | documentar organismo o autor, título, edición, localizador, alcance, aplicación, límite y vigencia |
+| auditar el currículo | [Auditoría pedagógica](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) | recorrer diagnóstico, referencia, decisiones, cambios, validaciones y pendientes |
+| comprobar el estado real | [Estado verificable](docs/ESTADO_VERIFICABLE.md) | separar hechos reproducibles de revisión externa, vigencia y eficacia todavía no demostradas |
+| contribuir sin romper salidas | [Guía de contribución](CONTRIBUTING.md) | modificar fuentes de verdad, regenerar índices y ejecutar los mismos gates de CI |
 
 ## 📦 Formatos y lectura offline
 
@@ -307,21 +372,25 @@ catálogo canónico ───┼─> build_site.py ─> portal HTML ─> GitHub 
 
 | Workflow | Comprobación |
 |---|---|
-| [`ci.yml`](.github/workflows/ci.yml) | instala dependencias, genera el sitio y valida estructura, hashes, UTF-8 y enlaces |
-| [`deploy-pages.yml`](.github/workflows/deploy-pages.yml) | reconstruye desde las fuentes, sube el artefacto y publica Pages |
+| [`ci.yml`](.github/workflows/ci.yml) | comprueba los 680 contratos pedagógicos, fuentes y localizadores, anatomía de clase, 68 índices, talleres, rutas, hashes, UTF-8, enlaces y salida HTML |
+| [`deploy-pages.yml`](.github/workflows/deploy-pages.yml) | reconstruye el portal únicamente desde las fuentes versionadas, valida el artefacto, lo sube y publica GitHub Pages |
 
 Reproducción local:
 
 ```bash
 python -m pip install -r requirements-build.txt
+python scripts/build_pedagogical_decisions.py --check
 python scripts/apply_pedagogy.py --check
-python scripts/build_bibliography.py
-python scripts/generate_curriculum_docs.py
+python scripts/audit_pedagogical_traceability.py --json
+python scripts/build_bibliography.py --check
+python scripts/generate_curriculum_docs.py --check
 python scripts/build_site.py
 python scripts/validate_repo.py
 ```
 
-El validador exige ARQ-001–680, diez clases por parte, anatomía y cadena de decisión en 680 clases, cinco pilotos editoriales preservados, 48 sesiones de taller, 12 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
+El validador no se limita a contar archivos. Exige ARQ-001–680, diez clases por parte, anatomía y cadena específica de decisión en 680 clases, fundamentos enlazados con las fuentes declaradas, verbos observables, dependencias existentes, cinco pilotos editoriales preservados, 48 sesiones de taller, 12 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
+
+Una comprobación verde demuestra coherencia reproducible del repositorio. No demuestra vigencia externa de una norma, calidad homogénea del contenido, aprendizaje efectivo con estudiantes ni revisión profesional por especialidades; esas fronteras se publican en el [estado verificable](docs/ESTADO_VERIFICABLE.md).
 
 ## 🗂️ Arquitectura del repositorio
 
@@ -369,7 +438,7 @@ El validador exige ARQ-001–680, diez clases por parte, anatomía y cadena de d
 - **Marca, PDF, lector y salidas:** [licencias de activos](ASSET_LICENSES.md).
 - **Obras y herramientas externas:** conservan sus propios derechos; consulta [avisos de terceros](THIRD_PARTY_NOTICES.md).
 
-La [matriz real de licencias](docs/LICENSING_MATRIX.md) clasifica cada familia y las capas de los artefactos generados. Consulta también [uso comercial](docs/COMMERCIAL_USE.md), [historia del régimen](docs/LICENSING_HISTORY.md), [frontera normativa](docs/NORMATIVE_BOUNDARY.md), [marcas y nombres](TRADEMARKS.md), la [auditoría de licenciamiento](LICENSING_AUDIT.md) y [seguridad y ética profesional](docs/SEGURIDAD_Y_ETICA_PROFESIONAL.md).
+La [matriz real de licencias](docs/LICENSING_MATRIX.md) clasifica cada familia y las capas de los artefactos generados. Consulta también [Uso comercial](docs/COMMERCIAL_USE.md), [historia del régimen](docs/LICENSING_HISTORY.md), [frontera normativa](docs/NORMATIVE_BOUNDARY.md), [marcas y nombres](TRADEMARKS.md), la [auditoría de licenciamiento](LICENSING_AUDIT.md) y [seguridad y ética profesional](docs/SEGURIDAD_Y_ETICA_PROFESIONAL.md).
 
 Copyright © 2026 **Vladimir Acuña** (`vladimiracunadev-create`). Las licencias no convierten una fuente externa en contenido propio, no relicencian normas o documentación ajena y no conceden habilitación profesional.
 
