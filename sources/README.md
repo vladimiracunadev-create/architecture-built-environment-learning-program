@@ -8,10 +8,36 @@ Este directorio responde de forma auditable a **qué fuentes utiliza cada clase*
 | Apariciones de URL en fuentes | **1939** |
 | URLs externas únicas | **622** |
 | Dominios únicos | **189** |
+| Usos con contexto completo | **883/1939** |
+| Clases con todos sus usos completos | **291/680** |
 
-El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v2 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza.
+El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v3 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza. Cada relación queda marcada como `complete` o `partial` e incluye la lista exacta de campos ausentes.
 
 La política conservadora es `redistribution: link-only`. Cuando la licencia no consta se registra como `unknown`; eso no significa dominio público ni permiso para copiar.
+
+## Una URL no basta
+
+La presencia de un enlace demuestra localización, no calidad bibliográfica ni validez. Una relación clase–fuente es **contextualmente completa** sólo cuando declara los cuatro campos siguientes:
+
+| Campo exigido | Cobertura actual | Porcentaje |
+|---|---:|---:|
+| Afirmación o función que apoya | **1872/1939** | **96.5%** |
+| Parte o alcance efectivamente consultado | **1482/1939** | **76.4%** |
+| Límite de interpretación | **1734/1939** | **89.4%** |
+| Fecha de consulta | **1055/1939** | **54.4%** |
+
+En conjunto, **883/1939 (45.5%)** usos tienen los cuatro campos y **1056** requieren revisión editorial. Esto se publica como brecha; no se reemplaza con inferencias o fechas inventadas.
+
+## Requisitos según el tipo de fuente
+
+| Tipo | Registros | Identificación mínima adicional |
+|---|---:|---|
+| Norma o estándar | 65 | organismo, código, edición o año, jurisdicción y artículo/sección consultada |
+| Organismo público | 187 | institución, documento o página, fecha/versión y competencia territorial |
+| Académica o educativa | 59 | autoría, título, institución/editorial, edición o año y capítulo/página cuando corresponda |
+| Referencia web | 311 | autor o institución, título, fecha de publicación/actualización y sección consultada |
+
+Los libros deben añadir editorial, edición, año, ISBN cuando exista y páginas o capítulos consultados. Un DOI, ISBN o URL es un localizador: no sustituye la explicación de qué afirmación respalda.
 
 ## Procedencias más frecuentes
 
@@ -40,7 +66,7 @@ La política conservadora es `redistribution: link-only`. Cuando la licencia no 
 
 ## Qué demuestra y qué no
 
-El registro demuestra que una URL aparece en la sección de fuentes de una clase y permite localizar sus usos. No demuestra que la fuente siga disponible, que se haya leído íntegramente, que sea aplicable en una jurisdicción concreta ni que su institución respalde el programa.
+El registro demuestra que una URL aparece en la sección de fuentes de una clase y permite localizar sus usos. No demuestra que la fuente siga disponible, que se haya leído íntegramente, que sea aplicable en una jurisdicción concreta ni que su institución respalde el programa. La disponibilidad en vivo de las 622 URLs y la vigencia normativa siguen pendientes.
 
 Para entender de dónde provienen la secuencia, las indicaciones y los ejercicios, consulta [Procedencia editorial](../docs/PROCEDENCIA_EDITORIAL.md). Para el criterio de uso y límites, consulta [Fuentes y evidencia](../docs/FUENTES_Y_EVIDENCIA.md).
 

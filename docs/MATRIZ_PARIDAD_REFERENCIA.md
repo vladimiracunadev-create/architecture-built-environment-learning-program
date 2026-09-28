@@ -17,7 +17,7 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 | Portada de cada parte | 68 README generados desde sus diez clases | Aplicado |
 | Conversión Markdown → HTML | 680 clases, 68 partes y documentación en Pages | Aplicado |
 | Explicación de origen del material | `docs/PROCEDENCIA_EDITORIAL.md` | Aplicado |
-| Bibliografía central trazable | `sources/bibliography.json`: 622 URLs vinculadas con sus clases | Aplicado |
+| Bibliografía central trazable | esquema v3: 622 URLs, 1.939 usos, estado completo/parcial y campos ausentes por clase | Aplicado |
 | Fuentes con alcance y límites | sección dedicada en 680/680 clases | Aplicado |
 | Cómo usar el programa | guía para perfiles y recorridos | Aplicado |
 | Rutas por interés o responsabilidad | 12 rutas y mapa de 80 roles/oficios | Aplicado |

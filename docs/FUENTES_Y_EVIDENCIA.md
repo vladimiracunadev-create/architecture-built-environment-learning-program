@@ -33,6 +33,22 @@ Una ficha útil responde cuatro preguntas:
 3. **Apoyo:** qué afirmación concreta de la clase sostiene.
 4. **Límite:** qué no se puede concluir, transferir o certificar con esa fuente.
 
+El estándar detallado para libros, artículos, normas, sitios web y casos patrimoniales está en [Estándar de fuentes y trazabilidad](ESTANDAR_DE_FUENTES.md).
+
+## Completitud real de las relaciones
+
+La presencia de una URL no se contabiliza como trazabilidad completa. Sobre las 1.939 relaciones actuales:
+
+| Campo contextual | Presente | Cobertura |
+|---|---:|---:|
+| Afirmación o función que apoya | **1.872** | **96,5 %** |
+| Parte o alcance consultado | **1.482** | **76,4 %** |
+| Límite de interpretación | **1.734** | **89,4 %** |
+| Fecha de consulta | **1.055** | **54,4 %** |
+| Cuatro campos simultáneos | **883** | **45,5 %** |
+
+Hay **291/680 clases** cuyos usos de fuentes están completos en los cuatro campos y **389** que requieren revisión contextual. El registro v3 publica `traceability_status` y `missing_fields` para cada relación. Los faltantes permanecen como `null`; no se sustituyen por fechas, páginas o alcances inventados.
+
 ## Jerarquía de afirmaciones
 
 | Estado | Significado |
@@ -55,6 +71,6 @@ Una ficha útil responde cuatro preguntas:
 
 ## Estado de verificación
 
-Todas las clases contienen “Fuentes y alcance de uso”. El registro central [`sources/bibliography.json`](../sources/bibliography.json) se genera desde ese contenido y enlaza cada URL con todas las clases que la utilizan. La disponibilidad y vigencia externa no se comprueban todavía de forma periódica. Esa limitación se mantiene visible en el [estado verificable](ESTADO_VERIFICABLE.md).
+Todas las clases contienen “Fuentes y alcance de uso”. El registro central [`sources/bibliography.json`](../sources/bibliography.json) se genera desde ese contenido y enlaza cada URL con todas las clases que la utilizan. CI impide que la cobertura actual de función, alcance, límite, fecha y relaciones completas retroceda. La disponibilidad y vigencia externa no se comprueban todavía de forma periódica. Esa limitación se mantiene visible en el [estado verificable](ESTADO_VERIFICABLE.md).
 
 La explicación sobre el origen de la secuencia, los ejercicios y las indicaciones está en [Procedencia editorial](PROCEDENCIA_EDITORIAL.md).

@@ -12,7 +12,7 @@ La arquitectura curricular combina tres niveles que deben distinguirse:
 
 1. **Marco general de formación.** La amplitud temática toma como referencia la noticia oficial sobre la revisión 2026 de la Carta UNESCO–UIA: diseño, cultura, sociedad, ambiente, técnica y responsabilidad. Los cinco lentes del programa —personas, lugar, construcción, recursos y tiempo— son una síntesis propia, no una clasificación oficial de la Carta.
 2. **Ciclo e intercambio de información.** RIBA Plan of Work 2020 se usa como referencia comparativa para pensar etapas, responsabilidades e intercambios. No se adopta como norma chilena ni determina por sí solo el orden de las clases.
-3. **Contenido disciplinar de cada clase.** Cada Markdown contiene un apartado `Fuentes y alcance de uso` que identifica los documentos consultados, qué apoyan y qué no permiten concluir.
+3. **Contenido disciplinar de cada clase.** Cada Markdown contiene un apartado `Fuentes y alcance de uso`. El registro derivado mide por separado si cada relación identifica su función, alcance consultado, límite y fecha; los faltantes se publican como brecha editorial.
 
 Las dos referencias transversales anteriores no bastan para construir las clases. Historia, estructuras, clima, accesibilidad, patrimonio, construcción, instalaciones, operación y tipologías se apoyan en fuentes específicas visibles en cada ficha.
 
@@ -29,9 +29,9 @@ Las dos referencias transversales anteriores no bastan para construir las clases
 
 ## Registro central y trazabilidad
 
-El archivo [`sources/bibliography.json`](../sources/bibliography.json) se genera desde las 680 clases. Para cada URL registra el título editorial recuperado, el dominio y todas las clases que la utilizan. [`sources/README.md`](../sources/README.md) resume el inventario.
+El archivo [`sources/bibliography.json`](../sources/bibliography.json) se genera desde las 680 clases. Para cada URL registra título, autoridad declarada o inferida, dominio y todas las clases que la utilizan; para cada uso publica su estado y los campos contextuales ausentes. [`sources/README.md`](../sources/README.md) resume el inventario.
 
-La unidad primaria de trazabilidad sigue siendo la clase: junto a la referencia declara su **uso** y su **límite**. El registro central permite localizar y auditar; no sustituye esa explicación contextual.
+La unidad primaria de trazabilidad sigue siendo la relación clase–fuente. Cuando constan, la clase declara **función**, **alcance consultado**, **límite** y **fecha**. El registro central permite localizar, medir y auditar; no sustituye esa explicación contextual. Consulta el [estándar de fuentes](ESTANDAR_DE_FUENTES.md).
 
 ## Qué no se puede afirmar
 

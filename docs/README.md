@@ -19,6 +19,7 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 
 - [Estado verificable](ESTADO_VERIFICABLE.md) — cobertura medida, brechas conocidas y comandos reproducibles.
 - [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md) — procedencia, categorías, límites y criterio de actualización.
+- [Estándar de fuentes y trazabilidad](ESTANDAR_DE_FUENTES.md) — campos mínimos para libros, artículos, normas, webs y casos.
 - [Procedencia editorial](PROCEDENCIA_EDITORIAL.md) — origen de la secuencia, las indicaciones, los ejercicios y las clases.
 - [Licencias y derechos](LICENCIAS_Y_DERECHOS.md) — separación entre código, contenido, datos, activos y terceros.
 - [Matriz real de licencias](LICENSING_MATRIX.md) — alcance, procedencia, permisos y generación por familia de archivos.

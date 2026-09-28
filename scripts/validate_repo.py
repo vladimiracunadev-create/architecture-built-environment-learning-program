@@ -162,6 +162,25 @@ def main() -> int:
     )
     if bibliography_truth != (680, 1939, 622, 189, 622):
         fail(f"derived bibliography changed: {bibliography_truth}")
+    traceability = bibliography.get("traceability", {})
+    minimum_field_coverage = {
+        "function": 1872,
+        "consultation_scope": 1482,
+        "limitation": 1734,
+        "accessed_on": 1055,
+    }
+    if traceability.get("required_context_fields") != list(minimum_field_coverage):
+        fail("unexpected source traceability fields")
+    if traceability.get("complete_uses", 0) < 883:
+        fail("complete source-use coverage regressed")
+    if traceability.get("classes_with_all_uses_complete", 0) < 291:
+        fail("class-level source traceability regressed")
+    for field, minimum in minimum_field_coverage.items():
+        if traceability.get("field_coverage", {}).get(field, 0) < minimum:
+            fail(f"source traceability regressed for {field}")
+    computed_complete_uses = 0
+    computed_complete_classes = set()
+    partial_classes = set()
     for entry in bibliography["entries"]:
         if not entry["locator"].startswith("https://") or not entry["used_in"]:
             fail(f"incomplete bibliography entry: {entry['id']}")
@@ -191,10 +210,30 @@ def main() -> int:
                 "consultation_scope",
                 "limitation",
                 "accessed_on",
+                "traceability_status",
+                "missing_fields",
             }:
                 fail(f"incomplete per-class source record: {entry['id']}")
-    if bibliography.get("schema_version") != 2:
-        fail("bibliography must use traceability schema version 2")
+            expected_missing = [
+                field for field in minimum_field_coverage if not use.get(field)
+            ]
+            if use["missing_fields"] != expected_missing:
+                fail(f"incorrect missing source fields: {entry['id']}")
+            expected_status = "complete" if not expected_missing else "partial"
+            if use["traceability_status"] != expected_status:
+                fail(f"incorrect source traceability status: {entry['id']}")
+            if expected_status == "complete":
+                computed_complete_uses += 1
+                computed_complete_classes.add(use["class"])
+            else:
+                partial_classes.add(use["class"])
+    if computed_complete_uses != traceability.get("complete_uses"):
+        fail("source completeness summary disagrees with use records")
+    all_complete_classes = computed_complete_classes - partial_classes
+    if len(all_complete_classes) != traceability.get("classes_with_all_uses_complete"):
+        fail("source class-completeness summary disagrees with use records")
+    if bibliography.get("schema_version") != 3:
+        fail("bibliography must use traceability schema version 3")
 
     for required_license in REQUIRED_LEGAL_FILES:
         if not (ROOT / required_license).is_file():
@@ -346,6 +385,12 @@ def main() -> int:
         pages = list((site / "clases").glob("arq-*.html"))
         if len(pages) != 680:
             fail(f"generated site has {len(pages)} lesson pages, expected 680")
+        source_notices = sum(
+            'data-source-traceability="true"' in page.read_text(encoding="utf-8")
+            for page in pages
+        )
+        if source_notices != 680:
+            fail(f"generated site has {source_notices} source-traceability notices")
         part_pages = list((site / "partes").glob("parte-*.html"))
         if len(part_pages) != 68:
             fail(f"generated site has {len(part_pages)} part pages, expected 68")
@@ -372,6 +417,7 @@ def main() -> int:
             "artefactos.html",
             "estado.html",
             "fuentes-y-evidencia.html",
+            "estandar-fuentes.html",
             "como-usar.html",
             "rutas-de-aprendizaje.html",
             "roles-y-oficios.html",
@@ -393,11 +439,17 @@ def main() -> int:
             "talleres/index.html",
             "rutas/index.html",
             "bibliografia.html",
+            "bibliografia/catalogo.html",
             "sources/bibliography.json",
             ".nojekyll",
         ):
             if not (site / required).exists():
                 fail(f"generated site is missing {required}")
+        bibliography_catalog = (site / "bibliografia" / "catalogo.html").read_text(
+            encoding="utf-8"
+        )
+        if bibliography_catalog.count('data-source-card="true"') != 622:
+            fail("generated bibliography catalog does not contain 622 sources")
         broken = []
         for page in site.rglob("*.html"):
             text = page.read_text(encoding="utf-8")
@@ -421,7 +473,7 @@ def main() -> int:
     print(
         "OK: 680 lessons · 68 parts · 8 studios · 48 studio sessions · "
         "12 learning paths · 755 legacy resources · 69 curriculum README files · "
-        "622 source URLs · licensing matrix · "
+        "622 source URLs · 883 complete source uses · 21 current documents · licensing matrix · "
         "Markdown links · checksums · UTF-8 · generated site"
     )
     return 0

@@ -59,10 +59,16 @@ El conteo reproducible por unidades separadas por espacio arroja una mediana de 
 | Fichas editoriales navegables del lector v1.0 | **611** |
 | Clases con apartado de fuentes | **680/680** |
 | Entradas del registro derivado sin URL | **0** |
+| Relaciones con función declarada | **1.872/1.939** |
+| Relaciones con alcance consultado | **1.482/1.939** |
+| Relaciones con límite declarado | **1.734/1.939** |
+| Relaciones con fecha de consulta | **1.055/1.939** |
+| Relaciones contextualmente completas | **883/1.939** |
+| Clases con todos sus usos completos | **291/680** |
 | Verificación periódica de disponibilidad externa | **no implementada** |
 | Revisión de vigencia normativa por jurisdicción | **pendiente** |
 
-Cada clase distingue qué se consultó, qué afirmación apoya y qué no permite concluir. `sources/bibliography.json` conecta cada URL con las clases que la usan. Las 611 fichas del lector son un inventario editorial histórico y navegable; no deben confundirse con las 622 URLs únicas derivadas del corpus actual.
+Cada clase tiene un apartado de fuentes, pero no todas sus relaciones poseen todavía el mismo grado de contexto. `sources/bibliography.json` conecta cada URL con las clases que la usan, marca cada uso como completo o parcial y enumera sus campos ausentes. Las 611 fichas del lector son un inventario editorial histórico y navegable; no deben confundirse con las 622 URLs únicas derivadas del corpus actual.
 
 ## 5. Publicación y artefactos
 
@@ -73,7 +79,8 @@ Cada clase distingue qué se consultó, qué afirmación apoya y qué no permite
 | Portadas de parte | **68** | una por bloque |
 | Páginas de taller | **56** | ocho portadas + 48 sesiones |
 | Rutas pedagógicas | **12** | entrada, recorrido, checkpoints, salida y capstone |
-| Recursos transversales | **755** | 611 fuentes, 80 roles, 36 plantillas, 16 documentos y 12 rutas |
+| Recursos transversales heredados v1.0 | **755** | 611 fuentes, 80 roles, 36 plantillas, 16 documentos y 12 rutas |
+| Documentación actual mantenida | **21** | método, estado, fuentes, pedagogía, evaluación, derechos y seguridad |
 | Lector offline | conservado | HTML autosuficiente v1.0 |
 | PDF de las 20 clases finales | conservado | SHA-256 versionado |
 | PDF de ARQ-680 | conservado | SHA-256 versionado |
@@ -85,7 +92,7 @@ Cada clase distingue qué se consultó, qué afirmación apoya y qué no permite
 1. **Revisión externa por especialidades.** No se ha realizado una revisión integral por arquitectura, estructuras, geotecnia, instalaciones, incendio, accesibilidad, patrimonio, costos, construcción y operación.
 2. **Pilotos pedagógicos.** La arquitectura documental existe; falta observar comprensión, abandono, tiempos, calidad de crítica y transferencia con estudiantes reales.
 3. **Carga y calendario.** No se publican horas ni créditos hasta medirlos en condiciones declaradas.
-4. **Vigencia de fuentes externas.** El repositorio registra fuentes y límites, pero todavía no ejecuta una comprobación periódica de disponibilidad, sustitución o retiro.
+4. **Completitud y vigencia de fuentes.** Faltan uno o más campos contextuales en 1.056 relaciones; además, el repositorio todavía no ejecuta una comprobación periódica de disponibilidad, sustitución, retiro o vigencia normativa.
 5. **Visuales disciplinares.** Todas las clases tienen mapa de aprendizaje; plantas, cortes, mapas, detalles y diagramas técnicos específicos deben ampliarse por especialidad.
 6. **Licencias y terceros.** Código propio bajo Apache-2.0 y contenido original bajo CC BY-NC-SA 4.0. Las obras externas conservan sus derechos y requieren revisar sus términos antes de reutilizarlas.
 7. **Lector offline histórico.** Conserva documentos de v1.0. Cuando una afirmación histórica contradice el estado actual, este documento y las fuentes Markdown actuales prevalecen como marcador de estado.

@@ -49,3 +49,4 @@ jobs:
           echo "- Mapas y criterios de aceptación: **680/680**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Recursos transversales esperados: **755**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Fuentes externas únicas esperadas: **622**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Usos de fuentes contextualmente completos: **883/1.939** (mínimo sin regresión)" >> "$GITHUB_STEP_SUMMARY"

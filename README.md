@@ -12,6 +12,7 @@
 [![Talleres](https://img.shields.io/badge/talleres-8%20·%2048%20sesiones-1d6b68?style=for-the-badge)](studios/README.md)
 [![Rutas](https://img.shields.io/badge/rutas-12-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
 [![Fuentes](https://img.shields.io/badge/fuentes-622%20URLs%20·%20189%20dominios-ddb967?style=for-the-badge)](sources/README.md)
+[![Trazabilidad](https://img.shields.io/badge/usos%20completos-883%20de%201.939-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-3fb950?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-7c5cff?style=for-the-badge)](LICENSE-CONTENT.md)
@@ -51,7 +52,7 @@ No propone que una sola persona domine, calcule o autorice todo. Enseña a recon
 
 ## 🧠 Qué hace diferente a la documentación
 
-### Una clase no es sólo un tema
+### Una clase no es solo un tema: es una decisión sustentada
 
 Las clases se construyen alrededor de una decisión o problema. El corpus completo garantiza tres anclas:
 
@@ -65,6 +66,19 @@ Las clases se construyen alrededor de una decisión o problema. El corpus comple
 | Autoevaluación, recuperación y continuidad | **680/680** |
 
 Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa pedagógica común se genera desde [`data/pedagogy.json`](data/pedagogy.json), se aplica con [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) y el CI falla si una clase, taller o ruta queda desincronizada.
+
+### El conocimiento tiene procedencia verificable
+
+Ninguna afirmación técnica, histórica o normativa se considera válida sólo porque aparezca escrita en una clase. Cada afirmación relevante debe poder reconstruirse mediante una cadena explícita:
+
+```text
+afirmación → fuente → localizador → autoridad → edición/fecha
+           → parte consultada → uso en la clase → límite → vigencia
+```
+
+El registro no oculta sus brechas. De las **1.939 relaciones clase–fuente**, **883 (45,5 %)** declaran simultáneamente función, alcance consultado, límite y fecha; **1.056** requieren completar al menos uno de esos campos. **291/680 clases** tienen todos sus usos contextualizados. CI conserva estos valores como mínimos y falla si la trazabilidad retrocede.
+
+Los requisitos cambian según la fuente: un libro necesita edición y páginas; una norma, organismo, jurisdicción, versión y numeral; una web, autor institucional, fecha y sección consultada. El estándar completo está en [Estándar de fuentes y trazabilidad](docs/ESTANDAR_DE_FUENTES.md) y la medición reproducible en el [registro central](sources/README.md).
 
 ### Las decisiones conservan sus fronteras
 
@@ -90,14 +104,14 @@ La amplitud general toma como referencia la revisión 2026 de la Carta UNESCO–
 
 El registro reproducible detecta **1.939 relaciones clase–fuente**, **622 URLs externas únicas** y **189 dominios** en las secciones de fuentes de las 680 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas.
 
-Cada ficha debe distinguir:
+Cada relación aspira a distinguir:
 
 1. documento y organismo;
 2. parte efectivamente consultada;
 3. afirmación que apoya;
 4. límite de lo que permite concluir.
 
-Una cita no convierte una guía extranjera en norma chilena, no acredita lectura íntegra, no demuestra vigencia y no valida un proyecto. Consulta [Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md), el [registro central de fuentes](sources/README.md) y [Fuentes, evidencia y alcance de uso](docs/FUENTES_Y_EVIDENCIA.md).
+El registro derivado marca cada uso como completo o parcial y enumera los campos ausentes; no rellena vacíos con inferencias. Una cita no convierte una guía extranjera en norma chilena, no acredita lectura íntegra, no demuestra vigencia y no valida un proyecto. Consulta [Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md), el [registro central de fuentes](sources/README.md), el [estándar de trazabilidad](docs/ESTANDAR_DE_FUENTES.md) y [Fuentes, evidencia y alcance de uso](docs/FUENTES_Y_EVIDENCIA.md).
 
 ## 🗺️ Dos fases, 68 partes y ocho talleres verticales
 
@@ -235,11 +249,11 @@ Incluyen encargo y necesidades, ficha crítica de fuente, comparación de altern
 
 [Abrir las plantillas en el portal](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/plantillas/)
 
-### 16 documentos transversales
+### 21 documentos actuales + 16 fichas documentales v1.0
 
-Explican inicio, mapa, estado, pedagogía, normas, derechos, seguridad, cálculos, calidad, glosario, casos y continuidad editorial.
+El portal de documentación reúne 21 guías mantenidas sobre método, procedencia, evaluación, fuentes, normas, derechos, seguridad, portafolio y carga. El inventario histórico conserva además 16 fichas documentales del lector v1.0; no se suman ni confunden como si fueran la misma colección.
 
-[Abrir los documentos transversales](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentos/)
+[Abrir la documentación actual](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentacion.html) · [Consultar las 16 fichas v1.0](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentos/)
 
 ## 📦 Formatos y lectura offline
 
@@ -265,7 +279,7 @@ El lector offline conserva también documentos históricos de la evolución del 
 | Capa pedagógica | 680 mapas, evidencias, criterios y recuperaciones | efectividad con estudiantes sin pilotaje |
 | Talleres | 8 talleres y 48 sesiones | supervisión profesional o universitaria |
 | Capa Markdown | 680 clases + 68 README de parte + índice | calidad homogénea |
-| Fuentes en clases | 1.939 relaciones; 622 URLs únicas; 189 dominios | vigencia o aplicabilidad automática |
+| Fuentes en clases | 1.939 relaciones; 622 URLs; 883 usos completos | 1.056 usos parciales; vigencia externa pendiente |
 | Fichas navegables v1.0 | 611 fichas curadas; 0 sin URL | identidad con el registro derivado |
 | Portal | clases, partes y 755 recursos con enlaces internos validados | accesibilidad WCAG certificada |
 | Artefactos | lector y PDF con hashes versionados | validez técnica para obra |

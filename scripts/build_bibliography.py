@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_JSON = ROOT / "sources" / "bibliography.json"
 OUT_README = ROOT / "sources" / "README.md"
 SOURCE_HEADING = "## Fuentes y alcance de uso"
+TRACE_FIELDS = ("function", "consultation_scope", "limitation", "accessed_on")
 URL_RE = re.compile(r"https?://[^\s)>\]]+")
 DATE_RE = re.compile(
     r"\b(?:[0-3]?\d[-/]\d{1,2}[-/]20\d{2}|[0-3]?\d\s+de\s+"
@@ -193,11 +194,28 @@ def build_registry() -> dict:
     entries = sorted(records.values(), key=lambda item: (item["authority_domain"], item["title"], item["locator"]))
     for entry in entries:
         entry["usage_count"] = len(entry["used_in"])
+        for use in entry["uses"]:
+            missing = [field for field in TRACE_FIELDS if not use.get(field)]
+            use["traceability_status"] = "complete" if not missing else "partial"
+            use["missing_fields"] = missing
+
+    uses = [use for entry in entries for use in entry["uses"]]
+    uses_by_class: dict[str, list[dict]] = {}
+    for use in uses:
+        uses_by_class.setdefault(use["class"], []).append(use)
+    field_coverage = {
+        field: sum(bool(use.get(field)) for use in uses) for field in TRACE_FIELDS
+    }
+    complete_uses = sum(use["traceability_status"] == "complete" for use in uses)
+    complete_classes = sum(
+        all(use["traceability_status"] == "complete" for use in class_uses)
+        for class_uses in uses_by_class.values()
+    )
 
     return {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_from": "classes/parte-XX/ARQ-XXX.md",
-        "generated_on": "2026-09-25",
+        "generated_on": "2026-09-28",
         "policy": (
             "Registro derivado de las secciones 'Fuentes y alcance de uso'. "
             "Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, "
@@ -208,12 +226,35 @@ def build_registry() -> dict:
         "citation_occurrences": citations,
         "unique_sources": len(entries),
         "unique_domains": len({entry["authority_domain"] for entry in entries}),
+        "traceability": {
+            "required_context_fields": list(TRACE_FIELDS),
+            "field_coverage": field_coverage,
+            "complete_uses": complete_uses,
+            "partial_uses": len(uses) - complete_uses,
+            "classes_with_all_uses_complete": complete_classes,
+            "classes_requiring_context_review": len(uses_by_class) - complete_classes,
+            "live_availability_check": "not-implemented",
+            "normative_currency_review": "pending",
+        },
         "entries": entries,
     }
 
 
 def render_readme(registry: dict) -> str:
     domains = Counter(entry["authority_domain"] for entry in registry["entries"])
+    source_types = Counter(entry["type"] for entry in registry["entries"])
+    trace = registry["traceability"]
+    field_labels = {
+        "function": "Afirmación o función que apoya",
+        "consultation_scope": "Parte o alcance efectivamente consultado",
+        "limitation": "Límite de interpretación",
+        "accessed_on": "Fecha de consulta",
+    }
+    coverage_rows = "\n".join(
+        f"| {field_labels[field]} | **{trace['field_coverage'][field]}/{registry['citation_occurrences']}** | "
+        f"**{trace['field_coverage'][field] / registry['citation_occurrences']:.1%}** |"
+        for field in TRACE_FIELDS
+    )
     rows = "\n".join(f"| `{domain}` | {count} |" for domain, count in domains.most_common(20))
     return f"""# Registro central de fuentes
 
@@ -225,10 +266,33 @@ Este directorio responde de forma auditable a **qué fuentes utiliza cada clase*
 | Apariciones de URL en fuentes | **{registry['citation_occurrences']}** |
 | URLs externas únicas | **{registry['unique_sources']}** |
 | Dominios únicos | **{registry['unique_domains']}** |
+| Usos con contexto completo | **{trace['complete_uses']}/{registry['citation_occurrences']}** |
+| Clases con todos sus usos completos | **{trace['classes_with_all_uses_complete']}/{registry['class_count']}** |
 
-El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v2 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza.
+El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v3 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza. Cada relación queda marcada como `complete` o `partial` e incluye la lista exacta de campos ausentes.
 
 La política conservadora es `redistribution: link-only`. Cuando la licencia no consta se registra como `unknown`; eso no significa dominio público ni permiso para copiar.
+
+## Una URL no basta
+
+La presencia de un enlace demuestra localización, no calidad bibliográfica ni validez. Una relación clase–fuente es **contextualmente completa** sólo cuando declara los cuatro campos siguientes:
+
+| Campo exigido | Cobertura actual | Porcentaje |
+|---|---:|---:|
+{coverage_rows}
+
+En conjunto, **{trace['complete_uses']}/{registry['citation_occurrences']} ({trace['complete_uses'] / registry['citation_occurrences']:.1%})** usos tienen los cuatro campos y **{trace['partial_uses']}** requieren revisión editorial. Esto se publica como brecha; no se reemplaza con inferencias o fechas inventadas.
+
+## Requisitos según el tipo de fuente
+
+| Tipo | Registros | Identificación mínima adicional |
+|---|---:|---|
+| Norma o estándar | {source_types['standard']} | organismo, código, edición o año, jurisdicción y artículo/sección consultada |
+| Organismo público | {source_types['public-body']} | institución, documento o página, fecha/versión y competencia territorial |
+| Académica o educativa | {source_types['academic']} | autoría, título, institución/editorial, edición o año y capítulo/página cuando corresponda |
+| Referencia web | {source_types['reference']} | autor o institución, título, fecha de publicación/actualización y sección consultada |
+
+Los libros deben añadir editorial, edición, año, ISBN cuando exista y páginas o capítulos consultados. Un DOI, ISBN o URL es un localizador: no sustituye la explicación de qué afirmación respalda.
 
 ## Procedencias más frecuentes
 
@@ -238,7 +302,7 @@ La política conservadora es `redistribution: link-only`. Cuando la licencia no 
 
 ## Qué demuestra y qué no
 
-El registro demuestra que una URL aparece en la sección de fuentes de una clase y permite localizar sus usos. No demuestra que la fuente siga disponible, que se haya leído íntegramente, que sea aplicable en una jurisdicción concreta ni que su institución respalde el programa.
+El registro demuestra que una URL aparece en la sección de fuentes de una clase y permite localizar sus usos. No demuestra que la fuente siga disponible, que se haya leído íntegramente, que sea aplicable en una jurisdicción concreta ni que su institución respalde el programa. La disponibilidad en vivo de las {registry['unique_sources']} URLs y la vigencia normativa siguen pendientes.
 
 Para entender de dónde provienen la secuencia, las indicaciones y los ejercicios, consulta [Procedencia editorial](../docs/PROCEDENCIA_EDITORIAL.md). Para el criterio de uso y límites, consulta [Fuentes y evidencia](../docs/FUENTES_Y_EVIDENCIA.md).
 
@@ -269,7 +333,8 @@ def main() -> int:
             raise SystemExit("stale bibliography files: " + ", ".join(str(path.relative_to(ROOT)) for path in stale))
         print(
             f"Verified {registry['unique_sources']} unique source URLs, "
-            f"{registry['citation_occurrences']} citations and {registry['unique_domains']} domains"
+            f"{registry['citation_occurrences']} citations, {registry['unique_domains']} domains and "
+            f"{registry['traceability']['complete_uses']} complete source uses"
         )
         return 0
 
@@ -278,7 +343,8 @@ def main() -> int:
         path.write_text(value, encoding="utf-8", newline="\n")
     print(
         f"Built {registry['unique_sources']} unique source URLs, "
-        f"{registry['citation_occurrences']} citations and {registry['unique_domains']} domains"
+        f"{registry['citation_occurrences']} citations, {registry['unique_domains']} domains and "
+        f"{registry['traceability']['complete_uses']} complete source uses"
     )
     return 0
 
