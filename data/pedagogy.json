@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "edition": "pedagogia-2026",
+  "assessment": {
+    "passing_score": 80,
+    "critical_floor": 60,
+    "dimensions": [
+      ["Precisión y representación", 20],
+      ["Evidencia y trazabilidad", 25],
+      ["Decisión y alternativas", 25],
+      ["Integración y ciclo de vida", 20],
+      ["Comunicación, ética y límites", 10]
+    ]
+  },
+  "studios": [
+    {
+      "id": "EST-01",
+      "title": "Habitar, observar y representar",
+      "checkpoint_after_part": 4,
+      "purpose": "Convertir observaciones de un espacio cotidiano en un programa verificable y en representaciones que otras personas puedan revisar.",
+      "brief": "Documentar un espacio pequeño de uso colectivo, identificar una necesidad real y proponer una mejora sin confundir observación, interpretación y preferencia.",
+      "product": "expediente de observación, levantamiento, programa y propuesta espacial inicial",
+      "route_ids": ["RUTA-01", "RUTA-02", "RUTA-04"]
+    },
+    {
+      "id": "EST-02",
+      "title": "Sitio, historia y proyecto comunitario",
+      "checkpoint_after_part": 14,
+      "purpose": "Integrar sitio, precedentes, participación, alternativas y crítica en un anteproyecto comunitario acotado.",
+      "brief": "Desarrollar un equipamiento comunitario pequeño a partir de antecedentes territoriales, necesidades contrastadas y tres alternativas comparables.",
+      "product": "anteproyecto comunitario con base de sitio, alternativas, crítica y registro de decisiones",
+      "route_ids": ["RUTA-01", "RUTA-02", "RUTA-03", "RUTA-04", "RUTA-12"]
+    },
+    {
+      "id": "EST-03",
+      "title": "Vivienda, cuidado e inclusión",
+      "checkpoint_after_part": 18,
+      "purpose": "Diseñar una vivienda adaptable desde actividades, diversidad corporal, cuidados y cambios en el tiempo.",
+      "brief": "Comparar dos organizaciones de vivienda para un hogar que cambia durante diez años y someterlas a pruebas de recorrido, uso y adaptación.",
+      "product": "propuesta de vivienda adaptable con pruebas de uso, accesibilidad y escenarios temporales",
+      "route_ids": ["RUTA-02", "RUTA-04", "RUTA-08", "RUTA-11"]
+    },
+    {
+      "id": "EST-04",
+      "title": "Materia, envolvente y detalle",
+      "checkpoint_after_part": 27,
+      "purpose": "Relacionar camino de cargas, agua, aire, calor, montaje y mantenimiento en un detalle constructivo verificable.",
+      "brief": "Desarrollar y comparar dos encuentros de envolvente para un edificio pequeño, desde la sección general hasta un prototipo de detalle.",
+      "product": "detalle coordinado, secuencia de montaje, matriz de interfaces y protocolo de prueba",
+      "route_ids": ["RUTA-05", "RUTA-06", "RUTA-08", "RUTA-10"]
+    },
+    {
+      "id": "EST-05",
+      "title": "Desempeño ambiental y resiliencia",
+      "checkpoint_after_part": 38,
+      "purpose": "Comparar estrategias ambientales y multiamenaza sin sumar indicadores incompatibles ni ocultar incertidumbres críticas.",
+      "brief": "Revisar un equipamiento territorial frente a clima, energía, agua, confort, sismo y amenazas concurrentes mediante escenarios explícitos.",
+      "product": "estrategia de desempeño y resiliencia con modelos, escenarios, límites y prioridades de verificación",
+      "route_ids": ["RUTA-04", "RUTA-05", "RUTA-08", "RUTA-10", "RUTA-12"]
+    },
+    {
+      "id": "EST-06",
+      "title": "Documentar, contratar, construir y operar",
+      "checkpoint_after_part": 47,
+      "purpose": "Transformar un anteproyecto en un paquete coordinado de información, costo, construcción, entrega y operación.",
+      "brief": "Preparar el expediente académico de un edificio pequeño, identificar riesgos contractuales y demostrar cómo la información llega a obra y operación.",
+      "product": "expediente coordinado con planos, especificaciones, costo, secuencia, controles y plan de entrega",
+      "route_ids": ["RUTA-02", "RUTA-06", "RUTA-07", "RUTA-09", "RUTA-11", "RUTA-12"]
+    },
+    {
+      "id": "EST-07",
+      "title": "Tipología compleja y continuidad de servicio",
+      "checkpoint_after_part": 58,
+      "purpose": "Integrar flujos, sistemas críticos, construcción por etapas, emergencia, mantenimiento y continuidad en una tipología compleja.",
+      "brief": "Elegir una tipología entre salud, transporte, infraestructura o grandes recintos y comparar dos estrategias de continuidad operacional.",
+      "product": "anteproyecto de tipología compleja con escenarios operativos, interfaces y revisión crítica",
+      "route_ids": ["RUTA-02", "RUTA-05", "RUTA-07", "RUTA-08", "RUTA-09", "RUTA-11"]
+    },
+    {
+      "id": "EST-08",
+      "title": "Tesis, defensa y portafolio",
+      "checkpoint_after_part": 68,
+      "purpose": "Demostrar progresión, capacidad de revisión y transferencia responsable mediante una tesis breve y un portafolio auditado.",
+      "brief": "Seleccionar evidencias iniciales, intermedias y finales; reconstruir cambios; formular una posición propia y defenderla ante objeciones.",
+      "product": "portafolio longitudinal, memoria crítica, defensa final y plan de aprendizaje posterior",
+      "route_ids": ["RUTA-01", "RUTA-02", "RUTA-03", "RUTA-04", "RUTA-05", "RUTA-06", "RUTA-07", "RUTA-08", "RUTA-09", "RUTA-10", "RUTA-11", "RUTA-12"]
+    }
+  ],
+  "routes": [
+    {"id":"RUTA-01","title":"Fundamentos desde cero","parts":[1,2,3,4,5,10,11,14],"entry":"Sin formación previa; diagnóstico de lectura espacial, unidades y argumentación.","exit":"Explicar, representar y revisar un problema arquitectónico pequeño.","capstone":"EST-02"},
+    {"id":"RUTA-02","title":"Proyecto arquitectónico integral","parts":[1,2,3,4,10,11,14,15,18,19,20,21,27,35,40,41,44,48],"entry":"Fundamentos o evidencia equivalente en representación, programa y sitio.","exit":"Coordinar un anteproyecto desde el encargo hasta su defensa y continuidad.","capstone":"EST-08"},
+    {"id":"RUTA-03","title":"Historia, crítica y patrimonio","parts":[5,6,7,8,9,10,22,23,46,47],"entry":"Capacidad de distinguir fuente primaria, interpretación y argumento.","exit":"Construir una lectura histórica crítica y una estrategia de intervención defendible.","capstone":"EST-08"},
+    {"id":"RUTA-04","title":"Territorio, paisaje y comunidad","parts":[4,9,11,12,13,18,36,37,38,45,48],"entry":"Fundamentos de observación, escala, representación y participación.","exit":"Comparar decisiones territoriales con evidencia social, ecológica y multiamenaza.","capstone":"EST-05"},
+    {"id":"RUTA-05","title":"Estructura, suelo y sismo","parts":[2,3,19,20,21,22,23,24,25,35,38,40],"entry":"Dominio básico de unidades, vectores, equilibrio y lectura de secciones.","exit":"Formular y revisar modelos estructurales conceptuales con límites explícitos.","capstone":"EST-05"},
+    {"id":"RUTA-06","title":"Construcción y oficios","parts":[2,20,22,23,24,25,26,27,31,32,33,34,39,43],"entry":"Lectura de planos, escalas, materiales y secuencias.","exit":"Coordinar un detalle, su montaje, control de calidad y mantenimiento.","capstone":"EST-06"},
+    {"id":"RUTA-07","title":"Gestión de proyectos y obra","parts":[1,14,39,40,41,42,43,44,47,48],"entry":"Comprensión general del ciclo del proyecto y de las responsabilidades.","exit":"Preparar y defender un expediente de alcance, costo, plazo, calidad y cambios.","capstone":"EST-06"},
+    {"id":"RUTA-08","title":"Envolvente, energía y confort","parts":[3,18,26,27,28,29,30,32,45,47],"entry":"Unidades, balances y representación de capas y flujos.","exit":"Comparar estrategias de envolvente y confort mediante modelos y operación.","capstone":"EST-05"},
+    {"id":"RUTA-09","title":"BIM, automatización e información","parts":[2,3,11,20,21,31,32,33,40,41,44,47],"entry":"Lectura de documentación y nociones de datos, versiones y coordenadas.","exit":"Definir requisitos de información, interfaces, comprobaciones y entrega digital.","capstone":"EST-06"},
+    {"id":"RUTA-10","title":"Sostenibilidad y circularidad","parts":[11,13,22,23,24,25,26,28,29,42,45,46,47],"entry":"Capacidad de declarar fronteras, unidades funcionales y alternativas comparables.","exit":"Defender una decisión ambiental sin dobles conteos ni afirmaciones absolutas.","capstone":"EST-05"},
+    {"id":"RUTA-11","title":"Operación y rehabilitación","parts":[1,18,27,29,30,31,32,33,34,44,46,47],"entry":"Comprensión del edificio como activo usado, mantenido y transformado.","exit":"Diagnosticar, priorizar y documentar una intervención compatible y mantenible.","capstone":"EST-06"},
+    {"id":"RUTA-12","title":"Mandante informado y desarrollo de servicios","parts":[1,4,11,14,38,40,41,42,43,47,48],"entry":"Interés en formular encargos y revisar evidencia sin asumir atribuciones profesionales.","exit":"Definir alcance, contratar competencias y gobernar decisiones y riesgos.","capstone":"EST-06"}
+  ]
+}

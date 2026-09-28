@@ -4,6 +4,8 @@
 **Corte:** 24 de septiembre de 2026  
 **Alcance leído:** 515 archivos Markdown de la referencia y todo el corpus Markdown original de este repositorio.
 
+> El corte anterior identifica la auditoría histórica de referencia. El estado de implementación de esta matriz fue reconciliado con el repositorio el 28 de septiembre de 2026.
+
 Esta matriz evita dos errores: omitir un patrón documental útil y copiar una función que no corresponde al contexto de arquitectura.
 
 ## Elementos aplicados
@@ -33,7 +35,7 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 | Patrón | Adaptación |
 |---|---|
 | Laboratorios ejecutables | prácticas documentales y casos dentro de las clases; no se afirma que existan laboratorios de obra |
-| Soluciones separadas | soluciones razonadas embebidas cuando existen; cobertura publicada como 650/680 |
+| Soluciones separadas | retroalimentación, autoevaluación y recuperación integradas en 680/680 clases; los casos trabajados se contabilizan por separado |
 | Manual único | lector offline v1.0 y portal HTML; se conserva la fuente Markdown por clase |
 | Rutas laborales | rutas temáticas y mapa de responsabilidades, sin prometer empleabilidad ni habilitación |
 | Seguridad y ética ofensiva | alcance profesional, seguridad de contenido y límites de actuación en obra y emergencias |

@@ -2,13 +2,14 @@
 
 # 🏛️ Programa Integral de Arquitectura, Construcción y Entorno Habitado
 
-## **680 clases · 68 partes · 12 rutas · del encargo al fin de vida**
+## **680 clases · 48 sesiones de taller · 12 rutas · del encargo al fin de vida**
 
-**Un currículo secuencial en español para estudiar arquitectura como una coordinación de personas, lugar, historia, materia, sistemas, recursos, responsabilidades, operación y tiempo.**
+**Un currículo secuencial en español con evidencia, crítica, revisión y portafolio para estudiar arquitectura como una coordinación de personas, lugar, historia, materia, sistemas, recursos, responsabilidades, operación y tiempo.**
 
 [![CI](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/ci.yml)
 [![Deploy Pages](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml)
 [![Clases](https://img.shields.io/badge/clases-680%20·%2068%20partes-b85c38?style=for-the-badge)](classes/README.md)
+[![Talleres](https://img.shields.io/badge/talleres-8%20·%2048%20sesiones-1d6b68?style=for-the-badge)](studios/README.md)
 [![Rutas](https://img.shields.io/badge/rutas-12-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
 [![Fuentes](https://img.shields.io/badge/fuentes-622%20URLs%20·%20189%20dominios-ddb967?style=for-the-badge)](sources/README.md)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
@@ -16,7 +17,7 @@
 [![Contenido](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-7c5cff?style=for-the-badge)](LICENSE-CONTENT.md)
 [![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/architecture-built-environment-learning-program?style=social)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/stargazers)
 
-[🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Currículo completo](classes/README.md) · [🚀 Cómo usarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [📖 Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md) · [✅ Estado real](docs/ESTADO_VERIFICABLE.md)
+[🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Currículo completo](classes/README.md) · [🏗️ Talleres verticales](studios/README.md) · [🚀 Cómo usarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [📖 Fuentes y evidencia](docs/FUENTES_Y_EVIDENCIA.md) · [✅ Estado real](docs/ESTADO_VERIFICABLE.md)
 
 [🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md) · [👷 Roles y oficios](docs/ROLES_Y_OFICIOS.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [🧾 Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md) · [⚖️ Licencias](docs/LICENCIAS_Y_DERECHOS.md) · [🏷️ Uso comercial](docs/COMMERCIAL_USE.md)
 
@@ -59,8 +60,11 @@ Las clases se construyen alrededor de una decisión o problema. El corpus comple
 | Pregunta central | **680/680** |
 | Práctica o ejercicio | **680/680** |
 | Fuentes y alcance de uso | **680/680** |
+| Mapa visual de aprendizaje | **680/680** |
+| Evidencia y criterio de aceptación | **680/680** |
+| Autoevaluación, recuperación y continuidad | **680/680** |
 
-Otros componentes aparecen según la etapa: resultados o entregas explícitos en 645 clases, casos trabajados o razonados en 532, autoevaluación o solución en 650, continuidad explícita en 555 y errores frecuentes en 284. El [estado verificable](docs/ESTADO_VERIFICABLE.md) publica la cobertura real; no finge una uniformidad que todavía no existe.
+Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa pedagógica común se genera desde [`data/pedagogy.json`](data/pedagogy.json), se aplica con [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) y el CI falla si una clase, taller o ruta queda desincronizada.
 
 ### Las decisiones conservan sus fronteras
 
@@ -95,7 +99,9 @@ Cada ficha debe distinguir:
 
 Una cita no convierte una guía extranjera en norma chilena, no acredita lectura íntegra, no demuestra vigencia y no valida un proyecto. Consulta [Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md), el [registro central de fuentes](sources/README.md) y [Fuentes, evidencia y alcance de uso](docs/FUENTES_Y_EVIDENCIA.md).
 
-## 🗺️ Dos fases y 68 partes
+## 🗺️ Dos fases, 68 partes y ocho talleres verticales
+
+Los talleres se insertan después de las Partes 04, 14, 18, 27, 38, 47, 58 y 68. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. Así, el conocimiento no termina en lectura o práctica aislada: se integra en una entrega con versiones y retroalimentación.
 
 ### Fase I · formación transversal
 
@@ -187,8 +193,10 @@ Las Partes 49–68 vuelven sobre el conocimiento transversal en contextos espec�
 2. **Lee la pregunta antes de la explicación.** Define qué problema intenta resolver la clase.
 3. **Reconstruye el caso.** Comprueba unidades, frontera, supuestos y actores.
 4. **Haz la práctica sin mirar la solución.** Registra dudas y decisiones.
-5. **Revisa las fuentes.** Distingue apoyo, límite, vigencia y aplicabilidad.
-6. **Conserva evidencia.** Entrega, revisión, cambio y asunto pendiente.
+5. **Evalúa la evidencia.** Usa el criterio de aceptación y la [rúbrica común](docs/RUBRICA_COMUN.md).
+6. **Recibe o simula una crítica.** Conserva objeciones antes de corregir.
+7. **Revisa y recupera.** Vuelve a la evidencia a las 24–48 horas y al cerrar la parte.
+8. **Conserva el proceso.** Primera versión, crítica, cambio y asunto pendiente forman el portafolio.
 
 La [guía completa](docs/COMO_USAR_EL_PROGRAMA.md) propone entradas diferentes para estudiantes, docentes, profesionales, mandantes y lectores por tipología.
 
@@ -217,9 +225,9 @@ No es una lista de cargos para “convertirse” automáticamente en ellos. Cada
 
 ## 🧩 Casos, plantillas y documentos de trabajo
 
-### Seis casos integradores
+### Ocho talleres y seis casos integradores
 
-Centro comunitario, biblioteca existente, vivienda adaptable, equipamiento territorial, taller con bodega y entrega digital de un edificio pequeño. [Ver qué integra cada caso →](docs/CASOS_INTEGRADORES.md)
+Los talleres convierten centro comunitario, vivienda, detalle, resiliencia, documentación, tipología compleja y tesis en ciclos completos de producción y revisión. Los seis casos documentales permanecen como marcos reutilizables. [Abrir talleres](studios/README.md) · [Ver casos →](docs/CASOS_INTEGRADORES.md)
 
 ### 36 plantillas
 
@@ -239,6 +247,8 @@ Explican inicio, mapa, estado, pedagogía, normas, derechos, seguridad, cálculo
 |---|---|
 | [GitHub Pages](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) | navegación, búsqueda y lectura HTML |
 | [680 Markdown](classes/README.md) | fuentes editables y revisión en Git |
+| [48 sesiones de taller](studios/README.md) | integración, crítica, revisión y defensa |
+| [12 rutas verificables](docs/RUTAS_DE_APRENDIZAJE.md) | diagnóstico, checkpoints, capstone y salida |
 | [Lector offline v1.0](programa-arquitectura-lector-definitivo-v1.0.html) | biblioteca autosuficiente sin servidor |
 | [20 clases finales en Markdown](Arquitectura_20_Clases_Finales_v1.0.md) | bloque ARQ-661–680 consolidado |
 | [20 clases finales en PDF](Arquitectura_20_Clases_Finales_v1.0.pdf) | lectura e impresión |
@@ -252,6 +262,8 @@ El lector offline conserva también documentos históricos de la evolución del 
 | Dimensión | Resultado | No demuestra |
 |---|---|---|
 | Integridad curricular | 680/680 clases; 68 partes; 10 clases por parte | revisión disciplinar |
+| Capa pedagógica | 680 mapas, evidencias, criterios y recuperaciones | efectividad con estudiantes sin pilotaje |
+| Talleres | 8 talleres y 48 sesiones | supervisión profesional o universitaria |
 | Capa Markdown | 680 clases + 68 README de parte + índice | calidad homogénea |
 | Fuentes en clases | 1.939 relaciones; 622 URLs únicas; 189 dominios | vigencia o aplicabilidad automática |
 | Fichas navegables v1.0 | 611 fichas curadas; 0 sin URL | identidad con el registro derivado |
@@ -279,13 +291,14 @@ Reproducción local:
 
 ```bash
 python -m pip install -r requirements-build.txt
+python scripts/apply_pedagogy.py --check
 python scripts/build_bibliography.py
 python scripts/generate_curriculum_docs.py
 python scripts/build_site.py
 python scripts/validate_repo.py
 ```
 
-El validador exige ARQ-001–680, diez clases por parte, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
+El validador exige ARQ-001–680, diez clases por parte, 680 contratos pedagógicos, 680 mapas, 48 sesiones de taller, 12 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
 
 ## 🗂️ Arquitectura del repositorio
 
@@ -295,9 +308,14 @@ El validador exige ARQ-001–680, diez clases por parte, estado coherente, hashe
 │   └── parte-01 … parte-68/
 │       ├── README.md             # propósito, preguntas, resultados y navegación
 │       └── ARQ-XXX.md            # diez clases por parte
+├── studios/                      # 8 talleres · 48 sesiones integradoras
+├── learning-paths/               # 12 rutas con entrada, checkpoints y capstone
+├── evidence/                     # convención privada de evidencias y portafolio
 ├── docs/                         # estado, método, fuentes, uso, rutas, roles y casos
 ├── sources/                      # bibliografía central y clases que usan cada URL
-├── data/catalog.json             # catálogo canónico de clases
+├── data/
+│   ├── catalog.json              # catálogo canónico de clases
+│   └── pedagogy.json             # evaluación, talleres y rutas
 ├── scripts/                      # importación, documentación, build y validación
 ├── assets/                       # identidad visual
 ├── .github/workflows/            # CI y Pages
@@ -309,7 +327,7 @@ El validador exige ARQ-001–680, diez clases por parte, estado coherente, hashe
 
 | Sí | No |
 |---|---|
-| currículo secuencial de arquitectura y entorno construido | carrera acreditada |
+| currículo secuencial con evaluación y talleres | carrera acreditada |
 | material para aprender a formular y revisar decisiones | expediente listo para construir |
 | casos didácticos con fronteras declaradas | catálogo de parámetros para copiar |
 | fuentes con apoyo y límites explícitos | garantía de vigencia normativa |
@@ -342,7 +360,7 @@ Lee [CONTRIBUTING.md](CONTRIBUTING.md). Una corrección útil identifica:
 - cambio propuesto;
 - consecuencias en índice, parte, sitio y artefactos.
 
-La prioridad no es aumentar el número de clases. Es revisar especialidades, vigencia, coherencia pedagógica y calidad documental.
+La prioridad no es aumentar el número de clases de referencia. Es pilotar la nueva arquitectura pedagógica, revisar especialidades, medir carga real, actualizar fuentes y elevar la calidad visual y disciplinar.
 
 ---
 

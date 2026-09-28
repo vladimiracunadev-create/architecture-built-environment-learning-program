@@ -78,24 +78,48 @@ def main() -> int:
     coverage = Counter()
     for item in catalog:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
-        headings = "\n".join(re.findall(r"^##\s+(.+)$", text, re.MULTILINE)).lower()
+        headings = "\n".join(re.findall(r"^#{2,3}\s+(.+)$", text, re.MULTILINE)).lower()
         for label, pattern in coverage_patterns.items():
             coverage[label] += bool(re.search(pattern, headings))
     expected_coverage = {
         "question": 680,
         "practice": 680,
         "sources": 680,
-        "result": 645,
-        "case": 532,
-        "self_assessment": 650,
-        "continuity": 555,
-        "errors": 284,
+        "result": 680,
+        "case": 570,
+        "self_assessment": 680,
+        "continuity": 680,
+        "errors": 680,
     }
     if dict(coverage) != expected_coverage:
         fail(
             "class documentation coverage changed; update the status document "
             f"from measured data: {dict(coverage)}"
         )
+
+    pedagogy = json.loads((ROOT / "data" / "pedagogy.json").read_text(encoding="utf-8"))
+    if pedagogy.get("schema_version") != 1:
+        fail("pedagogy manifest must use schema version 1")
+    if len(pedagogy.get("studios", [])) != 8 or len(pedagogy.get("routes", [])) != 12:
+        fail("pedagogy manifest must contain 8 studios and 12 routes")
+    studio_sessions = list((ROOT / "studios").glob("EST-??/EST-??-??.md"))
+    if len(studio_sessions) != 48:
+        fail(f"found {len(studio_sessions)} studio sessions, expected 48")
+    learning_paths = list((ROOT / "learning-paths").glob("ruta-??.md"))
+    if len(learning_paths) != 12:
+        fail(f"found {len(learning_paths)} learning paths, expected 12")
+    for item in catalog:
+        text = (ROOT / item["source"]).read_text(encoding="utf-8")
+        for marker in (
+            "<!-- pedagogia-2026:inicio -->",
+            "```mermaid",
+            "## Resultado observable, evidencia y evaluación",
+            "**Criterio de aceptación:**",
+            "## Autoevaluación, recuperación y continuidad",
+            "<!-- pedagogia-2026:fin -->",
+        ):
+            if text.count(marker) != 1:
+                fail(f"pedagogical contract missing or duplicated in {item['id']}: {marker}")
 
     reader_text = (
         ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
@@ -218,6 +242,8 @@ def main() -> int:
     for marker in (
         "scripts/*.py",
         "classes/parte-XX/ARQ-XXX.md",
+        "studios/",
+        "data/pedagogy.json",
         "sources/bibliography.json",
         "programa-arquitectura-lector-definitivo-v1.0.html",
         "site/",
@@ -323,6 +349,12 @@ def main() -> int:
         part_pages = list((site / "partes").glob("parte-*.html"))
         if len(part_pages) != 68:
             fail(f"generated site has {len(part_pages)} part pages, expected 68")
+        studio_pages = list((site / "talleres").glob("est-??/est-??-??.html"))
+        if len(studio_pages) != 48:
+            fail(f"generated site has {len(studio_pages)} studio session pages, expected 48")
+        route_pages = list((site / "rutas").glob("ruta-??.html"))
+        if len(route_pages) != 12:
+            fail(f"generated site has {len(route_pages)} learning paths, expected 12")
         for folder, expected_count in EXPECTED_RESOURCES.items():
             resource_pages = [path for path in (site / folder).glob("*.html") if path.name != "index.html"]
             if len(resource_pages) != expected_count:
@@ -353,6 +385,13 @@ def main() -> int:
             "frontera-normativa.html",
             "matriz-paridad-referencia.html",
             "seguridad-etica-profesional.html",
+            "arquitectura-evaluacion.html",
+            "rubrica-comun.html",
+            "portafolio-evidencias.html",
+            "estandar-visual.html",
+            "syllabus-carga.html",
+            "talleres/index.html",
+            "rutas/index.html",
             "bibliografia.html",
             "sources/bibliography.json",
             ".nojekyll",
@@ -380,8 +419,9 @@ def main() -> int:
         if "Cada componente conserva su régimen" not in generated_notice:
             fail("generated site is missing the layered-license notice")
     print(
-        "OK: 680 lessons · 68 parts · 755 resources · "
-        "69 curriculum README files · 622 source URLs · licensing matrix · "
+        "OK: 680 lessons · 68 parts · 8 studios · 48 studio sessions · "
+        "12 learning paths · 755 legacy resources · 69 curriculum README files · "
+        "622 source URLs · licensing matrix · "
         "Markdown links · checksums · UTF-8 · generated site"
     )
     return 0

@@ -15,6 +15,7 @@ import markdown
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site"
 CATALOG_PATH = ROOT / "data" / "catalog.json"
+PEDAGOGY_PATH = ROOT / "data" / "pedagogy.json"
 READER = ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
 REPO_URL = "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program"
 PAGES_URL = "https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/"
@@ -84,11 +85,26 @@ DOC_PAGES = {
         "seguridad-etica-profesional.html",
         "Seguridad y ética profesional",
     ),
+    "ARQUITECTURA_DE_EVALUACION.md": (
+        "arquitectura-evaluacion.html",
+        "Arquitectura de evaluación",
+    ),
+    "RUBRICA_COMUN.md": ("rubrica-comun.html", "Rúbrica común"),
+    "PORTAFOLIO_Y_EVIDENCIAS.md": (
+        "portafolio-evidencias.html",
+        "Portafolio y evidencias",
+    ),
+    "ESTANDAR_VISUAL.md": ("estandar-visual.html", "Estándar visual"),
+    "SYLLABUS_Y_CARGA.md": ("syllabus-carga.html", "Syllabus y carga"),
 }
 
 
 def load_catalog() -> list[dict]:
     return json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+
+
+def load_pedagogy() -> dict:
+    return json.loads(PEDAGOGY_PATH.read_text(encoding="utf-8"))
 
 
 def legacy_entries() -> list[dict]:
@@ -139,20 +155,33 @@ def render_markdown(text: str) -> str:
         text,
         extensions=["tables", "fenced_code", "toc", "sane_lists", "attr_list"],
     )
-    return re.sub(
+    rendered = re.sub(
         r'href="#(FUENTE-[^"]+)"',
         lambda match: f'href="../fuentes/{match.group(1).lower()}.html"',
         rendered,
+    )
+    return re.sub(
+        r'<pre><code class="language-mermaid">(.*?)</code></pre>',
+        lambda match: f'<pre class="mermaid">{html.unescape(match.group(1))}</pre>',
+        rendered,
+        flags=re.DOTALL,
     )
 
 
 def render_document_markdown(text: str) -> str:
     rendered = render_markdown(text)
+    rendered = re.sub(
+        r'href="\.\./learning-paths/(ruta-\d{2})\.md"',
+        lambda match: f'href="rutas/{match.group(1)}.html"',
+        rendered,
+        flags=re.I,
+    )
     for filename, (slug, _title) in DOC_PAGES.items():
         rendered = rendered.replace(f'href="{filename}"', f'href="{slug}"')
         rendered = rendered.replace(f'href="../docs/{filename}"', f'href="{slug}"')
     return (
         rendered.replace('href="../classes/README.md"', 'href="partes/index.html"')
+        .replace('href="../studios/README.md"', 'href="talleres/index.html"')
         .replace('href="../README.md"', 'href="index.html"')
         .replace('href="../sources/README.md"', 'href="bibliografia.html"')
         .replace('href="../sources/bibliography.json"', 'href="sources/bibliography.json"')
@@ -195,8 +224,8 @@ def shell(title: str, body: str, *, description: str = "", prefix: str = "") -> 
 <meta property="og:type" content="website"><meta property="og:url" content="{PAGES_URL}">
 <title>{safe_title}</title><link rel="icon" href="{prefix}assets/mark.svg"><link rel="stylesheet" href="{prefix}assets/site.css"></head>
 <body><a class="skip" href="#main">Saltar al contenido</a><header class="topbar"><div class="inner">
-<a class="brand" href="{prefix}index.html">⌂ ARQ · 680</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}documentacion.html">Documentación</a><a href="{prefix}recursos.html">Recursos</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
-</div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Cada componente conserva su régimen: contenido original <a href="{REPO_URL}/blob/main/LICENSE-CONTENT.md">CC BY-NC-SA 4.0</a>, código propio <a href="{REPO_URL}/blob/main/LICENSE">Apache-2.0</a> y referencias externas bajo derechos de sus titulares.<br>Material educativo independiente: no otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><strong>¿Te resulta útil? <a href="{STARS_URL}">⭐ Dale una estrella</a></strong><br><a href="{prefix}catalogo.html">680 clases</a> · <a href="{prefix}procedencia-editorial.html">Procedencia</a> · <a href="{prefix}licencias-y-derechos.html">Licencias</a> · <a href="{REPO_URL}">GitHub</a></small></div></footer></body></html>"""
+<a class="brand" href="{prefix}index.html">⌂ ARQ · 680 + 48</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}talleres/index.html">Talleres</a><a href="{prefix}rutas/index.html">Rutas</a><a href="{prefix}documentacion.html">Documentación</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
+</div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Cada componente conserva su régimen: contenido original <a href="{REPO_URL}/blob/main/LICENSE-CONTENT.md">CC BY-NC-SA 4.0</a>, código propio <a href="{REPO_URL}/blob/main/LICENSE">Apache-2.0</a> y referencias externas bajo derechos de sus titulares.<br>Material educativo independiente: no otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><strong>¿Te resulta útil? <a href="{STARS_URL}">⭐ Dale una estrella</a></strong><br><a href="{prefix}catalogo.html">680 clases</a> · <a href="{prefix}talleres/index.html">48 sesiones de taller</a> · <a href="{prefix}procedencia-editorial.html">Procedencia</a> · <a href="{prefix}licencias-y-derechos.html">Licencias</a> · <a href="{REPO_URL}">GitHub</a></small></div></footer><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';mermaid.initialize({{startOnLoad:false,securityLevel:'strict',theme:'neutral'}});mermaid.run({{query:'.mermaid'}});</script></body></html>"""
 
 
 def write(relative: str, content: str) -> None:
@@ -223,15 +252,15 @@ def landing(catalog: list[dict], entries: list[dict], titles: dict[int, str]) ->
         f'<a class="resource-card" href="{folder}/index.html"><strong>{counts[kind]}</strong><b>{label}</b><span>{description}</span></a>'
         for kind, (folder, label, description) in RESOURCE_TYPES.items()
     )
-    body = f"""<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición definitiva v1.0 · Español · 24 septiembre 2026</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Del encargo al uso, la conservación y el fin de vida. Un programa secuencial para estudiar personas, lugar, historia, materia, técnica, recursos, operación y tiempo.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las 680 clases</a><a class="button" href="#estado">Comprobar el estado</a></div></div></section>
-<div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>680</strong><span>clases completas</span></div><div class="stat"><strong>68</strong><span>partes · 10 clases cada una</span></div><div class="stat"><strong>1.435</strong><span>entradas navegables</span></div><div class="stat"><strong>0</strong><span>clases pendientes</span></div></section>
-<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado real</p><h2>Qué demuestra el repositorio y qué permanece abierto</h2><p class="lede">“Completo” describe la malla editorial. No significa que todas las clases tengan idéntica pauta, que las fuentes sigan vigentes en toda jurisdicción ni que exista revisión profesional externa.</p><table class="status-table"><thead><tr><th>Dimensión</th><th>Evidencia comprobada</th><th>Límite abierto</th></tr></thead><tbody><tr><td>Integridad curricular</td><td class="status-ok">680/680 · 68 partes · 10 clases por parte</td><td>No acredita calidad disciplinar.</td></tr><tr><td>Anclas de clase</td><td class="status-ok">680 preguntas · 680 prácticas · 680 apartados de fuentes</td><td>Resultados, casos, errores y autoevaluación no son uniformes.</td></tr><tr><td>Procedencia</td><td class="status-ok">1.939 relaciones · 622 URLs · 189 dominios</td><td>Vigencia externa y aplicabilidad normativa pendientes.</td></tr><tr><td>Publicación</td><td class="status-ok">Markdown, HTML, lector offline y PDF verificables</td><td>Auditoría WCAG especializada pendiente.</td></tr><tr><td>Derechos</td><td class="status-ok">Apache-2.0 para código · CC BY-NC-SA 4.0 para contenido</td><td>Obras externas conservan sus derechos.</td></tr><tr><td>Revisión externa</td><td class="status-pending">Declarada sin ocultarla</td><td>Revisión profesional y pedagógica pendiente.</td></tr></tbody></table><p><a href="estado.html">Abrir metodología, cobertura y pendientes →</a></p></section>
+    body = f"""<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición pedagógica 2026 · Español · evidencia y revisión</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Del encargo al uso, la conservación y el fin de vida. 680 clases de referencia, 48 sesiones de taller, 12 rutas y evaluación mediante evidencia, crítica, revisión y portafolio.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las 680 clases</a><a class="button" href="talleres/index.html">Abrir los talleres</a><a class="button" href="#estado">Comprobar el estado</a></div></div></section>
+<div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>680</strong><span>clases de referencia</span></div><div class="stat"><strong>48</strong><span>sesiones en 8 talleres</span></div><div class="stat"><strong>12</strong><span>rutas con diagnóstico y capstone</span></div><div class="stat"><strong>680</strong><span>mapas y criterios de aceptación</span></div></section>
+<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado real</p><h2>Qué demuestra el repositorio y qué permanece abierto</h2><p class="lede">La malla de referencia está completa y la capa pedagógica es verificable. La revisión externa por especialidades y la medición de carga horaria siguen pendientes.</p><table class="status-table"><thead><tr><th>Dimensión</th><th>Evidencia comprobada</th><th>Límite abierto</th></tr></thead><tbody><tr><td>Integridad curricular</td><td class="status-ok">680/680 · 68 partes · 10 clases por parte</td><td>No acredita calidad disciplinar.</td></tr><tr><td>Contrato de clase</td><td class="status-ok">680 mapas · 680 evidencias · 680 criterios · 680 recuperaciones</td><td>La aplicación con estudiantes requiere pilotaje.</td></tr><tr><td>Integración</td><td class="status-ok">8 talleres · 48 sesiones · crítica y revisión</td><td>No sustituye estudio, taller o supervisión profesional.</td></tr><tr><td>Procedencia</td><td class="status-ok">1.939 relaciones · 622 URLs · 189 dominios</td><td>Vigencia externa y aplicabilidad normativa pendientes.</td></tr><tr><td>Publicación</td><td class="status-ok">Markdown, HTML, lector offline y PDF verificables</td><td>Auditoría WCAG especializada pendiente.</td></tr><tr><td>Revisión externa</td><td class="status-pending">Declarada sin ocultarla</td><td>Revisión profesional por especialidades pendiente.</td></tr></tbody></table><p><a href="estado.html">Abrir metodología, cobertura y pendientes →</a></p></section>
 </div><section class="band"><div class="wrap section"><p class="eyebrow" style="color:var(--clay)">Biblioteca completa</p><h2>Más que un índice de clases</h2><p class="lede">Roles, recorridos, instrumentos, documentos y referencias conservan el mismo alcance editorial del lector original y ahora tienen URL propia.</p><div class="resource-grid">{resources}</div></div></section>
 <div class="wrap"><section class="section"><p class="eyebrow" style="color:var(--clay)">De punta a punta</p><h2>Aprender a decidir, no a copiar soluciones</h2><div class="grid"><article class="card"><span class="num">01 · Secuencia</span><h3>Del fundamento a la integración</h3><p>Representación, historia, territorio, estructuras, instalaciones, gestión, patrimonio y grandes tipologías.</p></article><article class="card"><span class="num">02 · Evidencia</span><h3>Dato, hipótesis y límite</h3><p>Las fuentes enseñan mecanismos y contexto; no se convierten automáticamente en norma aplicable a una obra.</p></article><article class="card"><span class="num">03 · Ciclo de vida</span><h3>Proyecto, obra y operación</h3><p>Las decisiones se siguen desde el encargo hasta el mantenimiento, la adaptación y el fin de vida.</p></article></div></section>
 <section class="section"><h2>Las 68 partes</h2><p class="lede">Cada bloque contiene diez clases y una portada propia con su intervalo, foco y acceso directo.</p><div class="part-grid">{parts}</div></section>
 <section class="section"><div class="callout"><h2>Alcance profesional explícito</h2><p>Completar este programa no otorga título, licencia, firma, permiso ni habilitación profesional. Los casos numéricos son didácticos salvo atribución explícita. Toda obra real requiere antecedentes, normativa vigente, especialistas competentes, coordinación, revisión y autorizaciones aplicables.</p><p><a href="metodo.html">Leer método, límites y criterios de transferencia →</a></p></div></section>
-<section class="section"><h2>Markdown como fuente; HTML como experiencia</h2><p class="lede">Las 680 clases viven como Markdown versionado. El build produce el portal, 68 portadas de parte, páginas de clase y las 755 fichas transversales. El lector offline original y los PDF permanecen disponibles como artefactos.</p><div class="actions"><a class="button primary" style="background:var(--teal);color:#fff;border-color:var(--teal)" href="catalogo.html">Abrir catálogo</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="artefactos.html">Ver artefactos</a></div></section></div></main>"""
-    return shell("Arquitectura, construcción y entorno habitado", body, description="680 clases, 68 partes y 755 recursos sobre arquitectura, construcción y entorno habitado.")
+<section class="section"><h2>Markdown como fuente; HTML como experiencia</h2><p class="lede">Las 680 clases, las 48 sesiones de taller y las 12 rutas viven como fuentes versionadas. El build produce el portal completo; el lector offline original y los PDF v1.0 permanecen disponibles como artefactos históricos.</p><div class="actions"><a class="button primary" style="background:var(--teal);color:#fff;border-color:var(--teal)" href="catalogo.html">Abrir catálogo</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="talleres/index.html">Abrir talleres</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="artefactos.html">Ver artefactos</a></div></section></div></main>"""
+    return shell("Arquitectura, construcción y entorno habitado", body, description="680 clases, 48 sesiones de taller y 12 rutas con evaluación y portafolio sobre arquitectura, construcción y entorno habitado.")
 
 
 def catalog_page(catalog: list[dict]) -> str:
@@ -348,6 +377,31 @@ def documentation_portal() -> str:
                 DOC_PAGES["SEGURIDAD_Y_ETICA_PROFESIONAL.md"],
                 "límites para obras, emergencias, personas, patrimonio e IA",
             ),
+            (
+                "ARQUITECTURA_DE_EVALUACION.md",
+                DOC_PAGES["ARQUITECTURA_DE_EVALUACION.md"],
+                "evaluación por clase, parte, ruta y programa",
+            ),
+            (
+                "RUBRICA_COMUN.md",
+                DOC_PAGES["RUBRICA_COMUN.md"],
+                "cinco dimensiones, niveles y condiciones críticas",
+            ),
+            (
+                "PORTAFOLIO_Y_EVIDENCIAS.md",
+                DOC_PAGES["PORTAFOLIO_Y_EVIDENCIAS.md"],
+                "versiones, crítica, revisión, privacidad y selección final",
+            ),
+            (
+                "ESTANDAR_VISUAL.md",
+                DOC_PAGES["ESTANDAR_VISUAL.md"],
+                "representación disciplinar, accesibilidad y derechos",
+            ),
+            (
+                "SYLLABUS_Y_CARGA.md",
+                DOC_PAGES["SYLLABUS_Y_CARGA.md"],
+                "modalidades, progresión y medición honesta de carga",
+            ),
         )
     )
     cards += '<a class="resource-card" href="bibliografia.html"><b>Registro central de fuentes</b><span>622 URLs externas y las 680 clases que las utilizan</span></a>'
@@ -379,8 +433,82 @@ def page_from_markdown(name: str, source: Path, title: str) -> None:
     write(name, shell(title, body))
 
 
+def render_studio_markdown(text: str, studio_id: str, *, index: bool = False) -> str:
+    rendered = render_markdown(text)
+    if index:
+        rendered = re.sub(
+            r'href="(EST-\d{2})/README\.md"',
+            lambda match: f'href="{match.group(1).lower()}/index.html"',
+            rendered,
+        )
+    else:
+        rendered = re.sub(
+            rf'href="{re.escape(studio_id)}-(\d{{2}})\.md"',
+            lambda match: f'href="{studio_id.lower()}-{match.group(1)}.html"',
+            rendered,
+        )
+        rendered = rendered.replace('href="README.md"', 'href="index.html"')
+        rendered = rendered.replace(
+            'href="../../docs/RUBRICA_COMUN.md"', 'href="../../rubrica-comun.html"'
+        )
+    rendered = rendered.replace(
+        'href="../docs/ARQUITECTURA_DE_EVALUACION.md"',
+        'href="../arquitectura-evaluacion.html"',
+    ).replace(
+        'href="../docs/RUBRICA_COMUN.md"',
+        'href="../rubrica-comun.html"',
+    ).replace(
+        'href="../docs/PORTAFOLIO_Y_EVIDENCIAS.md"',
+        'href="../portafolio-evidencias.html"',
+    )
+    return rendered
+
+
+def build_studios(pedagogy: dict) -> None:
+    index_text = (ROOT / "studios" / "README.md").read_text(encoding="utf-8")
+    index_body = f'<main id="main" class="doc">{render_studio_markdown(index_text, "", index=True)}</main>'
+    write("talleres/index.html", shell("8 talleres verticales · Arquitectura", index_body, prefix="../"))
+    for studio in pedagogy["studios"]:
+        studio_id = studio["id"]
+        folder = ROOT / "studios" / studio_id
+        readme = render_studio_markdown((folder / "README.md").read_text(encoding="utf-8"), studio_id)
+        write(
+            f"talleres/{studio_id.lower()}/index.html",
+            shell(f"{studio_id} · {studio['title']}", f'<main id="main" class="doc">{readme}</main>', prefix="../../"),
+        )
+        for session in range(1, 7):
+            source = folder / f"{studio_id}-{session:02d}.md"
+            rendered = render_studio_markdown(source.read_text(encoding="utf-8"), studio_id)
+            write(
+                f"talleres/{studio_id.lower()}/{studio_id.lower()}-{session:02d}.html",
+                shell(f"{studio_id}-{session:02d} · {studio['title']}", f'<main id="main" class="doc">{rendered}</main>', prefix="../../"),
+            )
+
+
+def build_learning_paths(pedagogy: dict) -> None:
+    cards = "".join(
+        f'<a class="inventory-link" href="{route["id"].lower()}.html"><small>{route["id"]}</small>{html.escape(route["title"])}</a>'
+        for route in pedagogy["routes"]
+    )
+    body = f'<main id="main" class="wrap section"><p class="kicker">Rutas verificables</p><h1>12 rutas de aprendizaje</h1><p class="lede">Cada ruta declara entrada, recorrido, checkpoints, evidencia de salida, capstone y criterio de finalización.</p><div class="inventory-list">{cards}</div></main>'
+    write("rutas/index.html", shell("12 rutas de aprendizaje · Arquitectura", body, prefix="../"))
+    for route in pedagogy["routes"]:
+        source = ROOT / "learning-paths" / f"{route['id'].lower()}.md"
+        rendered = render_markdown(source.read_text(encoding="utf-8"))
+        rendered = re.sub(
+            r'href="\.\./studios/(EST-\d{2})/README\.md"',
+            lambda match: f'href="../talleres/{match.group(1).lower()}/index.html"',
+            rendered,
+        )
+        write(
+            f"rutas/{route['id'].lower()}.html",
+            shell(f"{route['id']} · {route['title']}", f'<main id="main" class="doc">{rendered}</main>', prefix="../"),
+        )
+
+
 def main() -> int:
     catalog = load_catalog()
+    pedagogy = load_pedagogy()
     entries = legacy_entries()
     titles = part_titles()
     resource_entries = [entry for entry in entries if entry["kind"] in RESOURCE_TYPES]
@@ -409,6 +537,8 @@ def main() -> int:
         write(f"{folder}/index.html", resource_index(kind, entries))
     for entry in resource_entries:
         write(entry_path(entry), resource_page(entry, lookup))
+    build_learning_paths(pedagogy)
+    build_studios(pedagogy)
 
     page_from_markdown("metodo.html", ROOT / "docs" / "METODO_Y_ALCANCE.md", "Método y alcance · Arquitectura")
     page_from_markdown("artefactos.html", ROOT / "docs" / "ARTEFACTOS.md", "Descargas · Arquitectura")

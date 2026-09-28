@@ -9,6 +9,11 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 3. [Rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) — doce recorridos transversales por la malla.
 4. [Roles y oficios](ROLES_Y_OFICIOS.md) — relación entre responsabilidades, documentos y clases.
 5. [Casos integradores](CASOS_INTEGRADORES.md) — uso coordinado de varias disciplinas y entregables.
+6. [Arquitectura de evaluación](ARQUITECTURA_DE_EVALUACION.md) — evidencias y avance por clase, parte, ruta y programa.
+7. [Rúbrica común](RUBRICA_COMUN.md) — cinco dimensiones, niveles y condiciones críticas.
+8. [Portafolio y evidencias](PORTAFOLIO_Y_EVIDENCIAS.md) — versiones, crítica, privacidad y selección final.
+9. [Estándar visual](ESTANDAR_VISUAL.md) — representación disciplinar, accesibilidad y derechos.
+10. [Syllabus y carga](SYLLABUS_Y_CARGA.md) — modalidades, progresión y medición honesta del tiempo.
 
 ## Evidencia y control editorial
 

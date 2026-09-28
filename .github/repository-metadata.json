@@ -1,6 +1,6 @@
 {
   "name": "architecture-built-environment-learning-program",
-  "description": "🏛️ architecture-built-environment-learning-program · 680 clases en 68 partes y 2 fases · 12 rutas · 622 fuentes trazadas · Markdown, lector offline y GitHub Pages · Python · Español",
+  "description": "🏛️ Programa abierto de arquitectura y entorno construido · 680 clases + 48 sesiones de taller · 12 rutas evaluables · 622 fuentes trazadas · GitHub Pages · Español",
   "homepage": "https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/",
   "topics": [
     "architecture",
@@ -10,9 +10,13 @@
     "construccion",
     "education",
     "educacion",
+    "curriculum",
+    "design-studio",
     "github-pages",
     "learning-program",
     "markdown",
+    "open-education",
+    "pedagogy",
     "python",
     "spanish",
     "static-site",

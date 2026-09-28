@@ -2,7 +2,7 @@
 
 ## Qué es este programa
 
-Una malla educativa secuencial de **680 clases en 68 partes** sobre arquitectura, construcción y entorno habitado. Integra historia, representación, personas, territorio, estructuras, materiales, instalaciones, gestión, patrimonio, operación y tipologías complejas.
+Una malla educativa secuencial de **680 clases en 68 partes**, complementada por **ocho talleres verticales con 48 sesiones** y doce rutas verificables. Integra historia, representación, personas, territorio, estructuras, materiales, instalaciones, gestión, patrimonio, operación y tipologías complejas.
 
 La unidad de trabajo es la clase Markdown. Las 680 clases son la fuente editorial; los índices de parte, el lector HTML y GitHub Pages son superficies de acceso derivadas. La estructura completa puede recorrerse desde el [índice curricular](../classes/README.md).
 
@@ -22,13 +22,13 @@ El programa avanza en dos fases:
 1. **Fase I, fundamentos transversales (ARQ-001–480):** desarrolla lenguaje, representación, historia, territorio, desempeño, sistemas, coordinación y gestión.
 2. **Fase II, tipologías y obras complejas (ARQ-481–680):** aplica preguntas y métodos a vivienda, salud, transporte, cultura, industria, infraestructura, educación y casos integradores.
 
-La secuencia no pretende que una clase agote un tema. Cada parte organiza diez clases y cada índice de parte extrae sus preguntas centrales, resultados y enlaces reales. Las [rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) permiten una lectura transversal sin sustituir el orden principal.
+La secuencia no pretende que una clase agote un tema. Cada parte organiza diez clases y cada índice de parte extrae sus preguntas centrales, resultados y enlaces reales. Las [rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) permiten una lectura transversal y los talleres obligan a integrar, recibir crítica, revisar y defender.
 
 ## Patrón de una clase
 
-La cobertura efectiva se mide por bloques detectables en los archivos, no por una plantilla supuesta. Todas las clases contienen pregunta central, práctica y fuentes; otros componentes tienen cobertura parcial documentada en [Estado verificable](ESTADO_VERIFICABLE.md).
+La cobertura efectiva se mide por bloques detectables en los archivos, no por una plantilla supuesta. Las 680 clases contienen pregunta central, práctica, fuentes, resultados, autoevaluación, errores frecuentes, continuidad, mapa visual, criterio de aceptación y recuperación. La cobertura exacta, incluida la presencia desigual de casos trabajados, se publica en [Estado verificable](ESTADO_VERIFICABLE.md).
 
-Un bloque cumple funciones distintas:
+El contrato común añade mapa visual, evidencia mínima, criterio de aceptación, errores diagnósticos y recuperación espaciada. Un bloque cumple funciones distintas:
 
 - la **pregunta central** delimita el problema;
 - los **resultados** expresan lo que debería poder producir o justificar el estudiante;
@@ -38,8 +38,11 @@ Un bloque cumple funciones distintas:
 - los **errores frecuentes** hacen visibles fallos de método;
 - las **fuentes** permiten rastrear conceptos y límites;
 - la **continuidad** conecta la clase con la secuencia.
+- el **mapa visual** hace explícito el ciclo pregunta–método–transferencia–evidencia–revisión;
+- el **criterio de aceptación** transforma una tarea en desempeño observable;
+- la **recuperación** comprueba que el método puede reconstruirse después de la lectura.
 
-La ausencia de uno de esos bloques no se oculta: forma parte de las brechas editoriales priorizadas.
+La fuente canónica de esta capa es `data/pedagogy.json`; `scripts/apply_pedagogy.py --check` impide que clases, talleres y rutas se desincronicen.
 
 ## Método de evidencia
 
@@ -75,17 +78,18 @@ Antes de transferir un criterio se debe revisar, como mínimo, función, usuario
 
 ## Formas de uso
 
-El repositorio admite tres modos documentados:
+El repositorio admite cuatro modos documentados:
 
 - **secuencial**, clase por clase;
 - **por ruta**, para profundizar un eje temático;
 - **por rol u oficio**, para conectar entregables y responsabilidades.
+- **por taller vertical**, para producir, recibir crítica, revisar y defender una integración.
 
 Las instrucciones y ritmos sugeridos están en [Cómo usar el programa](COMO_USAR_EL_PROGRAMA.md). El mapa de responsabilidades está en [Roles y oficios](ROLES_Y_OFICIOS.md) y la integración entre especialidades en [Casos integradores](CASOS_INTEGRADORES.md).
 
 ## Estado editorial
 
-La redacción de la malla está completa. La revisión externa profesional y pedagógica continúa siendo una etapa independiente. La evolución recomendada es auditar las 680 clases, actualizar normas y fuentes, revisar por especialidades y producir segundas ediciones cuando la evidencia lo justifique.
+La redacción de la malla y la arquitectura pedagógica documental están completas. La efectividad con estudiantes, la carga real y la revisión externa por especialidades continúan siendo etapas independientes. La evolución recomendada es pilotar rutas y talleres, auditar clases de alto riesgo, actualizar normas y fuentes y producir segundas ediciones cuando la evidencia lo justifique.
 
 “Completa” se refiere únicamente a que existen las 680 fichas planificadas. No significa homogeneidad total, acreditación, certificación, validación normativa ni revisión externa. Las cifras actuales, el método para reproducirlas y las brechas conocidas se mantienen en [Estado verificable](ESTADO_VERIFICABLE.md).
 

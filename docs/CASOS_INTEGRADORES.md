@@ -2,6 +2,8 @@
 
 Los casos conectan clases sin convertir sus parámetros ficticios en especificaciones.
 
+Los ocho [talleres verticales](../studios/README.md) son ahora la superficie principal de integración evaluada. Estos seis casos permanecen como escenarios reutilizables que pueden alimentar prácticas, partes o talleres distintos.
+
 | Caso | Pregunta de integración |
 |---:|---|
 | 01 · Centro comunitario | cómo pasar de una necesidad a un programa, comparar alternativas y registrar decisiones |
@@ -23,6 +25,10 @@ Cada caso debe conservar:
 6. fuentes y límites;
 7. responsabilidades;
 8. decisión condicional y siguiente comprobación.
+
+## Ciclo evaluado
+
+Cuando un caso se utiliza como capstone debe producir seis evidencias: contrato del problema, base de evidencia, alternativas, acta de crítica, versión revisada y defensa. Se aplica la [rúbrica común](RUBRICA_COMUN.md) y se conservan las versiones en el [portafolio](PORTAFOLIO_Y_EVIDENCIAS.md).
 
 El documento canónico completo permanece en el portal, dentro de [Documentos transversales](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentos/casos.html).
 

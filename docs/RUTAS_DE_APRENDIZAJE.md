@@ -1,23 +1,30 @@
 # Doce rutas de aprendizaje
 
-Las rutas reorganizan el currículo; no crean clases nuevas ni otorgan una credencial. Cada una enlaza contenidos distribuidos en distintas partes.
+Las rutas ya no son listas informativas. Cada una declara perfil de entrada, diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización. Reorganizan las 680 clases y conectan los ocho talleres verticales; no conceden credenciales ni atribuciones profesionales.
 
-| # | Ruta | Para qué sirve |
-|---:|---|---|
-| 01 | [Fundamentos desde cero](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-01.html) | construir lenguaje común antes de entrar en sistemas o tipologías |
-| 02 | [Proyecto arquitectónico integral](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-02.html) | seguir el encargo desde programa y sitio hasta coordinación y entrega |
-| 03 | [Historia, crítica y patrimonio](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-03.html) | estudiar precedentes, contexto, conservación y argumentación |
-| 04 | [Territorio, paisaje y comunidad](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-04.html) | conectar información territorial, ecología, participación y riesgo |
-| 05 | [Estructura, suelo y sismo](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-05.html) | comprender mecanismos, modelos e interfaces sin sustituir cálculo profesional |
-| 06 | [Construcción y oficios](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-06.html) | recorrer materiales, detalles, procesos y control de calidad |
-| 07 | [Gestión de proyectos y obra](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-07.html) | articular documentos, contratos, costos, planificación y seguridad |
-| 08 | [Envolvente, energía y confort](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-08.html) | relacionar clima, calor, aire, agua, luz, sonido y operación |
-| 09 | [BIM, automatización e información](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-09.html) | gestionar modelos, interoperabilidad, datos y límites de automatización |
-| 10 | [Sostenibilidad y circularidad](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-10.html) | comparar impactos sin dobles conteos ni afirmaciones ambientales infladas |
-| 11 | [Operación y rehabilitación](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-11.html) | pasar de entrega a mantenimiento, diagnóstico, adaptación y fin de vida |
-| 12 | [Mandante informado y desarrollo de servicios](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/rutas/ruta-12.html) | formular encargos, evaluar evidencia y asignar responsabilidades |
+| # | Ruta | Perfil de salida | Guía fuente |
+|---:|---|---|---|
+| 01 | Fundamentos desde cero | explicar, representar y revisar un problema arquitectónico pequeño | [RUTA-01](../learning-paths/ruta-01.md) |
+| 02 | Proyecto arquitectónico integral | coordinar un anteproyecto desde el encargo hasta su defensa | [RUTA-02](../learning-paths/ruta-02.md) |
+| 03 | Historia, crítica y patrimonio | construir una lectura crítica y una intervención defendible | [RUTA-03](../learning-paths/ruta-03.md) |
+| 04 | Territorio, paisaje y comunidad | comparar decisiones sociales, ecológicas y multiamenaza | [RUTA-04](../learning-paths/ruta-04.md) |
+| 05 | Estructura, suelo y sismo | formular y revisar modelos conceptuales con límites | [RUTA-05](../learning-paths/ruta-05.md) |
+| 06 | Construcción y oficios | coordinar detalle, montaje, calidad y mantenimiento | [RUTA-06](../learning-paths/ruta-06.md) |
+| 07 | Gestión de proyectos y obra | defender alcance, costo, plazo, calidad y cambios | [RUTA-07](../learning-paths/ruta-07.md) |
+| 08 | Envolvente, energía y confort | comparar estrategias mediante modelos y operación | [RUTA-08](../learning-paths/ruta-08.md) |
+| 09 | BIM, automatización e información | definir requisitos, interfaces, comprobaciones y entrega | [RUTA-09](../learning-paths/ruta-09.md) |
+| 10 | Sostenibilidad y circularidad | decidir sin dobles conteos ni afirmaciones absolutas | [RUTA-10](../learning-paths/ruta-10.md) |
+| 11 | Operación y rehabilitación | diagnosticar y documentar una intervención mantenible | [RUTA-11](../learning-paths/ruta-11.md) |
+| 12 | Mandante informado y desarrollo de servicios | formular alcance, contratar competencias y gobernar riesgos | [RUTA-12](../learning-paths/ruta-12.md) |
 
-## Cómo usar una ruta
+## Contrato común
 
-Abre primero su ficha completa, registra las partes recomendadas y conserva el orden interno de cada bloque. Si la ruta comienza en una clase avanzada, revisa sus prerrequisitos conceptuales antes de continuar.
+1. Realiza el diagnóstico de entrada sin consultar soluciones.
+2. Nivela únicamente las brechas observadas.
+3. Conserva el orden interno de cada parte.
+4. Completa los talleres asociados con crítica y revisión.
+5. Defiende el capstone frente a la [rúbrica común](RUBRICA_COMUN.md).
+6. Cierra con portafolio, recuperación y pendientes explícitos.
+
+La carga horaria se publicará después de pilotos con tiempos reales. Hasta entonces no se presenta una equivalencia inventada con créditos universitarios.
 

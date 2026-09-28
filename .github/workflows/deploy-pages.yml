@@ -6,11 +6,16 @@ on:
     branches: ["main"]
     paths:
       - "classes/**"
+      - "studios/**"
+      - "learning-paths/**"
+      - "evidence/README.md"
+      - "templates/**"
       - "data/**"
       - "sources/**"
       - "docs/**"
       - "assets/**"
       - "scripts/build_site.py"
+      - "scripts/apply_pedagogy.py"
       - "scripts/generate_curriculum_docs.py"
       - "scripts/build_bibliography.py"
       - "LICENSE*"
@@ -50,6 +55,7 @@ jobs:
       - name: Generar y validar sitio
         run: |
           python scripts/generate_curriculum_docs.py --check
+          python scripts/apply_pedagogy.py --check
           python scripts/build_bibliography.py --check
           python scripts/build_site.py
           python scripts/validate_repo.py
