@@ -163,4 +163,4 @@ Esta parte comienza con **Tsunami: exposición, aviso y evacuación territorial*
 
 ## Navegación
 
-[← Parte 35](../parte-35/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 37 →](../parte-37/README.md)
+[← Parte 35](../parte-35/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 37 →](../parte-37/README.md)

@@ -163,4 +163,4 @@ Esta parte comienza con **Centro de datos: carga TI y edificio** y culmina con *
 
 ## Navegación
 
-[← Parte 59](../parte-59/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 61 →](../parte-61/README.md)
+[← Parte 59](../parte-59/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 61 →](../parte-61/README.md)

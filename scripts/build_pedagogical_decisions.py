@@ -116,7 +116,7 @@ def derived_record(index: int, item: dict, catalog: list[dict], bibliography: di
         placement = (
             f"Cierra la Parte {item['part']:02d}: integra lo producido en {previous['id']} · {previous['title']} "
             f"para responder «{question}». La transición hacia "
-            f"{following['id'] + ' · ' + following['title'] if following else 'el taller final EST-08 y el portafolio longitudinal'} "
+            f"{following['id'] + ' · ' + following['title'] if following else 'el taller final EST-10 y el portafolio longitudinal'} "
             f"transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte."
         )
     else:
@@ -129,7 +129,7 @@ def derived_record(index: int, item: dict, catalog: list[dict], bibliography: di
     if following and following["id"] not in dependencies:
         dependencies.append(following["id"])
     if not dependencies:
-        dependencies = ["EST-08"]
+        dependencies = ["EST-10"]
     evidence = result or f"Entrega específica declarada en la práctica de {item['id']}: {practice}"
     activity = practice or f"Resolver el caso y la transferencia documentados en la clase completa de {item['title']}."
     if len(activity) < 80:
@@ -168,7 +168,7 @@ def derived_record(index: int, item: dict, catalog: list[dict], bibliography: di
         "next_connection": (
             f"La continuidad inmediata es {following['id']} · {following['title']}; conserva el método y vuelve a verificar datos y límites."
             if following else
-            "La continuidad es EST-08, donde la evidencia se incorpora al portafolio longitudinal y a la defensa final."
+            "La continuidad es EST-10, donde la evidencia se incorpora al portafolio longitudinal y a la defensa final."
         ),
         "foundations": foundations,
     }
@@ -197,8 +197,8 @@ def build() -> dict:
     return {
         "schema_version": 2,
         "principle": "Una clase no es solo un tema: es una decisión sustentada.",
-        "generated_on": "2026-09-28",
-        "generated_from": ["680 class Markdown files", "data/catalog.json", "sources/bibliography.json", "five editorial pilot overrides"],
+        "generated_on": "2026-10-06",
+        "generated_from": [f"{len(catalog)} class Markdown files", "data/catalog.json", "sources/bibliography.json", "five editorial pilot overrides"],
         "decision_count": len(decisions),
         "manual_editorial_pilots": sorted(overrides),
         "decisions": decisions,
@@ -213,10 +213,10 @@ def main() -> int:
     if args.check:
         if not OUTPUT.is_file() or OUTPUT.read_text(encoding="utf-8") != content:
             raise SystemExit("generated pedagogical decision manifest is stale")
-        print("Verified 680 class-specific pedagogical decision chains")
+        print(f"Verified {len(json.loads(CATALOG.read_text(encoding='utf-8')))} class-specific pedagogical decision chains")
         return 0
     OUTPUT.write_text(content, encoding="utf-8", newline="\n")
-    print("Built 680 class-specific pedagogical decision chains")
+    print(f"Built {len(json.loads(CATALOG.read_text(encoding='utf-8')))} class-specific pedagogical decision chains")
     return 0
 
 

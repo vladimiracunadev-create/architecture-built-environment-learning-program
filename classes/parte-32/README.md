@@ -163,4 +163,4 @@ Esta parte comienza con **Calidad de aire interior y fuentes de contaminantes** 
 
 ## Navegación
 
-[← Parte 31](../parte-31/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 33 →](../parte-33/README.md)
+[← Parte 31](../parte-31/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 33 →](../parte-33/README.md)

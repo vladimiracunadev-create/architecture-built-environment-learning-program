@@ -163,4 +163,4 @@ Esta parte comienza con **Límites, dominio, servidumbres y antecedentes predial
 
 ## Navegación
 
-[← Parte 10](../parte-10/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 12 →](../parte-12/README.md)
+[← Parte 10](../parte-10/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 12 →](../parte-12/README.md)

@@ -163,4 +163,4 @@ Esta parte comienza con **Territorios andinos y sistemas de asentamiento** y cul
 
 ## Navegación
 
-[← Parte 08](../parte-08/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 10 →](../parte-10/README.md)
+[← Parte 08](../parte-08/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 10 →](../parte-10/README.md)

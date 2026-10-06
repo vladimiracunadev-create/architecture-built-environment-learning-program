@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Generate the Markdown navigation layer for all 68 curriculum parts."""
+"""Generate the Markdown navigation layer from canonical program manifests."""
 
 from __future__ import annotations
 
@@ -12,16 +12,24 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
 DECISIONS = ROOT / "data" / "pedagogical-decisions-generated.json"
-READER = ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
+PROGRAM = ROOT / "data" / "program.json"
+PARTS = ROOT / "data" / "parts.json"
 
 
 def part_titles() -> dict[int, str]:
-    text = READER.read_text(encoding="utf-8")
-    matches = re.findall(r'<option value="(\d+)">(\d+)\s*·\s*([^<]+)</option>', text)
-    titles = {int(value): title.strip() for value, _number, title in matches}
-    if set(titles) != set(range(1, 69)):
-        raise ValueError("the reader does not contain the 68 canonical part titles")
+    program = json.loads(PROGRAM.read_text(encoding="utf-8"))
+    manifest = json.loads(PARTS.read_text(encoding="utf-8"))
+    titles = {item["number"]: item["title"] for item in manifest["parts"]}
+    if set(titles) != set(range(1, program["part_count"] + 1)):
+        raise ValueError("data/parts.json does not match data/program.json")
     return titles
+
+
+def phase_for_part(part: int, program: dict) -> str:
+    for phase in program["phases"]:
+        if phase["first_part"] <= part <= phase["last_part"]:
+            return f"Fase {phase['id']} · {phase['title']}"
+    raise ValueError(f"part {part} is outside the declared phases")
 
 
 def section(text: str, patterns: tuple[str, ...]) -> str:
@@ -54,7 +62,7 @@ def relative_link(item: dict) -> str:
     return Path(item["source"]).name
 
 
-def part_readme(part: int, title: str, lessons: list[dict], decisions: dict[str, dict]) -> str:
+def part_readme(part: int, title: str, lessons: list[dict], decisions: dict[str, dict], program: dict) -> str:
     details = []
     for item in lessons:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
@@ -89,14 +97,10 @@ def part_readme(part: int, title: str, lessons: list[dict], decisions: dict[str,
     )
     following = (
         f"[Parte {part + 1:02d} →](../parte-{part + 1:02d}/README.md)"
-        if part < 68
+        if part < program["part_count"]
         else "[Índice general →](../README.md)"
     )
-    phase = (
-        "Fase I · formación transversal"
-        if part <= 48
-        else "Fase II · tipologías y grandes obras"
-    )
+    phase = phase_for_part(part, program)
     reviewed = [decisions[item["id"]] for item in lessons if item["id"] in decisions]
     if reviewed:
         reviewed_text = "\n\n".join(
@@ -154,13 +158,13 @@ Esta parte comienza con **{lessons[0]['title']}** y culmina con **{lessons[-1]['
 
 ## Navegación
 
-{previous} · [Mapa de las 68 partes](../README.md) · {following}
+{previous} · [Mapa de las {program['part_count']} partes](../README.md) · {following}
 """
 
 
-def curriculum_index(catalog: list[dict], titles: dict[int, str]) -> str:
+def curriculum_index(catalog: list[dict], titles: dict[int, str], program: dict) -> str:
     rows = []
-    for part in range(1, 69):
+    for part in range(1, program["part_count"] + 1):
         lessons = [item for item in catalog if item["part"] == part]
         focus = f"{lessons[0]['title']} → {lessons[-1]['title']}"
         rows.append(
@@ -169,16 +173,17 @@ def curriculum_index(catalog: list[dict], titles: dict[int, str]) -> str:
         )
     return f"""# Currículo completo
 
-## 680 clases · 68 partes · dos fases
+## {program['class_count']} clases · {program['part_count']} partes · tres fases
 
 Este índice es la entrada Markdown al programa. Cada parte tiene diez clases y un README propio generado desde las preguntas y resultados declarados en sus fuentes.
 
 - **Fase I — Partes 01–48:** fundamentos, representación, historia, personas, territorio, proyecto, técnica, construcción, gestión, operación e investigación.
 - **Fase II — Partes 49–68:** tipologías edilicias, infraestructuras y casos integradores.
+- **Fase III — Partes 69–80:** profundización, especializaciones, investigación e innovación responsable.
 
 ## Anatomía documental de una clase
 
-Las 680 clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
+Las {program['class_count']} clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
 
 ## Mapa completo
 
@@ -208,27 +213,28 @@ def main() -> int:
         help="fail if generated Markdown does not match the curriculum",
     )
     args = parser.parse_args()
+    program = json.loads(PROGRAM.read_text(encoding="utf-8"))
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     decision_manifest = json.loads(DECISIONS.read_text(encoding="utf-8"))
     decisions = {record["class_id"]: record for record in decision_manifest["decisions"]}
     titles = part_titles()
-    for part in range(1, 69):
+    for part in range(1, program["part_count"] + 1):
         lessons = [item for item in catalog if item["part"] == part]
         if len(lessons) != 10:
             raise ValueError(f"part {part} has {len(lessons)} lessons")
         path = ROOT / "classes" / f"parte-{part:02d}" / "README.md"
         write_document(
             path,
-            part_readme(part, titles[part], lessons, decisions),
+            part_readme(part, titles[part], lessons, decisions, program),
             args.check,
         )
     write_document(
         ROOT / "classes" / "README.md",
-        curriculum_index(catalog, titles),
+        curriculum_index(catalog, titles, program),
         args.check,
     )
     verb = "Verified" if args.check else "Generated"
-    print(f"{verb} classes/README.md and 68 part README files")
+    print(f"{verb} classes/README.md and {program['part_count']} part README files")
     return 0
 
 

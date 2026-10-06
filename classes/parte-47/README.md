@@ -163,4 +163,4 @@ Esta parte comienza con **Del edificio entregado al edificio que funciona** y cu
 
 ## Navegación
 
-[← Parte 46](../parte-46/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 48 →](../parte-48/README.md)
+[← Parte 46](../parte-46/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 48 →](../parte-48/README.md)

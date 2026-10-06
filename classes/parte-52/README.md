@@ -163,4 +163,4 @@ Esta parte comienza con **Fortificación y paisaje defensivo** y culmina con **P
 
 ## Navegación
 
-[← Parte 51](../parte-51/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 53 →](../parte-53/README.md)
+[← Parte 51](../parte-51/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 53 →](../parte-53/README.md)

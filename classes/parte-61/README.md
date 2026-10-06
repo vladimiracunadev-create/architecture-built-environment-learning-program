@@ -163,4 +163,4 @@ Esta parte comienza con **Fábrica como flujo de proceso** y culmina con **Proye
 
 ## Navegación
 
-[← Parte 60](../parte-60/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 62 →](../parte-62/README.md)
+[← Parte 60](../parte-60/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 62 →](../parte-62/README.md)

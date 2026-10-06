@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Build a central source registry from the 680 class Markdown files."""
+"""Build a central source registry from the canonical class catalog."""
 
 from __future__ import annotations
 
@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
+PROGRAM = json.loads((ROOT / "data" / "program.json").read_text(encoding="utf-8"))
 OUT_JSON = ROOT / "sources" / "bibliography.json"
 OUT_README = ROOT / "sources" / "README.md"
 SOURCE_HEADING = "## Fuentes y alcance de uso"
@@ -140,8 +141,8 @@ def source_type(domain: str) -> str:
 
 def build_registry() -> dict:
     files = class_files()
-    if len(files) != 680:
-        raise SystemExit(f"expected 680 class files, found {len(files)}")
+    if len(files) != PROGRAM["class_count"]:
+        raise SystemExit(f"expected {PROGRAM['class_count']} class files, found {len(files)}")
 
     records: dict[str, dict] = {}
     citations = 0
@@ -215,7 +216,7 @@ def build_registry() -> dict:
     return {
         "schema_version": 3,
         "generated_from": "classes/parte-XX/ARQ-XXX.md",
-        "generated_on": "2026-09-28",
+        "generated_on": "2026-10-06",
         "policy": (
             "Registro derivado de las secciones 'Fuentes y alcance de uso'. "
             "Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, "

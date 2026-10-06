@@ -37,7 +37,7 @@ jobs:
         run: python scripts/build_bibliography.py --check
       - name: Validar fuentes
         run: python scripts/validate_repo.py
-      - name: Generar 680 páginas HTML
+      - name: Generar 800 páginas HTML
         run: python scripts/build_site.py
       - name: Validar salida
         run: python scripts/validate_repo.py
@@ -45,14 +45,14 @@ jobs:
         if: always()
         run: |
           echo "### Arquitectura · programa integral" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Clases esperadas: **680**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Partes esperadas: **68**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- README de parte esperados: **68**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Talleres verticales: **8** · sesiones: **48**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Rutas con diagnóstico y capstone: **12**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Anatomía común de clase: **680/680**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Cadenas pedagógicas específicas: **680/680**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Clases esperadas: **800**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Partes esperadas: **80**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- README de parte esperados: **80**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Talleres verticales: **10** · sesiones: **60**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Rutas con diagnóstico y capstone: **33**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Anatomía común de clase: **800/800**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Cadenas pedagógicas específicas: **800/800**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Pilotos editoriales manuales profundos: **5**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Recursos transversales esperados: **755**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Fuentes externas únicas esperadas: **622**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Usos de fuentes contextualmente completos: **886/1.939** (mínimo sin regresión)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Fuentes externas únicas esperadas: **627**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Usos de fuentes contextualmente completos: **1.126/2.179** (mínimo sin regresión)" >> "$GITHUB_STEP_SUMMARY"

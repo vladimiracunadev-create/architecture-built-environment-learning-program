@@ -163,4 +163,4 @@ Esta parte comienza con **Comparar una casa, un hospital y un aeropuerto** y cul
 
 ## Navegación
 
-[← Parte 67](../parte-67/README.md) · [Mapa de las 68 partes](../README.md) · [Índice general →](../README.md)
+[← Parte 67](../parte-67/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 69 →](../parte-69/README.md)

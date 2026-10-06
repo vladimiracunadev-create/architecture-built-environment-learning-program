@@ -163,4 +163,4 @@ Esta parte comienza con **Puente como tipología y camino de cargas** y culmina 
 
 ## Navegación
 
-[← Parte 55](../parte-55/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 57 →](../parte-57/README.md)
+[← Parte 55](../parte-55/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 57 →](../parte-57/README.md)

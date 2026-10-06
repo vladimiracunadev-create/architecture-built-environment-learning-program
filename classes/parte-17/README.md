@@ -163,4 +163,4 @@ Esta parte comienza con **Locales comerciales: operación, acceso y experiencia*
 
 ## Navegación
 
-[← Parte 16](../parte-16/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 18 →](../parte-18/README.md)
+[← Parte 16](../parte-16/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 18 →](../parte-18/README.md)

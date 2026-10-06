@@ -163,4 +163,4 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 ## Navegación
 
-[← Parte 40](../parte-40/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 42 →](../parte-42/README.md)
+[← Parte 40](../parte-40/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 42 →](../parte-42/README.md)

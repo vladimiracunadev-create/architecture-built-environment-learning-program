@@ -1,5 +1,7 @@
 # Auditoría documental de la referencia
 
+> **Alcance histórico.** Este documento conserva el diagnóstico que precedió a la edición de 680 clases. La edición activa, sus 800 clases y sus brechas se consultan en [Estado verificable](ESTADO_VERIFICABLE.md), la [Matriz de cobertura](MATRIZ_COBERTURA_INTEGRAL.md) y el [Informe de integración 2026.10](INFORME_INTEGRACION_2026-10.md).
+
 ## Alcance y revisión vigente
 
 La comparación se actualizó el **28 de septiembre de 2026** contra `modern-cybersecurity-program`, revisión `d558bc26a01d89f2288f47c26d8b718e924b17bd`: 360 clases, 20 partes y 381 README bajo `classes/`. Además de la portada y el índice se inspeccionaron clases 001, 150, 221, 240 y 360; README de partes inicial, intermedia y final; registro de fuentes; generadores; validadores; CI, Pages y seguridad.

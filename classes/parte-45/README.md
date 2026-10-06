@@ -163,4 +163,4 @@ Esta parte comienza con **Comparar impactos: unidad funcional, vida útil y lím
 
 ## Navegación
 
-[← Parte 44](../parte-44/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 46 →](../parte-46/README.md)
+[← Parte 44](../parte-44/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 46 →](../parte-46/README.md)

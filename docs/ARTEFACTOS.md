@@ -2,7 +2,7 @@
 
 ## Lectura
 
-- [Catálogo HTML de las 680 clases](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/catalogo.html): páginas rápidas, enlazables e imprimibles.
+- [Catálogo HTML de las 800 clases](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/catalogo.html): páginas rápidas, enlazables e imprimibles.
 - [Lector offline v1.0](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/lector-offline-v1.0.html): aplicación monolítica autosuficiente con búsqueda, filtros y progreso local.
 
 ## PDF
@@ -20,7 +20,7 @@ Generar o empaquetar no relicencia. El sitio, lector offline y PDF pueden conten
 
 ## Fuente editable
 
-Las 680 clases viven en `classes/parte-XX/ARQ-XXX.md`. El sitio se regenera con:
+Las 800 clases viven en `classes/parte-XX/ARQ-XXX.md`. El sitio se regenera con:
 
 ```bash
 python -m pip install -r requirements-build.txt

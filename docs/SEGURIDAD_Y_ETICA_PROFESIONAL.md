@@ -20,7 +20,7 @@ No publiques datos personales, planos sensibles, ubicaciones de infraestructura 
 
 ## Uso de herramientas digitales e IA
 
-Una herramienta puede apoyar clasificación, redacción, cálculo o exploración, pero no crea evidencia faltante ni asume responsabilidad profesional. Toda salida debe contrastarse con fuentes, unidades, hipótesis y responsables. El repositorio no afirma que sus 680 clases hayan sido revisadas por una persona especialista.
+Una herramienta puede apoyar clasificación, redacción, cálculo o exploración, pero no crea evidencia faltante ni asume responsabilidad profesional. Toda salida debe contrastarse con fuentes, unidades, hipótesis y responsables. El repositorio no afirma que sus 800 clases hayan sido revisadas por una persona especialista.
 
 ## Reportes
 

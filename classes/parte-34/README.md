@@ -163,4 +163,4 @@ Esta parte comienza con **Incendio: inicio, crecimiento y propagación** y culmi
 
 ## Navegación
 
-[← Parte 33](../parte-33/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 35 →](../parte-35/README.md)
+[← Parte 33](../parte-33/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 35 →](../parte-35/README.md)

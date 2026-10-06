@@ -163,4 +163,4 @@ Esta parte comienza con **Iglesia y templo como tipo espacial** y culmina con **
 
 ## Navegación
 
-[← Parte 50](../parte-50/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 52 →](../parte-52/README.md)
+[← Parte 50](../parte-50/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 52 →](../parte-52/README.md)

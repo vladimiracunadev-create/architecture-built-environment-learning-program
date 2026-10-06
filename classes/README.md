@@ -1,15 +1,16 @@
 # Currículo completo
 
-## 680 clases · 68 partes · dos fases
+## 800 clases · 80 partes · tres fases
 
 Este índice es la entrada Markdown al programa. Cada parte tiene diez clases y un README propio generado desde las preguntas y resultados declarados en sus fuentes.
 
 - **Fase I — Partes 01–48:** fundamentos, representación, historia, personas, territorio, proyecto, técnica, construcción, gestión, operación e investigación.
 - **Fase II — Partes 49–68:** tipologías edilicias, infraestructuras y casos integradores.
+- **Fase III — Partes 69–80:** profundización, especializaciones, investigación e innovación responsable.
 
 ## Anatomía documental de una clase
 
-Las 680 clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
+Las 800 clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
 
 ## Mapa completo
 
@@ -83,6 +84,18 @@ Las 680 clases incluyen una pregunta central, práctica independiente, fuentes c
 | 66 | [Maquetas, prototipos y representación avanzada](parte-66/README.md) | ARQ-651–ARQ-660 | Maqueta de masa y emplazamiento → Portafolio de representación y prototipado |
 | 67 | [Torres, miradores e infraestructuras especiales](parte-67/README.md) | ARQ-661–ARQ-670 | Torres de observación y miradores → Proyecto de infraestructura especial |
 | 68 | [Casos integradores de tipologías y grandes obras](parte-68/README.md) | ARQ-671–ARQ-680 | Comparar una casa, un hospital y un aeropuerto → Defensa final de tipologías y grandes obras |
+| 69 | [Investigación avanzada, evidencia y tesis](parte-69/README.md) | ARQ-681–ARQ-690 | Preguntas investigables y problemas de arquitectura → Tesis: argumento, método, resultados y defensa |
+| 70 | [Práctica profesional, oficina, negocio y negociación](parte-70/README.md) | ARQ-691–ARQ-700 | Modelos de práctica y propósito de una oficina → Simulación de encargo: propuesta, reunión y cierre |
+| 71 | [Representación avanzada, narrativa y experiencias inmersivas](parte-71/README.md) | ARQ-701–ARQ-710 | Dibujo analítico y selección de punto de vista → Publicación accesible y portafolio multiformato |
+| 72 | [Programación, geometría y diseño computacional](parte-72/README.md) | ARQ-711–ARQ-720 | Pensamiento algorítmico para proyectistas → Proyecto computacional: regla, modelo y fabricación |
+| 73 | [Inteligencia artificial aplicada al ciclo de vida](parte-73/README.md) | ARQ-721–ARQ-730 | Cartografía de usos de IA y decisiones indelegables → Auditoría profesional: IA frente a análisis independiente |
+| 74 | [Captura digital, fabricación avanzada y robótica](parte-74/README.md) | ARQ-731–ARQ-740 | Drones: planificación, captura, permisos y seguridad → Prototipo 1:1: fabricar, medir, corregir y documentar |
+| 75 | [Política urbana, datos, vivienda y justicia espacial](parte-75/README.md) | ARQ-741–ARQ-750 | Gobernanza urbana, poder y derecho a la ciudad → Plan urbano: escenarios, inversión y evaluación distributiva |
+| 76 | [Redes territoriales e infraestructura pública](parte-76/README.md) | ARQ-751–ARQ-760 | Sistemas de infraestructura y niveles de servicio → Plan integrado de redes y continuidad regional |
+| 77 | [Adaptación climática, regeneración y materiales emergentes](parte-77/README.md) | ARQ-761–ARQ-770 | Adaptación climática basada en escenarios → Proyecto climático: evitar, reducir, adaptar y reparar |
+| 78 | [Reutilización masiva, patrimonio digital y transformación](parte-78/README.md) | ARQ-771–ARQ-780 | Inventario de edificios existentes y potencial de reutilización → Proyecto de reutilización adaptativa y seguimiento |
+| 79 | [Salud, cuidados, diversidad y cambio demográfico](parte-79/README.md) | ARQ-781–ARQ-790 | Envejecimiento poblacional y autonomía cotidiana → Proyecto intergeneracional de barrio y cuidados |
+| 80 | [Entornos extremos, autonomía y proyecto interdisciplinario final](parte-80/README.md) | ARQ-791–ARQ-800 | Arquitectura en desiertos, altura y aislamiento → Proyecto final: integrar, verificar, defender y transferir |
 
 ## Uso responsable
 

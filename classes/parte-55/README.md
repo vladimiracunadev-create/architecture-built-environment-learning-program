@@ -163,4 +163,4 @@ Esta parte comienza con **Estación ferroviaria: ciudad, andén y vestíbulo** y
 
 ## Navegación
 
-[← Parte 54](../parte-54/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 56 →](../parte-56/README.md)
+[← Parte 54](../parte-54/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 56 →](../parte-56/README.md)

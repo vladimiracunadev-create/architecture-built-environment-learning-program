@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "edition": "2026.10",
+  "title": "Programa Integral de Arquitectura, Construcción y Entorno Habitado",
+  "class_count": 800,
+  "classes_per_part": 10,
+  "part_count": 80,
+  "studio_count": 10,
+  "sessions_per_studio": 6,
+  "studio_session_count": 60,
+  "route_count": 33,
+  "phases": [
+    {
+      "id": "I",
+      "title": "formación transversal",
+      "first_part": 1,
+      "last_part": 48,
+      "first_class": "ARQ-001",
+      "last_class": "ARQ-480"
+    },
+    {
+      "id": "II",
+      "title": "tipologías y grandes obras",
+      "first_part": 49,
+      "last_part": 68,
+      "first_class": "ARQ-481",
+      "last_class": "ARQ-680"
+    },
+    {
+      "id": "III",
+      "title": "profundización, especialización e innovación responsable",
+      "first_part": 69,
+      "last_part": 80,
+      "first_class": "ARQ-681",
+      "last_class": "ARQ-800"
+    }
+  ],
+  "historical_baseline": {
+    "edition": "v1.0",
+    "class_count": 680,
+    "part_count": 68,
+    "status": "preserved-as-historical-artifacts"
+  }
+}

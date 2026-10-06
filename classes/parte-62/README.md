@@ -163,4 +163,4 @@ Esta parte comienza con **Puerto y terminal como sistema territorial** y culmina
 
 ## Navegación
 
-[← Parte 61](../parte-61/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 63 →](../parte-63/README.md)
+[← Parte 61](../parte-61/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 63 →](../parte-63/README.md)

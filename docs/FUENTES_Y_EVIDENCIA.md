@@ -2,7 +2,7 @@
 
 ## De dónde sale el material
 
-Las 680 clases contienen redacción propia y sus secciones de fuentes producen un registro de **1.939 relaciones clase–fuente, 622 URLs externas únicas y 189 dominios**. El lector v1.0 conserva además 611 fichas editoriales navegables. El registro combina organismos normativos, instituciones públicas, universidades, museos, organismos multilaterales y documentación técnica.
+Las 800 clases contienen redacción propia y sus secciones de fuentes producen un registro de **2.179 relaciones clase–fuente, 627 URLs externas únicas y 190 dominios**. El lector v1.0 conserva además 611 fichas editoriales históricas. El registro combina organismos normativos, instituciones públicas, universidades, museos, organismos multilaterales y documentación técnica.
 
 Los dominios con más URLs únicas en el registro derivado son:
 
@@ -37,17 +37,17 @@ El estándar detallado para libros, artículos, normas, sitios web y casos patri
 
 ## Completitud real de las relaciones
 
-La presencia de una URL no se contabiliza como trazabilidad completa. Sobre las 1.939 relaciones actuales:
+La presencia de una URL no se contabiliza como trazabilidad completa. Sobre las 2.179 relaciones actuales:
 
 | Campo contextual | Presente | Cobertura |
 |---|---:|---:|
-| Afirmación o función que apoya | **1.872** | **96,5 %** |
-| Parte o alcance consultado | **1.482** | **76,4 %** |
-| Límite de interpretación | **1.734** | **89,4 %** |
-| Fecha de consulta | **1.055** | **54,4 %** |
-| Cuatro campos simultáneos | **886** | **45,7 %** |
+| Afirmación o función que apoya | **2.112** | **96,9 %** |
+| Parte o alcance consultado | **1.725** | **79,2 %** |
+| Límite de interpretación | **1.974** | **90,6 %** |
+| Fecha de consulta | **1.298** | **59,6 %** |
+| Cuatro campos simultáneos | **1.126** | **51,7 %** |
 
-Hay **292/680 clases** cuyos usos de fuentes están completos en los cuatro campos y **388** que requieren revisión contextual. El registro v3 publica `traceability_status` y `missing_fields` para cada relación. Los faltantes permanecen como `null`; no se sustituyen por fechas, páginas o alcances inventados.
+Hay **412/800 clases** cuyos usos de fuentes están completos en los cuatro campos y **388** que requieren revisión contextual. El registro v3 publica `traceability_status` y `missing_fields` para cada relación. Los faltantes permanecen como `null`; no se sustituyen por fechas, páginas o alcances inventados.
 
 ## Jerarquía de afirmaciones
 

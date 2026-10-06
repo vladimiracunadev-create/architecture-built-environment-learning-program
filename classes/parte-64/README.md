@@ -163,4 +163,4 @@ Esta parte comienza con **Hotel: habitación, pasillo y servicio** y culmina con
 
 ## Navegación
 
-[← Parte 63](../parte-63/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 65 →](../parte-65/README.md)
+[← Parte 63](../parte-63/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 65 →](../parte-65/README.md)

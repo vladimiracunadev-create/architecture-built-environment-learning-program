@@ -42,7 +42,7 @@ La décima clase de cada parte funciona como síntesis. Debe utilizar al menos t
 
 ## Talleres verticales
 
-Los ocho talleres añaden ciclos explícitos de diagnóstico, investigación, alternativas, crítica, revisión y defensa. No son lecturas complementarias: son los puntos donde el conocimiento distribuido debe convertirse en desempeño integrado.
+Los diez talleres añaden ciclos explícitos de diagnóstico, investigación, alternativas, crítica, revisión y defensa. Son los puntos donde el conocimiento distribuido debe convertirse en desempeño integrado.
 
 ## Retroalimentación
 

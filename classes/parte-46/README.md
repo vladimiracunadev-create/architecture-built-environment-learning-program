@@ -163,4 +163,4 @@ Esta parte comienza con **Reconocer valor y daño antes de intervenir** y culmin
 
 ## Navegación
 
-[← Parte 45](../parte-45/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 47 →](../parte-47/README.md)
+[← Parte 45](../parte-45/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 47 →](../parte-47/README.md)

@@ -163,4 +163,4 @@ Esta parte comienza con **La envolvente como sistema: calor, aire, agua y encuen
 
 ## Navegación
 
-[← Parte 26](../parte-26/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 28 →](../parte-28/README.md)
+[← Parte 26](../parte-26/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 28 →](../parte-28/README.md)

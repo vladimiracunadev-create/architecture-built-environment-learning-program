@@ -163,4 +163,4 @@ Esta parte comienza con **Muros portantes y distribución del espacio** y culmin
 
 ## Navegación
 
-[← Parte 20](../parte-20/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 22 →](../parte-22/README.md)
+[← Parte 20](../parte-20/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 22 →](../parte-22/README.md)

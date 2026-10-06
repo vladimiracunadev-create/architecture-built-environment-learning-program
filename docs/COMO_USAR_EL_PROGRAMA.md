@@ -36,11 +36,11 @@ Cada carpeta tiene un README con sus diez preguntas, resultados y enlaces. Es la
 
 ### Por ruta
 
-Las doce rutas conectan partes no contiguas alrededor de una responsabilidad. Cada guía declara diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización.
+Las 33 rutas conectan partes no contiguas alrededor de una responsabilidad o especialización. Cada guía declara diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización.
 
 ### Por taller vertical
 
-Los ocho talleres se ubican después de las Partes 04, 14, 18, 27, 38, 47, 58 y 68. No se completan leyendo: exigen diagnóstico, investigación, alternativas, crítica, revisión y defensa.
+Los diez talleres se ubican después de las Partes 04, 14, 18, 27, 38, 47, 58, 68, 74 y 80. No se completan leyendo: exigen diagnóstico, investigación, alternativas, crítica, revisión y defensa.
 
 ## Qué conservar como evidencia de aprendizaje
 

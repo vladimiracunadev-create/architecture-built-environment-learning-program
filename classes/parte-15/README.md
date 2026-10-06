@@ -163,4 +163,4 @@ Esta parte comienza con **Vivienda, hogar y diversidad de unidades domésticas**
 
 ## Navegación
 
-[← Parte 14](../parte-14/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 16 →](../parte-16/README.md)
+[← Parte 14](../parte-14/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 16 →](../parte-16/README.md)

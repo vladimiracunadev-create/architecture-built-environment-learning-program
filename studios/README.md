@@ -1,6 +1,6 @@
 # Talleres verticales
 
-Los ocho talleres convierten la biblioteca de 680 clases en una experiencia iterativa. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. En total son **48 sesiones integradoras**.
+Los 10 talleres convierten la biblioteca de 800 clases en una experiencia iterativa. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. En total son **60 sesiones integradoras**.
 
 | Taller | Checkpoint | Evidencia de salida |
 |---|---:|---|
@@ -12,6 +12,8 @@ Los ocho talleres convierten la biblioteca de 680 clases en una experiencia iter
 | [EST-06 · Documentar, contratar, construir y operar](EST-06/README.md) | después de Parte 47 | expediente coordinado con planos, especificaciones, costo, secuencia, controles y plan de entrega |
 | [EST-07 · Tipología compleja y continuidad de servicio](EST-07/README.md) | después de Parte 58 | anteproyecto de tipología compleja con escenarios operativos, interfaces y revisión crítica |
 | [EST-08 · Tesis, defensa y portafolio](EST-08/README.md) | después de Parte 68 | portafolio longitudinal, memoria crítica, defensa final y plan de aprendizaje posterior |
+| [EST-09 · Investigación, datos y prototipo avanzado](EST-09/README.md) | después de Parte 74 | protocolo, conjunto de datos documentado, modelo reproducible, prototipo y registro de validación |
+| [EST-10 · Proyecto interdisciplinario, especialización y transferencia](EST-10/README.md) | después de Parte 80 | proyecto final interdisciplinario, dossier técnico, portafolio de versiones, defensa y agenda de investigación |
 
 ## Regla de trabajo
 

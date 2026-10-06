@@ -163,4 +163,4 @@ Esta parte comienza con **Aeropuerto: landside, terminal y airside** y culmina c
 
 ## Navegación
 
-[← Parte 53](../parte-53/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 55 →](../parte-55/README.md)
+[← Parte 53](../parte-53/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 55 →](../parte-55/README.md)

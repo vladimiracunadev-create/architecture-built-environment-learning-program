@@ -163,4 +163,4 @@ Esta parte comienza con **Planta, corte y elevación: leer lo que no muestra una
 
 ## Navegación
 
-[← Parte 01](../parte-01/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 03 →](../parte-03/README.md)
+[← Parte 01](../parte-01/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 03 →](../parte-03/README.md)

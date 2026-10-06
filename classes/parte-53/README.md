@@ -163,4 +163,4 @@ Esta parte comienza con **Hospital como sistema de flujos** y culmina con **Proy
 
 ## Navegación
 
-[← Parte 52](../parte-52/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 54 →](../parte-54/README.md)
+[← Parte 52](../parte-52/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 54 →](../parte-54/README.md)

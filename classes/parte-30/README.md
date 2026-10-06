@@ -163,4 +163,4 @@ Esta parte comienza con **Luz natural: disponibilidad y distribución** y culmin
 
 ## Navegación
 
-[← Parte 29](../parte-29/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 31 →](../parte-31/README.md)
+[← Parte 29](../parte-29/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 31 →](../parte-31/README.md)

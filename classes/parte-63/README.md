@@ -163,4 +163,4 @@ Esta parte comienza con **Edificio cívico y acceso democrático** y culmina con
 
 ## Navegación
 
-[← Parte 62](../parte-62/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 64 →](../parte-64/README.md)
+[← Parte 62](../parte-62/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 64 →](../parte-64/README.md)

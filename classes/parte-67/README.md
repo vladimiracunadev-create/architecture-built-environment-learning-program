@@ -163,4 +163,4 @@ Esta parte comienza con **Torres de observación y miradores** y culmina con **P
 
 ## Navegación
 
-[← Parte 66](../parte-66/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 68 →](../parte-68/README.md)
+[← Parte 66](../parte-66/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 68 →](../parte-68/README.md)

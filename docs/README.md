@@ -7,7 +7,7 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 1. [Estándar obligatorio de documentación de una clase](ESTANDAR_DOCUMENTACION_CLASE.md) — criterio de creación, revisión y aceptación.
 2. [Método y alcance](METODO_Y_ALCANCE.md) — arquitectura pedagógica, niveles de conclusión y límites.
 3. [Cómo usar el programa](COMO_USAR_EL_PROGRAMA.md) — recorridos, ritmos y formas de estudio.
-4. [Rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) — doce recorridos transversales por la malla.
+4. [Rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) — 33 recorridos troncales y de especialización.
 5. [Roles y oficios](ROLES_Y_OFICIOS.md) — relación entre responsabilidades, documentos y clases.
 6. [Casos integradores](CASOS_INTEGRADORES.md) — uso coordinado de varias disciplinas y entregables.
 7. [Arquitectura de evaluación](ARQUITECTURA_DE_EVALUACION.md) — evidencias y avance por clase, parte, ruta y programa.
@@ -15,10 +15,16 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 9. [Portafolio y evidencias](PORTAFOLIO_Y_EVIDENCIAS.md) — versiones, crítica, privacidad y selección final.
 10. [Estándar visual](ESTANDAR_VISUAL.md) — representación disciplinar, accesibilidad y derechos.
 11. [Syllabus y carga](SYLLABUS_Y_CARGA.md) — modalidades, progresión y medición honesta del tiempo.
+12. [Matriz de cobertura integral](MATRIZ_COBERTURA_INTEGRAL.md) — inventario por área, profundidad, fuentes, brechas y acción.
+13. [Mapa de dependencias](MAPA_DE_DEPENDENCIAS.md) — prerrequisitos, evidencias, talleres y especializaciones.
+14. [Glosario acumulativo](GLOSARIO_ACUMULATIVO.md) — términos español–inglés conectados con las clases.
+15. [Roadmap integral](../ROADMAP_INTEGRAL.md) — alcance general, método de resolución, prioridades y condiciones de cierre.
 
 ## Evidencia y control editorial
 
-- [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) — diagnóstico, análisis de referencia, extensión a 680 clases, cinco pilotos profundos, decisiones, fuentes, cambios y pendientes.
+- [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) — diagnóstico de la base histórica de 680 clases, cinco pilotos profundos, decisiones, fuentes, cambios y pendientes.
+- [Arquitectura del repositorio](ARQUITECTURA_DEL_REPOSITORIO.md) — fuentes canónicas, salidas generadas y artefactos históricos.
+- [Informe de integración 2026.10](INFORME_INTEGRACION_2026-10.md) — conservación, expansión, decisiones, riesgos y próximos pasos.
 - [Estado verificable](ESTADO_VERIFICABLE.md) — cobertura medida, brechas conocidas y comandos reproducibles.
 - [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md) — procedencia, categorías, límites y criterio de actualización.
 - [Estándar de fuentes y trazabilidad](ESTANDAR_DE_FUENTES.md) — campos mínimos para libros, artículos, normas, webs y casos.

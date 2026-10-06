@@ -163,4 +163,4 @@ Esta parte comienza con **Encargo integrador y organización interdisciplinaria*
 
 ## Navegación
 
-[← Parte 47](../parte-47/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 49 →](../parte-49/README.md)
+[← Parte 47](../parte-47/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 49 →](../parte-49/README.md)

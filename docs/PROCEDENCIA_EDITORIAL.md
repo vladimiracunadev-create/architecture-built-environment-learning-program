@@ -4,7 +4,7 @@
 
 La secuencia, redacción, preguntas, ejercicios, casos ficticios, cálculos didácticos y soluciones del programa son una **elaboración editorial original atribuida a Vladimir Acuña**, salvo donde una clase identifica expresamente una obra o dato externo.
 
-No existe una institución que haya entregado estas 680 clases como plan oficial. El programa es independiente y no está acreditado por UNESCO, UIA, RIBA, una universidad, un colegio profesional ni un organismo público.
+No existe una institución que haya entregado estas 800 clases como plan oficial. El programa es independiente y no está acreditado por UNESCO, UIA, RIBA, una universidad, un colegio profesional ni un organismo público.
 
 ## De dónde proviene la estructura
 
@@ -29,7 +29,7 @@ Las dos referencias transversales anteriores no bastan para construir las clases
 
 ## Registro central y trazabilidad
 
-El archivo [`sources/bibliography.json`](../sources/bibliography.json) se genera desde las 680 clases. Para cada URL registra título, autoridad declarada o inferida, dominio y todas las clases que la utilizan; para cada uso publica su estado y los campos contextuales ausentes. [`sources/README.md`](../sources/README.md) resume el inventario.
+El archivo [`sources/bibliography.json`](../sources/bibliography.json) se genera desde las 800 clases. Para cada URL registra título, autoridad declarada o inferida, dominio y todas las clases que la utilizan; para cada uso publica su estado y los campos contextuales ausentes. [`sources/README.md`](../sources/README.md) resume el inventario.
 
 La unidad primaria de trazabilidad sigue siendo la relación clase–fuente. Cuando constan, la clase declara **función**, **alcance consultado**, **límite** y **fecha**. El registro central permite localizar, medir y auditar; no sustituye esa explicación contextual. Consulta el [estándar de fuentes](ESTANDAR_DE_FUENTES.md).
 

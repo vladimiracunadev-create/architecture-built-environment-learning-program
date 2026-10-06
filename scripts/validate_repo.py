@@ -13,12 +13,13 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+PROGRAM = json.loads((ROOT / "data" / "program.json").read_text(encoding="utf-8"))
 EXPECTED_RESOURCES = {
     "fuentes": 611,
     "roles": 80,
     "plantillas": 36,
     "documentos": 16,
-    "rutas": 12,
+    "rutas": PROGRAM["route_count"],
 }
 APACHE_2_LICENSE_SHA256 = "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
 REQUIRED_LEGAL_FILES = (
@@ -43,12 +44,24 @@ def fail(message: str) -> None:
 
 
 def main() -> int:
+    if PROGRAM["class_count"] != PROGRAM["part_count"] * PROGRAM["classes_per_part"]:
+        fail("data/program.json class, part and class-per-part counts disagree")
+    if PROGRAM["studio_session_count"] != PROGRAM["studio_count"] * PROGRAM["sessions_per_studio"]:
+        fail("data/program.json studio and session counts disagree")
+    parts_manifest = json.loads(
+        (ROOT / "data" / "parts.json").read_text(encoding="utf-8")
+    )
+    part_numbers = [item["number"] for item in parts_manifest.get("parts", [])]
+    if part_numbers != list(range(1, PROGRAM["part_count"] + 1)):
+        fail("data/parts.json must define every current part exactly once")
+    if any(not item.get("title", "").strip() for item in parts_manifest["parts"]):
+        fail("data/parts.json contains an empty title")
     catalog = json.loads((ROOT / "data" / "catalog.json").read_text(encoding="utf-8"))
     ids = [item["id"] for item in catalog]
-    expected = [f"ARQ-{number:03d}" for number in range(1, 681)]
+    expected = [f"ARQ-{number:03d}" for number in range(1, PROGRAM["class_count"] + 1)]
     if ids != expected:
-        fail("catalog must contain exactly ARQ-001..ARQ-680")
-    parts = {part: 0 for part in range(1, 69)}
+        fail(f"catalog must contain exactly ARQ-001..ARQ-{PROGRAM['class_count']:03d}")
+    parts = {part: 0 for part in range(1, PROGRAM["part_count"] + 1)}
     for item in catalog:
         source = ROOT / item["source"]
         if not source.is_file():
@@ -57,13 +70,13 @@ def main() -> int:
         if not text.startswith(f"# {item['id']}"):
             fail(f"heading/id mismatch: {item['source']}")
         parts[item["part"]] += 1
-    if set(parts.values()) != {10}:
-        fail(f"every part must have 10 lessons: {parts}")
+    if set(parts.values()) != {PROGRAM["classes_per_part"]}:
+        fail(f"every part must have {PROGRAM['classes_per_part']} lessons: {parts}")
     if not (ROOT / "classes" / "README.md").is_file():
         fail("missing classes/README.md curriculum index")
     part_readmes = list((ROOT / "classes").glob("parte-*/README.md"))
-    if len(part_readmes) != 68:
-        fail(f"found {len(part_readmes)} part README files, expected 68")
+    if len(part_readmes) != PROGRAM["part_count"]:
+        fail(f"found {len(part_readmes)} part README files, expected {PROGRAM['part_count']}")
 
     coverage_patterns = {
         "question": r"pregunta central",
@@ -82,14 +95,14 @@ def main() -> int:
         for label, pattern in coverage_patterns.items():
             coverage[label] += bool(re.search(pattern, headings))
     expected_coverage = {
-        "question": 680,
-        "practice": 680,
-        "sources": 680,
-        "result": 680,
-        "case": 570,
-        "self_assessment": 680,
-        "continuity": 680,
-        "errors": 680,
+        "question": PROGRAM["class_count"],
+        "practice": PROGRAM["class_count"],
+        "sources": PROGRAM["class_count"],
+        "result": PROGRAM["class_count"],
+        "case": 690,
+        "self_assessment": PROGRAM["class_count"],
+        "continuity": PROGRAM["class_count"],
+        "errors": PROGRAM["class_count"],
     }
     if dict(coverage) != expected_coverage:
         fail(
@@ -100,19 +113,18 @@ def main() -> int:
     pedagogy = json.loads((ROOT / "data" / "pedagogy.json").read_text(encoding="utf-8"))
     if pedagogy.get("schema_version") != 1:
         fail("pedagogy manifest must use schema version 1")
-    if len(pedagogy.get("studios", [])) != 8 or len(pedagogy.get("routes", [])) != 12:
-        fail("pedagogy manifest must contain 8 studios and 12 routes")
+    if len(pedagogy.get("studios", [])) != PROGRAM["studio_count"] or len(pedagogy.get("routes", [])) != PROGRAM["route_count"]:
+        fail("pedagogy manifest counts do not match data/program.json")
     studio_sessions = list((ROOT / "studios").glob("EST-??/EST-??-??.md"))
-    if len(studio_sessions) != 48:
-        fail(f"found {len(studio_sessions)} studio sessions, expected 48")
+    if len(studio_sessions) != PROGRAM["studio_session_count"]:
+        fail(f"found {len(studio_sessions)} studio sessions, expected {PROGRAM['studio_session_count']}")
     learning_paths = list((ROOT / "learning-paths").glob("ruta-??.md"))
-    if len(learning_paths) != 12:
-        fail(f"found {len(learning_paths)} learning paths, expected 12")
+    if len(learning_paths) != PROGRAM["route_count"]:
+        fail(f"found {len(learning_paths)} learning paths, expected {PROGRAM['route_count']}")
     for item in catalog:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
         for marker in (
             "<!-- pedagogia-2026:inicio -->",
-            "```mermaid",
             "## Resultado observable, evidencia y evaluación",
             "**Criterio de aceptación:**",
             "## Autoevaluación, recuperación y continuidad",
@@ -120,6 +132,38 @@ def main() -> int:
         ):
             if text.count(marker) != 1:
                 fail(f"pedagogical contract missing or duplicated in {item['id']}: {marker}")
+        if "```mermaid" not in text:
+            fail(f"learning map missing in {item['id']}")
+
+    historical_count = PROGRAM["historical_baseline"]["class_count"]
+    phase_three = catalog[historical_count:]
+    phase_three_questions = set()
+    phase_three_critical_conditions = set()
+    phase_three_topic_graphs = set()
+    for item in phase_three:
+        text = (ROOT / item["source"]).read_text(encoding="utf-8")
+        question_match = re.search(r"## Pregunta central\s+(.+)", text)
+        critical_match = re.search(
+            r"\*\*Fallo crítico de esta clase:\*\* (.+?)\.", text
+        )
+        graph_match = re.search(r"```mermaid\n(.*?)```", text, re.DOTALL)
+        if not all((question_match, critical_match, graph_match)):
+            fail(f"Phase III class lacks distinct pedagogical anchors: {item['id']}")
+        phase_three_questions.add(question_match.group(1).strip())
+        phase_three_critical_conditions.add(critical_match.group(1).strip())
+        phase_three_topic_graphs.add(graph_match.group(1).strip())
+        if len(re.findall(r"\S+", text)) < 2500:
+            fail(f"Phase III class is too shallow for the documented standard: {item['id']}")
+    expected_phase_three = PROGRAM["class_count"] - historical_count
+    if not all(
+        len(values) == expected_phase_three
+        for values in (
+            phase_three_questions,
+            phase_three_critical_conditions,
+            phase_three_topic_graphs,
+        )
+    ):
+        fail("Phase III questions, critical conditions and topic graphs must be class-specific")
 
     reader_text = (
         ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
@@ -153,27 +197,24 @@ def main() -> int:
     bibliography = json.loads(
         (ROOT / "sources" / "bibliography.json").read_text(encoding="utf-8")
     )
-    bibliography_truth = (
-        bibliography["class_count"],
-        bibliography["citation_occurrences"],
-        bibliography["unique_sources"],
-        bibliography["unique_domains"],
-        len(bibliography["entries"]),
-    )
-    if bibliography_truth != (680, 1939, 622, 189, 622):
-        fail(f"derived bibliography changed: {bibliography_truth}")
+    if bibliography["class_count"] != PROGRAM["class_count"]:
+        fail("derived bibliography class count disagrees with data/program.json")
+    if bibliography["unique_sources"] != len(bibliography["entries"]):
+        fail("derived bibliography unique-source count disagrees with entries")
+    if bibliography["citation_occurrences"] != sum(entry["usage_count"] for entry in bibliography["entries"]):
+        fail("derived bibliography occurrence count disagrees with source uses")
     traceability = bibliography.get("traceability", {})
     minimum_field_coverage = {
-        "function": 1872,
-        "consultation_scope": 1482,
-        "limitation": 1734,
-        "accessed_on": 1055,
+        "function": 2112,
+        "consultation_scope": 1722,
+        "limitation": 1974,
+        "accessed_on": 1295,
     }
     if traceability.get("required_context_fields") != list(minimum_field_coverage):
         fail("unexpected source traceability fields")
-    if traceability.get("complete_uses", 0) < 886:
+    if traceability.get("complete_uses", 0) < 1126:
         fail("complete source-use coverage regressed")
-    if traceability.get("classes_with_all_uses_complete", 0) < 292:
+    if traceability.get("classes_with_all_uses_complete", 0) < 412:
         fail("class-level source traceability regressed")
     for field, minimum in minimum_field_coverage.items():
         if traceability.get("field_coverage", {}).get(field, 0) < minimum:
@@ -365,7 +406,7 @@ def main() -> int:
     status = json.loads((ROOT / "STATUS_v1.0.json").read_text(encoding="utf-8"))
     truth = (status["parts"], status["planned_classes"], status["written_classes"], status["pending_classes"])
     if truth != (68, 680, 680, 0):
-        fail(f"STATUS_v1.0.json contradicts the curriculum: {truth}")
+        fail(f"STATUS_v1.0.json no longer preserves the historical v1.0 baseline: {truth}")
 
     sums = {}
     for line in (ROOT / "SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():
@@ -383,23 +424,23 @@ def main() -> int:
     site = ROOT / "site"
     if site.exists():
         pages = list((site / "clases").glob("arq-*.html"))
-        if len(pages) != 680:
-            fail(f"generated site has {len(pages)} lesson pages, expected 680")
+        if len(pages) != PROGRAM["class_count"]:
+            fail(f"generated site has {len(pages)} lesson pages, expected {PROGRAM['class_count']}")
         source_notices = sum(
             'data-source-traceability="true"' in page.read_text(encoding="utf-8")
             for page in pages
         )
-        if source_notices != 680:
+        if source_notices != PROGRAM["class_count"]:
             fail(f"generated site has {source_notices} source-traceability notices")
         part_pages = list((site / "partes").glob("parte-*.html"))
-        if len(part_pages) != 68:
-            fail(f"generated site has {len(part_pages)} part pages, expected 68")
+        if len(part_pages) != PROGRAM["part_count"]:
+            fail(f"generated site has {len(part_pages)} part pages, expected {PROGRAM['part_count']}")
         studio_pages = list((site / "talleres").glob("est-??/est-??-??.html"))
-        if len(studio_pages) != 48:
-            fail(f"generated site has {len(studio_pages)} studio session pages, expected 48")
+        if len(studio_pages) != PROGRAM["studio_session_count"]:
+            fail(f"generated site has {len(studio_pages)} studio session pages, expected {PROGRAM['studio_session_count']}")
         route_pages = list((site / "rutas").glob("ruta-??.html"))
-        if len(route_pages) != 12:
-            fail(f"generated site has {len(route_pages)} learning paths, expected 12")
+        if len(route_pages) != PROGRAM["route_count"]:
+            fail(f"generated site has {len(route_pages)} learning paths, expected {PROGRAM['route_count']}")
         for folder, expected_count in EXPECTED_RESOURCES.items():
             resource_pages = [path for path in (site / folder).glob("*.html") if path.name != "index.html"]
             if len(resource_pages) != expected_count:
@@ -412,6 +453,12 @@ def main() -> int:
             "catalogo.html",
             "recursos.html",
             "documentacion.html",
+            "matriz-cobertura-integral.html",
+            "arquitectura-repositorio.html",
+            "mapa-dependencias.html",
+            "glosario.html",
+            "informe-integracion-2026-10.html",
+            "roadmap-integral.html",
             "partes/index.html",
             "metodo.html",
             "artefactos.html",
@@ -450,8 +497,8 @@ def main() -> int:
         bibliography_catalog = (site / "bibliografia" / "catalogo.html").read_text(
             encoding="utf-8"
         )
-        if bibliography_catalog.count('data-source-card="true"') != 622:
-            fail("generated bibliography catalog does not contain 622 sources")
+        if bibliography_catalog.count('data-source-card="true"') != bibliography["unique_sources"]:
+            fail("generated bibliography catalog does not contain every source")
         broken = []
         for page in site.rglob("*.html"):
             text = page.read_text(encoding="utf-8")
@@ -473,9 +520,12 @@ def main() -> int:
         if "Cada componente conserva su régimen" not in generated_notice:
             fail("generated site is missing the layered-license notice")
     print(
-        "OK: 680 lessons · 68 parts · 8 studios · 48 studio sessions · "
-        "12 learning paths · 755 legacy resources · 69 curriculum README files · "
-        "622 source URLs · 886 complete source uses · 23 current documents · licensing matrix · "
+        f"OK: {PROGRAM['class_count']} lessons · {PROGRAM['part_count']} parts · "
+        f"{PROGRAM['studio_count']} studios · {PROGRAM['studio_session_count']} studio sessions · "
+        f"{PROGRAM['route_count']} learning paths · 755 legacy resources · "
+        f"{PROGRAM['part_count'] + 1} curriculum README files · "
+        f"{bibliography['unique_sources']} source URLs · {traceability['complete_uses']} complete source uses · "
+        "current documents · licensing matrix · "
         "Markdown links · checksums · UTF-8 · generated site"
     )
     return 0

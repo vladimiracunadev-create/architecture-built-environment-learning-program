@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
 DECISIONS = ROOT / "data" / "pedagogical-decisions-generated.json"
+PROGRAM = json.loads((ROOT / "data" / "program.json").read_text(encoding="utf-8"))
 OBSERVABLE = (
     "analizar", "aplicar", "argumentar", "clasificar", "comparar", "construir",
     "defender", "diagnosticar", "diferenciar", "diseñar", "distinguir", "documentar", "elaborar",
@@ -96,11 +97,16 @@ def main() -> int:
     if manifest.get("schema_version") != 2:
         errors.append("decision manifest must use schema version 2")
     if set(contracts) != known:
-        errors.append("decision manifest must contain exactly ARQ-001..ARQ-680")
+        errors.append("decision manifest must contain exactly the classes declared in data/catalog.json")
 
     coverage = Counter()
     titles = Counter()
     generated_signatures = Counter()
+    phase_three_questions: set[str] = set()
+    phase_three_critical_conditions: set[str] = set()
+    phase_three_topic_graphs: set[str] = set()
+    phase_three_word_counts: list[int] = []
+    historical_count = PROGRAM["historical_baseline"]["class_count"]
     for item in catalog:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
         headings = "\n".join(re.findall(r"^#{2,3}\s+(.+)$", text, re.MULTILINE)).lower()
@@ -127,8 +133,29 @@ def main() -> int:
             generated_signatures[signature] += 1
         if item["id"] in contracts:
             errors.extend(validate_contract(contracts[item["id"]], known, text))
+        if int(item["id"][4:]) > historical_count:
+            question = re.search(r"## Pregunta central\s+(.+)", text)
+            critical = re.search(r"\*\*Fallo crítico de esta clase:\*\* (.+?)\.", text)
+            topic_graph = re.search(r"```mermaid\n(.*?)```", text, re.DOTALL)
+            if not all((question, critical, topic_graph)):
+                errors.append(f"{item['id']}: missing distinct Phase III anchor")
+            else:
+                phase_three_questions.add(question.group(1).strip())
+                phase_three_critical_conditions.add(critical.group(1).strip())
+                phase_three_topic_graphs.add(topic_graph.group(1).strip())
+            phase_three_word_counts.append(len(re.findall(r"\S+", text)))
 
     duplicate_titles = sum(count > 1 for count in titles.values())
+    phase_three_count = len(catalog) - historical_count
+    if not all(
+        len(values) == phase_three_count
+        for values in (
+            phase_three_questions,
+            phase_three_critical_conditions,
+            phase_three_topic_graphs,
+        )
+    ):
+        errors.append("Phase III anchors are not unique class by class")
     report = {
         "classes": len(catalog),
         "measured_coverage": dict(coverage),
@@ -138,6 +165,14 @@ def main() -> int:
         "pending_decision_contracts": len(catalog) - len(contracts),
         "largest_reused_generated_template": max(generated_signatures.values(), default=0),
         "duplicate_normalized_titles": duplicate_titles,
+        "phase_three": {
+            "classes": phase_three_count,
+            "unique_questions": len(phase_three_questions),
+            "unique_critical_conditions": len(phase_three_critical_conditions),
+            "unique_topic_graphs": len(phase_three_topic_graphs),
+            "minimum_word_count": min(phase_three_word_counts, default=0),
+            "maximum_word_count": max(phase_three_word_counts, default=0),
+        },
         "errors": errors,
     }
     print(json.dumps(report, ensure_ascii=False, indent=2) if args.json else (

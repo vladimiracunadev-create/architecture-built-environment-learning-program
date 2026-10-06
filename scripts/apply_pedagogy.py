@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
 PEDAGOGY = ROOT / "data" / "pedagogy.json"
 PEDAGOGICAL_DECISIONS = ROOT / "data" / "pedagogical-decisions-generated.json"
+PROGRAM = ROOT / "data" / "program.json"
 START = "<!-- pedagogia-2026:inicio -->"
 END = "<!-- pedagogia-2026:fin -->"
 
@@ -27,10 +28,10 @@ SESSION_PHASES = (
 )
 
 LESSON_KINDS = {
-    "histórica y crítica": set(range(5, 11)) | {46, 51, 52, 59},
-    "cuantitativa": {3, 19, 20, 21, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 42, 50, 53, 54, 55, 56, 57, 58, 60, 61, 62, 67},
-    "profesional y de coordinación": {39, 40, 41, 42, 43, 44, 45, 46, 47, 48},
-    "proyectual": {4, 11, 12, 13, 14, 15, 16, 17, 18, 49, 53, 54, 55, 58, 59, 60, 61, 62, 63, 64, 65, 66, 68},
+    "histórica y crítica": set(range(5, 11)) | {46, 51, 52, 59, 69, 78},
+    "cuantitativa": {3, 19, 20, 21, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 42, 50, 53, 54, 55, 56, 57, 58, 60, 61, 62, 67, 72, 74, 76, 77},
+    "profesional y de coordinación": {39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 69, 70, 73, 75, 76, 78, 80},
+    "proyectual": {4, 11, 12, 13, 14, 15, 16, 17, 18, 49, 53, 54, 55, 58, 59, 60, 61, 62, 63, 64, 65, 66, 68, 71, 72, 74, 75, 77, 78, 79, 80},
 }
 
 EVIDENCE_BY_KIND = {
@@ -358,9 +359,10 @@ def studios_index(studios: list[dict]) -> str:
         f"| [{s['id']} · {s['title']}]({s['id']}/README.md) | después de Parte {s['checkpoint_after_part']:02d} | {s['product']} |"
         for s in studios
     )
+    program = load_json(PROGRAM)
     return f"""# Talleres verticales
 
-Los ocho talleres convierten la biblioteca de 680 clases en una experiencia iterativa. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. En total son **48 sesiones integradoras**.
+Los {len(studios)} talleres convierten la biblioteca de {program['class_count']} clases en una experiencia iterativa. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. En total son **{len(studios) * len(SESSION_PHASES)} sesiones integradoras**.
 
 | Taller | Checkpoint | Evidencia de salida |
 |---|---:|---|
@@ -416,6 +418,33 @@ La ruta se completa con el capstone en 80/100 o más, ninguna dimensión bajo 60
 """
 
 
+def routes_index(routes: list[dict]) -> str:
+    rows = "\n".join(
+        f"| {index:02d} | {route['title']} | {route['exit']} | "
+        f"[Abrir {route['id']}](../learning-paths/{route['id'].lower()}.md) |"
+        for index, route in enumerate(routes, 1)
+    )
+    return f"""# {len(routes)} rutas de aprendizaje
+
+Las rutas reorganizan el núcleo común y la Fase III para permitir profundización sin duplicar clases. Cada una declara perfil de entrada, diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización. No conceden credenciales ni atribuciones profesionales.
+
+| # | Ruta | Perfil de salida | Guía |
+|---:|---|---|---|
+{rows}
+
+## Contrato común
+
+1. Realiza el diagnóstico de entrada sin consultar soluciones.
+2. Nivela únicamente las brechas observadas.
+3. Conserva el orden interno de cada parte.
+4. Completa los talleres asociados con crítica y revisión.
+5. Defiende el capstone frente a la [rúbrica común](RUBRICA_COMUN.md).
+6. Cierra con portafolio, recuperación y pendientes explícitos.
+
+La carga horaria se publicará después de pilotos con tiempos reales. Hasta entonces no se presenta una equivalencia inventada con créditos universitarios.
+"""
+
+
 def write_or_check(path: Path, expected: str, check: bool, differences: list[str]) -> None:
     expected = expected.rstrip() + "\n"
     current = path.read_text(encoding="utf-8") if path.exists() else None
@@ -451,6 +480,12 @@ def main() -> int:
             write_or_check(folder / f"{studio['id']}-{phase[0]}.md", studio_session(studio, phase), args.check, differences)
 
     by_id = {studio["id"]: studio for studio in studios}
+    write_or_check(
+        ROOT / "docs" / "RUTAS_DE_APRENDIZAJE.md",
+        routes_index(pedagogy["routes"]),
+        args.check,
+        differences,
+    )
     for route in pedagogy["routes"]:
         write_or_check(
             ROOT / "learning-paths" / f"{route['id'].lower()}.md",
@@ -463,7 +498,11 @@ def main() -> int:
         print("Pedagogical outputs are stale:\n" + "\n".join(differences[:50]), file=sys.stderr)
         return 1
     action = "Verified" if args.check else "Generated"
-    print(f"{action} 680 lesson contracts, 48 studio sessions and 12 learning paths")
+    print(
+        f"{action} {len(catalog)} lesson contracts, "
+        f"{len(studios) * len(SESSION_PHASES)} studio sessions and "
+        f"{len(pedagogy['routes'])} learning paths"
+    )
     return 0
 
 

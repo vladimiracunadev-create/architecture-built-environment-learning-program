@@ -1,55 +1,51 @@
 # Estado verificable del programa
 
-**Corte documental: 28 de septiembre de 2026 · edición pedagógica 2026**
+**Corte documental: 6 de octubre de 2026 · edición 2026.10**
 
-Este documento separa cinco dimensiones que no deben confundirse: integridad del currículo, cobertura pedagógica, trazabilidad de fuentes, publicación técnica y revisión profesional.
+Este documento separa integridad curricular, cobertura pedagógica, trazabilidad de fuentes, publicación técnica y revisión profesional. Los conteos vigentes proceden de `data/program.json` y de validaciones reproducibles; `STATUS_v1.0.json` conserva únicamente la entrega histórica de 680 clases.
 
 ## 1. Integridad curricular
 
 | Comprobación | Resultado actual | Fuente de verdad |
 |---|---:|---|
-| Identificadores consecutivos | **680/680** | `data/catalog.json`: ARQ-001 → ARQ-680 |
-| Partes curriculares | **68/68** | `classes/parte-01` → `classes/parte-68` |
+| Identificadores consecutivos | **800/800** | `data/catalog.json`: ARQ-001 → ARQ-800 |
+| Partes curriculares | **80/80** | `data/parts.json` y `classes/parte-01` → `parte-80` |
 | Clases por parte | **10 en cada una** | validador estructural |
-| Clases Markdown | **680** | `classes/parte-XX/ARQ-XXX.md` |
-| README de parte | **68** | uno por carpeta, generado desde las clases |
-| Clases pendientes de redacción | **0** | `STATUS_v1.0.json` |
+| Clases Markdown | **800** | `classes/parte-XX/ARQ-XXX.md` |
+| README de parte | **80** | uno por carpeta, generado desde las clases |
+| Fases | **3** | formación transversal; tipologías; profundización y especialización |
 
-“680/680” significa que la malla editorial prevista está redactada. No significa revisión por pares, acreditación, vigencia normativa universal ni aptitud para ejecutar una obra.
+“800/800” significa que la malla editorial prevista por la edición 2026.10 está redactada. No significa revisión por pares, acreditación, vigencia normativa universal ni aptitud para ejecutar una obra.
 
 ## 2. Cobertura pedagógica dentro de las clases
 
-Se inspeccionaron los encabezados y el texto completo de las 680 fuentes Markdown. La capa común se genera desde `data/pedagogy.json` y se comprueba con `scripts/apply_pedagogy.py --check`.
+`scripts/audit_pedagogical_traceability.py --json` inspecciona las 800 fuentes Markdown. La capa común se genera desde `data/pedagogy.json` y se comprueba con `scripts/apply_pedagogy.py --check`.
 
-| Componente documental | Clases que lo declaran | Lectura correcta |
+| Componente documental | Cobertura | Lectura correcta |
 |---|---:|---|
-| Pregunta central | **680/680** | presente en todo el programa |
-| Práctica o ejercicio | **680/680** | actividad propia del tema |
-| Fuentes y alcance de uso | **680/680** | apoyo y límite declarados |
-| Resultado o evidencia explícitos | **680/680** | producto revisable y ruta de archivo |
-| Caso trabajado o razonado | **570/680** | incluye encabezados de nivel 2 y 3; no todas las clases necesitan el mismo tipo de caso |
-| Mapa visual de aprendizaje | **680/680** | ciclo pregunta–método–evidencia–revisión |
-| Criterio de aceptación | **680/680** | umbral y condiciones críticas visibles |
-| Autoevaluación o solución | **680/680** | recuperación inmediata y diferida |
-| Continuidad explícita | **680/680** | conexión con parte y portafolio |
-| Errores diagnósticos | **680/680** | adaptados al tipo de clase |
-| Cadena de decisión documentada | **680/680** | necesidad, posición, dependencias, fuentes, actividad, evidencia y continuidad |
-| Piloto con revisión editorial manual profunda | **5/680** | muestra inicial, intermedia, normativa, avanzada práctica y final |
+| Pregunta central | **800/800** | problema delimitado en todo el programa |
+| Práctica o ejercicio | **800/800** | actividad propia del tema |
+| Evidencia explícita | **800/800** | producto revisable y criterio de aceptación |
+| Fuentes y alcance de uso | **800/800** | apoyo y límite declarados |
+| Mapa visual de aprendizaje | **800/800** | dependencias y transferencia visibles |
+| Autoevaluación, errores, recuperación y continuidad | **800/800** | revisión y avance explícitos |
+| Cadena de decisión documentada | **800/800** | necesidad, posición, dependencias, fuentes, actividad y evidencia |
+| Casos trabajados o razonados | **690/800** | se emplean cuando la disciplina requiere reconstruir una situación |
+| Piloto con revisión editorial manual profunda | **5/800** | muestra inicial, intermedia, normativa, avanzada y final del núcleo previo |
+| Títulos normalizados duplicados | **0** | control de inflación temática |
 
-Las primeras filas miden presencia estructural; la cadena documentada se obtiene de cada clase completa y sus vecinas. Los cinco pilotos añaden una revisión manual más intensa. Ninguno de esos estados equivale a revisión externa por especialistas; consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).
-
-El conteo reproducible por unidades separadas por espacio arroja una mediana de **2.104** por clase y aproximadamente **1,36 millones** en el corpus. Longitud no equivale a calidad: estas cifras sólo describen material que debe pilotarse y revisar una persona especialista.
+El corpus contiene aproximadamente **2,04 millones de unidades separadas por espacio**, con mediana de **2.685,5 por clase**. La longitud describe escala editorial; no demuestra calidad o aprendizaje.
 
 ## 3. Talleres, rutas y portafolio
 
 | Superficie | Resultado actual |
 |---|---:|
-| Talleres verticales | **8** |
-| Sesiones integradoras | **48** |
+| Talleres verticales | **10** |
+| Sesiones integradoras | **60** |
 | Fases por taller | **6**: diagnóstico, investigación, alternativas, crítica, revisión y defensa |
-| Rutas con diagnóstico, checkpoints, salida y capstone | **12/12** |
+| Rutas con diagnóstico, checkpoints, salida y capstone | **33/33** |
 | Dimensiones de la rúbrica común | **5** |
-| Umbral de aprobación documental | **80/100**, ninguna dimensión bajo 60 % |
+| Umbral documental | **80/100**, ninguna dimensión bajo 60 % |
 | Pilotos con estudiantes | **pendiente** |
 | Carga horaria observada | **pendiente** |
 
@@ -57,59 +53,55 @@ El conteo reproducible por unidades separadas por espacio arroja una mediana de 
 
 | Superficie | Resultado |
 |---|---:|
-| Relaciones clase–fuente derivadas | **1.939** |
-| URLs externas únicas en clases | **622** |
-| Dominios externos en clases | **189** |
-| Fichas editoriales navegables del lector v1.0 | **611** |
-| Clases con apartado de fuentes | **680/680** |
-| Entradas del registro derivado sin URL | **0** |
-| Relaciones con función declarada | **1.872/1.939** |
-| Relaciones con alcance consultado | **1.482/1.939** |
-| Relaciones con límite declarado | **1.734/1.939** |
-| Relaciones con fecha de consulta | **1.055/1.939** |
-| Relaciones contextualmente completas | **886/1.939** |
-| Clases con todos sus usos completos | **292/680** |
-| Verificación periódica de disponibilidad externa | **no implementada** |
-| Revisión de vigencia normativa por jurisdicción | **pendiente** |
+| Relaciones clase–fuente derivadas | **2.179** |
+| URLs externas únicas en clases | **627** |
+| Dominios externos en clases | **190** |
+| Clases con apartado de fuentes | **800/800** |
+| Relaciones con función declarada | **2.112/2.179** |
+| Relaciones con alcance consultado | **1.725/2.179** |
+| Relaciones con límite declarado | **1.974/2.179** |
+| Relaciones con fecha de consulta | **1.298/2.179** |
+| Relaciones contextualmente completas | **1.126/2.179** |
+| Clases con todos sus usos completos | **412/800** |
+| Verificación periódica de disponibilidad externa | **pendiente** |
+| Revisión normativa por jurisdicción | **pendiente** |
 
-Cada clase tiene un apartado de fuentes, pero no todas sus relaciones poseen todavía el mismo grado de contexto. `sources/bibliography.json` conecta cada URL con las clases que la usan, marca cada uso como completo o parcial y enumera sus campos ausentes. Las 611 fichas del lector son un inventario editorial histórico y navegable; no deben confundirse con las 622 URLs únicas derivadas del corpus actual.
+Las 611 fichas del lector offline son un inventario histórico. `sources/bibliography.json` es el registro actual derivado de las clases y conserva los faltantes como datos explícitos, sin inventar fechas, páginas o alcances.
 
 ## 5. Publicación y artefactos
 
 | Salida | Estado | Comprobación |
 |---|---|---|
-| GitHub Pages | publicada | build reproducible desde Markdown |
-| Páginas de clase | **680** | una por ARQ |
-| Portadas de parte | **68** | una por bloque |
-| Páginas de taller | **56** | ocho portadas + 48 sesiones |
-| Rutas pedagógicas | **12** | entrada, recorrido, checkpoints, salida y capstone |
-| Recursos transversales heredados v1.0 | **755** | 611 fuentes, 80 roles, 36 plantillas, 16 documentos y 12 rutas |
-| Documentación actual mantenida | **21** | método, estado, fuentes, pedagogía, evaluación, derechos y seguridad |
-| Lector offline | conservado | HTML autosuficiente v1.0 |
-| PDF de las 20 clases finales | conservado | SHA-256 versionado |
-| PDF de ARQ-680 | conservado | SHA-256 versionado |
-| Enlaces internos del sitio | verificados | `scripts/validate_repo.py` |
-| Codificación UTF-8 | verificada | control de mojibake en Markdown |
+| GitHub Pages | generable | build reproducible desde Markdown y manifiestos |
+| Páginas de clase | **800** | una por ARQ |
+| Portadas de parte | **80** | una por bloque |
+| Páginas de taller | **70** | diez portadas + 60 sesiones |
+| Rutas pedagógicas | **33** | entrada, recorrido, checkpoints, salida y capstone |
+| Recursos transversales del lector v1.0 | **755** | colección histórica conservada |
+| Lector offline y PDF v1.0 | conservados | hashes versionados |
+| Enlaces internos, UTF-8 y salidas | verificables | `scripts/validate_repo.py` |
 
-## 6. Qué sigue pendiente
+## 6. Brechas abiertas
 
-1. **Revisión externa por especialidades.** No se ha realizado una revisión integral por arquitectura, estructuras, geotecnia, instalaciones, incendio, accesibilidad, patrimonio, costos, construcción y operación.
-2. **Pilotos pedagógicos.** La arquitectura documental existe; falta observar comprensión, abandono, tiempos, calidad de crítica y transferencia con estudiantes reales.
-3. **Carga y calendario.** No se publican horas ni créditos hasta medirlos en condiciones declaradas.
-4. **Completitud y vigencia de fuentes.** Faltan uno o más campos contextuales en 1.053 relaciones; además, el repositorio todavía no ejecuta una comprobación periódica de disponibilidad, sustitución, retiro o vigencia normativa.
-5. **Visuales disciplinares.** Todas las clases tienen mapa de aprendizaje; plantas, cortes, mapas, detalles y diagramas técnicos específicos deben ampliarse por especialidad.
-6. **Licencias y terceros.** Código propio bajo Apache-2.0 y contenido original bajo CC BY-NC-SA 4.0. Las obras externas conservan sus derechos y requieren revisar sus términos antes de reutilizarlas.
-7. **Lector offline histórico.** Conserva documentos de v1.0. Cuando una afirmación histórica contradice el estado actual, este documento y las fuentes Markdown actuales prevalecen como marcador de estado.
-8. **Accesibilidad especializada.** El sitio usa HTML semántico, navegación por teclado y diseño adaptable; no cuenta aún con auditoría WCAG externa.
+1. **Revisión externa por especialidades.** Falta revisión integral por arquitectura, estructuras, geotecnia, instalaciones, incendio, accesibilidad, patrimonio, costos, construcción, operación y educación.
+2. **Pilotos pedagógicos.** Falta medir comprensión, abandono, tiempos, crítica, recuperación y transferencia con estudiantes reales.
+3. **Carga y calendario.** No se publican horas ni créditos hasta observarlos en condiciones declaradas.
+4. **Fuentes.** 1.053 usos requieren completar uno o más campos contextuales; también falta vigilancia periódica de disponibilidad y vigencia.
+5. **Visuales disciplinares.** Existen mapas de aprendizaje; deben ampliarse planos, cortes, mapas, detalles y diagramas técnicos por especialidad.
+6. **Accesibilidad especializada.** El sitio usa estructura semántica y diseño adaptable, pero no cuenta con auditoría WCAG externa.
+
+El [roadmap integral](../ROADMAP_INTEGRAL.md) conserva el orden de resolución, responsables documentales y condiciones de cierre de estas brechas.
 
 ## Cómo reproducir la comprobación
 
 ```bash
-python scripts/generate_curriculum_docs.py
+python scripts/generate_curriculum_docs.py --check
+python scripts/build_pedagogical_decisions.py --check
 python scripts/apply_pedagogy.py --check
-python scripts/build_bibliography.py
+python scripts/audit_pedagogical_traceability.py --json
+python scripts/build_bibliography.py --check
 python scripts/build_site.py
 python scripts/validate_repo.py
 ```
 
-El CI ejecuta el build y la validación en cada push y pull request. Que el CI esté en verde demuestra que las comprobaciones automatizadas pasaron; no demuestra corrección disciplinar de cada clase.
+Un CI verde demuestra coherencia reproducible del repositorio. No demuestra corrección disciplinar de cada clase, vigencia legal ni eficacia educativa.

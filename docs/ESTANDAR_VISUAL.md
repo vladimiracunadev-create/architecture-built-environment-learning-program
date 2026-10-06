@@ -17,7 +17,7 @@ La arquitectura no puede enseñarse únicamente mediante prosa. Cada clase incor
 
 ## Jerarquía
 
-- **Mapa de aprendizaje:** obligatorio en 680 clases; explica pregunta, método, transferencia, evidencia y revisión.
+- **Mapa de aprendizaje:** obligatorio en 800 clases; explica pregunta, método, transferencia, evidencia y revisión.
 - **Representación disciplinar:** obligatoria en clases donde forma, espacio, secuencia o relación técnica no se comprenden adecuadamente mediante texto.
 - **Lámina de parte:** integra las diez clases y sus dependencias.
 - **Portafolio:** conserva versiones y no solo imágenes finales.

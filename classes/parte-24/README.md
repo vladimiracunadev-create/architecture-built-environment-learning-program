@@ -163,4 +163,4 @@ Esta parte comienza con **Cemento, áridos, agua y adiciones** y culmina con **D
 
 ## Navegación
 
-[← Parte 23](../parte-23/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 25 →](../parte-25/README.md)
+[← Parte 23](../parte-23/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 25 →](../parte-25/README.md)

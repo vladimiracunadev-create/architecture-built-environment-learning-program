@@ -163,4 +163,4 @@ Esta parte comienza con **Del pedido del cliente a un programa de necesidades** 
 
 ## Navegación
 
-[← Parte 03](../parte-03/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 05 →](../parte-05/README.md)
+[← Parte 03](../parte-03/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 05 →](../parte-05/README.md)

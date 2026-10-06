@@ -163,4 +163,4 @@ Esta parte comienza con **Industrialización: hierro, vidrio y nuevas infraestru
 
 ## Navegación
 
-[← Parte 06](../parte-06/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 08 →](../parte-08/README.md)
+[← Parte 06](../parte-06/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 08 →](../parte-08/README.md)

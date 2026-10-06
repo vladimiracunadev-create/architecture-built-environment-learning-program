@@ -163,4 +163,4 @@ Esta parte comienza con **Del mapa geológico a la investigación del terreno** 
 
 ## Navegación
 
-[← Parte 18](../parte-18/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 20 →](../parte-20/README.md)
+[← Parte 18](../parte-18/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 20 →](../parte-20/README.md)

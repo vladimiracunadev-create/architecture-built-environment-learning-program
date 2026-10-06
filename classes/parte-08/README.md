@@ -163,4 +163,4 @@ Esta parte comienza con **Posmodernismos y revisión del lenguaje arquitectónic
 
 ## Navegación
 
-[← Parte 07](../parte-07/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 09 →](../parte-09/README.md)
+[← Parte 07](../parte-07/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 09 →](../parte-09/README.md)

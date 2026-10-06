@@ -163,4 +163,4 @@ Esta parte comienza con **Aislamiento térmico: conductividad y desempeño en si
 
 ## Navegación
 
-[← Parte 25](../parte-25/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 27 →](../parte-27/README.md)
+[← Parte 25](../parte-25/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 27 →](../parte-27/README.md)

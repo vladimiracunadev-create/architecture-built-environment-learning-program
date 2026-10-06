@@ -163,4 +163,4 @@ Esta parte comienza con **Espacio, forma y organización** y culmina con **Compo
 
 ## Navegación
 
-[← Parte 09](../parte-09/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 11 →](../parte-11/README.md)
+[← Parte 09](../parte-09/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 11 →](../parte-11/README.md)

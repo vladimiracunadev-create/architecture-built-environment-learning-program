@@ -163,4 +163,4 @@ Esta parte comienza con **Problema de diseño e hipótesis de solución** y culm
 
 ## Navegación
 
-[← Parte 13](../parte-13/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 15 →](../parte-15/README.md)
+[← Parte 13](../parte-13/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 15 →](../parte-15/README.md)

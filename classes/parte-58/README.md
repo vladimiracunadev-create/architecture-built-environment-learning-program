@@ -163,4 +163,4 @@ Esta parte comienza con **Estadio: bowl, campo y ciudad** y culmina con **Proyec
 
 ## Navegación
 
-[← Parte 57](../parte-57/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 59 →](../parte-59/README.md)
+[← Parte 57](../parte-57/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 59 →](../parte-59/README.md)

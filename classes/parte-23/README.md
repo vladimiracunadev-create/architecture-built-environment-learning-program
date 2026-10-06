@@ -163,4 +163,4 @@ Esta parte comienza con **Elegir madera: propiedades, humedad, uniones y evidenc
 
 ## Navegación
 
-[← Parte 22](../parte-22/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 24 →](../parte-24/README.md)
+[← Parte 22](../parte-22/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 24 →](../parte-24/README.md)

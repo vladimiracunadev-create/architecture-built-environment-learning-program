@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
   "generated_from": "classes/parte-XX/ARQ-XXX.md",
-  "generated_on": "2026-09-28",
+  "generated_on": "2026-10-06",
   "policy": "Registro derivado de las secciones 'Fuentes y alcance de uso'. Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, aplicabilidad normativa, permiso de redistribución ni respaldo institucional. Si no consta una licencia, se registra como desconocida y se conserva sólo el enlace.",
-  "class_count": 680,
-  "citation_occurrences": 1939,
-  "unique_sources": 622,
-  "unique_domains": 189,
+  "class_count": 800,
+  "citation_occurrences": 2179,
+  "unique_sources": 627,
+  "unique_domains": 190,
   "traceability": {
     "required_context_fields": [
       "function",
@@ -15,14 +15,14 @@
       "accessed_on"
     ],
     "field_coverage": {
-      "function": 1872,
-      "consultation_scope": 1485,
-      "limitation": 1734,
-      "accessed_on": 1058
+      "function": 2112,
+      "consultation_scope": 1725,
+      "limitation": 1974,
+      "accessed_on": 1298
     },
-    "complete_uses": 886,
+    "complete_uses": 1126,
     "partial_uses": 1053,
-    "classes_with_all_uses_complete": 292,
+    "classes_with_all_uses_complete": 412,
     "classes_requiring_context_review": 388,
     "live_availability_check": "not-implemented",
     "normative_currency_review": "pending"
@@ -1299,7 +1299,17 @@
       },
       "redistribution": "link-only",
       "used_in": [
-        "classes/parte-01/ARQ-005.md"
+        "classes/parte-01/ARQ-005.md",
+        "classes/parte-70/ARQ-691.md",
+        "classes/parte-70/ARQ-692.md",
+        "classes/parte-70/ARQ-693.md",
+        "classes/parte-70/ARQ-694.md",
+        "classes/parte-70/ARQ-695.md",
+        "classes/parte-70/ARQ-696.md",
+        "classes/parte-70/ARQ-697.md",
+        "classes/parte-70/ARQ-698.md",
+        "classes/parte-70/ARQ-699.md",
+        "classes/parte-70/ARQ-700.md"
       ],
       "uses": [
         {
@@ -1312,9 +1322,99 @@
           "missing_fields": [
             "consultation_scope"
           ]
+        },
+        {
+          "class": "classes/parte-70/ARQ-691.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-692.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-693.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-694.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-695.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-696.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-697.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-698.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-699.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-700.md",
+          "function": "Identificación, comunicación y gestión documentada de conflictos de interés.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía profesional británica; no sustituye deberes legales, contractuales ni éticos vigentes en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 1
+      "usage_count": 11
     },
     {
       "id": "source-archives-gov-bcfd19f8ce",
@@ -2286,7 +2386,17 @@
         "classes/parte-40/ARQ-393.md",
         "classes/parte-40/ARQ-394.md",
         "classes/parte-40/ARQ-395.md",
-        "classes/parte-40/ARQ-400.md"
+        "classes/parte-40/ARQ-400.md",
+        "classes/parte-75/ARQ-741.md",
+        "classes/parte-75/ARQ-742.md",
+        "classes/parte-75/ARQ-743.md",
+        "classes/parte-75/ARQ-744.md",
+        "classes/parte-75/ARQ-745.md",
+        "classes/parte-75/ARQ-746.md",
+        "classes/parte-75/ARQ-747.md",
+        "classes/parte-75/ARQ-748.md",
+        "classes/parte-75/ARQ-749.md",
+        "classes/parte-75/ARQ-750.md"
       ],
       "uses": [
         {
@@ -2346,9 +2456,99 @@
           "accessed_on": "16-09-2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-741.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-742.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-743.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-744.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-745.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-746.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-747.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-748.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-749.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-750.md",
+          "function": "Marco legal chileno para planificación urbana, urbanización y construcción.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Debe comprobarse texto vigente, aplicabilidad, reglamentos, instrumentos y pronunciamientos para cada caso real. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 6
+      "usage_count": 16
     },
     {
       "id": "source-bibliotecadigital-mineduc-cl-f10af272c1",
@@ -3685,7 +3885,17 @@
       "used_in": [
         "classes/parte-44/ARQ-431.md",
         "classes/parte-44/ARQ-434.md",
-        "classes/parte-44/ARQ-437.md"
+        "classes/parte-44/ARQ-437.md",
+        "classes/parte-72/ARQ-711.md",
+        "classes/parte-72/ARQ-712.md",
+        "classes/parte-72/ARQ-713.md",
+        "classes/parte-72/ARQ-714.md",
+        "classes/parte-72/ARQ-715.md",
+        "classes/parte-72/ARQ-716.md",
+        "classes/parte-72/ARQ-717.md",
+        "classes/parte-72/ARQ-718.md",
+        "classes/parte-72/ARQ-719.md",
+        "classes/parte-72/ARQ-720.md"
       ],
       "uses": [
         {
@@ -3718,9 +3928,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-72/ARQ-711.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-712.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-713.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-714.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-715.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-716.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-717.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-718.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-719.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-720.md",
+          "function": "Estructura abierta de intercambio de información para activos construidos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La existencia del estándar no garantiza interoperabilidad, calidad semántica ni adecuación del modelo a un uso concreto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 3
+      "usage_count": 13
     },
     {
       "id": "source-canada-ca-4d4211a0b5",
@@ -5046,7 +5346,17 @@
       "used_in": [
         "classes/parte-33/ARQ-325.md",
         "classes/parte-33/ARQ-326.md",
-        "classes/parte-33/ARQ-329.md"
+        "classes/parte-33/ARQ-329.md",
+        "classes/parte-73/ARQ-721.md",
+        "classes/parte-73/ARQ-722.md",
+        "classes/parte-73/ARQ-723.md",
+        "classes/parte-73/ARQ-724.md",
+        "classes/parte-73/ARQ-725.md",
+        "classes/parte-73/ARQ-726.md",
+        "classes/parte-73/ARQ-727.md",
+        "classes/parte-73/ARQ-728.md",
+        "classes/parte-73/ARQ-729.md",
+        "classes/parte-73/ARQ-730.md"
       ],
       "uses": [
         {
@@ -5075,9 +5385,99 @@
           "accessed_on": "23 de septiembre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-721.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-722.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-723.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-724.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-725.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-726.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-727.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-728.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-729.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-730.md",
+          "function": "Riesgos y controles para tecnología operacional y sistemas ciberfísicos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense de ciberseguridad; debe adaptarse al activo, amenaza, contrato y regulación aplicables. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 3
+      "usage_count": 13
     },
     {
       "id": "source-designcouncil-org-uk-5608710a10",
@@ -7011,7 +7411,17 @@
         "classes/parte-12/ARQ-120.md",
         "classes/parte-13/ARQ-126.md",
         "classes/parte-13/ARQ-129.md",
-        "classes/parte-13/ARQ-130.md"
+        "classes/parte-13/ARQ-130.md",
+        "classes/parte-76/ARQ-751.md",
+        "classes/parte-76/ARQ-752.md",
+        "classes/parte-76/ARQ-753.md",
+        "classes/parte-76/ARQ-754.md",
+        "classes/parte-76/ARQ-755.md",
+        "classes/parte-76/ARQ-756.md",
+        "classes/parte-76/ARQ-757.md",
+        "classes/parte-76/ARQ-758.md",
+        "classes/parte-76/ARQ-759.md",
+        "classes/parte-76/ARQ-760.md"
       ],
       "uses": [
         {
@@ -7049,9 +7459,99 @@
           "accessed_on": "21 de septiembre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-751.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-752.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-753.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-754.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-755.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-756.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-757.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-758.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-759.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-760.md",
+          "function": "Planificación, diseño e implementación de infraestructura verde para gestión de agua.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia estadounidense; clima, suelo, operación, permisos y desempeño deben verificarse localmente. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 4
+      "usage_count": 14
     },
     {
       "id": "source-epa-gov-41434e0e72",
@@ -9567,7 +10067,17 @@
         "classes/parte-17/ARQ-162.md",
         "classes/parte-18/ARQ-175.md",
         "classes/parte-18/ARQ-176.md",
-        "classes/parte-18/ARQ-180.md"
+        "classes/parte-18/ARQ-180.md",
+        "classes/parte-69/ARQ-681.md",
+        "classes/parte-69/ARQ-682.md",
+        "classes/parte-69/ARQ-683.md",
+        "classes/parte-69/ARQ-684.md",
+        "classes/parte-69/ARQ-685.md",
+        "classes/parte-69/ARQ-686.md",
+        "classes/parte-69/ARQ-687.md",
+        "classes/parte-69/ARQ-688.md",
+        "classes/parte-69/ARQ-689.md",
+        "classes/parte-69/ARQ-690.md"
       ],
       "uses": [
         {
@@ -9654,9 +10164,99 @@
           "accessed_on": "21 de septiembre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-681.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-682.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-683.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-684.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-685.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-686.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-687.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-688.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-689.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-690.md",
+          "function": "Planificación de pruebas con personas, observación y registro de hallazgos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía de servicios digitales transferida como método; no constituye protocolo clínico ni normativa chilena. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 9
+      "usage_count": 19
     },
     {
       "id": "source-gov-uk-f4180739b8",
@@ -13030,7 +13630,17 @@
       "redistribution": "link-only",
       "used_in": [
         "classes/parte-36/ARQ-360.md",
-        "classes/parte-37/ARQ-370.md"
+        "classes/parte-37/ARQ-370.md",
+        "classes/parte-77/ARQ-761.md",
+        "classes/parte-77/ARQ-762.md",
+        "classes/parte-77/ARQ-763.md",
+        "classes/parte-77/ARQ-764.md",
+        "classes/parte-77/ARQ-765.md",
+        "classes/parte-77/ARQ-766.md",
+        "classes/parte-77/ARQ-767.md",
+        "classes/parte-77/ARQ-768.md",
+        "classes/parte-77/ARQ-769.md",
+        "classes/parte-77/ARQ-770.md"
       ],
       "uses": [
         {
@@ -13050,9 +13660,99 @@
           "accessed_on": "23 de septiembre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-761.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-762.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-763.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-764.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-765.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-766.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-767.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-768.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-769.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-770.md",
+          "function": "Principios, requisitos y directrices públicas de adaptación al cambio climático.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública confirma alcance y edición; no equivale a lectura íntegra, certificación ni solución de proyecto. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 2
+      "usage_count": 12
     },
     {
       "id": "source-iso-org-1526b7d6d3",
@@ -13337,7 +14037,17 @@
         "classes/parte-45/ARQ-450.md",
         "classes/parte-46/ARQ-460.md",
         "classes/parte-47/ARQ-461.md",
-        "classes/parte-48/ARQ-476.md"
+        "classes/parte-48/ARQ-476.md",
+        "classes/parte-77/ARQ-761.md",
+        "classes/parte-77/ARQ-762.md",
+        "classes/parte-77/ARQ-763.md",
+        "classes/parte-77/ARQ-764.md",
+        "classes/parte-77/ARQ-765.md",
+        "classes/parte-77/ARQ-766.md",
+        "classes/parte-77/ARQ-767.md",
+        "classes/parte-77/ARQ-768.md",
+        "classes/parte-77/ARQ-769.md",
+        "classes/parte-77/ARQ-770.md"
       ],
       "uses": [
         {
@@ -13530,9 +14240,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-77/ARQ-761.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-762.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-763.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-764.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-765.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-766.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-767.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-768.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-769.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-77/ARQ-770.md",
+          "function": "Estructura conceptual de objetivo, alcance, inventario, evaluación e interpretación del ciclo de vida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La ficha pública no entrega todos los requisitos ni valida inventarios, factores o comparaciones del ejercicio. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 19
+      "usage_count": 29
     },
     {
       "id": "source-iso-org-fa9d8a5738",
@@ -18919,7 +19719,17 @@
         "classes/parte-48/ARQ-473.md",
         "classes/parte-48/ARQ-474.md",
         "classes/parte-48/ARQ-480.md",
-        "classes/parte-50/ARQ-498.md"
+        "classes/parte-50/ARQ-498.md",
+        "classes/parte-72/ARQ-711.md",
+        "classes/parte-72/ARQ-712.md",
+        "classes/parte-72/ARQ-713.md",
+        "classes/parte-72/ARQ-714.md",
+        "classes/parte-72/ARQ-715.md",
+        "classes/parte-72/ARQ-716.md",
+        "classes/parte-72/ARQ-717.md",
+        "classes/parte-72/ARQ-718.md",
+        "classes/parte-72/ARQ-719.md",
+        "classes/parte-72/ARQ-720.md"
       ],
       "uses": [
         {
@@ -19424,9 +20234,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-72/ARQ-711.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-712.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-713.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-714.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-715.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-716.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-717.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-718.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-719.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-72/ARQ-720.md",
+          "function": "Distinción entre verificación, validación, requisitos, producto y uso previsto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Método de ingeniería de sistemas transferido con límites; no valida automáticamente un edificio o una simulación. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 52
+      "usage_count": 62
     },
     {
       "id": "source-nasa-gov-657f013ad0",
@@ -20311,6 +21211,128 @@
         }
       ],
       "usage_count": 82
+    },
+    {
+      "id": "source-nasa-gov-689b8563af",
+      "type": "public-body",
+      "title": "[[NASA-MOON]] Moon Base Systems",
+      "locator": "https://www.nasa.gov/moonbase-systems/",
+      "publisher_or_author": {
+        "name": "National Aeronautics and Space Administration",
+        "basis": "class-text"
+      },
+      "authority_domain": "nasa.gov",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-80/ARQ-791.md",
+        "classes/parte-80/ARQ-792.md",
+        "classes/parte-80/ARQ-793.md",
+        "classes/parte-80/ARQ-794.md",
+        "classes/parte-80/ARQ-795.md",
+        "classes/parte-80/ARQ-796.md",
+        "classes/parte-80/ARQ-797.md",
+        "classes/parte-80/ARQ-798.md",
+        "classes/parte-80/ARQ-799.md",
+        "classes/parte-80/ARQ-800.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-80/ARQ-791.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-792.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-793.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-794.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-795.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-796.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-797.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-798.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-799.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-800.md",
+          "function": "Arquitectura de sistemas, operaciones, logística, autonomía y desafíos ambientales para presencia lunar sostenida.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Material de programa espacial; se estudia como caso avanzado y no desplaza competencias terrestres fundamentales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 10
     },
     {
       "id": "source-nationaltrust-org-uk-b545215345",
@@ -21394,7 +22416,17 @@
         "classes/parte-66/ARQ-656.md",
         "classes/parte-66/ARQ-657.md",
         "classes/parte-66/ARQ-659.md",
-        "classes/parte-66/ARQ-660.md"
+        "classes/parte-66/ARQ-660.md",
+        "classes/parte-74/ARQ-731.md",
+        "classes/parte-74/ARQ-732.md",
+        "classes/parte-74/ARQ-733.md",
+        "classes/parte-74/ARQ-734.md",
+        "classes/parte-74/ARQ-735.md",
+        "classes/parte-74/ARQ-736.md",
+        "classes/parte-74/ARQ-737.md",
+        "classes/parte-74/ARQ-738.md",
+        "classes/parte-74/ARQ-739.md",
+        "classes/parte-74/ARQ-740.md"
       ],
       "uses": [
         {
@@ -21456,9 +22488,221 @@
             "consultation_scope",
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-74/ARQ-731.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-732.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-733.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-734.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-735.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-736.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-737.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-738.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-739.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-740.md",
+          "function": "Definición y principios de fabricación aditiva como proceso por capas desde datos digitales.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La descripción general no demuestra aptitud estructural, durabilidad, certificación ni escala edificatoria. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 5
+      "usage_count": 15
+    },
+    {
+      "id": "source-nist-gov-4e8dd1cf19",
+      "type": "public-body",
+      "title": "[[NIST-AI]] Artificial Intelligence Risk Management Framework 1.0",
+      "locator": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "publisher_or_author": {
+        "name": "National Institute of Standards and Technology",
+        "basis": "class-text"
+      },
+      "authority_domain": "nist.gov",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-73/ARQ-721.md",
+        "classes/parte-73/ARQ-722.md",
+        "classes/parte-73/ARQ-723.md",
+        "classes/parte-73/ARQ-724.md",
+        "classes/parte-73/ARQ-725.md",
+        "classes/parte-73/ARQ-726.md",
+        "classes/parte-73/ARQ-727.md",
+        "classes/parte-73/ARQ-728.md",
+        "classes/parte-73/ARQ-729.md",
+        "classes/parte-73/ARQ-730.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-73/ARQ-721.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-722.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-723.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-724.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-725.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-726.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-727.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-728.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-729.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-73/ARQ-730.md",
+          "function": "Gobernar, mapear, medir y gestionar riesgos de sistemas de inteligencia artificial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco voluntario y general; no certifica herramientas, resultados ni cumplimiento sectorial o local. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 10
     },
     {
       "id": "source-nps-gov-fbcd2c32b4",
@@ -21709,7 +22953,17 @@
       "redistribution": "link-only",
       "used_in": [
         "classes/parte-46/ARQ-452.md",
-        "classes/parte-48/ARQ-472.md"
+        "classes/parte-48/ARQ-472.md",
+        "classes/parte-71/ARQ-701.md",
+        "classes/parte-71/ARQ-702.md",
+        "classes/parte-71/ARQ-703.md",
+        "classes/parte-71/ARQ-704.md",
+        "classes/parte-71/ARQ-705.md",
+        "classes/parte-71/ARQ-706.md",
+        "classes/parte-71/ARQ-707.md",
+        "classes/parte-71/ARQ-708.md",
+        "classes/parte-71/ARQ-709.md",
+        "classes/parte-71/ARQ-710.md"
       ],
       "uses": [
         {
@@ -21733,9 +22987,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-71/ARQ-701.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-702.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-703.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-704.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-705.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-706.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-707.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-708.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-709.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-710.md",
+          "function": "Principios de levantamiento, dibujo, fotografía y archivo de documentación patrimonial.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía estadounidense; su método no convierte una representación en levantamiento certificado ni autorización de intervención. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 2
+      "usage_count": 12
     },
     {
       "id": "source-nps-gov-329d075893",
@@ -21757,7 +23101,17 @@
         "classes/parte-46/ARQ-452.md",
         "classes/parte-46/ARQ-453.md",
         "classes/parte-46/ARQ-454.md",
-        "classes/parte-46/ARQ-459.md"
+        "classes/parte-46/ARQ-459.md",
+        "classes/parte-78/ARQ-771.md",
+        "classes/parte-78/ARQ-772.md",
+        "classes/parte-78/ARQ-773.md",
+        "classes/parte-78/ARQ-774.md",
+        "classes/parte-78/ARQ-775.md",
+        "classes/parte-78/ARQ-776.md",
+        "classes/parte-78/ARQ-777.md",
+        "classes/parte-78/ARQ-778.md",
+        "classes/parte-78/ARQ-779.md",
+        "classes/parte-78/ARQ-780.md"
       ],
       "uses": [
         {
@@ -21803,9 +23157,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-78/ARQ-771.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-772.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-773.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-774.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-775.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-776.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-777.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-778.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-779.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-780.md",
+          "function": "Investigación, documentación, diagnóstico y planificación de intervenciones en edificios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía metodológica; no autoriza intervención ni reemplaza especialistas, ensayos o normativa aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 4
+      "usage_count": 14
     },
     {
       "id": "source-nps-gov-495bb07ef7",
@@ -22101,7 +23545,17 @@
         "classes/parte-46/ARQ-457.md",
         "classes/parte-46/ARQ-458.md",
         "classes/parte-46/ARQ-460.md",
-        "classes/parte-49/ARQ-489.md"
+        "classes/parte-49/ARQ-489.md",
+        "classes/parte-78/ARQ-771.md",
+        "classes/parte-78/ARQ-772.md",
+        "classes/parte-78/ARQ-773.md",
+        "classes/parte-78/ARQ-774.md",
+        "classes/parte-78/ARQ-775.md",
+        "classes/parte-78/ARQ-776.md",
+        "classes/parte-78/ARQ-777.md",
+        "classes/parte-78/ARQ-778.md",
+        "classes/parte-78/ARQ-779.md",
+        "classes/parte-78/ARQ-780.md"
       ],
       "uses": [
         {
@@ -22178,9 +23632,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-78/ARQ-771.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-772.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-773.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-774.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-775.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-776.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-777.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-778.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-779.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-78/ARQ-780.md",
+          "function": "Principios de rehabilitación, compatibilidad, conservación y reconocimiento de cambios históricos.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Criterios estadounidenses usados para comparación; no sustituyen protección patrimonial ni permisos en Chile. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 7
+      "usage_count": 17
     },
     {
       "id": "source-nrc-publications-canada-ca-af8719a05d",
@@ -26372,6 +27916,128 @@
       "usage_count": 6
     },
     {
+      "id": "source-osha-gov-1a7451217a",
+      "type": "public-body",
+      "title": "[[OSHA-ROBOT]] Robotics — Overview",
+      "locator": "https://www.osha.gov/robotics",
+      "publisher_or_author": {
+        "name": "Occupational Safety and Health Administration",
+        "basis": "class-text"
+      },
+      "authority_domain": "osha.gov",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-74/ARQ-731.md",
+        "classes/parte-74/ARQ-732.md",
+        "classes/parte-74/ARQ-733.md",
+        "classes/parte-74/ARQ-734.md",
+        "classes/parte-74/ARQ-735.md",
+        "classes/parte-74/ARQ-736.md",
+        "classes/parte-74/ARQ-737.md",
+        "classes/parte-74/ARQ-738.md",
+        "classes/parte-74/ARQ-739.md",
+        "classes/parte-74/ARQ-740.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-74/ARQ-731.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-732.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-733.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-734.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-735.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-736.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-737.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-738.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-739.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-74/ARQ-740.md",
+          "function": "Reconocimiento de peligros y responsabilidades alrededor de robots y sistemas automatizados.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Referencia laboral estadounidense; no reemplaza evaluación de riesgos, normativa local ni instrucciones del fabricante. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 10
+    },
+    {
       "id": "source-owl-purdue-edu-6c4a00f083",
       "type": "academic",
       "title": "Responsable: Purdue University — Online Writing Lab. Consulta registrada: 2026-09-21.",
@@ -28151,7 +29817,17 @@
         "classes/parte-14/ARQ-137.md",
         "classes/parte-14/ARQ-140.md",
         "classes/parte-15/ARQ-142.md",
-        "classes/parte-15/ARQ-144.md"
+        "classes/parte-15/ARQ-144.md",
+        "classes/parte-70/ARQ-691.md",
+        "classes/parte-70/ARQ-692.md",
+        "classes/parte-70/ARQ-693.md",
+        "classes/parte-70/ARQ-694.md",
+        "classes/parte-70/ARQ-695.md",
+        "classes/parte-70/ARQ-696.md",
+        "classes/parte-70/ARQ-697.md",
+        "classes/parte-70/ARQ-698.md",
+        "classes/parte-70/ARQ-699.md",
+        "classes/parte-70/ARQ-700.md"
       ],
       "uses": [
         {
@@ -28296,9 +29972,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-70/ARQ-691.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-692.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-693.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-694.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-695.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-696.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-697.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-698.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-699.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-70/ARQ-700.md",
+          "function": "Etapas, intercambios de información, estrategias y responsabilidades durante el proyecto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Marco británico usado para comparación; contratos, permisos y atribuciones deben verificarse en la jurisdicción aplicable. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 13
+      "usage_count": 23
     },
     {
       "id": "source-roaf-mineduc-cl-0148f23f02",
@@ -30292,7 +32058,17 @@
         "classes/parte-68/ARQ-677.md",
         "classes/parte-68/ARQ-678.md",
         "classes/parte-68/ARQ-679.md",
-        "classes/parte-68/ARQ-680.md"
+        "classes/parte-68/ARQ-680.md",
+        "classes/parte-69/ARQ-681.md",
+        "classes/parte-69/ARQ-682.md",
+        "classes/parte-69/ARQ-683.md",
+        "classes/parte-69/ARQ-684.md",
+        "classes/parte-69/ARQ-685.md",
+        "classes/parte-69/ARQ-686.md",
+        "classes/parte-69/ARQ-687.md",
+        "classes/parte-69/ARQ-688.md",
+        "classes/parte-69/ARQ-689.md",
+        "classes/parte-69/ARQ-690.md"
       ],
       "uses": [
         {
@@ -30672,9 +32448,99 @@
           "accessed_on": "20 de septiembre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-681.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-682.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-683.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-684.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-685.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-686.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-687.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-688.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-689.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-69/ARQ-690.md",
+          "function": "Amplitud formativa, juicio profesional y relación entre diseño, técnica, sociedad y ambiente.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Noticia y materiales públicos de la revisión; no acredita este programa ni sustituye el texto íntegro de la Carta. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 34
+      "usage_count": 44
     },
     {
       "id": "source-undrr-org-b5934e435a",
@@ -30984,7 +32850,17 @@
         "classes/parte-45/ARQ-445.md",
         "classes/parte-45/ARQ-450.md",
         "classes/parte-48/ARQ-472.md",
-        "classes/parte-48/ARQ-480.md"
+        "classes/parte-48/ARQ-480.md",
+        "classes/parte-80/ARQ-791.md",
+        "classes/parte-80/ARQ-792.md",
+        "classes/parte-80/ARQ-793.md",
+        "classes/parte-80/ARQ-794.md",
+        "classes/parte-80/ARQ-795.md",
+        "classes/parte-80/ARQ-796.md",
+        "classes/parte-80/ARQ-797.md",
+        "classes/parte-80/ARQ-798.md",
+        "classes/parte-80/ARQ-799.md",
+        "classes/parte-80/ARQ-800.md"
       ],
       "uses": [
         {
@@ -31131,9 +33007,99 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-80/ARQ-791.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-792.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-793.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-794.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-795.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-796.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-797.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-798.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-799.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-80/ARQ-800.md",
+          "function": "Vocabulario de amenaza, exposición, vulnerabilidad y capacidad.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "La terminología ordena el análisis; no produce por sí sola un mapa, cálculo o certificación de seguridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 14
+      "usage_count": 24
     },
     {
       "id": "source-undrr-org-109ab11af0",
@@ -31157,7 +33123,17 @@
         "classes/parte-68/ARQ-675.md",
         "classes/parte-68/ARQ-676.md",
         "classes/parte-68/ARQ-679.md",
-        "classes/parte-68/ARQ-680.md"
+        "classes/parte-68/ARQ-680.md",
+        "classes/parte-76/ARQ-751.md",
+        "classes/parte-76/ARQ-752.md",
+        "classes/parte-76/ARQ-753.md",
+        "classes/parte-76/ARQ-754.md",
+        "classes/parte-76/ARQ-755.md",
+        "classes/parte-76/ARQ-756.md",
+        "classes/parte-76/ARQ-757.md",
+        "classes/parte-76/ARQ-758.md",
+        "classes/parte-76/ARQ-759.md",
+        "classes/parte-76/ARQ-760.md"
       ],
       "uses": [
         {
@@ -31228,9 +33204,221 @@
           "accessed_on": "20 de septiembre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-751.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-752.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-753.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-754.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-755.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-756.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-757.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-758.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-759.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-76/ARQ-760.md",
+          "function": "Dependencias, gobernanza y continuidad de servicios de infraestructura en Chile.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Hoja de ruta estratégica; no reemplaza diseño de ingeniería, evaluación de amenaza ni decisión de autoridad. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 6
+      "usage_count": 16
+    },
+    {
+      "id": "source-unhabitat-org-f49d6e6035",
+      "type": "reference",
+      "title": "[[UNHAB-CITIES]] World Cities Report 2024: Cities and Climate Action",
+      "locator": "https://unhabitat.org/world-cities-report-2024-cities-and-climate-action",
+      "publisher_or_author": {
+        "name": "UN-Habitat",
+        "basis": "class-text"
+      },
+      "authority_domain": "unhabitat.org",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-75/ARQ-741.md",
+        "classes/parte-75/ARQ-742.md",
+        "classes/parte-75/ARQ-743.md",
+        "classes/parte-75/ARQ-744.md",
+        "classes/parte-75/ARQ-745.md",
+        "classes/parte-75/ARQ-746.md",
+        "classes/parte-75/ARQ-747.md",
+        "classes/parte-75/ARQ-748.md",
+        "classes/parte-75/ARQ-749.md",
+        "classes/parte-75/ARQ-750.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-75/ARQ-741.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-742.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-743.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-744.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-745.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-746.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-747.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-748.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-749.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-75/ARQ-750.md",
+          "function": "Relación entre urbanización, desigualdad, acción climática, vivienda e infraestructura.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Informe global; sus tendencias no sustituyen datos locales, participación ni instrumentos territoriales vigentes. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 10
     },
     {
       "id": "source-unicef-org-48cbec7d63",
@@ -32060,6 +34248,128 @@
         }
       ],
       "usage_count": 2
+    },
+    {
+      "id": "source-w3-org-f59fb28cac",
+      "type": "reference",
+      "title": "[[WCAG]] Web Content Accessibility Guidelines 2.2",
+      "locator": "https://www.w3.org/TR/WCAG22/",
+      "publisher_or_author": {
+        "name": "World Wide Web Consortium",
+        "basis": "class-text"
+      },
+      "authority_domain": "w3.org",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-71/ARQ-701.md",
+        "classes/parte-71/ARQ-702.md",
+        "classes/parte-71/ARQ-703.md",
+        "classes/parte-71/ARQ-704.md",
+        "classes/parte-71/ARQ-705.md",
+        "classes/parte-71/ARQ-706.md",
+        "classes/parte-71/ARQ-707.md",
+        "classes/parte-71/ARQ-708.md",
+        "classes/parte-71/ARQ-709.md",
+        "classes/parte-71/ARQ-710.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-71/ARQ-701.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-702.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-703.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-704.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-705.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-706.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-707.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-708.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-709.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-71/ARQ-710.md",
+          "function": "Criterios públicos para contenido digital perceptible, operable, comprensible y robusto.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Se aplica a productos digitales; no reemplaza requisitos espaciales, sensoriales o de evacuación del entorno construido. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 10
     },
     {
       "id": "source-wbdg-org-9d3fe8d217",
@@ -34797,7 +37107,17 @@
         "classes/parte-49/ARQ-487.md",
         "classes/parte-49/ARQ-489.md",
         "classes/parte-49/ARQ-490.md",
-        "classes/parte-65/ARQ-646.md"
+        "classes/parte-65/ARQ-646.md",
+        "classes/parte-79/ARQ-781.md",
+        "classes/parte-79/ARQ-782.md",
+        "classes/parte-79/ARQ-783.md",
+        "classes/parte-79/ARQ-784.md",
+        "classes/parte-79/ARQ-785.md",
+        "classes/parte-79/ARQ-786.md",
+        "classes/parte-79/ARQ-787.md",
+        "classes/parte-79/ARQ-788.md",
+        "classes/parte-79/ARQ-789.md",
+        "classes/parte-79/ARQ-790.md"
       ],
       "uses": [
         {
@@ -34950,9 +37270,99 @@
             "consultation_scope",
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-79/ARQ-781.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-782.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-783.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-784.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-785.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-786.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-787.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-788.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-789.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-790.md",
+          "function": "Relación entre condiciones de vivienda y resultados relevantes para la salud.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía sanitaria global; no reemplaza diagnóstico, norma de edificación ni evaluación específica de un hogar. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 14
+      "usage_count": 24
     },
     {
       "id": "source-who-int-534c744305",
@@ -35351,7 +37761,17 @@
       },
       "redistribution": "link-only",
       "used_in": [
-        "classes/parte-04/ARQ-036.md"
+        "classes/parte-04/ARQ-036.md",
+        "classes/parte-79/ARQ-781.md",
+        "classes/parte-79/ARQ-782.md",
+        "classes/parte-79/ARQ-783.md",
+        "classes/parte-79/ARQ-784.md",
+        "classes/parte-79/ARQ-785.md",
+        "classes/parte-79/ARQ-786.md",
+        "classes/parte-79/ARQ-787.md",
+        "classes/parte-79/ARQ-788.md",
+        "classes/parte-79/ARQ-789.md",
+        "classes/parte-79/ARQ-790.md"
       ],
       "uses": [
         {
@@ -35366,9 +37786,99 @@
             "limitation",
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-79/ARQ-781.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-782.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-783.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-784.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-785.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-786.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-787.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-788.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-789.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-79/ARQ-790.md",
+          "function": "Participación de personas mayores y dimensiones de entornos favorables al envejecimiento.",
+          "consultation_scope": "página o documento oficial identificado en el enlace.",
+          "limitation": "Guía global; no representa por sí sola a una comunidad ni fija parámetros dimensionales locales. Fecha de",
+          "accessed_on": "6 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 1
+      "usage_count": 11
     },
     {
       "id": "source-who-int-5149755bb0",

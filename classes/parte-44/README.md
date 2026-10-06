@@ -163,4 +163,4 @@ Esta parte comienza con **BIM es gestión de información, no solo modelar en 3D
 
 ## Navegación
 
-[← Parte 43](../parte-43/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 45 →](../parte-45/README.md)
+[← Parte 43](../parte-43/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 45 →](../parte-45/README.md)

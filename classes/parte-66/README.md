@@ -163,4 +163,4 @@ Esta parte comienza con **Maqueta de masa y emplazamiento** y culmina con **Port
 
 ## Navegación
 
-[← Parte 65](../parte-65/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 67 →](../parte-67/README.md)
+[← Parte 65](../parte-65/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 67 →](../parte-67/README.md)

@@ -163,4 +163,4 @@ Esta parte comienza con **Qué hace alto a un edificio: contexto, proporción y 
 
 ## Navegación
 
-[← Parte 49](../parte-49/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 51 →](../parte-51/README.md)
+[← Parte 49](../parte-49/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 51 →](../parte-51/README.md)

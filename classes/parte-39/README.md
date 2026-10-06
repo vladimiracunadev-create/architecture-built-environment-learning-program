@@ -163,4 +163,4 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 ## Navegación
 
-[← Parte 38](../parte-38/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 40 →](../parte-40/README.md)
+[← Parte 38](../parte-38/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 40 →](../parte-40/README.md)

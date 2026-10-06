@@ -163,4 +163,4 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 ## Navegación
 
-[← Parte 37](../parte-37/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 39 →](../parte-39/README.md)
+[← Parte 37](../parte-37/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 39 →](../parte-39/README.md)

@@ -163,4 +163,4 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 ## Navegación
 
-[← Parte 41](../parte-41/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 43 →](../parte-43/README.md)
+[← Parte 41](../parte-41/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 43 →](../parte-43/README.md)

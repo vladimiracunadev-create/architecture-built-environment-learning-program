@@ -163,4 +163,4 @@ Esta parte comienza con **Escuelas: pedagogía, espacio y comunidad** y culmina 
 
 ## Navegación
 
-[← Parte 15](../parte-15/README.md) · [Mapa de las 68 partes](../README.md) · [Parte 17 →](../parte-17/README.md)
+[← Parte 15](../parte-15/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 17 →](../parte-17/README.md)

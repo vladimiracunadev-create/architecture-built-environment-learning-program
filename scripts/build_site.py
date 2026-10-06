@@ -18,10 +18,13 @@ OUT = ROOT / "site"
 CATALOG_PATH = ROOT / "data" / "catalog.json"
 PEDAGOGY_PATH = ROOT / "data" / "pedagogy.json"
 BIBLIOGRAPHY_PATH = ROOT / "sources" / "bibliography.json"
+PROGRAM_PATH = ROOT / "data" / "program.json"
+PARTS_PATH = ROOT / "data" / "parts.json"
 READER = ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
 REPO_URL = "https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program"
 PAGES_URL = "https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/"
 STARS_URL = f"{REPO_URL}/stargazers"
+PROGRAM = json.loads(PROGRAM_PATH.read_text(encoding="utf-8"))
 
 CSS = r"""
 :root{--ink:#172526;--muted:#5a6967;--paper:#f4f0e7;--card:#fffdf7;--line:#d9d4c8;--navy:#102f38;--teal:#1d6b68;--clay:#b85c38;--gold:#ddb967;--focus:#0067c5;color-scheme:light}
@@ -45,6 +48,26 @@ RESOURCE_TYPES = {
 }
 
 DOC_PAGES = {
+    "MATRIZ_COBERTURA_INTEGRAL.md": (
+        "matriz-cobertura-integral.html",
+        "Matriz de cobertura integral",
+    ),
+    "ARQUITECTURA_DEL_REPOSITORIO.md": (
+        "arquitectura-repositorio.html",
+        "Arquitectura del repositorio",
+    ),
+    "MAPA_DE_DEPENDENCIAS.md": (
+        "mapa-dependencias.html",
+        "Mapa de dependencias",
+    ),
+    "GLOSARIO_ACUMULATIVO.md": (
+        "glosario.html",
+        "Glosario acumulativo",
+    ),
+    "INFORME_INTEGRACION_2026-10.md": (
+        "informe-integracion-2026-10.html",
+        "Informe de integración 2026.10",
+    ),
     "ESTANDAR_DOCUMENTACION_CLASE.md": (
         "estandar-documentacion-clase.html",
         "Estándar de documentación de una clase",
@@ -176,11 +199,10 @@ def display_title(entry: dict) -> str:
 
 
 def part_titles() -> dict[int, str]:
-    text = READER.read_text(encoding="utf-8")
-    matches = re.findall(r'<option value="(\d+)">(\d+)\s*·\s*([^<]+)</option>', text)
-    titles = {int(value): html.unescape(title).strip() for value, _number, title in matches}
-    if set(titles) != set(range(1, 69)):
-        raise ValueError("could not recover the 68 canonical part titles")
+    manifest = json.loads(PARTS_PATH.read_text(encoding="utf-8"))
+    titles = {item["number"]: item["title"] for item in manifest["parts"]}
+    if set(titles) != set(range(1, PROGRAM["part_count"] + 1)):
+        raise ValueError("data/parts.json does not match data/program.json")
     return titles
 
 
@@ -224,6 +246,11 @@ def render_markdown(text: str) -> str:
 def render_document_markdown(text: str) -> str:
     rendered = render_markdown(text)
     rendered = re.sub(
+        r'href="\.\./classes/parte-\d{2}/(ARQ-\d{3})\.md"',
+        lambda match: f'href="clases/{match.group(1).lower()}.html"',
+        rendered,
+    )
+    rendered = re.sub(
         r'href="\.\./learning-paths/(ruta-\d{2})\.md"',
         lambda match: f'href="rutas/{match.group(1)}.html"',
         rendered,
@@ -231,9 +258,11 @@ def render_document_markdown(text: str) -> str:
     )
     for filename, (slug, _title) in DOC_PAGES.items():
         rendered = rendered.replace(f'href="{filename}"', f'href="{slug}"')
+        rendered = rendered.replace(f'href="docs/{filename}"', f'href="{slug}"')
         rendered = rendered.replace(f'href="../docs/{filename}"', f'href="{slug}"')
     return (
         rendered.replace('href="../classes/README.md"', 'href="partes/index.html"')
+        .replace('href="../ROADMAP_INTEGRAL.md"', 'href="roadmap-integral.html"')
         .replace('href="../studios/README.md"', 'href="talleres/index.html"')
         .replace('href="../README.md"', 'href="index.html"')
         .replace('href="../sources/README.md"', 'href="bibliografia.html"')
@@ -277,8 +306,8 @@ def shell(title: str, body: str, *, description: str = "", prefix: str = "") -> 
 <meta property="og:type" content="website"><meta property="og:url" content="{PAGES_URL}">
 <title>{safe_title}</title><link rel="icon" href="{prefix}assets/mark.svg"><link rel="stylesheet" href="{prefix}assets/site.css"></head>
 <body><a class="skip" href="#main">Saltar al contenido</a><header class="topbar"><div class="inner">
-<a class="brand" href="{prefix}index.html">⌂ ARQ · 680 + 48</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}talleres/index.html">Talleres</a><a href="{prefix}rutas/index.html">Rutas</a><a href="{prefix}documentacion.html">Documentación</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
-</div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Cada componente conserva su régimen: contenido original <a href="{REPO_URL}/blob/main/LICENSE-CONTENT.md">CC BY-NC-SA 4.0</a>, código propio <a href="{REPO_URL}/blob/main/LICENSE">Apache-2.0</a> y referencias externas bajo derechos de sus titulares.<br>Material educativo independiente: no otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><strong>¿Te resulta útil? <a href="{STARS_URL}">⭐ Dale una estrella</a></strong><br><a href="{prefix}catalogo.html">680 clases</a> · <a href="{prefix}talleres/index.html">48 sesiones de taller</a> · <a href="{prefix}procedencia-editorial.html">Procedencia</a> · <a href="{prefix}licencias-y-derechos.html">Licencias</a> · <a href="{REPO_URL}">GitHub</a></small></div></footer><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';mermaid.initialize({{startOnLoad:false,securityLevel:'strict',theme:'neutral'}});mermaid.run({{query:'.mermaid'}});</script></body></html>"""
+<a class="brand" href="{prefix}index.html">⌂ ARQ · {PROGRAM['class_count']} + {PROGRAM['studio_session_count']}</a><nav class="nav" aria-label="Principal"><a href="{prefix}partes/index.html">Partes</a><a href="{prefix}catalogo.html">Clases</a><a href="{prefix}talleres/index.html">Talleres</a><a href="{prefix}rutas/index.html">Rutas</a><a href="{prefix}documentacion.html">Documentación</a><a href="{prefix}artefactos.html">Descargas</a><a href="{REPO_URL}">GitHub</a></nav>
+</div></header>{body}<footer class="footer"><div class="inner"><small><strong>Programa Integral de Arquitectura, Construcción y Entorno Habitado.</strong><br>Cada componente conserva su régimen: contenido original <a href="{REPO_URL}/blob/main/LICENSE-CONTENT.md">CC BY-NC-SA 4.0</a>, código propio <a href="{REPO_URL}/blob/main/LICENSE">Apache-2.0</a> y referencias externas bajo derechos de sus titulares.<br>Material educativo independiente: no otorga título, licencia profesional ni autorización para ejecutar obras.</small><small><strong>¿Te resulta útil? <a href="{STARS_URL}">⭐ Dale una estrella</a></strong><br><a href="{prefix}catalogo.html">{PROGRAM['class_count']} clases</a> · <a href="{prefix}talleres/index.html">{PROGRAM['studio_session_count']} sesiones de taller</a> · <a href="{prefix}procedencia-editorial.html">Procedencia</a> · <a href="{prefix}licencias-y-derechos.html">Licencias</a> · <a href="{REPO_URL}">GitHub</a></small></div></footer><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';mermaid.initialize({{startOnLoad:false,securityLevel:'strict',theme:'neutral'}});mermaid.run({{query:'.mermaid'}});</script></body></html>"""
 
 
 def write(relative: str, content: str) -> None:
@@ -299,21 +328,21 @@ def landing(catalog: list[dict], entries: list[dict], titles: dict[int, str]) ->
     counts = {kind: sum(entry["kind"] == kind for entry in entries) for kind in RESOURCE_TYPES}
     parts = "".join(
         f'<a class="part-card" href="partes/parte-{part:02d}.html"><small>Parte {part:02d}</small><strong>{html.escape(titles[part])}</strong><span>ARQ-{(part-1)*10+1:03d} → ARQ-{part*10:03d}</span></a>'
-        for part in range(1, 69)
+        for part in range(1, PROGRAM["part_count"] + 1)
     )
     resources = "".join(
         f'<a class="resource-card" href="{folder}/index.html"><strong>{counts[kind]}</strong><b>{label}</b><span>{description}</span></a>'
         for kind, (folder, label, description) in RESOURCE_TYPES.items()
     )
-    body = f"""<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición pedagógica 2026 · Español · evidencia y revisión</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Del encargo al uso, la conservación y el fin de vida. 680 clases de referencia, 48 sesiones de taller, 12 rutas y evaluación mediante evidencia, crítica, revisión y portafolio.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las 680 clases</a><a class="button" href="talleres/index.html">Abrir los talleres</a><a class="button" href="#estado">Comprobar el estado</a></div></div></section>
-<div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>680</strong><span>clases de referencia</span></div><div class="stat"><strong>48</strong><span>sesiones en 8 talleres</span></div><div class="stat"><strong>12</strong><span>rutas con diagnóstico y capstone</span></div><div class="stat"><strong>680</strong><span>mapas y criterios de aceptación</span></div></section>
-<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado real</p><h2>Qué demuestra el repositorio y qué permanece abierto</h2><p class="lede">La malla está redactada y cada clase publica una cadena específica de decisión. La revisión externa por especialidades y la medición con estudiantes siguen pendientes.</p><table class="status-table"><thead><tr><th>Dimensión</th><th>Evidencia comprobada</th><th>Límite abierto</th></tr></thead><tbody><tr><td>Integridad curricular</td><td class="status-ok">680/680 · 68 partes · 10 clases por parte</td><td>No acredita calidad disciplinar.</td></tr><tr><td>Anatomía de clase</td><td class="status-ok">680 preguntas · 680 actividades · 680 fuentes</td><td>La presencia por sí sola no demuestra calidad.</td></tr><tr><td>Decisión sustentada</td><td class="status-ok">680/680 cadenas específicas</td><td>Cinco pilotos poseen revisión editorial manual profunda; la revisión externa sigue separada.</td></tr><tr><td>Integración</td><td class="status-ok">8 talleres · 48 sesiones · crítica y revisión</td><td>No sustituye estudio, taller o supervisión profesional.</td></tr><tr><td>Procedencia</td><td class="status-ok">1.939 relaciones · 622 URLs · 886 usos completos</td><td>1.053 usos parciales; vigencia externa pendiente.</td></tr><tr><td>Publicación</td><td class="status-ok">Markdown, HTML, lector offline y PDF verificables</td><td>Auditoría WCAG especializada pendiente.</td></tr><tr><td>Revisión externa</td><td class="status-pending">Declarada sin ocultarla</td><td>Revisión profesional por especialidades pendiente.</td></tr></tbody></table><p><a href="estandar-documentacion-clase.html">Abrir el estándar obligatorio →</a></p></section>
+    body = f"""<main id="main"><section class="hero"><div class="inner"><p class="eyebrow">Edición pedagógica 2026.10 · Español · evidencia y revisión</p><h1>Arquitectura,<br>construcción y<br>entorno habitado</h1><p>Del encargo al uso, la conservación y el fin de vida. {PROGRAM['class_count']} clases de referencia, {PROGRAM['studio_session_count']} sesiones de taller, {PROGRAM['route_count']} rutas y evaluación mediante evidencia, crítica, revisión y portafolio.</p><div class="actions"><a class="button primary" href="catalogo.html">Explorar las {PROGRAM['class_count']} clases</a><a class="button" href="talleres/index.html">Abrir los talleres</a><a class="button" href="#estado">Comprobar el estado</a></div></div></section>
+<div class="wrap"><section class="stats" aria-label="Cifras verificadas"><div class="stat"><strong>{PROGRAM['class_count']}</strong><span>clases de referencia</span></div><div class="stat"><strong>{PROGRAM['studio_session_count']}</strong><span>sesiones en {PROGRAM['studio_count']} talleres</span></div><div class="stat"><strong>{PROGRAM['route_count']}</strong><span>rutas con diagnóstico y capstone</span></div><div class="stat"><strong>{PROGRAM['class_count']}</strong><span>mapas y criterios de aceptación</span></div></section>
+<section class="section" id="estado"><p class="eyebrow" style="color:var(--clay)">Estado real</p><h2>Qué demuestra el repositorio y qué permanece abierto</h2><p class="lede">La malla está redactada y cada clase publica una cadena específica de decisión. La revisión externa por especialidades y la medición con estudiantes siguen pendientes.</p><table class="status-table"><thead><tr><th>Dimensión</th><th>Evidencia comprobada</th><th>Límite abierto</th></tr></thead><tbody><tr><td>Integridad curricular</td><td class="status-ok">{PROGRAM['class_count']}/{PROGRAM['class_count']} · {PROGRAM['part_count']} partes · {PROGRAM['classes_per_part']} clases por parte</td><td>No acredita calidad disciplinar.</td></tr><tr><td>Anatomía de clase</td><td class="status-ok">{PROGRAM['class_count']} preguntas · {PROGRAM['class_count']} actividades · {PROGRAM['class_count']} secciones de fuentes</td><td>La presencia por sí sola no demuestra calidad.</td></tr><tr><td>Decisión sustentada</td><td class="status-ok">{PROGRAM['class_count']}/{PROGRAM['class_count']} cadenas específicas</td><td>Cinco pilotos poseen revisión editorial manual profunda; la revisión externa sigue separada.</td></tr><tr><td>Integración</td><td class="status-ok">{PROGRAM['studio_count']} talleres · {PROGRAM['studio_session_count']} sesiones · crítica y revisión</td><td>No sustituye estudio, taller o supervisión profesional.</td></tr><tr><td>Procedencia</td><td class="status-ok">Registro derivado por uso y clase</td><td>La vigencia externa requiere revisión periódica.</td></tr><tr><td>Publicación</td><td class="status-ok">Markdown, HTML, lector offline y PDF verificables</td><td>Auditoría WCAG especializada pendiente.</td></tr><tr><td>Revisión externa</td><td class="status-pending">Declarada sin ocultarla</td><td>Revisión profesional por especialidades pendiente.</td></tr></tbody></table><p><a href="estandar-documentacion-clase.html">Abrir el estándar obligatorio →</a></p></section>
 </div><section class="band"><div class="wrap section"><p class="eyebrow" style="color:var(--clay)">Biblioteca completa</p><h2>Más que un índice de clases</h2><p class="lede">Roles, recorridos, instrumentos, documentos y referencias conservan el mismo alcance editorial del lector original y ahora tienen URL propia.</p><div class="resource-grid">{resources}</div></div></section>
 <div class="wrap"><section class="section"><p class="eyebrow" style="color:var(--clay)">De punta a punta</p><h2>Aprender a decidir, no a copiar soluciones</h2><div class="grid"><article class="card"><span class="num">01 · Secuencia</span><h3>Del fundamento a la integración</h3><p>Representación, historia, territorio, estructuras, instalaciones, gestión, patrimonio y grandes tipologías.</p></article><article class="card"><span class="num">02 · Evidencia</span><h3>El conocimiento tiene procedencia</h3><p>Cada uso se vincula con fuente, autoridad, alcance y límite. <a href="bibliografia.html">El registro publica también lo que todavía falta</a>.</p></article><article class="card"><span class="num">03 · Ciclo de vida</span><h3>Proyecto, obra y operación</h3><p>Las decisiones se siguen desde el encargo hasta el mantenimiento, la adaptación y el fin de vida.</p></article></div></section>
-<section class="section"><h2>Las 68 partes</h2><p class="lede">Cada bloque contiene diez clases y una portada propia con su intervalo, foco y acceso directo.</p><div class="part-grid">{parts}</div></section>
+<section class="section"><h2>Las {PROGRAM['part_count']} partes</h2><p class="lede">Cada bloque contiene diez clases y una portada propia con su intervalo, foco y acceso directo.</p><div class="part-grid">{parts}</div></section>
 <section class="section"><div class="callout"><h2>Alcance profesional explícito</h2><p>Completar este programa no otorga título, licencia, firma, permiso ni habilitación profesional. Los casos numéricos son didácticos salvo atribución explícita. Toda obra real requiere antecedentes, normativa vigente, especialistas competentes, coordinación, revisión y autorizaciones aplicables.</p><p><a href="metodo.html">Leer método, límites y criterios de transferencia →</a></p></div></section>
-<section class="section"><h2>Markdown como fuente; HTML como experiencia</h2><p class="lede">Las 680 clases, las 48 sesiones de taller y las 12 rutas viven como fuentes versionadas. El build produce el portal completo; el lector offline original y los PDF v1.0 permanecen disponibles como artefactos históricos.</p><div class="actions"><a class="button primary" style="background:var(--teal);color:#fff;border-color:var(--teal)" href="catalogo.html">Abrir catálogo</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="talleres/index.html">Abrir talleres</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="artefactos.html">Ver artefactos</a></div></section></div></main>"""
-    return shell("Arquitectura, construcción y entorno habitado", body, description="680 clases, 48 sesiones de taller y 12 rutas con evaluación y portafolio sobre arquitectura, construcción y entorno habitado.")
+<section class="section"><h2>Markdown como fuente; HTML como experiencia</h2><p class="lede">Las {PROGRAM['class_count']} clases, las {PROGRAM['studio_session_count']} sesiones de taller y las {PROGRAM['route_count']} rutas viven como fuentes versionadas. El build produce el portal completo; el lector offline original y los PDF v1.0 permanecen disponibles como artefactos históricos.</p><div class="actions"><a class="button primary" style="background:var(--teal);color:#fff;border-color:var(--teal)" href="catalogo.html">Abrir catálogo</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="talleres/index.html">Abrir talleres</a><a class="button" style="color:var(--teal);border-color:var(--teal)" href="artefactos.html">Ver artefactos</a></div></section></div></main>"""
+    return shell("Arquitectura, construcción y entorno habitado", body, description=f"{PROGRAM['class_count']} clases, {PROGRAM['studio_session_count']} sesiones de taller y {PROGRAM['route_count']} rutas con evaluación y portafolio sobre arquitectura, construcción y entorno habitado.")
 
 
 def catalog_page(catalog: list[dict]) -> str:
@@ -321,19 +350,19 @@ def catalog_page(catalog: list[dict]) -> str:
         f'<a class="lesson-link" data-title="{html.escape((item["id"]+" "+item["title"]).lower())}" data-part="{item["part"]}" href="clases/{item["id"].lower()}.html"><span class="lesson-code">{item["id"]}</span><span class="lesson-title">{html.escape(item["title"])}</span></a>'
         for item in catalog
     )
-    options = "".join(f'<option value="{part}">Parte {part:02d}</option>' for part in range(1, 69))
+    options = "".join(f'<option value="{part}">Parte {part:02d}</option>' for part in range(1, PROGRAM["part_count"] + 1))
     script = """<script>const q=document.querySelector('#q'),p=document.querySelector('#part'),cards=[...document.querySelectorAll('.lesson-link')],count=document.querySelector('#count');function filter(){const t=q.value.trim().toLocaleLowerCase('es').normalize('NFD').replace(/[\\u0300-\\u036f]/g,''),part=p.value;let n=0;for(const c of cards){const key=c.dataset.title.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');const show=(!t||key.includes(t))&&(!part||c.dataset.part===part);c.classList.toggle('hide',!show);if(show)n++}count.textContent=n+' clases visibles'}q.addEventListener('input',filter);p.addEventListener('change',filter);filter()</script>"""
-    body = f'<main id="main" class="wrap section"><p class="kicker">Catálogo completo</p><h1>680 clases · 68 partes</h1><p class="lede">Busca por identificador o concepto. Cada parte contiene diez clases y conserva la secuencia ARQ-001 → ARQ-680.</p><div class="catalog-tools"><label>Buscar clase<input id="q" type="search" placeholder="Ej. madera, sismo, ARQ-240"></label><label>Filtrar por parte<select id="part"><option value="">Todas las partes</option>{options}</select></label></div><p id="count" class="lede" aria-live="polite"></p><div class="catalog-list">{cards}</div>{script}</main>'
-    return shell("Catálogo de 680 clases · Arquitectura", body)
+    body = f'<main id="main" class="wrap section"><p class="kicker">Catálogo completo</p><h1>{PROGRAM["class_count"]} clases · {PROGRAM["part_count"]} partes</h1><p class="lede">Busca por identificador o concepto. Cada parte contiene diez clases y conserva la secuencia ARQ-001 → ARQ-{PROGRAM["class_count"]:03d}.</p><div class="catalog-tools"><label>Buscar clase<input id="q" type="search" placeholder="Ej. madera, sismo, ARQ-240"></label><label>Filtrar por parte<select id="part"><option value="">Todas las partes</option>{options}</select></label></div><p id="count" class="lede" aria-live="polite"></p><div class="catalog-list">{cards}</div>{script}</main>'
+    return shell(f"Catálogo de {PROGRAM['class_count']} clases · Arquitectura", body)
 
 
 def parts_index(catalog: list[dict], titles: dict[int, str]) -> str:
     cards = "".join(
         f'<a class="part-card" href="parte-{part:02d}.html"><small>Parte {part:02d}</small><strong>{html.escape(titles[part])}</strong><span>ARQ-{(part-1)*10+1:03d} → ARQ-{part*10:03d} · 10 clases</span></a>'
-        for part in range(1, 69)
+        for part in range(1, PROGRAM["part_count"] + 1)
     )
-    body = f'<main id="main" class="wrap section"><p class="kicker">Mapa curricular</p><h1>68 partes · 680 clases</h1><p class="lede">La secuencia completa, desde fundamentos del habitar hasta casos integradores de tipologías y grandes obras.</p><div class="part-grid">{cards}</div></main>'
-    return shell("68 partes · Arquitectura", body, prefix="../")
+    body = f'<main id="main" class="wrap section"><p class="kicker">Mapa curricular</p><h1>{PROGRAM["part_count"]} partes · {PROGRAM["class_count"]} clases</h1><p class="lede">La secuencia completa, desde fundamentos del habitar hasta especialización, innovación responsable y proyecto interdisciplinario.</p><div class="part-grid">{cards}</div></main>'
+    return shell(f"{PROGRAM['part_count']} partes · Arquitectura", body, prefix="../")
 
 
 def part_page(part: int, catalog: list[dict], titles: dict[int, str]) -> str:
@@ -351,10 +380,35 @@ def resources_portal(entries: list[dict]) -> str:
     return shell("Recursos transversales · Arquitectura", body)
 
 
-def documentation_portal() -> str:
+def documentation_portal(registry: dict) -> str:
     cards = "".join(
         f'<a class="resource-card" href="{slug}"><b>{html.escape(title)}</b><span>{html.escape(description)}</span></a>'
         for filename, (slug, title), description in (
+            (
+                "MATRIZ_COBERTURA_INTEGRAL.md",
+                DOC_PAGES["MATRIZ_COBERTURA_INTEGRAL.md"],
+                "inventario por área, profundidad, fuentes, brechas y acción",
+            ),
+            (
+                "ARQUITECTURA_DEL_REPOSITORIO.md",
+                DOC_PAGES["ARQUITECTURA_DEL_REPOSITORIO.md"],
+                "fuentes canónicas, salidas derivadas y frontera histórica",
+            ),
+            (
+                "MAPA_DE_DEPENDENCIAS.md",
+                DOC_PAGES["MAPA_DE_DEPENDENCIAS.md"],
+                "prerrequisitos, prácticas, proyectos, competencias y rutas",
+            ),
+            (
+                "GLOSARIO_ACUMULATIVO.md",
+                DOC_PAGES["GLOSARIO_ACUMULATIVO.md"],
+                "vocabulario bilingüe conectado con clases y usos",
+            ),
+            (
+                "INFORME_INTEGRACION_2026-10.md",
+                DOC_PAGES["INFORME_INTEGRACION_2026-10.md"],
+                "contenido conservado, ampliado, reorganizado y pendiente",
+            ),
             (
                 "ESTANDAR_DOCUMENTACION_CLASE.md",
                 DOC_PAGES["ESTANDAR_DOCUMENTACION_CLASE.md"],
@@ -363,7 +417,7 @@ def documentation_portal() -> str:
             (
                 "AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md",
                 DOC_PAGES["AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md"],
-                "diagnóstico, extensión a 680 clases, cinco pilotos profundos, trazabilidad y brechas reales",
+                "diagnóstico histórico, cinco pilotos profundos, trazabilidad y brechas reales",
             ),
             (
                 "ESTADO_VERIFICABLE.md",
@@ -388,7 +442,7 @@ def documentation_portal() -> str:
             (
                 "RUTAS_DE_APRENDIZAJE.md",
                 DOC_PAGES["RUTAS_DE_APRENDIZAJE.md"],
-                "doce recorridos temáticos a través del currículo",
+                "33 recorridos troncales y de especialización",
             ),
             (
                 "ROLES_Y_OFICIOS.md",
@@ -472,7 +526,8 @@ def documentation_portal() -> str:
             ),
         )
     )
-    cards += '<a class="resource-card" href="bibliografia.html"><b>Registro central de fuentes</b><span>622 URLs, 1.939 relaciones y completitud contextual publicada</span></a>'
+    cards += '<a class="resource-card" href="roadmap-integral.html"><b>Roadmap integral</b><span>alcance general, brechas, método de resolución y condiciones de cierre</span></a>'
+    cards += f'<a class="resource-card" href="bibliografia.html"><b>Registro central de fuentes</b><span>{registry["unique_sources"]} URLs, {registry["citation_occurrences"]} relaciones y completitud contextual publicada</span></a>'
     body = f'<main id="main" class="wrap section"><p class="kicker">Documentación del programa</p><h1>Leer antes de contar</h1><p class="lede">Método, procedencia, uso, cobertura y límites documentados fuera del README para que cada afirmación pueda revisarse.</p><div class="resource-grid">{cards}</div></main>'
     return shell("Documentación · Arquitectura", body)
 
@@ -512,14 +567,14 @@ def bibliography_catalog(registry: dict) -> str:
     script = """<script>const q=document.querySelector('#source-q'),t=document.querySelector('#source-type'),cards=[...document.querySelectorAll('[data-source-card]')],count=document.querySelector('#source-count');function filter(){const text=q.value.trim().toLocaleLowerCase('es').normalize('NFD').replace(/[\\u0300-\\u036f]/g,''),type=t.value;let n=0;for(const card of cards){const key=card.dataset.title.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');const show=(!text||key.includes(text))&&(!type||card.dataset.type===type);card.classList.toggle('hide',!show);if(show)n++}count.textContent=n+' fuentes visibles'}q.addEventListener('input',filter);t.addEventListener('change',filter);filter()</script>"""
     body = (
         '<main id="main" class="wrap section"><p class="kicker">Procedencia auditable</p>'
-        '<h1>Catálogo de 622 fuentes</h1><p class="lede">Busca por título, autoridad o dominio. '
+        f'<h1>Catálogo de {registry["unique_sources"]} fuentes</h1><p class="lede">Busca por título, autoridad o dominio. '
         '“Completo” describe el contexto documental del uso; no certifica vigencia ni aplicabilidad.</p>'
         '<div class="catalog-tools"><label>Buscar fuente<input id="source-q" type="search" '
         'placeholder="Ej. ISO, accesibilidad, UNESCO"></label><label>Filtrar por tipo<select id="source-type">'
         f'<option value="">Todos los tipos</option>{options}</select></label></div>'
         f'<p id="source-count" class="lede" aria-live="polite"></p><div class="catalog-list">{"".join(cards)}</div>{script}</main>'
     )
-    return shell("Catálogo de 622 fuentes · Arquitectura", body, prefix="../")
+    return shell(f"Catálogo de {registry['unique_sources']} fuentes · Arquitectura", body, prefix="../")
 
 
 def resource_index(kind: str, entries: list[dict]) -> str:
@@ -580,7 +635,7 @@ def render_studio_markdown(text: str, studio_id: str, *, index: bool = False) ->
 def build_studios(pedagogy: dict) -> None:
     index_text = (ROOT / "studios" / "README.md").read_text(encoding="utf-8")
     index_body = f'<main id="main" class="doc">{render_studio_markdown(index_text, "", index=True)}</main>'
-    write("talleres/index.html", shell("8 talleres verticales · Arquitectura", index_body, prefix="../"))
+    write("talleres/index.html", shell(f"{len(pedagogy['studios'])} talleres verticales · Arquitectura", index_body, prefix="../"))
     for studio in pedagogy["studios"]:
         studio_id = studio["id"]
         folder = ROOT / "studios" / studio_id
@@ -603,8 +658,9 @@ def build_learning_paths(pedagogy: dict) -> None:
         f'<a class="inventory-link" href="{route["id"].lower()}.html"><small>{route["id"]}</small>{html.escape(route["title"])}</a>'
         for route in pedagogy["routes"]
     )
-    body = f'<main id="main" class="wrap section"><p class="kicker">Rutas verificables</p><h1>12 rutas de aprendizaje</h1><p class="lede">Cada ruta declara entrada, recorrido, checkpoints, evidencia de salida, capstone y criterio de finalización.</p><div class="inventory-list">{cards}</div></main>'
-    write("rutas/index.html", shell("12 rutas de aprendizaje · Arquitectura", body, prefix="../"))
+    route_count = len(pedagogy["routes"])
+    body = f'<main id="main" class="wrap section"><p class="kicker">Rutas verificables</p><h1>{route_count} rutas de aprendizaje</h1><p class="lede">Cada ruta declara entrada, recorrido, checkpoints, evidencia de salida, capstone y criterio de finalización.</p><div class="inventory-list">{cards}</div></main>'
+    write("rutas/index.html", shell(f"{route_count} rutas de aprendizaje · Arquitectura", body, prefix="../"))
     for route in pedagogy["routes"]:
         source = ROOT / "learning-paths" / f"{route['id'].lower()}.md"
         rendered = render_markdown(source.read_text(encoding="utf-8"))
@@ -636,10 +692,10 @@ def main() -> int:
     write("index.html", landing(catalog, entries, titles))
     write("catalogo.html", catalog_page(catalog))
     write("recursos.html", resources_portal(entries))
-    write("documentacion.html", documentation_portal())
+    write("documentacion.html", documentation_portal(bibliography))
     write("bibliografia/catalogo.html", bibliography_catalog(bibliography))
     write("partes/index.html", parts_index(catalog, titles))
-    for part in range(1, 69):
+    for part in range(1, PROGRAM["part_count"] + 1):
         write(f"partes/parte-{part:02d}.html", part_page(part, catalog, titles))
 
     for index, item in enumerate(catalog):
@@ -650,7 +706,7 @@ def main() -> int:
         traceability = source_traceability_notice(source_uses[item["source"]])
         previous = catalog[index - 1] if index else None
         following = catalog[index + 1] if index + 1 < len(catalog) else None
-        body = f'<main id="main" class="doc"><p class="kicker">Parte {item["part"]:02d} · Clase {index+1} de 680</p>{content}{traceability}{nav(previous, following)}</main>'
+        body = f'<main id="main" class="doc"><p class="kicker">Parte {item["part"]:02d} · Clase {index+1} de {len(catalog)}</p>{content}{traceability}{nav(previous, following)}</main>'
         write(f'clases/{item["id"].lower()}.html', shell(f'{item["id"]} · {item["title"]}', body, description=item["title"], prefix="../"))
 
     for kind, (folder, _label, _description) in RESOURCE_TYPES.items():
@@ -662,6 +718,7 @@ def main() -> int:
 
     page_from_markdown("metodo.html", ROOT / "docs" / "METODO_Y_ALCANCE.md", "Método y alcance · Arquitectura")
     page_from_markdown("artefactos.html", ROOT / "docs" / "ARTEFACTOS.md", "Descargas · Arquitectura")
+    page_from_markdown("roadmap-integral.html", ROOT / "ROADMAP_INTEGRAL.md", "Roadmap integral · Arquitectura")
     for filename, (slug, title) in DOC_PAGES.items():
         rendered = render_document_markdown(
             (ROOT / "docs" / filename).read_text(encoding="utf-8")
@@ -680,7 +737,7 @@ def main() -> int:
         "bibliografia.html",
         shell(
             "Registro central de fuentes · Arquitectura",
-            f'<main id="main" class="doc"><div class="notice"><strong>Explora las fuentes.</strong> <a href="bibliografia/catalogo.html">Abrir catálogo buscable de 622 fuentes</a>.</div>{rendered_bibliography}</main>',
+            f'<main id="main" class="doc"><div class="notice"><strong>Explora las fuentes.</strong> <a href="bibliografia/catalogo.html">Abrir catálogo buscable de {bibliography["unique_sources"]} fuentes</a>.</div>{rendered_bibliography}</main>',
         ),
     )
     bibliography_target = OUT / "sources" / "bibliography.json"
@@ -692,7 +749,7 @@ def main() -> int:
     write(".nojekyll", "")
     write("404.html", shell("Página no encontrada", '<main id="main" class="doc"><h1>Página no encontrada</h1><p>Vuelve al <a href="index.html">inicio</a> o consulta el <a href="catalogo.html">catálogo completo</a>.</p></main>'))
     print(
-        f"Built {len(catalog)} lessons, 68 part pages, "
+        f"Built {len(catalog)} lessons, {PROGRAM['part_count']} part pages, "
         f"{len(resource_entries)} resource pages and the portal in {OUT}"
     )
     return 0

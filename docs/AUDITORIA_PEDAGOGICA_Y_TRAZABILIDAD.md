@@ -1,5 +1,7 @@
 # Auditoría pedagógica y trazabilidad de decisiones
 
+> **Alcance histórico.** Esta auditoría documenta la consolidación del núcleo ARQ-001–680. La edición 2026.10 extendió el mismo contrato verificable a ARQ-681–800; sus conteos actuales se publican en [Estado verificable](ESTADO_VERIFICABLE.md) y las decisiones de ampliación en el [Informe de integración 2026.10](INFORME_INTEGRACION_2026-10.md).
+
 **Corte verificable:** 28 de septiembre de 2026  
 **Principio rector:** **Una clase no es solo un tema: es una decisión sustentada.**
 

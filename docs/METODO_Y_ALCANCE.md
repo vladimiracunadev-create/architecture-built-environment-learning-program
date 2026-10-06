@@ -2,9 +2,9 @@
 
 ## Qué es este programa
 
-Una malla educativa secuencial de **680 clases en 68 partes**, complementada por **ocho talleres verticales con 48 sesiones** y doce rutas verificables. Integra historia, representación, personas, territorio, estructuras, materiales, instalaciones, gestión, patrimonio, operación y tipologías complejas.
+Una malla educativa secuencial de **800 clases en 80 partes**, complementada por **diez talleres verticales con 60 sesiones** y 33 rutas verificables. Integra historia, representación, personas, territorio, estructuras, materiales, instalaciones, gestión, patrimonio, operación, tipologías complejas, investigación, práctica profesional y tecnologías contemporáneas.
 
-La unidad de trabajo es la clase Markdown. Las 680 clases son la fuente editorial; los índices de parte, el lector HTML y GitHub Pages son superficies de acceso derivadas. La estructura completa puede recorrerse desde el [índice curricular](../classes/README.md).
+La unidad de trabajo es la clase Markdown. Las 800 clases son la fuente editorial; los índices de parte y GitHub Pages son superficies de acceso derivadas. La estructura completa puede recorrerse desde el [índice curricular](../classes/README.md).
 
 Cada clase busca que el estudiante pueda:
 
@@ -17,16 +17,17 @@ Cada clase busca que el estudiante pueda:
 
 ## Arquitectura pedagógica
 
-El programa avanza en dos fases:
+El programa avanza en tres fases:
 
 1. **Fase I, fundamentos transversales (ARQ-001–480):** desarrolla lenguaje, representación, historia, territorio, desempeño, sistemas, coordinación y gestión.
 2. **Fase II, tipologías y obras complejas (ARQ-481–680):** aplica preguntas y métodos a vivienda, salud, transporte, cultura, industria, infraestructura, educación y casos integradores.
+3. **Fase III, profundización, especialización e innovación responsable (ARQ-681–800):** amplía investigación, práctica, representación avanzada, computación, IA, fabricación, política urbana, infraestructura, adaptación, reutilización, cuidados y entornos extremos.
 
 La secuencia no pretende que una clase agote un tema. Cada parte organiza diez clases y cada índice de parte extrae sus preguntas centrales, resultados y enlaces reales. Las [rutas de aprendizaje](RUTAS_DE_APRENDIZAJE.md) permiten una lectura transversal y los talleres obligan a integrar, recibir crítica, revisar y defender.
 
 ## Patrón de una clase
 
-La cobertura efectiva combina bloques detectables y una cadena de decisión específica. Las 680 clases contienen pregunta central, práctica, fuentes, resultados, autoevaluación, errores frecuentes, continuidad, mapa visual, criterio de aceptación y recuperación; además relacionan necesidad, posición, prerrequisitos, fuentes, actividad, evidencia y continuidad. La pauta obligatoria está en el [Estándar de documentación de una clase](ESTANDAR_DOCUMENTACION_CLASE.md).
+La cobertura efectiva combina bloques detectables y una cadena de decisión específica. Las 800 clases contienen pregunta central, práctica, fuentes, resultados, autoevaluación, errores frecuentes, continuidad, mapa visual, criterio de aceptación y recuperación; además relacionan necesidad, posición, prerrequisitos, fuentes, actividad, evidencia y continuidad. La pauta obligatoria está en el [Estándar de documentación de una clase](ESTANDAR_DOCUMENTACION_CLASE.md).
 
 El contrato generado reconstruye elementos específicos desde la clase completa; no debe sustituir su narrativa. Un bloque cumple funciones distintas:
 
@@ -91,13 +92,14 @@ Las instrucciones y ritmos sugeridos están en [Cómo usar el programa](COMO_USA
 
 La redacción de la malla y la arquitectura pedagógica documental están completas. La efectividad con estudiantes, la carga real y la revisión externa por especialidades continúan siendo etapas independientes. La evolución recomendada es pilotar rutas y talleres, auditar clases de alto riesgo, actualizar normas y fuentes y producir segundas ediciones cuando la evidencia lo justifique.
 
-“Completa” se refiere únicamente a que existen las 680 fichas planificadas. No significa homogeneidad total, acreditación, certificación, validación normativa ni revisión externa. Las cifras actuales, el método para reproducirlas y las brechas conocidas se mantienen en [Estado verificable](ESTADO_VERIFICABLE.md).
+“Completa” se refiere únicamente a que existen las 800 fichas planificadas para la edición 2026.10. No significa homogeneidad total, acreditación, certificación, validación normativa ni revisión externa. Las cifras actuales, el método para reproducirlas y las brechas conocidas se mantienen en [Estado verificable](ESTADO_VERIFICABLE.md).
 
 ## Fuentes de verdad del repositorio
 
+- `data/program.json` y `data/parts.json`: edición, conteos, fases y títulos canónicos.
 - `classes/`: contenido editorial de las clases.
 - `docs/ESTANDAR_DOCUMENTACION_CLASE.md`: regla obligatoria de creación, revisión y aceptación.
-- `data/pedagogical-decisions-generated.json`: cadena específica de decisión de las 680 clases.
+- `data/pedagogical-decisions-generated.json`: cadena específica de decisión de las 800 clases.
 - `classes/README.md` y `classes/parte-XX/README.md`: navegación curricular generada.
 - `docs/ESTADO_VERIFICABLE.md`: estado documental actual y brechas.
 - `scripts/generate_curriculum_docs.py`: generación de índices curriculares.
