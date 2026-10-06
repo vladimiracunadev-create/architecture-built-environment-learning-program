@@ -19,21 +19,6 @@ Esta parte comienza con **Fábrica como flujo de proceso** y culmina con **Proye
 - **ARQ-609:** ¿Cómo ampliar una planta sin construir hoy todos los costos del futuro ni bloquear la operación cuando llegue la siguiente etapa?
 - **ARQ-610:** ¿Cómo cerrar un anteproyecto industrial integrando proceso, personas, logística, servicios, riesgos y expansión sin ocultar incompatibilidades?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-601](ARQ-601.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-602](ARQ-602.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-603](ARQ-603.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-604](ARQ-604.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-605](ARQ-605.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-606](ARQ-606.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-607](ARQ-607.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-608](ARQ-608.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-609](ARQ-609.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-610](ARQ-610.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

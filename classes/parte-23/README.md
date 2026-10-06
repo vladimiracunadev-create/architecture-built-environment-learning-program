@@ -19,21 +19,6 @@ Esta parte comienza con **Elegir madera: propiedades, humedad, uniones y evidenc
 - **ARQ-229:** ¿Qué necesita cambiar en nuestro razonamiento cuando pasamos de madera maciza a un culmo de bambú o a otro producto biobasado, aunque todos procedan de recursos vegetales?
 - **ARQ-230:** ¿Cómo verificar la procedencia de un producto y comparar su impacto sin confundir certificación forestal, carbono almacenado, emisiones evitadas y desempeño del edificio?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-221](ARQ-221.md) | Al terminar podrás distinguir propiedades del material y prestaciones del sistema, formular preguntas de especificación y comparar dos alternativas sin asumir que una es sostenible solo por su origen biológico.  |
-| [ARQ-222](ARQ-222.md) | Después de la ARQ-221 existente, esta clase profundiza la relación entre anatomía, ejes y propiedades.  |
-| [ARQ-223](ARQ-223.md) | ARQ-221 introdujo contenido de humedad y ARQ-222 distinguió direcciones.  |
-| [ARQ-224](ARQ-224.md) | Las direcciones y movimientos de ARQ-222–223 se incorporan ahora a un entramado ligero conceptual.  |
-| [ARQ-225](ARQ-225.md) | ARQ-224 relacionó piezas y paneles; ahora distinguiremos madera laminada, paneles contralaminados y otros productos.  |
-| [ARQ-226](ARQ-226.md) | La cooperación de capas de ARQ-225 dependía de sus interfaces.  |
-| [ARQ-227](ARQ-227.md) | Las clases de madera han distinguido producto, orientación e interfaces.  |
-| [ARQ-228](ARQ-228.md) | ARQ-227 distinguió manifestación, geometría y desempeño.  |
-| [ARQ-229](ARQ-229.md) | La clase utiliza anatomía, geometría, documentación y durabilidad de los capítulos anteriores sin trasladar sus valores a otro material.  |
-| [ARQ-230](ARQ-230.md) | Esta clase cierra la parte 23.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Hospital como sistema de flujos** y culmina con **Proy
 - **ARQ-529:** ¿Cómo diseñar un hospital capaz de continuar y transformarse sin confundir redundancia con duplicación indiscriminada?
 - **ARQ-530:** ¿Cómo cerrar un anteproyecto hospitalario conservando simultáneamente programa, flujos, higiene, instalaciones, expansión y continuidad?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-521](ARQ-521.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-522](ARQ-522.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-523](ARQ-523.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-524](ARQ-524.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-525](ARQ-525.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-526](ARQ-526.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-527](ARQ-527.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-528](ARQ-528.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-529](ARQ-529.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-530](ARQ-530.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

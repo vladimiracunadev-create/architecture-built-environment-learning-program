@@ -19,21 +19,6 @@ Esta parte comienza con **Reconocer valor y daño antes de intervenir** y culmin
 - **ARQ-459:** ¿Cómo organizar observación, mantenimiento y participación para detectar cambios antes de que la única respuesta disponible sea una intervención mayor?
 - **ARQ-460:** ¿Cómo comparar alternativas de intervención cuando costo, servicio, valor cultural, riesgo y huella ambiental no pueden reducirse honestamente a un único número?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-451](ARQ-451.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-452](ARQ-452.md) | ARQ-452 abre un tramo nuevo dentro de la Parte 46 y recibe métodos previos sin heredar cifras.  |
-| [ARQ-453](ARQ-453.md) | ARQ-453 continúa desde ARQ-452; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-454](ARQ-454.md) | ARQ-454 continúa desde ARQ-453; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-455](ARQ-455.md) | ARQ-455 continúa desde ARQ-454; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-456](ARQ-456.md) | ARQ-456 continúa desde ARQ-455; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-457](ARQ-457.md) | ARQ-457 continúa desde ARQ-456; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-458](ARQ-458.md) | ARQ-458 continúa desde ARQ-457; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-459](ARQ-459.md) | ARQ-459 continúa desde ARQ-458; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-460](ARQ-460.md) | ARQ-460 continúa desde ARQ-459; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

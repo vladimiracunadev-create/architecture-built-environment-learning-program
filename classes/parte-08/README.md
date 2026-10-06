@@ -19,21 +19,6 @@ Esta parte comienza con **Posmodernismos y revisión del lenguaje arquitectónic
 - **ARQ-079:** ¿Qué cambia en un proyecto cuando se estudian las tareas de cuidado y las experiencias diversas de uso, en lugar de imaginar una persona autónoma que realiza un único trayecto? 
 - **ARQ-080:** ¿Qué puede demostrar una imagen arquitectónica y qué queda fuera de ella? 
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-071](ARQ-071.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-072](ARQ-072.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-073](ARQ-073.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-074](ARQ-074.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-075](ARQ-075.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-076](ARQ-076.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-077](ARQ-077.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-078](ARQ-078.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-079](ARQ-079.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-080](ARQ-080.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

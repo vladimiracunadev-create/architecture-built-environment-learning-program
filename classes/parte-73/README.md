@@ -19,21 +19,6 @@ Esta parte comienza con **Cartografía de usos de IA y decisiones indelegables**
 - **ARQ-729:** ¿Cómo abordar sesgos, copyright, privacidad y seguridad y comprobar esta condición crítica: un uso técnicamente posible puede ser jurídicamente o éticamente inaceptable?
 - **ARQ-730:** ¿Cómo abordar auditoría profesional: ia frente a análisis independiente y comprobar esta condición crítica: el mismo sistema no debe producir y validar su propia respuesta?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-721](ARQ-721.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-722](ARQ-722.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-723](ARQ-723.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-724](ARQ-724.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-725](ARQ-725.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-726](ARQ-726.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-727](ARQ-727.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-728](ARQ-728.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-729](ARQ-729.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-730](ARQ-730.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

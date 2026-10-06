@@ -19,21 +19,6 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 - **ARQ-399:** ¿Qué ocurre cuando un contrato incorpora una norma extranjera o un modelo internacional que no pertenece automáticamente al derecho del lugar?
 - **ARQ-400:** ¿Cómo detectar que una referencia cambió y actualizar un proyecto sin borrar la historia ni sustituir la revisión por una búsqueda en Internet?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-391](ARQ-391.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-392](ARQ-392.md) | Recibe ARQ-391, donde ya se aprendió a leer una norma ISO sin confundir alcance y obligación.  |
-| [ARQ-393](ARQ-393.md) | Recibe ARQ-392: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-394](ARQ-394.md) | Recibe ARQ-393: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-395](ARQ-395.md) | Recibe ARQ-394: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-396](ARQ-396.md) | Recibe ARQ-395: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-397](ARQ-397.md) | Recibe ARQ-396: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-398](ARQ-398.md) | Recibe ARQ-397: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-399](ARQ-399.md) | Recibe ARQ-398: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-400](ARQ-400.md) | Recibe ARQ-399: mantiene identificación, versión, fuentes y estados.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Puerto y terminal como sistema territorial** y culmina
 - **ARQ-619:** ¿Cómo coordinar un borde portuario productivo con ciudad, ambiente y espacio público sin fingir que todos los usos pueden superponerse?
 - **ARQ-620:** ¿Cómo cerrar un anteproyecto portuario integrando frente de agua, patios, edificios, seguridad, ambiente y conexiones terrestres sin inventar una capacidad final?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-611](ARQ-611.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-612](ARQ-612.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-613](ARQ-613.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-614](ARQ-614.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-615](ARQ-615.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-616](ARQ-616.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-617](ARQ-617.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-618](ARQ-618.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-619](ARQ-619.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-| [ARQ-620](ARQ-620.md) | Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

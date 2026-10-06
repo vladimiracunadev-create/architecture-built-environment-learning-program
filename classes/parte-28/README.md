@@ -19,21 +19,6 @@ Esta parte comienza con **Datos climáticos, series y representatividad** y culm
 - **ARQ-279:** ¿Cómo describir sobrecalentamiento y examinar escenarios futuros sin convertir una temperatura media, un umbral aislado o una perturbación inventada en una predicción del comportamiento de un edificio?
 - **ARQ-280:** ¿Cómo comparar estrategias pasivas manteniendo un mismo problema, un balance verificable y estados operativos explícitos, sin sumar beneficios aislados ni declarar una solución ganadora por un solo indicador?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-271](ARQ-271.md) | ARQ-270 enseñó a relacionar una afirmación con su evidencia.  |
-| [ARQ-272](ARQ-272.md) | ARQ-271 dejó clara la procedencia de las condiciones ambientales.  |
-| [ARQ-273](ARQ-273.md) | Recibimos de ARQ-272 dirección solar y normales.  |
-| [ARQ-274](ARQ-274.md) | ARQ-273 estudió la geometría de la sombra.  |
-| [ARQ-275](ARQ-275.md) | En ARQ-218 se estudió propagación periódica dentro de un material.  |
-| [ARQ-276](ARQ-276.md) | ARQ-275 separó almacenamiento y conductancia.  |
-| [ARQ-277](ARQ-277.md) | ARQ-276 distinguió bordes a temperaturas diferentes.  |
-| [ARQ-278](ARQ-278.md) | Las clases anteriores estudiaron sol, aire, capacidad y envolvente.  |
-| [ARQ-279](ARQ-279.md) | ARQ-278 mostró que temperatura seca, humedad y experiencia térmica no son equivalentes.  |
-| [ARQ-280](ARQ-280.md) | Esta clase cierra la parte 28.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Preguntas investigables y problemas de arquitectura** 
 - **ARQ-689:** ¿Cómo abordar reproducibilidad, datos, ética y consentimiento y comprobar esta condición crítica: anonimizar no basta si el contexto permite reidentificar personas?
 - **ARQ-690:** ¿Cómo abordar tesis: argumento, método, resultados y defensa y comprobar esta condición crítica: la conclusión no puede exceder el método ni ocultar resultados adversos?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-681](ARQ-681.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-682](ARQ-682.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-683](ARQ-683.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-684](ARQ-684.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-685](ARQ-685.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-686](ARQ-686.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-687](ARQ-687.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-688](ARQ-688.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-689](ARQ-689.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-690](ARQ-690.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

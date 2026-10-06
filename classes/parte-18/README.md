@@ -19,21 +19,6 @@ Esta parte comienza con **Accesibilidad como cadena de decisiones** y culmina co
 - **ARQ-179:** ¿Cómo investigar una mejora de acceso en un edificio con valores patrimoniales sin tratar esos valores como excusa automática para mantener barreras ni como autorización para intervenir sin conocimiento?
 - **ARQ-180:** ¿Cómo diseñar, interpretar y devolver una prueba de uso sin convertir a las personas en objetos de evaluación ni presentar una mejora promedio como solución para todas las experiencias?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-171](ARQ-171.md) | ARQ-159 examinó cadenas de uso y conservó tres estados: comprobado, no satisfecho y desconocido.  |
-| [ARQ-172](ARQ-172.md) | ARQ-171 mostró que la tarea depende de conexiones y estados.  |
-| [ARQ-173](ARQ-173.md) | ARQ-172 terminó en el descanso de una ruta.  |
-| [ARQ-174](ARQ-174.md) | ARQ-173 distinguió objetos, barridos y maniobras.  |
-| [ARQ-175](ARQ-175.md) | Las clases anteriores estudiaron recorrido, puerta y servicio.  |
-| [ARQ-176](ARQ-176.md) | ARQ-175 situó la información en el recorrido.  |
-| [ARQ-177](ARQ-177.md) | ARQ-175 y ARQ-176 organizaron información y decisiones.  |
-| [ARQ-178](ARQ-178.md) | ARQ-171 examinó dependencias y ARQ-175–177 estudiaron comunicación y ambiente.  |
-| [ARQ-179](ARQ-179.md) | ARQ-178 distinguió estrategia, estados y evidencias.  |
-| [ARQ-180](ARQ-180.md) | Esta clase cierra la parte de accesibilidad.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

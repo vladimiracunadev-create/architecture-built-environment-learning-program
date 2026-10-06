@@ -19,21 +19,6 @@ Esta parte comienza con **Fortificación y paisaje defensivo** y culmina con **P
 - **ARQ-519:** ¿Cómo estudiar reutilización patrimonial de defensas como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
 - **ARQ-520:** ¿Cómo estudiar proyecto de interpretación y adaptación como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-511](ARQ-511.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-512](ARQ-512.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-513](ARQ-513.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-514](ARQ-514.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-515](ARQ-515.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-516](ARQ-516.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-517](ARQ-517.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-518](ARQ-518.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-519](ARQ-519.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-520](ARQ-520.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

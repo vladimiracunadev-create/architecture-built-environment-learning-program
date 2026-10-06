@@ -19,21 +19,6 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 - **ARQ-389:** ¿Cómo mantener decisiones, instrucciones y cambios alineados entre personas sin que la coordinación dependa únicamente de memoria o mensajes informales?
 - **ARQ-390:** ¿Cómo cerrar una obra sin confundir “ya no se está trabajando aquí” con una entrega completa, documentada y operable?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-381](ARQ-381.md) | Esta clase abre la parte 39.  |
-| [ARQ-382](ARQ-382.md) | Recibe el método de ARQ-381: conservar datos, versiones y límites.  |
-| [ARQ-383](ARQ-383.md) | Recibe el método de ARQ-382: conservar datos, versiones y límites.  |
-| [ARQ-384](ARQ-384.md) | Recibe el método de ARQ-383: conservar datos, versiones y límites.  |
-| [ARQ-385](ARQ-385.md) | Recibe el método de ARQ-384: conservar datos, versiones y límites.  |
-| [ARQ-386](ARQ-386.md) | Recibe el método de ARQ-385: conservar datos, versiones y límites.  |
-| [ARQ-387](ARQ-387.md) | Recibe el método de ARQ-386: conservar datos, versiones y límites.  |
-| [ARQ-388](ARQ-388.md) | Recibe el método de ARQ-387: conservar datos, versiones y límites.  |
-| [ARQ-389](ARQ-389.md) | Recibe el método de ARQ-388: conservar datos, versiones y límites.  |
-| [ARQ-390](ARQ-390.md) | Recibe el método de ARQ-389: conservar datos, versiones y límites.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

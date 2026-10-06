@@ -19,21 +19,6 @@ Esta parte comienza con **Paisaje como sistema vivo y cultural** y culmina con *
 - **ARQ-129:** ¿Cómo diseñar el mantenimiento para conservar funciones del paisaje, en vez de limitarlo a que el lugar parezca ordenado?
 - **ARQ-130:** ¿Cómo reunir geometría, suelo, agua, vegetación, uso y mantenimiento en un proyecto que conserve la lógica de todas las decisiones anteriores?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-121](ARQ-121.md) | ARQ-120 entregó QC-PARQUE-01: 18.000 m² y una distribución provisional.  |
-| [ARQ-122](ARQ-122.md) | ARQ-121 mostró que cobertura vegetal y funcionamiento del suelo no son equivalentes.  |
-| [ARQ-123](ARQ-123.md) | ARQ-122 mostró que el suelo necesita caracterización.  |
-| [ARQ-124](ARQ-124.md) | ARQ-122 distinguió entrada al suelo y excedente; ARQ-123 relacionó vegetación con condiciones del sitio.  |
-| [ARQ-125](ARQ-125.md) | ARQ-124 mostró que el tiempo modifica un balance de agua.  |
-| [ARQ-126](ARQ-126.md) | ARQ-124 resolvió un depósito y ARQ-125 una condición de sombra.  |
-| [ARQ-127](ARQ-127.md) | ARQ-126 conectó dispositivos y flujos.  |
-| [ARQ-128](ARQ-128.md) | ARQ-127 distinguió configuración y función ecológica.  |
-| [ARQ-129](ARQ-129.md) | Las clases anteriores definieron agua, sombra, vegetación, conectividad y producción.  |
-| [ARQ-130](ARQ-130.md) | Esta clase cierra la parte 13 y el bloque ARQ-111–130.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

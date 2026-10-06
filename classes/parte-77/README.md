@@ -19,21 +19,6 @@ Esta parte comienza con **Adaptación climática basada en escenarios** y culmin
 - **ARQ-769:** ¿Cómo abordar soluciones basadas en naturaleza y regeneración y comprobar esta condición crítica: vegetación decorativa no equivale a función ecológica?
 - **ARQ-770:** ¿Cómo abordar proyecto climático: evitar, reducir, adaptar y reparar y comprobar esta condición crítica: no se puede declarar regeneración sin línea base y medición?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-761](ARQ-761.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-762](ARQ-762.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-763](ARQ-763.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-764](ARQ-764.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-765](ARQ-765.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-766](ARQ-766.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-767](ARQ-767.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-768](ARQ-768.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-769](ARQ-769.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-770](ARQ-770.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

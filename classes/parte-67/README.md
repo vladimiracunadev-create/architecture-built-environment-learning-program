@@ -19,21 +19,6 @@ Esta parte comienza con **Torres de observación y miradores** y culmina con **P
 - **ARQ-669:** ¿Cómo puede el proyecto demostrar que una estructura alta o remota será inspeccionable y mantenible sin convertir el plano en un procedimiento de trabajo peligroso?
 - **ARQ-670:** ¿Cómo se integra una infraestructura singular cuando forma, servicio, acciones, acceso, mantenimiento y territorio tienen igual peso en la decisión?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-661](ARQ-661.md) | Analizarás una torre de observación como sistema de aproximación, ascenso, estancia, estructura y operación.  |
-| [ARQ-662](ARQ-662.md) | Distinguirás geometría resistente, equipos, cables, energía, balizamiento, acceso y mantenimiento.  |
-| [ARQ-663](ARQ-663.md) | Separarás función de proceso y respuesta estructural.  |
-| [ARQ-664](ARQ-664.md) | Relacionarás significado, sitio, recorrido, material y ciclo de vida.  |
-| [ARQ-665](ARQ-665.md) | Comprenderás la relación entre geometría, pretensión, apoyos y drenaje.  |
-| [ARQ-666](ARQ-666.md) | Distinguirás cargas estáticas y dinámicas, estados de operación y mantenimiento.  |
-| [ARQ-667](ARQ-667.md) | Relacionarás continuidad peatonal, geometría de acceso, deformación y experiencia.  |
-| [ARQ-668](ARQ-668.md) | Construirás un mapa de interfaces offshore sin trasladar parámetros de plataformas reales.  |
-| [ARQ-669](ARQ-669.md) | Definirás zonas, componentes críticos, estados de acceso, indisponibilidad y evidencia de inspección.  |
-| [ARQ-670](ARQ-670.md) | Cerrarás la Parte 67 mediante una comparación de alternativas para una estructura especial ficticia, manteniendo restricciones, preferencias y pendientes separados.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Aeropuerto: landside, terminal y airside** y culmina c
 - **ARQ-539:** ¿Cómo ampliar una terminal sin suponer que la futura fase puede construirse sin afectar la operación actual?
 - **ARQ-540:** ¿Cómo integrar terminal, acceso terrestre, plataforma, equipaje, estructura, servicios y expansión en una propuesta aeroportuaria revisable?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-531](ARQ-531.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-532](ARQ-532.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-533](ARQ-533.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-534](ARQ-534.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-535](ARQ-535.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-536](ARQ-536.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-537](ARQ-537.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-538](ARQ-538.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-539](ARQ-539.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-| [ARQ-540](ARQ-540.md) | Al terminar podrás representar el problema mediante actividades, flujos, capacidades, interfaces y estados; reconstruirás un caso cuantitativo limitado y distinguirás qué evidencia requiere un proyecto real.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

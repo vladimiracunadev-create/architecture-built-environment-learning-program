@@ -19,21 +19,6 @@ Esta parte comienza con **Túnel: geología, trazado y sección** y culmina con 
 - **ARQ-569:** ¿Cómo utilizar monitoreo durante construcción y operación sin convertir una serie de sensores en una decisión automática?
 - **ARQ-570:** ¿Cómo comparar alternativas de infraestructura subterránea sin esconder incertidumbre geológica, construcción y operación detrás de un único puntaje?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-561](ARQ-561.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-562](ARQ-562.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-563](ARQ-563.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-564](ARQ-564.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-565](ARQ-565.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-566](ARQ-566.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-567](ARQ-567.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-568](ARQ-568.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-569](ARQ-569.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-570](ARQ-570.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

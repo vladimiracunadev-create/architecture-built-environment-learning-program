@@ -19,21 +19,6 @@ Esta parte comienza con **Pensamiento algorítmico para proyectistas** y culmina
 - **ARQ-719:** ¿Cómo abordar pruebas, versiones y reproducibilidad del código y comprobar esta condición crítica: un resultado visual correcto no demuestra que el algoritmo sea correcto?
 - **ARQ-720:** ¿Cómo abordar proyecto computacional: regla, modelo y fabricación y comprobar esta condición crítica: la cadena debe conservar unidades y tolerancias hasta la pieza?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-711](ARQ-711.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-712](ARQ-712.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-713](ARQ-713.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-714](ARQ-714.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-715](ARQ-715.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-716](ARQ-716.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-717](ARQ-717.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-718](ARQ-718.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-719](ARQ-719.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-720](ARQ-720.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

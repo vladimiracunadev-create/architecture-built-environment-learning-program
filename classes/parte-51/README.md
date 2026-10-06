@@ -19,21 +19,6 @@ Esta parte comienza con **Iglesia y templo como tipo espacial** y culmina con **
 - **ARQ-509:** ¿Cómo estudiar patrimonio, uso vivo y adaptación como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
 - **ARQ-510:** ¿Cómo estudiar proyecto ceremonial contemporáneo como problema arquitectónico completo, relacionando historia, personas, geometría, técnica y operación sin convertir un ejemplo en receta universal?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-501](ARQ-501.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-502](ARQ-502.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-503](ARQ-503.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-504](ARQ-504.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-505](ARQ-505.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-506](ARQ-506.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-507](ARQ-507.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-508](ARQ-508.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-509](ARQ-509.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-| [ARQ-510](ARQ-510.md) | Al terminar podrás describir el tipo mediante actividades, secuencias, interfaces, sistemas y evidencias; reconstruirás un caso numérico acotado y señalarás qué información falta antes de decidir.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

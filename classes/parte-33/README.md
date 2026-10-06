@@ -19,21 +19,6 @@ Esta parte comienza con **Abastecimiento eléctrico y tableros** y culmina con *
 - **ARQ-329:** ¿Cómo proteger los sistemas conectados de un edificio manteniendo sus funciones físicas y la capacidad de recuperación, sin convertir una revisión de ciberseguridad en una prueba riesgosa sobre equipos reales?
 - **ARQ-330:** ¿Cómo reunir pruebas de servicios, manuales y recepción manteniendo coherencia entre lo instalado, lo documentado y lo que realmente se ha comprobado, sin convertir una carpeta completa en aprobación universal?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-321](ARQ-321.md) | La parte de climatización terminó con servicio, consumo y estados.  |
-| [ARQ-322](ARQ-322.md) | ARQ-321 organizó cargas y fronteras.  |
-| [ARQ-323](ARQ-323.md) | ARQ-322 distinguió balances eléctricos, evidencia e interpretación.  |
-| [ARQ-324](ARQ-324.md) | ARQ-323 separó cantidad de energía y prestación disponible.  |
-| [ARQ-325](ARQ-325.md) | ARQ-324 mantuvo la frontera entre energía y seguridad de una instalación.  |
-| [ARQ-326](ARQ-326.md) | ARQ-325 distinguió comunicación y servicio.  |
-| [ARQ-327](ARQ-327.md) | ARQ-326 separó autorización, actuación y uso.  |
-| [ARQ-328](ARQ-328.md) | ARQ-327 distinguió órdenes y respuesta física.  |
-| [ARQ-329](ARQ-329.md) | ARQ-328 dejó separadas conectividad y funcionamiento del transporte vertical.  |
-| [ARQ-330](ARQ-330.md) | Esta clase cierra las partes 32 y 33.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

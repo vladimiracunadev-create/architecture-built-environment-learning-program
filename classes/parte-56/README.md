@@ -19,21 +19,6 @@ Esta parte comienza con **Puente como tipología y camino de cargas** y culmina 
 - **ARQ-559:** ¿Cómo cambia el diseño del puente cuando se considera desde el inicio fabricación, montaje, inspección, fatiga, corrosión y reparación?
 - **ARQ-560:** ¿Cómo elegir conceptualmente entre varias tipologías de puente sin declarar un ganador a partir de una sola magnitud?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-551](ARQ-551.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-552](ARQ-552.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-553](ARQ-553.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-554](ARQ-554.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-555](ARQ-555.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-556](ARQ-556.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-557](ARQ-557.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-558](ARQ-558.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-559](ARQ-559.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-560](ARQ-560.md) | Al terminar podrás descomponer el sistema de puente en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

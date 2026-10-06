@@ -19,21 +19,6 @@ Esta parte comienza con **Gobernanza urbana, poder y derecho a la ciudad** y cul
 - **ARQ-749:** ¿Cómo abordar participación vinculante y resolución de conflictos y comprobar esta condición crítica: una consulta sin efecto declarado es extracción de tiempo y conocimiento?
 - **ARQ-750:** ¿Cómo abordar plan urbano: escenarios, inversión y evaluación distributiva y comprobar esta condición crítica: el escenario preferido debe superar derechos y condiciones críticas?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-741](ARQ-741.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-742](ARQ-742.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-743](ARQ-743.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-744](ARQ-744.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-745](ARQ-745.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-746](ARQ-746.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-747](ARQ-747.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-748](ARQ-748.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-749](ARQ-749.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-750](ARQ-750.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

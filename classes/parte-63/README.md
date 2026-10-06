@@ -19,21 +19,6 @@ Esta parte comienza con **Edificio cívico y acceso democrático** y culmina con
 - **ARQ-629:** ¿Cómo puede un edificio público conservar funciones esenciales cuando parte de sus espacios, sistemas o comunicaciones dejan de estar disponibles?
 - **ARQ-630:** ¿Cómo integrar múltiples servicios públicos, un tribunal, archivo y funciones comunitarias sin que la suma de programas destruya legibilidad, accesibilidad y continuidad?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-621](ARQ-621.md) | Construirás un programa cívico por servicios, usuarios y estados de operación.  |
-| [ARQ-622](ARQ-622.md) | Analizarás servicios compartidos, picos de demanda y compatibilidad entre atención general, técnica y comunitaria.  |
-| [ARQ-623](ARQ-623.md) | Distinguirás familias de recorridos y sus puntos de interfaz.  |
-| [ARQ-624](ARQ-624.md) | Analizarás cámara, comisiones, galerías, circulaciones y soporte.  |
-| [ARQ-625](ARQ-625.md) | Organizarás atención, espera, entrevistas, personal, soporte y logística como capas funcionales.  |
-| [ARQ-626](ARQ-626.md) | Relacionarás alojamiento, salud, actividad, visitas, trabajo, educación, patios, servicios y operación con principios de dignidad y reintegración.  |
-| [ARQ-627](ARQ-627.md) | Diferenciarás almacenamiento, procesamiento, consulta, cuarentena, digitalización y soporte.  |
-| [ARQ-628](ARQ-628.md) | Estudiarás capas funcionales de acceso, identidad, autorización, operación y registro.  |
-| [ARQ-629](ARQ-629.md) | Construirás una red de dependencias entre función, espacio, personal, información y utilidades.  |
-| [ARQ-630](ARQ-630.md) | Elaborarás un anteproyecto conceptual con programa, flujos, interfaces y estados de operación.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

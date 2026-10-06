@@ -19,21 +19,6 @@ Esta parte comienza con **BIM es gestión de información, no solo modelar en 3D
 - **ARQ-439:** ¿Cómo integrar IA en arquitectura sin delegar decisiones, exponer información sensible ni convertir una respuesta plausible en evidencia?
 - **ARQ-440:** ¿Qué debe sobrevivir a la entrega para que el activo pueda operarse, mantenerse y comprenderse años después?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-431](ARQ-431.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-432](ARQ-432.md) | ARQ-432 abre un nuevo tramo dentro de la Parte 44 y recibe los métodos de la clase anterior sin heredar automáticamente sus cifras.  |
-| [ARQ-433](ARQ-433.md) | ARQ-433 recibe la lógica de ARQ-432; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-434](ARQ-434.md) | ARQ-434 recibe la lógica de ARQ-433; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-435](ARQ-435.md) | ARQ-435 recibe la lógica de ARQ-434; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-436](ARQ-436.md) | ARQ-436 recibe la lógica de ARQ-435; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-437](ARQ-437.md) | ARQ-437 recibe la lógica de ARQ-436; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-438](ARQ-438.md) | ARQ-438 recibe la lógica de ARQ-437; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-439](ARQ-439.md) | ARQ-439 recibe la lógica de ARQ-438; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-440](ARQ-440.md) | ARQ-440 recibe la lógica de ARQ-439; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

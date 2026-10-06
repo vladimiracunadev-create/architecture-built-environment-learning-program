@@ -19,21 +19,6 @@ Esta parte comienza con **Comparar una casa, un hospital y un aeropuerto** y cul
 - **ARQ-679:** ¿Cómo aprender de una tipología sin copiar números, formas o soluciones cuya evidencia pertenece a otro contexto?
 - **ARQ-680:** ¿Cómo defender una decisión arquitectónica compleja mostrando evidencia, límites y alternativas sin fingir que todo está resuelto?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-671](ARQ-671.md) | Construirás una matriz comparativa de tres tipologías, separando invariantes metodológicas de parámetros que no deben copiarse.  |
-| [ARQ-672](ARQ-672.md) | Distinguirás concentración, duración, orientación, acústica, patrimonio y logística en tres espacios colectivos.  |
-| [ARQ-673](ARQ-673.md) | Compararás verticalidad, ocupación, densidad de equipos, continuidad y exposición ambiental sin usar una métrica única.  |
-| [ARQ-674](ARQ-674.md) | Analizarás cadenas de viaje, transbordos, procesamiento, información y estados de interrupción.  |
-| [ARQ-675](ARQ-675.md) | Relacionarás servicio, terreno, agua, construcción, inspección y continuidad en tres familias de infraestructura.  |
-| [ARQ-676](ARQ-676.md) | Compararás capas espaciales, control, habitabilidad, dignidad y adaptación patrimonial desde un nivel arquitectónico no operativo.  |
-| [ARQ-677](ARQ-677.md) | Compararás duración, propiedad, cuidado, horarios y servicios compartidos sin reducir edificios a dormitorios y pasillos.  |
-| [ARQ-678](ARQ-678.md) | Distinguirás proceso, incertidumbre, equipos, seguridad, contaminación, logística y capacidad de cambio.  |
-| [ARQ-679](ARQ-679.md) | Construirás un protocolo explícito de transferencia: problema común, mecanismo, condiciones, diferencias, prueba y límites.  |
-| [ARQ-680](ARQ-680.md) | Cerrarás la Fase II mediante una defensa comparativa que conecte tipología, sitio, personas, sistemas, construcción, operación y ciclo de vida.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

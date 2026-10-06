@@ -19,21 +19,6 @@ Esta parte comienza con **Tejido urbano: trama, parcela, manzana y calle** y cul
 - **ARQ-119:** ¿Cómo comparar alternativas espaciales sin ocultar restricciones, cambiar denominadores o convertir preferencias en supuestos hechos técnicos?
 - **ARQ-120:** ¿Cómo integrar vivienda, servicios y paisaje en un proyecto de barrio sin que cada disciplina trabaje con una versión distinta del mismo lugar?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-111](ARQ-111.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-112](ARQ-112.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-113](ARQ-113.md) | La clase anterior contó viviendas y actividades.  |
-| [ARQ-114](ARQ-114.md) | La cadena de viaje de ARQ-113 termina en una actividad.  |
-| [ARQ-115](ARQ-115.md) | ARQ-112 midió concentración; ARQ-113 reconstruyó viajes y ARQ-114 estudió permanencias.  |
-| [ARQ-116](ARQ-116.md) | ARQ-115 mostró que existencia, acceso y prestación no son equivalentes.  |
-| [ARQ-117](ARQ-117.md) | ARQ-101 distinguió antecedentes prediales; ARQ-110 organizó restricciones del sitio y las últimas clases añadieron relaciones barriales.  |
-| [ARQ-118](ARQ-118.md) | ARQ-117 identificó estados documentales; ahora distinguiremos estados de una intervención.  |
-| [ARQ-119](ARQ-119.md) | ARQ-118 distinguió acciones, productos y resultados.  |
-| [ARQ-120](ARQ-120.md) | Esta clase cierra la parte 12 mediante un expediente de síntesis.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

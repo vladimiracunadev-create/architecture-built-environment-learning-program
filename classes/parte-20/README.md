@@ -19,21 +19,6 @@ Esta parte comienza con **Camino de cargas y continuidad hasta el terreno** y cu
 - **ARQ-199:** ¿Qué representa realmente una malla de cálculo, y por qué aumentar el número de elementos no garantiza que el modelo describa mejor el problema que se desea resolver?
 - **ARQ-200:** ¿Cómo revisar una salida de cálculo de manera que una imagen convincente, un residuo pequeño o una suma correcta no sustituyan la comprensión del modelo y de sus límites?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-191](ARQ-191.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-192](ARQ-192.md) | ARQ-191 siguió las cargas hasta el terreno.  |
-| [ARQ-193](ARQ-193.md) | El diagrama de ARQ-192 entrega acciones externas.  |
-| [ARQ-194](ARQ-194.md) | ARQ-193 distinguió fuerza y tensión.  |
-| [ARQ-195](ARQ-195.md) | ARQ-194 relacionó flexión y desplazamiento; esta clase estudia la estabilidad de una configuración.  |
-| [ARQ-196](ARQ-196.md) | Hasta aquí varias expresiones utilizaron una ley elástica lineal.  |
-| [ARQ-197](ARQ-197.md) | Las clases anteriores estudiaron respuestas bajo datos prescritos.  |
-| [ARQ-198](ARQ-198.md) | ARQ-197 organizó acciones por casos.  |
-| [ARQ-199](ARQ-199.md) | Usaremos equilibrio, elasticidad y compatibilidad de las clases anteriores para construir un modelo discreto de dos barras axiales.  |
-| [ARQ-200](ARQ-200.md) | Esta clase cierra la parte 20.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

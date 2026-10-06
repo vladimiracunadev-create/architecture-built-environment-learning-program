@@ -19,21 +19,6 @@ Esta parte comienza con **Espacio, forma y organización** y culmina con **Compo
 - **ARQ-099:** ¿Cómo escribir una crítica arquitectónica que ayude a comprender y mejorar un proyecto, en vez de limitarse a elogios, gustos o descalificaciones? 
 - **ARQ-100:** ¿Cómo integrar forma, uso, luz, material y restricciones sin convertir el proyecto en una suma de decisiones aisladas? 
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-091](ARQ-091.md) | Construirás tres representaciones del mismo encargo: una tabla de actividades, un grafo de conexiones y una planta esquemática con sección.  |
-| [ARQ-092](ARQ-092.md) | Construirás tres recintos de igual área y proporciones diferentes.  |
-| [ARQ-093](ARQ-093.md) | Distinguirás vacío, espacio libre, espacio cubierto y espacio de transición.  |
-| [ARQ-094](ARQ-094.md) | Distinguirás flujo luminoso, intensidad, iluminancia y luminancia en el alcance introductorio de la clase.  |
-| [ARQ-095](ARQ-095.md) | Distinguirás color percibido, reflectancia, luminancia, textura visual y textura material.  |
-| [ARQ-096](ARQ-096.md) | Describirás un encuentro mediante cuatro recorridos: cargas, agua, aire y mantenimiento.  |
-| [ARQ-097](ARQ-097.md) | Distinguirás tipo, precedente, modelo y solución.  |
-| [ARQ-098](ARQ-098.md) | Distinguirás estilo, lenguaje, recurso formal, moda y apropiación en el alcance analítico propuesto.  |
-| [ARQ-099](ARQ-099.md) | Analizarás un comentario débil, construirás una crítica basada en un expediente ficticio y responderás una objeción.  |
-| [ARQ-100](ARQ-100.md) | Resolverás un programa ficticio de 256 m² dentro de una envolvente disponible, compararás una organización compacta y otra con patio, y evaluarás una tercera que incumple una condición de acceso.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

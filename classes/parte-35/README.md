@@ -19,21 +19,6 @@ Esta parte comienza con **Diseñar frente al sismo: comportamiento, daño y lím
 - **ARQ-349:** ¿Por qué completar una reparación estructural no determina por sí solo cuándo un edificio recupera su función, y cómo se representa la diferencia entre tareas, dependencias y servicio disponible?
 - **ARQ-350:** ¿Cómo revisar una propuesta sismorresistente y sus referencias normativas sin convertir una lista de normas, un resultado favorable aislado o una edición recién publicada en aprobación integral del proyecto?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-341](ARQ-341.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-342](ARQ-342.md) | ARQ-341 se conserva sin modificaciones.  |
-| [ARQ-343](ARQ-343.md) | ARQ-342 mantuvo un único grado de libertad.  |
-| [ARQ-344](ARQ-344.md) | ARQ-343 estudió tres entrepisos sin torsión.  |
-| [ARQ-345](ARQ-345.md) | ARQ-344 repartió demandas elásticas.  |
-| [ARQ-346](ARQ-346.md) | ARQ-345 mostró que un componente común puede limitar una trayectoria.  |
-| [ARQ-347](ARQ-347.md) | Las clases anteriores estudiaron distribución y transferencia.  |
-| [ARQ-348](ARQ-348.md) | ARQ-347 mostró que fuerza y movimiento pueden cambiar de maneras distintas.  |
-| [ARQ-349](ARQ-349.md) | ARQ-348 relacionó componentes y servicios.  |
-| [ARQ-350](ARQ-350.md) | Esta clase cierra la parte 35 y el bloque de incendio y sismorresistencia.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

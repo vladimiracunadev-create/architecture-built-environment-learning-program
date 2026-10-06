@@ -19,21 +19,6 @@ Esta parte comienza con **Casa unifamiliar: sitio, programa y ciclo de vida** y 
 - **ARQ-489:** ¿Cómo adaptar vivienda existente sin convertir una necesidad nueva en demolición automática o en conservación intocable?
 - **ARQ-490:** ¿Cómo cerrar un anteproyecto residencial sin perder las relaciones entre sitio, unidades, estructura, servicios, costo y mantenimiento?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-481](ARQ-481.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-482](ARQ-482.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-483](ARQ-483.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-484](ARQ-484.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-485](ARQ-485.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-486](ARQ-486.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-487](ARQ-487.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-488](ARQ-488.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-489](ARQ-489.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-490](ARQ-490.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

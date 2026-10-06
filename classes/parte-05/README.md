@@ -19,21 +19,6 @@ Esta parte comienza con **Cómo leer la historia de la arquitectura sin reducirl
 - **ARQ-049:** ¿Cómo estudiar arquitecturas africanas sin reducir un continente a un material, una vivienda o una imagen de tradición? 
 - **ARQ-050:** ¿Cómo leer ciudades, caminos y paisajes de las Américas anteriores a la colonización europea sin convertirlos en una sola civilización ni tratarlos como enigmas inexplicables? 
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-041](ARQ-041.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-042](ARQ-042.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-043](ARQ-043.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-044](ARQ-044.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-045](ARQ-045.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-046](ARQ-046.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-047](ARQ-047.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-048](ARQ-048.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-049](ARQ-049.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-050](ARQ-050.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

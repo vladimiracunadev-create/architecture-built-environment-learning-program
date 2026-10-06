@@ -19,21 +19,6 @@ Esta parte comienza con **Encargo integrador y organización interdisciplinaria*
 - **ARQ-479:** ¿Cómo formular una investigación arquitectónica que pueda ser revisada, respete a participantes y no transforme una muestra limitada en una verdad universal?
 - **ARQ-480:** ¿Cómo defender un proyecto integral demostrando razonamiento y evidencia sin fingir que todo está resuelto?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-471](ARQ-471.md) | ARQ-471 abre un tramo nuevo dentro de la Parte 48 y recibe métodos previos sin heredar cifras.  |
-| [ARQ-472](ARQ-472.md) | ARQ-472 continúa desde ARQ-471; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-473](ARQ-473.md) | ARQ-473 continúa desde ARQ-472; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-474](ARQ-474.md) | ARQ-474 continúa desde ARQ-473; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-475](ARQ-475.md) | ARQ-475 continúa desde ARQ-474; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-476](ARQ-476.md) | ARQ-476 continúa desde ARQ-475; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-477](ARQ-477.md) | ARQ-477 continúa desde ARQ-476; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-478](ARQ-478.md) | ARQ-478 continúa desde ARQ-477; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-479](ARQ-479.md) | ARQ-479 continúa desde ARQ-478; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-480](ARQ-480.md) | ARQ-480 continúa desde ARQ-479; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Escuela: aula, patio y comunidad** y culmina con **Pro
 - **ARQ-649:** ¿Cómo crecer una institución educativa sin construir etapas que funcionen mal durante años o que bloqueen la expansión prevista?
 - **ARQ-650:** ¿Cómo integrar aprendizaje, residencia, paisaje, movilidad, etapas y comunidad en un campus sin perder la trazabilidad de cada decisión?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-641](ARQ-641.md) | Construirás un programa escolar por actividades, relaciones y estados de uso.  |
-| [ARQ-642](ARQ-642.md) | Relacionarás cuerpo, juego, cuidado, descanso, exploración, observación y comunidad.  |
-| [ARQ-643](ARQ-643.md) | Analizarás aulas, talleres, laboratorios, espacios sociales y cambios de horario.  |
-| [ARQ-644](ARQ-644.md) | Distinguirás capacidad nominal, ocupación temporal y diversidad de uso.  |
-| [ARQ-645](ARQ-645.md) | Construirás secuencias de preparación, uso y cierre.  |
-| [ARQ-646](ARQ-646.md) | Relacionarás habitación, espacios compartidos, servicios y operación.  |
-| [ARQ-647](ARQ-647.md) | Modelarás una red peatonal simplificada, compararás distancia, tiempo y calidad de conexión, y distinguirás continuidad accesible de mera proximidad geométrica.  |
-| [ARQ-648](ARQ-648.md) | Distinguirás flexibilidad espacial, programática, tecnológica y operativa.  |
-| [ARQ-649](ARQ-649.md) | Planificarás fases con servicios completos, identificarás dependencias temporales y distinguirás reserva de suelo de infraestructura realmente preparada para crecer.  |
-| [ARQ-650](ARQ-650.md) | Construirás un expediente conceptual que conecte programa, red, estados de operación y crecimiento.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

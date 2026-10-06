@@ -19,21 +19,6 @@ Esta parte comienza con **Límites, dominio, servidumbres y antecedentes predial
 - **ARQ-109:** ¿Cómo incorporar experiencias locales a un mapa sin convertir relatos, observaciones y límites formales en una misma clase de evidencia?
 - **ARQ-110:** ¿Cómo reunir la información del sitio en una decisión de avance sin convertir datos incompletos en una falsa certificación de aptitud?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-101](ARQ-101.md) | Construirás un expediente predial ficticio con una matriz de antecedentes, contradicciones y acciones de verificación.  |
-| [ARQ-102](ARQ-102.md) | Interpretarás lecturas atrás y adelante, calcularás cotas sucesivas y comprobarás un circuito cerrado.  |
-| [ARQ-103](ARQ-103.md) | Distinguirás coordenadas, sistema de referencia, proyección, unidades y época.  |
-| [ARQ-104](ARQ-104.md) | Calcularás pendientes direccionales y máxima pendiente de un plano, resolverás la elección de un vecino mediante el método D8 y distinguirás elevación, acumulación y caudal.  |
-| [ARQ-105](ARQ-105.md) | Construirás un perfil de obstrucción, calcularás sombras con geometría ideal y analizarás direcciones circulares.  |
-| [ARQ-106](ARQ-106.md) | Distinguirás presencia física, posibilidad de conexión, capacidad, condiciones de servicio y continuidad.  |
-| [ARQ-107](ARQ-107.md) | Organizarás capas vectoriales y raster, distinguirás resolución y calidad, combinarás condiciones con valores desconocidos y revisarás una unión de tablas.  |
-| [ARQ-108](ARQ-108.md) | Explicarás el recorrido desde imágenes hasta un modelo georreferenciado, calcularás una resolución geométrica ideal y evaluarás discrepancias en puntos independientes.  |
-| [ARQ-109](ARQ-109.md) | Construirás un registro de aportaciones espaciales, distinguirás hechos y percepciones, analizarás duplicaciones y prepararás dos versiones de publicación con diferente nivel de detalle.  |
-| [ARQ-110](ARQ-110.md) | Integrarás geometría, referencias, acceso, servicios y antecedentes territoriales.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

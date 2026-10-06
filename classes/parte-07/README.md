@@ -19,21 +19,6 @@ Esta parte comienza con **Industrialización: hierro, vidrio y nuevas infraestru
 - **ARQ-069:** ¿Cómo leer una arquitectura materialmente expresiva sin reducirla a «hormigón gris» ni convertir su apariencia en un diagnóstico?
 - **ARQ-070:** ¿Cómo cambia una historia de la arquitectura cuando dejamos de tratar al resto del mundo como una lista de copias de un centro?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-061](ARQ-061.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-062](ARQ-062.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-063](ARQ-063.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-064](ARQ-064.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-065](ARQ-065.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-066](ARQ-066.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-067](ARQ-067.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-068](ARQ-068.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-069](ARQ-069.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-070](ARQ-070.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

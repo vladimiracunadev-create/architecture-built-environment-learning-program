@@ -67,24 +67,10 @@ def part_readme(part: int, title: str, lessons: list[dict], decisions: dict[str,
     for item in lessons:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
         question = first_sentence(section(text, (r"pregunta central",)))
-        result = first_sentence(
-            section(
-                text,
-                (
-                    r"resultado.*continuidad",
-                    r"resultado de aprendizaje",
-                    r"qué aprenderás",
-                ),
-            )
-        )
-        details.append((item, question, result))
+        details.append((item, question))
 
     questions = "\n".join(
-        f"- **{item['id']}:** {question}" for item, question, _result in details
-    )
-    outcomes = "\n".join(
-        f"| [{item['id']}]({relative_link(item)}) | {result} |"
-        for item, _question, result in details
+        f"- **{item['id']}:** {question}" for item, question in details
     )
     classes = "\n".join(
         f"| {index:02d} | [{item['id']} · {item['title']}]({relative_link(item)}) |"
@@ -129,12 +115,6 @@ Esta parte comienza con **{lessons[0]['title']}** y culmina con **{lessons[-1]['
 ## Problemas que articula
 
 {questions}
-
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-{outcomes}
 
 ## Recorrido clase a clase
 

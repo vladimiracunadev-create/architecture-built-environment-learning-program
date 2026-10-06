@@ -19,21 +19,6 @@ Esta parte comienza con **Vivienda, hogar y diversidad de unidades domésticas**
 - **ARQ-149:** ¿Cómo comparar vivienda y sistemas considerando habitabilidad, recursos disponibles y costos a lo largo del uso, sin confundir el menor precio inicial con la alternativa que resulta más conveniente bajo todas las condiciones?
 - **ARQ-150:** ¿Cómo evaluar un conjunto habitacional manteniendo coherencia entre viviendas, suelo, recorridos, sistemas y operación cuando una modificación parece mejorar una parte, pero afecta al resto?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-141](ARQ-141.md) | La parte 14 enseñó a formular, comparar y revisar un proyecto.  |
-| [ARQ-142](ARQ-142.md) | ARQ-141 estableció un conjunto habitacional y escenarios domésticos.  |
-| [ARQ-143](ARQ-143.md) | Retomamos HAB-BASE-01, no la casa V-SOL-01.  |
-| [ARQ-144](ARQ-144.md) | Retomamos V-SOL-01: predio de 360 m² y huella inicial de 96.  |
-| [ARQ-145](ARQ-145.md) | ARQ-144 estudió crecimiento.  |
-| [ARQ-146](ARQ-146.md) | ARQ-145 mostró que mover divisiones cambia relaciones además de áreas.  |
-| [ARQ-147](ARQ-147.md) | La privacidad y las interfaces de ARQ-146 vuelven a aparecer en actividades cotidianas.  |
-| [ARQ-148](ARQ-148.md) | El bloque estudió necesidades domésticas, crecimiento y sistemas.  |
-| [ARQ-149](ARQ-149.md) | ARQ-148 mostró que una transformación puede conservar superficie y cambiar servicios.  |
-| [ARQ-150](ARQ-150.md) | Esta clase cierra la parte 15 y el bloque ARQ-131–150.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Escuelas: pedagogía, espacio y comunidad** y culmina 
 - **ARQ-159:** ¿Cómo comprobar que una persona puede completar una actividad en un equipamiento complejo cuando sus componentes aislados parecen correctos, pero la cadena completa puede estar interrumpida?
 - **ARQ-160:** ¿Cómo coordinar requisitos sectoriales, normas y operación sin declarar aprobado un equipamiento porque contiene una lista extensa de referencias o muchos documentos con firmas?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-151](ARQ-151.md) | ARQ-150 cerró una evaluación de vivienda.  |
-| [ARQ-152](ARQ-152.md) | La escuela anterior enseñó a vincular actividades y espacios.  |
-| [ARQ-153](ARQ-153.md) | Abrimos CIV-BASE-01, un centro ficticio de 600 m² brutos que reaparecerá en ARQ-157, 159 y 160.  |
-| [ARQ-154](ARQ-154.md) | Trabajarás con MUS-EST-01, una exposición ficticia sin objetos patrimoniales reales.  |
-| [ARQ-155](ARQ-155.md) | La exposición anterior integró público, objetos y mantenimiento.  |
-| [ARQ-156](ARQ-156.md) | ARQ-155 estudió participar y retornar.  |
-| [ARQ-157](ARQ-157.md) | Regresamos a CIV-BASE-01 de ARQ-153.  |
-| [ARQ-158](ARQ-158.md) | Esta clase utiliza CON-EST-01, un recinto ficticio independiente de CIV-BASE-01.  |
-| [ARQ-159](ARQ-159.md) | Recuperamos CIV-BASE-01: biblioteca, atención cívica, sala polivalente y servicios, con los mismos 600 m².  |
-| [ARQ-160](ARQ-160.md) | Esta clase cierra la parte 16.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

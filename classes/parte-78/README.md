@@ -19,21 +19,6 @@ Esta parte comienza con **Inventario de edificios existentes y potencial de reut
 - **ARQ-779:** ¿Cómo abordar deconstrucción selectiva y bancos de componentes y comprobar esta condición crítica: recuperar cantidad no garantiza calidad para reutilizar?
 - **ARQ-780:** ¿Cómo abordar proyecto de reutilización adaptativa y seguimiento y comprobar esta condición crítica: el éxito se comprueba en uso, no sólo al inaugurar?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-771](ARQ-771.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-772](ARQ-772.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-773](ARQ-773.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-774](ARQ-774.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-775](ARQ-775.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-776](ARQ-776.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-777](ARQ-777.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-778](ARQ-778.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-779](ARQ-779.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-780](ARQ-780.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

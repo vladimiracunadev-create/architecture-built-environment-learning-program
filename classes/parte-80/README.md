@@ -19,21 +19,6 @@ Esta parte comienza con **Arquitectura en desiertos, altura y aislamiento** y cu
 - **ARQ-799:** ¿Cómo abordar seguridad física y ciberseguridad de edificios conectados y comprobar esta condición crítica: una interfaz sin propietario es una falla pendiente?
 - **ARQ-800:** ¿Cómo abordar proyecto final: integrar, verificar, defender y transferir y comprobar esta condición crítica: defender incluye reconocer límites y condiciones de reapertura?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-791](ARQ-791.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-792](ARQ-792.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-793](ARQ-793.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-794](ARQ-794.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-795](ARQ-795.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-796](ARQ-796.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-797](ARQ-797.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-798](ARQ-798.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-799](ARQ-799.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-800](ARQ-800.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

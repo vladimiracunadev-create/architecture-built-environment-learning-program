@@ -19,21 +19,6 @@ Esta parte comienza con **Modelos de práctica y propósito de una oficina** y c
 - **ARQ-699:** ¿Cómo abordar liderazgo, equipos, bienestar y aprendizaje y comprobar esta condición crítica: la sobrecarga sostenida es un riesgo de calidad y seguridad?
 - **ARQ-700:** ¿Cómo abordar simulación de encargo: propuesta, reunión y cierre y comprobar esta condición crítica: ningún cierre es válido con alcance, autoridad o siguiente paso ambiguos?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-691](ARQ-691.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-692](ARQ-692.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-693](ARQ-693.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-694](ARQ-694.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-695](ARQ-695.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-696](ARQ-696.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-697](ARQ-697.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-698](ARQ-698.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-699](ARQ-699.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-700](ARQ-700.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Desglose del trabajo y planificación de construcción
 - **ARQ-429:** ¿Cómo medir avance sin confundir gasto, cantidad producida y valor del trabajo planificado?
 - **ARQ-430:** ¿Cómo cerrar una obra sin confundir entrega física, aceptación documental, subsanación de pendientes y cierre económico?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-421](ARQ-421.md) | ARQ-421 abre la Parte 43 y traslada los métodos anteriores a un caso económico y de gestión nuevo.  |
-| [ARQ-422](ARQ-422.md) | Recibe ARQ-421 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-423](ARQ-423.md) | Recibe ARQ-422 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-424](ARQ-424.md) | Recibe ARQ-423 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-425](ARQ-425.md) | Recibe ARQ-424 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-426](ARQ-426.md) | Recibe ARQ-425 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-427](ARQ-427.md) | Recibe ARQ-426 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-428](ARQ-428.md) | Recibe ARQ-427 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-429](ARQ-429.md) | Recibe ARQ-428 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-430](ARQ-430.md) | Recibe ARQ-429 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

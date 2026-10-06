@@ -19,21 +19,6 @@ Esta parte comienza con **Envejecimiento poblacional y autonomía cotidiana** y 
 - **ARQ-789:** ¿Cómo abordar refugios, emergencia y reunificación familiar y comprobar esta condición crítica: la condición temporal no justifica soluciones indignas?
 - **ARQ-790:** ¿Cómo abordar proyecto intergeneracional de barrio y cuidados y comprobar esta condición crítica: la participación requiere consentimiento, devolución y cambios visibles?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-781](ARQ-781.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-782](ARQ-782.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-783](ARQ-783.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-784](ARQ-784.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-785](ARQ-785.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-786](ARQ-786.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-787](ARQ-787.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-788](ARQ-788.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-789](ARQ-789.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-790](ARQ-790.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

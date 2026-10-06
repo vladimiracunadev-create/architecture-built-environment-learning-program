@@ -19,21 +19,6 @@ Esta parte comienza con **La envolvente como sistema: calor, aire, agua y encuen
 - **ARQ-269:** ¿Cómo comprobar una junta cuando dimensiones iniciales, temperatura y movimientos estructurales tienen distintas referencias, y por qué el mayor ancho absoluto no siempre corresponde a la mayor deformación porcentual?
 - **ARQ-270:** ¿Cómo organizar cálculos, inspecciones y ensayos para que cada afirmación sobre la envolvente tenga evidencia pertinente, sin tratar un resultado favorable aislado como aprobación de todo el edificio?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-261](ARQ-261.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-262](ARQ-262.md) | ARQ-261, conservada, integró calor, aire, agua y encuentros.  |
-| [ARQ-263](ARQ-263.md) | ARQ-262 separó superficie de acabado, captación y distribución temporal.  |
-| [ARQ-264](ARQ-264.md) | ARQ-263 investigó rutas de agua mediante geometría.  |
-| [ARQ-265](ARQ-265.md) | ARQ-264 diferenció piel, cámara y cierre interior.  |
-| [ARQ-266](ARQ-266.md) | ARQ-265 coordinó el vano con el muro.  |
-| [ARQ-267](ARQ-267.md) | ARQ-266 separó fuga de aire y condiciones de ensayo.  |
-| [ARQ-268](ARQ-268.md) | ARQ-267 necesitó una temperatura de interfaz.  |
-| [ARQ-269](ARQ-269.md) | ARQ-268 conservó convenciones térmicas.  |
-| [ARQ-270](ARQ-270.md) | Esta clase cierra las partes 26 y 27.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Comparar impactos: unidad funcional, vida útil y lím
 - **ARQ-449:** ¿Qué demuestra una certificación y por qué una puntuación o nivel no sustituye la lectura de sus criterios, alcance y fecha?
 - **ARQ-450:** ¿Cómo cerrar una comparación compleja sin reducir sostenibilidad a una sola cifra ni ocultar efectos sobre personas y territorio?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-441](ARQ-441.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-442](ARQ-442.md) | ARQ-442 abre un nuevo tramo dentro de la Parte 45 y recibe los métodos de la clase anterior sin heredar automáticamente sus cifras.  |
-| [ARQ-443](ARQ-443.md) | ARQ-443 recibe la lógica de ARQ-442; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-444](ARQ-444.md) | ARQ-444 recibe la lógica de ARQ-443; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-445](ARQ-445.md) | ARQ-445 recibe la lógica de ARQ-444; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-446](ARQ-446.md) | ARQ-446 recibe la lógica de ARQ-445; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-447](ARQ-447.md) | ARQ-447 recibe la lógica de ARQ-446; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-448](ARQ-448.md) | ARQ-448 recibe la lógica de ARQ-447; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-449](ARQ-449.md) | ARQ-449 recibe la lógica de ARQ-448; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-| [ARQ-450](ARQ-450.md) | ARQ-450 recibe la lógica de ARQ-449; cualquier parámetro nuevo se identifica como caso propio y no modifica retrospectivamente el capítulo anterior.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

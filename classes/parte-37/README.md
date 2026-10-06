@@ -19,21 +19,6 @@ Esta parte comienza con **Viento: presión, succión y continuidad de fijaciones
 - **ARQ-369:** ¿Cómo estudiar dos amenazas o una amenaza y una interrupción de suministro sin asumir independencia, duplicar consecuencias ni convertir los resultados de varios ejemplos en un único edificio ficticio?
 - **ARQ-370:** ¿Cómo actualizar un proyecto frente a información climática cambiante sin reemplazar el análisis por un único factor de incremento ni confundir una sensibilidad didáctica con una proyección local?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-361](ARQ-361.md) | La parte 37 comienza con VIE-PRES-01, un modelo ideal de presión sobre una superficie.  |
-| [ARQ-362](ARQ-362.md) | Construirás dos modelos separados: LLV-FLUJO-01, transporte uniforme de gotas idealizadas, y LLV-BAL-01, balance de agua en un cerramiento ficticio.  |
-| [ARQ-363](ARQ-363.md) | Resolverás NIE-MASA-01, dos capas ficticias de distinta densidad, y NIE-VIGA-01/02, modelos independientes de distribución de carga.  |
-| [ARQ-364](ARQ-364.md) | Estudiarás un circuito matemático R–L independiente, RAY-RL-01, para distinguir corriente máxima y rapidez de cambio.  |
-| [ARQ-365](ARQ-365.md) | Derivarás EXT-TERM-01, un recinto térmico ideal de un nodo, y compararás cambios de capacidad, ganancias y conductancia.  |
-| [ARQ-366](ARQ-366.md) | EXT-FRIO-01 mantiene C=3,60 MJ/K y H=100 W/K del nodo anterior, pero cambia explícitamente exterior, temperatura inicial y condiciones de servicio.  |
-| [ARQ-367](ARQ-367.md) | Desarrollarás SEQ-PAISAJE-01, un presupuesto de agua para una superficie vegetal ficticia, y SEQ-DEPOSITO-01, su continuidad durante tres intervalos.  |
-| [ARQ-368](ARQ-368.md) | Construirás IFZ-REL-01, un grafo de exposición hipotética, y IFZ-CONTEO-01, un registro simulado de partículas depositadas.  |
-| [ARQ-369](ARQ-369.md) | Recuperamos TER-SERV-01 de ARQ-357 y PLU-BASE-01 de ARQ-353, cada uno en su propia frontera.  |
-| [ARQ-370](ARQ-370.md) | Esta clase cierra las partes36 y37.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

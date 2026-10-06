@@ -19,21 +19,6 @@ Esta parte comienza con **Muros portantes y distribución del espacio** y culmin
 - **ARQ-209:** ¿Cómo influyen posición y rigidez de los elementos verticales en el movimiento de un piso, y por qué una junta o un núcleo necesitan estudiarse como parte de una trayectoria completa?
 - **ARQ-210:** ¿Cómo coordinar estructura, envolvente e instalaciones de modo que una alternativa que parece resolver una interferencia no cree otra ni cambie silenciosamente las hipótesis del proyecto?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-201](ARQ-201.md) | La parte 21 abre EST-HALL-01, un recinto ficticio de 18 m en x por 12 m en y:216 m².  |
-| [ARQ-202](ARQ-202.md) | Se conserva EST-HALL-01:18×12 m y 5 kN/m² sobre el plano superior.  |
-| [ARQ-203](ARQ-203.md) | ARQ-202 mostró la importancia de los giros en los marcos.  |
-| [ARQ-204](ARQ-204.md) | Se conserva la planta de referencia EST-HALL-01 y su carga superficial de 5 kN/m².  |
-| [ARQ-205](ARQ-205.md) | Después de pisos y arriostramientos, construiremos CER-01, una cercha triangular independiente de HALL.  |
-| [ARQ-206](ARQ-206.md) | Las clases históricas estudiaron arcos como construcciones y sistemas espaciales.  |
-| [ARQ-207](ARQ-207.md) | ARQ-206 estudió una forma curva comprimida.  |
-| [ARQ-208](ARQ-208.md) | Estudiaremos MIX-01, dos capas rectangulares idénticas de material elástico ideal, y compararemos deslizamiento libre con cooperación completa.  |
-| [ARQ-209](ARQ-209.md) | Esta clase conecta pórticos, arriostramientos y diafragmas mediante DIA-01, un piso rígido ideal con tres líneas resistentes a acciones en dirección y.  |
-| [ARQ-210](ARQ-210.md) | Esta clase cierra las partes 20 y 21.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

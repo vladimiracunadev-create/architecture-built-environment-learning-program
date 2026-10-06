@@ -19,21 +19,6 @@ Esta parte comienza con **Dibujo analítico y selección de punto de vista** y c
 - **ARQ-709:** ¿Cómo abordar realidad virtual, presencia y pruebas de uso y comprobar esta condición crítica: mareo, desorientación y exclusión requieren salida equivalente?
 - **ARQ-710:** ¿Cómo abordar publicación accesible y portafolio multiformato y comprobar esta condición crítica: la versión accesible debe conservar la información esencial?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-701](ARQ-701.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-702](ARQ-702.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-703](ARQ-703.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-704](ARQ-704.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-705](ARQ-705.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-706](ARQ-706.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-707](ARQ-707.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-708](ARQ-708.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-709](ARQ-709.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-710](ARQ-710.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

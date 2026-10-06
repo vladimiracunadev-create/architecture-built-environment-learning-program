@@ -19,21 +19,6 @@ Esta parte comienza con **Hotel: habitación, pasillo y servicio** y culmina con
 - **ARQ-639:** ¿Cómo preparar un edificio comercial para cambios frecuentes de arrendatario sin reconstruir cada vez estructura, fachada e instalaciones principales?
 - **ARQ-640:** ¿Cómo coordinar hotel, restaurantes, comercio y espacios de evento en un conjunto mixto sin duplicar accesos, servicios o capacidades y sin perder independencia operativa?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-631](ARQ-631.md) | Analizarás habitación, baño, circulación, housekeeping, instalaciones y accesibilidad como un sistema.  |
-| [ARQ-632](ARQ-632.md) | Diferenciarás permanencia, circulación y procesamiento.  |
-| [ARQ-633](ARQ-633.md) | Organizarás recepción de suministros, housekeeping, ropa limpia/sucia, residuos, personal y mantenimiento.  |
-| [ARQ-634](ARQ-634.md) | Analizarás implantación, recorridos, vistas, agua, energía, mantenimiento y operación distribuida.  |
-| [ARQ-635](ARQ-635.md) | Relacionarás camas, almacenamiento, privacidad, baños, cocina común, accesibilidad y convivencia.  |
-| [ARQ-636](ARQ-636.md) | Analizarás red de recorridos, frentes activos, núcleos verticales, logística y estados horarios.  |
-| [ARQ-637](ARQ-637.md) | Diferenciarás sala de ventas, reserva, recepción, preparación y expedición.  |
-| [ARQ-638](ARQ-638.md) | Construirás un programa por operaciones alimentarias y servicios comunes.  |
-| [ARQ-639](ARQ-639.md) | Distinguirás base building, fit-out y equipamiento del ocupante.  |
-| [ARQ-640](ARQ-640.md) | Construirás un programa integrado, identificarás sinergias y dependencias y defenderás una estrategia por estados de operación. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

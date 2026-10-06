@@ -19,21 +19,6 @@ Esta parte comienza con **Maqueta de masa y emplazamiento** y culmina con **Port
 - **ARQ-659:** ¿Cómo detectar discrepancias entre maqueta física, modelo BIM y levantamiento sin elegir automáticamente uno como verdad?
 - **ARQ-660:** ¿Cómo demostrar aprendizaje mediante un portafolio que conserve preguntas, versiones, fallos y evidencias, en vez de mostrar únicamente imágenes finales?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-651](ARQ-651.md) | Usarás escalas de reducción, convertirás dimensiones reales a modelo y estudiarás cómo un pequeño error físico puede representar una discrepancia grande en el terreno.  |
-| [ARQ-652](ARQ-652.md) | Relacionarás altura, niveles, vacíos, luz y recorridos mediante sección.  |
-| [ARQ-653](ARQ-653.md) | Construirás modelos de barras y apoyos para visualizar estabilidad, pero distinguirás semejanza geométrica de semejanza material y mecánica.  |
-| [ARQ-654](ARQ-654.md) | Representarás encuentros a gran escala, distinguirás función y secuencia, y documentarás qué espesores son fieles y cuáles simbólicos.  |
-| [ARQ-655](ARQ-655.md) | Relacionarás dirección solar, orientación y proyección de sombras.  |
-| [ARQ-656](ARQ-656.md) | Definirás propósito, criterios y estados de un prototipo 1:1.  |
-| [ARQ-657](ARQ-657.md) | Distinguirás modelo, trayectoria, proceso, material y pieza medida.  |
-| [ARQ-658](ARQ-658.md) | Prepararás escenarios VR con escala y estados declarados, estudiarás distancias y campo visual, y distinguirás percepción representada de esfuerzo, sonido, luz o seguridad reales.  |
-| [ARQ-659](ARQ-659.md) | Construirás una matriz de comparación, identificarás tolerancias declaradas y decidirás cuándo una diferencia necesita investigación adicional.  |
-| [ARQ-660](ARQ-660.md) | Organizarás un portafolio por decisiones y pruebas.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

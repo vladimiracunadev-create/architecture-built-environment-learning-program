@@ -19,21 +19,6 @@ Esta parte comienza con **Problema de diseño e hipótesis de solución** y culm
 - **ARQ-139:** ¿Cómo explicar un anteproyecto a personas con conocimientos e intereses diferentes sin ocultar incertidumbres, exagerar beneficios o convertir una preferencia expresada en una aprobación técnica?
 - **ARQ-140:** ¿Qué debe contener una síntesis de anteproyecto para que otra persona pueda entenderla, revisarla y continuar su desarrollo sin confundirla con un proyecto listo para ejecutar?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-131](ARQ-131.md) | ARQ-130 dejó una geometría de parque, balances y conexiones pendientes.  |
-| [ARQ-132](ARQ-132.md) | ARQ-131 dejó alternativas abiertas y un presupuesto espacial de estudio.  |
-| [ARQ-133](ARQ-133.md) | Después de formular el problema y estudiar precedentes, representarás actividades, accesos, abastecimiento y grados de privacidad.  |
-| [ARQ-134](ARQ-134.md) | ARQ-133 produjo relaciones que deben encontrar una organización espacial.  |
-| [ARQ-135](ARQ-135.md) | Las envolventes de ARQ-134 comparten superficie, pero difieren en geometría e implantación.  |
-| [ARQ-136](ARQ-136.md) | ARQ-135 mostró que la comparación depende de datos todavía supuestos.  |
-| [ARQ-137](ARQ-137.md) | Las pruebas de ARQ-136 mostraron que una actividad ocupa más que la silueta de sus muebles.  |
-| [ARQ-138](ARQ-138.md) | ARQ-137 produjo incidencias que pueden modificar el anteproyecto.  |
-| [ARQ-139](ARQ-139.md) | ARQ-138 dejó versiones y cambios rastreables.  |
-| [ARQ-140](ARQ-140.md) | Esta clase cierra la parte 14.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

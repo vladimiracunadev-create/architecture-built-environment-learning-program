@@ -19,21 +19,6 @@ Esta parte comienza con **Tierra como material: variabilidad y caracterización*
 - **ARQ-219:** ¿Qué podemos aprender del comportamiento sísmico de construcciones tradicionales sin convertir su supervivencia, su peso o una cuenta de equilibrio en una garantía para una obra actual?
 - **ARQ-220:** ¿Cómo elegir entre conservar, reparar, sustituir o construir con otro sistema sin decidir por una imagen, un único indicador o una suma de superficies que oculta lo que cambia?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-211](ARQ-211.md) | ARQ-210 cerró la coordinación de sistemas, pero no eligió materiales reales.  |
-| [ARQ-212](ARQ-212.md) | La clase anterior obtuvo una mezcla matemática, no un producto validado.  |
-| [ARQ-213](ARQ-213.md) | Después de comparar técnicas de tierra, estudiamos un material que puede obtenerse seleccionando y transformando roca.  |
-| [ARQ-214](ARQ-214.md) | Conservamos de la clase anterior la distinción entre material recibido y producto final.  |
-| [ARQ-215](ARQ-215.md) | Las unidades de ARQ-214 no definían por sí solas un muro.  |
-| [ARQ-216](ARQ-216.md) | ARQ-215 mostró que unidades y juntas no responden como materiales independientes.  |
-| [ARQ-217](ARQ-217.md) | Las clases anteriores separaron material, junta y sistema.  |
-| [ARQ-218](ARQ-218.md) | ARQ-217 distinguió cantidad almacenada y transporte.  |
-| [ARQ-219](ARQ-219.md) | La clase integra material, sistema, humedad y mecánica.  |
-| [ARQ-220](ARQ-220.md) | Esta clase integra ARQ-211–219 y cierra la parte 22.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

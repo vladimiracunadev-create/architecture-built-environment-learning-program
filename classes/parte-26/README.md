@@ -19,21 +19,6 @@ Esta parte comienza con **Aislamiento térmico: conductividad y desempeño en si
 - **ARQ-259:** ¿Cómo estudiar un material o producto emergente sin descartarlo por novedoso ni atribuirle prestaciones que todavía no se han demostrado a la escala del edificio?
 - **ARQ-260:** ¿Cuándo una propuesta de sustitución puede considerarse equivalente y qué debe comprobarse antes de aceptar que una muestra visual, una ficha o un cálculo representan el sistema que se instalará?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-251](ARQ-251.md) | ARQ-250 cerró un inventario sin confundir identidad y aptitud.  |
-| [ARQ-252](ARQ-252.md) | ARQ-251 distinguió propiedad y sistema térmico.  |
-| [ARQ-253](ARQ-253.md) | Las clases anteriores mostraron que las propiedades térmicas y acústicas no son intercambiables.  |
-| [ARQ-254](ARQ-254.md) | ARQ-253 separó funciones de agua, aire y vapor.  |
-| [ARQ-255](ARQ-255.md) | ARQ-254 estudió cooperación y tiempo mediante componentes idealizados.  |
-| [ARQ-256](ARQ-256.md) | La clase anterior distinguió capas y prestaciones.  |
-| [ARQ-257](ARQ-257.md) | ARQ-256 separó cantidad aplicada y respuesta ambiental.  |
-| [ARQ-258](ARQ-258.md) | ARQ-257 mostró que la superficie visible pertenece a un sistema.  |
-| [ARQ-259](ARQ-259.md) | ARQ-258 relacionó propiedades e interfaces.  |
-| [ARQ-260](ARQ-260.md) | Esta clase cierra la parte 26.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

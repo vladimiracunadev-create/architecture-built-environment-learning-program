@@ -19,21 +19,6 @@ Esta parte comienza con **Teatro: escena, sala y backstage** y culmina con **Pro
 - **ARQ-589:** ¿Cómo adaptar un teatro o museo existente sin destruir precisamente las características espaciales o materiales que justifican conservarlo?
 - **ARQ-590:** ¿Cómo integrar teatro, auditorio, museo y producción cultural en un solo proyecto sin perder las necesidades específicas de cada tipo?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-581](ARQ-581.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-582](ARQ-582.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-583](ARQ-583.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-584](ARQ-584.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-585](ARQ-585.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-586](ARQ-586.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-587](ARQ-587.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-588](ARQ-588.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-589](ARQ-589.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-590](ARQ-590.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

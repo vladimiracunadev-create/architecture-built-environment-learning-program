@@ -19,21 +19,6 @@ Esta parte comienza con **Arquitectura como sistema: del encargo al fin de vida*
 - **ARQ-009:** ¿Qué significa avanzar de verdad en arquitectura y por qué comprender una materia no equivale a estar habilitado para ejercer todas sus funciones?
 - **ARQ-010:** ¿Cómo leer un edificio cotidiano como un sistema de decisiones, sin limitarse a describir su fachada ni fingir una inspección técnica?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-001](ARQ-001.md) | Al terminar deberías poder explicar el recorrido desde una necesidad hasta el uso de un edificio, asignar decisiones a actores distintos y detectar una afirmación que excede la evidencia disponible.  |
-| [ARQ-002](ARQ-002.md) | Distinguirás cuatro verbos que suelen confundirse: habitar, construir, urbanizar y conservar.  |
-| [ARQ-003](ARQ-003.md) | Aprenderás a mover una pregunta entre escalas sin perder sus relaciones.  |
-| [ARQ-004](ARQ-004.md) | Elaborarás un registro que separe declaraciones de usuarios, interpretación de necesidades, alternativas y verificaciones normativas pendientes.  |
-| [ARQ-005](ARQ-005.md) | Identificarás conflictos de interés reales, potenciales y percibidos, distinguirás competencia de confianza personal y construirás un registro de decisiones.  |
-| [ARQ-006](ARQ-006.md) | Distinguirás profesión, cargo, función y autoridad de decisión.  |
-| [ARQ-007](ARQ-007.md) | Construirás una crítica de un espacio sin confundir atractivo visual con desempeño.  |
-| [ARQ-008](ARQ-008.md) | Distinguirás dato, supuesto, inferencia, error e incertidumbre.  |
-| [ARQ-009](ARQ-009.md) | Construirás un mapa personal de capacidades demostradas, capacidades en desarrollo y actuaciones fuera de alcance.  |
-| [ARQ-010](ARQ-010.md) | Integrarás los fundamentos de esta parte en un dossier de observación.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

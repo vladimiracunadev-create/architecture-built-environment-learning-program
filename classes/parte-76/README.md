@@ -19,21 +19,6 @@ Esta parte comienza con **Sistemas de infraestructura y niveles de servicio** y 
 - **ARQ-759:** ¿Cómo abordar telecomunicaciones e infraestructura digital y comprobar esta condición crítica: la nube depende de energía, agua, territorio y personas?
 - **ARQ-760:** ¿Cómo abordar plan integrado de redes y continuidad regional y comprobar esta condición crítica: optimizar cada red por separado puede debilitar el sistema completo?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-751](ARQ-751.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-752](ARQ-752.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-753](ARQ-753.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-754](ARQ-754.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-755](ARQ-755.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-756](ARQ-756.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-757](ARQ-757.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-758](ARQ-758.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-759](ARQ-759.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-760](ARQ-760.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

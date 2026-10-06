@@ -19,21 +19,6 @@ Esta parte comienza con **Del edificio entregado al edificio que funciona** y cu
 - **ARQ-469:** ¿Cómo gestionar servicios interdependientes para que disponibilidad de componentes no se confunda con continuidad de la función completa?
 - **ARQ-470:** ¿Cómo convertir evidencia de uso en aprendizaje de proyecto sin confundir percepción, desempeño medido y causalidad?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-461](ARQ-461.md) | Construirás una matriz de entrega y un plan inicial de evaluación de uso.  |
-| [ARQ-462](ARQ-462.md) | ARQ-462 abre un tramo nuevo dentro de la Parte 47 y recibe métodos previos sin heredar cifras.  |
-| [ARQ-463](ARQ-463.md) | ARQ-463 continúa desde ARQ-462; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-464](ARQ-464.md) | ARQ-464 continúa desde ARQ-463; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-465](ARQ-465.md) | ARQ-465 continúa desde ARQ-464; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-466](ARQ-466.md) | ARQ-466 continúa desde ARQ-465; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-467](ARQ-467.md) | ARQ-467 continúa desde ARQ-466; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-468](ARQ-468.md) | ARQ-468 continúa desde ARQ-467; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-469](ARQ-469.md) | ARQ-469 continúa desde ARQ-468; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-| [ARQ-470](ARQ-470.md) | ARQ-470 continúa desde ARQ-469; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

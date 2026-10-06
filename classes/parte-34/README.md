@@ -19,21 +19,6 @@ Esta parte comienza con **Incendio: inicio, crecimiento y propagación** y culmi
 - **ARQ-339:** ¿Cómo preparar una evaluación inclusiva de salida y comunicación sin representar a todas las personas mediante un promedio ni convertir un simulacro en una exposición innecesaria a riesgos?
 - **ARQ-340:** ¿Cómo mantener una estrategia de protección vinculada a la configuración y al estado real del edificio, sin confundir documentos recientes, componentes presentes y funciones disponibles?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-331](ARQ-331.md) | ARQ-330 distinguió una señal de supervisión del funcionamiento físico que pretendía representar.  |
-| [ARQ-332](ARQ-332.md) | La clase anterior separó potencia, energía y temperatura.  |
-| [ARQ-333](ARQ-333.md) | ARQ-332 distinguió funciones y alcance de evidencia.  |
-| [ARQ-334](ARQ-334.md) | La compartimentación de ARQ-333 mostró que una conexión oculta puede cambiar una separación.  |
-| [ARQ-335](ARQ-335.md) | ARQ-334 resolvió una cola sin representar condiciones ambientales.  |
-| [ARQ-336](ARQ-336.md) | ARQ-335 separó transmisión óptica de condiciones de seguridad.  |
-| [ARQ-337](ARQ-337.md) | Las clases anteriores distinguieron compartimentación, salida y respuesta de sistemas.  |
-| [ARQ-338](ARQ-338.md) | La parte ha relacionado procesos, separaciones, recorridos y apoyo exterior.  |
-| [ARQ-339](ARQ-339.md) | ARQ-334 estudió una cola ideal y ARQ-335 separó variables ambientales.  |
-| [ARQ-340](ARQ-340.md) | Esta clase cierra la parte 34.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

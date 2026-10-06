@@ -19,21 +19,6 @@ Esta parte comienza con **Del mapa geológico a la investigación del terreno** 
 - **ARQ-189:** ¿Cómo pueden cambiar las fuerzas y los movimientos de un sistema al variar la rigidez de sus apoyos, y qué debe investigarse antes de atribuir movimientos de edificios vecinos a una intervención?
 - **ARQ-190:** ¿Cómo leer críticamente un informe geotécnico, relacionarlo con el proyecto y pedir aclaraciones útiles sin sustituir la responsabilidad del profesional que lo produce?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-181](ARQ-181.md) | ARQ-180 cerró una investigación de uso conservando tareas, observaciones y límites.  |
-| [ARQ-182](ARQ-182.md) | GEO-BASE-01 conserva sus tres registros y sus propiedades desconocidas.  |
-| [ARQ-183](ARQ-183.md) | ARQ-182 explicó magnitudes y estados sin asignar propiedades al predio GEO-BASE-01.  |
-| [ARQ-184](ARQ-184.md) | ARQ-183 exigió ubicación, datum, método y fecha para cada resultado.  |
-| [ARQ-185](ARQ-185.md) | ARQ-184 separó esfuerzo total, presión intersticial y esfuerzo efectivo.  |
-| [ARQ-186](ARQ-186.md) | ARQ-185 mostró que resistencia, deformación y tiempo son preguntas distintas.  |
-| [ARQ-187](ARQ-187.md) | ARQ-186 incorporó ejecución y entorno a la comparación de fundaciones.  |
-| [ARQ-188](ARQ-188.md) | ARQ-187 examinó un mecanismo estático bajo parámetros explícitos.  |
-| [ARQ-189](ARQ-189.md) | ARQ-188 distinguió indicadores de sitio y respuesta completa.  |
-| [ARQ-190](ARQ-190.md) | Esta clase integra ARQ-181–189.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

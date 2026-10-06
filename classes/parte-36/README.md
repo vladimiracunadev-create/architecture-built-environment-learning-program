@@ -19,21 +19,6 @@ Esta parte comienza con **Tsunami: exposición, aviso y evacuación territorial*
 - **ARQ-359:** ¿Qué puede aportar una solución basada en naturaleza a la gestión del agua y qué debe comprobarse antes de atribuirle reducción de inundación, beneficios ecológicos o continuidad de servicio?
 - **ARQ-360:** ¿Cómo comparar localizar, adaptar o no construir cuando las alternativas tienen información desigual y una mejora cuantificable en un aspecto puede dejar abiertas condiciones esenciales?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-351](ARQ-351.md) | ARQ-350 dejó métodos de evidencia y coordinación, no un plan territorial.  |
-| [ARQ-352](ARQ-352.md) | Este capítulo separa frecuencia, geometría y consecuencias.  |
-| [ARQ-353](ARQ-353.md) | El río del capítulo anterior no se traslada a este caso.  |
-| [ARQ-354](ARQ-354.md) | Trabajarás con COSTA-NIV-01, tres estados ficticios y simultáneos por fila, y COSTA-REF-01, un cambio de referencia.  |
-| [ARQ-355](ARQ-355.md) | Resolverás HID-MURO-01, una pared con agua a ambos lados, y HID-CAJA-01, un cuerpo cerrado idealizado.  |
-| [ARQ-356](ARQ-356.md) | El capítulo abre REC-HUM-01, un modelo de secado por dos regiones, y REC-SUP-01, un inventario de manifestaciones.  |
-| [ARQ-357](ARQ-357.md) | Este capítulo introduce TER-SERV-01, un centro logístico ficticio definido por una función, no por una etiqueta de «infraestructura crítica».  |
-| [ARQ-358](ARQ-358.md) | La clase conecta los documentos de ARQ-351 con la lógica de ARQ-357.  |
-| [ARQ-359](ARQ-359.md) | Recuperamos PLU-BASE-01 de ARQ-353 con sus tres intervalos, capacidad, contenido inicial y descarga.  |
-| [ARQ-360](ARQ-360.md) | La clase cierra la parte 36.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

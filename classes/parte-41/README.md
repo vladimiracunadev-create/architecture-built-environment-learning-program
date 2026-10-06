@@ -19,21 +19,6 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 - **ARQ-409:** ¿Cómo evitar que una instrucción válida se pierda entre correos, planos descargados y copias locales?
 - **ARQ-410:** ¿Qué significa realmente aceptar una obra y qué información debe quedar para operar, mantener y transformar lo construido?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-401](ARQ-401.md) | Esta clase abre la Parte 41.  |
-| [ARQ-402](ARQ-402.md) | Recibe ARQ-401: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-403](ARQ-403.md) | Recibe ARQ-402: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-404](ARQ-404.md) | Recibe ARQ-403: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-405](ARQ-405.md) | Recibe ARQ-404: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-406](ARQ-406.md) | Recibe ARQ-405: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-407](ARQ-407.md) | Recibe ARQ-406: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-408](ARQ-408.md) | Recibe ARQ-407: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-409](ARQ-409.md) | Recibe ARQ-408: mantiene identificación, versión, fuentes y estados.  |
-| [ARQ-410](ARQ-410.md) | Recibe ARQ-409: mantiene identificación, versión, fuentes y estados.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Acero estructural: propiedades y familias de perfiles*
 - **ARQ-249:** ¿Cómo comprobar que un conjunto puede fabricarse, montarse y moverse sin asumir que una holgura total suficiente garantiza cada encuentro local?
 - **ARQ-250:** ¿Cómo organizar reutilización y reciclaje de componentes metálicos sin confundir inventario, selección preliminar, aptitud técnica y beneficios ambientales?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-241](ARQ-241.md) | La parte de hormigón terminó separando servicio y evidencia.  |
-| [ARQ-242](ARQ-242.md) | ARQ-241 separó propiedades del material y geometría.  |
-| [ARQ-243](ARQ-243.md) | ARQ-242 estudió uniones y estados de transmisión.  |
-| [ARQ-244](ARQ-244.md) | ARQ-243 relacionó superficies y exposición.  |
-| [ARQ-245](ARQ-245.md) | ARQ-244 mostró que los encuentros reciben movimientos relativos.  |
-| [ARQ-246](ARQ-246.md) | ARQ-245 distinguió hojas y configuraciones.  |
-| [ARQ-247](ARQ-247.md) | ARQ-246 reunió estructura y controles ambientales.  |
-| [ARQ-248](ARQ-248.md) | ARQ-247 estudió caminos térmicos.  |
-| [ARQ-249](ARQ-249.md) | ARQ-248 examinó compatibilidad de materiales.  |
-| [ARQ-250](ARQ-250.md) | ARQ-249 mantuvo piezas y versiones identificadas.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

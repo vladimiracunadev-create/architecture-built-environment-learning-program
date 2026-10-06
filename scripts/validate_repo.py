@@ -100,6 +100,12 @@ def main() -> int:
     part_readmes = list((ROOT / "classes").glob("parte-*/README.md"))
     if len(part_readmes) != PROGRAM["part_count"]:
         fail(f"found {len(part_readmes)} part README files, expected {PROGRAM['part_count']}")
+    for readme in part_readmes:
+        text = readme.read_text(encoding="utf-8")
+        if "## Resultados y continuidad declarados" in text:
+            fail(f"duplicated outcomes table must not appear in {readme.relative_to(ROOT)}")
+        if "La clase declara su alcance, práctica y continuidad" in text:
+            fail(f"empty outcome placeholder must not appear in {readme.relative_to(ROOT)}")
 
     coverage_patterns = {
         "question": r"pregunta central",

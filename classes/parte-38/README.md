@@ -19,21 +19,6 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 - **ARQ-379:** ¿Cómo comparar reconstruir, adaptar o reubicar sin suponer que “volver a construir” significa recuperar el mismo riesgo y el mismo servicio?
 - **ARQ-380:** ¿Cómo cerrar una parte de multirriesgo tomando una decisión provisional que sea auditable y reversible cuando la evidencia todavía es incompleta?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-371](ARQ-371.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-372](ARQ-372.md) | Recibe ARQ-371: amenaza, exposición, vulnerabilidad y capacidad permanecen separadas.  |
-| [ARQ-373](ARQ-373.md) | Recibe el método de ARQ-372: conservar datos, versiones y límites.  |
-| [ARQ-374](ARQ-374.md) | Recibe el método de ARQ-373: conservar datos, versiones y límites.  |
-| [ARQ-375](ARQ-375.md) | Recibe el método de ARQ-374: conservar datos, versiones y límites.  |
-| [ARQ-376](ARQ-376.md) | Recibe el método de ARQ-375: conservar datos, versiones y límites.  |
-| [ARQ-377](ARQ-377.md) | Recibe el método de ARQ-376: conservar datos, versiones y límites.  |
-| [ARQ-378](ARQ-378.md) | Recibe el método de ARQ-377: conservar datos, versiones y límites.  |
-| [ARQ-379](ARQ-379.md) | Recibe el método de ARQ-378: conservar datos, versiones y límites.  |
-| [ARQ-380](ARQ-380.md) | Recibe el método de ARQ-379: conservar datos, versiones y límites.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

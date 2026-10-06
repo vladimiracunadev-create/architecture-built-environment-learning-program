@@ -19,21 +19,6 @@ Esta parte comienza con **Territorios andinos y sistemas de asentamiento** y cul
 - **ARQ-089:** ¿Cómo puede el acompañamiento técnico reconocer conocimientos y decisiones de quienes construyen o transforman su vivienda sin convertir la participación en sustituto de estudios profesionales? 
 - **ARQ-090:** ¿Cómo producir una lectura fundamentada de un barrio sin presentar impresiones como datos ni estadísticas generales como descripción de cada calle? 
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-081](ARQ-081.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-082](ARQ-082.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-083](ARQ-083.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-084](ARQ-084.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-085](ARQ-085.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-086](ARQ-086.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-087](ARQ-087.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-088](ARQ-088.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-089](ARQ-089.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-090](ARQ-090.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

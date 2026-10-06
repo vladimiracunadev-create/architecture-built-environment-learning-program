@@ -19,21 +19,6 @@ Esta parte comienza con **Calidad de aire interior y fuentes de contaminantes** 
 - **ARQ-319:** ¿Cómo comprobar que un sistema de climatización cumple la función prevista cuando una orden, una posición indicada y una medición pueden describir cosas diferentes?
 - **ARQ-320:** ¿Cómo saber si una intervención de operación o mantenimiento mejora el servicio, cuando una propiedad del componente aumenta pero el conjunto puede perder desempeño?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-311](ARQ-311.md) | ARQ-310 enseñó a conservar fronteras, entradas, salidas y tiempo.  |
-| [ARQ-312](ARQ-312.md) | La caja de ARQ-311 explicó concentración y tiempo.  |
-| [ARQ-313](ARQ-313.md) | ARQ-312 distinguió corrientes y zonas.  |
-| [ARQ-314](ARQ-314.md) | La clase anterior distinguió carga y capacidad.  |
-| [ARQ-315](ARQ-315.md) | ARQ-314 cerró el balance de un ciclo.  |
-| [ARQ-316](ARQ-316.md) | ARQ-315 comparó transporte sensible.  |
-| [ARQ-317](ARQ-317.md) | ARQ-316 identificó procesos y corrientes.  |
-| [ARQ-318](ARQ-318.md) | ARQ-317 comprobó espacios y trayectorias.  |
-| [ARQ-319](ARQ-319.md) | ARQ-318 mostró que una configuración instalada puede diferir del modelo.  |
-| [ARQ-320](ARQ-320.md) | Esta clase cierra la parte 32.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

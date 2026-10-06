@@ -19,21 +19,6 @@ Esta parte comienza con **Cemento, áridos, agua y adiciones** y culmina con **D
 - **ARQ-239:** ¿Cómo pasar de una manifestación observada a una investigación y una decisión de reparación sin convertir una fotografía, un ensayo aislado o una cuenta correcta en un diagnóstico completo?
 - **ARQ-240:** ¿Cómo comparar mezclas y soluciones de hormigón desde sus impactos sin confundir una reducción por metro cúbico con una mejora de todo el servicio construido?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-231](ARQ-231.md) | ARQ-230 distinguió identidad del producto, masa seca y fronteras de comparación.  |
-| [ARQ-232](ARQ-232.md) | Esta clase recupera CON-MIX-01, los 2.330 kg de ARQ-231 y su referencia SSS.  |
-| [ARQ-233](ARQ-233.md) | ARQ-232 distinguió composición, rendimiento y resultados de ensayo.  |
-| [ARQ-234](ARQ-234.md) | La sección de ARQ-233 suponía materiales colaborando y una posición definida de armaduras.  |
-| [ARQ-235](ARQ-235.md) | ARQ-234 separó geometría final y estados de producción.  |
-| [ARQ-236](ARQ-236.md) | ARQ-235 estudió cambios volumétricos y restricciones.  |
-| [ARQ-237](ARQ-237.md) | Las clases anteriores distinguieron mezcla, respuesta material y exposición.  |
-| [ARQ-238](ARQ-238.md) | ARQ-237 distinguió producción prefabricada y estados de apoyo.  |
-| [ARQ-239](ARQ-239.md) | ARQ-238 conservó estados y propiedades como hipótesis.  |
-| [ARQ-240](ARQ-240.md) | La parte 24 termina reuniendo composición, volumen, propiedades, exposición y mantenimiento.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

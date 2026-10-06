@@ -19,21 +19,6 @@ Esta parte comienza con **Abastecimiento de agua y demanda** y culmina con **Seq
 - **ARQ-309:** ¿Cómo distinguir una instalación dibujada, una obra revisada, una medición compatible y una recepción documentada sin convertir una sola evidencia favorable en aprobación de todas las funciones?
 - **ARQ-310:** ¿Cómo estudiar continuidad de un servicio cuando cambian suministro y demanda, sin confundir mayor almacenamiento, menor consumo y seguridad del agua?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-301](ARQ-301.md) | La parte sensorial enseñó a conservar magnitudes y condiciones de medición.  |
-| [ARQ-302](ARQ-302.md) | Se conserva AGU-SERV-01 de ARQ-301: seis intervalos de una hora y demandas de 100, 300, 500, 200, 600 y 100 L.  |
-| [ARQ-303](ARQ-303.md) | ARQ-302 separó presión y almacenamiento.  |
-| [ARQ-304](ARQ-304.md) | El abastecimiento y el agua caliente se analizaron mediante otras fronteras.  |
-| [ARQ-305](ARQ-305.md) | ARQ-304 distinguió geometría de conducción y funcionamiento de una red sanitaria.  |
-| [ARQ-306](ARQ-306.md) | Esta clase abre REU-SERIE, un balance independiente de aguas grises hipotéticamente tratadas.  |
-| [ARQ-307](ARQ-307.md) | ARQ-306 separó cantidad, calidad y autorización.  |
-| [ARQ-308](ARQ-308.md) | Esta clase abre COORD-SAN-01, una sección geométrica auxiliar.  |
-| [ARQ-309](ARQ-309.md) | ARQ-308 permitió comprobar una interfaz geométrica.  |
-| [ARQ-310](ARQ-310.md) | Esta clase cierra las partes 30 y 31.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Drones: planificación, captura, permisos y seguridad*
 - **ARQ-739:** ¿Cómo abordar robótica de obra y zonas de interacción y comprobar esta condición crítica: la productividad no puede compensar una interacción insegura?
 - **ARQ-740:** ¿Cómo abordar prototipo 1:1: fabricar, medir, corregir y documentar y comprobar esta condición crítica: la entrega incluye lo que falló y cómo cambió el diseño?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-731](ARQ-731.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-732](ARQ-732.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-733](ARQ-733.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-734](ARQ-734.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-735](ARQ-735.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-736](ARQ-736.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-737](ARQ-737.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-738](ARQ-738.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-739](ARQ-739.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-740](ARQ-740.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

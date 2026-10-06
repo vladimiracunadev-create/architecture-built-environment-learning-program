@@ -19,21 +19,6 @@ Esta parte comienza con **Qué hace alto a un edificio: contexto, proporción y 
 - **ARQ-499:** ¿Cómo organizar una obra vertical cuando materiales, personas y residuos dependen de pocos medios de transporte y del clima?
 - **ARQ-500:** ¿Cómo integrar usos, núcleo, estructura, servicios y operación de una torre sin reducirla a una forma icónica?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-491](ARQ-491.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-492](ARQ-492.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-493](ARQ-493.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-494](ARQ-494.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-495](ARQ-495.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-496](ARQ-496.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-497](ARQ-497.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-498](ARQ-498.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-499](ARQ-499.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-| [ARQ-500](ARQ-500.md) | Esta clase aplica los fundamentos de la Fase I a una tipología concreta.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

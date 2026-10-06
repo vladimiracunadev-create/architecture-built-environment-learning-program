@@ -19,21 +19,6 @@ Esta parte comienza con **Estación ferroviaria: ciudad, andén y vestíbulo** y
 - **ARQ-549:** ¿Cómo mantener servicio cuando parte de la estación se cierra por mantenimiento sin dibujar rutas que no existen durante la obra?
 - **ARQ-550:** ¿Cómo integrar estación ferroviaria, metro y ciudad en un intercambiador que siga funcionando bajo diferentes estados?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-541](ARQ-541.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-542](ARQ-542.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-543](ARQ-543.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-544](ARQ-544.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-545](ARQ-545.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-546](ARQ-546.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-547](ARQ-547.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-548](ARQ-548.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-549](ARQ-549.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-| [ARQ-550](ARQ-550.md) | Al terminar podrás descomponer el sistema ferroviario en servicio, geometría, flujos o camino de cargas, interfaces y estados; reconstruirás un caso cuantitativo limitado y separarás cálculo de decisión profesional.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Arquitecturas bizantinas y continuidad de saberes** y 
 - **ARQ-059:** ¿Cómo estudiar una transformación urbana colonial sin reducirla a un estilo importado ni atribuir a un plano todo lo que ocurrió con propiedad, trabajo y vida cotidiana? 
 - **ARQ-060:** ¿Cómo se transmite un conocimiento de construcción de manera que otra persona pueda comprenderlo, comprobarlo y reconocer cuándo todavía necesita supervisión? 
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-051](ARQ-051.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-052](ARQ-052.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-053](ARQ-053.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-054](ARQ-054.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-055](ARQ-055.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-056](ARQ-056.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-057](ARQ-057.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-058](ARQ-058.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-059](ARQ-059.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-060](ARQ-060.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-
 ## Recorrido clase a clase
 
 | # | Clase |

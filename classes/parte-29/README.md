@@ -19,21 +19,6 @@ Esta parte comienza con **Demanda, consumo y servicio energético** y culmina co
 - **ARQ-289:** ¿Cómo preparar una comprobación energética que relacione requisitos, instrumentos, estados y decisiones, sin confundir la lectura de un contador con la validación del funcionamiento completo?
 - **ARQ-290:** ¿Cómo comparar aislamiento, equipos y generación sin sumar ahorros incompatibles ni confundir menor demanda térmica, menor electricidad utilizada y menor compra a la red?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-281](ARQ-281.md) | La parte anterior calculó temperaturas libres.  |
-| [ARQ-282](ARQ-282.md) | Recuperamos ENE-BASE-01 de ARQ-276: planta de 120 m², volumen de 360 m³ y coeficiente exterior de 108 W/K.  |
-| [ARQ-283](ARQ-283.md) | ARQ-282 incorporó un caudal sensible sin recuperación.  |
-| [ARQ-284](ARQ-284.md) | ARQ-282 adoptó ganancias ya entregadas al nodo.  |
-| [ARQ-285](ARQ-285.md) | ARQ-284 mostró cómo entradas diferentes pueden producir totales semejantes.  |
-| [ARQ-286](ARQ-286.md) | ARQ-281 separó demanda y compra; ARQ-285 revisó modelos frente a datos.  |
-| [ARQ-287](ARQ-287.md) | La clase anterior separó servicio útil y energía de entrada.  |
-| [ARQ-288](ARQ-288.md) | ARQ-285 distinguió ajuste y validación; ARQ-286 separó servicio y entrada energética.  |
-| [ARQ-289](ARQ-289.md) | Esta clase recibe las diferencias de ARQ-288 y construye un plan de evidencia.  |
-| [ARQ-290](ARQ-290.md) | Esta clase cierra las partes 28 y 29 con ENE-PACK-01, un caso nuevo que conserva un servicio hipotéticamente equivalente entre alternativas.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

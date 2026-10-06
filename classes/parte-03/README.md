@@ -19,21 +19,6 @@ Esta parte comienza con **Dimensiones, conversiones y órdenes de magnitud** y c
 - **ARQ-029:** ¿Cuánto puedes confiar en una medida y cómo cambia esa confianza cuando calculas otra cantidad a partir de ella?
 - **ARQ-030:** ¿Cómo distinguir un resultado numérico convincente de un modelo que realmente representa el problema?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-021](ARQ-021.md) | Usarás unidades y órdenes de magnitud para comprobar conversiones y fórmulas.  |
-| [ARQ-022](ARQ-022.md) | Distinguirás razón, proporción, porcentaje y puntos porcentuales.  |
-| [ARQ-023](ARQ-023.md) | Descompondrás geometrías, definirás superficies brutas y netas y comprobarás una cubicación por dos métodos.  |
-| [ARQ-024](ARQ-024.md) | Resolverás triángulos rectángulos aplicados a pendientes, sombras y observación de alturas.  |
-| [ARQ-025](ARQ-025.md) | Aprenderás a representar una fuerza mediante componentes, sumar fuerzas sin perder su dirección, calcular momentos respecto de un punto y construir un diagrama de cuerpo libre.  |
-| [ARQ-026](ARQ-026.md) | Construirás y leerás funciones sencillas, distinguirás dominio matemático de dominio físico y analizarás sensibilidad absoluta y relativa.  |
-| [ARQ-027](ARQ-027.md) | Interpretarás una derivada como cambio local y una integral como acumulación.  |
-| [ARQ-028](ARQ-028.md) | Distinguirás energía, potencia, rendimiento y transferencia.  |
-| [ARQ-029](ARQ-029.md) | Distinguirás valor medido, error, incertidumbre, resolución y tolerancia.  |
-| [ARQ-030](ARQ-030.md) | Transformarás un balance físico sencillo en un modelo discreto, calcularás aproximaciones con diferentes pasos y separarás verificación matemática, calibración y validación empírica.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

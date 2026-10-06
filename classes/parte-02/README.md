@@ -19,21 +19,6 @@ Esta parte comienza con **Planta, corte y elevación: leer lo que no muestra una
 - **ARQ-019:** ¿Qué información debe contener un detalle para explicar cómo se relacionan materiales, funciones y operaciones, y no solo cómo se ve un encuentro?
 - **ARQ-020:** ¿Cómo detectar contradicciones entre documentos antes de que alguien construya, compre o decida usando información incompatible?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-011](ARQ-011.md) | La clase declara su alcance, práctica y continuidad en el documento completo. |
-| [ARQ-012](ARQ-012.md) | Convertirás longitudes reales y representadas, comprobarás una cadena de dimensiones y distinguirás dimensión nominal, medición y tolerancia.  |
-| [ARQ-013](ARQ-013.md) | Prepararás un croquis de observación, un diagrama analítico y una nota de incertidumbres.  |
-| [ARQ-014](ARQ-014.md) | Traducirás puntos y aristas entre planta, alzado, perfil y una axonometría.  |
-| [ARQ-015](ARQ-015.md) | Comprenderás un modelo básico de proyección central, calcularás tamaños aparentes y distinguirás posición de observación de distancia focal.  |
-| [ARQ-016](ARQ-016.md) | Diseñarás una convención gráfica explícita y comprobarás su legibilidad.  |
-| [ARQ-017](ARQ-017.md) | Elegirás una escala y un material de representación según la pregunta del modelo.  |
-| [ARQ-018](ARQ-018.md) | Diseñarás un levantamiento educativo no invasivo, distinguirás referencias y mediciones, y resolverás una localización por distancias.  |
-| [ARQ-019](ARQ-019.md) | Leerás un detalle como una hipótesis coordinada sobre geometría, desempeño y construcción.  |
-| [ARQ-020](ARQ-020.md) | Realizarás una revisión cruzada de un pequeño expediente ficticio.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

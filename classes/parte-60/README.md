@@ -19,21 +19,6 @@ Esta parte comienza con **Centro de datos: carga TI y edificio** y culmina con *
 - **ARQ-599:** ¿Cómo diseñar crecimiento y mantenimiento sin convertir cada futura ampliación en una interrupción del servicio existente?
 - **ARQ-600:** ¿Cómo cerrar un anteproyecto tecnológico integrando misión, carga, redundancia, laboratorio, seguridad y expansión sin fingir que una matriz equivale a validación?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-591](ARQ-591.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-592](ARQ-592.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-593](ARQ-593.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-594](ARQ-594.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-595](ARQ-595.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-596](ARQ-596.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-597](ARQ-597.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-598](ARQ-598.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-599](ARQ-599.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-600](ARQ-600.md) | Al terminar podrás explicar la tipología como sistema, reconstruir el caso cuantitativo, identificar al menos una interfaz crítica y separar resultado, hipótesis y evidencia pendiente.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 - **ARQ-419:** ¿Cómo hablar de valor sin reducirlo a costo inicial ni convertir preferencias sociales en una puntuación arbitraria?
 - **ARQ-420:** ¿Cómo defender una alternativa mostrando qué supuestos pueden cambiar la decisión?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-411](ARQ-411.md) | ARQ-411 abre la Parte 42 y traslada los métodos anteriores a un caso económico y de gestión nuevo.  |
-| [ARQ-412](ARQ-412.md) | Recibe ARQ-411 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-413](ARQ-413.md) | Recibe ARQ-412 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-414](ARQ-414.md) | Recibe ARQ-413 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-415](ARQ-415.md) | Recibe ARQ-414 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-416](ARQ-416.md) | Recibe ARQ-415 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-417](ARQ-417.md) | Recibe ARQ-416 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-418](ARQ-418.md) | Recibe ARQ-417 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-419](ARQ-419.md) | Recibe ARQ-418 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-| [ARQ-420](ARQ-420.md) | Recibe ARQ-419 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

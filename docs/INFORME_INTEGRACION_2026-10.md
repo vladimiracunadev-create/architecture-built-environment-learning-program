@@ -20,6 +20,7 @@ El repositorio contenía 680 clases en 68 partes, ocho talleres con 48 sesiones,
 - `docs/ARQUITECTURA_DEL_REPOSITORIO.md` distingue fuentes, salidas y artefactos históricos.
 - `docs/MAPA_DE_DEPENDENCIAS.md` publica la cadena prerrequisito → clase → evidencia → proyecto → especialización.
 - La documentación vigente, las licencias y la auditoría legal declaran 800 clases, 80 partes, 60 sesiones, 33 rutas y los conteos actuales de fuentes. Los artefactos `v1.0` conservan sus cifras históricas y están rotulados como tales.
+- Las 80 portadas de parte conservan el recorrido numerado con títulos y enlaces, y eliminan la tabla redundante de “resultados y continuidad” que repetía navegación o mostraba marcadores vacíos.
 
 ## Qué se profundizó y creó
 

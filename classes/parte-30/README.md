@@ -19,21 +19,6 @@ Esta parte comienza con **Luz natural: disponibilidad y distribución** y culmin
 - **ARQ-299:** ¿Cómo modificar la materialidad de una sala conservando sus funciones visuales, acústicas y operativas cuando una misma superficie participa en todas ellas?
 - **ARQ-300:** ¿Cómo evaluar las condiciones sensoriales de un edificio usado sin confundir una medición puntual, una opinión, una comparación entre días y una explicación causal de lo observado?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-291](ARQ-291.md) | ARQ-290 separó demanda térmica, consumo y generación.  |
-| [ARQ-292](ARQ-292.md) | La clase anterior describió luz incidente sobre regiones.  |
-| [ARQ-293](ARQ-293.md) | ARQ-291 estudió la luz recibida y ARQ-292, la relación con la mirada.  |
-| [ARQ-294](ARQ-294.md) | La clase anterior separó flujo, potencia y distribución.  |
-| [ARQ-295](ARQ-295.md) | La parte visual mostró que un indicador no conserva toda la información del estímulo.  |
-| [ARQ-296](ARQ-296.md) | ARQ-295 separó presión, energía y nivel.  |
-| [ARQ-297](ARQ-297.md) | La clase anterior distinguió transmisión y absorción.  |
-| [ARQ-298](ARQ-298.md) | ARQ-297 describió energía sonora dentro de una sala.  |
-| [ARQ-299](ARQ-299.md) | Se recupera SALA-SEN-01: 48 m² de suelo, 144 m³ de volumen, cielo de 48 m² y absorción inicial de 24 m² en la banda ficticia de ARQ-297.  |
-| [ARQ-300](ARQ-300.md) | La parte 30 termina reuniendo planos, magnitudes, tareas y evidencia.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

@@ -19,21 +19,6 @@ Esta parte comienza con **Locales comerciales: operación, acceso y experiencia*
 - **ARQ-169:** ¿Cómo estudiar energía y continuidad de un centro de datos sin convertir un indicador favorable, una batería o un equipo adicional en una garantía de servicio?
 - **ARQ-170:** ¿Cómo transformar un edificio productivo existente manteniendo trazabilidad entre lo conocido, la nueva actividad y las condiciones que deben verificarse antes de intervenir?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-161](ARQ-161.md) | La parte 16 cerró requisitos de equipamientos.  |
-| [ARQ-162](ARQ-162.md) | OFI-BASE-01 es una oficina ficticia de 360 m², independiente del local anterior.  |
-| [ARQ-163](ARQ-163.md) | HOT-BASE-01 es un establecimiento ficticio de veinte habitaciones.  |
-| [ARQ-164](ARQ-164.md) | ALIM-EST-01 es un mercado ficticio utilizado para estudiar relaciones espaciales y balances de productos.  |
-| [ARQ-165](ARQ-165.md) | PROD-BASE-01 es una nave ficticia de treinta por veinte metros, 600 m² interiores, destinada al ejercicio con mercancías inertes.  |
-| [ARQ-166](ARQ-166.md) | ARQ-165 estudió almacenamiento y circulación.  |
-| [ARQ-167](ARQ-167.md) | ARQ-166 separó proceso, capacidad y riesgos.  |
-| [ARQ-168](ARQ-168.md) | La clase abre TRN-EST-01, una terminal ficticia sin localización real.  |
-| [ARQ-169](ARQ-169.md) | ARQ-168 distinguió frontera del recinto y evolución de personas.  |
-| [ARQ-170](ARQ-170.md) | Esta clase cierra la parte 17 y el bloque ARQ-151–170.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |

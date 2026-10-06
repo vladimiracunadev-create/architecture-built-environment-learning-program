@@ -19,21 +19,6 @@ Esta parte comienza con **Estadio: bowl, campo y ciudad** y culmina con **Proyec
 - **ARQ-579:** ¿Cómo evitar que un estadio funcione bien solo el día de inauguración y se convierta después en un activo difícil de mantener o aislado de la ciudad?
 - **ARQ-580:** ¿Cómo cerrar un anteproyecto de estadio o arena integrando bowl, ciudad, estructura, operación y legado sin convertir una matriz de requisitos en aprobación profesional?
 
-## Resultados y continuidad declarados
-
-| Clase | Resultado o entrega principal |
-|---|---|
-| [ARQ-571](ARQ-571.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-572](ARQ-572.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-573](ARQ-573.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-574](ARQ-574.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-575](ARQ-575.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-576](ARQ-576.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-577](ARQ-577.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-578](ARQ-578.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-579](ARQ-579.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-| [ARQ-580](ARQ-580.md) | Al terminar podrás explicar el problema como sistema, reconstruir el caso cuantitativo, señalar al menos una interfaz y separar resultado, hipótesis y evidencia pendiente.  |
-
 ## Recorrido clase a clase
 
 | # | Clase |
