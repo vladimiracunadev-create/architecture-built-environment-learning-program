@@ -28,7 +28,7 @@
 
 ### Secuencia completa
 
-ARQ-001 → ARQ-680. Recomendada cuando se busca una formación transversal y se dispone de tiempo para seguir dependencias.
+ARQ-001 → ARQ-800. Recomendada cuando se busca recorrer el núcleo, las tipologías y la profundización profesional siguiendo sus dependencias.
 
 ### Por parte
 

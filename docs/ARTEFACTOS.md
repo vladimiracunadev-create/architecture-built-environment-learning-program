@@ -25,6 +25,7 @@ Las 800 clases viven en `classes/parte-XX/ARQ-XXX.md`. El sitio se regenera con:
 ```bash
 python -m pip install -r requirements-build.txt
 python scripts/generate_curriculum_docs.py
+python scripts/audit_class_distinctness.py --check
 python scripts/build_site.py
 python scripts/validate_repo.py
 ```

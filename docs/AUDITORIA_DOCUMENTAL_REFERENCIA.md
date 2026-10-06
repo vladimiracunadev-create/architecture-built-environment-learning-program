@@ -58,7 +58,7 @@ La acción correcta no era copiar más secciones al README. La primera reconstru
 6. contratos explícitos de necesidad, posición, fuente, actividad, evidencia y continuidad;
 7. en el corte piloto: 5 revisados y 675 pendientes, sin convertir cobertura estructural en evidencia de profundidad.
 
-Ese corte fue superado por la implementación posterior: las 680 clases publican hoy su cadena específica derivada de texto completo, práctica, fuentes y vecindad; los cinco pilotos permanecen como revisión editorial manual profunda.
+Ese corte fue superado por la implementación posterior: las 680 clases del núcleo histórico recibieron su cadena específica derivada de texto completo, práctica, fuentes y vecindad; los cinco pilotos permanecen como revisión editorial manual profunda.
 
 La referencia tampoco se considera perfecta: su clase 360 presenta resultados vagos, glosario mecánico y un rótulo deteriorado; varias listas bibliográficas no llegan a mapear cada fuente con una decisión. Esos patrones se descartaron.
 

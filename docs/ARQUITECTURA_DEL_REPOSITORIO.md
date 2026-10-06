@@ -31,6 +31,7 @@ classes/ + studios/ ─┐  │  │  │  │
 | `data/pedagogical-decisions-generated.json` | `scripts/build_pedagogical_decisions.py` |
 | bloques pedagógicos, `studios/` y `learning-paths/` | `scripts/apply_pedagogy.py` |
 | `sources/bibliography.json` y `sources/README.md` | `scripts/build_bibliography.py` |
+| `data/audits/class-distinctness.json` y `docs/audits/class-distinctness.csv` | `scripts/audit_class_distinctness.py --write` |
 | `site/` | `scripts/build_site.py` |
 
 Las correcciones se hacen en la fuente correspondiente y luego se regeneran las salidas. Editar una salida sin corregir su fuente produce deriva y debe fallar en CI.

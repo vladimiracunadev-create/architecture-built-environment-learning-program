@@ -46,6 +46,29 @@ def fail(message: str) -> None:
 def main() -> int:
     if PROGRAM["class_count"] != PROGRAM["part_count"] * PROGRAM["classes_per_part"]:
         fail("data/program.json class, part and class-per-part counts disagree")
+    current_document_claims = {
+        "docs/ARQUITECTURA_DE_EVALUACION.md": (
+            f"| Clase | {PROGRAM['class_count']} |",
+            f"| Parte | {PROGRAM['part_count']} |",
+            f"| Ruta | {PROGRAM['route_count']} |",
+        ),
+        "docs/COMO_USAR_EL_PROGRAMA.md": (
+            f"ARQ-001 → ARQ-{PROGRAM['class_count']:03d}.",
+        ),
+        "LICENSE-CONTENT.md": (
+            f"las {PROGRAM['class_count']} clases, {PROGRAM['studio_session_count']} sesiones de taller",
+            f"{PROGRAM['route_count']} rutas",
+        ),
+        "LICENSING_AUDIT.md": (
+            f"{PROGRAM['class_count']} clases y {PROGRAM['part_count']} README de parte",
+            "627 URLs externas únicas y 2.179 relaciones clase–fuente",
+        ),
+    }
+    for relative, claims in current_document_claims.items():
+        document = (ROOT / relative).read_text(encoding="utf-8")
+        for claim in claims:
+            if claim not in document:
+                fail(f"current documentation claim is stale in {relative}: {claim}")
     if PROGRAM["studio_session_count"] != PROGRAM["studio_count"] * PROGRAM["sessions_per_studio"]:
         fail("data/program.json studio and session counts disagree")
     parts_manifest = json.loads(

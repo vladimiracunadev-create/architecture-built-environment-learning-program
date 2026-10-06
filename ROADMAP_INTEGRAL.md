@@ -142,6 +142,7 @@ Una clase nueva debe aportar una competencia nueva, profundidad demostrable, int
 | 2026-10-06 | añadir EST-09 y EST-10 | nuevas capacidades de investigación, prototipo y transferencia | 60 sesiones integradoras |
 | 2026-10-06 | mantener artefactos v1.0 en raíz | enlaces y checksums históricos | preservación explícita; no son estado actual |
 | 2026-10-06 | auditar diferencias de las 800 clases y reescribir Fase III | 800 filas comparadas; homogeneidad detectada en los primeros textos nuevos | 120 desarrollos ampliados; deuda histórica priorizada por partes |
+| 2026-10-06 | reconciliar toda afirmación documental vigente | evaluación, guía de uso y documentos legales conservaban conteos anteriores | cifras actuales validadas; artefactos v1.0 preservados como historia |
 
 ## Documentos de control
 

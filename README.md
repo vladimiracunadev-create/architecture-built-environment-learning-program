@@ -286,7 +286,7 @@ La [guía completa](docs/COMO_USAR_EL_PROGRAMA.md) propone entradas diferentes p
 
 ## 🧭 33 rutas de aprendizaje
 
-Las doce rutas troncales recorren el programa completo:
+Las doce rutas troncales organizan el núcleo transversal; las 21 rutas siguientes incorporan tipologías y Fase III para completar los recorridos de especialización:
 
 - [**Fundamentos desde cero**](learning-paths/ruta-01.md) — entrada para quien necesita construir vocabulario y método desde ARQ-001.
 - [**Proyecto arquitectónico integral**](learning-paths/ruta-02.md) — programa, alternativas, coordinación, documentación y defensa.
@@ -367,7 +367,7 @@ El portal reúne guías mantenidas sobre estándar de clase, método, auditoría
 | [Lector offline v1.0](programa-arquitectura-lector-definitivo-v1.0.html) | biblioteca autosuficiente sin servidor |
 | [20 clases finales en Markdown](Arquitectura_20_Clases_Finales_v1.0.md) | bloque ARQ-661–680 consolidado |
 | [20 clases finales en PDF](Arquitectura_20_Clases_Finales_v1.0.pdf) | lectura e impresión |
-| [ARQ-680 en PDF](ARQ-680_Clase_Completa_v1.0.pdf) | cierre completo del programa |
+| [ARQ-680 en PDF](ARQ-680_Clase_Completa_v1.0.pdf) | cierre histórico de la entrega v1.0 y de Fase II |
 | [SHA-256](SHA256SUMS.txt) | comprobación de integridad de entregables |
 
 El lector offline y `STATUS_v1.0.json` conservan la entrega histórica de 680 clases. Para el estado actual prevalecen [`data/program.json`](data/program.json), el currículo Markdown y [Estado verificable](docs/ESTADO_VERIFICABLE.md).

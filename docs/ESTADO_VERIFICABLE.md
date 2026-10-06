@@ -80,6 +80,7 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 | Recursos transversales del lector v1.0 | **755** | colección histórica conservada |
 | Lector offline y PDF v1.0 | conservados | hashes versionados |
 | Enlaces internos, UTF-8 y salidas | verificables | `scripts/validate_repo.py` |
+| Conteos en documentación vigente | coherentes | el validador contrasta evaluación, guía de uso, licencia de contenido y auditoría legal con los manifiestos actuales |
 
 ## 6. Brechas abiertas
 
