@@ -76,6 +76,10 @@ DOC_PAGES = {
         "auditoria-pedagogica.html",
         "Auditoría pedagógica y trazabilidad",
     ),
+    "AUDITORIA_DIFERENCIAS_800_CLASES.md": (
+        "auditoria-diferencias-800-clases.html",
+        "Auditoría de diferencias entre las 800 clases",
+    ),
     "ESTADO_VERIFICABLE.md": ("estado.html", "Estado verificable"),
     "FUENTES_Y_EVIDENCIA.md": ("fuentes-y-evidencia.html", "Fuentes y evidencia"),
     "ESTANDAR_DE_FUENTES.md": (
@@ -268,6 +272,7 @@ def render_document_markdown(text: str) -> str:
         .replace('href="../sources/README.md"', 'href="bibliografia.html"')
         .replace('href="../sources/bibliography.json"', 'href="sources/bibliography.json"')
         .replace('href="bibliography.json"', 'href="sources/bibliography.json"')
+        .replace('href="../data/audits/class-distinctness.json"', 'href="data/audits/class-distinctness.json"')
         .replace('href="../LICENSE"', f'href="{REPO_URL}/blob/main/LICENSE"')
         .replace('href="../LICENSE-CONTENT.md"', f'href="{REPO_URL}/blob/main/LICENSE-CONTENT.md"')
         .replace('href="../DATA_LICENSES.md"', f'href="{REPO_URL}/blob/main/DATA_LICENSES.md"')
@@ -418,6 +423,11 @@ def documentation_portal(registry: dict) -> str:
                 "AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md",
                 DOC_PAGES["AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md"],
                 "diagnóstico histórico, cinco pilotos profundos, trazabilidad y brechas reales",
+            ),
+            (
+                "AUDITORIA_DIFERENCIAS_800_CLASES.md",
+                DOC_PAGES["AUDITORIA_DIFERENCIAS_800_CLASES.md"],
+                "comparación clase por clase, repetición editorial y prioridades de reescritura",
             ),
             (
                 "ESTADO_VERIFICABLE.md",
@@ -743,6 +753,12 @@ def main() -> int:
     bibliography_target = OUT / "sources" / "bibliography.json"
     bibliography_target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(ROOT / "sources" / "bibliography.json", bibliography_target)
+    audit_json_target = OUT / "data" / "audits" / "class-distinctness.json"
+    audit_json_target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(ROOT / "data" / "audits" / "class-distinctness.json", audit_json_target)
+    audit_csv_target = OUT / "audits" / "class-distinctness.csv"
+    audit_csv_target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(ROOT / "docs" / "audits" / "class-distinctness.csv", audit_csv_target)
     shutil.copy2(READER, OUT / "lector-offline-v1.0.html")
     for filename in ("Arquitectura_20_Clases_Finales_v1.0.pdf", "ARQ-680_Clase_Completa_v1.0.pdf"):
         shutil.copy2(ROOT / filename, OUT / filename)

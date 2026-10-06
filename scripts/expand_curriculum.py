@@ -507,6 +507,97 @@ def update_pedagogy() -> None:
     path.write_text(json.dumps(pedagogy, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
+def step_development(
+    title: str,
+    part_title: str,
+    depth: dict[str, str],
+    steps: list[str],
+    evidence: str,
+    critical: str,
+) -> str:
+    """Write a lesson-specific explanation instead of generic filler."""
+    lenses = [item.strip() for item in depth["lens"].split(",")]
+    paragraphs: list[str] = []
+    for index, step in enumerate(steps):
+        previous = steps[index - 1] if index else "la pregunta central"
+        following = steps[index + 1] if index + 1 < len(steps) else evidence
+        lens = lenses[index % len(lenses)]
+        variants = (
+            f"Empieza sin dibujar una solución. Describe qué se observa en **{title.lower()}**, quién lo experimenta y dónde termina el sistema que analizarás. "
+            f"El foco es **{lens}**: registra una evidencia a favor, una señal que la contradiga y un vacío que todavía no puedes llenar. **{previous}** "
+            f"entrega el punto de partida; **{following}** sólo puede comenzar cuando la escala, el periodo y las personas afectadas quedan visibles. Cierra "
+            f"este paso con un croquis o esquema de situación y una frase que pueda resultar falsa. Así, **{step}** abre una investigación en vez de decorar una decisión ya tomada.",
+            f"Convierte **{step}** en una mesa de clasificación. Una columna recibe datos confirmados; otra, requisitos con autoridad y versión; una tercera, "
+            f"hipótesis; y una cuarta, desconocidos. En **{title.lower()}**, la variable que merece atención es **{lens}**. Comprueba unidades, fechas y procedencia "
+            f"antes de agrupar. Luego elige dos elementos que suelen confundirse y explica la diferencia con un ejemplo del caso. El resultado debe permitir pasar "
+            f"de **{previous}** a **{following}** sin cambiar silenciosamente una definición. Si algo no cabe en ninguna columna, no lo fuerces: convierte esa incomodidad en una pregunta.",
+            f"Ahora cambia de lenguaje. Representa **{step}** mediante el medio que mejor revele **{lens}**: planta para relaciones horizontales, sección para niveles y flujos, "
+            f"mapa para distribución, línea de tiempo para secuencias o diagrama para dependencias. En **{title.lower()}**, cada trazo debe responder qué muestra y qué oculta. "
+            f"Anota escala, orientación, unidades y fuente junto a la figura. Superpone una segunda capa con dudas o conflictos; no los borres para limpiar la composición. "
+            f"Pide a otra persona que explique cómo **{previous}** se transforma en **{following}** mirando sólo la gráfica. Lo que no pueda reconstruir señala la revisión necesaria.",
+            f"Usa **{step}** para explicar un mecanismo, no una coincidencia. Escribe una cadena breve: entrada → transformación → efecto → persona o sistema afectado. "
+            f"En **{title.lower()}**, sigue especialmente **{lens}** y dibuja al menos un camino alternativo. Cambia una entrada y anticipa qué parte de **{following}** debería "
+            f"cambiar; después busca un caso que no obedezca esa expectativa. La explicación se acepta cuando distingue asociación, causa propuesta y límite de la evidencia. "
+            f"Si el salto desde **{previous}** exige una pericia externa, formula la pregunta para esa especialidad y adjunta el antecedente que necesita para responder.",
+            f"En **{step}**, construye dos alternativas comparables para **{title.lower()}**. Mantén constante la función principal y declara qué varía; si las fronteras no coinciden, "
+            f"corrígelas antes de puntuar. Evalúa **{lens}** con una medida y con una observación cualitativa, porque una cifra única puede esconder distribución, experiencia o riesgo. "
+            f"Incluye una condición que no pueda compensarse con ventajas en otros criterios. La salida hacia **{following}** debe conservar la opción descartada y el motivo. "
+            f"Después invierte una preferencia del encargo: si la elección no cambia, explica por qué; si cambia, identifica el supuesto que realmente gobernaba la decisión.",
+            f"Trata **{step}** como una prueba de resistencia del argumento. Entrega a otra persona **{evidence}** sin explicación oral y pídele localizar la procedencia de una "
+            f"afirmación, repetir una operación y señalar qué resultado obligaría a reabrirla. Para **{title.lower()}**, el punto sensible es **{lens}**. Registra cada objeción y clasifícala "
+            f"como error, incertidumbre, desacuerdo de valor o dato pendiente; cada tipo exige una respuesta diferente. La transición desde **{previous}** termina sólo cuando **{following}** "
+            f"puede revisarse sin depender de quien lo produjo. Conserva la versión rechazada: muestra qué aprendiste y evita que el mismo fallo reaparezca.",
+        )
+        paragraphs.append(
+            f"### {index + 1}. {step.capitalize()}\n\n"
+            f"{variants[index % len(variants)]}"
+        )
+    paragraphs.append(
+        f"### Lo que une la secuencia\n\n"
+        f"Los {len(steps)} pasos no son una receta universal. En esta clase ordenan una decisión sobre **{title.lower()}** dentro de "
+        f"**{part_title}** y conducen a **{evidence}**. Pueden repetirse cuando aparece evidencia contradictoria, pero no intercambiarse sin "
+        f"explicación: saltar desde **{steps[0]}** hasta **{steps[-1]}** ocultaría precisamente el razonamiento que la entrega debe enseñar. "
+        f"La secuencia se detiene cuando **{critical}** no puede demostrarse."
+    )
+    return "\n\n".join(paragraphs)
+
+
+def lesson_specific_method(
+    title: str,
+    steps: list[str],
+    evidence: str,
+    critical: str,
+    position: int,
+) -> str:
+    verbs = ("Delimita", "Ordena", "Dibuja", "Explica", "Compara", "Ensaya", "Busca", "Coordina", "Verifica", "Transfiere")
+    items = []
+    for index, step in enumerate(steps):
+        verb = verbs[(position - 1 + index) % len(verbs)]
+        next_step = steps[index + 1] if index + 1 < len(steps) else evidence
+        items.append(
+            f"{index + 1}. **{verb}: {step}.** Declara la entrada, realiza una operación visible y entrega algo que pueda usarse en "
+            f"**{next_step}**. Añade al margen la duda que todavía puede modificar el paso."
+        )
+    items.append(
+        f"{len(steps) + 1}. **Intenta refutar el cierre.** Comprueba si **{critical}**; si la respuesta depende sólo de la apariencia "
+        f"del producto, vuelve al primer paso que no tenga evidencia."
+    )
+    return "\n".join(items)
+
+
+def lesson_specific_errors(title: str, steps: list[str], evidence: str, critical: str) -> str:
+    return "\n".join(
+        [
+            f"- **Fallo crítico de esta clase:** {critical.capitalize()}. En **{title.lower()}**, localiza el paso que no lo demuestra y vuelve a producir la evidencia.",
+            f"- **Comenzar por {steps[-1]}:** muestra una respuesta sin explicar cómo se llegó a ella. Recupera **{steps[0]}** y conserva las decisiones intermedias.",
+            f"- **Tratar {steps[1]} como trámite:** deja sin fundamento lo que sigue. Escribe su entrada, su operación y una salida que otra persona pueda revisar.",
+            f"- **Entregar {evidence} sin procedencia:** una evidencia sin fecha, escala, autor o fuente pierde alcance. Completa esos cuatro campos junto al producto.",
+            f"- **Copiar parámetros del caso:** la forma del método puede transferirse, pero sus valores deben volver a medirse en cada contexto.",
+            f"- **Ocultar la objeción:** registra la crítica que produjo un cambio; una versión perfecta desde el inicio impide evaluar el proceso.",
+        ]
+    )
+
+
 def lesson_markdown(number: int, part: int, part_title: str, purpose: str, product: str, source_ids: tuple[str, str], title: str) -> str:
     class_id = f"ARQ-{number:03d}"
     previous = f"ARQ-{number - 1:03d}"
@@ -539,6 +630,15 @@ def lesson_markdown(number: int, part: int, part_title: str, purpose: str, produ
     topic_graph = "\n".join(graph_lines)
     last_step = visual_steps[-1]
     check_step = visual_steps[-2]
+    development = step_development(
+        title, part_title, depth, visual_steps, specific_evidence, critical_condition
+    )
+    specific_method = lesson_specific_method(
+        title, visual_steps, specific_evidence, critical_condition, position
+    )
+    specific_errors = lesson_specific_errors(
+        title, visual_steps, specific_evidence, critical_condition
+    )
     return f"""# {class_id} · {title}
 
 **Parte {part:02d} · Fase III · Profundización y especialización · Edición 2026.10.**
@@ -573,29 +673,23 @@ La secuencia propia de la clase es **{sequence}**. Su resultado concreto será *
 
 El expediente específico debe poder aplicarse a **{depth["case"]}**. Cada elemento debe conservar escala, fecha, versión, responsable y relación con el producto acumulativo de la Parte {part:02d}. Cuando el dato no existe, se registra el método para obtenerlo; cuando una atribución corresponde a otra disciplina, se documenta la interfaz y el punto de coordinación.
 
-El título nombra un campo, pero una clase necesita una decisión. En {title.lower()} conviene separar el **objeto observado**, la **representación** que construimos de él, el **método** usado para examinarlo y la **conclusión** que ese método permite sostener. Una imagen detallada puede provenir de datos débiles; un modelo preciso puede responder una pregunta irrelevante; una fuente autorizada puede quedar fuera de contexto. La calidad empieza cuando esas capas permanecen visibles.
+Antes de producir, separa cuatro estados dentro de **{title.lower()}**: el requisito que posee autoridad y versión; la preferencia que expresa un valor negociable; la hipótesis que permite avanzar y aún debe probarse; y la restricción que acota alternativas en este contexto. Escríbelos junto a **{visual_steps[0]}**. Cuando uno cambie, recorre la secuencia y marca qué conclusiones dejan de ser válidas.
 
-También deben distinguirse **requisito**, **preferencia**, **hipótesis** y **restricción**. Un requisito tiene una autoridad, una versión y una condición de aplicación. Una preferencia expresa valor o intención y puede entrar en conflicto con otras. Una hipótesis permite avanzar provisionalmente y necesita una prueba. Una restricción delimita el espacio de soluciones, pero puede cambiar cuando cambia el sitio, el presupuesto, la tecnología o el acuerdo entre actores. Mezclarlas produce decisiones que parecen cerradas antes de estarlo.
+## Desarrollo paso a paso
 
-La profundidad no consiste en acumular términos. Consiste en explicar relaciones causales: qué entrada modifica qué resultado, a través de qué mecanismo, con qué incertidumbre y para quién. En esta clase se usa la secuencia **pregunta → evidencia → alternativa → prueba → decisión → seguimiento**. Si falta una etapa, debe registrarse como pendiente y asignarse a una persona o disciplina capaz de resolverla.
+{development}
 
 ## Contexto histórico, social y profesional
 
-Las prácticas asociadas a {title.lower()} cambian con los instrumentos, las instituciones y las expectativas sociales. La disponibilidad de modelos digitales, sensores o automatización puede ampliar lo observable, pero también desplaza trabajo, crea dependencias y concentra decisiones en datos o plataformas que no siempre son transparentes. La historia del campo se lee como transformación de problemas, responsabilidades y medios, no como una sucesión inevitable de herramientas.
+El contexto de trabajo es **{depth["case"]}**. Allí, el tema de {title.lower()} no aparece como un problema aislado: se cruza con {depth["lens"]}. El estudiante debe preguntar quién definió cada categoría, quién falta en el registro y qué decisión histórica o institucional explica la situación actual. Una tecnología nueva sólo se incorpora cuando mejora una observación, una coordinación o una prueba identificable; su novedad no constituye evidencia.
 
-En la práctica profesional, una decisión rara vez pertenece a una sola persona. El arquitecto puede formular el problema espacial, coordinar interfaces, representar alternativas y conservar el registro. Especialistas, comunidades, autoridades, constructores, operadores y mandantes aportan evidencia diferente. Coordinar significa declarar quién origina un dato, quién lo revisa, quién decide y qué modificación obliga a reabrir el expediente. No significa asumir atribuciones reguladas de otras disciplinas.
+En una práctica profesional, arquitectura puede formular el problema espacial, relacionar escalas, representar alternativas y coordinar el expediente. Para esta clase debe asignar autores y revisores a **{visual_steps[1]}**, **{check_step}** y **{specific_evidence}**. Cuando una conclusión dependa de cálculo, diagnóstico o atribución regulada de otra disciplina, se redacta la pregunta de coordinación, se entrega el antecedente necesario y se conserva la respuesta. Esa interfaz también es parte del proyecto.
 
 ## Método: de la observación a una decisión trazable
 
-1. **Delimitar.** Escribe la pregunta, el usuario o servicio afectado, la escala, el horizonte temporal y la jurisdicción.
-2. **Inventariar.** Separa antecedentes confirmados, datos por medir, supuestos de trabajo, preferencias y restricciones.
-3. **Representar.** Elige planta, sección, mapa, diagrama, modelo, tabla o prototipo según la relación que necesitas comprobar.
-4. **Comparar.** Mantén igual la función de las alternativas; si cambian las fronteras, explica el cambio antes de puntuar.
-5. **Probar.** Define una observación, cálculo, simulación, revisión o ensayo y anticipa qué resultado refutaría la hipótesis.
-6. **Decidir.** Vincula la elección con evidencia y conserva las alternativas descartadas junto con la razón.
-7. **Revisar.** Establece responsable, fecha, condición de reapertura y destino de la evidencia en operación o investigación.
+{specific_method}
 
-Este método evita que la herramienta se convierta en autoridad. Una simulación, render, modelo o respuesta automática es una representación condicionada por entradas y reglas. Debe verificarse por un medio independiente proporcional al riesgo. Para consecuencias críticas, la revisión humana y especializada forma parte del sistema y no es una nota al pie.
+La herramienta elegida debe permitir ejecutar esta secuencia, no reemplazarla. Para **{title.lower()}**, anota entradas, unidades, versión y transformaciones; exporta un formato que otra persona pueda inspeccionar; y verifica **{check_step}** por un medio independiente proporcional a su consecuencia. Si intervienen automatización o IA, conserva también la instrucción, el resultado original, la revisión humana y el motivo de cada corrección.
 
 ## Mapa visual de la decisión
 
@@ -623,19 +717,11 @@ Intercambia el trabajo con otra persona. Debe poder señalar dónde se comprueba
 
 Aplica la secuencia **{sequence}** a otro contexto, escala o grupo de personas. Produce **{specific_evidence}**, una versión inicial y una revisada. Explica qué se mantuvo, qué cambió y por qué los parámetros del caso trabajado no podían copiarse.
 
-**Evidencia mínima:** definición del problema, diagrama específico, producto reproducible, comprobación de la condición crítica y registro de revisión. Guarda el resultado en `evidence/{class_id}/evidencia.md` y enlázalo desde tu portafolio.
+**Evidencia mínima de {title.lower()}:** {specific_evidence}; diagrama de **{sequence}**; demostración de que **{critical_condition}**; y registro de una revisión que haya cambiado el resultado. Guarda el expediente en `evidence/{class_id}/evidencia.md` y enlázalo desde tu portafolio.
 
 ## Errores frecuentes y cómo corregirlos
 
-- **Fallo crítico de esta clase:** {critical_condition.capitalize()}. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia.
-- **Nombrar sin explicar:** una lista de conceptos no muestra mecanismos. Corrige dibujando relaciones y describiendo causa, consecuencia y límite.
-- **Comparar fronteras distintas:** dos alternativas no responden a la misma función. Normaliza primero o declara la diferencia.
-- **Confundir precisión con exactitud:** más decimales, polígonos o detalle visual no reparan un dato inadecuado.
-- **Forzar lo desconocido a cero:** conserva el estado pendiente y decide cómo se resolverá.
-- **Promediar una condición crítica:** seguridad, derechos o cumplimiento no desaparecen dentro de un puntaje total.
-- **Citar sin alcance:** identifica documento, versión, sección consultada, función en la clase y límite.
-- **Delegar el juicio:** software, IA o una guía apoyan el proceso; la responsabilidad y la validación deben permanecer asignadas.
-- **Cerrar sin operación:** incorpora mantenimiento, accesibilidad, actualización y aprendizaje posterior.
+{specific_errors}
 
 ## Evaluación y criterios de aceptación
 
@@ -650,13 +736,13 @@ La evidencia se acepta cuando:
 7. incluye revisión sustantiva entre dos versiones y explica la consecuencia;
 8. demuestra que **{critical_condition}** y enlaza la evidencia con `{following}`.
 
-La rúbrica común complementa estos criterios. Una presentación convincente permanece pendiente si no supera una condición crítica o si la fuente no permite sostener la conclusión.
+La rúbrica común permite comparar el avance del programa; estos criterios deciden la aceptación de **{specific_evidence}**. Una presentación convincente permanece pendiente cuando **{critical_condition}** no puede comprobarse o la fuente utilizada no sostiene la conclusión.
 
 ## Autoevaluación, recuperación y reflexión crítica
 
 Sin mirar el texto, reconstruye la secuencia **{sequence}** y nombra la evidencia que produce cada transición. Explica por qué **{critical_condition}**. Si no puedes localizar esa comprobación en tu entrega, vuelve al diagrama y sustituye una afirmación vaga por una operación observable.
 
-Para recuperar el aprendizaje, repite el ejercicio 24–48 horas después con otra escala o actor. Compara qué elementos del método se transfieren y qué parámetros deben volver a investigarse. Cierra con una reflexión breve: ¿quién recibe el beneficio, quién asume el costo, quién queda fuera de los datos y quién podrá corregir la decisión más adelante?
+Para recuperar **{title.lower()}**, vuelve 24–48 horas después y dibuja de memoria **{visual_steps[0]} → {visual_steps[1]} → … → {last_step}**. Aplícala a otro actor o escala y marca en otro color los parámetros que tuviste que volver a investigar. Cierra preguntando quién recibe el beneficio de **{specific_evidence}**, quién asume su costo, quién queda fuera de sus datos y quién podrá corregirla más adelante.
 
 **Conexión siguiente:** `{following}` reutiliza la matriz, la representación y el registro de cambios. Lleva la evidencia, no las cifras del caso.
 

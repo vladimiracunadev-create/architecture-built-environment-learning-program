@@ -56,6 +56,7 @@ jobs:
         run: |
           python scripts/generate_curriculum_docs.py --check
           python scripts/apply_pedagogy.py --check
+          python scripts/audit_class_distinctness.py --check
           python scripts/build_bibliography.py --check
           python scripts/build_site.py
           python scripts/validate_repo.py

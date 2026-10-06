@@ -22,7 +22,7 @@
 
 [🚀 Cómo estudiarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [👩‍🏫 Recursos para docentes](docs/SYLLABUS_Y_CARGA.md) · [🧪 Evaluación](docs/ARQUITECTURA_DE_EVALUACION.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [✅ Estado verificable](docs/ESTADO_VERIFICABLE.md)
 
-[🛣️ Roadmap integral](ROADMAP_INTEGRAL.md) · [📚 Documentación completa](docs/README.md) · [🧾 Matriz de cobertura](docs/MATRIZ_COBERTURA_INTEGRAL.md) · [🗺️ Dependencias](docs/MAPA_DE_DEPENDENCIAS.md) · [🔎 Informe 2026.10](docs/INFORME_INTEGRACION_2026-10.md) · [🤝 Contribuir](CONTRIBUTING.md)
+[🛣️ Roadmap integral](ROADMAP_INTEGRAL.md) · [📚 Documentación completa](docs/README.md) · [🧾 Matriz de cobertura](docs/MATRIZ_COBERTURA_INTEGRAL.md) · [🧬 Diferencias de las 800 clases](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md) · [🗺️ Dependencias](docs/MAPA_DE_DEPENDENCIAS.md) · [🔎 Informe 2026.10](docs/INFORME_INTEGRACION_2026-10.md) · [🤝 Contribuir](CONTRIBUTING.md)
 
 </div>
 
@@ -352,6 +352,7 @@ El portal reúne guías mantenidas sobre estándar de clase, método, auditoría
 | construir un portafolio | [Portafolio y evidencias](docs/PORTAFOLIO_Y_EVIDENCIAS.md) | conservar primera versión, crítica, cambio, fundamento y asunto pendiente |
 | revisar fuentes | [Estándar de fuentes](docs/ESTANDAR_DE_FUENTES.md) | documentar organismo o autor, título, edición, localizador, alcance, aplicación, límite y vigencia |
 | auditar el currículo | [Auditoría pedagógica](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) | recorrer diagnóstico, referencia, decisiones, cambios, validaciones y pendientes |
+| comparar las 800 clases | [Auditoría de diferencias](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md) | comprobar preguntas, texto propio, repeticiones, gráficas y pares más parecidos |
 | comprobar el estado real | [Estado verificable](docs/ESTADO_VERIFICABLE.md) | separar hechos reproducibles de revisión externa, vigencia y eficacia todavía no demostradas |
 | contribuir sin romper salidas | [Guía de contribución](CONTRIBUTING.md) | modificar fuentes de verdad, regenerar índices y ejecutar los mismos gates de CI |
 

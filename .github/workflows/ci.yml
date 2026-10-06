@@ -33,6 +33,8 @@ jobs:
         run: python scripts/apply_pedagogy.py --check
       - name: Auditar decisiones pedagógicas
         run: python scripts/audit_pedagogical_traceability.py --json
+      - name: Auditar diferencias entre las 800 clases
+        run: python scripts/audit_class_distinctness.py --check
       - name: Verificar bibliografía derivada
         run: python scripts/build_bibliography.py --check
       - name: Validar fuentes

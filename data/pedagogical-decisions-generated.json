@@ -49552,7 +49552,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa del problema y una pregunta investigable con escala, población y tiempo siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-682.",
-        "- Fallo crítico de esta clase: La pregunta debe poder responderse con la evidencia disponible. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La pregunta debe poder responderse con la evidencia disponible. En preguntas investigables y problemas de arquitectura , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-682 · Hipótesis, proposiciones y preguntas abiertas; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -49613,7 +49613,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de tabla de hipótesis, proposiciones y preguntas abiertas siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-683.",
-        "- Fallo crítico de esta clase: Una afirmación que no admite contraste permanece como opinión. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una afirmación que no admite contraste permanece como opinión. En hipótesis, proposiciones y preguntas abiertas , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-683 · Revisión bibliográfica y búsqueda sistemática; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -49674,7 +49674,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de protocolo de búsqueda con consultas, filtros y registro de exclusiones siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-684.",
-        "- Fallo crítico de esta clase: La conveniencia de acceso no puede sustituir la pertinencia. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La conveniencia de acceso no puede sustituir la pertinencia. En revisión bibliográfica y búsqueda sistemática , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-684 · Fuentes primarias, secundarias y cadenas de citación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -49735,7 +49735,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de procedencia y cadena de citación de cinco afirmaciones siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-685.",
-        "- Fallo crítico de esta clase: Una fuente secundaria no debe presentarse como evidencia primaria. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una fuente secundaria no debe presentarse como evidencia primaria. En fuentes primarias, secundarias y cadenas de citación , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-685 · Métodos cualitativos: observación, entrevista y codificación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -49796,7 +49796,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de instrumento cualitativo pilotado y libro de códigos inicial siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-686.",
-        "- Fallo crítico de esta clase: El consentimiento y la voz discrepante son condiciones críticas. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El consentimiento y la voz discrepante son condiciones críticas. En métodos cualitativos: observación, entrevista y codificación , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-686 · Métodos cuantitativos: muestra, medición y estadística; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -49857,7 +49857,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan de medición con unidades, muestra y estadística descriptiva siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-687.",
-        "- Fallo crítico de esta clase: Una muestra pequeña no autoriza generalizaciones poblacionales. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una muestra pequeña no autoriza generalizaciones poblacionales. En métodos cuantitativos: muestra, medición y estadística , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-687 · Métodos mixtos y triangulación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -49918,7 +49918,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de matriz de triangulación que conserva acuerdos y contradicciones siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-688.",
-        "- Fallo crítico de esta clase: Dos métodos no corrigen automáticamente el mismo sesgo. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Dos métodos no corrigen automáticamente el mismo sesgo. En métodos mixtos y triangulación , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-688 · Estudios de caso y comparación responsable; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -49979,7 +49979,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de protocolo comparativo para dos casos con fronteras equivalentes siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-689.",
-        "- Fallo crítico de esta clase: La elección del caso debe declararse antes de conocer el resultado. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La elección del caso debe declararse antes de conocer el resultado. En estudios de caso y comparación responsable , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-689 · Reproducibilidad, datos, ética y consentimiento; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50040,7 +50040,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de paquete reproducible con diccionario de datos, decisiones éticas y bitácora siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-690.",
-        "- Fallo crítico de esta clase: Anonimizar no basta si el contexto permite reidentificar personas. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Anonimizar no basta si el contexto permite reidentificar personas. En reproducibilidad, datos, ética y consentimiento , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-690 · Tesis: argumento, método, resultados y defensa; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50101,7 +50101,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de índice razonado de tesis y guion de defensa con límites siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-691.",
-        "- Fallo crítico de esta clase: La conclusión no puede exceder el método ni ocultar resultados adversos. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La conclusión no puede exceder el método ni ocultar resultados adversos. En tesis: argumento, método, resultados y defensa , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-691 · Modelos de práctica y propósito de una oficina; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50162,7 +50162,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de servicios, competencias, aliados y límites de una oficina siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-692.",
-        "- Fallo crítico de esta clase: La promesa comercial debe coincidir con la capacidad real. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La promesa comercial debe coincidir con la capacidad real. En modelos de práctica y propósito de una oficina , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-692 · Brief comercial, propuesta y selección de encargos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50223,7 +50223,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de brief comercial y matriz aceptar, negociar o rechazar siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-693.",
-        "- Fallo crítico de esta clase: Un encargo incompatible con la ética no se corrige sólo con honorarios. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un encargo incompatible con la ética no se corrige sólo con honorarios. En brief comercial, propuesta y selección de encargos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-693 · Honorarios, alcance, exclusiones y cambios; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50284,7 +50284,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de desglose de alcance y honorarios con supuestos y mecanismo de cambios siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-694.",
-        "- Fallo crítico de esta clase: Una exclusión crítica debe ser comprendida y asignada. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una exclusión crítica debe ser comprendida y asignada. En honorarios, alcance, exclusiones y cambios , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-694 · Contratos, seguros y distribución de responsabilidades; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50345,7 +50345,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de matriz contractual de riesgos, responsabilidades y coberturas por verificar siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-695.",
-        "- Fallo crítico de esta clase: El seguro no sustituye prevención ni competencia profesional. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El seguro no sustituye prevención ni competencia profesional. En contratos, seguros y distribución de responsabilidades , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-695 · Clientes, usuarios, mandantes y gobernanza; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50406,7 +50406,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de gobernanza y protocolo de decisiones y escalamiento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-696.",
-        "- Fallo crítico de esta clase: Quien paga no representa necesariamente a todas las personas usuarias. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Quien paga no representa necesariamente a todas las personas usuarias. En clientes, usuarios, mandantes y gobernanza , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-696 · Negociación basada en intereses y registro de acuerdos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50467,7 +50467,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de guion de negociación y minuta con compromisos, responsables y plazos siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-697.",
-        "- Fallo crítico de esta clase: Un acuerdo oral relevante debe quedar confirmado y trazable. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un acuerdo oral relevante debe quedar confirmado y trazable. En negociación basada en intereses y registro de acuerdos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-697 · Marketing profesional, reputación y límites éticos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50528,7 +50528,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de pieza de comunicación revisada con matriz de afirmaciones y permisos siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-698.",
-        "- Fallo crítico de esta clase: El marketing no puede atribuir autoría, resultados o respaldo inexistentes. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El marketing no puede atribuir autoría, resultados o respaldo inexistentes. En marketing profesional, reputación y límites éticos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-698 · Finanzas de oficina, flujo de caja y capacidad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50589,7 +50589,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de flujo de caja de doce semanas con tres escenarios de carga siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-699.",
-        "- Fallo crítico de esta clase: Facturación no equivale a liquidez disponible. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Facturación no equivale a liquidez disponible. En finanzas de oficina, flujo de caja y capacidad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-699 · Liderazgo, equipos, bienestar y aprendizaje; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50650,7 +50650,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan de equipo con responsabilidades, bienestar, revisión y continuidad siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-700.",
-        "- Fallo crítico de esta clase: La sobrecarga sostenida es un riesgo de calidad y seguridad. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La sobrecarga sostenida es un riesgo de calidad y seguridad. En liderazgo, equipos, bienestar y aprendizaje , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-700 · Simulación de encargo: propuesta, reunión y cierre; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50711,7 +50711,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de expediente simulado de encargo desde propuesta hasta acta de cierre siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-701.",
-        "- Fallo crítico de esta clase: Ningún cierre es válido con alcance, autoridad o siguiente paso ambiguos. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Ningún cierre es válido con alcance, autoridad o siguiente paso ambiguos. En simulación de encargo: propuesta, reunión y cierre , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-701 · Dibujo analítico y selección de punto de vista; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50772,7 +50772,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de serie de tres dibujos que cambian deliberadamente el punto de vista siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-702.",
-        "- Fallo crítico de esta clase: El dibujo debe revelar una relación y no sólo embellecerla. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El dibujo debe revelar una relación y no sólo embellecerla. En dibujo analítico y selección de punto de vista , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-702 · Sección narrativa y secuencias de recorrido; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50833,7 +50833,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de sección narrativa con episodios, cotas, luz, uso y transición siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-703.",
-        "- Fallo crítico de esta clase: La secuencia debe corresponder a una geometría comprobable. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La secuencia debe corresponder a una geometría comprobable. En sección narrativa y secuencias de recorrido , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-703 · Collage, montaje y procedencia de imágenes; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50894,7 +50894,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de collage con registro de procedencia y lectura crítica de cada fragmento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-704.",
-        "- Fallo crítico de esta clase: Una imagen sin permiso o contexto no puede sostener el argumento. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una imagen sin permiso o contexto no puede sostener el argumento. En collage, montaje y procedencia de imágenes , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-704 · Fotografía arquitectónica y sesgos de encuadre; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -50955,7 +50955,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de ensayo fotográfico comparado que hace visibles dos sesgos de encuadre siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-705.",
-        "- Fallo crítico de esta clase: La edición no debe ocultar condiciones relevantes del espacio. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La edición no debe ocultar condiciones relevantes del espacio. En fotografía arquitectónica y sesgos de encuadre , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-705 · Visualización de datos espaciales y escalas; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51016,7 +51016,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de gráfico espacial con leyenda, fuente, rango y dato desconocido siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-706.",
-        "- Fallo crítico de esta clase: Color y tamaño no deben exagerar diferencias ni borrar ausencias. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Color y tamaño no deben exagerar diferencias ni borrar ausencias. En visualización de datos espaciales y escalas , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-706 · Storytelling para crítica, comunidad y cliente; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51077,7 +51077,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de relato de cinco minutos adaptado a crítica, comunidad y cliente siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-707.",
-        "- Fallo crítico de esta clase: La simplificación no puede cambiar el grado de certeza. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La simplificación no puede cambiar el grado de certeza. En storytelling para crítica, comunidad y cliente , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-707 · Animación, tiempo y estados operativos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51138,7 +51138,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de animación breve con tiempo, eventos y supuestos visibles siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-708.",
-        "- Fallo crítico de esta clase: La velocidad de reproducción no debe falsear la experiencia. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La velocidad de reproducción no debe falsear la experiencia. En animación, tiempo y estados operativos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-708 · Realidad aumentada y superposición situada; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51199,7 +51199,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de prototipo de RA con anclas, escala y comprobación en terreno siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-709.",
-        "- Fallo crítico de esta clase: Una desalineación puede convertir una ayuda en información peligrosa. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una desalineación puede convertir una ayuda en información peligrosa. En realidad aumentada y superposición situada , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-709 · Realidad virtual, presencia y pruebas de uso; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51260,7 +51260,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de prototipo de RV y pauta de prueba con rutas alternativas siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-710.",
-        "- Fallo crítico de esta clase: Mareo, desorientación y exclusión requieren salida equivalente. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Mareo, desorientación y exclusión requieren salida equivalente. En realidad virtual, presencia y pruebas de uso , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-710 · Publicación accesible y portafolio multiformato; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51321,7 +51321,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de portafolio multiformato con texto alternativo y versión de baja tecnología siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-711.",
-        "- Fallo crítico de esta clase: La versión accesible debe conservar la información esencial. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La versión accesible debe conservar la información esencial. En publicación accesible y portafolio multiformato , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-711 · Pensamiento algorítmico para proyectistas; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51382,7 +51382,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de pseudocódigo y diagrama de flujo comprobados con dos ejemplos siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-712.",
-        "- Fallo crítico de esta clase: Automatizar una tarea mal definida sólo acelera el error. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Automatizar una tarea mal definida sólo acelera el error. En pensamiento algorítmico para proyectistas , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-712 · Datos, tipos, unidades y estructuras; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51443,7 +51443,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de diccionario de datos y conjunto mínimo con entradas válidas e inválidas siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-713.",
-        "- Fallo crítico de esta clase: Número sin unidad y nulo convertido en cero son fallos críticos. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Número sin unidad y nulo convertido en cero son fallos críticos. En datos, tipos, unidades y estructuras , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-713 · Coordenadas, vectores, matrices y transformaciones; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51504,7 +51504,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de cuaderno de transformaciones con resultado directo e inverso siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-714.",
-        "- Fallo crítico de esta clase: El orden de transformaciones debe permanecer explícito. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El orden de transformaciones debe permanecer explícito. En coordenadas, vectores, matrices y transformaciones , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-714 · Curvas, superficies, mallas y tolerancias; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51565,7 +51565,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de comparación de curva, superficie y malla bajo dos tolerancias siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-715.",
-        "- Fallo crítico de esta clase: Más polígonos no garantizan mejor geometría ni fabricación. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Más polígonos no garantizan mejor geometría ni fabricación. En curvas, superficies, mallas y tolerancias , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-715 · Parametrización y dependencias del modelo; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51626,7 +51626,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de grafo paramétrico con entradas, salidas y prueba de valores límite siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-716.",
-        "- Fallo crítico de esta clase: Un parámetro sin significado de diseño es ruido de control. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un parámetro sin significado de diseño es ruido de control. En parametrización y dependencias del modelo , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-716 · Scripting para automatizar tareas repetibles; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51687,7 +51687,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de script pequeño con instrucciones, ejemplo y manejo de errores siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-717.",
-        "- Fallo crítico de esta clase: La automatización debe fallar de forma visible y recuperable. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La automatización debe fallar de forma visible y recuperable. En scripting para automatizar tareas repetibles , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-717 · Diseño generativo y espacio de soluciones; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51748,7 +51748,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de espacio generativo de alternativas con criterios y descarte trazable siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-718.",
-        "- Fallo crítico de esta clase: Generar cantidad no equivale a producir diversidad útil. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Generar cantidad no equivale a producir diversidad útil. En diseño generativo y espacio de soluciones , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-718 · Optimización multiobjetivo y frentes de Pareto; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51809,7 +51809,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de comparación multiobjetivo sin reducir todo a una suma opaca siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-719.",
-        "- Fallo crítico de esta clase: Una condición crítica no puede convertirse en peso compensatorio. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una condición crítica no puede convertirse en peso compensatorio. En optimización multiobjetivo y frentes de pareto , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-719 · Pruebas, versiones y reproducibilidad del código; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51870,7 +51870,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de suite mínima de pruebas y bitácora de versiones del modelo siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-720.",
-        "- Fallo crítico de esta clase: Un resultado visual correcto no demuestra que el algoritmo sea correcto. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un resultado visual correcto no demuestra que el algoritmo sea correcto. En pruebas, versiones y reproducibilidad del código , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-720 · Proyecto computacional: regla, modelo y fabricación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51931,7 +51931,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de proyecto computacional completo con prototipo medido y corrección siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-721.",
-        "- Fallo crítico de esta clase: La cadena debe conservar unidades y tolerancias hasta la pieza. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La cadena debe conservar unidades y tolerancias hasta la pieza. En proyecto computacional: regla, modelo y fabricación , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-721 · Cartografía de usos de IA y decisiones indelegables; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -51992,7 +51992,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de usos permitidos, condicionados y prohibidos durante el ciclo de vida siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-722.",
-        "- Fallo crítico de esta clase: Una decisión de seguridad o derecho no puede quedar sin responsable humano. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una decisión de seguridad o derecho no puede quedar sin responsable humano. En cartografía de usos de ia y decisiones indelegables , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-722 · Datos de entrenamiento, procedencia y representatividad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52053,7 +52053,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de ficha de datos con procedencia, licencia, ausencias y uso previsto siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-723.",
-        "- Fallo crítico de esta clase: Datos abundantes no compensan una población mal representada. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Datos abundantes no compensan una población mal representada. En datos de entrenamiento, procedencia y representatividad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-723 · Ideación y generación de alternativas con restricciones; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52114,7 +52114,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de comparación de alternativas con registro de prompts, versiones y descarte siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-724.",
-        "- Fallo crítico de esta clase: La novedad visual no sustituye habitabilidad ni autoría responsable. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La novedad visual no sustituye habitabilidad ni autoría responsable. En ideación y generación de alternativas con restricciones , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-724 · Análisis de sitio y visión computacional; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52175,7 +52175,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de protocolo de análisis de sitio con muestra de falsos positivos y negativos siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-725.",
-        "- Fallo crítico de esta clase: Ninguna detección remota reemplaza confirmar condiciones críticas. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Ninguna detección remota reemplaza confirmar condiciones críticas. En análisis de sitio y visión computacional , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-725 · Distribución espacial, optimización y explicabilidad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52236,7 +52236,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de ensayo de distribución espacial con restricciones y explicación de decisión siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-726.",
-        "- Fallo crítico de esta clase: Una explicación plausible no prueba causalidad ni cumplimiento. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una explicación plausible no prueba causalidad ni cumplimiento. En distribución espacial, optimización y explicabilidad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-726 · IA en BIM, planos y detección de inconsistencias; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52297,7 +52297,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de benchmark de detección de inconsistencias contra revisión manual siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-727.",
-        "- Fallo crítico de esta clase: La ausencia de alerta no demuestra ausencia de error. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La ausencia de alerta no demuestra ausencia de error. En ia en bim, planos y detección de inconsistencias , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-727 · IA en costos, planificación y control de obra; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52358,7 +52358,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de tablero simulado con costos, plazo, incertidumbre y protocolo de escalamiento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-728.",
-        "- Fallo crítico de esta clase: Una predicción no autoriza ocultar el rango ni la fuente del dato. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una predicción no autoriza ocultar el rango ni la fuente del dato. En ia en costos, planificación y control de obra , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-728 · IA en operación, mantenimiento y gemelos digitales; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52419,7 +52419,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de flujo de mantenimiento predictivo con gemelo digital y evidencia de cierre siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-729.",
-        "- Fallo crítico de esta clase: Una alerta automática sin contexto puede aumentar fallas y carga operativa. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una alerta automática sin contexto puede aumentar fallas y carga operativa. En ia en operación, mantenimiento y gemelos digitales , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-729 · Sesgos, copyright, privacidad y seguridad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52480,7 +52480,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de registro de riesgos de sesgo, copyright, privacidad y ciberseguridad siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-730.",
-        "- Fallo crítico de esta clase: Un uso técnicamente posible puede ser jurídicamente o éticamente inaceptable. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un uso técnicamente posible puede ser jurídicamente o éticamente inaceptable. En sesgos, copyright, privacidad y seguridad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-730 · Auditoría profesional: IA frente a análisis independiente; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52541,7 +52541,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de auditoría comparada con casos de prueba, métricas y decisión de continuidad siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-731.",
-        "- Fallo crítico de esta clase: El mismo sistema no debe producir y validar su propia respuesta. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El mismo sistema no debe producir y validar su propia respuesta. En auditoría profesional: ia frente a análisis independiente , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-731 · Drones: planificación, captura, permisos y seguridad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52602,7 +52602,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan de vuelo académico con zonas, clima, privacidad y contingencia siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-732.",
-        "- Fallo crítico de esta clase: No se opera sin autorización, competencia y evaluación local. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: No se opera sin autorización, competencia y evaluación local. En drones: planificación, captura, permisos y seguridad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-732 · LiDAR: nubes de puntos, densidad y oclusiones; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52663,7 +52663,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de sección de nube de puntos con densidad, oclusiones y precisión declarada siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-733.",
-        "- Fallo crítico de esta clase: Un vacío de puntos no equivale a un vacío físico. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un vacío de puntos no equivale a un vacío físico. En lidar: nubes de puntos, densidad y oclusiones , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-733 · Escaneo 3D y registro de múltiples estaciones; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52724,7 +52724,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de registro de dos estaciones con informe de error y zonas no observadas siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-734.",
-        "- Fallo crítico de esta clase: Cerrar visualmente la nube no corrige una mala referencia. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Cerrar visualmente la nube no corrige una mala referencia. En escaneo 3d y registro de múltiples estaciones , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-734 · Fotogrametría avanzada y control de calidad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52785,7 +52785,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de modelo fotogramétrico con escala, control y mapa de error siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-735.",
-        "- Fallo crítico de esta clase: Textura realista no demuestra exactitud geométrica. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Textura realista no demuestra exactitud geométrica. En fotogrametría avanzada y control de calidad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-735 · Del levantamiento al modelo semántico; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52846,7 +52846,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de modelo semántico mínimo con origen y confianza de cada atributo siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-736.",
-        "- Fallo crítico de esta clase: Nombrar un objeto no valida su condición ni material. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Nombrar un objeto no valida su condición ni material. En del levantamiento al modelo semántico , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-736 · Corte láser, CNC y preparación de archivos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52907,7 +52907,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de archivo CNC o láser con nesting, kerf, prueba y plan seguro siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-737.",
-        "- Fallo crítico de esta clase: La simulación de trayectoria no reemplaza control de máquina. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La simulación de trayectoria no reemplaza control de máquina. En corte láser, cnc y preparación de archivos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-737 · Impresión 3D: proceso, orientación y soportes; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -52968,7 +52968,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de cupón impreso con registro de parámetros, defectos y medida siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-738.",
-        "- Fallo crítico de esta clase: Una pieza visible no demuestra resistencia ni aptitud de uso. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una pieza visible no demuestra resistencia ni aptitud de uso. En impresión 3d: proceso, orientación y soportes , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-738 · Fabricación aditiva a escala edilicia; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53029,7 +53029,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de protocolo conceptual de fabricación aditiva edilicia con ensayos requeridos siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-739.",
-        "- Fallo crítico de esta clase: Escala mayor introduce estructura, clima y certificación no resueltos. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Escala mayor introduce estructura, clima y certificación no resueltos. En fabricación aditiva a escala edilicia , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-739 · Robótica de obra y zonas de interacción; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53090,7 +53090,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de layout de celda robótica con peligros, barreras y secuencia de emergencia siguiendo los 6 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-740.",
-        "- Fallo crítico de esta clase: La productividad no puede compensar una interacción insegura. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La productividad no puede compensar una interacción insegura. En robótica de obra y zonas de interacción , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-740 · Prototipo 1:1: fabricar, medir, corregir y documentar; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53151,7 +53151,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de prototipo 1:1 con tolerancias previstas y reales, fallas y segunda versión siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-741.",
-        "- Fallo crítico de esta clase: La entrega incluye lo que falló y cómo cambió el diseño. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La entrega incluye lo que falló y cómo cambió el diseño. En prototipo 1:1: fabricar, medir, corregir y documentar , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-741 · Gobernanza urbana, poder y derecho a la ciudad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53212,7 +53212,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de gobernanza y poder sobre una decisión de barrio siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-742.",
-        "- Fallo crítico de esta clase: Participar no equivale a tener capacidad real de decisión. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Participar no equivale a tener capacidad real de decisión. En gobernanza urbana, poder y derecho a la ciudad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-742 · Política de suelo, captura de valor y regulación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53273,7 +53273,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de diagrama de captura de valor con beneficiarios y riesgos de desplazamiento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-743.",
-        "- Fallo crítico de esta clase: El aumento de valor no demuestra mejora distribuida. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El aumento de valor no demuestra mejora distribuida. En política de suelo, captura de valor y regulación , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-743 · Mercados de vivienda, arriendo y asequibilidad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53334,7 +53334,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de perfil de asequibilidad que incorpora transporte y servicios siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-744.",
-        "- Fallo crítico de esta clase: Precio de compra aislado no mide carga habitacional. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Precio de compra aislado no mide carga habitacional. En mercados de vivienda, arriendo y asequibilidad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-744 · Campamentos, informalidad y seguridad de tenencia; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53395,7 +53395,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de diagnóstico de asentamiento informal sin criminalizar a residentes siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-745.",
-        "- Fallo crítico de esta clase: Regularizar suelo no resuelve por sí solo habitabilidad y riesgo. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Regularizar suelo no resuelve por sí solo habitabilidad y riesgo. En campamentos, informalidad y seguridad de tenencia , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-745 · Segregación, gentrificación y desplazamiento; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53456,7 +53456,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de indicadores tempranos de gentrificación y plan de seguimiento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-746.",
-        "- Fallo crítico de esta clase: Renovación física no justifica expulsión directa o indirecta. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Renovación física no justifica expulsión directa o indirecta. En segregación, gentrificación y desplazamiento , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-746 · Género, cuidados y movilidad cotidiana; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53517,7 +53517,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa temporal de movilidad cotidiana desagregado por género y cuidado siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-747.",
-        "- Fallo crítico de esta clase: Promedios diarios pueden ocultar viajes encadenados. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Promedios diarios pueden ocultar viajes encadenados. En género, cuidados y movilidad cotidiana , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-747 · Migración, interculturalidad y acceso a servicios; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53578,7 +53578,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de acceso intercultural con puntos de exclusión y apoyo siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-748.",
-        "- Fallo crítico de esta clase: Una categoría administrativa no representa una cultura homogénea. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una categoría administrativa no representa una cultura homogénea. En migración, interculturalidad y acceso a servicios , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-748 · Datos urbanos, privacidad y sesgos de medición; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53639,7 +53639,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de auditoría de un dataset urbano con sesgos y límites de uso siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-749.",
-        "- Fallo crítico de esta clase: Lo no medido no puede tratarse como inexistente. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Lo no medido no puede tratarse como inexistente. En datos urbanos, privacidad y sesgos de medición , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-749 · Participación vinculante y resolución de conflictos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53700,7 +53700,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan participativo con reglas de influencia y devolución pública siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-750.",
-        "- Fallo crítico de esta clase: Una consulta sin efecto declarado es extracción de tiempo y conocimiento. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una consulta sin efecto declarado es extracción de tiempo y conocimiento. En participación vinculante y resolución de conflictos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-750 · Plan urbano: escenarios, inversión y evaluación distributiva; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53761,7 +53761,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan urbano con tres escenarios y matriz de impactos por grupo siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-751.",
-        "- Fallo crítico de esta clase: El escenario preferido debe superar derechos y condiciones críticas. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El escenario preferido debe superar derechos y condiciones críticas. En plan urbano: escenarios, inversión y evaluación distributiva , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-751 · Sistemas de infraestructura y niveles de servicio; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53822,7 +53822,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de ficha de nivel de servicio con usuarios, umbral y degradación siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-752.",
-        "- Fallo crítico de esta clase: La capacidad instalada no demuestra servicio efectivo. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La capacidad instalada no demuestra servicio efectivo. En sistemas de infraestructura y niveles de servicio , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-752 · Calles completas, jerarquía vial y seguridad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53883,7 +53883,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de sección de calle completa con conflicto modal y alternativa siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-753.",
-        "- Fallo crítico de esta clase: El flujo vehicular no puede borrar seguridad y accesibilidad. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El flujo vehicular no puede borrar seguridad y accesibilidad. En calles completas, jerarquía vial y seguridad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-753 · Carreteras, autopistas y relación con asentamientos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -53944,7 +53944,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de autopista y asentamientos con conectividad y externalidades siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-754.",
-        "- Fallo crítico de esta clase: Ahorro de tiempo agregado puede ocultar daños locales. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Ahorro de tiempo agregado puede ocultar daños locales. En carreteras, autopistas y relación con asentamientos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-754 · Ferrocarriles regionales y logística territorial; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54005,7 +54005,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de esquema regional de ferrocarril de pasajeros y carga con interfaces siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-755.",
-        "- Fallo crítico de esta clase: Una línea no funciona sin operación, acceso y última milla. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una línea no funciona sin operación, acceso y última milla. En ferrocarriles regionales y logística territorial , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-755 · Represas, embalses y decisiones socioambientales; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54066,7 +54066,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de balance conceptual de embalse con actores y consecuencias aguas abajo siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-756.",
-        "- Fallo crítico de esta clase: El volumen útil no resume impactos sociales y ecológicos. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El volumen útil no resume impactos sociales y ecológicos. En represas, embalses y decisiones socioambientales , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-756 · Abastecimiento, saneamiento y drenaje a escala territorial; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54127,7 +54127,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de diagrama territorial del ciclo urbano del agua y puntos de falla siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-757.",
-        "- Fallo crítico de esta clase: Resolver abastecimiento sin saneamiento traslada el riesgo. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Resolver abastecimiento sin saneamiento traslada el riesgo. En abastecimiento, saneamiento y drenaje a escala territorial , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-757 · Energía, almacenamiento y generación distribuida; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54188,7 +54188,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de escenario de energía distribuida con cargas críticas y recuperación siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-758.",
-        "- Fallo crítico de esta clase: Renovable no equivale automáticamente a continua o inocua. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Renovable no equivale automáticamente a continua o inocua. En energía, almacenamiento y generación distribuida , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-758 · Residuos, recuperación de recursos y localización; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54249,7 +54249,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de residuos y recuperación con distancias, salud y mercado siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-759.",
-        "- Fallo crítico de esta clase: Una tasa de reciclaje no describe toxicidad ni destino final. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una tasa de reciclaje no describe toxicidad ni destino final. En residuos, recuperación de recursos y localización , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-759 · Telecomunicaciones e infraestructura digital; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54310,7 +54310,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de infraestructura digital con dependencias físicas y ciberfísicas siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-760.",
-        "- Fallo crítico de esta clase: La nube depende de energía, agua, territorio y personas. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La nube depende de energía, agua, territorio y personas. En telecomunicaciones e infraestructura digital , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-760 · Plan integrado de redes y continuidad regional; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54371,7 +54371,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan integrado regional con escenarios de interrupción y recuperación siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-761.",
-        "- Fallo crítico de esta clase: Optimizar cada red por separado puede debilitar el sistema completo. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Optimizar cada red por separado puede debilitar el sistema completo. En plan integrado de redes y continuidad regional , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-761 · Adaptación climática basada en escenarios; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54432,7 +54432,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de ruta de adaptación con umbrales, decisiones reversibles y seguimiento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-762.",
-        "- Fallo crítico de esta clase: Usar sólo el clima histórico subestima condiciones futuras. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Usar sólo el clima histórico subestima condiciones futuras. En adaptación climática basada en escenarios , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-762 · Desempeño pasivo bajo clima futuro; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54493,7 +54493,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de comparación térmica conceptual para clima actual y futuro siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-763.",
-        "- Fallo crítico de esta clase: Una estrategia hoy útil puede provocar sobrecalentamiento mañana. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una estrategia hoy útil puede provocar sobrecalentamiento mañana. En desempeño pasivo bajo clima futuro , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-763 · Net-zero: alcance, balance y tiempo; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54554,7 +54554,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de balance net-zero con alcance, tiempo, pérdidas y energía importada siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-764.",
-        "- Fallo crítico de esta clase: Un balance anual no demuestra operación continua ni cero impacto. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un balance anual no demuestra operación continua ni cero impacto. En net-zero: alcance, balance y tiempo , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-764 · Carbono incorporado, biogénico y almacenamiento; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54615,7 +54615,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de inventario de carbono incorporado con escenarios biogénicos siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-765.",
-        "- Fallo crítico de esta clase: Carbono almacenado no puede descontarse sin tiempo y destino. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Carbono almacenado no puede descontarse sin tiempo y destino. En carbono incorporado, biogénico y almacenamiento , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-765 · Economía circular a escala de edificio y ciudad; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54676,7 +54676,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de pasaporte material y escenario de circularidad de un componente siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-766.",
-        "- Fallo crítico de esta clase: Reciclable en teoría no equivale a recuperación real. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Reciclable en teoría no equivale a recuperación real. En economía circular a escala de edificio y ciudad , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-766 · Biomateriales y materiales biofabricados; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54737,7 +54737,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de ficha crítica de biomaterial con ensayos y condiciones de uso siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-767.",
-        "- Fallo crítico de esta clase: Origen biológico no garantiza baja toxicidad o durabilidad. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Origen biológico no garantiza baja toxicidad o durabilidad. En biomateriales y materiales biofabricados , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-767 · Materiales inteligentes, sensores y respuesta; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54798,7 +54798,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de protocolo de material inteligente con respuesta y posición segura siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-768.",
-        "- Fallo crítico de esta clase: La novedad no reemplaza mantenibilidad ni comportamiento pasivo seguro. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La novedad no reemplaza mantenibilidad ni comportamiento pasivo seguro. En materiales inteligentes, sensores y respuesta , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-768 · Nanotecnología: prestaciones, exposición y cautela; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54859,7 +54859,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de matriz prestación-riesgo para una aplicación nanotecnológica siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-769.",
-        "- Fallo crítico de esta clase: Una mejora de laboratorio no demuestra inocuidad del sistema. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una mejora de laboratorio no demuestra inocuidad del sistema. En nanotecnología: prestaciones, exposición y cautela , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-769 · Soluciones basadas en naturaleza y regeneración; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54920,7 +54920,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de sección de solución basada en naturaleza con indicadores siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-770.",
-        "- Fallo crítico de esta clase: Vegetación decorativa no equivale a función ecológica. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Vegetación decorativa no equivale a función ecológica. En soluciones basadas en naturaleza y regeneración , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-770 · Proyecto climático: evitar, reducir, adaptar y reparar; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -54981,7 +54981,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de proyecto climático integrado con balances y plan posocupacional siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-771.",
-        "- Fallo crítico de esta clase: No se puede declarar regeneración sin línea base y medición. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: No se puede declarar regeneración sin línea base y medición. En proyecto climático: evitar, reducir, adaptar y reparar , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-771 · Inventario de edificios existentes y potencial de reutilización; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55042,7 +55042,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de inventario georreferenciado de potencial de reutilización siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-772.",
-        "- Fallo crítico de esta clase: Vacancia no significa disponibilidad jurídica o material. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Vacancia no significa disponibilidad jurídica o material. En inventario de edificios existentes y potencial de reutilización , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-772 · Levantamiento histórico, archivos y arqueología arquitectónica; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55103,7 +55103,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de cronología estratigráfica con fuentes y contradicciones siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-773.",
-        "- Fallo crítico de esta clase: Una ausencia documental no autoriza completar la historia. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una ausencia documental no autoriza completar la historia. En levantamiento histórico, archivos y arqueología arquitectónica , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-773 · Diagnóstico material y mapa de incertidumbre; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55164,7 +55164,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa patológico con hipótesis y plan de ensayos siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-774.",
-        "- Fallo crítico de esta clase: Reparar el síntoma sin causa puede agravar el daño. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Reparar el síntoma sin causa puede agravar el daño. En diagnóstico material y mapa de incertidumbre , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-774 · Escaneo, fotogrametría y HBIM; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55225,7 +55225,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de modelo patrimonial con confianza y procedencia por elemento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-775.",
-        "- Fallo crítico de esta clase: Detalle geométrico no equivale a conocimiento histórico. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Detalle geométrico no equivale a conocimiento histórico. En escaneo, fotogrametría y hbim , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-775 · Compatibilidad, reversibilidad y mínima intervención; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55286,7 +55286,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de matriz de alternativas de intervención y pérdida potencial siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-776.",
-        "- Fallo crítico de esta clase: Mínima intervención no significa ausencia de acción. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Mínima intervención no significa ausencia de acción. En compatibilidad, reversibilidad y mínima intervención , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-776 · Refuerzo, accesibilidad e incendio en preexistencias; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55347,7 +55347,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de conflictos entre refuerzo, accesibilidad e incendio siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-777.",
-        "- Fallo crítico de esta clase: Cumplir un frente no puede degradar otro requisito crítico. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Cumplir un frente no puede degradar otro requisito crítico. En refuerzo, accesibilidad e incendio en preexistencias , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-777 · Rehabilitación energética sin trasladar patologías; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55408,7 +55408,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de estrategia energética con análisis higrotérmico por verificar siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-778.",
-        "- Fallo crítico de esta clase: Aislar sin diagnosticar humedad puede trasladar condensación. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Aislar sin diagnosticar humedad puede trasladar condensación. En rehabilitación energética sin trasladar patologías , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-778 · Patrimonio industrial, moderno e indígena; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55469,7 +55469,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de declaración de significancia con voces, límites y desacuerdos siguiendo los 4 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-779.",
-        "- Fallo crítico de esta clase: La etiqueta patrimonial no reemplaza consentimiento ni contexto. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La etiqueta patrimonial no reemplaza consentimiento ni contexto. En patrimonio industrial, moderno e indígena , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-779 · Deconstrucción selectiva y bancos de componentes; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55530,7 +55530,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan de deconstrucción y banco de componentes trazable siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-780.",
-        "- Fallo crítico de esta clase: Recuperar cantidad no garantiza calidad para reutilizar. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Recuperar cantidad no garantiza calidad para reutilizar. En deconstrucción selectiva y bancos de componentes , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-780 · Proyecto de reutilización adaptativa y seguimiento; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55591,7 +55591,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de proyecto de reutilización adaptativa con seguimiento posocupacional siguiendo los 6 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-781.",
-        "- Fallo crítico de esta clase: El éxito se comprueba en uso, no sólo al inaugurar. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El éxito se comprueba en uso, no sólo al inaugurar. En proyecto de reutilización adaptativa y seguimiento , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-781 · Envejecimiento poblacional y autonomía cotidiana; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55652,7 +55652,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de recorrido cotidiano de una persona mayor con alternativas de apoyo siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-782.",
-        "- Fallo crítico de esta clase: Proteger no debe eliminar decisión y participación. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Proteger no debe eliminar decisión y participación. En envejecimiento poblacional y autonomía cotidiana , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-782 · Vivienda con apoyos y continuidad de cuidados; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55713,7 +55713,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de escenarios de vivienda con apoyos crecientes sin mudanza forzada siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-783.",
-        "- Fallo crítico de esta clase: El espacio no sustituye servicios, vínculos ni recursos. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El espacio no sustituye servicios, vínculos ni recursos. En vivienda con apoyos y continuidad de cuidados , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-783 · Neurodiversidad, orientación y carga sensorial; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55774,7 +55774,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa sensorial y de wayfinding con rutas de recuperación siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-784.",
-        "- Fallo crítico de esta clase: Reducir estímulos para todos puede empobrecer la experiencia. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Reducir estímulos para todos puede empobrecer la experiencia. En neurodiversidad, orientación y carga sensorial , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-784 · Salud mental, privacidad y espacios restaurativos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55835,7 +55835,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de secuencia de espacios restaurativos con grados de retiro siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-785.",
-        "- Fallo crítico de esta clase: Un ambiente tranquilo no reemplaza atención clínica. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un ambiente tranquilo no reemplaza atención clínica. En salud mental, privacidad y espacios restaurativos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-785 · Infancia, juego, riesgo y autonomía gradual; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55896,7 +55896,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de juego y autonomía gradual con peligros diferenciados siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-786.",
-        "- Fallo crítico de esta clase: Eliminar todo riesgo también elimina aprendizaje y agencia. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Eliminar todo riesgo también elimina aprendizaje y agencia. En infancia, juego, riesgo y autonomía gradual , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-786 · Discapacidad múltiple y diseño centrado en capacidades; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -55957,7 +55957,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de cadena de accesibilidad para una persona con discapacidad múltiple siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-787.",
-        "- Fallo crítico de esta clase: Resolver una sola discapacidad puede crear otra barrera. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Resolver una sola discapacidad puede crear otra barrera. En discapacidad múltiple y diseño centrado en capacidades , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-787 · Baños, higiene y cuidados dignos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56018,7 +56018,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de programa intercultural construido con escenarios y voces diversas siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-788.",
-        "- Fallo crítico de esta clase: Una referencia cultural no representa a todas las personas. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una referencia cultural no representa a todas las personas. En baños, higiene y cuidados dignos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-788 · Arquitectura para personas sin hogar y transición; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56079,7 +56079,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de mapa de trabajo de cuidado formal e informal y ajustes espaciales siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-789.",
-        "- Fallo crítico de esta clase: Eficiencia institucional no debe transferir carga invisible. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Eficiencia institucional no debe transferir carga invisible. En arquitectura para personas sin hogar y transición , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-789 · Refugios, emergencia y reunificación familiar; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56140,7 +56140,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de protocolo espacial de acogida con privacidad, información y continuidad siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-790.",
-        "- Fallo crítico de esta clase: La condición temporal no justifica soluciones indignas. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La condición temporal no justifica soluciones indignas. En refugios, emergencia y reunificación familiar , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-790 · Proyecto intergeneracional de barrio y cuidados; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56201,7 +56201,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de proyecto de cuidados con evaluación participativa y dos versiones siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-791.",
-        "- Fallo crítico de esta clase: La participación requiere consentimiento, devolución y cambios visibles. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La participación requiere consentimiento, devolución y cambios visibles. En proyecto intergeneracional de barrio y cuidados , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-791 · Arquitectura en desiertos, altura y aislamiento; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56262,7 +56262,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de comparación de dos bases terrestres extremas y sus dependencias siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-792.",
-        "- Fallo crítico de esta clase: Lo extremo no justifica ignorar bienestar y evacuación. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Lo extremo no justifica ignorar bienestar y evacuación. En arquitectura en desiertos, altura y aislamiento , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-792 · Bases antárticas y logística estacional; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56323,7 +56323,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de sección de asentamiento flotante con accesos y mantenimiento siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-793.",
-        "- Fallo crítico de esta clase: Estabilidad conceptual no equivale a ingeniería naval. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Estabilidad conceptual no equivale a ingeniería naval. En bases antárticas y logística estacional , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-793 · Arquitectura marítima y asentamientos flotantes; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56384,7 +56384,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de esquema de hábitat subterráneo con modos de falla siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-794.",
-        "- Fallo crítico de esta clase: Protección exterior puede aumentar riesgo interior. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Protección exterior puede aumentar riesgo interior. En arquitectura marítima y asentamientos flotantes , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-794 · Hábitats subterráneos y protección ambiental; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56445,7 +56445,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de plan de construcción autónoma con intervención humana segura siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-795.",
-        "- Fallo crítico de esta clase: Autónomo no significa sin supervisión ni recuperación. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Autónomo no significa sin supervisión ni recuperación. En hábitats subterráneos y protección ambiental , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-795 · Construcción autónoma y mantenimiento remoto; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56506,7 +56506,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de presupuesto de agua, aire, energía y residuos con pérdidas explícitas siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-796.",
-        "- Fallo crítico de esta clase: Un ciclo nunca se declara cerrado ocultando reposición. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Un ciclo nunca se declara cerrado ocultando reposición. En construcción autónoma y mantenimiento remoto , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-796 · Sistemas cerrados de agua, aire, energía y residuos; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56567,7 +56567,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de arquitectura de sistema lunar con interfaces y supuestos siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-797.",
-        "- Fallo crítico de esta clase: El caso avanzado no constituye diseño certificado. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: El caso avanzado no constituye diseño certificado. En sistemas cerrados de agua, aire, energía y residuos , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-797 · Hábitat lunar: misión, polvo, radiación y logística; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56628,7 +56628,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de escenario marciano con autonomía y piezas críticas siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-798.",
-        "- Fallo crítico de esta clase: La autosuficiencia total es una hipótesis que debe cuantificarse. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: La autosuficiencia total es una hipótesis que debe cuantificarse. En hábitat lunar: misión, polvo, radiación y logística , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-798 · Hábitat marciano: demora, autonomía y reparación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56689,7 +56689,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de modelo de amenazas físico-ciberfísicas para un edificio conectado siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-799.",
-        "- Fallo crítico de esta clase: Seguridad digital y seguridad de vida deben coordinarse. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Seguridad digital y seguridad de vida deben coordinarse. En hábitat marciano: demora, autonomía y reparación , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-799 · Seguridad física y ciberseguridad de edificios conectados; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56750,7 +56750,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de matriz del proyecto final con requisitos y verificaciones siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-800.",
-        "- Fallo crítico de esta clase: Una interfaz sin propietario es una falla pendiente. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Una interfaz sin propietario es una falla pendiente. En seguridad física y ciberseguridad de edificios conectados , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad inmediata es ARQ-800 · Proyecto final: integrar, verificar, defender y transferir; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -56811,7 +56811,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye una primera versión de proyecto final, portafolio de versiones y agenda de investigación siguiendo los 5 pasos del diagrama. Bajo cada paso escribe una entrada, una operación y una salida. Marca con un signo de interrogación lo que todavía no conoces; no lo conviertas en cero, promedio o supuesto oculto.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para EST-10.",
-        "- Fallo crítico de esta clase: Defender incluye reconocer límites y condiciones de reapertura. Corrige localizando el paso que falta en la secuencia y vuelve a producir la evidencia."
+        "- Fallo crítico de esta clase: Defender incluye reconocer límites y condiciones de reapertura. En proyecto final: integrar, verificar, defender y transferir , localiza el paso que no lo demuestra y vuelve a producir la evidencia."
       ],
       "next_connection": "La continuidad es EST-10, donde la evidencia se incorpora al portafolio longitudinal y a la defensa final.",
       "foundations": [

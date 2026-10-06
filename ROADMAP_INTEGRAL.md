@@ -72,10 +72,12 @@ Objetivo: comprobar que cada clase justifica su existencia y se conecta con el r
 - revisar preguntas, resultados, práctica, evidencia y aceptación;
 - auditar prerrequisitos y dependencias;
 - detectar títulos o contenidos redundantes;
+- medir párrafos repetidos, sustancia propia y pares cercanos con la [auditoría de diferencias](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md);
+- reescribir primero las partes 61–62 y 65–66, y luego 49–60, mediante casos, mecanismos, evidencias y gráficas propias;
 - revisar que la dificultad aumente entre fases;
 - comprobar que las rutas reutilicen el núcleo.
 
-**Evidencia de cierre:** 800 contratos válidos, sin identificadores desconocidos ni títulos duplicados, y muestra manual documentada.
+**Evidencia de cierre:** 800 contratos válidos, sin identificadores desconocidos ni títulos duplicados; Fase III sin párrafos editoriales largos no autorizados repetidos en más de diez clases; y revisión manual documentada de las familias históricas priorizadas.
 
 ### Horizonte C — profundidad disciplinar
 
@@ -139,6 +141,7 @@ Una clase nueva debe aportar una competencia nueva, profundidad demostrable, int
 | 2026-10-06 | ampliar de 12 a 33 rutas | lista de especializaciones y cobertura existente reutilizable | rutas especializadas sin duplicar clases |
 | 2026-10-06 | añadir EST-09 y EST-10 | nuevas capacidades de investigación, prototipo y transferencia | 60 sesiones integradoras |
 | 2026-10-06 | mantener artefactos v1.0 en raíz | enlaces y checksums históricos | preservación explícita; no son estado actual |
+| 2026-10-06 | auditar diferencias de las 800 clases y reescribir Fase III | 800 filas comparadas; homogeneidad detectada en los primeros textos nuevos | 120 desarrollos ampliados; deuda histórica priorizada por partes |
 
 ## Documentos de control
 
@@ -148,6 +151,7 @@ Una clase nueva debe aportar una competencia nueva, profundidad demostrable, int
 - [Estado verificable](docs/ESTADO_VERIFICABLE.md)
 - [Informe de integración 2026.10](docs/INFORME_INTEGRACION_2026-10.md)
 - [Estándar de documentación de clase](docs/ESTANDAR_DOCUMENTACION_CLASE.md)
+- [Auditoría de diferencias entre las 800 clases](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md)
 - [Estándar de fuentes](docs/ESTANDAR_DE_FUENTES.md)
 
 Toda iteración futura debe actualizar este roadmap cuando cambie una prioridad, condición de cierre o brecha; los hitos históricos se agregan, no se reescriben.

@@ -23,6 +23,7 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 ## Evidencia y control editorial
 
 - [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) — diagnóstico de la base histórica de 680 clases, cinco pilotos profundos, decisiones, fuentes, cambios y pendientes.
+- [Auditoría de diferencias entre las 800 clases](AUDITORIA_DIFERENCIAS_800_CLASES.md) — huellas, repetición editorial, similitud y registro clase por clase.
 - [Arquitectura del repositorio](ARQUITECTURA_DEL_REPOSITORIO.md) — fuentes canónicas, salidas generadas y artefactos históricos.
 - [Informe de integración 2026.10](INFORME_INTEGRACION_2026-10.md) — conservación, expansión, decisiones, riesgos y próximos pasos.
 - [Estado verificable](ESTADO_VERIFICABLE.md) — cobertura medida, brechas conocidas y comandos reproducibles.

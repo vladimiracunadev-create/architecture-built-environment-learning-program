@@ -34,7 +34,7 @@ Este documento separa integridad curricular, cobertura pedagógica, trazabilidad
 | Piloto con revisión editorial manual profunda | **5/800** | muestra inicial, intermedia, normativa, avanzada y final del núcleo previo |
 | Títulos normalizados duplicados | **0** | control de inflación temática |
 
-El corpus contiene aproximadamente **2,04 millones de unidades separadas por espacio**, con mediana de **2.685,5 por clase**. La longitud describe escala editorial; no demuestra calidad o aprendizaje.
+La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona además duplicación y proximidad editorial. Los 800 archivos y las 800 preguntas son distintos. En Fase III hay 120 secuencias, 120 condiciones críticas y 120 gráficas temáticas propias; ninguna explicación larga no autorizada se repite en más de diez de esas clases. El corpus tiene una mediana de **2.859 palabras por clase** bajo el conteo léxico del auditor. La longitud y la unicidad verbal describen escala editorial; no demuestran calidad o aprendizaje.
 
 ## 3. Talleres, rutas y portafolio
 
@@ -89,6 +89,7 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 4. **Fuentes.** 1.053 usos requieren completar uno o más campos contextuales; también falta vigilancia periódica de disponibilidad y vigencia.
 5. **Visuales disciplinares.** Existen mapas de aprendizaje; deben ampliarse planos, cortes, mapas, detalles y diagramas técnicos por especialidad.
 6. **Accesibilidad especializada.** El sitio usa estructura semántica y diseño adaptable, pero no cuenta con auditoría WCAG externa.
+7. **Diferenciación del núcleo anterior.** La auditoría detecta 129 patrones editoriales largos presentes en más de diez clases. Se priorizan las partes 61–62 y 65–66, seguidas por 49–60; la corrección debe cambiar mecanismos, casos, evidencias y gráficas, no sólo vocabulario.
 
 El [roadmap integral](../ROADMAP_INTEGRAL.md) conserva el orden de resolución, responsables documentales y condiciones de cierre de estas brechas.
 
@@ -99,6 +100,7 @@ python scripts/generate_curriculum_docs.py --check
 python scripts/build_pedagogical_decisions.py --check
 python scripts/apply_pedagogy.py --check
 python scripts/audit_pedagogical_traceability.py --json
+python scripts/audit_class_distinctness.py --check
 python scripts/build_bibliography.py --check
 python scripts/build_site.py
 python scripts/validate_repo.py

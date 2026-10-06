@@ -1,0 +1,267 @@
+{
+  "scope": "800 authored lesson files; generated pedagogy contracts and source lists excluded from editorial repetition analysis",
+  "all_classes": {
+    "files": 800,
+    "exact_unique_files": 800,
+    "classes_with_central_question": 800,
+    "unique_questions": 800,
+    "classes_with_editorial_graph": 120,
+    "unique_editorial_graphs": 120,
+    "classes_with_explicit_critical_condition": 120,
+    "unique_explicit_critical_conditions": 120,
+    "total_words": 2199845,
+    "minimum_words": 1247,
+    "median_words": 2859,
+    "maximum_words": 4219,
+    "minimum_unique_editorial_word_share": 0.1594,
+    "median_unique_editorial_word_share": 0.9413,
+    "maximum_nearest_similarity_same_part": 0.6705,
+    "median_nearest_similarity_same_part": 0.2709
+  },
+  "phase_three_arq_681_800": {
+    "files": 120,
+    "exact_unique_files": 120,
+    "unique_questions": 120,
+    "unique_graphs": 120,
+    "unique_critical_conditions": 120,
+    "minimum_words": 3455,
+    "maximum_words": 3863,
+    "unallowed_long_paragraphs_repeated_over_ten_classes": 0,
+    "minimum_unique_editorial_word_share": 0.9275,
+    "median_unique_editorial_word_share": 0.9405,
+    "maximum_nearest_similarity_same_part": 0.5836,
+    "median_nearest_similarity_same_part": 0.5692
+  },
+  "repeated_editorial_paragraphs": {
+    "total_patterns_used_by_two_or_more_classes": 194,
+    "patterns_used_by_over_ten_classes": 129,
+    "top_patterns": [
+      {
+        "uses": 40,
+        "sample_classes": [
+          "ARQ-561",
+          "ARQ-562",
+          "ARQ-563",
+          "ARQ-564",
+          "ARQ-565"
+        ],
+        "text_excerpt": "Además del cálculo, escribe dos conclusiones que sí estén respaldadas, dos que no puedas sostener y una comprobación que debería realizar un especialista antes de construir u operar."
+      },
+      {
+        "uses": 28,
+        "sample_classes": [
+          "ARQ-452",
+          "ARQ-453",
+          "ARQ-454",
+          "ARQ-455",
+          "ARQ-456"
+        ],
+        "text_excerpt": "Cuando una evidencia pertenece a otra jurisdicción, producto, material o edificio, se conserva como referencia conceptual y no como resultado del caso. La aceptación del cliente, la presencia de un archivo o una cifra aritméticamente correc"
+      },
+      {
+        "uses": 28,
+        "sample_classes": [
+          "ARQ-452",
+          "ARQ-453",
+          "ARQ-454",
+          "ARQ-455",
+          "ARQ-456"
+        ],
+        "text_excerpt": "Evita convertir **ausencia de evidencia en evidencia de ausencia**, promediar estados que necesitan conservarse por separado, compensar una condición necesaria con un buen puntaje en otro criterio, o eliminar un resultado desfavorable porqu"
+      },
+      {
+        "uses": 28,
+        "sample_classes": [
+          "ARQ-452",
+          "ARQ-453",
+          "ARQ-454",
+          "ARQ-455",
+          "ARQ-456"
+        ],
+        "text_excerpt": "Las decisiones de esta clase cruzan disciplinas y etapas. Cada registro debe identificar **objeto, ubicación, fuente, fecha o versión, responsable de producir evidencia, responsable de revisarla y condición de cierre**. Una modificación no "
+      },
+      {
+        "uses": 28,
+        "sample_classes": [
+          "ARQ-452",
+          "ARQ-453",
+          "ARQ-454",
+          "ARQ-455",
+          "ARQ-456"
+        ],
+        "text_excerpt": "Puedes avanzar cuando eres capaz de reconstruir el caso sin consultar la respuesta, explicar una conclusión que **sí** está respaldada y otra que **no**, y nombrar el documento, ensayo, participante o especialista que debería aportar la evi"
+      },
+      {
+        "uses": 28,
+        "sample_classes": [
+          "ARQ-452",
+          "ARQ-453",
+          "ARQ-454",
+          "ARQ-455",
+          "ARQ-456"
+        ],
+        "text_excerpt": "Una entrega robusta permite repetir las cuentas y localizar la procedencia de cada afirmación. Si una cifra cambia al modificar una hipótesis, la sensibilidad se documenta; no se inventa una probabilidad. Si el modelo deja fuera un fenómeno"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-521",
+          "ARQ-522",
+          "ARQ-523",
+          "ARQ-524",
+          "ARQ-525"
+        ],
+        "text_excerpt": "Además de la cuenta, redacta dos afirmaciones respaldadas y dos que todavía no pueden sostenerse. Para cada pendiente indica qué dato, documento, prueba o especialista permitiría resolverla."
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-601",
+          "ARQ-602",
+          "ARQ-603",
+          "ARQ-604",
+          "ARQ-605"
+        ],
+        "text_excerpt": "Además del cálculo, dibuja el flujo o la red del caso, identifica un punto común y escribe dos afirmaciones que sí puedas defender y dos que deban permanecer pendientes."
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-601",
+          "ARQ-602",
+          "ARQ-603",
+          "ARQ-604",
+          "ARQ-605"
+        ],
+        "text_excerpt": "Al terminar podrás construir una representación operativa de esta tipología, resolver un caso cuantitativo acotado, detectar al menos una dependencia compartida y redactar qué evidencia falta antes de convertir el estudio en proyecto. La en"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-411",
+          "ARQ-412",
+          "ARQ-413",
+          "ARQ-414",
+          "ARQ-415"
+        ],
+        "text_excerpt": "Antes de avanzar, comprueba que puedes: explicar la unidad y el denominador de cada cifra; reconstruir el balance; identificar una hipótesis que, si cambia, podría alterar la decisión; y nombrar al menos una evidencia que tendría que produc"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-541",
+          "ARQ-542",
+          "ARQ-543",
+          "ARQ-544",
+          "ARQ-545"
+        ],
+        "text_excerpt": "Compara el caso con una alternativa distinta. Pregunta qué cambiaría si aumenta la demanda, falla una conexión, se interviene una parte durante operación o aparece una restricción de mantenimiento. La transferencia correcta conserva el méto"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-541",
+          "ARQ-542",
+          "ARQ-543",
+          "ARQ-544",
+          "ARQ-545"
+        ],
+        "text_excerpt": "Confundir superficie con capacidad; usar una distancia como tiempo sin sumar esperas; tratar una ruta dibujada como disponible en todos los estados; suponer que menos apoyos significa un puente mejor; convertir un equilibrio ideal en dimens"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-561",
+          "ARQ-562",
+          "ARQ-563",
+          "ARQ-564",
+          "ARQ-565"
+        ],
+        "text_excerpt": "Construibilidad y mantenibilidad son verificaciones distintas. Una solución puede construirse con medios especiales y ser difícil de mantener, o ser accesible durante obra y quedar encerrada al terminar. El expediente debe mostrar rutas y e"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-501",
+          "ARQ-502",
+          "ARQ-503",
+          "ARQ-504",
+          "ARQ-505"
+        ],
+        "text_excerpt": "Conviene describir quién llega, quién permanece, quién trabaja, quién mantiene y quién utiliza espacios de apoyo. Después se siguen actividades completas: llegada, orientación, transición, estancia, servicio, salida y estados extraordinario"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-601",
+          "ARQ-602",
+          "ARQ-603",
+          "ARQ-604",
+          "ARQ-605"
+        ],
+        "text_excerpt": "Cuando aparezcan porcentajes, se conserva el denominador. Cuando aparezcan capacidades de etapas consecutivas, se busca la menor o se construye el balance temporal; **no se suman como si fueran alternativas paralelas**. Cuando dos rutas com"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-411",
+          "ARQ-412",
+          "ARQ-413",
+          "ARQ-414",
+          "ARQ-415"
+        ],
+        "text_excerpt": "Cuando el resultado depende del tiempo, conserva el orden de los eventos. Un saldo final puede ser compatible con un déficit anterior, una demora o una capacidad excedida. Cuando depende del alcance, conserva qué está incluido y qué queda f"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-561",
+          "ARQ-562",
+          "ARQ-563",
+          "ARQ-564",
+          "ARQ-565"
+        ],
+        "text_excerpt": "Cuando una fuente es internacional, registra su jurisdicción y propósito. Cuando es una guía de buenas prácticas, no la rotules como ley. Cuando solo se consultó una página pública, no presentes el manual completo como leído. Esta distinció"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-581",
+          "ARQ-582",
+          "ARQ-583",
+          "ARQ-584",
+          "ARQ-585"
+        ],
+        "text_excerpt": "Demuestra las relaciones aritméticas o geométricas declaradas dentro de las hipótesis. No verifica seguridad integral, incendio, accesibilidad reglamentaria, estructura completa, continuidad, conservación, bioseguridad, ciberseguridad, oper"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-561",
+          "ARQ-562",
+          "ARQ-563",
+          "ARQ-564",
+          "ARQ-565"
+        ],
+        "text_excerpt": "Demuestra únicamente las relaciones aritméticas o geométricas declaradas. No verifica seguridad integral, comportamiento estructural completo, geotecnia, incendio, evacuación, accesibilidad reglamentaria, impacto, costo, operación o manteni"
+      },
+      {
+        "uses": 20,
+        "sample_classes": [
+          "ARQ-541",
+          "ARQ-542",
+          "ARQ-543",
+          "ARQ-544",
+          "ARQ-545"
+        ],
+        "text_excerpt": "Demuestra únicamente las relaciones calculadas bajo las hipótesis declaradas. No verifica seguridad integral, capacidad reglamentaria, accesibilidad, desempeño ferroviario, resistencia estructural, fatiga, socavación, construcción o manteni"
+      }
+    ],
+    "patterns_used_by_over_ten_phase_three_classes": []
+  },
+  "method": {
+    "exactness": "SHA-256 prefixes over the complete Markdown, central question, first Mermaid graph and critical condition",
+    "originality": "word-weighted share of prose paragraphs used by one class after excluding generated contracts and sources",
+    "near_similarity": "Jaccard similarity of five-word shingles against the other nine classes in the same part"
+  }
+}

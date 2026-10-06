@@ -27,6 +27,7 @@ El repositorio contenía 680 clases en 68 partes, ocho talleres con 48 sesiones,
 - **2 talleres nuevos**, EST-09 y EST-10, con doce sesiones adicionales.
 - **21 rutas especializadas nuevas**, para un total de 33, que cubren urbanismo, paisaje, vivienda, diseño computacional, fabricación digital, bioclimática, iluminación, acústica, interiores, salud, educación, transporte, infraestructura, industria, centros de datos, sismo, resiliencia, desarrollo inmobiliario, investigación, visualización e IA.
 - Matriz de cobertura integral, mapa de dependencias, glosario bilingüe y este informe.
+- Auditoría reproducible de diferencias, con un registro CSV de las 800 clases, huellas de contenido, proporción de prosa propia y par más parecido dentro de cada parte.
 
 ## Duplicados evitados
 
@@ -41,7 +42,8 @@ La expansión incorporó cinco localizadores únicos y reutilizó fuentes oficia
 - La Fase III exige núcleo común o evidencia equivalente.
 - Cada parte añade una familia coherente de diez decisiones y un producto acumulativo.
 - EST-09 comprueba investigación, datos y prototipado; EST-10 exige transferencia interdisciplinaria.
-- Las 120 clases nuevas tienen entre 2.912 y 3.124 unidades separadas por espacio después de integrar el contrato pedagógico; las 120 preguntas, condiciones críticas y gráficas temáticas son distintas y CI comprueba esa unicidad.
+- Las 120 clases nuevas tienen entre 3.455 y 3.863 palabras bajo el conteo léxico del auditor; las 120 preguntas, condiciones críticas y gráficas temáticas son distintas y CI comprueba esa unicidad.
+- Tras detectar una voz demasiado uniforme, se sustituyeron los párrafos comunes de método, contexto, errores y recuperación por desarrollos basados en los pasos, la evidencia, el caso y la condición crítica de cada clase. No quedan párrafos editoriales largos no autorizados repetidos en más de diez clases de Fase III.
 - El caso común de decisión multicriterio enseña a no promediar condiciones críticas y se contextualiza en cada tema; no se presenta como algoritmo universal.
 
 ## Brechas pendientes
@@ -52,6 +54,7 @@ La expansión incorporó cinco localizadores únicos y reutilizó fuentes oficia
 4. Más visuales disciplinares: plantas, cortes, mapas, detalles y datos descargables.
 5. Prácticas presenciales, ensayos físicos y acceso a fabricación supervisada.
 6. Coevaluación con comunidades y personas usuarias bajo consentimiento.
+7. Diferenciación del núcleo anterior: 129 patrones editoriales largos todavía aparecen en más de diez clases, con prioridad en las partes 61–62, 65–66 y 49–60.
 
 ## Riesgos técnicos
 
@@ -61,4 +64,4 @@ La expansión incorporó cinco localizadores únicos y reutilizó fuentes oficia
 
 ## Próximos pasos
 
-Priorizar una revisión externa por muestras estratificadas de las 80 partes; ejecutar un piloto de EST-01, EST-06, EST-09 y EST-10; ampliar visuales originales; automatizar revisión de disponibilidad sin confundir disponibilidad con vigencia; y registrar tiempos reales antes de publicar cargas o equivalencias académicas.
+Priorizar la reescritura diferencial de las partes identificadas por [`AUDITORIA_DIFERENCIAS_800_CLASES.md`](AUDITORIA_DIFERENCIAS_800_CLASES.md), una revisión externa por muestras estratificadas de las 80 partes, un piloto de EST-01, EST-06, EST-09 y EST-10, visuales originales y el registro de tiempos reales antes de publicar cargas o equivalencias académicas.
