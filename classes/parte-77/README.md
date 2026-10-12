@@ -148,4 +148,4 @@ Esta parte comienza con **Adaptación climática basada en escenarios** y culmin
 
 ## Navegación
 
-[← Parte 76](../parte-76/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 78 →](../parte-78/README.md)
+[← Parte 76](../parte-76/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 78 →](../parte-78/README.md)

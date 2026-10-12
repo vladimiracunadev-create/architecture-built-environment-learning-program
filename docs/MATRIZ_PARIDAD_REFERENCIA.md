@@ -13,14 +13,14 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 | Patrón de la referencia | Implementación en este repositorio | Estado |
 |---|---|---|
 | Portada visual, badges y accesos principales | README con CI, Pages, clases, rutas, fuentes, idioma y licencias | Aplicado |
-| Índice curricular completo | `classes/README.md` con 80 partes | Aplicado |
-| Portada de cada parte | 80 README generados; publican propósito, preguntas y navegación | Aplicado |
-| Conversión Markdown → HTML | 800 clases, 80 partes y documentación en Pages | Aplicado |
+| Índice curricular completo | `classes/README.md` con 83 partes | Aplicado |
+| Portada de cada parte | 83 README generados; publican propósito, preguntas y navegación | Aplicado |
+| Conversión Markdown → HTML | 830 clases, 83 partes y documentación en Pages | Aplicado |
 | Explicación de origen del material | `docs/PROCEDENCIA_EDITORIAL.md` | Aplicado |
-| Bibliografía central trazable | esquema v3: 627 URLs, 2.179 usos, estado completo/parcial y campos ausentes por clase | Aplicado |
-| Fuentes con alcance y límites | sección dedicada en 800/800 clases | Aplicado |
+| Bibliografía central trazable | esquema v3: 631 URLs, 2.419 usos, estado completo/parcial y campos ausentes por clase | Aplicado |
+| Fuentes con alcance y límites | sección dedicada en 830/830 clases | Aplicado |
 | Cómo usar el programa | guía para perfiles y recorridos | Aplicado |
-| Rutas por interés o responsabilidad | 33 rutas y mapa de 80 roles/oficios | Aplicado |
+| Rutas por interés o responsabilidad | 34 rutas y mapa de 80 roles/oficios | Aplicado |
 | Estado comprobable y brechas | cobertura exacta, comandos y límites explícitos | Aplicado |
 | Licencia separada de código y contenido | Apache-2.0 + CC BY-NC-SA 4.0 | Aplicado |
 | Licencias de datos y activos | inventarios dedicados | Aplicado |
@@ -35,7 +35,7 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 | Patrón | Adaptación |
 |---|---|
 | Laboratorios ejecutables | prácticas documentales y casos dentro de las clases; no se afirma que existan laboratorios de obra |
-| Soluciones separadas | retroalimentación, autoevaluación y recuperación integradas en 800/800 clases; los casos trabajados se contabilizan por separado |
+| Soluciones separadas | retroalimentación, autoevaluación y recuperación integradas en 830/830 clases; los casos trabajados se contabilizan por separado |
 | Manual único | lector offline v1.0 y portal HTML; se conserva la fuente Markdown por clase |
 | Rutas laborales | rutas temáticas y mapa de responsabilidades, sin prometer empleabilidad ni habilitación |
 | Seguridad y ética ofensiva | alcance profesional, seguridad de contenido y límites de actuación en obra y emergencias |
@@ -57,4 +57,4 @@ Un elemento nuevo de la referencia no se copia automáticamente. Se evalúa por 
 
 ## Brecha que esta matriz ya no oculta
 
-La cobertura de encabezados, prácticas, fuentes y cadenas de decisión alcanza **800/800**. Cinco casos conservan además revisión editorial manual profunda. La revisión externa por especialidad continúa siendo un estado distinto. Consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).
+La cobertura de encabezados, prácticas, fuentes y cadenas de decisión alcanza **830/830**. Cinco casos conservan además revisión editorial manual profunda. La revisión externa por especialidad continúa siendo un estado distinto. Consulta la [auditoría pedagógica](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md).

@@ -148,4 +148,4 @@ Esta parte comienza con **Diseñar frente al sismo: comportamiento, daño y lím
 
 ## Navegación
 
-[← Parte 34](../parte-34/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 36 →](../parte-36/README.md)
+[← Parte 34](../parte-34/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 36 →](../parte-36/README.md)

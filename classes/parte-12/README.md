@@ -148,4 +148,4 @@ Esta parte comienza con **Tejido urbano: trama, parcela, manzana y calle** y cul
 
 ## Navegación
 
-[← Parte 11](../parte-11/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 13 →](../parte-13/README.md)
+[← Parte 11](../parte-11/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 13 →](../parte-13/README.md)

@@ -44,7 +44,7 @@ Esta parte comienza con **Del mapa geológico a la investigación del terreno** 
 
 **Posición:** Abre la Parte 19 porque plantea primero el problema «¿Qué permite saber un mapa geológico sobre un terreno y qué investigación falta antes de relacionar ese conocimiento con una decisión arquitectónica?». La transición desde ARQ-180 · Prueba de uso y devolución con personas usuarias conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-182 · Tipos de suelo y propiedades de comportamiento desarrollará a continuación.
 
-**Entrada:** ARQ-180, ARQ-103, ARQ-107 · **Salida:** ARQ-182, ARQ-190.
+**Entrada:** ARQ-180, ARQ-103, ARQ-107 · **Salida:** ARQ-182, ARQ-190, ARQ-804.
 
 **Evidencia:** ARQ-180 cerró una investigación de uso conservando tareas, observaciones y límites. Esta parte traslada ese cuidado a otra evidencia: la del subsuelo. No convierte una encuesta en un ensayo geotécnico ni recupera las dimensiones de CIV como si pertenecieran a este predio.
 
@@ -94,7 +94,7 @@ Esta parte comienza con **Del mapa geológico a la investigación del terreno** 
 
 **Posición:** Ocupa el lugar 6 de la Parte 19. Se estudia después de ARQ-185 · Capacidad de soporte y asentamientos: conceptos porque usa esa base para responder «¿Cómo comparar conceptualmente fundaciones superficiales y profundas sin elegirlas por costumbre, por apariencia del terreno o mediante una presión aislada?». Se ubica antes de ARQ-187 · Taludes, excavaciones y obras temporales porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-185, ARQ-025 · **Salida:** ARQ-187, ARQ-189.
+**Entrada:** ARQ-185, ARQ-025 · **Salida:** ARQ-187, ARQ-189, ARQ-813.
 
 **Evidencia:** ARQ-185 mostró que resistencia, deformación y tiempo son preguntas distintas. Esta clase organiza alternativas de transferencia de acciones al terreno y estudia un modelo de apoyos elásticos. RESORTES-01 es un sistema ideal, no una cimentación calculada para GEO-BASE-01.
 
@@ -104,7 +104,7 @@ Esta parte comienza con **Del mapa geológico a la investigación del terreno** 
 
 **Posición:** Ocupa el lugar 7 de la Parte 19. Se estudia después de ARQ-186 · Fundaciones superficiales y profundas: selección conceptual porque usa esa base para responder «¿Por qué una excavación o un talud necesita analizarse como un estado propio, y cómo puede el agua modificar una comprobación de equilibrio aunque la geometría visible no cambie?». Se ubica antes de ARQ-188 · Licuefacción y efectos del sitio porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-186, ARQ-184 · **Salida:** ARQ-188, ARQ-189.
+**Entrada:** ARQ-186, ARQ-184 · **Salida:** ARQ-188, ARQ-189, ARQ-805.
 
 **Evidencia:** ARQ-186 incorporó ejecución y entorno a la comparación de fundaciones. Esta clase estudia fuerzas sobre una superficie potencial ficticia y distingue esa cuenta de un análisis completo de estabilidad. TALUD-FUERZAS-01 no tiene dimensiones de excavación ni representa GEO-BASE-01.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Del mapa geológico a la investigación del terreno** 
 
 ## Navegación
 
-[← Parte 18](../parte-18/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 20 →](../parte-20/README.md)
+[← Parte 18](../parte-18/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 20 →](../parte-20/README.md)

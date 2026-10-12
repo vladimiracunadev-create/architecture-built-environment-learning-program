@@ -148,4 +148,4 @@ Esta parte comienza con **Demanda, consumo y servicio energético** y culmina co
 
 ## Navegación
 
-[← Parte 28](../parte-28/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 30 →](../parte-30/README.md)
+[← Parte 28](../parte-28/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 30 →](../parte-30/README.md)

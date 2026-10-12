@@ -44,7 +44,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Abre la Parte 41 porque plantea primero el problema «¿Cómo lograr que memoria, planos, especificaciones y mediciones describan el mismo proyecto sin convertir un documento en sustituto de los demás?». La transición desde ARQ-400 · Gestión de cambios normativos y auditoría de fuentes conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-402 · Especificar por desempeño y por prescripción desarrollará a continuación.
 
-**Entrada:** ARQ-010, ARQ-020, ARQ-030 · **Salida:** ARQ-402.
+**Entrada:** ARQ-010, ARQ-020, ARQ-030 · **Salida:** ARQ-402, ARQ-812, ARQ-818.
 
 **Evidencia:** Esta clase abre la Parte 41. Recibe la auditoría normativa de ARQ-400 y la convierte en un sistema documental de proyecto; no vuelve a discutir aplicabilidad jurídica como si fuera una especificación. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -64,7 +64,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Ocupa el lugar 3 de la Parte 41. Se estudia después de ARQ-402 · Especificar por desempeño y por prescripción porque usa esa base para responder «¿Cómo comprobar que arquitectura, estructura e instalaciones trabajan sobre la misma geometría, estado y versión?». Se ubica antes de ARQ-404 · Licitación, consultas y aclaraciones porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-402 · **Salida:** ARQ-404.
+**Entrada:** ARQ-402 · **Salida:** ARQ-404, ARQ-812, ARQ-818.
 
 **Evidencia:** Recibe ARQ-402: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -74,7 +74,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Ocupa el lugar 4 de la Parte 41. Se estudia después de ARQ-403 · Coherencia entre disciplinas porque usa esa base para responder «¿Cómo preparar una licitación que permita comparar ofertas sin obligar a los participantes a adivinar contradicciones del proyecto?». Se ubica antes de ARQ-405 · Ofertas, exclusiones y comparación responsable porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-403 · **Salida:** ARQ-405.
+**Entrada:** ARQ-403 · **Salida:** ARQ-405, ARQ-819.
 
 **Evidencia:** Recibe ARQ-403: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -84,7 +84,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Ocupa el lugar 5 de la Parte 41. Se estudia después de ARQ-404 · Licitación, consultas y aclaraciones porque usa esa base para responder «¿Cómo comparar ofertas que tienen precios parecidos pero alcances, exclusiones y supuestos diferentes?». Se ubica antes de ARQ-406 · Contratos, alcance y distribución de riesgos porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-404 · **Salida:** ARQ-406.
+**Entrada:** ARQ-404 · **Salida:** ARQ-406, ARQ-819.
 
 **Evidencia:** Recibe ARQ-404: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -94,7 +94,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Ocupa el lugar 6 de la Parte 41. Se estudia después de ARQ-405 · Ofertas, exclusiones y comparación responsable porque usa esa base para responder «¿Cómo leer un contrato de construcción como distribución explícita de tareas, decisiones y riesgos en vez de asumir que “el contratista responde por todo”?». Se ubica antes de ARQ-407 · Subcontratos, suministros y aprobaciones porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-405 · **Salida:** ARQ-407.
+**Entrada:** ARQ-405 · **Salida:** ARQ-407, ARQ-808, ARQ-819.
 
 **Evidencia:** Recibe ARQ-405: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -104,7 +104,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Ocupa el lugar 7 de la Parte 41. Se estudia después de ARQ-406 · Contratos, alcance y distribución de riesgos porque usa esa base para responder «¿Cómo controlar subcontratos y suministros sin convertir la aprobación de un documento en transferencia total de responsabilidad?». Se ubica antes de ARQ-408 · Solicitudes de información y cambios porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-406 · **Salida:** ARQ-408.
+**Entrada:** ARQ-406 · **Salida:** ARQ-408, ARQ-819.
 
 **Evidencia:** Recibe ARQ-406: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -114,7 +114,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Ocupa el lugar 8 de la Parte 41. Se estudia después de ARQ-407 · Subcontratos, suministros y aprobaciones porque usa esa base para responder «¿Cómo usar una RFI para resolver información faltante sin convertir cada respuesta en una orden de cambio automática?». Se ubica antes de ARQ-409 · Registro de instrucciones y versiones porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-407 · **Salida:** ARQ-409.
+**Entrada:** ARQ-407 · **Salida:** ARQ-409, ARQ-829.
 
 **Evidencia:** Recibe ARQ-407: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -124,7 +124,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Ocupa el lugar 9 de la Parte 41. Se estudia después de ARQ-408 · Solicitudes de información y cambios porque usa esa base para responder «¿Cómo evitar que una instrucción válida se pierda entre correos, planos descargados y copias locales?». Se ubica antes de ARQ-410 · Documentos finales y evidencia de aceptación porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-408 · **Salida:** ARQ-410.
+**Entrada:** ARQ-408 · **Salida:** ARQ-410, ARQ-818, ARQ-829.
 
 **Evidencia:** Recibe ARQ-408: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -134,7 +134,7 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 **Posición:** Cierra la Parte 41: integra lo producido en ARQ-409 · Registro de instrucciones y versiones para responder «¿Qué significa realmente aceptar una obra y qué información debe quedar para operar, mantener y transformar lo construido?». La transición hacia ARQ-411 · Factibilidad técnica, territorial y económica transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
 
-**Entrada:** ARQ-409 · **Salida:** ARQ-471, ARQ-411.
+**Entrada:** ARQ-409 · **Salida:** ARQ-471, ARQ-830, ARQ-411.
 
 **Evidencia:** Recibe ARQ-409: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Memoria, planos, especificaciones y mediciones** y cul
 
 ## Navegación
 
-[← Parte 40](../parte-40/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 42 →](../parte-42/README.md)
+[← Parte 40](../parte-40/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 42 →](../parte-42/README.md)

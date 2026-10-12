@@ -44,7 +44,7 @@ Esta parte comienza con **Casa unifamiliar: sitio, programa y ciclo de vida** y 
 
 **Posición:** Abre la Parte 49 porque plantea primero el problema «¿Cómo diseñar una casa como sistema de vida cotidiana y no como una planta aislada?». La transición desde ARQ-480 · Defensa final: evidencia, límites y decisiones pendientes conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-482 · Casa patio, pareada y en hilera: densidad baja y media desarrollará a continuación.
 
-**Entrada:** ARQ-480 · **Salida:** ARQ-482.
+**Entrada:** ARQ-480 · **Salida:** ARQ-482, ARQ-802, ARQ-808.
 
 **Evidencia:** Esta clase aplica los fundamentos de la Fase I a una tipología concreta. El resultado esperado es poder explicar decisiones, interfaces y evidencia sin copiar soluciones de otro edificio. La clase siguiente conserva el método, no las cifras, salvo cuando un caso continuo se declara expresamente.
 
@@ -124,7 +124,7 @@ Esta parte comienza con **Casa unifamiliar: sitio, programa y ciclo de vida** y 
 
 **Posición:** Ocupa el lugar 9 de la Parte 49. Se estudia después de ARQ-488 · Vivienda modular e industrializada porque usa esa base para responder «¿Cómo adaptar vivienda existente sin convertir una necesidad nueva en demolición automática o en conservación intocable?». Se ubica antes de ARQ-490 · Proyecto residencial integral: del terreno a la operación porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-488 · **Salida:** ARQ-490.
+**Entrada:** ARQ-488 · **Salida:** ARQ-490, ARQ-804.
 
 **Evidencia:** Esta clase aplica los fundamentos de la Fase I a una tipología concreta. El resultado esperado es poder explicar decisiones, interfaces y evidencia sin copiar soluciones de otro edificio. La clase siguiente conserva el método, no las cifras, salvo cuando un caso continuo se declara expresamente.
 
@@ -134,7 +134,7 @@ Esta parte comienza con **Casa unifamiliar: sitio, programa y ciclo de vida** y 
 
 **Posición:** Cierra la Parte 49: integra lo producido en ARQ-489 · Rehabilitación residencial y cambio demográfico para responder «¿Cómo cerrar un anteproyecto residencial sin perder las relaciones entre sitio, unidades, estructura, servicios, costo y mantenimiento?». La transición hacia ARQ-491 · Qué hace alto a un edificio: contexto, proporción y medición transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
 
-**Entrada:** ARQ-489 · **Salida:** ARQ-491.
+**Entrada:** ARQ-489 · **Salida:** ARQ-491, ARQ-830.
 
 **Evidencia:** Esta clase aplica los fundamentos de la Fase I a una tipología concreta. El resultado esperado es poder explicar decisiones, interfaces y evidencia sin copiar soluciones de otro edificio. La clase siguiente conserva el método, no las cifras, salvo cuando un caso continuo se declara expresamente.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Casa unifamiliar: sitio, programa y ciclo de vida** y 
 
 ## Navegación
 
-[← Parte 48](../parte-48/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 50 →](../parte-50/README.md)
+[← Parte 48](../parte-48/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 50 →](../parte-50/README.md)

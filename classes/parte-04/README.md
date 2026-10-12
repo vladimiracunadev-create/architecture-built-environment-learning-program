@@ -64,7 +64,7 @@ Esta parte comienza con **Del pedido del cliente a un programa de necesidades** 
 
 **Posición:** Ocupa el lugar 3 de la Parte 04. Se estudia después de ARQ-032 · Entrevistas, observación y consentimiento porque usa esa base para responder «¿Cómo transformar una lista de actividades en relaciones espaciales sin dibujar habitaciones demasiado pronto?». Se ubica antes de ARQ-034 · Antropometría sin reducir a las personas al promedio porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-032 · **Salida:** ARQ-040, ARQ-133, ARQ-034.
+**Entrada:** ARQ-032 · **Salida:** ARQ-040, ARQ-133, ARQ-806, ARQ-034.
 
 **Evidencia:** Diferenciarás actividades, recintos, relaciones y flujos; construirás una matriz de adyacencias con razones explícitas y compararás dos alternativas mediante un indicador sencillo. Entregarás un diagrama de relaciones, una tabla de movimientos y una conclusión que reconozca los límites del cálculo. El caso corresponde a un centro comunitario ficticio.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Del pedido del cliente a un programa de necesidades** 
 
 ## Navegación
 
-[← Parte 03](../parte-03/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 05 →](../parte-05/README.md)
+[← Parte 03](../parte-03/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 05 →](../parte-05/README.md)

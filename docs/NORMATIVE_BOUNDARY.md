@@ -19,3 +19,5 @@ Antes de trasladar una cifra, criterio o procedimiento a un proyecto real deben 
 Las fichas públicas de ISO, normativa chilena, RIBA, UNESCO/UIA, guías de autoridades, universidades o fabricantes sirven para identificación y trazabilidad dentro del alcance declarado. No prueban adquisición del texto completo, permiso de reproducción, adopción local, certificación ni respaldo del programa.
 
 Cuando la licencia o el permiso de una fuente no sea claro, el repositorio debe conservar un enlace y una descripción propia limitada, no una copia extensa. Consulta el [registro central](../sources/README.md), los [avisos de terceros](../THIRD_PARTY_NOTICES.md) y [Seguridad y ética profesional](SEGURIDAD_Y_ETICA_PROFESIONAL.md).
+
+Para la aplicación doméstica, consulta además la [matriz de permisos de vivienda en Chile](MATRIZ_PERMISOS_VIVIENDA_CHILE.md) y la [guía de seguridad en autogestión](SEGURIDAD_AUTOGESTION_VIVIENDA.md). Ambas distinguen requisito confirmado, verificación ante DOM o especialista y supuesto didáctico.

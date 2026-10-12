@@ -1,6 +1,6 @@
 # EST-03 · Vivienda, cuidado e inclusión
 
-> Taller vertical después de la Parte 18 · seis sesiones · rutas: RUTA-02, RUTA-04, RUTA-08, RUTA-11
+> Taller vertical después de la Parte 18 · seis sesiones · rutas: RUTA-02, RUTA-04, RUTA-08, RUTA-11, RUTA-34
 
 ## Propósito
 

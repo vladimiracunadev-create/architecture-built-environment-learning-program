@@ -28,7 +28,7 @@
 
 ### Secuencia completa
 
-ARQ-001 → ARQ-800. Recomendada cuando se busca recorrer el núcleo, las tipologías y la profundización profesional siguiendo sus dependencias.
+ARQ-001 → ARQ-830. Recomendada cuando se busca recorrer el núcleo, las tipologías, la profundización profesional y la aplicación integrada a vivienda siguiendo sus dependencias.
 
 ### Por parte
 
@@ -36,7 +36,7 @@ Cada carpeta tiene un README con sus diez preguntas, resultados y enlaces. Es la
 
 ### Por ruta
 
-Las 33 rutas conectan partes no contiguas alrededor de una responsabilidad o especialización. Cada guía declara diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización.
+Las 34 rutas conectan partes no contiguas alrededor de una responsabilidad o especialización. Cada guía declara diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización.
 
 ### Por taller vertical
 

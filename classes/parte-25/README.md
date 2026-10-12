@@ -148,4 +148,4 @@ Esta parte comienza con **Acero estructural: propiedades y familias de perfiles*
 
 ## Navegación
 
-[← Parte 24](../parte-24/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 26 →](../parte-26/README.md)
+[← Parte 24](../parte-24/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 26 →](../parte-26/README.md)

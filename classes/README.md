@@ -1,6 +1,6 @@
 # Currículo completo
 
-## 800 clases · 80 partes · tres fases
+## 830 clases · 83 partes · tres fases
 
 Este índice es la entrada Markdown al programa. Cada parte tiene diez clases y un README propio generado desde las preguntas y resultados declarados en sus fuentes.
 
@@ -10,7 +10,7 @@ Este índice es la entrada Markdown al programa. Cada parte tiene diez clases y 
 
 ## Anatomía documental de una clase
 
-Las 800 clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
+Las 830 clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
 
 ## Mapa completo
 
@@ -96,6 +96,9 @@ Las 800 clases incluyen una pregunta central, práctica independiente, fuentes c
 | 78 | [Reutilización masiva, patrimonio digital y transformación](parte-78/README.md) | ARQ-771–ARQ-780 | Inventario de edificios existentes y potencial de reutilización → Proyecto de reutilización adaptativa y seguimiento |
 | 79 | [Salud, cuidados, diversidad y cambio demográfico](parte-79/README.md) | ARQ-781–ARQ-790 | Envejecimiento poblacional y autonomía cotidiana → Proyecto intergeneracional de barrio y cuidados |
 | 80 | [Entornos extremos, autonomía y proyecto interdisciplinario final](parte-80/README.md) | ARQ-791–ARQ-800 | Arquitectura en desiertos, altura y aislamiento → Proyecto final: integrar, verificar, defender y transferir |
+| 81 | [Antes de construir: decisión, terreno, legalidad y permisos](parte-81/README.md) | ARQ-801–ARQ-810 | Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico → Primera puerta de control: decidir si iniciar el proyecto |
+| 82 | [Proyecto, presupuesto detallado, compras y autorización](parte-82/README.md) | ARQ-811–ARQ-820 | Levantamiento con medidas, cotas, deslindes, superficies y fotografías → Cronograma, compras, ruta crítica y autorización para iniciar |
+| 83 | [Construcción, control de gastos, recepción y mantenimiento](parte-83/README.md) | ARQ-821–ARQ-830 | Instalación de faenas, protección de lo existente, cierres, vecinos, accesos y acopios → Término de obra, certificados, recepción definitiva, garantías y mantenimiento |
 
 ## Uso responsable
 

@@ -197,7 +197,7 @@ def build() -> dict:
     return {
         "schema_version": 2,
         "principle": "Una clase no es solo un tema: es una decisión sustentada.",
-        "generated_on": "2026-10-06",
+        "generated_on": "2026-10-12",
         "generated_from": [f"{len(catalog)} class Markdown files", "data/catalog.json", "sources/bibliography.json", "five editorial pilot overrides"],
         "decision_count": len(decisions),
         "manual_editorial_pilots": sorted(overrides),

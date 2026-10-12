@@ -1,6 +1,6 @@
 # Roadmap integral del programa
 
-**Última actualización:** 6 de octubre de 2026 · **Edición activa:** 2026.10
+**Última actualización:** 12 de octubre de 2026 · **Edición activa:** 2026.10
 
 Este documento conserva el alcance general, el método de trabajo y las condiciones de cierre. Evita que una futura ampliación olvide áreas, duplique clases o declare resuelto algo que necesita evidencia externa.
 
@@ -44,9 +44,9 @@ No se inicia una expansión creando títulos. Primero se actualiza la [matriz de
 | Personas, sociedad y accesibilidad | implementado y ampliado | Partes 04, 18, 75 y 79 | coevaluar con personas y comunidades bajo consentimiento | evidencia de participación y correcciones incorporadas |
 | Taller vertical y proyectos | implementado y ampliado | EST-01–10 | pilotar carga, crítica, iteración y transferencia | resultados de cohortes y ajustes documentados |
 | Evaluación y portafolio | implementado | rúbrica, evidencias y talleres | medir fiabilidad entre evaluadores y calidad de retroalimentación | piloto con doble corrección |
-| Rutas de especialización | implementado | 33 rutas | revisar solapamientos sin duplicar clases | diagnóstico, capstone y salida comprobados por ruta |
+| Rutas de especialización | implementado | 34 rutas | revisar solapamientos sin duplicar clases | diagnóstico, capstone y salida comprobados por ruta |
 | Glosario | implementado con mantenimiento continuo | `docs/GLOSARIO_ACUMULATIVO.md` | añadir sólo términos conectados a clases y relaciones | revisión terminológica por disciplina |
-| Fuentes y trazabilidad | implementado con brecha conocida | 2.179 usos; 1.126 completos | completar alcance, límite, fecha y función sin inferir datos | 100 % de usos contextualmente completos |
+| Fuentes y trazabilidad | implementado con brecha conocida | 2.419 usos; 1.366 completos | completar alcance, límite, fecha y función sin inferir datos | 100 % de usos contextualmente completos |
 | Recursos visuales | parcial | diagramas de dependencia y visuales distribuidos | priorizar sección, detalle, mapa y comparación que enseñen | auditoría visual y accesibilidad |
 | Revisión externa | pendiente | estado publicado como pendiente | muestra estratificada por especialidad y riesgo | revisores, alcance, fecha y cambios registrados |
 | Pilotos pedagógicos | pendiente | arquitectura de evaluación definida | ejecutar cohortes pequeñas y medir tiempo, errores y transferencia | informe de resultados y decisiones de revisión |
@@ -77,7 +77,7 @@ Objetivo: comprobar que cada clase justifica su existencia y se conecta con el r
 - revisar que la dificultad aumente entre fases;
 - comprobar que las rutas reutilicen el núcleo.
 
-**Evidencia de cierre:** 800 contratos válidos, sin identificadores desconocidos ni títulos duplicados; Fase III sin párrafos editoriales largos no autorizados repetidos en más de diez clases; y revisión manual documentada de las familias históricas priorizadas.
+**Evidencia de cierre:** 830 contratos válidos, sin identificadores desconocidos ni títulos duplicados; Fase III sin párrafos editoriales largos no autorizados repetidos en más de diez clases; y revisión manual documentada de las familias históricas priorizadas.
 
 ### Horizonte C — profundidad disciplinar
 
@@ -130,12 +130,13 @@ Objetivo: sostener un programa vivo sin convertir disponibilidad web en validez.
 
 ## Criterio para añadir clases
 
-Una clase nueva debe aportar una competencia nueva, profundidad demostrable, integración necesaria, práctica significativa, caso esencial o especialización legítima. Si el contenido puede incorporarse a una clase existente sin volverla inmanejable, se amplía esa clase. Si dos clases producen la misma evidencia, se consolidan. El número 800 describe la edición actual; no es una cuota futura.
+Una clase nueva debe aportar una competencia nueva, profundidad demostrable, integración necesaria, práctica significativa, caso esencial o especialización legítima. Si el contenido puede incorporarse a una clase existente sin volverla inmanejable, se amplía esa clase. Si dos clases producen la misma evidencia, se consolidan. El número 830 describe la edición actual; no es una cuota futura.
 
 ## Registro de decisiones
 
 | Fecha | Decisión | Evidencia | Consecuencia |
 |---|---|---|---|
+| 2026-10-12 | añadir Fase IV y RUTA-34 para vivienda nueva y ampliación | auditoría de cobertura previa, dos casos, presupuesto verificable y fuentes oficiales chilenas | ARQ-801–830, Partes 81–83, 34 rutas y controles de costos en CI |
 | 2026-10-06 | preservar ARQ-001–680 como núcleo y añadir Fase III | auditoría de cobertura y solicitud de más clases y temas | numeración continua ARQ-681–800 |
 | 2026-10-06 | centralizar conteos y títulos | valores repetidos en scripts, CI y docs; títulos leídos desde HTML histórico | `data/program.json` y `data/parts.json` pasan a ser canónicos |
 | 2026-10-06 | ampliar de 12 a 33 rutas | lista de especializaciones y cobertura existente reutilizable | rutas especializadas sin duplicar clases |
@@ -152,7 +153,8 @@ Una clase nueva debe aportar una competencia nueva, profundidad demostrable, int
 - [Estado verificable](docs/ESTADO_VERIFICABLE.md)
 - [Informe de integración 2026.10](docs/INFORME_INTEGRACION_2026-10.md)
 - [Estándar de documentación de clase](docs/ESTANDAR_DOCUMENTACION_CLASE.md)
-- [Auditoría de diferencias entre las 800 clases](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md)
+- [Auditoría de diferencias entre las 830 clases](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md)
+- [Auditoría de la ruta de vivienda](docs/AUDITORIA_RUTA_VIVIENDA_2026-10-12.md)
 - [Estándar de fuentes](docs/ESTANDAR_DE_FUENTES.md)
 
 Toda iteración futura debe actualizar este roadmap cuando cambie una prioridad, condición de cierre o brecha; los hitos históricos se agregan, no se reescriben.

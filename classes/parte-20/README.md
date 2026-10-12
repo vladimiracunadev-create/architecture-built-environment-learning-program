@@ -148,4 +148,4 @@ Esta parte comienza con **Camino de cargas y continuidad hasta el terreno** y cu
 
 ## Navegación
 
-[← Parte 19](../parte-19/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 21 →](../parte-21/README.md)
+[← Parte 19](../parte-19/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 21 →](../parte-21/README.md)

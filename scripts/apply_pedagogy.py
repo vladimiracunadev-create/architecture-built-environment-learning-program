@@ -29,8 +29,8 @@ SESSION_PHASES = (
 
 LESSON_KINDS = {
     "histórica y crítica": set(range(5, 11)) | {46, 51, 52, 59, 69, 78},
-    "cuantitativa": {3, 19, 20, 21, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 42, 50, 53, 54, 55, 56, 57, 58, 60, 61, 62, 67, 72, 74, 76, 77},
-    "profesional y de coordinación": {39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 69, 70, 73, 75, 76, 78, 80},
+    "cuantitativa": {3, 19, 20, 21, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 42, 50, 53, 54, 55, 56, 57, 58, 60, 61, 62, 67, 72, 74, 76, 77, 82},
+    "profesional y de coordinación": {39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 69, 70, 73, 75, 76, 78, 80, 81, 82, 83},
     "proyectual": {4, 11, 12, 13, 14, 15, 16, 17, 18, 49, 53, 54, 55, 58, 59, 60, 61, 62, 63, 64, 65, 66, 68, 71, 72, 74, 75, 77, 78, 79, 80},
 }
 
@@ -386,6 +386,37 @@ def route_markdown(route: dict, studios: dict[str, dict]) -> str:
         and studio["checkpoint_after_part"] <= max(route["parts"])
     ]
     checkpoints = ", ".join(checkpoint_ids) or route["capstone"]
+    detail = ""
+    if route.get("class_sequence"):
+        classes = " → ".join(
+            f"[{class_id}](../classes/parte-{((int(class_id[4:]) - 1) // 10 + 1):02d}/{class_id}.md)"
+            for class_id in route["class_sequence"]
+        )
+        cases = "\n".join(
+            f"- [{Path(case_file).stem.replace('-', ' ')}](../{case_file})"
+            for case_file in route.get("case_files", [])
+        )
+        formal = "\n".join(f"- {item}" for item in route.get("formal_checkpoints", []))
+        detail = f"""
+
+## Secuencia aplicada y casos conductores
+
+{classes}
+
+Las 30 clases se recorren en orden después de nivelar sólo las brechas observadas. Cada documento producido alimenta el siguiente y conserva versión, fuente, responsable, supuesto y condición de reapertura.
+
+{cases}
+
+## Puertas formales, crítica y recuperación
+
+{formal}
+
+En cada puerta, otra persona debe reconstruir una operación, localizar una fuente y señalar una condición que obligue a detener o revisar. Una entrega rechazada vuelve a la evidencia que falló, se corrige y conserva ambas versiones; no se recupera acumulando puntaje sobre una condición crítica.
+
+## Frontera de actividades
+
+{route['activity_boundary']}
+"""
     return f"""# {route['id']} · {route['title']}
 
 ## Para quién y punto de entrada
@@ -406,7 +437,7 @@ Talleres asociados: **{checkpoints}**. En cada checkpoint debes conservar versi�
 
 ## Evidencia de salida
 
-{route['exit']}
+{route['exit']}{detail}
 
 ## Capstone
 
@@ -426,7 +457,7 @@ def routes_index(routes: list[dict]) -> str:
     )
     return f"""# {len(routes)} rutas de aprendizaje
 
-Las rutas reorganizan el núcleo común y la Fase III para permitir profundización sin duplicar clases. Cada una declara perfil de entrada, diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización. No conceden credenciales ni atribuciones profesionales.
+Las rutas reorganizan las cuatro fases para permitir profundización y aplicación sin duplicar clases. Cada una declara perfil de entrada, diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización. No conceden credenciales ni atribuciones profesionales.
 
 | # | Ruta | Perfil de salida | Guía |
 |---:|---|---|---|

@@ -54,7 +54,7 @@ Esta parte comienza con **Datos climáticos, series y representatividad** y culm
 
 **Posición:** Ocupa el lugar 2 de la Parte 28. Se estudia después de ARQ-271 · Datos climáticos, series y representatividad porque usa esa base para responder «¿Cómo pasar de latitud, estación del año y tiempo solar a una dirección de luz que permita estudiar la orientación de un edificio, sin confundir altura solar, azimut y ángulo de incidencia?». Se ubica antes de ARQ-273 · Sombra, protección solar y estacionalidad porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-271, ARQ-024, ARQ-105 · **Salida:** ARQ-273, ARQ-287.
+**Entrada:** ARQ-271, ARQ-024, ARQ-105 · **Salida:** ARQ-273, ARQ-287, ARQ-814.
 
 **Evidencia:** ARQ-271 dejó clara la procedencia de las condiciones ambientales. Esta clase añade un sistema de coordenadas y una construcción geométrica verificable. Resolverás SOL-GEO-01 , compararás una superficie horizontal y dos fachadas y dibujarás el cambio entre mañana y tarde.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Datos climáticos, series y representatividad** y culm
 
 ## Navegación
 
-[← Parte 27](../parte-27/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 29 →](../parte-29/README.md)
+[← Parte 27](../parte-27/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 29 →](../parte-29/README.md)

@@ -64,7 +64,7 @@ Esta parte comienza con **Arquitectura como sistema: del encargo al fin de vida*
 
 **Posición:** Ocupa el lugar 3 de la Parte 01. Se estudia después de ARQ-002 · Habitar, construir, urbanizar y conservar: diferencias porque usa esa base para responder «¿Cómo puede una decisión correcta dentro de un recinto producir un problema en el edificio, el barrio o el territorio?». Se ubica antes de ARQ-004 · Necesidades, deseos y derechos de quienes habitan porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-002 · **Salida:** ARQ-004.
+**Entrada:** ARQ-002 · **Salida:** ARQ-816, ARQ-004.
 
 **Evidencia:** Aprenderás a mover una pregunta entre escalas sin perder sus relaciones. Elaborarás un mapa de cinco niveles —objeto, recinto, edificio, barrio y territorio— y una cadena de consecuencias para una decisión. El resultado no es dibujar cinco planos cada vez más grandes: es explicar qué cambia cuando se amplía o reduce el campo de observación.
 
@@ -74,7 +74,7 @@ Esta parte comienza con **Arquitectura como sistema: del encargo al fin de vida*
 
 **Posición:** Ocupa el lugar 4 de la Parte 01. Se estudia después de ARQ-003 · Escalas: objeto, recinto, edificio, barrio y territorio porque usa esa base para responder «¿Cómo transformar lo que una persona pide en requisitos de proyecto sin confundir preferencias, necesidades y obligaciones?». Se ubica antes de ARQ-005 · Ética del encargo y conflictos de interés porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-003 · **Salida:** ARQ-005.
+**Entrada:** ARQ-003 · **Salida:** ARQ-802, ARQ-005.
 
 **Evidencia:** Elaborarás un registro que separe declaraciones de usuarios, interpretación de necesidades, alternativas y verificaciones normativas pendientes. Aprenderás a formular requisitos sin imponer prematuramente una solución. El producto será una tabla argumentada para un servicio ficticio de atención comunitaria.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Arquitectura como sistema: del encargo al fin de vida*
 
 ## Navegación
 
-[← Índice general](../README.md) · [Mapa de las 80 partes](../README.md) · [Parte 02 →](../parte-02/README.md)
+[← Índice general](../README.md) · [Mapa de las 83 partes](../README.md) · [Parte 02 →](../parte-02/README.md)

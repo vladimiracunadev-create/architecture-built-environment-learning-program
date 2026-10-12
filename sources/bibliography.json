@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
   "generated_from": "classes/parte-XX/ARQ-XXX.md",
-  "generated_on": "2026-10-06",
+  "generated_on": "2026-10-12",
   "policy": "Registro derivado de las secciones 'Fuentes y alcance de uso'. Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, aplicabilidad normativa, permiso de redistribución ni respaldo institucional. Si no consta una licencia, se registra como desconocida y se conserva sólo el enlace.",
-  "class_count": 800,
-  "citation_occurrences": 2179,
-  "unique_sources": 627,
+  "class_count": 830,
+  "citation_occurrences": 2419,
+  "unique_sources": 631,
   "unique_domains": 190,
   "traceability": {
     "required_context_fields": [
@@ -15,14 +15,14 @@
       "accessed_on"
     ],
     "field_coverage": {
-      "function": 2112,
-      "consultation_scope": 1725,
-      "limitation": 1974,
-      "accessed_on": 1298
+      "function": 2352,
+      "consultation_scope": 1965,
+      "limitation": 2214,
+      "accessed_on": 1538
     },
-    "complete_uses": 1126,
+    "complete_uses": 1366,
     "partial_uses": 1053,
-    "classes_with_all_uses_complete": 412,
+    "classes_with_all_uses_complete": 442,
     "classes_requiring_context_review": 388,
     "live_availability_check": "not-implemented",
     "normative_currency_review": "pending"
@@ -2169,7 +2169,37 @@
         "classes/parte-48/ARQ-472.md",
         "classes/parte-49/ARQ-481.md",
         "classes/parte-49/ARQ-482.md",
-        "classes/parte-49/ARQ-490.md"
+        "classes/parte-49/ARQ-490.md",
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
       ],
       "uses": [
         {
@@ -2360,9 +2390,279 @@
           "missing_fields": [
             "accessed_on"
           ]
+        },
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "procedimientos, formularios, condiciones técnicas y categorías reglamentarias citadas por MINVU.",
+          "consultation_scope": "texto oficial localizado; artículos 1.4.3, 1.6.4, 4.1.10 y 5.1.4 se deben revalidar en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio, actuación y revisión competente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 19
+      "usage_count": 49
     },
     {
       "id": "source-bcn-cl-a37867bedc",
@@ -2396,7 +2696,37 @@
         "classes/parte-75/ARQ-747.md",
         "classes/parte-75/ARQ-748.md",
         "classes/parte-75/ARQ-749.md",
-        "classes/parte-75/ARQ-750.md"
+        "classes/parte-75/ARQ-750.md",
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
       ],
       "uses": [
         {
@@ -2546,9 +2876,279 @@
           "accessed_on": "6 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, circulares, formularios, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 16
+      "usage_count": 46
     },
     {
       "id": "source-bibliotecadigital-mineduc-cl-f10af272c1",
@@ -19010,7 +19610,37 @@
       "used_in": [
         "classes/parte-40/ARQ-394.md",
         "classes/parte-41/ARQ-401.md",
-        "classes/parte-41/ARQ-410.md"
+        "classes/parte-41/ARQ-410.md",
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
       ],
       "uses": [
         {
@@ -19039,9 +19669,279 @@
           "accessed_on": "23-09-2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "ubica solicitudes de anteproyecto, permiso, modificación, recepción y comprobantes de declaraciones juradas.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 3
+      "usage_count": 33
     },
     {
       "id": "source-minvu-gob-cl-c6b1d5787d",
@@ -19096,7 +19996,37 @@
       },
       "redistribution": "link-only",
       "used_in": [
-        "classes/parte-11/ARQ-101.md"
+        "classes/parte-11/ARQ-101.md",
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
       ],
       "uses": [
         {
@@ -19110,9 +20040,279 @@
             "consultation_scope",
             "limitation"
           ]
+        },
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "identifica la familia documental para solicitar y registrar información normativa del predio.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido, no fija deslindes y no reemplaza lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 1
+      "usage_count": 31
     },
     {
       "id": "source-minvu-gob-cl-09c617ee99",
@@ -19173,6 +20373,972 @@
         }
       ],
       "usage_count": 3
+    },
+    {
+      "id": "source-minvu-gob-cl-1c45b421b1",
+      "type": "reference",
+      "title": "[[CL-DOM-FORMS]] Formularios de trámites de Direcciones de Obras Municipales",
+      "locator": "https://www.minvu.gob.cl/elementos-tecnicos/formularios-de-tramites-direcciones-de-obras-municipales-dom/",
+      "publisher_or_author": {
+        "name": "Ministerio de Vivienda y Urbanismo de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "minvu.gob.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "localiza Formularios Únicos Nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones, que el expediente esté completo ni que la autoridad lo apruebe. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 30
+    },
+    {
+      "id": "source-minvu-gob-cl-82d25962c7",
+      "type": "reference",
+      "title": "[[CL-DOM-MINOR]] Formularios de permisos de obras menores",
+      "locator": "https://www.minvu.gob.cl/elementos-tecnicos/formularios/formularios-de-permisos-de-obra-menor/",
+      "publisher_or_author": {
+        "name": "Ministerio de Vivienda y Urbanismo de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "minvu.gob.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "diferencia solicitudes, declaraciones juradas, modificaciones y recepción de categorías de obra menor.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 30
+    },
+    {
+      "id": "source-minvu-gob-cl-8f78e80a5b",
+      "type": "reference",
+      "title": "[[CL-THERMAL]] Nueva Reglamentación Térmica",
+      "locator": "https://www.minvu.gob.cl/nueva-reglamentacion-termica/",
+      "publisher_or_author": {
+        "name": "Ministerio de Vivienda y Urbanismo de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "minvu.gob.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "documenta nueve zonas y nuevas exigencias de envolvente, ventanas, puertas, sobrecimientos y condensación.",
+          "consultation_scope": "resumen oficial de la modificación del artículo 4.1.10 OGUC publicada el 27 de mayo de 2024 y vigente desde el 28 de noviembre de 2025.",
+          "limitation": "la página de síntesis no sustituye el texto normativo, sus transitorios, la zonificación del predio ni el cálculo del proyecto. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 30
     },
     {
       "id": "source-moma-org-260840ac4c",
@@ -30266,6 +32432,328 @@
         }
       ],
       "usage_count": 3
+    },
+    {
+      "id": "source-sec-cl-e8080a2a87",
+      "type": "reference",
+      "title": "[[CL-SEC]] e-Declarador SEC",
+      "locator": "https://www.sec.cl/e-declarador/",
+      "publisher_or_author": {
+        "name": "Superintendencia de Electricidad y Combustibles de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "sec.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-81/ARQ-801.md",
+        "classes/parte-81/ARQ-802.md",
+        "classes/parte-81/ARQ-803.md",
+        "classes/parte-81/ARQ-804.md",
+        "classes/parte-81/ARQ-805.md",
+        "classes/parte-81/ARQ-806.md",
+        "classes/parte-81/ARQ-807.md",
+        "classes/parte-81/ARQ-808.md",
+        "classes/parte-81/ARQ-809.md",
+        "classes/parte-81/ARQ-810.md",
+        "classes/parte-82/ARQ-811.md",
+        "classes/parte-82/ARQ-812.md",
+        "classes/parte-82/ARQ-813.md",
+        "classes/parte-82/ARQ-814.md",
+        "classes/parte-82/ARQ-815.md",
+        "classes/parte-82/ARQ-816.md",
+        "classes/parte-82/ARQ-817.md",
+        "classes/parte-82/ARQ-818.md",
+        "classes/parte-82/ARQ-819.md",
+        "classes/parte-82/ARQ-820.md",
+        "classes/parte-83/ARQ-821.md",
+        "classes/parte-83/ARQ-822.md",
+        "classes/parte-83/ARQ-823.md",
+        "classes/parte-83/ARQ-824.md",
+        "classes/parte-83/ARQ-825.md",
+        "classes/parte-83/ARQ-826.md",
+        "classes/parte-83/ARQ-827.md",
+        "classes/parte-83/ARQ-828.md",
+        "classes/parte-83/ARQ-829.md",
+        "classes/parte-83/ARQ-830.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-81/ARQ-801.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-802.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-803.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-804.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-805.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-806.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-807.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-808.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-809.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-81/ARQ-810.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-811.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-812.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-813.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-814.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-815.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-816.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-817.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-818.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-819.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-82/ARQ-820.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-821.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-822.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-823.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-824.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-825.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-826.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-827.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-828.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-829.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-83/ARQ-830.md",
+          "function": "confirma que e-Declarador está dirigido a instaladores y profesionales autorizados y localiza los trámites aplicables.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que ambos correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 30
     },
     {
       "id": "source-senapred-cl-ab5eaaa790",

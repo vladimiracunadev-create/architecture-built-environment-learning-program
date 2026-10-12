@@ -54,7 +54,7 @@ Esta parte comienza con **Dimensiones, conversiones y órdenes de magnitud** y c
 
 **Posición:** Ocupa el lugar 2 de la Parte 03. Se estudia después de ARQ-021 · Dimensiones, conversiones y órdenes de magnitud porque usa esa base para responder «¿Por qué aumentar un porcentaje y después reducir el mismo porcentaje no devuelve necesariamente el valor inicial?». Se ubica antes de ARQ-023 · Áreas, volúmenes y cubicaciones porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-021 · **Salida:** ARQ-023.
+**Entrada:** ARQ-021 · **Salida:** ARQ-023, ARQ-812.
 
 **Evidencia:** Distinguirás razón, proporción, porcentaje y puntos porcentuales. Resolverás cambios sucesivos, escalamiento geométrico y dos interpretaciones de pérdida de material. Entregarás una comparación donde cada porcentaje tenga una base explícita y un control inverso.
 
@@ -94,7 +94,7 @@ Esta parte comienza con **Dimensiones, conversiones y órdenes de magnitud** y c
 
 **Posición:** Ocupa el lugar 6 de la Parte 03. Se estudia después de ARQ-025 · Vectores, fuerzas y momentos porque usa esa base para responder «¿Cómo convertir una decisión de diseño en una relación que permita comparar alternativas sin esconder sus supuestos?». Se ubica antes de ARQ-027 · Derivadas e integrales como herramientas de interpretación porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-025 · **Salida:** ARQ-027.
+**Entrada:** ARQ-025 · **Salida:** ARQ-804, ARQ-811, ARQ-027.
 
 **Evidencia:** Construirás y leerás funciones sencillas, distinguirás dominio matemático de dominio físico y analizarás sensibilidad absoluta y relativa. Entregarás una tabla de alternativas, un gráfico que puedas dibujar a mano y un comentario sobre lo que ese gráfico no demuestra. No necesitas dominar cálculo diferencial.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Dimensiones, conversiones y órdenes de magnitud** y c
 
 ## Navegación
 
-[← Parte 02](../parte-02/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 04 →](../parte-04/README.md)
+[← Parte 02](../parte-02/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 04 →](../parte-04/README.md)

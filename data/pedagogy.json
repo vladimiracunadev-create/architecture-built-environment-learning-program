@@ -67,7 +67,8 @@
         "RUTA-02",
         "RUTA-04",
         "RUTA-08",
-        "RUTA-11"
+        "RUTA-11",
+        "RUTA-34"
       ]
     },
     {
@@ -112,7 +113,8 @@
         "RUTA-07",
         "RUTA-09",
         "RUTA-11",
-        "RUTA-12"
+        "RUTA-12",
+        "RUTA-34"
       ]
     },
     {
@@ -947,6 +949,79 @@
       "entry": "Pensamiento crítico, datos, versiones, privacidad y responsabilidad profesional.",
       "exit": "Diseñar y auditar un uso de IA con propósito, datos, riesgos, pruebas, supervisión y retiro.",
       "capstone": "EST-09"
+    },
+    {
+      "id": "RUTA-34",
+      "title": "Vivienda propia y ampliación para propietarios",
+      "parts": [
+        3,
+        11,
+        15,
+        19,
+        20,
+        21,
+        27,
+        28,
+        31,
+        32,
+        33,
+        34,
+        35,
+        39,
+        40,
+        41,
+        42,
+        43,
+        49,
+        81,
+        82,
+        83
+      ],
+      "entry": "Para personas propietarias sin formación técnica. Diagnóstico inicial de lectura de planos, unidades, porcentajes, seguridad y capacidad de distinguir dato, hipótesis, requisito y decisión profesional.",
+      "exit": "Organizar y defender dos expedientes educativos —CASA-NUEVA-80 y AMPLIACION-24— desde factibilidad hasta recepción y mantenimiento, con costos, permisos, responsabilidades y límites verificables.",
+      "capstone": "EST-06",
+      "class_sequence": [
+        "ARQ-801",
+        "ARQ-802",
+        "ARQ-803",
+        "ARQ-804",
+        "ARQ-805",
+        "ARQ-806",
+        "ARQ-807",
+        "ARQ-808",
+        "ARQ-809",
+        "ARQ-810",
+        "ARQ-811",
+        "ARQ-812",
+        "ARQ-813",
+        "ARQ-814",
+        "ARQ-815",
+        "ARQ-816",
+        "ARQ-817",
+        "ARQ-818",
+        "ARQ-819",
+        "ARQ-820",
+        "ARQ-821",
+        "ARQ-822",
+        "ARQ-823",
+        "ARQ-824",
+        "ARQ-825",
+        "ARQ-826",
+        "ARQ-827",
+        "ARQ-828",
+        "ARQ-829",
+        "ARQ-830"
+      ],
+      "case_files": [
+        "cases/CASA-NUEVA-80.md",
+        "cases/AMPLIACION-24.md"
+      ],
+      "formal_checkpoints": [
+        "ARQ-810 · puerta GO / REDISEÑAR / DETENER",
+        "ARQ-820 · puerta NO INICIAR SIN HABILITACIONES",
+        "ARQ-830 · auditoría de cierre y mantenimiento"
+      ],
+      "activity_boundary": "Las actividades son simulaciones de gestión y revisión. El propietario puede organizar antecedentes, registrar observaciones y comparar ofertas; proyectos, cálculos, instalaciones, firmas, inspecciones y autorizaciones corresponden a profesionales, instaladores u organismos competentes cuando la normativa lo exige."
     }
   ]
 }

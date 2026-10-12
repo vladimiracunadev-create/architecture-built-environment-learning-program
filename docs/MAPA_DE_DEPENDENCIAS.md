@@ -8,6 +8,7 @@ flowchart LR
     E1 --> F2["Fase II · tipologías y grandes obras<br>ARQ-481–680"]
     F2 --> E2["EST-07–08<br>integrar, comparar y defender"]
     E2 --> F3["Fase III · especialización e innovación<br>ARQ-681–800"]
+    F3 --> F4["Fase IV · aplicación a vivienda<br>ARQ-801–830"]
     F3 --> E3["EST-09–10<br>investigar, prototipar y transferir"]
     E3 --> P["Portafolio longitudinal y aprendizaje posterior"]
 ```
@@ -19,7 +20,7 @@ PRERREQUISITO → CLASE → PRÁCTICA → EVIDENCIA → PROYECTO
 → COMPETENCIA → RUTA DE ESPECIALIZACIÓN → TRANSFERENCIA
 ```
 
-Cada clase declara prerrequisitos y dependencias en su bloque `Decisión pedagógica y posición curricular`. El registro reproducible de las 800 cadenas vive en `data/pedagogical-decisions-generated.json`; CI comprueba que todos los identificadores existan.
+Cada clase declara prerrequisitos y dependencias en su bloque `Decisión pedagógica y posición curricular`. El registro reproducible de las 830 cadenas vive en `data/pedagogical-decisions-generated.json`; CI comprueba que todos los identificadores existan.
 
 ## Progresión de capacidad
 

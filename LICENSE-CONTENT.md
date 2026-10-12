@@ -9,7 +9,7 @@ Identidad pública: `vladimiracunadev-create`
 
 Esta licencia cubre, cuando sean originales del proyecto:
 
-- las 800 clases, 60 sesiones de taller, índices de parte, 33 rutas, documentación, evaluaciones y explicaciones;
+- las 830 clases, 60 sesiones de taller, índices de parte, 34 rutas, documentación, evaluaciones y explicaciones;
 - preguntas, ejercicios, casos ficticios, cálculos didácticos y soluciones razonadas;
 - diagramas, plantillas, mapas de roles y textos del lector y los PDF generados;
 - la selección y estructura editorial de los catálogos, sin apropiarse de hechos ni obras externas.

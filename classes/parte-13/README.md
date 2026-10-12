@@ -44,7 +44,7 @@ Esta parte comienza con **Paisaje como sistema vivo y cultural** y culmina con *
 
 **Posición:** Abre la Parte 13 porque plantea primero el problema «¿Qué significa proyectar un paisaje que cambia con el agua, el suelo, la vegetación y las prácticas humanas, en lugar de tratarlo como una imagen terminada?». La transición desde ARQ-120 · Proyecto de barrio: vivienda, servicios y paisaje conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-122 · Suelo vivo, compactación y permeabilidad desarrollará a continuación.
 
-**Entrada:** ARQ-120, ARQ-110, ARQ-090 · **Salida:** ARQ-122, ARQ-130.
+**Entrada:** ARQ-120, ARQ-110, ARQ-090 · **Salida:** ARQ-122, ARQ-130, ARQ-805.
 
 **Evidencia:** ARQ-120 entregó QC-PARQUE-01: 18.000 m² y una distribución provisional. Ahora construiremos un modelo de relaciones antes de seleccionar materiales o especies. Aprenderás a diferenciar componentes, procesos, estados y significados culturales, y a reconocer superposiciones entre capas.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Paisaje como sistema vivo y cultural** y culmina con *
 
 ## Navegación
 
-[← Parte 12](../parte-12/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 14 →](../parte-14/README.md)
+[← Parte 12](../parte-12/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 14 →](../parte-14/README.md)

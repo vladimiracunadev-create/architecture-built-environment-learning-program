@@ -1,13 +1,13 @@
-# Auditoría de diferencias entre las 800 clases
+# Auditoría de diferencias entre las 830 clases
 
 **Edición auditada:** 2026.10  
-**Alcance:** `ARQ-001`–`ARQ-800`  
+**Alcance:** `ARQ-001`–`ARQ-830`
 **Registro clase por clase:** [`audits/class-distinctness.csv`](audits/class-distinctness.csv)  
 **Resumen legible por máquina:** [`../data/audits/class-distinctness.json`](../data/audits/class-distinctness.json)
 
 ## Por qué se hizo
 
-Que existan 800 archivos no demuestra que existan 800 clases. Una clase puede cambiar de título y conservar el mismo razonamiento, ejercicio o texto. Esta auditoría busca esa diferencia entre **cantidad de archivos**, **estructura compartida** y **sustancia editorial propia**.
+Que existan 830 archivos no demuestra que existan 830 clases. Una clase puede cambiar de título y conservar el mismo razonamiento, ejercicio o texto. Esta auditoría busca esa diferencia entre **cantidad de archivos**, **estructura compartida** y **sustancia editorial propia**.
 
 La revisión separa el contrato pedagógico generado, que debe ser común, del cuerpo escrito de cada clase. También excluye la lista final de fuentes al buscar párrafos repetidos. Así, una rúbrica compartida o dos clases que citan el mismo organismo no se confunden con duplicación de contenido.
 
@@ -15,13 +15,13 @@ La revisión separa el contrato pedagógico generado, que debe ser común, del c
 
 | Prueba | Resultado | Lectura correcta |
 |---|---:|---|
-| archivos inspeccionados | 800 | cubre el catálogo completo, no una muestra |
-| archivos completos exactamente distintos | 800 | no hay copias binarias de una clase con otro nombre |
-| preguntas centrales presentes y distintas | 800/800 | cada clase formula una pregunta diferente |
-| extensión | 1.247–4.219 palabras; mediana 2.859 | mide desarrollo, no calidad por sí sola |
+| archivos inspeccionados | 830 | cubre el catálogo completo, no una muestra |
+| archivos completos exactamente distintos | 830 | no hay copias binarias de una clase con otro nombre |
+| preguntas centrales presentes y distintas | 830/830 | cada clase formula una pregunta diferente |
+| extensión | 1.247–5.441 palabras; mediana 2.889 | mide desarrollo, no calidad por sí sola |
 | proporción mediana de prosa editorial usada por una sola clase | 94,13 % | la mayor parte del texto largo no se repite literalmente |
 | mayor similitud de cinco palabras dentro de una misma parte | 67,05 % | hay bloques históricos con una base común todavía demasiado dominante |
-| patrones editoriales largos repetidos en más de diez clases | 129 | la base anterior conserva familias que requieren diferenciación posterior |
+| patrones editoriales largos repetidos en más de diez clases | 142 | la base anterior conserva familias que requieren diferenciación posterior |
 
 La fila de cada clase incluye cantidad de palabras, huellas de archivo, pregunta, gráfico y condición crítica; proporción de prosa propia; y la clase más parecida dentro de su parte. Esto permite revisar un caso concreto sin depender de una afirmación global.
 
@@ -46,6 +46,10 @@ Cada clase desarrolla ahora sus cuatro a seis pasos con entradas, operación, sa
 
 La similitud mediana de cinco palabras dentro de cada parte es 56,92 %. Este indicador incluye títulos de secciones, instrucciones de portafolio y la anatomía pedagógica estable. Por eso se lee junto con la proporción de párrafos propios y no como una sentencia aislada de duplicación.
 
+## Resultado específico de las 30 clases de aplicación a vivienda
+
+Las clases `ARQ-801`–`ARQ-830` forman Fase IV. Sus 30 archivos, preguntas, condiciones críticas y diagramas son distintos. Tienen entre 5.206 y 5.441 palabras; la mediana de prosa larga exclusiva es 75,98 %. Comparten deliberadamente vocabulario, límites profesionales, método de comparación y controles documentales para que los casos `CASA-NUEVA-80` y `AMPLIACION-24` sean auditables a lo largo de la ruta.
+
 ## Diferencias reales que sí permanecen entre clases
 
 La auditoría considera sustantivas estas dimensiones:
@@ -63,7 +67,7 @@ Compartir encabezados, una rúbrica, reglas de fuentes, límites profesionales o
 
 ## Dónde siguen las mayores similitudes
 
-La auditoría no declara homogéneas las 800 clases. Las partes con menor proporción media de prosa propia son, en este orden, `62`, `61`, `66`, `65`, `58`, `57`, `49`, `50`, `56`, `60`, `55`, `54`, `59`, `53` y `52`. Son bloques de infraestructura, tipologías y tecnología que comparten explicaciones, advertencias y ejercicios cuantitativos extensos.
+La auditoría no declara homogéneas las 830 clases. Las partes con menor proporción media de prosa propia son, en este orden, `62`, `61`, `66`, `65`, `58`, `57`, `49`, `50`, `56`, `60`, `55`, `54`, `59`, `53` y `52`. Son bloques de infraestructura, tipologías y tecnología que comparten explicaciones, advertencias y ejercicios cuantitativos extensos.
 
 Los patrones repetidos cumplen a veces una función válida —por ejemplo, recordar que un cálculo didáctico no verifica seguridad integral—, pero su frecuencia puede ocultar la diferencia disciplinar. La prioridad editorial siguiente será revisar primero las partes 61–62 y 65–66, y luego 49–60. La acción correcta es sustituir párrafos comunes por mecanismos, decisiones, casos y gráficos propios; añadir el título dentro de la misma plantilla no cuenta como corrección.
 
@@ -73,8 +77,8 @@ Los patrones repetidos cumplen a veces una función válida —por ejemplo, reco
 python scripts/audit_class_distinctness.py --check
 ```
 
-El control falla si deja de haber 800 archivos distintos, si Fase III pierde alguna de sus 120 preguntas, condiciones o gráficas propias, si reaparece un párrafo editorial largo no autorizado en más de diez clases nuevas, o si el CSV y el resumen quedan desactualizados.
+El control falla si deja de haber 830 archivos distintos, si Fase III pierde alguna de sus 120 preguntas, condiciones o gráficas propias, si Fase IV pierde alguna de sus 30 preguntas, condiciones o gráficas propias, si reaparece un párrafo editorial largo no autorizado en más de diez clases de Fase III, o si el CSV y el resumen quedan desactualizados.
 
 ## Límites de la comprobación
 
-Las huellas y métricas detectan copias, repetición y proximidad verbal. No demuestran exactitud disciplinar, eficacia con estudiantes, vigencia normativa ni calidad equivalente en las 800 clases. Esas verificaciones requieren revisión especializada, prueba docente y observación del aprendizaje. El registro permite priorizarlas sin ocultar qué partes siguen pendientes.
+Las huellas y métricas detectan copias, repetición y proximidad verbal. No demuestran exactitud disciplinar, eficacia con estudiantes, vigencia normativa ni calidad equivalente en las 830 clases. Esas verificaciones requieren revisión especializada, prueba docente y observación del aprendizaje. El registro permite priorizarlas sin ocultar qué partes siguen pendientes.

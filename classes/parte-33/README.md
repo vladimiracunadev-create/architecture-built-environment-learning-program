@@ -74,7 +74,7 @@ Esta parte comienza con **Abastecimiento eléctrico y tableros** y culmina con *
 
 **Posición:** Ocupa el lugar 4 de la Parte 33. Se estudia después de ARQ-323 · Alumbrado de emergencia y respaldo porque usa esa base para responder «¿Cómo coordinar un servicio que utiliza combustibles sin confundir su balance energético con las condiciones de combustión, evacuación de productos y seguridad del recinto?». Se ubica antes de ARQ-325 · Telecomunicaciones y redes de datos porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-323, ARQ-314, ARQ-315 · **Salida:** ARQ-325.
+**Entrada:** ARQ-323, ARQ-314, ARQ-315 · **Salida:** ARQ-325, ARQ-815, ARQ-825.
 
 **Evidencia:** ARQ-323 separó cantidad de energía y prestación disponible. Esta clase abre GAS-ENER-01 , un balance ficticio de calor útil y combustible. No pertenece a la batería ni a la bomba de calor anteriores.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Abastecimiento eléctrico y tableros** y culmina con *
 
 ## Navegación
 
-[← Parte 32](../parte-32/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 34 →](../parte-34/README.md)
+[← Parte 32](../parte-32/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 34 →](../parte-34/README.md)

@@ -1,6 +1,6 @@
 # Auditoría de licenciamiento de segundo nivel
 
-**Corte:** 6 de octubre de 2026
+**Corte:** 12 de octubre de 2026
 **Naturaleza:** revisión técnica, documental y automatizada del repositorio; no es una opinión legal.
 
 ## Resultado ejecutivo
@@ -9,21 +9,21 @@ Se conserva el modelo existente: Apache-2.0 para código propio; CC BY-NC-SA 4.0
 
 ## Evidencia examinada
 
-- árbol completo versionado, 800 clases y 80 README de parte;
+- árbol completo versionado, 830 clases y 83 README de parte;
 - archivos legales, README, documentación, clases, fuentes, datos, scripts, activos y workflows;
 - dos PDF, lector offline, generador de GitHub Pages y salida `site/` reconstruida;
 - historial versionado, ramas remotas y autores de commit observables;
-- 627 URLs externas únicas y 2.179 relaciones clase–fuente;
+- 631 URLs externas únicas y 2.419 relaciones clase–fuente;
 - pipeline local y workflows de `main`.
 
 ## RESUELTO
 
 - `LICENSE` coincide por SHA-256 (`c95bae1d…ccefe2c`) con el texto completo de Apache License 2.0 usado por el proyecto y el validador detecta cualquier alteración.
-- [La matriz real](docs/LICENSING_MATRIX.md) delimita por familias código, 800 clases, 80 índices de parte, documentación, catálogos, datos, SVG, PDF, lector offline y sitio generado.
-- Los diez scripts y dos workflows propios llevan `SPDX-License-Identifier: Apache-2.0`; no se añadieron encabezados repetitivos a las 800 clases.
+- [La matriz real](docs/LICENSING_MATRIX.md) delimita por familias código, 830 clases, 83 índices de parte, documentación, catálogos, datos, SVG, PDF, lector offline y sitio generado.
+- Los scripts y workflows propios llevan `SPDX-License-Identifier: Apache-2.0`; no se añadieron encabezados repetitivos a las 830 clases.
 - El contenido CC se limita a la expresión pedagógica original y excluye normas, documentación institucional, papers, libros, planos, fotografías, fabricantes y demás material externo.
 - El registro de fuentes usa esquema v2: título, autor u organización declarada o dominio inferido, URL, tipo, uso por clase, alcance, límite, fecha cuando consta, estado de licencia y política de redistribución.
-- Las 627 licencias externas permanecen `unknown` porque las clases no aportan una declaración verificable de licencia; por ello los 627 registros se marcan `link-only` y no se presume derecho de copia.
+- Las 631 licencias externas permanecen `unknown` porque las clases no aportan una declaración verificable de licencia; por ello los 631 registros se marcan `link-only` y no se presume derecho de copia.
 - La [frontera normativa](docs/NORMATIVE_BOUNDARY.md) separa conocimiento didáctico de documento técnico oficial y de habilitación profesional.
 - `assets/mark.svg` queda coherentemente descrito como obra gráfica CC BY-NC-SA 4.0 y, en paralelo, identificador cuya marca no queda licenciada. No se añaden restricciones de copyright incompatibles con CC.
 - PDF, lector y sitio se documentan como artefactos por capas; generar o empaquetar no crea una licencia única nueva.
@@ -34,7 +34,7 @@ Se conserva el modelo existente: Apache-2.0 para código propio; CC BY-NC-SA 4.0
 
 ## RIESGO RESIDUAL
 
-- La trazabilidad automática extrae 2.112 funciones, 1.725 alcances, 1.974 límites y 1.298 fechas de las 2.179 relaciones. Hay 1.126 usos contextualmente completos; los valores ausentes permanecen `null` y no se inventan metadatos.
+- La trazabilidad automática registra 2.419 relaciones clase–fuente y 1.366 usos contextualmente completos; los valores ausentes permanecen `null` y no se inventan metadatos.
 - La disponibilidad, vigencia, versión y términos de las URLs externas pueden cambiar.
 - Los PDF y el lector histórico sólo pueden auditarse hasta la procedencia documentada y sus hashes; su formato compuesto dificulta la señalización a nivel de fragmento.
 - Los workflows usan versiones mayores de acciones de GitHub, no SHAs inmutables. Esto es un riesgo de cadena de suministro, no una contradicción del modelo de licencias.

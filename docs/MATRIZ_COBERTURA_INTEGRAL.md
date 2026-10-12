@@ -1,6 +1,6 @@
 # Matriz de cobertura integral
 
-**Corte:** 6 de octubre de 2026 · **Unidad auditada:** clase, parte, taller, ruta y documentación transversal.
+**Corte:** 12 de octubre de 2026 · **Unidad auditada:** clase, parte, taller, ruta y documentación transversal.
 
 Esta matriz registra cobertura editorial, no acreditación ni revisión externa. `Alta` significa que existe una secuencia de varias clases, práctica, evidencia, fuentes y aplicación posterior; `media` indica cobertura suficiente pero concentrada o pendiente de más casos; `inicial` señala una entrada explícita que requiere profundización disciplinar. La columna de fuentes describe su tipo, no garantiza vigencia universal.
 
@@ -30,6 +30,7 @@ Esta matriz registra cobertura editorial, no acreditación ni revisión externa.
 | Inteligencia artificial | Sí | Partes 44 y 73 | básico–especialización | alta | ciclo de vida, datos, sesgos, seguridad y supervisión | NIST y fuentes institucionales | evaluar herramientas concretas con versiones fechadas | 10 clases nuevas y ruta 33 |
 | Fabricación digital y robótica | Sí | Partes 66 y 74 | intermedio–especialización | alta | cadena modelo–máquina–pieza–inspección | NIST y OSHA | acceso físico a máquinas pendiente | 10 clases nuevas, EST-09 y ruta 17 |
 | Tipologías residenciales | Sí | Partes 15 y 49 | básico–profesional | alta | hogar, densidad, operación y cambio | OMS, MINVU y casos documentados | más evidencia posocupacional local | ruta 15 |
+| Vivienda nueva y ampliación para propietarios | Sí | Partes 81–83, RUTA-34 y dos casos | aplicado | alta | factibilidad, permisos, presupuesto, contratación, obra, recepción y mantenimiento | BCN, MINVU, SEC y fuentes oficiales fechadas | precios locales y revisión profesional permanecen externos | 30 clases, planilla auditable y puertas GO / REDISEÑAR / DETENER |
 | Equipamientos y tipologías complejas | Sí | Partes 16–17 y 50–67 | intermedio–profesional | alta | programa, sistemas, continuidad y proyecto integrado | autoridades sectoriales y estándares | revisión externa por sector pendiente | rutas 21–27 |
 | Urbanismo | Sí | Partes 12 y 75 | básico–especialización | alta | morfología, política, datos y efectos distributivos | UN-Habitat, BCN y datos públicos | pilotos participativos reales pendientes | 10 clases nuevas y ruta 13 |
 | Paisaje | Sí | Partes 13, 36–38 y 77 | básico–especialización | alta | ecología, agua, riesgo, mantenimiento y regeneración | EPA, FAO, ISO y autoridades | más casos de biomas chilenos | ruta 14 |

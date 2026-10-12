@@ -148,4 +148,4 @@ Esta parte comienza con **Arquitecturas bizantinas y continuidad de saberes** y 
 
 ## Navegación
 
-[← Parte 05](../parte-05/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 07 →](../parte-07/README.md)
+[← Parte 05](../parte-05/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 07 →](../parte-07/README.md)

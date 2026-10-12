@@ -1,6 +1,6 @@
 # Talleres verticales
 
-Los 10 talleres convierten la biblioteca de 800 clases en una experiencia iterativa. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. En total son **60 sesiones integradoras**.
+Los 10 talleres convierten la biblioteca de 830 clases en una experiencia iterativa. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. En total son **60 sesiones integradoras**.
 
 | Taller | Checkpoint | Evidencia de salida |
 |---|---:|---|

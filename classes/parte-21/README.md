@@ -84,7 +84,7 @@ Esta parte comienza con **Muros portantes y distribución del espacio** y culmin
 
 **Posición:** Ocupa el lugar 5 de la Parte 21. Se estudia después de ARQ-204 · Losas y sistemas de piso porque usa esa base para responder «¿Cómo permite una cercha transmitir cargas mediante fuerzas axiales y qué se pierde al reducir su altura, introducir cargas entre nudos o ignorar sus conexiones fuera del plano?». Se ubica antes de ARQ-206 · Arcos, bóvedas y cascarones porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-204, ARQ-192, ARQ-193 · **Salida:** ARQ-206.
+**Entrada:** ARQ-204, ARQ-192, ARQ-193 · **Salida:** ARQ-206, ARQ-814, ARQ-823.
 
 **Evidencia:** Después de pisos y arriostramientos, construiremos CER-01 , una cercha triangular independiente de HALL. Tiene A(0,0), B(8,0) y C(4,3), en metros. A es articulación y B rodillo horizontal.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Muros portantes y distribución del espacio** y culmin
 
 ## Navegación
 
-[← Parte 20](../parte-20/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 22 →](../parte-22/README.md)
+[← Parte 20](../parte-20/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 22 →](../parte-22/README.md)

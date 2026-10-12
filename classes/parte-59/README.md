@@ -148,4 +148,4 @@ Esta parte comienza con **Teatro: escena, sala y backstage** y culmina con **Pro
 
 ## Navegación
 
-[← Parte 58](../parte-58/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 60 →](../parte-60/README.md)
+[← Parte 58](../parte-58/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 60 →](../parte-60/README.md)

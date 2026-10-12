@@ -78,7 +78,7 @@ DOC_PAGES = {
     ),
     "AUDITORIA_DIFERENCIAS_800_CLASES.md": (
         "auditoria-diferencias-800-clases.html",
-        "Auditoría de diferencias entre las 800 clases",
+        "Auditoría de diferencias entre las 830 clases",
     ),
     "ESTADO_VERIFICABLE.md": ("estado.html", "Estado verificable"),
     "FUENTES_Y_EVIDENCIA.md": ("fuentes-y-evidencia.html", "Fuentes y evidencia"),
@@ -137,6 +137,22 @@ DOC_PAGES = {
     ),
     "ESTANDAR_VISUAL.md": ("estandar-visual.html", "Estándar visual"),
     "SYLLABUS_Y_CARGA.md": ("syllabus-carga.html", "Syllabus y carga"),
+    "AUDITORIA_RUTA_VIVIENDA_2026-10-12.md": (
+        "auditoria-ruta-vivienda.html",
+        "Auditoría de la ruta de vivienda",
+    ),
+    "GUIA_PRESUPUESTO_VIVIENDA.md": (
+        "guia-presupuesto-vivienda.html",
+        "Guía de presupuesto de vivienda",
+    ),
+    "MATRIZ_PERMISOS_VIVIENDA_CHILE.md": (
+        "matriz-permisos-vivienda-chile.html",
+        "Matriz de permisos de vivienda en Chile",
+    ),
+    "SEGURIDAD_AUTOGESTION_VIVIENDA.md": (
+        "seguridad-autogestion-vivienda.html",
+        "Seguridad en autogestión de vivienda",
+    ),
 }
 
 
@@ -264,6 +280,16 @@ def render_document_markdown(text: str) -> str:
         rendered = rendered.replace(f'href="{filename}"', f'href="{slug}"')
         rendered = rendered.replace(f'href="docs/{filename}"', f'href="{slug}"')
         rendered = rendered.replace(f'href="../docs/{filename}"', f'href="{slug}"')
+    rendered = re.sub(
+        r'href="\.\./cases/([^"]+)"',
+        lambda match: f'href="{REPO_URL}/blob/main/cases/{match.group(1)}"',
+        rendered,
+    )
+    rendered = re.sub(
+        r'href="\.\./templates/([^"]+)"',
+        lambda match: f'href="{REPO_URL}/blob/main/templates/{match.group(1)}"',
+        rendered,
+    )
     return (
         rendered.replace('href="../classes/README.md"', 'href="partes/index.html"')
         .replace('href="../ROADMAP_INTEGRAL.md"', 'href="roadmap-integral.html"')
@@ -427,7 +453,7 @@ def documentation_portal(registry: dict) -> str:
             (
                 "AUDITORIA_DIFERENCIAS_800_CLASES.md",
                 DOC_PAGES["AUDITORIA_DIFERENCIAS_800_CLASES.md"],
-                "comparación clase por clase, repetición editorial y prioridades de reescritura",
+                "comparación de las 830 clases, repetición editorial y prioridades de reescritura",
             ),
             (
                 "ESTADO_VERIFICABLE.md",
@@ -452,7 +478,7 @@ def documentation_portal(registry: dict) -> str:
             (
                 "RUTAS_DE_APRENDIZAJE.md",
                 DOC_PAGES["RUTAS_DE_APRENDIZAJE.md"],
-                "33 recorridos troncales y de especialización",
+                "34 recorridos troncales y de especialización",
             ),
             (
                 "ROLES_Y_OFICIOS.md",
@@ -533,6 +559,26 @@ def documentation_portal(registry: dict) -> str:
                 "SYLLABUS_Y_CARGA.md",
                 DOC_PAGES["SYLLABUS_Y_CARGA.md"],
                 "modalidades, progresión y medición honesta de carga",
+            ),
+            (
+                "AUDITORIA_RUTA_VIVIENDA_2026-10-12.md",
+                DOC_PAGES["AUDITORIA_RUTA_VIVIENDA_2026-10-12.md"],
+                "cobertura previa, decisión de alcance y evidencia de integración",
+            ),
+            (
+                "GUIA_PRESUPUESTO_VIVIENDA.md",
+                DOC_PAGES["GUIA_PRESUPUESTO_VIVIENDA.md"],
+                "niveles, supuestos, escenarios, flujo de caja y control de cambios",
+            ),
+            (
+                "MATRIZ_PERMISOS_VIVIENDA_CHILE.md",
+                DOC_PAGES["MATRIZ_PERMISOS_VIVIENDA_CHILE.md"],
+                "trámites, responsables, costos y evidencia de cierre",
+            ),
+            (
+                "SEGURIDAD_AUTOGESTION_VIVIENDA.md",
+                DOC_PAGES["SEGURIDAD_AUTOGESTION_VIVIENDA.md"],
+                "límites entre decisión del mandante y responsabilidad profesional",
             ),
         )
     )
@@ -677,6 +723,16 @@ def build_learning_paths(pedagogy: dict) -> None:
         rendered = re.sub(
             r'href="\.\./studios/(EST-\d{2})/README\.md"',
             lambda match: f'href="../talleres/{match.group(1).lower()}/index.html"',
+            rendered,
+        )
+        rendered = re.sub(
+            r'href="\.\./classes/parte-\d{2}/(ARQ-\d{3})\.md"',
+            lambda match: f'href="../clases/{match.group(1).lower()}.html"',
+            rendered,
+        )
+        rendered = re.sub(
+            r'href="\.\./cases/([^"]+)"',
+            lambda match: f'href="{REPO_URL}/blob/main/cases/{match.group(1)}"',
             rendered,
         )
         write(

@@ -1,6 +1,6 @@
 # EST-06 · Documentar, contratar, construir y operar
 
-> Taller vertical después de la Parte 47 · seis sesiones · rutas: RUTA-02, RUTA-06, RUTA-07, RUTA-09, RUTA-11, RUTA-12
+> Taller vertical después de la Parte 47 · seis sesiones · rutas: RUTA-02, RUTA-06, RUTA-07, RUTA-09, RUTA-11, RUTA-12, RUTA-34
 
 ## Propósito
 

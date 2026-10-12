@@ -148,4 +148,4 @@ Esta parte comienza con **Viento: presión, succión y continuidad de fijaciones
 
 ## Navegación
 
-[← Parte 36](../parte-36/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 38 →](../parte-38/README.md)
+[← Parte 36](../parte-36/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 38 →](../parte-38/README.md)

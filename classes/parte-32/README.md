@@ -104,7 +104,7 @@ Esta parte comienza con **Calidad de aire interior y fuentes de contaminantes** 
 
 **Posición:** Ocupa el lugar 7 de la Parte 32. Se estudia después de ARQ-316 · Humedad, filtración y control porque usa esa base para responder «¿Cuándo un equipo cabe en una sala técnica y, aun así, no puede mantenerse o conectarse sin cambiar el proyecto?». Se ubica antes de ARQ-318 · Ruido, vibración y coordinación porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-316, ARQ-210, ARQ-308 · **Salida:** ARQ-318, ARQ-320.
+**Entrada:** ARQ-316, ARQ-210, ARQ-308 · **Salida:** ARQ-318, ARQ-320, ARQ-825.
 
 **Evidencia:** ARQ-316 identificó procesos y corrientes. Esta clase abre TEC-ENV-01 y TEC-DUCT-01 para convertir esas funciones en envolventes y trayectorias. No son las dimensiones del ciclo anterior ni una sala real.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Calidad de aire interior y fuentes de contaminantes** 
 
 ## Navegación
 
-[← Parte 31](../parte-31/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 33 →](../parte-33/README.md)
+[← Parte 31](../parte-31/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 33 →](../parte-33/README.md)

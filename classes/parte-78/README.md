@@ -148,4 +148,4 @@ Esta parte comienza con **Inventario de edificios existentes y potencial de reut
 
 ## Navegación
 
-[← Parte 77](../parte-77/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 79 →](../parte-79/README.md)
+[← Parte 77](../parte-77/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 79 →](../parte-79/README.md)

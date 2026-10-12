@@ -148,4 +148,4 @@ Esta parte comienza con **Envejecimiento poblacional y autonomía cotidiana** y 
 
 ## Navegación
 
-[← Parte 78](../parte-78/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 80 →](../parte-80/README.md)
+[← Parte 78](../parte-78/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 80 →](../parte-80/README.md)

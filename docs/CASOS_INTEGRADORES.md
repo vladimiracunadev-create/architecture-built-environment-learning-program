@@ -1,8 +1,8 @@
-# Seis casos integradores
+# Ocho casos integradores
 
 Los casos conectan clases sin convertir sus parámetros ficticios en especificaciones.
 
-Los ocho [talleres verticales](../studios/README.md) son ahora la superficie principal de integración evaluada. Estos seis casos permanecen como escenarios reutilizables que pueden alimentar prácticas, partes o talleres distintos.
+Los diez [talleres verticales](../studios/README.md) son la superficie principal de integración evaluada. Estos ocho casos permanecen como escenarios reutilizables que pueden alimentar prácticas, partes o talleres distintos.
 
 | Caso | Pregunta de integración |
 |---:|---|
@@ -12,6 +12,8 @@ Los ocho [talleres verticales](../studios/README.md) son ahora la superficie pri
 | 04 · Equipamiento y alternativas territoriales | cómo comparar localización, redes, movilidad, riesgo y servicio público |
 | 05 · Taller y bodega | cómo relacionar proceso productivo, flujos, estructura, incendio, logística y mantenimiento |
 | 06 · Entrega digital de un edificio pequeño | cómo organizar información, versiones, responsabilidades y continuidad operativa |
+| [CASA-NUEVA-80](../cases/CASA-NUEVA-80.md) | cómo decidir, presupuestar y controlar una vivienda nueva de 80 m² sin convertir supuestos en precios reales |
+| [AMPLIACION-24](../cases/AMPLIACION-24.md) | cómo investigar una vivienda existente y coordinar una ampliación de 24 m² con residentes, permisos e interfaces |
 
 ## Regla de trabajo
 

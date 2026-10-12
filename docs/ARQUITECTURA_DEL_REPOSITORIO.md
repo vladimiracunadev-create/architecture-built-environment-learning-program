@@ -40,7 +40,7 @@ Las correcciones se hacen en la fuente correspondiente y luego se regeneran las 
 
 | Carpeta o archivo | Función |
 |---|---|
-| `classes/` | 800 clases y 80 portadas de parte |
+| `classes/` | 830 clases y 83 portadas de parte |
 | `studios/` | 10 talleres verticales y 60 sesiones |
 | `learning-paths/` | 33 recorridos con entrada, salida y capstone |
 | `docs/` | método, auditoría, cobertura, evaluación, derechos y mantenimiento |

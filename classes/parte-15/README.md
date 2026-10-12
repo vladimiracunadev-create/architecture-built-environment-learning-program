@@ -54,7 +54,7 @@ Esta parte comienza con **Vivienda, hogar y diversidad de unidades domésticas**
 
 **Posición:** Ocupa el lugar 2 de la Parte 15. Se estudia después de ARQ-141 · Vivienda, hogar y diversidad de unidades domésticas porque usa esa base para responder «¿Cómo estudiar una vivienda unifamiliar como relación entre interior, suelo, accesos, límites y clima, en vez de colocar una planta aislada dentro de un rectángulo de terreno?». Se ubica antes de ARQ-143 · Vivienda colectiva y espacios compartidos porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-141, ARQ-101, ARQ-105, ARQ-124 · **Salida:** ARQ-143, ARQ-144.
+**Entrada:** ARQ-141, ARQ-101, ARQ-105, ARQ-124 · **Salida:** ARQ-143, ARQ-144, ARQ-806.
 
 **Evidencia:** ARQ-141 estableció un conjunto habitacional y escenarios domésticos. Esta clase utiliza un subcaso distinto, V-SOL-01, para examinar implantación a otra escala. No es una de las veinticuatro unidades de HAB-BASE-01.
 
@@ -74,7 +74,7 @@ Esta parte comienza con **Vivienda, hogar y diversidad de unidades domésticas**
 
 **Posición:** Ocupa el lugar 4 de la Parte 15. Se estudia después de ARQ-143 · Vivienda colectiva y espacios compartidos porque usa esa base para responder «¿Cómo proyectar una vivienda que pueda crecer sin confundir una posibilidad dibujada con capacidad estructural, disponibilidad de suelo o condiciones de habitabilidad demostradas?». Se ubica antes de ARQ-145 · Flexibilidad, adaptabilidad y accesibilidad porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-143, ARQ-142, ARQ-138 · **Salida:** ARQ-145.
+**Entrada:** ARQ-143, ARQ-142, ARQ-138 · **Salida:** ARQ-145, ARQ-806.
 
 **Evidencia:** Retomamos V-SOL-01: predio de 360 m² y huella inicial de 96. La clase diferencia crecimiento, ampliación, transformación y etapas; compara una adición horizontal con otra en altura y revisa sus consecuencias. Entregarás dos estados completos de uso y un registro de condiciones previas.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Vivienda, hogar y diversidad de unidades domésticas**
 
 ## Navegación
 
-[← Parte 14](../parte-14/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 16 →](../parte-16/README.md)
+[← Parte 14](../parte-14/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 16 →](../parte-16/README.md)

@@ -2,27 +2,27 @@
 
 # 🏛️ Programa Integral de Arquitectura, Construcción y Entorno Habitado
 
-## **800 clases · 60 sesiones de taller · 33 rutas · del encargo a la especialización**
+## **830 clases · 60 sesiones de taller · 34 rutas · del encargo a la vivienda construida y operada**
 
 **Un currículo secuencial en español con evidencia, crítica, revisión y portafolio para estudiar arquitectura como una coordinación de personas, lugar, historia, materia, sistemas, recursos, responsabilidades, operación y tiempo.**
 
 [![CI](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/ci.yml)
 [![Deploy Pages](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml)
-[![Clases](https://img.shields.io/badge/clases-800%20·%2080%20partes-b85c38?style=for-the-badge)](classes/README.md)
+[![Clases](https://img.shields.io/badge/clases-830%20·%2083%20partes-b85c38?style=for-the-badge)](classes/README.md)
 [![Talleres](https://img.shields.io/badge/talleres-10%20·%2060%20sesiones-1d6b68?style=for-the-badge)](studios/README.md)
-[![Rutas](https://img.shields.io/badge/rutas-33-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
-[![Fuentes](https://img.shields.io/badge/fuentes-627%20URLs%20·%20190%20dominios-ddb967?style=for-the-badge)](sources/README.md)
-[![Trazabilidad](https://img.shields.io/badge/usos%20completos-1.126%20de%202.179-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
+[![Rutas](https://img.shields.io/badge/rutas-34-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
+[![Fuentes](https://img.shields.io/badge/fuentes-631%20URLs%20·%20190%20dominios-ddb967?style=for-the-badge)](sources/README.md)
+[![Trazabilidad](https://img.shields.io/badge/usos%20completos-1.366%20de%202.419-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-3fb950?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-7c5cff?style=for-the-badge)](LICENSE-CONTENT.md)
 [![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/architecture-built-environment-learning-program?style=social)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/stargazers)
 
-[🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Índice de 800 clases](classes/README.md) · [📐 Cómo está documentada cada clase](docs/ESTANDAR_DOCUMENTACION_CLASE.md) · [📖 Catálogo de fuentes](sources/README.md) · [🏗️ Talleres](studios/README.md) · [🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md)
+[🌐 Abrir el programa](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) · [📚 Índice de 830 clases](classes/README.md) · [🏠 Construye tu vivienda](learning-paths/ruta-34.md) · [📖 Catálogo de fuentes](sources/README.md) · [🏗️ Talleres](studios/README.md) · [🧭 Rutas](docs/RUTAS_DE_APRENDIZAJE.md)
 
 [🚀 Cómo estudiarlo](docs/COMO_USAR_EL_PROGRAMA.md) · [👩‍🏫 Recursos para docentes](docs/SYLLABUS_Y_CARGA.md) · [🧪 Evaluación](docs/ARQUITECTURA_DE_EVALUACION.md) · [🧩 Casos integradores](docs/CASOS_INTEGRADORES.md) · [✅ Estado verificable](docs/ESTADO_VERIFICABLE.md)
 
-[🛣️ Roadmap integral](ROADMAP_INTEGRAL.md) · [📚 Documentación completa](docs/README.md) · [🧾 Matriz de cobertura](docs/MATRIZ_COBERTURA_INTEGRAL.md) · [🧬 Diferencias de las 800 clases](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md) · [🗺️ Dependencias](docs/MAPA_DE_DEPENDENCIAS.md) · [🔎 Informe 2026.10](docs/INFORME_INTEGRACION_2026-10.md) · [🤝 Contribuir](CONTRIBUTING.md)
+[🛣️ Roadmap integral](ROADMAP_INTEGRAL.md) · [📚 Documentación completa](docs/README.md) · [🧾 Matriz de cobertura](docs/MATRIZ_COBERTURA_INTEGRAL.md) · [🧬 Diferencias de las 830 clases](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md) · [🗺️ Dependencias](docs/MAPA_DE_DEPENDENCIAS.md) · [🔎 Auditoría de vivienda](docs/AUDITORIA_RUTA_VIVIENDA_2026-10-12.md) · [🤝 Contribuir](CONTRIBUTING.md)
 
 </div>
 
@@ -32,7 +32,7 @@
 
 ## 🎯 Qué es este programa
 
-Es una biblioteca de **800 clases redactadas**, ordenadas de ARQ-001 a ARQ-800 y agrupadas en 80 partes de diez clases. Sigue el ciclo completo del entorno construido y culmina en especialización e innovación responsable:
+Es una biblioteca de **830 clases redactadas**, ordenadas de ARQ-001 a ARQ-830 y agrupadas en 83 partes de diez clases. Sigue el ciclo completo del entorno construido y culmina en una ruta aplicada para que una persona propietaria pueda decidir, encargar, presupuestar, controlar y cerrar una vivienda nueva o ampliación sin asumir competencias profesionales:
 
 ```text
 necesidad → investigación → programa → alternativas → coordinación
@@ -75,6 +75,7 @@ Cinco clases permiten inspeccionar el modelo en momentos distintos del recorrido
 | [ARQ-680 · Defensa final](classes/parte-68/ARQ-680.md) | cierre: trazabilidad bidireccional, objeciones, versiones y defensa |
 | [ARQ-730 · Auditoría profesional de IA](classes/parte-73/ARQ-730.md) | especialización: contraste entre automatización y análisis independiente |
 | [ARQ-800 · Proyecto final](classes/parte-80/ARQ-800.md) | cierre interdisciplinario: integración, verificación, defensa y transferencia |
+| [ARQ-830 · Manual de operación](classes/parte-83/ARQ-830.md) | cierre aplicado: recepción, garantías, mantenimiento, costos y archivo vivo |
 
 ## 🧠 Qué hace diferente a la documentación
 
@@ -86,19 +87,19 @@ Las clases se construyen alrededor de una decisión o problema. El corpus comple
 
 | Componente | Cobertura |
 |---|---:|
-| Pregunta central | **800/800** |
-| Práctica o ejercicio | **800/800** |
-| Fuentes y alcance de uso | **800/800** |
-| Mapa visual de aprendizaje | **800/800** |
-| Evidencia y criterio de aceptación | **800/800** |
-| Autoevaluación, recuperación y continuidad | **800/800** |
-| Cadena necesidad → fuente → evidencia → continuidad | **800/800** |
+| Pregunta central | **830/830** |
+| Práctica o ejercicio | **830/830** |
+| Fuentes y alcance de uso | **830/830** |
+| Mapa visual de aprendizaje | **830/830** |
+| Evidencia y criterio de aceptación | **830/830** |
+| Autoevaluación, recuperación y continuidad | **830/830** |
+| Cadena necesidad → fuente → evidencia → continuidad | **830/830** |
 
-Las **800 cadenas** se derivan de la clase completa: pregunta, resultado, prerrequisitos, práctica, retroalimentación, fuentes y vecindad curricular. Cinco casos representativos recibieron además revisión editorial manual profunda. El estado distingue ambos niveles; no declara revisión externa ni acreditación.
+Las **830 cadenas** se derivan de la clase completa: pregunta, resultado, prerrequisitos, práctica, retroalimentación, fuentes y vecindad curricular. Cinco casos representativos recibieron además revisión editorial manual profunda. El estado distingue ambos niveles; no declara revisión externa ni acreditación.
 
 [Abrir la matriz de cobertura, las brechas y las acciones aplicadas →](docs/MATRIZ_COBERTURA_INTEGRAL.md)
 
-Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa común se genera desde [`data/pedagogy.json`](data/pedagogy.json); los cinco pilotos editoriales viven en [`data/pedagogical-decisions.json`](data/pedagogical-decisions.json) y las 800 cadenas reproducibles en [`data/pedagogical-decisions-generated.json`](data/pedagogical-decisions-generated.json). [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) publica las decisiones y CI falla ante fuentes, dependencias, resultados o salidas desincronizadas.
+Los casos trabajados conservan su diversidad disciplinar: aparecen cuando una clase necesita reconstruir una situación, no como relleno obligatorio. La capa común se genera desde [`data/pedagogy.json`](data/pedagogy.json); los cinco pilotos editoriales viven en [`data/pedagogical-decisions.json`](data/pedagogical-decisions.json) y las 830 cadenas reproducibles en [`data/pedagogical-decisions-generated.json`](data/pedagogical-decisions-generated.json). [`scripts/apply_pedagogy.py`](scripts/apply_pedagogy.py) publica las decisiones y CI falla ante fuentes, dependencias, resultados o salidas desincronizadas.
 
 ### El conocimiento tiene procedencia verificable
 
@@ -109,7 +110,7 @@ afirmación → fuente → localizador → autoridad → edición/fecha
            → parte consultada → uso en la clase → límite → vigencia
 ```
 
-El registro no oculta sus brechas. De las **2.179 relaciones clase–fuente**, **1.126 (51,7 %)** declaran simultáneamente función, alcance consultado, límite y fecha; **1.053** requieren completar al menos uno de esos campos. **412/800 clases** tienen todos sus usos contextualizados. CI conserva estos valores como mínimos y falla si la trazabilidad retrocede.
+El registro no oculta sus brechas. De las **2.419 relaciones clase–fuente**, **1.366 (56,5 %)** declaran simultáneamente función, alcance consultado, límite y fecha; **1.053** requieren completar al menos uno de esos campos. **442/830 clases** tienen todos sus usos contextualizados. CI conserva estos valores como mínimos y falla si la trazabilidad retrocede.
 
 Los requisitos cambian según la fuente: un libro necesita edición y páginas; una norma, organismo, jurisdicción, versión y numeral; una web, autor institucional, fecha y sección consultada. El estándar completo está en [Estándar de fuentes y trazabilidad](docs/ESTANDAR_DE_FUENTES.md) y la medición reproducible en el [registro central](sources/README.md).
 
@@ -133,7 +134,7 @@ Una propuesta también se evalúa por construcción, limpieza, inspección, mant
 
 La secuencia, redacción, preguntas, ejercicios, casos ficticios y soluciones son una **elaboración editorial original atribuida a Vladimir Acuña**, salvo atribución expresa. No proceden de una carrera oficial ni cuentan con acreditación de UNESCO, UIA, RIBA, una universidad o un colegio profesional.
 
-La amplitud general toma como referencia la revisión 2026 de la Carta UNESCO–UIA; el ciclo y los intercambios de información usan RIBA Plan of Work 2020 como referencia comparativa. Los cinco lentes del programa, el orden de 800 clases y su método pedagógico son una síntesis propia, no una reproducción de esos marcos.
+La amplitud general toma como referencia la revisión 2026 de la Carta UNESCO–UIA; el ciclo y los intercambios de información usan RIBA Plan of Work 2020 como referencia comparativa. Los cinco lentes del programa, el orden de 830 clases y su método pedagógico son una síntesis propia, no una reproducción de esos marcos.
 
 ### Fuentes de referencia visibles desde la portada
 
@@ -151,9 +152,9 @@ El programa no se apoya en una bibliografía anónima al final. Estas son fuente
 | física | [OpenStax University Physics, equilibrio estático](https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium) | 02, 03, 05, 06, 14, 19, 20, 35, 46 | fundamento académico abierto; no constituye cálculo estructural de una obra |
 | riesgo | [UNDRR · Disaster risk terminology](https://www.undrr.org/terminology/disaster-risk) | 01, 09, 11, 35, 36, 38, 45, 48 | vocabulario de amenaza, exposición y vulnerabilidad; no produce por sí solo una evaluación local |
 
-El registro completo clasifica **627 fuentes**: **190 organismos públicos**, **65 normas o estándares**, **59 fuentes académicas** y **313 referencias técnicas o institucionales**. Cuando se incorpora un libro debe registrarse autor, título, año, edición, editorial, ISBN si existe y capítulo o páginas consultadas. Cuando esos datos no están documentados, el uso permanece parcial: no se inventan para completar una tabla.
+El registro completo clasifica **631 fuentes**: **190 organismos públicos**, **65 normas o estándares**, **59 fuentes académicas** y **317 referencias técnicas o institucionales**. Cuando se incorpora un libro debe registrarse autor, título, año, edición, editorial, ISBN si existe y capítulo o páginas consultadas. Cuando esos datos no están documentados, el uso permanece parcial: no se inventan para completar una tabla.
 
-El registro reproducible detecta **2.179 relaciones clase–fuente**, **627 URLs externas únicas** y **190 dominios** en las secciones de fuentes de las 800 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas. El estado actual de las 627 entradas es `registrada-no-verificada-en-vivo`: CI comprueba coherencia offline, no promete que una URL externa siga disponible o vigente.
+El registro reproducible detecta **2.419 relaciones clase–fuente**, **631 URLs externas únicas** y **190 dominios** en las secciones de fuentes de las 830 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas. El estado actual de las 631 entradas es `registrada-no-verificada-en-vivo`: CI comprueba coherencia offline, no promete que una URL externa siga disponible o vigente.
 
 Cada relación aspira a distinguir:
 
@@ -164,7 +165,7 @@ Cada relación aspira a distinguir:
 
 El registro derivado marca cada uso como completo o parcial y enumera los campos ausentes; no rellena vacíos con inferencias. Una cita no convierte una guía extranjera en norma chilena, no acredita lectura íntegra, no demuestra vigencia y no valida un proyecto. Consulta [Procedencia editorial](docs/PROCEDENCIA_EDITORIAL.md), el [registro central de fuentes](sources/README.md), el [estándar de trazabilidad](docs/ESTANDAR_DE_FUENTES.md) y [Fuentes, evidencia y alcance de uso](docs/FUENTES_Y_EVIDENCIA.md).
 
-## 🗺️ Tres fases, 80 partes y diez talleres verticales
+## 🗺️ Cuatro fases, 83 partes y diez talleres verticales
 
 Los talleres se insertan después de las Partes 04, 14, 18, 27, 38, 47, 58, 68, 74 y 80. Cada uno contiene seis sesiones: diagnóstico, investigación, alternativas, crítica, revisión y defensa. Así, el conocimiento no termina en lectura o práctica aislada: se integra en una entrega con versiones y retroalimentación.
 
@@ -269,6 +270,16 @@ Las Partes 69–80 amplían las competencias que estaban dispersas o tratadas co
 | 79 | [Salud, cuidados, diversidad y cambio demográfico](classes/parte-79/README.md) | ARQ-781–790 |
 | 80 | [Entornos extremos, autonomía y proyecto interdisciplinario final](classes/parte-80/README.md) | ARQ-791–800 |
 
+### Fase IV · aplicación integrada para propietarios
+
+Las Partes 81–83 convierten conocimientos dispersos en una secuencia doméstica verificable. Sus casos, precios y cronogramas son didácticos; la ruta exige consulta a DOM y especialistas cuando corresponda.
+
+| # | Parte | Clases |
+|---:|---|---:|
+| 81 | [Antes de construir: decisión, terreno, legalidad y permisos](classes/parte-81/README.md) | ARQ-801–810 |
+| 82 | [Proyecto, presupuesto detallado, compras y autorización](classes/parte-82/README.md) | ARQ-811–820 |
+| 83 | [Construcción, control de gastos, recepción y mantenimiento](classes/parte-83/README.md) | ARQ-821–830 |
+
 ➡️ [Abrir el índice Markdown completo](classes/README.md) · [Explorar las partes en Pages](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/partes/)
 
 ## 🚀 Cómo estudiar el programa
@@ -284,7 +295,7 @@ Las Partes 69–80 amplían las competencias que estaban dispersas o tratadas co
 
 La [guía completa](docs/COMO_USAR_EL_PROGRAMA.md) propone entradas diferentes para estudiantes, docentes, profesionales, mandantes y lectores por tipología.
 
-## 🧭 33 rutas de aprendizaje
+## 🧭 34 rutas de aprendizaje
 
 Las doce rutas troncales organizan el núcleo transversal; las 21 rutas siguientes incorporan tipologías y Fase III para completar los recorridos de especialización:
 
@@ -301,7 +312,9 @@ Las doce rutas troncales organizan el núcleo transversal; las 21 rutas siguient
 - [**Operación y rehabilitación**](learning-paths/ruta-11.md) — puesta en marcha, mantenimiento, posocupación, patologías y mejora.
 - [**Mandante informado y desarrollo de servicios**](learning-paths/ruta-12.md) — decisiones, encargos, riesgos, contratación y recepción.
 
-Otras 21 rutas permiten especializarse en urbanismo, paisaje, vivienda, diseño computacional, fabricación digital, bioclimática, iluminación, acústica, interiores, salud, educación, transporte, infraestructura, industria y logística, centros de datos, diseño sísmico, resiliencia, desarrollo inmobiliario, investigación, visualización e IA aplicada. Cada ruta reutiliza el núcleo y declara diagnóstico, checkpoints, capstone y criterio de salida. [Comparar las 33 rutas →](docs/RUTAS_DE_APRENDIZAJE.md)
+Otras 22 rutas permiten especializarse en urbanismo, paisaje, vivienda, diseño computacional, fabricación digital, bioclimática, iluminación, acústica, interiores, salud, educación, transporte, infraestructura, industria y logística, centros de datos, diseño sísmico, resiliencia, desarrollo inmobiliario, investigación, visualización, IA aplicada y autogestión informada de vivienda. Cada ruta reutiliza el núcleo y declara diagnóstico, checkpoints, capstone y criterio de salida. [Comparar las 34 rutas →](docs/RUTAS_DE_APRENDIZAJE.md)
+
+La [Ruta 34 · Construye tu vivienda: de la idea a la operación](learning-paths/ruta-34.md) reúne las 30 clases nuevas, los casos [CASA-NUEVA-80](cases/CASA-NUEVA-80.md) y [AMPLIACION-24](cases/AMPLIACION-24.md), la [matriz de permisos](docs/MATRIZ_PERMISOS_VIVIENDA_CHILE.md) y una [planilla auditable de presupuesto](templates/presupuesto-vivienda-ampliacion.xlsx).
 
 ## 👷 Ochenta roles y oficios
 
@@ -352,7 +365,8 @@ El portal reúne guías mantenidas sobre estándar de clase, método, auditoría
 | construir un portafolio | [Portafolio y evidencias](docs/PORTAFOLIO_Y_EVIDENCIAS.md) | conservar primera versión, crítica, cambio, fundamento y asunto pendiente |
 | revisar fuentes | [Estándar de fuentes](docs/ESTANDAR_DE_FUENTES.md) | documentar organismo o autor, título, edición, localizador, alcance, aplicación, límite y vigencia |
 | auditar el currículo | [Auditoría pedagógica](docs/AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) | recorrer diagnóstico, referencia, decisiones, cambios, validaciones y pendientes |
-| comparar las 800 clases | [Auditoría de diferencias](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md) | comprobar preguntas, texto propio, repeticiones, gráficas y pares más parecidos |
+| comparar las 830 clases | [Auditoría de diferencias](docs/AUDITORIA_DIFERENCIAS_800_CLASES.md) | comprobar preguntas, texto propio, repeticiones, gráficas y pares más parecidos |
+| preparar una vivienda o ampliación | [Ruta 34](learning-paths/ruta-34.md), [casos](cases/README.md) y [presupuesto](templates/presupuesto-vivienda-ampliacion.xlsx) | ordenar permisos, alcance, precios, flujo de caja, controles y límites profesionales |
 | comprobar el estado real | [Estado verificable](docs/ESTADO_VERIFICABLE.md) | separar hechos reproducibles de revisión externa, vigencia y eficacia todavía no demostradas |
 | contribuir sin romper salidas | [Guía de contribución](CONTRIBUTING.md) | modificar fuentes de verdad, regenerar índices y ejecutar los mismos gates de CI |
 
@@ -361,9 +375,9 @@ El portal reúne guías mantenidas sobre estándar de clase, método, auditoría
 | Formato | Uso |
 |---|---|
 | [GitHub Pages](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) | navegación, búsqueda y lectura HTML |
-| [800 Markdown](classes/README.md) | fuentes editables y revisión en Git |
+| [830 Markdown](classes/README.md) | fuentes editables y revisión en Git |
 | [60 sesiones de taller](studios/README.md) | integración, crítica, revisión y defensa |
-| [33 rutas verificables](docs/RUTAS_DE_APRENDIZAJE.md) | diagnóstico, checkpoints, capstone y salida |
+| [34 rutas verificables](docs/RUTAS_DE_APRENDIZAJE.md) | diagnóstico, checkpoints, capstone y salida |
 | [Lector offline v1.0](programa-arquitectura-lector-definitivo-v1.0.html) | biblioteca autosuficiente sin servidor |
 | [20 clases finales en Markdown](Arquitectura_20_Clases_Finales_v1.0.md) | bloque ARQ-661–680 consolidado |
 | [20 clases finales en PDF](Arquitectura_20_Clases_Finales_v1.0.pdf) | lectura e impresión |
@@ -376,11 +390,11 @@ El lector offline y `STATUS_v1.0.json` conservan la entrega histórica de 680 cl
 
 | Dimensión | Resultado | No demuestra |
 |---|---|---|
-| Integridad curricular | 800/800 clases; 80 partes; 10 clases por parte | revisión disciplinar |
-| Capa pedagógica | anatomía y cadenas de decisión 800/800; cinco pilotos editoriales profundos | efectividad con estudiantes y revisión externa pendientes |
+| Integridad curricular | 830/830 clases; 83 partes; 10 clases por parte | revisión disciplinar |
+| Capa pedagógica | anatomía y cadenas de decisión 830/830; cinco pilotos editoriales profundos | efectividad con estudiantes y revisión externa pendientes |
 | Talleres | 10 talleres y 60 sesiones | supervisión profesional o universitaria |
-| Capa Markdown | 800 clases + 80 README de parte + índice | calidad homogénea |
-| Fuentes en clases | 2.179 relaciones; 627 URLs; 1.126 usos completos | 1.053 usos parciales; vigencia externa pendiente |
+| Capa Markdown | 830 clases + 83 README de parte + índice | calidad homogénea |
+| Fuentes en clases | 2.419 relaciones; 631 URLs; 1.366 usos completos | 1.053 usos parciales; vigencia externa pendiente |
 | Fichas navegables v1.0 | 611 fichas curadas; 0 sin URL | identidad con el registro derivado |
 | Portal | clases, partes y 755 recursos con enlaces internos validados | accesibilidad WCAG certificada |
 | Artefactos | lector y PDF con hashes versionados | validez técnica para obra |
@@ -392,14 +406,14 @@ El detalle, la metodología de conteo y las brechas abiertas están en [Estado v
 ## ⚙️ Calidad, generación y CI
 
 ```text
-800 clases Markdown ─┐
+830 clases Markdown ─┐
 manifiestos canónicos ┼─> build_site.py ─> portal HTML ─> GitHub Pages
-80 README de parte ──┘
+83 README de parte ──┘
 ```
 
 | Workflow | Comprobación |
 |---|---|
-| [`ci.yml`](.github/workflows/ci.yml) | comprueba los 800 contratos pedagógicos, fuentes y localizadores, anatomía de clase, 80 índices, talleres, rutas, hashes, UTF-8, enlaces y salida HTML |
+| [`ci.yml`](.github/workflows/ci.yml) | comprueba los 830 contratos pedagógicos, fuentes y localizadores, anatomía de clase, 83 índices, presupuestos, talleres, rutas, hashes, UTF-8, enlaces y salida HTML |
 | [`deploy-pages.yml`](.github/workflows/deploy-pages.yml) | reconstruye el portal únicamente desde las fuentes versionadas, valida el artefacto, lo sube y publica GitHub Pages |
 
 Reproducción local:
@@ -411,11 +425,12 @@ python scripts/apply_pedagogy.py --check
 python scripts/audit_pedagogical_traceability.py --json
 python scripts/build_bibliography.py --check
 python scripts/generate_curriculum_docs.py --check
+python scripts/validate_homeowner_budget.py
 python scripts/build_site.py
 python scripts/validate_repo.py
 ```
 
-El validador no se limita a contar archivos. Exige ARQ-001–800, diez clases por parte, anatomía y cadena específica de decisión en 800 clases, fundamentos enlazados con las fuentes declaradas, verbos observables, dependencias existentes, cinco pilotos editoriales preservados, 60 sesiones de taller, 33 rutas, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
+El validador no se limita a contar archivos. Exige ARQ-001–830, diez clases por parte, anatomía y cadena específica de decisión en 830 clases, fundamentos enlazados con las fuentes declaradas, verbos observables, dependencias existentes, cinco pilotos editoriales preservados, 60 sesiones de taller, 34 rutas, presupuestos consistentes, estado coherente, hashes correctos, ausencia de mojibake, todas las salidas HTML y ningún enlace interno roto.
 
 Una comprobación verde demuestra coherencia reproducible del repositorio. No demuestra vigencia externa de una norma, calidad homogénea del contenido, aprendizaje efectivo con estudiantes ni revisión profesional por especialidades; esas fronteras se publican en el [estado verificable](docs/ESTADO_VERIFICABLE.md).
 
@@ -424,17 +439,19 @@ Una comprobación verde demuestra coherencia reproducible del repositorio. No de
 ```text
 ├── classes/
 │   ├── README.md                 # mapa curricular
-│   └── parte-01 … parte-80/
+│   └── parte-01 … parte-83/
 │       ├── README.md             # propósito, preguntas, resultados y navegación
 │       └── ARQ-XXX.md            # diez clases por parte
 ├── studios/                      # 10 talleres · 60 sesiones integradoras
-├── learning-paths/               # 33 rutas con entrada, checkpoints y capstone
+├── learning-paths/               # 34 rutas con entrada, checkpoints y capstone
+├── cases/                        # casos domésticos didácticos y comparables
+├── templates/                    # presupuestos CSV y planilla XLSX auditable
 ├── evidence/                     # convención privada de evidencias y portafolio
 ├── docs/                         # estado, método, fuentes, uso, rutas, roles y casos
 ├── sources/                      # bibliografía central y clases que usan cada URL
 ├── data/
 │   ├── program.json              # edición, conteos, fases y frontera histórica
-│   ├── parts.json                # títulos canónicos de las 80 partes
+│   ├── parts.json                # títulos canónicos de las 83 partes
 │   ├── catalog.json              # catálogo canónico de clases
 │   └── pedagogy.json             # evaluación, talleres y rutas
 ├── scripts/                      # importación, documentación, build y validación

@@ -61,7 +61,7 @@ def main() -> int:
         ),
         "LICENSING_AUDIT.md": (
             f"{PROGRAM['class_count']} clases y {PROGRAM['part_count']} README de parte",
-            "627 URLs externas únicas y 2.179 relaciones clase–fuente",
+            "631 URLs externas únicas y 2.419 relaciones clase–fuente",
         ),
     }
     for relative, claims in current_document_claims.items():
@@ -128,7 +128,7 @@ def main() -> int:
         "practice": PROGRAM["class_count"],
         "sources": PROGRAM["class_count"],
         "result": PROGRAM["class_count"],
-        "case": 690,
+        "case": PROGRAM["class_count"] - 110,
         "self_assessment": PROGRAM["class_count"],
         "continuity": PROGRAM["class_count"],
         "errors": PROGRAM["class_count"],
@@ -165,11 +165,11 @@ def main() -> int:
             fail(f"learning map missing in {item['id']}")
 
     historical_count = PROGRAM["historical_baseline"]["class_count"]
-    phase_three = catalog[historical_count:]
-    phase_three_questions = set()
-    phase_three_critical_conditions = set()
-    phase_three_topic_graphs = set()
-    for item in phase_three:
+    authored_expansion = catalog[historical_count:]
+    expansion_questions = set()
+    expansion_critical_conditions = set()
+    expansion_topic_graphs = set()
+    for item in authored_expansion:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
         question_match = re.search(r"## Pregunta central\s+(.+)", text)
         critical_match = re.search(
@@ -177,22 +177,22 @@ def main() -> int:
         )
         graph_match = re.search(r"```mermaid\n(.*?)```", text, re.DOTALL)
         if not all((question_match, critical_match, graph_match)):
-            fail(f"Phase III class lacks distinct pedagogical anchors: {item['id']}")
-        phase_three_questions.add(question_match.group(1).strip())
-        phase_three_critical_conditions.add(critical_match.group(1).strip())
-        phase_three_topic_graphs.add(graph_match.group(1).strip())
+            fail(f"authored expansion class lacks distinct pedagogical anchors: {item['id']}")
+        expansion_questions.add(question_match.group(1).strip())
+        expansion_critical_conditions.add(critical_match.group(1).strip())
+        expansion_topic_graphs.add(graph_match.group(1).strip())
         if len(re.findall(r"\S+", text)) < 2500:
-            fail(f"Phase III class is too shallow for the documented standard: {item['id']}")
-    expected_phase_three = PROGRAM["class_count"] - historical_count
+            fail(f"authored expansion class is too shallow for the documented standard: {item['id']}")
+    expected_expansion = PROGRAM["class_count"] - historical_count
     if not all(
-        len(values) == expected_phase_three
+        len(values) == expected_expansion
         for values in (
-            phase_three_questions,
-            phase_three_critical_conditions,
-            phase_three_topic_graphs,
+            expansion_questions,
+            expansion_critical_conditions,
+            expansion_topic_graphs,
         )
     ):
-        fail("Phase III questions, critical conditions and topic graphs must be class-specific")
+        fail("authored expansion questions, critical conditions and topic graphs must be class-specific")
 
     reader_text = (
         ROOT / "programa-arquitectura-lector-definitivo-v1.0.html"
@@ -352,6 +352,8 @@ def main() -> int:
         "scripts/*.py",
         "classes/parte-XX/ARQ-XXX.md",
         "studios/",
+        "cases/",
+        "templates/",
         "data/pedagogy.json",
         "sources/bibliography.json",
         "programa-arquitectura-lector-definitivo-v1.0.html",
@@ -514,6 +516,10 @@ def main() -> int:
             "portafolio-evidencias.html",
             "estandar-visual.html",
             "syllabus-carga.html",
+            "auditoria-ruta-vivienda.html",
+            "guia-presupuesto-vivienda.html",
+            "matriz-permisos-vivienda-chile.html",
+            "seguridad-autogestion-vivienda.html",
             "talleres/index.html",
             "rutas/index.html",
             "bibliografia.html",

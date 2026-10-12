@@ -1,0 +1,7 @@
+caso,escenario,capitulo,codigo,partida,unidad,cantidad_neta,merma_pct,cantidad_compra,precio_unitario_clp,transporte_clp,subtotal_neto_clp,iva_pct,total_clp,fuente_precio,fecha_precio,region_comuna,estado_precio,notas
+CASA-NUEVA-80,economico,obra-base,CN80-E-001,Referencia de construcción didáctica,m2,80,0,80,850000,0,68000000,0,68000000,Sin cotización,,Por definir,HIPOTETICO,Reemplazar por partidas y tres cotizaciones comparables
+CASA-NUEVA-80,economico,profesionales,CN80-E-002,Honorarios y estudios didácticos,gl,1,0,1,8840000,0,8840000,0,8840000,Sin cotización,,Por definir,HIPOTETICO,13 % solo para probar el modelo
+CASA-NUEVA-80,estandar,obra-base,CN80-S-001,Referencia de construcción didáctica,m2,80,0,80,1150000,0,92000000,0,92000000,Sin cotización,,Por definir,HIPOTETICO,No es precio de mercado 2026
+CASA-NUEVA-80,estandar,profesionales,CN80-S-002,Honorarios y estudios didácticos,gl,1,0,1,11960000,0,11960000,0,11960000,Sin cotización,,Por definir,HIPOTETICO,13 % solo para probar el modelo
+CASA-NUEVA-80,mayor-desempeno,obra-base,CN80-M-001,Referencia de construcción didáctica,m2,80,0,80,1500000,0,120000000,0,120000000,Sin cotización,,Por definir,HIPOTETICO,Definir desempeño medible y alcance
+CASA-NUEVA-80,mayor-desempeno,profesionales,CN80-M-002,Honorarios y estudios didácticos,gl,1,0,1,15600000,0,15600000,0,15600000,Sin cotización,,Por definir,HIPOTETICO,13 % solo para probar el modelo

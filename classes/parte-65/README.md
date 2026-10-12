@@ -148,4 +148,4 @@ Esta parte comienza con **Escuela: aula, patio y comunidad** y culmina con **Pro
 
 ## Navegación
 
-[← Parte 64](../parte-64/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 66 →](../parte-66/README.md)
+[← Parte 64](../parte-64/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 66 →](../parte-66/README.md)

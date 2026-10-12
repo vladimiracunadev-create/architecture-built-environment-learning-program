@@ -148,4 +148,4 @@ Esta parte comienza con **Dibujo analítico y selección de punto de vista** y c
 
 ## Navegación
 
-[← Parte 70](../parte-70/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 72 →](../parte-72/README.md)
+[← Parte 70](../parte-70/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 72 →](../parte-72/README.md)

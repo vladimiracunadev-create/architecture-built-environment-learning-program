@@ -148,4 +148,4 @@ Esta parte comienza con **Cartografía de usos de IA y decisiones indelegables**
 
 ## Navegación
 
-[← Parte 72](../parte-72/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 74 →](../parte-74/README.md)
+[← Parte 72](../parte-72/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 74 →](../parte-74/README.md)

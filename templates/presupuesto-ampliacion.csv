@@ -1,0 +1,7 @@
+caso,escenario,capitulo,codigo,partida,unidad,cantidad_neta,merma_pct,cantidad_compra,precio_unitario_clp,transporte_clp,subtotal_neto_clp,iva_pct,total_clp,fuente_precio,fecha_precio,region_comuna,estado_precio,notas
+AMPLIACION-24,economico,obra-base,AM24-E-001,Ampliación didáctica,m2,24,0,24,900000,0,21600000,0,21600000,Sin cotización,,Por definir,HIPOTETICO,Reemplazar por partidas reales
+AMPLIACION-24,economico,intervencion,AM24-E-002,Protección demolición y reposición,gl,1,0,1,4000000,0,4000000,0,4000000,Sin cotización,,Por definir,HIPOTETICO,Alcance específico de intervención
+AMPLIACION-24,estandar,obra-base,AM24-S-001,Ampliación didáctica,m2,24,0,24,1200000,0,28800000,0,28800000,Sin cotización,,Por definir,HIPOTETICO,No es precio de mercado 2026
+AMPLIACION-24,estandar,intervencion,AM24-S-002,Protección demolición y reposición,gl,1,0,1,6500000,0,6500000,0,6500000,Sin cotización,,Por definir,HIPOTETICO,Incluir continuidad de servicios
+AMPLIACION-24,mayor-desempeno,obra-base,AM24-M-001,Ampliación didáctica,m2,24,0,24,1500000,0,36000000,0,36000000,Sin cotización,,Por definir,HIPOTETICO,Definir desempeño medible
+AMPLIACION-24,mayor-desempeno,intervencion,AM24-M-002,Protección demolición y reposición,gl,1,0,1,9000000,0,9000000,0,9000000,Sin cotización,,Por definir,HIPOTETICO,No incluye refuerzo estructural sin proyecto

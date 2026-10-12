@@ -148,4 +148,4 @@ Esta parte comienza con **Tierra como material: variabilidad y caracterización*
 
 ## Navegación
 
-[← Parte 21](../parte-21/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 23 →](../parte-23/README.md)
+[← Parte 21](../parte-21/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 23 →](../parte-23/README.md)

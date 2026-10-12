@@ -148,4 +148,4 @@ Esta parte comienza con **Túnel: geología, trazado y sección** y culmina con 
 
 ## Navegación
 
-[← Parte 56](../parte-56/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 58 →](../parte-58/README.md)
+[← Parte 56](../parte-56/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 58 →](../parte-58/README.md)

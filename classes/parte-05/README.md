@@ -148,4 +148,4 @@ Esta parte comienza con **Cómo leer la historia de la arquitectura sin reducirl
 
 ## Navegación
 
-[← Parte 04](../parte-04/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 06 →](../parte-06/README.md)
+[← Parte 04](../parte-04/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 06 →](../parte-06/README.md)

@@ -114,7 +114,7 @@ Esta parte comienza con **Abastecimiento de agua y demanda** y culmina con **Seq
 
 **Posición:** Ocupa el lugar 8 de la Parte 31. Se estudia después de ARQ-307 · Equipos, salas técnicas y mantenimiento porque usa esa base para responder «¿Cómo comprobar que una conducción mantiene cotas, pendiente, espacio físico y acceso cuando corregir un cruce afecta las condiciones de conexión en otro punto?». Se ubica antes de ARQ-309 · Pruebas, recepción y documentación sanitaria porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-307, ARQ-304, ARQ-210, ARQ-249 · **Salida:** ARQ-309, ARQ-317.
+**Entrada:** ARQ-307, ARQ-304, ARQ-210, ARQ-249 · **Salida:** ARQ-309, ARQ-317, ARQ-825.
 
 **Evidencia:** Esta clase abre COORD-SAN-01 , una sección geométrica auxiliar. No dimensiona la red de ARQ-304 ni recomienda una pendiente reglamentaria. Utilizarás un sistema de coordenadas común, formularás restricciones y demostrarás cuándo no existe una solución de pendiente constante bajo los datos adoptados.
 
@@ -124,7 +124,7 @@ Esta parte comienza con **Abastecimiento de agua y demanda** y culmina con **Seq
 
 **Posición:** Ocupa el lugar 9 de la Parte 31. Se estudia después de ARQ-308 · Coordinación de pendientes y pasos porque usa esa base para responder «¿Cómo distinguir una instalación dibujada, una obra revisada, una medición compatible y una recepción documentada sin convertir una sola evidencia favorable en aprobación de todas las funciones?». Se ubica antes de ARQ-310 · Sequía, continuidad y gestión de consumo porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-308, ARQ-300, ARQ-289, ARQ-160 · **Salida:** ARQ-310, ARQ-356.
+**Entrada:** ARQ-308, ARQ-300, ARQ-289, ARQ-160 · **Salida:** ARQ-310, ARQ-356, ARQ-815.
 
 **Evidencia:** ARQ-308 permitió comprobar una interfaz geométrica. Esta clase abre SAN-REV , un expediente ficticio que incorpora contadores, registros y estados de recepción. No se ejecutan pruebas de presión ni se toman muestras de agua.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Abastecimiento de agua y demanda** y culmina con **Seq
 
 ## Navegación
 
-[← Parte 30](../parte-30/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 32 →](../parte-32/README.md)
+[← Parte 30](../parte-30/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 32 →](../parte-32/README.md)

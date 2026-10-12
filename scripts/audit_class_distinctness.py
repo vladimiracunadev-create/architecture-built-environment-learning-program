@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-"""Audit whether the 800 lessons contain distinguishable editorial substance."""
+"""Audit whether the current lessons contain distinguishable editorial substance."""
 
 from __future__ import annotations
 
@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "catalog.json"
+PROGRAM = json.loads((ROOT / "data" / "program.json").read_text(encoding="utf-8"))
 SUMMARY_PATH = ROOT / "data" / "audits" / "class-distinctness.json"
 ROWS_PATH = ROOT / "docs" / "audits" / "class-distinctness.csv"
 PEDAGOGY_BLOCK = re.compile(
@@ -176,6 +177,7 @@ def build_audit() -> tuple[dict[str, object], str, list[str]]:
         if len(phase_three_ids & set(owners)) > 10
     ]
     phase_three = [record for record in records if record["class_id"] in phase_three_ids]
+    phase_four = [record for record in records if int(str(record["class_id"])[4:]) >= 801]
     row_by_id = {str(row["class_id"]): row for row in rows}
 
     def similarity_summary(group: list[dict[str, object]]) -> dict[str, object]:
@@ -207,7 +209,7 @@ def build_audit() -> tuple[dict[str, object], str, list[str]]:
         "maximum_words": max(int(record["words"]) for record in records),
         **similarity_summary(records),
     }
-    phase_counts = {
+    phase_three_counts = {
         "files": len(phase_three),
         "exact_unique_files": len({record["file_hash"] for record in phase_three}),
         "unique_questions": len({record["question_hash"] for record in phase_three}),
@@ -218,6 +220,16 @@ def build_audit() -> tuple[dict[str, object], str, list[str]]:
         "unallowed_long_paragraphs_repeated_over_ten_classes": len(phase_three_repeated),
         **similarity_summary(phase_three),
     }
+    phase_four_counts = {
+        "files": len(phase_four),
+        "exact_unique_files": len({record["file_hash"] for record in phase_four}),
+        "unique_questions": len({record["question_hash"] for record in phase_four}),
+        "unique_graphs": len({record["graph_hash"] for record in phase_four}),
+        "unique_critical_conditions": len({record["critical_hash"] for record in phase_four}),
+        "minimum_words": min(int(record["words"]) for record in phase_four),
+        "maximum_words": max(int(record["words"]) for record in phase_four),
+        **similarity_summary(phase_four),
+    }
     top_repeated = [
         {
             "uses": len(owners),
@@ -227,9 +239,10 @@ def build_audit() -> tuple[dict[str, object], str, list[str]]:
         for paragraph, owners in repeated[:20]
     ]
     summary: dict[str, object] = {
-        "scope": "800 authored lesson files; generated pedagogy contracts and source lists excluded from editorial repetition analysis",
+        "scope": f"{PROGRAM['class_count']} authored lesson files; generated pedagogy contracts and source lists excluded from editorial repetition analysis",
         "all_classes": counts,
-        "phase_three_arq_681_800": phase_counts,
+        "phase_three_arq_681_800": phase_three_counts,
+        "phase_four_arq_801_current": phase_four_counts,
         "repeated_editorial_paragraphs": {
             "total_patterns_used_by_two_or_more_classes": len(repeated),
             "patterns_used_by_over_ten_classes": sum(1 for _, owners in repeated if len(owners) > 10),
@@ -243,15 +256,21 @@ def build_audit() -> tuple[dict[str, object], str, list[str]]:
         },
     }
     errors: list[str] = []
-    if counts["files"] != 800 or counts["exact_unique_files"] != 800:
-        errors.append("Expected 800 distinct lesson files")
-    if phase_counts["unique_questions"] != 120:
-        errors.append("Phase III must contain 120 distinct central questions")
-    if phase_counts["unique_graphs"] != 120:
-        errors.append("Phase III must contain 120 distinct topic graphs")
-    if phase_counts["unique_critical_conditions"] != 120:
-        errors.append("Phase III must contain 120 distinct critical conditions")
-    if phase_counts["unallowed_long_paragraphs_repeated_over_ten_classes"]:
+    if counts["files"] != PROGRAM["class_count"] or counts["exact_unique_files"] != PROGRAM["class_count"]:
+        errors.append(f"Expected {PROGRAM['class_count']} distinct lesson files")
+    for label, group, expected in (
+        ("Phase III", phase_three_counts, 120),
+        ("Phase IV", phase_four_counts, PROGRAM["class_count"] - 800),
+    ):
+        if group["exact_unique_files"] != expected:
+            errors.append(f"{label} must contain {expected} distinct lesson files")
+        if group["unique_questions"] != expected:
+            errors.append(f"{label} must contain {expected} distinct central questions")
+        if group["unique_graphs"] != expected:
+            errors.append(f"{label} must contain {expected} distinct topic graphs")
+        if group["unique_critical_conditions"] != expected:
+            errors.append(f"{label} must contain {expected} distinct critical conditions")
+    if phase_three_counts["unallowed_long_paragraphs_repeated_over_ten_classes"]:
         errors.append("Phase III still contains unapproved long editorial boilerplate")
     return summary, render_csv(rows), errors
 

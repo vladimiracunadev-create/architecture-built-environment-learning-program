@@ -148,4 +148,4 @@ Esta parte comienza con **Gobernanza urbana, poder y derecho a la ciudad** y cul
 
 ## Navegación
 
-[← Parte 74](../parte-74/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 76 →](../parte-76/README.md)
+[← Parte 74](../parte-74/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 76 →](../parte-76/README.md)

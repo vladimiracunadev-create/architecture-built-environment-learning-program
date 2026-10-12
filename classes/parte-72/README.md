@@ -148,4 +148,4 @@ Esta parte comienza con **Pensamiento algorítmico para proyectistas** y culmina
 
 ## Navegación
 
-[← Parte 71](../parte-71/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 73 →](../parte-73/README.md)
+[← Parte 71](../parte-71/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 73 →](../parte-73/README.md)

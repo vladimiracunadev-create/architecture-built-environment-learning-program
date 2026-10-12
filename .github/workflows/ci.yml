@@ -33,13 +33,15 @@ jobs:
         run: python scripts/apply_pedagogy.py --check
       - name: Auditar decisiones pedagógicas
         run: python scripts/audit_pedagogical_traceability.py --json
-      - name: Auditar diferencias entre las 800 clases
+      - name: Auditar diferencias entre las 830 clases
         run: python scripts/audit_class_distinctness.py --check
       - name: Verificar bibliografía derivada
         run: python scripts/build_bibliography.py --check
       - name: Validar fuentes
         run: python scripts/validate_repo.py
-      - name: Generar 800 páginas HTML
+      - name: Validar plantillas de presupuesto
+        run: python scripts/validate_homeowner_budget.py
+      - name: Generar 830 páginas HTML
         run: python scripts/build_site.py
       - name: Validar salida
         run: python scripts/validate_repo.py
@@ -47,14 +49,14 @@ jobs:
         if: always()
         run: |
           echo "### Arquitectura · programa integral" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Clases esperadas: **800**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Partes esperadas: **80**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- README de parte esperados: **80**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Clases esperadas: **830**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Partes esperadas: **83**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- README de parte esperados: **83**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Talleres verticales: **10** · sesiones: **60**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Rutas con diagnóstico y capstone: **33**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Anatomía común de clase: **800/800**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Cadenas pedagógicas específicas: **800/800**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Rutas con diagnóstico y capstone: **34**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Anatomía común de clase: **830/830**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Cadenas pedagógicas específicas: **830/830**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Pilotos editoriales manuales profundos: **5**" >> "$GITHUB_STEP_SUMMARY"
           echo "- Recursos transversales esperados: **755**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Fuentes externas únicas esperadas: **627**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Usos de fuentes contextualmente completos: **1.126/2.179** (mínimo sin regresión)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Fuentes externas y usos: **derivados y verificados desde las clases**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Presupuestos de vivienda y ampliación: **esquema y cálculos validados**" >> "$GITHUB_STEP_SUMMARY"

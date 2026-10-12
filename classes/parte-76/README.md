@@ -148,4 +148,4 @@ Esta parte comienza con **Sistemas de infraestructura y niveles de servicio** y 
 
 ## Navegación
 
-[← Parte 75](../parte-75/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 77 →](../parte-77/README.md)
+[← Parte 75](../parte-75/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 77 →](../parte-77/README.md)

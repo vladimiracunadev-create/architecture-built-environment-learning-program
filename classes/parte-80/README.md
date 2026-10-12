@@ -132,9 +132,9 @@ Esta parte comienza con **Arquitectura en desiertos, altura y aislamiento** y cu
 
 **Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo abordar proyecto final: integrar, verificar, defender y transferir y comprobar esta condición crítica: defender incluye reconocer límites y condiciones de reapertura?
 
-**Posición:** Cierra la Parte 80: integra lo producido en ARQ-799 · Seguridad física y ciberseguridad de edificios conectados para responder «¿Cómo abordar proyecto final: integrar, verificar, defender y transferir y comprobar esta condición crítica: defender incluye reconocer límites y condiciones de reapertura?». La transición hacia el taller final EST-10 y el portafolio longitudinal transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
+**Posición:** Cierra la Parte 80: integra lo producido en ARQ-799 · Seguridad física y ciberseguridad de edificios conectados para responder «¿Cómo abordar proyecto final: integrar, verificar, defender y transferir y comprobar esta condición crítica: defender incluye reconocer límites y condiciones de reapertura?». La transición hacia ARQ-801 · Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
 
-**Entrada:** ARQ-799 · **Salida:** EST-10.
+**Entrada:** ARQ-799 · **Salida:** ARQ-801.
 
 **Evidencia:** La clase profundiza en proyecto final: integrar, verificar, defender y transferir para transferir fundamentos terrestres a condiciones extremas sin convertir especulación en certeza técnica. Recibe de ARQ-799 un registro de decisiones, fuentes y pendientes. No basta con reconocer vocabulario: el estudiante debe transformar una pregunta en un procedimiento que otra persona pueda reconstruir, criticar y corregir.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Arquitectura en desiertos, altura y aislamiento** y cu
 
 ## Navegación
 
-[← Parte 79](../parte-79/README.md) · [Mapa de las 80 partes](../README.md) · [Índice general →](../README.md)
+[← Parte 79](../parte-79/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 81 →](../parte-81/README.md)

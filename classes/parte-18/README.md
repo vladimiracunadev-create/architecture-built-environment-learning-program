@@ -148,4 +148,4 @@ Esta parte comienza con **Accesibilidad como cadena de decisiones** y culmina co
 
 ## Navegación
 
-[← Parte 17](../parte-17/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 19 →](../parte-19/README.md)
+[← Parte 17](../parte-17/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 19 →](../parte-19/README.md)

@@ -148,4 +148,4 @@ Esta parte comienza con **Modelos de práctica y propósito de una oficina** y c
 
 ## Navegación
 
-[← Parte 69](../parte-69/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 71 →](../parte-71/README.md)
+[← Parte 69](../parte-69/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 71 →](../parte-71/README.md)

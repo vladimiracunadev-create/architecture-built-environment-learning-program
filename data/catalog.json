@@ -5598,5 +5598,215 @@
     "part": 80,
     "is_new": true,
     "source": "classes/parte-80/ARQ-800.md"
+  },
+  {
+    "id": "ARQ-801",
+    "title": "Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-801.md"
+  },
+  {
+    "id": "ARQ-802",
+    "title": "Documentos del terreno y de la vivienda: dominio, rol, planos, permisos y recepciones existentes",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-802.md"
+  },
+  {
+    "id": "ARQ-803",
+    "title": "Certificado de Informaciones Previas, plan regulador y restricciones del predio",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-803.md"
+  },
+  {
+    "id": "ARQ-804",
+    "title": "Estado actual: levantamiento, patologías y elementos que no deben intervenirse sin diagnóstico",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-804.md"
+  },
+  {
+    "id": "ARQ-805",
+    "title": "Servicios, suelo, topografía, amenazas, entorno y acceso de maquinaria",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-805.md"
+  },
+  {
+    "id": "ARQ-806",
+    "title": "Programa de recintos, superficie, habitabilidad, accesibilidad y crecimiento",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-806.md"
+  },
+  {
+    "id": "ARQ-807",
+    "title": "Árbol de decisiones de trámites para obra nueva, ampliación y situaciones especiales",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-807.md"
+  },
+  {
+    "id": "ARQ-808",
+    "title": "A quién contratar y cuándo: matriz de responsabilidades, firmas y coordinación",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-808.md"
+  },
+  {
+    "id": "ARQ-809",
+    "title": "Presupuesto preliminar, financiación, costos ocultos y viabilidad",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-809.md"
+  },
+  {
+    "id": "ARQ-810",
+    "title": "Primera puerta de control: decidir si iniciar el proyecto",
+    "part": 81,
+    "is_new": true,
+    "source": "classes/parte-81/ARQ-810.md"
+  },
+  {
+    "id": "ARQ-811",
+    "title": "Levantamiento con medidas, cotas, deslindes, superficies y fotografías",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-811.md"
+  },
+  {
+    "id": "ARQ-812",
+    "title": "Leer plantas, cortes, elevaciones, emplazamiento, detalles y especificaciones",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-812.md"
+  },
+  {
+    "id": "ARQ-813",
+    "title": "Coordinación de suelo, fundaciones, estructura y sismo",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-813.md"
+  },
+  {
+    "id": "ARQ-814",
+    "title": "Cubierta y envolvente: lluvia, impermeabilización, ventanas, condensación y exigencia térmica",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-814.md"
+  },
+  {
+    "id": "ARQ-815",
+    "title": "Redes de agua, alcantarillado, electricidad y gas: factibilidades y declaraciones",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-815.md"
+  },
+  {
+    "id": "ARQ-816",
+    "title": "Cubicaciones auditables: unidades, pérdidas, transporte y rendimientos",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-816.md"
+  },
+  {
+    "id": "ARQ-817",
+    "title": "Análisis de precios unitarios, presupuesto completo, IVA y contingencia",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-817.md"
+  },
+  {
+    "id": "ARQ-818",
+    "title": "Expediente de permiso: documentos, ingreso, observaciones y seguimiento DOM",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-818.md"
+  },
+  {
+    "id": "ARQ-819",
+    "title": "Cotizaciones, contratos, subcontratistas, seguros, garantías y pagos",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-819.md"
+  },
+  {
+    "id": "ARQ-820",
+    "title": "Cronograma, compras, ruta crítica y autorización para iniciar",
+    "part": 82,
+    "is_new": true,
+    "source": "classes/parte-82/ARQ-820.md"
+  },
+  {
+    "id": "ARQ-821",
+    "title": "Instalación de faenas, protección de lo existente, cierres, vecinos, accesos y acopios",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-821.md"
+  },
+  {
+    "id": "ARQ-822",
+    "title": "Movimiento de tierra, excavaciones, fundaciones, humedad y puntos de inspección",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-822.md"
+  },
+  {
+    "id": "ARQ-823",
+    "title": "Obra gruesa: estructura, muros, anclajes, cubierta y conexión con lo existente",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-823.md"
+  },
+  {
+    "id": "ARQ-824",
+    "title": "Envolvente: techumbre, aislación, impermeabilización, vanos y escurrimientos",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-824.md"
+  },
+  {
+    "id": "ARQ-825",
+    "title": "Instalaciones empotradas y visibles, interferencias, pruebas y certificados",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-825.md"
+  },
+  {
+    "id": "ARQ-826",
+    "title": "Terminaciones: revestimientos, pisos, carpinterías, baños, cocina y accesibilidad",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-826.md"
+  },
+  {
+    "id": "ARQ-827",
+    "title": "Control del presupuesto durante la obra: avance, pagos, compras, cambios y flujo de caja",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-827.md"
+  },
+  {
+    "id": "ARQ-828",
+    "title": "Seguridad, residuos, ruido, inspecciones, fallas, calidad y comunidad",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-828.md"
+  },
+  {
+    "id": "ARQ-829",
+    "title": "Atrasos, sobrecostos y descubrimientos imprevistos: órdenes de cambio",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-829.md"
+  },
+  {
+    "id": "ARQ-830",
+    "title": "Término de obra, certificados, recepción definitiva, garantías y mantenimiento",
+    "part": 83,
+    "is_new": true,
+    "source": "classes/parte-83/ARQ-830.md"
   }
 ]

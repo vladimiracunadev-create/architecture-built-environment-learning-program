@@ -44,7 +44,7 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 **Posición:** Abre la Parte 39 porque plantea primero el problema «¿Cómo pasar de documentos a posiciones construibles sin que una cota o un eje copiado pierda su referencia y tolerancia?». La transición desde ARQ-380 · Ejercicio integrado de incertidumbre y decisión conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-382 · Excavaciones y obras provisionales desarrollará a continuación.
 
-**Entrada:** ARQ-380 · **Salida:** ARQ-382.
+**Entrada:** ARQ-380 · **Salida:** ARQ-382, ARQ-811, ARQ-821.
 
 **Evidencia:** Esta clase abre la parte 39. Transfiere trazabilidad y estados de decisión de ARQ-380 hacia la producción de obra; los casos de amenaza anteriores no se convierten en condiciones del sitio constructivo. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -54,7 +54,7 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 **Posición:** Ocupa el lugar 2 de la Parte 39. Se estudia después de ARQ-381 · Preparación del sitio, replanteo y trazado porque usa esa base para responder «¿Cómo estudiar una excavación como estado temporal sin transformar un volumen geométrico en una instrucción de seguridad?». Se ubica antes de ARQ-383 · Obra gruesa y secuencias resistentes porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-381 · **Salida:** ARQ-383.
+**Entrada:** ARQ-381 · **Salida:** ARQ-383, ARQ-822.
 
 **Evidencia:** Recibe el método de ARQ-381: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -64,7 +64,7 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 **Posición:** Ocupa el lugar 3 de la Parte 39. Se estudia después de ARQ-382 · Excavaciones y obras provisionales porque usa esa base para responder «¿Cómo comprobar que una estructura sea estable durante su construcción cuando el camino de cargas final todavía no existe?». Se ubica antes de ARQ-384 · Carpintería, moldajes y montaje porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-382 · **Salida:** ARQ-384.
+**Entrada:** ARQ-382 · **Salida:** ARQ-384, ARQ-823.
 
 **Evidencia:** Recibe el método de ARQ-382: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -84,7 +84,7 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 **Posición:** Ocupa el lugar 5 de la Parte 39. Se estudia después de ARQ-384 · Carpintería, moldajes y montaje porque usa esa base para responder «¿Cómo coordinar capas y oficios para que terminar una superficie no oculte estados incompletos del soporte, humedad o instalaciones?». Se ubica antes de ARQ-386 · Instaladores y coordinación de pasos porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-384 · **Salida:** ARQ-386.
+**Entrada:** ARQ-384 · **Salida:** ARQ-386, ARQ-826.
 
 **Evidencia:** Recibe el método de ARQ-384: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -114,7 +114,7 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 **Posición:** Ocupa el lugar 8 de la Parte 39. Se estudia después de ARQ-387 · Prefabricación, logística y montaje industrializado porque usa esa base para responder «¿Cómo usar tolerancias y prototipos para aprender antes de construir en serie sin convertir una muestra aprobada en garantía de todas las unidades?». Se ubica antes de ARQ-389 · Capataz, jefatura y comunicación de obra porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-387 · **Salida:** ARQ-389.
+**Entrada:** ARQ-387 · **Salida:** ARQ-389, ARQ-824, ARQ-826.
 
 **Evidencia:** Recibe el método de ARQ-387: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -124,7 +124,7 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 **Posición:** Ocupa el lugar 9 de la Parte 39. Se estudia después de ARQ-388 · Tolerancias, muestras y prototipos porque usa esa base para responder «¿Cómo mantener decisiones, instrucciones y cambios alineados entre personas sin que la coordinación dependa únicamente de memoria o mensajes informales?». Se ubica antes de ARQ-390 · Cierre de frentes, limpieza y entrega porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-388 · **Salida:** ARQ-390.
+**Entrada:** ARQ-388 · **Salida:** ARQ-390, ARQ-821.
 
 **Evidencia:** Recibe el método de ARQ-388: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Preparación del sitio, replanteo y trazado** y culmin
 
 ## Navegación
 
-[← Parte 38](../parte-38/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 40 →](../parte-40/README.md)
+[← Parte 38](../parte-38/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 40 →](../parte-40/README.md)

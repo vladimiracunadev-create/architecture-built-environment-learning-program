@@ -148,4 +148,4 @@ Esta parte comienza con **Drones: planificación, captura, permisos y seguridad*
 
 ## Navegación
 
-[← Parte 73](../parte-73/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 75 →](../parte-75/README.md)
+[← Parte 73](../parte-73/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 75 →](../parte-75/README.md)

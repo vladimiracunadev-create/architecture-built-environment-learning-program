@@ -102,10 +102,10 @@ def main() -> int:
     coverage = Counter()
     titles = Counter()
     generated_signatures = Counter()
-    phase_three_questions: set[str] = set()
-    phase_three_critical_conditions: set[str] = set()
-    phase_three_topic_graphs: set[str] = set()
-    phase_three_word_counts: list[int] = []
+    expansion_questions: set[str] = set()
+    expansion_critical_conditions: set[str] = set()
+    expansion_topic_graphs: set[str] = set()
+    expansion_word_counts: list[int] = []
     historical_count = PROGRAM["historical_baseline"]["class_count"]
     for item in catalog:
         text = (ROOT / item["source"]).read_text(encoding="utf-8")
@@ -138,24 +138,24 @@ def main() -> int:
             critical = re.search(r"\*\*Fallo crítico de esta clase:\*\* (.+?)\.", text)
             topic_graph = re.search(r"```mermaid\n(.*?)```", text, re.DOTALL)
             if not all((question, critical, topic_graph)):
-                errors.append(f"{item['id']}: missing distinct Phase III anchor")
+                errors.append(f"{item['id']}: missing distinct authored-expansion anchor")
             else:
-                phase_three_questions.add(question.group(1).strip())
-                phase_three_critical_conditions.add(critical.group(1).strip())
-                phase_three_topic_graphs.add(topic_graph.group(1).strip())
-            phase_three_word_counts.append(len(re.findall(r"\S+", text)))
+                expansion_questions.add(question.group(1).strip())
+                expansion_critical_conditions.add(critical.group(1).strip())
+                expansion_topic_graphs.add(topic_graph.group(1).strip())
+            expansion_word_counts.append(len(re.findall(r"\S+", text)))
 
     duplicate_titles = sum(count > 1 for count in titles.values())
-    phase_three_count = len(catalog) - historical_count
+    expansion_count = len(catalog) - historical_count
     if not all(
-        len(values) == phase_three_count
+        len(values) == expansion_count
         for values in (
-            phase_three_questions,
-            phase_three_critical_conditions,
-            phase_three_topic_graphs,
+            expansion_questions,
+            expansion_critical_conditions,
+            expansion_topic_graphs,
         )
     ):
-        errors.append("Phase III anchors are not unique class by class")
+        errors.append("Authored-expansion anchors are not unique class by class")
     report = {
         "classes": len(catalog),
         "measured_coverage": dict(coverage),
@@ -165,13 +165,13 @@ def main() -> int:
         "pending_decision_contracts": len(catalog) - len(contracts),
         "largest_reused_generated_template": max(generated_signatures.values(), default=0),
         "duplicate_normalized_titles": duplicate_titles,
-        "phase_three": {
-            "classes": phase_three_count,
-            "unique_questions": len(phase_three_questions),
-            "unique_critical_conditions": len(phase_three_critical_conditions),
-            "unique_topic_graphs": len(phase_three_topic_graphs),
-            "minimum_word_count": min(phase_three_word_counts, default=0),
-            "maximum_word_count": max(phase_three_word_counts, default=0),
+        "authored_expansion": {
+            "classes": expansion_count,
+            "unique_questions": len(expansion_questions),
+            "unique_critical_conditions": len(expansion_critical_conditions),
+            "unique_topic_graphs": len(expansion_topic_graphs),
+            "minimum_word_count": min(expansion_word_counts, default=0),
+            "maximum_word_count": max(expansion_word_counts, default=0),
         },
         "errors": errors,
     }

@@ -148,4 +148,4 @@ Esta parte comienza con **Preguntas investigables y problemas de arquitectura** 
 
 ## Navegación
 
-[← Parte 68](../parte-68/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 70 →](../parte-70/README.md)
+[← Parte 68](../parte-68/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 70 →](../parte-70/README.md)

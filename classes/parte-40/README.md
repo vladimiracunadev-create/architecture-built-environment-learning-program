@@ -44,7 +44,7 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 **Posición:** Abre la Parte 40 porque plantea primero el problema «¿Qué demuestra una lista de normas al final de un proyecto? Por sí sola, muy poco.». La transición desde ARQ-390 · Cierre de frentes, limpieza y entrega conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-392 · Jerarquía normativa y jurisdicción desarrollará a continuación.
 
-**Entrada:** ARQ-390 · **Salida:** ARQ-392.
+**Entrada:** ARQ-390 · **Salida:** ARQ-392, ARQ-807.
 
 **Evidencia:** Elaborarás una matriz normativa que separe ley, reglamento, norma técnica, contrato y guía. Identificarás qué información está verificada y qué lectura sigue pendiente. La actividad no equivale a asesoría legal ni a un dictamen de cumplimiento para una obra concreta; toda aplicación real debe revisarse con profesionales y autoridades competentes.
 
@@ -54,7 +54,7 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 **Posición:** Ocupa el lugar 2 de la Parte 40. Se estudia después de ARQ-391 · Cómo leer normas, ISO y obligaciones sin confundirlas porque usa esa base para responder «¿Cómo saber qué documento manda, cuál solo orienta y qué jurisdicción debe consultarse antes de convertir una referencia en obligación?». Se ubica antes de ARQ-393 · LGUC, OGUC e instrumentos territoriales: mapa de consulta porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-391 · **Salida:** ARQ-393.
+**Entrada:** ARQ-391 · **Salida:** ARQ-393, ARQ-807.
 
 **Evidencia:** Recibe ARQ-391, donde ya se aprendió a leer una norma ISO sin confundir alcance y obligación. Aquí se amplía el problema hacia jerarquía, jurisdicción y fuentes chilenas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -64,7 +64,7 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 **Posición:** Ocupa el lugar 3 de la Parte 40. Se estudia después de ARQ-392 · Jerarquía normativa y jurisdicción porque usa esa base para responder «¿Cómo recorrer LGUC, OGUC e instrumentos territoriales sin buscar un único artículo que responda por todo el proyecto?». Se ubica antes de ARQ-394 · Permisos, recepciones y antecedentes del proyecto porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-392 · **Salida:** ARQ-394.
+**Entrada:** ARQ-392 · **Salida:** ARQ-394, ARQ-802, ARQ-803.
 
 **Evidencia:** Recibe ARQ-392: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -74,7 +74,7 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 **Posición:** Ocupa el lugar 4 de la Parte 40. Se estudia después de ARQ-393 · LGUC, OGUC e instrumentos territoriales: mapa de consulta porque usa esa base para responder «¿Cómo entender permiso, modificación y recepción como estados documentales distintos sin confundirlos con aprobación técnica universal?». Se ubica antes de ARQ-395 · Responsabilidades, habilitaciones y revisión independiente porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-393 · **Salida:** ARQ-395.
+**Entrada:** ARQ-393 · **Salida:** ARQ-395, ARQ-802, ARQ-803.
 
 **Evidencia:** Recibe ARQ-393: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -84,7 +84,7 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 **Posición:** Ocupa el lugar 5 de la Parte 40. Se estudia después de ARQ-394 · Permisos, recepciones y antecedentes del proyecto porque usa esa base para responder «¿Cómo distinguir autoría, responsabilidad, habilitación, revisión independiente e inspección sin convertirlos en una sola firma?». Se ubica antes de ARQ-396 · Normas técnicas chilenas: edición, adopción y vigencia porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-394 · **Salida:** ARQ-396.
+**Entrada:** ARQ-394 · **Salida:** ARQ-396, ARQ-807, ARQ-808.
 
 **Evidencia:** Recibe ARQ-394: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -114,7 +114,7 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 **Posición:** Ocupa el lugar 8 de la Parte 40. Se estudia después de ARQ-397 · Gestión de calidad, ambiente y seguridad con ISO porque usa esa base para responder «¿Cómo coordinar requisitos de desempeño distintos sin convertir un resultado favorable en compensación de otro requisito incumplido?». Se ubica antes de ARQ-399 · Contratos y normas extranjeras: incorporación y conflictos porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-397 · **Salida:** ARQ-399.
+**Entrada:** ARQ-397 · **Salida:** ARQ-399, ARQ-814.
 
 **Evidencia:** Recibe ARQ-397: mantiene identificación, versión, fuentes y estados. El nuevo caso es independiente salvo referencias expresamente recuperadas. Elaborarás una matriz o registro reproducible, resolverás un caso trabajado y una práctica independiente, y cerrarás distinguiendo hecho, interpretación, obligación, evidencia y asunto pendiente.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 ## Navegación
 
-[← Parte 39](../parte-39/README.md) · [Mapa de las 80 partes](../README.md) · [Parte 41 →](../parte-41/README.md)
+[← Parte 39](../parte-39/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 41 →](../parte-41/README.md)

@@ -216,7 +216,7 @@ def build_registry() -> dict:
     return {
         "schema_version": 3,
         "generated_from": "classes/parte-XX/ARQ-XXX.md",
-        "generated_on": "2026-10-06",
+        "generated_on": "2026-10-12",
         "policy": (
             "Registro derivado de las secciones 'Fuentes y alcance de uso'. "
             "Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, "
