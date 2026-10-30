@@ -1,6 +1,6 @@
 # Estado verificable del programa
 
-**Corte documental: 12 de octubre de 2026 · edición 2026.10**
+**Corte documental: 30 de octubre de 2026 · edición 2026.10**
 
 Este documento separa integridad curricular, cobertura pedagógica, trazabilidad de fuentes, publicación técnica y revisión profesional. Los conteos vigentes proceden de `data/program.json` y de validaciones reproducibles; `STATUS_v1.0.json` conserva únicamente la entrega histórica de 680 clases.
 
@@ -8,11 +8,11 @@ Este documento separa integridad curricular, cobertura pedagógica, trazabilidad
 
 | Comprobación | Resultado actual | Fuente de verdad |
 |---|---:|---|
-| Identificadores consecutivos | **830/830** | `data/catalog.json`: ARQ-001 → ARQ-830 |
-| Partes curriculares | **83/83** | `data/parts.json` y `classes/parte-01` → `parte-83` |
+| Identificadores consecutivos | **840/840** | `data/catalog.json`: ARQ-001 → ARQ-840 |
+| Partes curriculares | **84/84** | `data/parts.json` y `classes/parte-01` → `parte-84` |
 | Clases por parte | **10 en cada una** | validador estructural |
 | Clases Markdown | **840** | `classes/parte-XX/ARQ-XXX.md` |
-| README de parte | **83** | uno por carpeta, generado desde las clases |
+| README de parte | **84** | uno por carpeta, generado desde las clases |
 | Fases | **4** | formación transversal; tipologías; profundización; aplicación integrada a vivienda |
 
 “840/840” significa que la malla editorial prevista por la edición 2026.10 está redactada. No significa revisión por pares, acreditación, vigencia normativa universal ni aptitud para ejecutar una obra.
@@ -58,8 +58,8 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 | Superficie | Resultado |
 |---|---:|
 | Relaciones clase–fuente derivadas | **2.446** |
-| URLs externas únicas en clases | **637** |
-| Dominios externos en clases | **190** |
+| URLs externas únicas en clases | **638** |
+| Dominios externos en clases | **191** |
 | Clases con apartado de fuentes | **840/840** |
 | Relaciones con función declarada | **2.379/2.446** |
 | Relaciones con alcance consultado | **1.992/2.446** |
@@ -67,8 +67,8 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 | Relaciones con fecha de consulta | **1.565/2.446** |
 | Relaciones contextualmente completas | **1.393/2.446** |
 | Clases con todos sus usos completos | **452/840** |
-| Verificación periódica de disponibilidad externa | **pendiente** |
-| Revisión normativa por jurisdicción | **pendiente** |
+| Verificación periódica de disponibilidad externa | **implementada** (`scripts/check_sources.py`, mensual; comprueba que el enlace responda, no su contenido) |
+| Revisión normativa por jurisdicción | **parcial**: 21 afirmaciones sobre seguros verificadas contra texto oficial; LGUC y OGUC se leen por predio y edición |
 
 Las 611 fichas del lector offline son un inventario histórico. `sources/bibliography.json` es el registro actual derivado de las clases y conserva los faltantes como datos explícitos, sin inventar fechas, páginas o alcances.
 
@@ -78,10 +78,11 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 |---|---|---|
 | GitHub Pages | generable | build reproducible desde Markdown y manifiestos |
 | Páginas de clase | **840** | una por ARQ |
-| Portadas de parte | **83** | una por bloque |
+| Portadas de parte | **84** | una por bloque |
 | Páginas de taller | **70** | diez portadas + 60 sesiones |
 | Rutas pedagógicas | **35** | entrada, recorrido, checkpoints, salida y capstone |
 | Casos domésticos aplicados | **2** | casa nueva de 80 m² y ampliación de 24 m², ambos didácticos |
+| Casos de decisión y evaluación | **3** | decisión integral de construcción resiliente, evaluación técnica de inmuebles (con diez laboratorios resueltos) y biblioteca de 13 fichas de eventos |
 | Presupuestos verificables | **2 CSV + 1 XLSX** | esquema, fórmulas y controles validados en CI |
 | Recursos transversales del lector v1.0 | **755** | colección histórica conservada |
 | Lector offline y PDF v1.0 | conservados | hashes versionados |
@@ -89,10 +90,10 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 
 ## 6. Brechas abiertas
 
-1. **Revisión externa por especialidades.** Falta revisión integral por arquitectura, estructuras, geotecnia, instalaciones, incendio, accesibilidad, patrimonio, costos, construcción, operación y educación.
-2. **Pilotos pedagógicos.** Falta medir comprensión, abandono, tiempos, crítica, recuperación y transferencia con estudiantes reales.
+1. **Revisión externa por especialidades.** El programa se verifica con fuentes oficiales y con su propio estándar (véanse los [niveles de verificación](NIVELES_DE_VERIFICACION.md)); no emite ni reemplaza dictámenes. Una revisión profesional independiente, si se obtiene, se registrará con alcance, fecha y revisor.
+2. **Pilotos pedagógicos.** La eficacia con estudiantes no está medida; mientras tanto el programa ofrece seis instrumentos de autoverificación del aprendizaje (véanse los niveles de verificación).
 3. **Carga y calendario.** No se publican horas ni créditos hasta observarlos en condiciones declaradas.
-4. **Fuentes.** 1.053 usos requieren completar uno o más campos contextuales; también falta vigilancia periódica de disponibilidad y vigencia.
+4. **Fuentes.** 1.053 usos requieren completar uno o más campos contextuales. La disponibilidad se vigila cada mes y la vigencia se revisa con la frecuencia de `data/vigilancia.json`.
 5. **Precios locales.** Los valores de los casos y la planilla son hipótesis didácticas y deben reemplazarse por cotizaciones comparables, fechadas y ubicadas.
 6. **Accesibilidad especializada.** El sitio usa estructura semántica y diseño adaptable, pero no cuenta con auditoría WCAG externa.
 7. **Diferenciación del núcleo anterior.** La auditoría detecta 142 patrones editoriales largos presentes en más de diez clases; su corrección requiere cambiar mecanismos, casos, evidencias y gráficas, no sólo vocabulario.

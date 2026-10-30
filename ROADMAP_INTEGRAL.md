@@ -137,7 +137,7 @@ Una clase nueva debe aportar una competencia nueva, profundidad demostrable, int
 | Fecha | Decisión | Evidencia | Consecuencia |
 |---|---|---|---|
 | 2026-10-30 | crear Parte 84 (ARQ-831–840) y ampliar Fase IV | auditoría de resiliencia: seguros solo como etiqueta en ARQ-694/819 y sin clases de valoración, inspección ni lectura de eventos | 840 clases, 84 partes, RUTA-35, biblioteca de casos y validador de resiliencia |
-| 2026-10-30 | añadir RUTA-35 para corredores de propiedades | auditoría: RUTA-12, 30 y 34 no cubren la evaluación de inmuebles existentes en operaciones de corretaje | ruta sobre 34 clases existentes, caso con 10 laboratorios y 35 rutas; clases de valoración e inspección quedan como brechas |
+| 2026-10-30 | añadir RUTA-35 para corredores de propiedades | auditoría: RUTA-12, 30 y 34 no cubren la evaluación de inmuebles existentes en operaciones de corretaje | ruta sobre 44 clases (34 existentes y las 10 de la Parte 84), caso con 10 laboratorios resueltos y 35 rutas |
 | 2026-10-12 | añadir Fase IV y RUTA-34 para vivienda nueva y ampliación | auditoría de cobertura previa, dos casos, presupuesto verificable y fuentes oficiales chilenas | ARQ-801–830, Partes 81–83, 34 rutas y controles de costos en CI |
 | 2026-10-06 | preservar ARQ-001–680 como núcleo y añadir Fase III | auditoría de cobertura y solicitud de más clases y temas | numeración continua ARQ-681–800 |
 | 2026-10-06 | centralizar conteos y títulos | valores repetidos en scripts, CI y docs; títulos leídos desde HTML histórico | `data/program.json` y `data/parts.json` pasan a ser canónicos |

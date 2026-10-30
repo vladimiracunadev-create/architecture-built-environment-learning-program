@@ -20,7 +20,7 @@ PRERREQUISITO → CLASE → PRÁCTICA → EVIDENCIA → PROYECTO
 → COMPETENCIA → RUTA DE ESPECIALIZACIÓN → TRANSFERENCIA
 ```
 
-Cada clase declara prerrequisitos y dependencias en su bloque `Decisión pedagógica y posición curricular`. El registro reproducible de las 830 cadenas vive en `data/pedagogical-decisions-generated.json`; CI comprueba que todos los identificadores existan.
+Cada clase declara prerrequisitos y dependencias en su bloque `Decisión pedagógica y posición curricular`. El registro reproducible de las 840 cadenas vive en `data/pedagogical-decisions-generated.json`; CI comprueba que todos los identificadores existan.
 
 ## Progresión de capacidad
 

@@ -1,12 +1,11 @@
 {
   "name": "architecture-built-environment-learning-program",
-  "description": "🏛️ Programa abierto de arquitectura y entorno construido en español · 840 clases en 84 partes, 60 sesiones, 35 rutas y una ruta aplicada de vivienda con costos y permisos trazables",
+  "description": "🏛️ Programa abierto de arquitectura y entorno construido en español · 840 clases en 84 partes, 60 sesiones, 35 rutas, vivienda propia, seguros, riesgo de desastres y evaluación de inmuebles con fuentes oficiales",
   "homepage": "https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/",
   "topics": [
     "architecture",
     "arquitectura",
     "architectural-education",
-    "architectural-history",
     "bim",
     "building-science",
     "built-environment",
@@ -14,7 +13,6 @@
     "construction",
     "construction-management",
     "curriculum",
-    "design-studio",
     "open-curriculum",
     "open-education",
     "pedagogy",
@@ -22,6 +20,8 @@
     "sustainable-architecture",
     "urban-planning",
     "urbanism",
-    "urbanismo"
+    "urbanismo",
+    "disaster-risk-reduction",
+    "risk-management"
   ]
 }

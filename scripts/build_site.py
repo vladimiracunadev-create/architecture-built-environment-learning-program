@@ -81,6 +81,10 @@ DOC_PAGES = {
         "Auditoría de diferencias entre las 840 clases",
     ),
     "ESTADO_VERIFICABLE.md": ("estado.html", "Estado verificable"),
+    "NIVELES_DE_VERIFICACION.md": ("niveles-de-verificacion.html", "Niveles de verificación"),
+    "GUIA_BIBLIOTECA_DE_CASOS.md": ("guia-biblioteca-de-casos.html", "Guía de la biblioteca de casos"),
+    "SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md": ("seguros-y-riesgo.html", "Seguros y gestión económica del riesgo"),
+    "AUDITORIA_RESILIENCIA_2026-10-30.md": ("auditoria-resiliencia.html", "Auditoría de seguridad y resiliencia"),
     "FUENTES_Y_EVIDENCIA.md": ("fuentes-y-evidencia.html", "Fuentes y evidencia"),
     "ESTANDAR_DE_FUENTES.md": (
         "estandar-fuentes.html",

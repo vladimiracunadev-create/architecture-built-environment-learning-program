@@ -11,7 +11,7 @@
 [![Clases](https://img.shields.io/badge/clases-840%20·%2084%20partes-b85c38?style=for-the-badge)](classes/README.md)
 [![Talleres](https://img.shields.io/badge/talleres-10%20·%2060%20sesiones-1d6b68?style=for-the-badge)](studios/README.md)
 [![Rutas](https://img.shields.io/badge/rutas-35-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
-[![Fuentes](https://img.shields.io/badge/fuentes-637%20URLs%20·%20190%20dominios-ddb967?style=for-the-badge)](sources/README.md)
+[![Fuentes](https://img.shields.io/badge/fuentes-638%20URLs%20·%20191%20dominios-ddb967?style=for-the-badge)](sources/README.md)
 [![Trazabilidad](https://img.shields.io/badge/usos%20completos-1.393%20de%202.446-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-3fb950?style=for-the-badge)](LICENSE)
@@ -32,7 +32,7 @@
 
 ## 🎯 Qué es este programa
 
-Es una biblioteca de **840 clases redactadas**, ordenadas de ARQ-001 a ARQ-840 y agrupadas en 84 partes de diez clases. Sigue el ciclo completo del entorno construido y culmina en una ruta aplicada para que una persona propietaria pueda decidir, encargar, presupuestar, controlar y cerrar una vivienda nueva o ampliación sin asumir competencias profesionales:
+Es una biblioteca de **840 clases redactadas**, ordenadas de ARQ-001 a ARQ-840 y agrupadas en 84 partes de diez clases. Sigue el ciclo completo del entorno construido y culmina en rutas aplicadas: una para que una persona propietaria pueda decidir, encargar, presupuestar, controlar y cerrar una vivienda nueva o ampliación, y otra para evaluar con método un inmueble existente, leer sus seguros y los eventos que lo amenazan, sin asumir competencias profesionales:
 
 ```text
 necesidad → investigación → programa → alternativas → coordinación
@@ -280,6 +280,10 @@ Las Partes 81–83 convierten conocimientos dispersos en una secuencia doméstic
 | 82 | [Proyecto, presupuesto detallado, compras y autorización](classes/parte-82/README.md) | ARQ-811–820 |
 | 83 | [Construcción, control de gastos, recepción y mantenimiento](classes/parte-83/README.md) | ARQ-821–830 |
 | 84 | [Evaluación de inmuebles, seguros y eventos catastróficos](classes/parte-84/README.md) | ARQ-831–840 |
+
+### Riesgo, seguros e inmuebles existentes (Parte 84)
+
+Diez clases (ARQ-831–840) sobre contrato de seguro y coberturas, valor de reconstrucción e infraseguro, evidencia para siniestros y reclamaciones, lectura de eventos catastróficos, factores de valor de un inmueble, inspección visual con ficha, plano frente a permiso y realidad, humedad y fisuras, costos de reparación y la carpeta de evaluación con regla de puerta. Alimentan la [Ruta 35 · Evaluación técnica de inmuebles para corredores de propiedades](learning-paths/ruta-35.md), los [diez laboratorios resueltos](cases/EVALUACION-TECNICA-INMUEBLES-SOLUCIONES.md) y la [biblioteca de 13 fichas de eventos en Chile](cases/catastrofes-chile/README.md). Las normas que citan están registradas con su nivel de lectura en `data/verificacion.json`; los [niveles de verificación](docs/NIVELES_DE_VERIFICACION.md) explican qué garantiza y qué no cada control.
 
 ➡️ [Abrir el índice Markdown completo](classes/README.md) · [Explorar las partes en Pages](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/partes/)
 
