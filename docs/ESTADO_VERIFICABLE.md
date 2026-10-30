@@ -96,7 +96,7 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 4. **Fuentes.** 1.053 usos requieren completar uno o más campos contextuales. La disponibilidad se vigila cada mes y la vigencia se revisa con la frecuencia de `data/vigilancia.json`.
 5. **Precios locales.** Los valores de los casos y la planilla son hipótesis didácticas y deben reemplazarse por cotizaciones comparables, fechadas y ubicadas.
 6. **Accesibilidad especializada.** El sitio usa estructura semántica y diseño adaptable, pero no cuenta con auditoría WCAG externa.
-7. **Diferenciación del núcleo anterior.** La auditoría detecta 142 patrones editoriales largos presentes en más de diez clases; su corrección requiere cambiar mecanismos, casos, evidencias y gráficas, no sólo vocabulario.
+7. **Diferenciación del núcleo anterior.** La auditoría detecta 142 patrones editoriales largos presentes en más de diez clases; su corrección requiere cambiar mecanismos, casos, evidencias y gráficas, no sólo vocabulario. Decisión editorial: esos patrones no se corrigen con variaciones artificiales de redacción, que bajarían la métrica sin mejorar la clase; cada familia se reemplaza cuando la clase recibe un caso, un mecanismo o una evidencia propios, empezando por las partes de menor proporción de prosa propia (49 a 62).
 
 El [roadmap integral](../ROADMAP_INTEGRAL.md) conserva el orden de resolución, responsables documentales y condiciones de cierre de estas brechas.
 
