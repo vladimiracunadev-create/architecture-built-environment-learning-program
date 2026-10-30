@@ -148,4 +148,4 @@ Esta parte comienza con **Arquitectura como sistema: del encargo al fin de vida*
 
 ## Navegación
 
-[← Índice general](../README.md) · [Mapa de las 83 partes](../README.md) · [Parte 02 →](../parte-02/README.md)
+[← Índice general](../README.md) · [Mapa de las 84 partes](../README.md) · [Parte 02 →](../parte-02/README.md)

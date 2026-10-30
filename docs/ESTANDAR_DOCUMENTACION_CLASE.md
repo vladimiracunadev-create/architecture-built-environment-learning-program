@@ -204,7 +204,7 @@ Los estados no son equivalentes. El repositorio debe publicar el estado real sin
 
 CI comprueba, como mínimo:
 
-- 830 identificadores consecutivos y 83 partes de diez clases;
+- 840 identificadores consecutivos y 84 partes de diez clases;
 - pregunta, resultado, práctica, errores, continuidad y fuentes;
 - contrato de decisión por clase;
 - prerrequisitos y dependencias existentes;

@@ -24,13 +24,20 @@ Dirección Meteorológica de Chile · SENAPRED · SERNAGEOMIN · Dirección Gene
 |---|---|---|---|---|
 | [CAT-001](CAT-001.md) | Terremoto del 27 de febrero de 2010 | `PRELIMINAR` | ARQ-341–351 | Parámetros básicos con respaldo parcial; lectura íntegra de fuentes pendiente |
 | CAT-002 | Incendio de Valparaíso, abril de 2014 | `SIN_DATOS` | ARQ-368, 377, 379 | Candidato; requiere CONAF y fuentes municipales |
-| CAT-003 | Aluvión en Atacama, marzo de 2015 | `SIN_DATOS` | ARQ-353, 372 | Candidato; requiere DMC, DGA y SERNAGEOMIN |
-| CAT-004 | Incendios forestales de 2017 y de 2024 | `SIN_DATOS` | ARQ-368, 375 | Candidato; requiere CONAF y SENAPRED |
-| CAT-005 | Aluvión de Villa Santa Lucía, diciembre de 2017 | `SIN_DATOS` | ARQ-372, 376 | Candidato; requiere SERNAGEOMIN |
-| [CAT-2026-001](CAT-2026-001.md) | Sistema frontal de julio de 2026 | `PRELIMINAR` | ARQ-353, 361–369, 377 | Basado en comunicados oficiales de SENAPRED del 13 y 17 de julio; balance parcial |
-| CAT-2026-* | Resto de la cronología desde el 1 de enero de 2026 | `SIN_DATOS` | ARQ-351–380 | **No construida** (incendios, calor, tormentas de verano, lluvias en zonas áridas, nevadas, sequía); requiere registros oficiales |
+| [CAT-003](CAT-003.md) | Aluviones de Atacama y Antofagasta, marzo de 2015 | `PRELIMINAR` | ARQ-353, 372, 375 | Cifras de víctimas en conflicto entre fuentes; lectura íntegra pendiente |
+| [CAT-004](CAT-004.md) | Incendios de Viña del Mar y Valparaíso, febrero de 2024 | `PRELIMINAR` | ARQ-368, 369, 377, 379 | Cifras de fallecidos en conflicto; informe técnico de CONAF no leído |
+| [CAT-005](CAT-005.md) | Aluvión de Villa Santa Lucía, diciembre de 2017 | `PRELIMINAR` | ARQ-360, 372, 379 | Víctimas según MINVU; mecanismo descrito de forma distinta por fuentes |
+| CAT-006 | Incendios forestales de 2017 | `SIN_DATOS` | ARQ-368, 375 | Candidato; requiere CONAF y SENAPRED |
+| [CAT-2026-001](CAT-2026-001.md) | Sistema frontal de julio de 2026, centro-norte y centro-sur | `PRELIMINAR` | ARQ-353, 361–369, 377 | Comunicados de SENAPRED del 13 y 17 de julio; balance parcial |
+| [CAT-2026-002](CAT-2026-002.md) | Sistema frontal en el sur, 6–8 de julio de 2026 | `PRELIMINAR` | ARQ-353, 362, 372, 377 | Comunicado de SENAPRED del 8 de julio; balance al inicio del evento |
+| [CAT-2026-003](CAT-2026-003.md) | Calor extremo e incendios en Ñuble y Biobío, enero de 2026 | `PRELIMINAR` | ARQ-365–369, 377, 379 | Tres balances sucesivos con cifras distintas; sin hectáreas ni causa |
+| CAT-2026-* | Resto de la cronología de 2026 | `SIN_DATOS` | ARQ-351–380 | **No construida:** tormentas de verano, lluvias en zonas áridas, nevadas, sequía y marejadas; requiere registros oficiales |
 
 Los candidatos se nombran por ser eventos públicamente conocidos; ninguna cifra, causa o responsabilidad está afirmada aquí.
+
+## Lectura de los casos
+
+La clase [ARQ-834](../../classes/parte-84/ARQ-834.md) enseña a leer estos casos separando pronóstico, alerta, observación e impacto. Las cifras de cada ficha son balances con fecha, no cifras finales.
 
 ## Cobertura regional
 

@@ -1,6 +1,6 @@
 # Parte 82 — Proyecto, presupuesto detallado, compras y autorización
 
-**Fase IV · aplicación práctica para propietarios · 10 clases · ARQ-811 → ARQ-820**
+**Fase IV · aplicación práctica para propietarios y operaciones inmobiliarias · 10 clases · ARQ-811 → ARQ-820**
 
 Esta parte comienza con **Levantamiento con medidas, cotas, deslindes, superficies y fotografías** y culmina con **Cronograma, compras, ruta crítica y autorización para iniciar**. Las diez clases forman una secuencia: cada una declara su pregunta, resultado, caso o práctica, fuentes y límites.
 
@@ -44,7 +44,7 @@ Esta parte comienza con **Levantamiento con medidas, cotas, deslindes, superfici
 
 **Posición:** Abre la Parte 82 porque plantea primero el problema «¿Cómo puede una persona propietaria abordar levantamiento con medidas, cotas, deslindes, superficies y fotografías , producir plano base didáctico con método de medición, control de cierre, escala, cotas, fotografías y registro de incertidumbres y demostrar que un levantamiento educativo no reemplaza el levantamiento profesional exigible ni permite fijar un deslinde? Fallo crítico de esta clase: un levantamiento educativo no reemplaza el levantamiento profesional exigible ni permite fijar un deslinde.». La transición desde ARQ-810 · Primera puerta de control: decidir si iniciar el proyecto conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-812 · Leer plantas, cortes, elevaciones, emplazamiento, detalles y especificaciones desarrollará a continuación.
 
-**Entrada:** ARQ-021, ARQ-026, ARQ-381, ARQ-804, ARQ-810 · **Salida:** ARQ-812.
+**Entrada:** ARQ-021, ARQ-026, ARQ-381, ARQ-804, ARQ-810 · **Salida:** ARQ-812, ARQ-836.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-021 , ARQ-026 , ARQ-381 , ARQ-804 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -104,7 +104,7 @@ Esta parte comienza con **Levantamiento con medidas, cotas, deslindes, superfici
 
 **Posición:** Ocupa el lugar 7 de la Parte 82. Se estudia después de ARQ-816 · Cubicaciones auditables: unidades, pérdidas, transporte y rendimientos porque usa esa base para responder «¿Cómo puede una persona propietaria abordar análisis de precios unitarios, presupuesto completo, iva y contingencia , producir presupuesto en CLP con APU de materiales, mano de obra, equipos, transporte, subtotal, IVA configurable, indirectos, honorarios, permisos y contingencia y demostrar que una cotización comercial no demuestra cantidad, rendimiento, alcance completo ni costo final? Fallo crítico de esta clase: una cotización comercial no demuestra cantidad, rendimiento, alcance completo ni costo final.». Se ubica antes de ARQ-818 · Expediente de permiso: documentos, ingreso, observaciones y seguimiento DOM porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-414, ARQ-415, ARQ-416, ARQ-417, ARQ-816 · **Salida:** ARQ-818, ARQ-827.
+**Entrada:** ARQ-414, ARQ-415, ARQ-416, ARQ-417, ARQ-816 · **Salida:** ARQ-818, ARQ-827, ARQ-839.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-414 , ARQ-415 , ARQ-416 , ARQ-417 , ARQ-816 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -114,7 +114,7 @@ Esta parte comienza con **Levantamiento con medidas, cotas, deslindes, superfici
 
 **Posición:** Ocupa el lugar 8 de la Parte 82. Se estudia después de ARQ-817 · Análisis de precios unitarios, presupuesto completo, IVA y contingencia porque usa esa base para responder «¿Cómo puede una persona propietaria abordar expediente de permiso: documentos, ingreso, observaciones y seguimiento dom , producir checklist de expediente con formulario vigente, responsable, versión, fecha, estado, observación, respuesta y trazabilidad de reingreso y demostrar que un expediente simulado no acredita ingreso, permiso, declaración archivada ni aprobación de autoridad? Fallo crítico de esta clase: un expediente simulado no acredita ingreso, permiso, declaración archivada ni aprobación de autoridad.». Se ubica antes de ARQ-819 · Cotizaciones, contratos, subcontratistas, seguros, garantías y pagos porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-394, ARQ-401, ARQ-403, ARQ-409, ARQ-807, ARQ-817 · **Salida:** ARQ-819, ARQ-820.
+**Entrada:** ARQ-394, ARQ-401, ARQ-403, ARQ-409, ARQ-807, ARQ-817 · **Salida:** ARQ-819, ARQ-820, ARQ-837.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-394 , ARQ-401 , ARQ-403 , ARQ-409 , ARQ-807 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -124,7 +124,7 @@ Esta parte comienza con **Levantamiento con medidas, cotas, deslindes, superfici
 
 **Posición:** Ocupa el lugar 9 de la Parte 82. Se estudia después de ARQ-818 · Expediente de permiso: documentos, ingreso, observaciones y seguimiento DOM porque usa esa base para responder «¿Cómo puede una persona propietaria abordar cotizaciones, contratos, subcontratistas, seguros, garantías y pagos , producir comparador de tres ofertas normalizadas y modelo contractual comentado con alcance, exclusiones, hitos, cambios, garantías, seguros y cierre y demostrar que el menor total no es comparable si omite cantidades, impuestos, transporte, permisos, pruebas o cierre? Fallo crítico de esta clase: el menor total no es comparable si omite cantidades, impuestos, transporte, permisos, pruebas o cierre.». Se ubica antes de ARQ-820 · Cronograma, compras, ruta crítica y autorización para iniciar porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-404, ARQ-405, ARQ-406, ARQ-407, ARQ-417, ARQ-818 · **Salida:** ARQ-820.
+**Entrada:** ARQ-404, ARQ-405, ARQ-406, ARQ-407, ARQ-417, ARQ-818 · **Salida:** ARQ-820, ARQ-831.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-404 , ARQ-405 , ARQ-406 , ARQ-407 , ARQ-417 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Levantamiento con medidas, cotas, deslindes, superfici
 
 ## Navegación
 
-[← Parte 81](../parte-81/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 83 →](../parte-83/README.md)
+[← Parte 81](../parte-81/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 83 →](../parte-83/README.md)

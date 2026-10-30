@@ -148,4 +148,4 @@ Esta parte comienza con **Datos climáticos, series y representatividad** y culm
 
 ## Navegación
 
-[← Parte 27](../parte-27/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 29 →](../parte-29/README.md)
+[← Parte 27](../parte-27/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 29 →](../parte-29/README.md)

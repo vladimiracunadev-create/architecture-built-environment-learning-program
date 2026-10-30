@@ -78,7 +78,7 @@ DOC_PAGES = {
     ),
     "AUDITORIA_DIFERENCIAS_800_CLASES.md": (
         "auditoria-diferencias-800-clases.html",
-        "Auditoría de diferencias entre las 830 clases",
+        "Auditoría de diferencias entre las 840 clases",
     ),
     "ESTADO_VERIFICABLE.md": ("estado.html", "Estado verificable"),
     "FUENTES_Y_EVIDENCIA.md": ("fuentes-y-evidencia.html", "Fuentes y evidencia"),
@@ -453,7 +453,7 @@ def documentation_portal(registry: dict) -> str:
             (
                 "AUDITORIA_DIFERENCIAS_800_CLASES.md",
                 DOC_PAGES["AUDITORIA_DIFERENCIAS_800_CLASES.md"],
-                "comparación de las 830 clases, repetición editorial y prioridades de reescritura",
+                "comparación de las 840 clases, repetición editorial y prioridades de reescritura",
             ),
             (
                 "ESTADO_VERIFICABLE.md",

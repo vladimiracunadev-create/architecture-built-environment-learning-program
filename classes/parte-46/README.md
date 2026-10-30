@@ -44,7 +44,7 @@ Esta parte comienza con **Reconocer valor y daño antes de intervenir** y culmin
 
 **Posición:** Abre la Parte 46 porque plantea primero el problema «Antes de reparar una grieta o sustituir un material antiguo, ¿qué necesitas comprender? La apariencia visible puede ser una manifestación de distintos mecanismos, y la intervención puede afectar valores que no se reconocen a primera vista.». La transición desde ARQ-450 · Balance ambiental y social sin afirmaciones absolutas conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-452 · Levantamiento histórico y material desarrollará a continuación.
 
-**Entrada:** ARQ-450 · **Salida:** ARQ-452.
+**Entrada:** ARQ-450 · **Salida:** ARQ-452, ARQ-836.
 
 **Evidencia:** Elaborarás un dossier inicial que distinga observaciones, hipótesis, información faltante y decisiones suspendidas. No entrarás a edificios dañados, no retirarás elementos ni realizarás ensayos destructivos. No se enseña a declarar estabilidad ni a elegir refuerzos sin evaluación especializada.
 
@@ -64,7 +64,7 @@ Esta parte comienza con **Reconocer valor y daño antes de intervenir** y culmin
 
 **Posición:** Ocupa el lugar 3 de la Parte 46. Se estudia después de ARQ-452 · Levantamiento histórico y material porque usa esa base para responder «¿Cómo pasar de manchas, depósitos y fisuras visibles a hipótesis comprobables sin diagnosticar una causa única por apariencia?». Se ubica antes de ARQ-454 · Inspección, ensayos y diagnóstico diferencial porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-452 · **Salida:** ARQ-454.
+**Entrada:** ARQ-452 · **Salida:** ARQ-454, ARQ-836, ARQ-838.
 
 **Evidencia:** ARQ-453 continúa desde ARQ-452; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. El trabajo sobre existentes requiere conservar una separación estricta entre registro , interpretación y propuesta .
 
@@ -74,7 +74,7 @@ Esta parte comienza con **Reconocer valor y daño antes de intervenir** y culmin
 
 **Posición:** Ocupa el lugar 4 de la Parte 46. Se estudia después de ARQ-453 · Humedad, sales, fisuras y causas posibles porque usa esa base para responder «¿Cómo elegir observaciones y ensayos que realmente reduzcan la incertidumbre del diagnóstico, manteniendo alcance, trazabilidad y puntos de detención?». Se ubica antes de ARQ-455 · Compatibilidad de reparaciones porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-453 · **Salida:** ARQ-455.
+**Entrada:** ARQ-453 · **Salida:** ARQ-455, ARQ-836, ARQ-838.
 
 **Evidencia:** ARQ-454 continúa desde ARQ-453; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. El trabajo sobre existentes requiere conservar una separación estricta entre registro , interpretación y propuesta .
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Reconocer valor y daño antes de intervenir** y culmin
 
 ## Navegación
 
-[← Parte 45](../parte-45/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 47 →](../parte-47/README.md)
+[← Parte 45](../parte-45/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 47 →](../parte-47/README.md)

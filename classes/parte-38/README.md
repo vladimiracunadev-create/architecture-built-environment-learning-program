@@ -44,7 +44,7 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 **Posición:** Abre la Parte 38 porque plantea primero el problema «¿Un terreno sin colores de amenaza en un visor es seguro? No necesariamente.». La transición desde ARQ-370 · Actualización del diseño ante cambio climático conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-372 · Remociones en masa y estabilidad de laderas desarrollará a continuación.
 
-**Entrada:** ARQ-370 · **Salida:** ARQ-372.
+**Entrada:** ARQ-370 · **Salida:** ARQ-372, ARQ-831, ARQ-834.
 
 **Evidencia:** Entregarás un registro de riesgos de un sitio ficticio, compararás tres decisiones de localización y elaborarás la estructura de un plan de preparación. No producirás mapas de evacuación reales ni indicarás cotas universales de seguridad. Las rutas y recomendaciones operativas para una localidad deben provenir de autoridades y fuentes competentes.
 
@@ -84,7 +84,7 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 **Posición:** Ocupa el lugar 5 de la Parte 38. Se estudia después de ARQ-374 · Subsidencia, cavidades y suelos problemáticos porque usa esa base para responder «¿Cómo representar que una falla inicial puede propagarse sin convertir una cadena posible en una predicción segura?». Se ubica antes de ARQ-376 · Exposición social y vulnerabilidad diferenciada porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-374 · **Salida:** ARQ-376.
+**Entrada:** ARQ-374 · **Salida:** ARQ-376, ARQ-834.
 
 **Evidencia:** Recibe el método de ARQ-374: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -104,7 +104,7 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 **Posición:** Ocupa el lugar 7 de la Parte 38. Se estudia después de ARQ-376 · Exposición social y vulnerabilidad diferenciada porque usa esa base para responder «¿Cómo organizar preparación sin confundir un organigrama, una lista telefónica o un simulacro con capacidad garantizada de respuesta?». Se ubica antes de ARQ-378 · Inspección y restricciones después de un evento porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-376 · **Salida:** ARQ-378.
+**Entrada:** ARQ-376 · **Salida:** ARQ-378, ARQ-834.
 
 **Evidencia:** Recibe el método de ARQ-376: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -114,7 +114,7 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 **Posición:** Ocupa el lugar 8 de la Parte 38. Se estudia después de ARQ-377 · Planes de emergencia: roles, comunicación y apoyo porque usa esa base para responder «¿Cómo registrar daños y restricciones sin convertir una inspección didáctica o visual en una declaración de habitabilidad?». Se ubica antes de ARQ-379 · Reconstrucción, reubicación y reducción de riesgo porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-377 · **Salida:** ARQ-379.
+**Entrada:** ARQ-377 · **Salida:** ARQ-379, ARQ-833, ARQ-838.
 
 **Evidencia:** Recibe el método de ARQ-377: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -124,7 +124,7 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 **Posición:** Ocupa el lugar 9 de la Parte 38. Se estudia después de ARQ-378 · Inspección y restricciones después de un evento porque usa esa base para responder «¿Cómo comparar reconstruir, adaptar o reubicar sin suponer que “volver a construir” significa recuperar el mismo riesgo y el mismo servicio?». Se ubica antes de ARQ-380 · Ejercicio integrado de incertidumbre y decisión porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-378 · **Salida:** ARQ-380.
+**Entrada:** ARQ-378 · **Salida:** ARQ-380, ARQ-833.
 
 **Evidencia:** Recibe el método de ARQ-378: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -134,7 +134,7 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 **Posición:** Cierra la Parte 38: integra lo producido en ARQ-379 · Reconstrucción, reubicación y reducción de riesgo para responder «¿Cómo cerrar una parte de multirriesgo tomando una decisión provisional que sea auditable y reversible cuando la evidencia todavía es incompleta?». La transición hacia ARQ-381 · Preparación del sitio, replanteo y trazado transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
 
-**Entrada:** ARQ-379 · **Salida:** ARQ-381, ARQ-471.
+**Entrada:** ARQ-379 · **Salida:** ARQ-381, ARQ-471, ARQ-834.
 
 **Evidencia:** Recibe el método de ARQ-379: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Del peligro al riesgo: sitio, personas y decisiones** 
 
 ## Navegación
 
-[← Parte 37](../parte-37/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 39 →](../parte-39/README.md)
+[← Parte 37](../parte-37/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 39 →](../parte-39/README.md)

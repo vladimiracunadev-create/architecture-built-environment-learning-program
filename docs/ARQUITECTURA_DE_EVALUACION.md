@@ -8,8 +8,8 @@ La evaluación opera en cuatro niveles:
 
 | Nivel | Frecuencia | Evidencia | Decisión de avance |
 |---|---|---|---|
-| Clase | 830 | microevidencia propia del tipo de clase | cumple el criterio de aceptación y conserva límites |
-| Parte | 83 | síntesis de diez clases y recuperación acumulativa | conecta conceptos y corrige al menos un error |
+| Clase | 840 | microevidencia propia del tipo de clase | cumple el criterio de aceptación y conserva límites |
+| Parte | 84 | síntesis de diez clases y recuperación acumulativa | conecta conceptos y corrige al menos un error |
 | Ruta | 35 | capstone y portafolio seleccionado | demuestra el perfil de salida de la ruta |
 | Programa | 1 | tesis, defensa y portafolio longitudinal | integra, revisa y transfiere sin ocultar pendientes |
 

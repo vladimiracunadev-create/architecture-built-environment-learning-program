@@ -114,7 +114,7 @@ Esta parte comienza con **Territorios andinos y sistemas de asentamiento** y cul
 
 **Posición:** Ocupa el lugar 8 de la Parte 09. Se estudia después de ARQ-087 · Arquitecturas modernas latinoamericanas porque usa esa base para responder «¿Qué significa recuperar un entorno construido después de un desastre: reparar objetos, restablecer actividades o revisar las condiciones que hicieron posible el daño? La reconstrucción puede involucrar todas esas dimensiones, pero no deben confundirse.». Se ubica antes de ARQ-089 · Autoconstrucción, informalidad y acompañamiento técnico porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-087 · **Salida:** ARQ-089.
+**Entrada:** ARQ-087 · **Salida:** ARQ-089, ARQ-834.
 
 **Evidencia:** 1. Identificar y delimitar las condiciones necesarias para responder la pregunta central de reconstrucción y memoria de desastres. 2.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Territorios andinos y sistemas de asentamiento** y cul
 
 ## Navegación
 
-[← Parte 08](../parte-08/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 10 →](../parte-10/README.md)
+[← Parte 08](../parte-08/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 10 →](../parte-10/README.md)

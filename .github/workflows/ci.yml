@@ -33,7 +33,7 @@ jobs:
         run: python scripts/apply_pedagogy.py --check
       - name: Auditar decisiones pedagógicas
         run: python scripts/audit_pedagogical_traceability.py --json
-      - name: Auditar diferencias entre las 830 clases
+      - name: Auditar diferencias entre las clases
         run: python scripts/audit_class_distinctness.py --check
       - name: Verificar bibliografía derivada
         run: python scripts/build_bibliography.py --check
@@ -41,22 +41,30 @@ jobs:
         run: python scripts/validate_repo.py
       - name: Validar plantillas de presupuesto
         run: python scripts/validate_homeowner_budget.py
-      - name: Generar 830 páginas HTML
+      - name: Validar casos de catástrofes, RUTA-35 y cálculos didácticos
+        run: python scripts/validate_resilience.py
+      - name: Generar páginas HTML del sitio
         run: python scripts/build_site.py
       - name: Validar salida
         run: python scripts/validate_repo.py
       - name: Resumen
         if: always()
         run: |
-          echo "### Arquitectura · programa integral" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Clases esperadas: **830**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Partes esperadas: **83**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- README de parte esperados: **83**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Talleres verticales: **10** · sesiones: **60**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Rutas con diagnóstico y capstone: **35**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Anatomía común de clase: **830/830**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Cadenas pedagógicas específicas: **830/830**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Pilotos editoriales manuales profundos: **5**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Recursos transversales esperados: **755**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Fuentes externas y usos: **derivados y verificados desde las clases**" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Presupuestos de vivienda y ampliación: **esquema y cálculos validados**" >> "$GITHUB_STEP_SUMMARY"
+          python - >> "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json
+          program = json.load(open("data/program.json", encoding="utf-8"))
+          decisions = json.load(open("data/pedagogical-decisions-generated.json", encoding="utf-8"))
+          classes, parts = program["class_count"], program["part_count"]
+          print("### Arquitectura · programa integral")
+          print(f"- Clases esperadas: **{classes}**")
+          print(f"- Partes esperadas: **{parts}**")
+          print(f"- README de parte esperados: **{parts}**")
+          print(f"- Talleres verticales: **{program['studio_count']}** · sesiones: **{program['studio_session_count']}**")
+          print(f"- Rutas con diagnóstico y capstone: **{program['route_count']}**")
+          print(f"- Anatomía común de clase: **{classes}/{classes}**")
+          print(f"- Cadenas pedagógicas específicas: **{decisions['decision_count']}/{classes}**")
+          print(f"- Pilotos editoriales manuales profundos: **{len(decisions['manual_editorial_pilots'])}**")
+          print("- Fuentes externas y usos: **derivados y verificados desde las clases**")
+          print("- Presupuestos de vivienda y ampliación: **esquema y cálculos validados**")
+          print("- Casos de catástrofes, RUTA-35 y cálculos de la Parte 84: **validados estructural y aritméticamente**")
+          PY

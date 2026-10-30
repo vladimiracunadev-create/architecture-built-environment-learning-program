@@ -1,22 +1,22 @@
 {
-  "scope": "830 authored lesson files; generated pedagogy contracts and source lists excluded from editorial repetition analysis",
+  "scope": "840 authored lesson files; generated pedagogy contracts and source lists excluded from editorial repetition analysis",
   "all_classes": {
-    "files": 830,
-    "exact_unique_files": 830,
-    "classes_with_central_question": 830,
-    "unique_questions": 830,
-    "classes_with_editorial_graph": 150,
-    "unique_editorial_graphs": 150,
-    "classes_with_explicit_critical_condition": 150,
-    "unique_explicit_critical_conditions": 150,
-    "total_words": 2359958,
+    "files": 840,
+    "exact_unique_files": 840,
+    "classes_with_central_question": 840,
+    "unique_questions": 840,
+    "classes_with_editorial_graph": 160,
+    "unique_editorial_graphs": 160,
+    "classes_with_explicit_critical_condition": 160,
+    "unique_explicit_critical_conditions": 160,
+    "total_words": 2390293,
     "minimum_words": 1247,
     "median_words": 2889,
     "maximum_words": 5441,
     "minimum_unique_editorial_word_share": 0.1594,
     "median_unique_editorial_word_share": 0.941,
     "maximum_nearest_similarity_same_part": 0.6705,
-    "median_nearest_similarity_same_part": 0.3126
+    "median_nearest_similarity_same_part": 0.3058
   },
   "phase_three_arq_681_800": {
     "files": 120,
@@ -33,17 +33,17 @@
     "median_nearest_similarity_same_part": 0.5692
   },
   "phase_four_arq_801_current": {
-    "files": 30,
-    "exact_unique_files": 30,
-    "unique_questions": 30,
-    "unique_graphs": 30,
-    "unique_critical_conditions": 30,
-    "minimum_words": 5206,
+    "files": 40,
+    "exact_unique_files": 40,
+    "unique_questions": 40,
+    "unique_graphs": 40,
+    "unique_critical_conditions": 40,
+    "minimum_words": 2776,
     "maximum_words": 5441,
     "minimum_unique_editorial_word_share": 0.7532,
-    "median_unique_editorial_word_share": 0.7598,
+    "median_unique_editorial_word_share": 0.7612,
     "maximum_nearest_similarity_same_part": 0.6541,
-    "median_nearest_similarity_same_part": 0.6237
+    "median_nearest_similarity_same_part": 0.6184
   },
   "repeated_editorial_paragraphs": {
     "total_patterns_used_by_two_or_more_classes": 207,

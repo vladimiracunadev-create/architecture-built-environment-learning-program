@@ -1,6 +1,6 @@
 # Currículo completo
 
-## 830 clases · 83 partes · 4 fases
+## 840 clases · 84 partes · 4 fases
 
 Este índice es la entrada Markdown al programa. Cada parte tiene diez clases y un README propio generado desde las preguntas y resultados declarados en sus fuentes.
 
@@ -11,7 +11,7 @@ Este índice es la entrada Markdown al programa. Cada parte tiene diez clases y 
 
 ## Anatomía documental de una clase
 
-Las 830 clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
+Las 840 clases incluyen una pregunta central, práctica independiente, fuentes con alcance de uso y límites profesionales. La formulación de resultados, casos, errores y autoevaluación evoluciona entre etapas del programa; el [estado verificable](../docs/ESTADO_VERIFICABLE.md) muestra esa cobertura sin fingir uniformidad.
 
 ## Mapa completo
 
@@ -100,6 +100,7 @@ Las 830 clases incluyen una pregunta central, práctica independiente, fuentes c
 | 81 | [Antes de construir: decisión, terreno, legalidad y permisos](parte-81/README.md) | ARQ-801–ARQ-810 | Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico → Primera puerta de control: decidir si iniciar el proyecto |
 | 82 | [Proyecto, presupuesto detallado, compras y autorización](parte-82/README.md) | ARQ-811–ARQ-820 | Levantamiento con medidas, cotas, deslindes, superficies y fotografías → Cronograma, compras, ruta crítica y autorización para iniciar |
 | 83 | [Construcción, control de gastos, recepción y mantenimiento](parte-83/README.md) | ARQ-821–ARQ-830 | Instalación de faenas, protección de lo existente, cierres, vecinos, accesos y acopios → Término de obra, certificados, recepción definitiva, garantías y mantenimiento |
+| 84 | [Evaluación de inmuebles, seguros y eventos catastróficos](parte-84/README.md) | ARQ-831–ARQ-840 | Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites → Carpeta de evaluación inmobiliaria y puerta de decisión de operación |
 
 ## Uso responsable
 

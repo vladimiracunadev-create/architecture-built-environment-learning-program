@@ -22,9 +22,9 @@ Comparar medidas de reducción, preparación, continuidad y recuperación para e
 
 ## Extensión: riesgo, seguros y decisión de emplazamiento
 
-Perspectiva: **gestor de emergencias**. Une el peligro con la decisión de emplazar, la obligación normativa, el costo de recuperación y la transferencia del riesgo.
+Perspectiva: **gestor de emergencias**. Une el peligro con la decisión de emplazar, la obligación normativa, el costo de recuperación y la transferencia del riesgo. La Parte 84 aporta el seguro, la lectura de eventos catastróficos y la evidencia para reclamar.
 
-Partes complementarias que esta ruta no recorre por defecto: Parte 11 → Parte 19 → Parte 40 → Parte 42 → Parte 70. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+Partes complementarias que esta ruta no recorre por defecto: Parte 11 → Parte 19 → Parte 40 → Parte 42 → Parte 70 → Parte 84. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
 
 - [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
 - [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.

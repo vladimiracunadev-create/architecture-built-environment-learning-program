@@ -54,7 +54,7 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 **Posición:** Ocupa el lugar 2 de la Parte 42. Se estudia después de ARQ-411 · Factibilidad técnica, territorial y económica porque usa esa base para responder «¿Cómo comparar áreas sin sumar categorías incompatibles ni esconder muros, circulaciones o vacíos dentro del mismo número?». Se ubica antes de ARQ-413 · Cubicaciones y cantidades de obra porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-411 · **Salida:** ARQ-413, ARQ-816.
+**Entrada:** ARQ-411 · **Salida:** ARQ-413, ARQ-816, ARQ-832.
 
 **Evidencia:** Recibe ARQ-411 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
 
@@ -64,7 +64,7 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 **Posición:** Ocupa el lugar 3 de la Parte 42. Se estudia después de ARQ-412 · Superficies útiles, construidas y criterios de medición porque usa esa base para responder «¿Cómo pasar de geometría a cantidades sin convertir una estimación en un despiece de compra o una certificación de obra ejecutada?». Se ubica antes de ARQ-414 · Precios unitarios y rendimientos: estructura conceptual porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-412 · **Salida:** ARQ-414, ARQ-816.
+**Entrada:** ARQ-412 · **Salida:** ARQ-414, ARQ-816, ARQ-832.
 
 **Evidencia:** Recibe ARQ-412 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
 
@@ -114,7 +114,7 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 **Posición:** Ocupa el lugar 8 de la Parte 42. Se estudia después de ARQ-417 · Comparación de ofertas y cambios de alcance porque usa esa base para responder «¿Cómo comparar alternativas cuando inversión, operación, reposiciones y disposición ocurren en momentos diferentes?». Se ubica antes de ARQ-419 · Valor, asequibilidad y economía social porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-417 · **Salida:** ARQ-419, ARQ-809.
+**Entrada:** ARQ-417 · **Salida:** ARQ-419, ARQ-809, ARQ-831.
 
 **Evidencia:** Recibe ARQ-417 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
 
@@ -124,7 +124,7 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 **Posición:** Ocupa el lugar 9 de la Parte 42. Se estudia después de ARQ-418 · Costo de ciclo de vida y mantenimiento porque usa esa base para responder «¿Cómo hablar de valor sin reducirlo a costo inicial ni convertir preferencias sociales en una puntuación arbitraria?». Se ubica antes de ARQ-420 · Sensibilidad, riesgos y defensa de una alternativa porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-418 · **Salida:** ARQ-420.
+**Entrada:** ARQ-418 · **Salida:** ARQ-420, ARQ-835.
 
 **Evidencia:** Recibe ARQ-418 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
 
@@ -134,7 +134,7 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 **Posición:** Cierra la Parte 42: integra lo producido en ARQ-419 · Valor, asequibilidad y economía social para responder «¿Cómo defender una alternativa mostrando qué supuestos pueden cambiar la decisión?». La transición hacia ARQ-421 · Desglose del trabajo y planificación de construcción transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
 
-**Entrada:** ARQ-419 · **Salida:** ARQ-471, ARQ-809, ARQ-421.
+**Entrada:** ARQ-419 · **Salida:** ARQ-471, ARQ-809, ARQ-831, ARQ-421.
 
 **Evidencia:** Recibe ARQ-419 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Factibilidad técnica, territorial y económica** y cu
 
 ## Navegación
 
-[← Parte 41](../parte-41/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 43 →](../parte-43/README.md)
+[← Parte 41](../parte-41/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 43 →](../parte-43/README.md)

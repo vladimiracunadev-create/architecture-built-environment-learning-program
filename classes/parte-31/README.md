@@ -148,4 +148,4 @@ Esta parte comienza con **Abastecimiento de agua y demanda** y culmina con **Seq
 
 ## Navegación
 
-[← Parte 30](../parte-30/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 32 →](../parte-32/README.md)
+[← Parte 30](../parte-30/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 32 →](../parte-32/README.md)

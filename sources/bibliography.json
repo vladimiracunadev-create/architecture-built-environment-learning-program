@@ -3,10 +3,10 @@
   "generated_from": "classes/parte-XX/ARQ-XXX.md",
   "generated_on": "2026-10-12",
   "policy": "Registro derivado de las secciones 'Fuentes y alcance de uso'. Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, aplicabilidad normativa, permiso de redistribución ni respaldo institucional. Si no consta una licencia, se registra como desconocida y se conserva sólo el enlace.",
-  "class_count": 830,
-  "citation_occurrences": 2419,
-  "unique_sources": 631,
-  "unique_domains": 190,
+  "class_count": 840,
+  "citation_occurrences": 2441,
+  "unique_sources": 635,
+  "unique_domains": 191,
   "traceability": {
     "required_context_fields": [
       "function",
@@ -15,14 +15,14 @@
       "accessed_on"
     ],
     "field_coverage": {
-      "function": 2352,
-      "consultation_scope": 1965,
-      "limitation": 2214,
-      "accessed_on": 1538
+      "function": 2374,
+      "consultation_scope": 1987,
+      "limitation": 2236,
+      "accessed_on": 1560
     },
-    "complete_uses": 1366,
+    "complete_uses": 1388,
     "partial_uses": 1053,
-    "classes_with_all_uses_complete": 442,
+    "classes_with_all_uses_complete": 452,
     "classes_requiring_context_review": 388,
     "live_availability_check": "not-implemented",
     "normative_currency_review": "pending"
@@ -2199,7 +2199,10 @@
         "classes/parte-83/ARQ-827.md",
         "classes/parte-83/ARQ-828.md",
         "classes/parte-83/ARQ-829.md",
-        "classes/parte-83/ARQ-830.md"
+        "classes/parte-83/ARQ-830.md",
+        "classes/parte-84/ARQ-832.md",
+        "classes/parte-84/ARQ-835.md",
+        "classes/parte-84/ARQ-836.md"
       ],
       "uses": [
         {
@@ -2660,9 +2663,36 @@
           "accessed_on": "12 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-832.md",
+          "function": "referencia para distinguir superficies y exigencias vigentes que afectan el costo de reconstruir.",
+          "consultation_scope": "texto oficial localizado; los criterios de superficie edificada y las exigencias aplicables a una reconstrucción deben revalidarse en el expediente concreto.",
+          "limitation": "la clase no cita numerales ni versión; una redacción aislada no determina aplicabilidad sin predio, actuación y fecha. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-835.md",
+          "function": "referencia a las condiciones urbanísticas que afectan lo edificable.",
+          "consultation_scope": "texto oficial localizado; las normas de constructibilidad y uso deben revalidarse en el expediente concreto.",
+          "limitation": "la clase no cita numerales; no asegura vigencia de una redacción aislada ni determina aplicabilidad sin predio y fecha. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-836.md",
+          "function": "condiciones técnicas y categorías reglamentarias que dan contexto a lo que debe existir.",
+          "consultation_scope": "texto oficial localizado; los artículos que se citen deben revalidarse en el expediente concreto.",
+          "limitation": "la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio y actuación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 49
+      "usage_count": 52
     },
     {
       "id": "source-bcn-cl-a37867bedc",
@@ -2726,7 +2756,10 @@
         "classes/parte-83/ARQ-827.md",
         "classes/parte-83/ARQ-828.md",
         "classes/parte-83/ARQ-829.md",
-        "classes/parte-83/ARQ-830.md"
+        "classes/parte-83/ARQ-830.md",
+        "classes/parte-84/ARQ-836.md",
+        "classes/parte-84/ARQ-837.md",
+        "classes/parte-84/ARQ-840.md"
       ],
       "uses": [
         {
@@ -3146,9 +3179,78 @@
           "accessed_on": "12 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-836.md",
+          "function": "marco nacional de competencias, permiso y recepción que fundamenta qué documentos deben existir.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-837.md",
+          "function": "marco nacional, regla general de permiso, control de obra y recepción.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-840.md",
+          "function": "marco nacional de competencias, permiso, control de obra y recepción que sustenta la revisión normativa inicial.",
+          "consultation_scope": "texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase.",
+          "limitation": "no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, DOM o asesoría profesional. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 46
+      "usage_count": 49
+    },
+    {
+      "id": "source-bcn-cl-e6924dcc0e",
+      "type": "public-body",
+      "title": "[[CL-COMERCIO]] Código de Comercio",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1974",
+      "publisher_or_author": {
+        "name": "Biblioteca del Congreso Nacional de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "bcn.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-831.md",
+        "classes/parte-84/ARQ-833.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-831.md",
+          "function": "localiza la norma que, según la clase, regula el contrato de seguro.",
+          "consultation_scope": "enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído.",
+          "limitation": "la clase no cita artículos ni versión; antes de afirmar una obligación o un plazo debe leerse el título correspondiente en su edición vigente y consultarse a un abogado. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-833.md",
+          "function": "localiza la norma que, según la clase, regula el contrato de seguro y el siniestro.",
+          "consultation_scope": "enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído.",
+          "limitation": "la clase no cita artículos, plazos ni recursos; deben leerse en la edición vigente y consultarse a un abogado. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 2
     },
     {
       "id": "source-bibliotecadigital-mineduc-cl-f10af272c1",
@@ -5619,6 +5721,68 @@
         }
       ],
       "usage_count": 1
+    },
+    {
+      "id": "source-cmfchile-cl-5b365b7aed",
+      "type": "reference",
+      "title": "[[CL-CMF]] Portal de la Comisión para el Mercado Financiero",
+      "locator": "https://www.cmfchile.cl/",
+      "publisher_or_author": {
+        "name": "Comisión para el Mercado Financiero de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "cmfchile.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-831.md",
+        "classes/parte-84/ARQ-832.md",
+        "classes/parte-84/ARQ-833.md",
+        "classes/parte-84/ARQ-840.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-831.md",
+          "function": "ubica al organismo supervisor y los servicios públicos para consultar seguros contratados y orientar tras temporales.",
+          "consultation_scope": "página principal y accesos visibles a «Conoce tus seguros», «Temporales en regiones», estadísticas del mercado de seguros y atención ciudadana.",
+          "limitation": "no se leyó ninguna circular ni norma de seguros; la existencia de un servicio no describe su procedimiento ni garantiza cobertura. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-832.md",
+          "function": "ubica al supervisor y las estadísticas públicas para contrastar supuestos del mercado.",
+          "consultation_scope": "página principal y accesos visibles a información de seguros y estadísticas del mercado de seguros.",
+          "limitation": "no se consultó ninguna cifra de primas ni de siniestralidad; los montos de la clase son hipotéticos. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-833.md",
+          "function": "ubica servicios públicos para consultar seguros contratados y orientarse tras temporales.",
+          "consultation_scope": "página principal y accesos visibles a «Conoce tus seguros», «Temporales en regiones» y atención ciudadana.",
+          "limitation": "no se leyó el procedimiento de reclamo ni sus plazos; la existencia de un servicio no garantiza resultado. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-840.md",
+          "function": "ubica servicios públicos para consultar seguros contratados y orientarse tras temporales.",
+          "consultation_scope": "página principal y accesos visibles a «Conoce tus seguros» y «Temporales en regiones».",
+          "limitation": "no se leyó ninguna norma ni circular; la existencia de un servicio no garantiza cobertura. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 4
     },
     {
       "id": "source-colmap-github-io-84f8285a8e",
@@ -19640,7 +19804,8 @@
         "classes/parte-83/ARQ-827.md",
         "classes/parte-83/ARQ-828.md",
         "classes/parte-83/ARQ-829.md",
-        "classes/parte-83/ARQ-830.md"
+        "classes/parte-83/ARQ-830.md",
+        "classes/parte-84/ARQ-838.md"
       ],
       "uses": [
         {
@@ -19939,9 +20104,18 @@
           "accessed_on": "12 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-838.md",
+          "function": "ubica el tipo de solicitud que puede corresponder a reparaciones mayores.",
+          "consultation_scope": "listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción.",
+          "limitation": "la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 33
+      "usage_count": 34
     },
     {
       "id": "source-minvu-gob-cl-c6b1d5787d",
@@ -20026,7 +20200,9 @@
         "classes/parte-83/ARQ-827.md",
         "classes/parte-83/ARQ-828.md",
         "classes/parte-83/ARQ-829.md",
-        "classes/parte-83/ARQ-830.md"
+        "classes/parte-83/ARQ-830.md",
+        "classes/parte-84/ARQ-835.md",
+        "classes/parte-84/ARQ-837.md"
       ],
       "uses": [
         {
@@ -20310,9 +20486,27 @@
           "accessed_on": "12 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-835.md",
+          "function": "identifica el documento que informa uso de suelo y afectaciones, base de los factores urbanísticos.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido y no reemplaza la lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-837.md",
+          "function": "identifica el documento que informa uso de suelo y afectaciones para comparar destino.",
+          "consultation_scope": "solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles.",
+          "limitation": "el ejemplo educativo no es un certificado emitido y no reemplaza la lectura profesional del instrumento territorial. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 31
+      "usage_count": 33
     },
     {
       "id": "source-minvu-gob-cl-09c617ee99",
@@ -20420,7 +20614,8 @@
         "classes/parte-83/ARQ-827.md",
         "classes/parte-83/ARQ-828.md",
         "classes/parte-83/ARQ-829.md",
-        "classes/parte-83/ARQ-830.md"
+        "classes/parte-83/ARQ-830.md",
+        "classes/parte-84/ARQ-837.md"
       ],
       "uses": [
         {
@@ -20692,9 +20887,18 @@
           "accessed_on": "12 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-837.md",
+          "function": "localiza los formularios nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "consultation_scope": "página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta.",
+          "limitation": "un formulario no prueba que el caso cumpla condiciones ni que el expediente esté completo. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 30
+      "usage_count": 31
     },
     {
       "id": "source-minvu-gob-cl-82d25962c7",
@@ -20742,7 +20946,8 @@
         "classes/parte-83/ARQ-827.md",
         "classes/parte-83/ARQ-828.md",
         "classes/parte-83/ARQ-829.md",
-        "classes/parte-83/ARQ-830.md"
+        "classes/parte-83/ARQ-830.md",
+        "classes/parte-84/ARQ-839.md"
       ],
       "uses": [
         {
@@ -21014,9 +21219,50 @@
           "accessed_on": "12 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-839.md",
+          "function": "diferencia solicitudes y declaraciones de obras menores que pueden acompañar algunas reparaciones.",
+          "consultation_scope": "listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166.",
+          "limitation": "la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo y estructura pueden cambiar el expediente. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 30
+      "usage_count": 31
+    },
+    {
+      "id": "source-minvu-gob-cl-0c71cb5c17",
+      "type": "reference",
+      "title": "[[CL-MINVU-VSL]] Aluvión Villa Santa Lucía 2017",
+      "locator": "https://www.minvu.gob.cl/reconstruccion/aluvion-villa-santa-lucia-2017/",
+      "publisher_or_author": {
+        "name": "Ministerio de Vivienda y Urbanismo de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "minvu.gob.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-834.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-834.md",
+          "function": "ejemplo de un caso con decisión territorial documentada.",
+          "consultation_scope": "página de reconstrucción del MINVU, con 21 fallecidos, un desaparecido y relocalización definitiva.",
+          "limitation": "no explica el mecanismo físico ni reproduce el informe técnico de SERNAGEOMIN, que no fue leído. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 1
     },
     {
       "id": "source-minvu-gob-cl-8f78e80a5b",
@@ -32479,7 +32725,8 @@
         "classes/parte-83/ARQ-827.md",
         "classes/parte-83/ARQ-828.md",
         "classes/parte-83/ARQ-829.md",
-        "classes/parte-83/ARQ-830.md"
+        "classes/parte-83/ARQ-830.md",
+        "classes/parte-84/ARQ-839.md"
       ],
       "uses": [
         {
@@ -32751,9 +32998,18 @@
           "accessed_on": "12 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-839.md",
+          "function": "confirma que la declaración de instalaciones está dirigida a instaladores y profesionales autorizados.",
+          "consultation_scope": "servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas.",
+          "limitation": "la mención de TE1 o TC6 no determina que correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de",
+          "accessed_on": "12 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
         }
       ],
-      "usage_count": 30
+      "usage_count": 31
     },
     {
       "id": "source-senapred-cl-ab5eaaa790",
@@ -32931,6 +33187,58 @@
           "consultation_scope": "Página oficial: definiciones, preparación, señales naturales, evacuación y retorno.",
           "limitation": "No se eligió una ruta ni un edificio de evacuación; no se adoptan alturas mínimas ni tiempos seguros calculados por el curso.",
           "accessed_on": "23 de septiembre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 3
+    },
+    {
+      "id": "source-senapred-cl-e0779d9258",
+      "type": "reference",
+      "title": "[[CL-SENAPRED-NEWS]] Noticias de SENAPRED, enero y julio de 2026",
+      "locator": "https://www.senapred.cl/noticias/",
+      "publisher_or_author": {
+        "name": "Servicio Nacional de Prevención y Respuesta ante Desastres",
+        "basis": "class-text"
+      },
+      "authority_domain": "senapred.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-834.md",
+        "classes/parte-84/ARQ-838.md",
+        "classes/parte-84/ARQ-840.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-834.md",
+          "function": "respalda las cifras, alertas y medidas citadas, siempre como balances a la fecha.",
+          "consultation_scope": "listado de noticias y los comunicados del 8, 13 y 17 de julio de 2026 y del 16, 18, 19 y 22 de enero y 27 de febrero de 2026, leídos mediante extracción automática de cada página.",
+          "limitation": "son comunicados institucionales, no informes técnicos ni balances de cierre; no se leyeron informes de la Dirección Meteorológica, la DGA ni evaluaciones de daño. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-838.md",
+          "function": "muestra las categorías oficiales de daño en vivienda y que una parte queda «en evaluación».",
+          "consultation_scope": "comunicados de julio de 2026 sobre un sistema frontal, con daños en viviendas clasificados como menor, mayor, destruida y en evaluación.",
+          "limitation": "son balances parciales; no describen patologías ni causas constructivas. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-840.md",
+          "function": "ejemplo de balances oficiales con fecha, usado para la lectura de eventos.",
+          "consultation_scope": "listado de noticias y comunicados de 2026 sobre incendios forestales y sistemas frontales.",
+          "limitation": "son comunicados institucionales y balances parciales; no sustituyen mapas de amenaza ni estudios de riesgo del predio. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
         }

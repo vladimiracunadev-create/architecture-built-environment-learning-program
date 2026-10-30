@@ -86,7 +86,7 @@ ARQ-084,9,Carpinterías y patrimonio de Chiloé,3318,fa2d35aa7bb10efd,0f9d1691c5
 ARQ-085,9,"Ciudades portuarias, pendientes e infraestructuras",2752,708c0831ae1c34e9,da6d11630568ec69,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-086,0.0100
 ARQ-086,9,"Vivienda, urbanización y políticas habitacionales",3143,23276d752b15f8f0,074a62c391d30a18,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-090,0.0109
 ARQ-087,9,Arquitecturas modernas latinoamericanas,3200,3011080993f14581,7c5c849a35b4bb18,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-086,0.0099
-ARQ-088,9,Reconstrucción y memoria de desastres,3186,833bf62a8bd12823,9116a74acb2b311a,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-086,0.0102
+ARQ-088,9,Reconstrucción y memoria de desastres,3190,3e96746126f74cc2,9116a74acb2b311a,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-086,0.0102
 ARQ-089,9,"Autoconstrucción, informalidad y acompañamiento técnico",2935,7685bb658cf4892e,c64df1acdab14bf8,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-085,0.0094
 ARQ-090,9,Lectura de un barrio chileno con evidencia local,3289,097a90284e1b0d3e,8a1ad69b7a99ee3d,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-086,0.0109
 ARQ-091,10,"Espacio, forma y organización",3107,faef1a74a6ad329c,72b3a5bf421678b7,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-095,0.0120
@@ -265,7 +265,7 @@ ARQ-263,27,"Cubiertas planas, pendientes y puntos singulares",2929,20a8ab2be7a8b
 ARQ-264,27,"Muros, cámaras y fachadas ventiladas",2887,862b302f42f1e09c,ac59746089870f84,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-262,0.0096
 ARQ-265,27,"Ventanas, puertas y encuentros perimetrales",3016,4990366f9a41e157,0a90b4aba5611ea4,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-268,0.0098
 ARQ-266,27,Barrera de aire y continuidad,3088,19bc7a41a52dee28,e94d065c338d2196,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-262,0.0093
-ARQ-267,27,"Vapor, condensación y capacidad de secado",3003,9381e5c1bc229b04,fe6cb0dbe5ef5baa,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-263,0.0097
+ARQ-267,27,"Vapor, condensación y capacidad de secado",3007,7a9f96d95fb0800b,fe6cb0dbe5ef5baa,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-263,0.0097
 ARQ-268,27,Puentes térmicos y discontinuidades,2859,e313fe8689ca2623,7a3e6f2cc4a5d46b,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-265,0.0098
 ARQ-269,27,Juntas de movimiento y tolerancias,2960,6dba28bebc76f05a,7979b4412ad57cc0,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-270,0.0091
 ARQ-270,27,Plan de ensayos y revisión de envolvente,3375,087cec6751d4910c,17ae45811b316627,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-263,0.0093
@@ -347,18 +347,18 @@ ARQ-345,35,"Ductilidad, redundancia y jerarquías resistentes",2764,8b8222253674
 ARQ-346,35,"Diafragmas, colectores y conexiones",2734,e3224d6a68213a44,fadf6934a7d40fc0,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-343,0.0121
 ARQ-347,35,Aislamiento sísmico y disipación: alcances,2952,a4df7cb3a98cf97a,8579353abc79eedd,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-348,0.0108
 ARQ-348,35,Componentes no estructurales y anclajes,2806,42b65924a1eed2dd,22712723ab5be88e,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-347,0.0108
-ARQ-349,35,"Daño, reparación y recuperación funcional",2700,21e2acf541f81ae2,79ef2fc22824c9e8,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-345,0.0105
+ARQ-349,35,"Daño, reparación y recuperación funcional",2704,c8e83d8c1fa300a9,79ef2fc22824c9e8,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-345,0.0105
 ARQ-350,35,Lectura normativa y coordinación interdisciplinaria,2791,f077e8a98495d261,370f3a7a7d4079a7,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-343,0.0101
 ARQ-351,36,"Tsunami: exposición, aviso y evacuación territorial",3013,59f376a1f072b5f3,d3c93b06de3e4286,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-358,0.0096
 ARQ-352,36,Inundación fluvial y ocupación de planicies,2889,4aaad95563041744,01d037e9cb18fa9b,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-357,0.0101
-ARQ-353,36,Inundación pluvial y drenaje insuficiente,2925,f7e4982cf3b907bb,c89e723846d37357,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-359,0.0120
+ARQ-353,36,Inundación pluvial y drenaje insuficiente,2929,5141fabdde1096e6,c89e723846d37357,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-359,0.0120
 ARQ-354,36,"Marejadas, erosión costera y nivel del mar",3094,596099dfe6133f7a,dcd266425fe64c5e,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-355,0.0097
 ARQ-355,36,"Flotación, presión hidrostática y socavación: conceptos",3084,709c6b2fa4a7dd9d,ff8418b485a14943,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-354,0.0097
 ARQ-356,36,Materiales y recuperación tras ingreso de agua,3002,c3da5e1635e0d0fc,ef98b3277a5afe27,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-352,0.0092
 ARQ-357,36,Infraestructura crítica y continuidad,2991,573e646f1903a0a7,c2f03ac08b36fce0,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-352,0.0101
 ARQ-358,36,Evacuación inclusiva y rutas oficiales,3048,79474cb2e5999d30,14762f7b2acd2ee9,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-351,0.0096
 ARQ-359,36,Soluciones basadas en naturaleza y límites,3011,97940df832e6e598,7d532c59e87154c5,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-353,0.0120
-ARQ-360,36,"Decisión de localizar, adaptar o no construir",3008,e1ad5bb0c53d7037,0c2cc1cec97d2188,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-352,0.0097
+ARQ-360,36,"Decisión de localizar, adaptar o no construir",3012,00a167ed70a8aea0,0c2cc1cec97d2188,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-352,0.0097
 ARQ-361,37,"Viento: presión, succión y continuidad de fijaciones",2811,c87923e36ac6be90,3804ab16eea1dc2e,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-367,0.0098
 ARQ-362,37,Lluvia impulsada por viento y filtraciones,3026,0903bd027d5bd64c,067a772aa9b79513,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-369,0.0098
 ARQ-363,37,"Nieve, hielo y acumulaciones",2909,05ae6af5d2629e48,d4cf02851a089259,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-366,0.0104
@@ -366,19 +366,19 @@ ARQ-364,37,Tormentas eléctricas y coordinación de protección,3017,923683e69b3
 ARQ-365,37,Calor extremo y refugio térmico,3101,5f7da374a22a80ce,be209089185f6fb9,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-366,0.0146
 ARQ-366,37,Frío extremo y continuidad de servicios,3019,b686c8b9e205479a,9eb737d7d4bde68f,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-365,0.0146
 ARQ-367,37,"Sequía, vegetación y disponibilidad de agua",3026,8522d7ffa299daad,201a3b4f6a143657,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-361,0.0098
-ARQ-368,37,Incendio de interfaz urbano-forestal,3087,036e619b6619b3da,eeceaf09be54a1e0,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-366,0.0107
+ARQ-368,37,Incendio de interfaz urbano-forestal,3091,e3819e67bd99524d,eeceaf09be54a1e0,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-366,0.0107
 ARQ-369,37,Amenazas combinadas y falla de suministros,3071,2e3513994c31898b,434c78ddf76f0e8a,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-370,0.0103
 ARQ-370,37,Actualización del diseño ante cambio climático,3199,3204c8d3de4f1034,5591c869d2da5af3,e3b0c44298fc1c14,e3b0c44298fc1c14,1.0000,ARQ-369,0.0103
-ARQ-371,38,"Del peligro al riesgo: sitio, personas y decisiones",2491,fc1e55cf9b798fa6,e59ed22f516c06e4,e3b0c44298fc1c14,e3b0c44298fc1c14,0.9734,ARQ-377,0.0016
+ARQ-371,38,"Del peligro al riesgo: sitio, personas y decisiones",2499,ffa24382b944664d,e59ed22f516c06e4,e3b0c44298fc1c14,e3b0c44298fc1c14,0.9734,ARQ-377,0.0016
 ARQ-372,38,Remociones en masa y estabilidad de laderas,2532,0bbd1081608716db,ad9565f2e3f6e069,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5309,ARQ-378,0.4589
 ARQ-373,38,"Volcanes, ceniza y lahares",2533,8ff18c48c2f995cf,f11f184565ad5287,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5105,ARQ-379,0.4929
 ARQ-374,38,"Subsidencia, cavidades y suelos problemáticos",2461,a5f7b3e1e28e269f,a40c33b82c8e2f2c,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4877,ARQ-379,0.5108
-ARQ-375,38,Cascadas de eventos y dependencia de infraestructuras,2504,dbb43ee40262fd6c,e6d80c69d65d28da,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5013,ARQ-379,0.5009
+ARQ-375,38,Cascadas de eventos y dependencia de infraestructuras,2508,64b9f079a742de1b,e6d80c69d65d28da,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5013,ARQ-379,0.5009
 ARQ-376,38,Exposición social y vulnerabilidad diferenciada,2443,72ddd797775922ba,9020227755d01a1f,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4895,ARQ-379,0.5090
-ARQ-377,38,"Planes de emergencia: roles, comunicación y apoyo",2505,564d240e2ca68af4,e229411c705f518e,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4800,ARQ-379,0.5079
-ARQ-378,38,Inspección y restricciones después de un evento,2404,d542d438721c3141,6a205c9ec011ad2d,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4532,ARQ-379,0.5253
-ARQ-379,38,"Reconstrucción, reubicación y reducción de riesgo",2387,9cea374ac201b36d,130f7e7d42f88841,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4379,ARQ-378,0.5253
-ARQ-380,38,Ejercicio integrado de incertidumbre y decisión,2401,bd83eec565741ff0,129694ee46fdfbb0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4352,ARQ-379,0.5221
+ARQ-377,38,"Planes de emergencia: roles, comunicación y apoyo",2509,c3723ba4a78abf45,e229411c705f518e,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4800,ARQ-379,0.5079
+ARQ-378,38,Inspección y restricciones después de un evento,2412,04944927cd0885a9,6a205c9ec011ad2d,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4532,ARQ-379,0.5253
+ARQ-379,38,"Reconstrucción, reubicación y reducción de riesgo",2391,b680fb0a04f50bbe,130f7e7d42f88841,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4379,ARQ-378,0.5253
+ARQ-380,38,Ejercicio integrado de incertidumbre y decisión,2405,7155139d31b3fe82,129694ee46fdfbb0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4352,ARQ-379,0.5221
 ARQ-381,39,"Preparación del sitio, replanteo y trazado",2416,d8fff9760a6a5ac8,35184ee428842bb8,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4501,ARQ-388,0.5133
 ARQ-382,39,Excavaciones y obras provisionales,2413,2b72333d683ec991,b27f9865c742447e,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4572,ARQ-388,0.5420
 ARQ-383,39,Obra gruesa y secuencias resistentes,2450,a0bec90d791e6057,61ca57820389a799,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4567,ARQ-388,0.5343
@@ -410,15 +410,15 @@ ARQ-408,41,Solicitudes de información y cambios,2307,b594f69ff5b9a566,4bd64d6b7
 ARQ-409,41,Registro de instrucciones y versiones,2115,5b36d3152c500f96,d25d736edc7d4e36,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4647,ARQ-410,0.4681
 ARQ-410,41,Documentos finales y evidencia de aceptación,2401,e309dbc9d664617b,f9e78326bafc62d3,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4418,ARQ-409,0.4681
 ARQ-411,42,"Factibilidad técnica, territorial y económica",2077,81a9159154055474,b781b5e907dabdb9,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4486,ARQ-415,0.4727
-ARQ-412,42,"Superficies útiles, construidas y criterios de medición",1876,dc10e65f1dee22db,21e0b9e04e9c5676,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4714,ARQ-417,0.5106
-ARQ-413,42,Cubicaciones y cantidades de obra,1865,53e195639eab1e1c,748a2008d2015005,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4680,ARQ-415,0.5128
+ARQ-412,42,"Superficies útiles, construidas y criterios de medición",1880,20bb8fcc961bc6b9,21e0b9e04e9c5676,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4714,ARQ-417,0.5106
+ARQ-413,42,Cubicaciones y cantidades de obra,1869,be53bf1555fcc38b,748a2008d2015005,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4680,ARQ-415,0.5128
 ARQ-414,42,Precios unitarios y rendimientos: estructura conceptual,1871,e40f7826e35a62e8,c364b46945fafb5d,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4793,ARQ-415,0.5052
 ARQ-415,42,"Costos directos, indirectos y contingencias",1782,3f2b8a4b69a25f2a,7c56114ba0de2418,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4174,ARQ-417,0.5346
 ARQ-416,42,"Caja, pagos y avance reconocido",1811,18e262ae86ad94e4,ca50b0b08c8a2fd5,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4453,ARQ-417,0.5325
 ARQ-417,42,Comparación de ofertas y cambios de alcance,1911,24ffcbd76f539819,9969261a71f6b95a,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4206,ARQ-415,0.5346
-ARQ-418,42,Costo de ciclo de vida y mantenimiento,1777,8ba55806f0d2794a,c670ac9f30bf7ce5,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4066,ARQ-417,0.5330
-ARQ-419,42,"Valor, asequibilidad y economía social",1866,f94e5bf690e1c935,657f9163eb1404ab,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4497,ARQ-417,0.5258
-ARQ-420,42,"Sensibilidad, riesgos y defensa de una alternativa",1825,5bf5ebf663996c67,dcb431775403f2a0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4222,ARQ-415,0.5346
+ARQ-418,42,Costo de ciclo de vida y mantenimiento,1781,34459b87feca5b1b,c670ac9f30bf7ce5,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4066,ARQ-417,0.5330
+ARQ-419,42,"Valor, asequibilidad y economía social",1870,01c8918da018528c,657f9163eb1404ab,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4497,ARQ-417,0.5258
+ARQ-420,42,"Sensibilidad, riesgos y defensa de una alternativa",1829,792a08c88da7abae,dcb431775403f2a0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4222,ARQ-415,0.5346
 ARQ-421,43,Desglose del trabajo y planificación de construcción,1812,467353c15f5b06fe,b7f9d1858111d7cc,e3b0c44298fc1c14,e3b0c44298fc1c14,0.3559,ARQ-430,0.5228
 ARQ-422,43,"Dependencias, ruta crítica y restricciones",1780,3d9949e19039551e,7aecfc628dcadf89,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4023,ARQ-430,0.5473
 ARQ-423,43,"Logística, suministros y almacenamiento",1774,51323ba800c37181,1973ab379e8ce668,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4182,ARQ-430,0.5462
@@ -449,10 +449,10 @@ ARQ-447,45,"Desmontaje, reúso y diseño circular",1886,196d17b7487b208c,31910d6
 ARQ-448,45,"Residuos, recuperación y riesgos de materiales",1813,68ba1e866e779027,ec708ede926349f6,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4246,ARQ-447,0.5013
 ARQ-449,45,Certificaciones de edificios y límites del sello,1837,27e6022d365fb4db,17bbea9f1478e953,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4348,ARQ-448,0.4987
 ARQ-450,45,Balance ambiental y social sin afirmaciones absolutas,1965,c583db080af28277,0e8481a9ae8d4fb6,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4908,ARQ-448,0.4811
-ARQ-451,46,Reconocer valor y daño antes de intervenir,2524,700bb44a2a91ef2c,8f3c0625260c0a56,e3b0c44298fc1c14,e3b0c44298fc1c14,0.9716,ARQ-460,0.0000
+ARQ-451,46,Reconocer valor y daño antes de intervenir,2528,3428d44f9479c618,8f3c0625260c0a56,e3b0c44298fc1c14,e3b0c44298fc1c14,0.9716,ARQ-460,0.0000
 ARQ-452,46,Levantamiento histórico y material,2340,fa057154197da489,68e81bf492b39120,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5680,ARQ-458,0.3837
-ARQ-453,46,"Humedad, sales, fisuras y causas posibles",2266,b73ba4f552c1dc86,76673393fe69a78c,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5377,ARQ-458,0.4161
-ARQ-454,46,"Inspección, ensayos y diagnóstico diferencial",2197,ec6ca9c7a1cf6e4a,363197b5562ddef0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5147,ARQ-458,0.4296
+ARQ-453,46,"Humedad, sales, fisuras y causas posibles",2274,d5e14550c29c62db,76673393fe69a78c,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5377,ARQ-458,0.4161
+ARQ-454,46,"Inspección, ensayos y diagnóstico diferencial",2205,d54b50a22e7c8c9c,363197b5562ddef0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5147,ARQ-458,0.4296
 ARQ-455,46,Compatibilidad de reparaciones,2159,272d1e9619649aa8,79b6a701e66f576e,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5029,ARQ-458,0.4367
 ARQ-456,46,Refuerzo estructural y coordinación patrimonial,2185,9c54b9d67772ca68,60c86f8ba4a8967b,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5097,ARQ-458,0.4312
 ARQ-457,46,Rehabilitación energética y riesgos de humedad,2208,fee99ac6859970b7,a038aeada3b093ae,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5196,ARQ-458,0.4237
@@ -462,8 +462,8 @@ ARQ-460,46,"Comparar conservar, transformar y sustituir",2277,80e74a1269d81490,a
 ARQ-461,47,Del edificio entregado al edificio que funciona,2539,751d542f73acd825,6505201c770d6ed3,e3b0c44298fc1c14,e3b0c44298fc1c14,0.9738,ARQ-470,0.0000
 ARQ-462,47,Inventario de activos y criticidad,2090,b66585bbd9079bd1,42f6993af840e413,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4956,ARQ-470,0.4420
 ARQ-463,47,Manuales útiles y formación de usuarios,2066,d66e79644e866b3f,2bc1280a260be934,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4949,ARQ-470,0.4596
-ARQ-464,47,"Mantenimiento preventivo, predictivo y correctivo",2102,c51fba516d3730a7,3124b89bd79424b0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4943,ARQ-470,0.4593
-ARQ-465,47,"Inspecciones, garantías y trazabilidad",2035,560e8e913d31a980,60e84d3d36f455d3,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4897,ARQ-470,0.4701
+ARQ-464,47,"Mantenimiento preventivo, predictivo y correctivo",2110,69630a679eaeb3bd,3124b89bd79424b0,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4943,ARQ-470,0.4593
+ARQ-465,47,"Inspecciones, garantías y trazabilidad",2039,f82899f643861265,60e84d3d36f455d3,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4897,ARQ-470,0.4701
 ARQ-466,47,"Medición de confort, consumo y satisfacción",2079,41b3c82cbc382ba3,a899d7d6a0ef6cb8,e3b0c44298fc1c14,e3b0c44298fc1c14,0.5000,ARQ-470,0.4566
 ARQ-467,47,Accesibilidad y seguridad durante la operación,2216,f4e4a13ec321e320,eda895d6c6974596,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4784,ARQ-470,0.4661
 ARQ-468,47,Cambios de uso y obsolescencia,2100,179c6b47ee677368,d775580fe2f60d88,e3b0c44298fc1c14,e3b0c44298fc1c14,0.4975,ARQ-470,0.4622
@@ -692,7 +692,7 @@ ARQ-690,69,"Tesis: argumento, método, resultados y defensa",3699,cfec1563ee391d
 ARQ-691,70,Modelos de práctica y propósito de una oficina,3642,d870131fe4025079,de7fa61c72a227a9,1268a4b2e11523d9,7f27f09484b8f696,0.9396,ARQ-697,0.5521
 ARQ-692,70,"Brief comercial, propuesta y selección de encargos",3641,9d8dccb8b435eed1,4089adcdd1b1b1c8,3b6059cb02a341cd,7f6050e50ef6cb46,0.9402,ARQ-697,0.5489
 ARQ-693,70,"Honorarios, alcance, exclusiones y cambios",3622,9516e2f15905b052,c4245d2a2b122b4d,2f26543cf4e3e303,e72ef0793fce2b56,0.9400,ARQ-699,0.5686
-ARQ-694,70,"Contratos, seguros y distribución de responsabilidades",3626,689a8942b358786c,ca33efca5ebfde2a,f1cf3fd048536d02,05ebd98cab51d79e,0.9400,ARQ-699,0.5667
+ARQ-694,70,"Contratos, seguros y distribución de responsabilidades",3630,0a87a80bdd5e9102,ca33efca5ebfde2a,f1cf3fd048536d02,05ebd98cab51d79e,0.9400,ARQ-699,0.5667
 ARQ-695,70,"Clientes, usuarios, mandantes y gobernanza",3650,377f63b619a6b724,2b7844bff7f5b7fe,865097b22f261e07,c9fd9ef345a94bb0,0.9403,ARQ-698,0.5674
 ARQ-696,70,Negociación basada en intereses y registro de acuerdos,3702,4d3ce4726f7f1e4a,fcfcc613e9b587bb,e8c9590195464765,56c16f27a75dea22,0.9413,ARQ-699,0.5682
 ARQ-697,70,"Marketing profesional, reputación y límites éticos",3579,b377126de840e9c5,d36ce732a8a3a2df,bbf0787bac0eb360,27975d489d850172,0.9382,ARQ-691,0.5521
@@ -740,8 +740,8 @@ ARQ-738,74,Fabricación aditiva a escala edilicia,3597,d62aaaa804231a41,73cd8a6d
 ARQ-739,74,Robótica de obra y zonas de interacción,3795,59280d2aa25a7f47,2498083b6285dc85,08a1ee93cada7138,e6a18f535d676971,0.9449,ARQ-736,0.5426
 ARQ-740,74,"Prototipo 1:1: fabricar, medir, corregir y documentar",3739,0f4b2586c08b974b,d4592f19b3a68696,7dee01ceb3588777,68adbe8ba91264dd,0.9438,ARQ-736,0.5728
 ARQ-741,75,"Gobernanza urbana, poder y derecho a la ciudad",3735,b6308a365f1bbc7f,e741112033e495bb,bb3be0bc2d109f68,5e0443a792f18a5b,0.9410,ARQ-747,0.5747
-ARQ-742,75,"Política de suelo, captura de valor y regulación",3757,b0d050c1a5a23662,6f0a1b81c06884dd,d043165d1ecd0ddc,043c0a1fa06d8539,0.9417,ARQ-750,0.5668
-ARQ-743,75,"Mercados de vivienda, arriendo y asequibilidad",3667,af87ea451f5f03f3,4c4695704e1bdb6e,e3dcd29981771f59,32abe347fd69f64e,0.9400,ARQ-746,0.5757
+ARQ-742,75,"Política de suelo, captura de valor y regulación",3761,45a0d0f3d8b8f886,6f0a1b81c06884dd,d043165d1ecd0ddc,043c0a1fa06d8539,0.9417,ARQ-750,0.5668
+ARQ-743,75,"Mercados de vivienda, arriendo y asequibilidad",3671,b6841a2dfc9d609a,4c4695704e1bdb6e,e3dcd29981771f59,32abe347fd69f64e,0.9400,ARQ-746,0.5757
 ARQ-744,75,"Campamentos, informalidad y seguridad de tenencia",3646,8b672bbd4597938b,130fdfaa0f80de35,7a9ed5b1bf6cb541,184161a29c3dc36a,0.9395,ARQ-747,0.5786
 ARQ-745,75,"Segregación, gentrificación y desplazamiento",3604,80455908c7815bfc,36a6ac64a4d1f583,6886c96229f18944,01a8af7fd1ea055d,0.9389,ARQ-744,0.5597
 ARQ-746,75,"Género, cuidados y movilidad cotidiana",3604,d0112d867394a197,bd40cd1575b191f2,3f131afbb7b4d644,bae8a92ea5ac0eb9,0.9392,ARQ-743,0.5757
@@ -799,9 +799,9 @@ ARQ-797,80,"Hábitat lunar: misión, polvo, radiación y logística",3646,ab5db6
 ARQ-798,80,"Hábitat marciano: demora, autonomía y reparación",3620,bfd1db90b2767475,f7197e8144ce33ef,971047a9e569129d,fd5ec861a0586956,0.9401,ARQ-797,0.5693
 ARQ-799,80,Seguridad física y ciberseguridad de edificios conectados,3603,484b22362149b0c2,dd085f27abc6b263,7d9995ac82ee8e26,dc0b41089ad71710,0.9397,ARQ-793,0.5707
 ARQ-800,80,"Proyecto final: integrar, verificar, defender y transferir",3627,d42ba77fef666fec,5e745d711770fe71,4cd5deab6f8359c6,421864f8635c5d97,0.9401,ARQ-793,0.5692
-ARQ-801,81,"Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico",5402,91ca704508ec9f22,f90564f842519c85,1f9d52264689eb38,6d91ebed504f5bfd,0.7628,ARQ-806,0.6126
-ARQ-802,81,"Documentos del terreno y de la vivienda: dominio, rol, planos, permisos y recepciones existentes",5418,778d7c9aea94327a,0f8bad0b2c06e05e,ee0ff7c63e10cd81,f57b0bd2f820723b,0.7598,ARQ-808,0.6133
-ARQ-803,81,"Certificado de Informaciones Previas, plan regulador y restricciones del predio",5390,014e4273a9d363d4,33ba52464fb4772b,d461228a03ee7709,4ede550fda850e7a,0.7634,ARQ-808,0.6119
+ARQ-801,81,"Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico",5406,d07d932bef7f5c23,f90564f842519c85,1f9d52264689eb38,6d91ebed504f5bfd,0.7628,ARQ-806,0.6126
+ARQ-802,81,"Documentos del terreno y de la vivienda: dominio, rol, planos, permisos y recepciones existentes",5422,fded44d8ef94ab90,0f8bad0b2c06e05e,ee0ff7c63e10cd81,f57b0bd2f820723b,0.7598,ARQ-808,0.6133
+ARQ-803,81,"Certificado de Informaciones Previas, plan regulador y restricciones del predio",5394,c4e1610f2c6e8116,33ba52464fb4772b,d461228a03ee7709,4ede550fda850e7a,0.7634,ARQ-808,0.6119
 ARQ-804,81,"Estado actual: levantamiento, patologías y elementos que no deben intervenirse sin diagnóstico",5339,0ee9f418cbcc0800,6bb09911423771ed,5c0a506a04ed6283,ddbafc75ea64b105,0.7596,ARQ-808,0.6217
 ARQ-805,81,"Servicios, suelo, topografía, amenazas, entorno y acceso de maquinaria",5349,d7913e9139cc953c,9c361e4903a90527,cf3c749b60e06fcf,1023b3b142432e00,0.7625,ARQ-808,0.6181
 ARQ-806,81,"Programa de recintos, superficie, habitabilidad, accesibilidad y crecimiento",5275,48e7e5a8bc4135f0,e114407c0434678b,7acc326bd0d9de68,9a1367cc16e99a55,0.7554,ARQ-808,0.6263
@@ -809,15 +809,15 @@ ARQ-807,81,"Árbol de decisiones de trámites para obra nueva, ampliación y sit
 ARQ-808,81,"A quién contratar y cuándo: matriz de responsabilidades, firmas y coordinación",5322,248325d272c89438,2a4cba06ee984763,78236c380367e7d7,e914d0c331e361e8,0.7573,ARQ-806,0.6263
 ARQ-809,81,"Presupuesto preliminar, financiación, costos ocultos y viabilidad",5378,3931634f9c9a1736,bc3ac79239c741a3,8d5a1d167d3e5eb3,bfeee8e14ba58841,0.7625,ARQ-808,0.6141
 ARQ-810,81,Primera puerta de control: decidir si iniciar el proyecto,5366,2f5d824a6104d306,3245622279f26ff6,269afa65bcacc3ec,c7c36bb268064485,0.7639,ARQ-808,0.6134
-ARQ-811,82,"Levantamiento con medidas, cotas, deslindes, superficies y fotografías",5295,2d575484cc7c52d6,508417732449112b,88179b065a840764,04e820e62f3008b8,0.7595,ARQ-812,0.6197
+ARQ-811,82,"Levantamiento con medidas, cotas, deslindes, superficies y fotografías",5299,317da8be629d429b,508417732449112b,88179b065a840764,04e820e62f3008b8,0.7595,ARQ-812,0.6197
 ARQ-812,82,"Leer plantas, cortes, elevaciones, emplazamiento, detalles y especificaciones",5206,ed8fb3dcc46a411d,4831930fb857c100,4c15855711781e62,397de6fc326f9e56,0.7532,ARQ-817,0.6254
 ARQ-813,82,"Coordinación de suelo, fundaciones, estructura y sismo",5295,c7f593221c75f878,54fdc5cfad42b42f,db47cad5e9ed5e1b,16218707728a90c7,0.7600,ARQ-812,0.6182
 ARQ-814,82,"Cubierta y envolvente: lluvia, impermeabilización, ventanas, condensación y exigencia térmica",5383,e6ba6275109f66e8,c4cb17c14c55d343,9a5e1dcfde1715e9,c5a1095828fc946d,0.7643,ARQ-812,0.6179
 ARQ-815,82,"Redes de agua, alcantarillado, electricidad y gas: factibilidades y declaraciones",5287,7cdab252945df235,2bc1ab005bea3ffa,70cd1dafd81232ec,fb34f8b91f472e9b,0.7604,ARQ-812,0.6237
 ARQ-816,82,"Cubicaciones auditables: unidades, pérdidas, transporte y rendimientos",5316,e42ec24c5ddd8c69,d48a15b462e993d4,a6e1a185656443a8,3189155aa77a856c,0.7600,ARQ-812,0.6184
-ARQ-817,82,"Análisis de precios unitarios, presupuesto completo, IVA y contingencia",5305,03129efa9d3a5783,d4e1afa11b2c970f,e725271b3ed664f7,4c3b3fcb7a10896b,0.7595,ARQ-812,0.6254
-ARQ-818,82,"Expediente de permiso: documentos, ingreso, observaciones y seguimiento DOM",5291,d2e31225e35caf01,d052786602619de3,a3c3a8548c2c94b1,79b6e748cdca4475,0.7591,ARQ-812,0.6184
-ARQ-819,82,"Cotizaciones, contratos, subcontratistas, seguros, garantías y pagos",5309,9a6374247c90056f,9d183899f5a4381f,6561337a2c4546f1,038f336ceba26df5,0.7581,ARQ-812,0.6203
+ARQ-817,82,"Análisis de precios unitarios, presupuesto completo, IVA y contingencia",5309,b8f6fef8ff40a871,d4e1afa11b2c970f,e725271b3ed664f7,4c3b3fcb7a10896b,0.7595,ARQ-812,0.6254
+ARQ-818,82,"Expediente de permiso: documentos, ingreso, observaciones y seguimiento DOM",5295,5794df8206859cf9,d052786602619de3,a3c3a8548c2c94b1,79b6e748cdca4475,0.7591,ARQ-812,0.6184
+ARQ-819,82,"Cotizaciones, contratos, subcontratistas, seguros, garantías y pagos",5313,baf9ad609c3648c2,9d183899f5a4381f,6561337a2c4546f1,038f336ceba26df5,0.7581,ARQ-812,0.6203
 ARQ-820,82,"Cronograma, compras, ruta crítica y autorización para iniciar",5292,38fe10d660f53f36,ee70ee51dd59c6ff,3be5750dbaacc95f,ff89f2441439f06f,0.7612,ARQ-812,0.6192
 ARQ-821,83,"Instalación de faenas, protección de lo existente, cierres, vecinos, accesos y acopios",5355,6812dd4b82c5e318,de1f9c05511d1dec,938d146e320b842e,749aa529af62c940,0.7581,ARQ-826,0.6316
 ARQ-822,83,"Movimiento de tierra, excavaciones, fundaciones, humedad y puntos de inspección",5364,2c116df1713f833b,e19c6d4d7f3b0356,5329c6421b35ddf1,6da0238e37639c42,0.7591,ARQ-826,0.6327
@@ -828,4 +828,14 @@ ARQ-826,83,"Terminaciones: revestimientos, pisos, carpinterías, baños, cocina 
 ARQ-827,83,"Control del presupuesto durante la obra: avance, pagos, compras, cambios y flujo de caja",5441,f45d8e40540e68b7,da62d0e840213a86,85572b4d64b684eb,de795ded75baef89,0.7610,ARQ-826,0.6295
 ARQ-828,83,"Seguridad, residuos, ruido, inspecciones, fallas, calidad y comunidad",5231,e09e2f38473879c1,9f18eafd3d2cd6f3,fceec2ff8e3450d3,47d19b5409660b80,0.7544,ARQ-826,0.6337
 ARQ-829,83,"Atrasos, sobrecostos y descubrimientos imprevistos: órdenes de cambio",5251,704064afa7903038,b21a632dec32b19a,3effd8df0fb72bd4,5d33cfc1d0799975,0.7551,ARQ-826,0.6368
-ARQ-830,83,"Término de obra, certificados, recepción definitiva, garantías y mantenimiento",5362,c5aa0ba43c0bfc4e,366a284dc3f23388,04a11c0dda2f77c8,da5f33bb19a67fbe,0.7639,ARQ-826,0.6352
+ARQ-830,83,"Término de obra, certificados, recepción definitiva, garantías y mantenimiento",5373,7a51a36ce3387ce9,366a284dc3f23388,04a11c0dda2f77c8,da5f33bb19a67fbe,0.7639,ARQ-826,0.6352
+ARQ-831,84,"Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites",3338,745efe0c4b6c63e1,9af98e61ea9b7f90,f3ba938fc79e37d3,e91cdb4426b8bbf1,1.0000,ARQ-840,0.0124
+ARQ-832,84,"Valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo",2994,2d5f45080feaf12f,69ed41b6e9c14778,3d5863d06581a0c1,788614e264204574,1.0000,ARQ-839,0.0170
+ARQ-833,84,"Siniestro, evidencia y reclamación: antes, durante y después del daño",3004,9ccb21fd5215ec7d,344db9ce40b88c0e,75a4305b6a76f71d,b26e03d50cefc4c0,1.0000,ARQ-838,0.0155
+ARQ-834,84,"Leer un evento catastrófico: pronóstico, alerta, observación e impacto",3015,c5865a5f79555d4b,5336d16963307697,0faaa7864a93777b,d895ce0dbc94699e,1.0000,ARQ-835,0.0142
+ARQ-835,84,"Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación",3044,8a5646bd3df0db40,92b6612cbccc3ce5,77407eb0e03a6649,f03e65e8fb27efe8,1.0000,ARQ-839,0.0151
+ARQ-836,84,Inspección visual de un inmueble existente: ficha educativa y límites,2776,e1da850de7778a37,9f45a2626cee753a,29174c5263445048,2a89b3b451865e2c,1.0000,ARQ-838,0.0177
+ARQ-837,84,"Plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado",3109,a499d95becfee950,cee5bd05edb12373,c9192576eb2e1e77,b49ad32e808fdfc1,1.0000,ARQ-840,0.0176
+ARQ-838,84,"Humedad, fisuras y daño posterior a un sismo: de la observación a la derivación",2950,d25fa493ed020ffd,9b74418dc8e5e864,12c6e39defef1ef5,d8e87fc3a924ee3f,1.0000,ARQ-836,0.0177
+ARQ-839,84,"Costos de reparación, mantenimiento y habilitación antes de arrendar o vender",2881,0b6781780471e70e,f532bd48974bea5c,6f232890015e8555,de6a5cc7543d41dd,1.0000,ARQ-832,0.0170
+ARQ-840,84,Carpeta de evaluación inmobiliaria y puerta de decisión de operación,3065,56dec81fc156ce6f,193d9b996e8ebf61,d9f0ddec28259b0d,6971e01c3d362d56,1.0000,ARQ-837,0.0176

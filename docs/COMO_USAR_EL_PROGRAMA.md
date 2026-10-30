@@ -28,7 +28,7 @@
 
 ### Secuencia completa
 
-ARQ-001 → ARQ-830. Recomendada cuando se busca recorrer el núcleo, las tipologías, la profundización profesional y la aplicación integrada a vivienda siguiendo sus dependencias.
+ARQ-001 → ARQ-840. Recomendada cuando se busca recorrer el núcleo, las tipologías, la profundización profesional y la aplicación integrada a vivienda siguiendo sus dependencias.
 
 ### Por parte
 

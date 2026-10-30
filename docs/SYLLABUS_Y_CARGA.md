@@ -4,7 +4,7 @@
 
 El programa contiene:
 
-- 830 clases de referencia en 83 partes y cuatro fases;
+- 840 clases de referencia en 84 partes y cuatro fases;
 - 60 sesiones en diez talleres verticales;
 - 35 rutas de aprendizaje, doce troncales y 23 de especialización;
 - evaluación en niveles de clase, parte, ruta y programa.

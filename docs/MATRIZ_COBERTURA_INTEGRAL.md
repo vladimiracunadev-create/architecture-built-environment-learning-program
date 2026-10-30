@@ -53,6 +53,9 @@ Esta matriz registra cobertura editorial, no acreditación ni revisión externa.
 | Portafolio y evaluación | Sí | talleres, docs y clases finales | inicial–investigación | alta | diagnóstico, crítica, versiones, defensa y reflexión | elaboración editorial trazable | validación con cohortes pendiente | 10 talleres, 60 sesiones y rúbrica común |
 | Entornos extremos y espacio | Sí | Parte 80 | avanzado–investigación | media | transferencia desde fundamentos terrestres y sistemas | NASA y UNDRR | tema emergente; revisión aeroespacial pendiente | 10 clases nuevas sin desplazar el núcleo |
 | Ciberseguridad de edificios | Sí | ARQ-329, ARQ-596, Parte 73 y ARQ-799 | intermedio–especialización | alta | activos, amenazas, operación y respuesta | NIST | ejercicios de laboratorio aislados pendientes | integrada en rutas 27 y 33 |
+| Seguros y gestión económica del riesgo | Sí | Parte 84 (ARQ-831–833), ARQ-418, 420, 694, 819 y guía | básico–aplicado | media | póliza, cobertura, valor de reconstrucción, infraseguro, siniestro y reclamación | CMF y BCN; texto del Código de Comercio sin leer | lectura de normas y pólizas reales; revisión de seguros y jurídica | RUTA-12, 29, 34 y 35 |
+| Casos de catástrofes y eventos en Chile | Parcial | Parte 84 (ARQ-834) y biblioteca de casos | aplicado | media | lectura de pronóstico, alerta, observación e impacto; balances con fecha | SENAPRED, MINVU y fuentes parciales | informes técnicos y cronología 2026 incompleta | RUTA-05, 28, 29 y 35 |
+| Evaluación técnica de inmuebles para corretaje | Sí, con límites | Parte 84 (ARQ-835–840), RUTA-35 y caso | aplicado | media | factores de valor, inspección visual, plano y permiso, humedad y fisuras, costos y carpeta | LGUC, OGUC, MINVU, SEC | validación con corredores y tasadores; pilotos | RUTA-35 y EST-06 |
 
 ## Lectura de las brechas
 

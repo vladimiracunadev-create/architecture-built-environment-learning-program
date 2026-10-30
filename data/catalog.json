@@ -5808,5 +5808,75 @@
     "part": 83,
     "is_new": true,
     "source": "classes/parte-83/ARQ-830.md"
+  },
+  {
+    "id": "ARQ-831",
+    "title": "Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-831.md"
+  },
+  {
+    "id": "ARQ-832",
+    "title": "Valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-832.md"
+  },
+  {
+    "id": "ARQ-833",
+    "title": "Siniestro, evidencia y reclamación: antes, durante y después del daño",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-833.md"
+  },
+  {
+    "id": "ARQ-834",
+    "title": "Leer un evento catastrófico: pronóstico, alerta, observación e impacto",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-834.md"
+  },
+  {
+    "id": "ARQ-835",
+    "title": "Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-835.md"
+  },
+  {
+    "id": "ARQ-836",
+    "title": "Inspección visual de un inmueble existente: ficha educativa y límites",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-836.md"
+  },
+  {
+    "id": "ARQ-837",
+    "title": "Plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-837.md"
+  },
+  {
+    "id": "ARQ-838",
+    "title": "Humedad, fisuras y daño posterior a un sismo: de la observación a la derivación",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-838.md"
+  },
+  {
+    "id": "ARQ-839",
+    "title": "Costos de reparación, mantenimiento y habilitación antes de arrendar o vender",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-839.md"
+  },
+  {
+    "id": "ARQ-840",
+    "title": "Carpeta de evaluación inmobiliaria y puerta de decisión de operación",
+    "part": 84,
+    "is_new": true,
+    "source": "classes/parte-84/ARQ-840.md"
   }
 ]

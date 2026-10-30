@@ -360,7 +360,19 @@
       ],
       "entry": "Lectura de planos, escalas, materiales y secuencias.",
       "exit": "Coordinar un detalle, su montaje, control de calidad y mantenimiento.",
-      "capstone": "EST-06"
+      "capstone": "EST-06",
+      "risk_extension": {
+        "parts": [
+          35,
+          36,
+          37,
+          38,
+          70,
+          84
+        ],
+        "role": "constructor o maestro de obra",
+        "focus": "Reconoce qué condiciones de amenaza obligan a detener o adaptar la ejecución, qué evidencia fotográfica y documental conviene conservar para garantías y reclamos, y qué trabajos exigen instalador o especialista autorizado."
+      }
     },
     {
       "id": "RUTA-07",
@@ -385,10 +397,11 @@
           19,
           35,
           38,
-          70
+          70,
+          84
         ],
         "role": "constructor o inspector",
-        "focus": "Revisa qué condiciones del terreno y de amenaza obligan a detener la obra y cómo se distribuyen responsabilidades, garantías y seguros."
+        "focus": "Revisa qué condiciones del terreno y de amenaza obligan a detener la obra y cómo se distribuyen responsabilidades, garantías y seguros. La Parte 84 aporta el control de cláusulas y la evidencia para reclamos."
       }
     },
     {
@@ -478,10 +491,11 @@
           36,
           37,
           38,
-          42
+          42,
+          84
         ],
         "role": "administrador de inmuebles",
-        "focus": "Planifica mantenimiento, inspección posterior a eventos y costo de ciclo de vida frente a las amenazas del sitio."
+        "focus": "Planifica mantenimiento, inspección posterior a eventos y costo de ciclo de vida frente a las amenazas del sitio. La Parte 84 aporta la evidencia previa y posterior a un siniestro y los costos de mantenimiento."
       }
     },
     {
@@ -509,10 +523,11 @@
           35,
           36,
           37,
-          70
+          70,
+          84
         ],
         "role": "propietario o mandante",
-        "focus": "Aprende a pedir estudios, leer un informe y una póliza, y exigir que una decisión de comprar o construir conserve sus condiciones de detención."
+        "focus": "Aprende a pedir estudios, leer un informe y una póliza, y exigir que una decisión de comprar o construir conserve sus condiciones de detención. La Parte 84 aporta la lectura de pólizas y de eventos y la carpeta de evaluación antes de comprar."
       }
     },
     {
@@ -579,10 +594,11 @@
           19,
           38,
           70,
-          82
+          82,
+          84
         ],
         "role": "proyectista de vivienda",
-        "focus": "Incorpora sitio, suelo, multiamenaza y contrato al proyecto de vivienda en vez de tratarlos como anexos."
+        "focus": "Incorpora sitio, suelo, multiamenaza y contrato al proyecto de vivienda en vez de tratarlos como anexos. La Parte 84 aporta el valor y la inspección de viviendas existentes."
       }
     },
     {
@@ -945,10 +961,11 @@
           19,
           40,
           42,
-          70
+          70,
+          84
         ],
         "role": "gestor de emergencias",
-        "focus": "Une el peligro con la decisión de emplazar, la obligación normativa, el costo de recuperación y la transferencia del riesgo."
+        "focus": "Une el peligro con la decisión de emplazar, la obligación normativa, el costo de recuperación y la transferencia del riesgo. La Parte 84 aporta el seguro, la lectura de eventos catastróficos y la evidencia para reclamar."
       }
     },
     {
@@ -974,7 +991,19 @@
       ],
       "entry": "Ciclo del proyecto, programa, sitio, costo, normativa y ética.",
       "exit": "Evaluar una oportunidad con factibilidad, financiamiento, riesgo, impactos y estrategia de salida.",
-      "capstone": "EST-10"
+      "capstone": "EST-10",
+      "risk_extension": {
+        "parts": [
+          19,
+          35,
+          36,
+          37,
+          38,
+          84
+        ],
+        "role": "desarrollador inmobiliario",
+        "focus": "Contrasta una oportunidad con suelo, amenazas, asegurabilidad, valor y evaluación de inmuebles existentes antes de comprometer capital; un peligro crítico o una restricción legal sin resolver detiene la operación aunque el promedio sea favorable."
+      }
     },
     {
       "id": "RUTA-31",
@@ -1128,10 +1157,11 @@
           37,
           38,
           47,
-          70
+          70,
+          84
         ],
         "role": "propietario",
-        "focus": "Antes de ampliar o comprar, revisa agua, clima y multiamenaza del lugar, la operación posterior y los seguros."
+        "focus": "Antes de ampliar o comprar, revisa agua, clima y multiamenaza del lugar, la operación posterior y los seguros. La Parte 84 aporta seguros, cobertura frente a eventos y evaluación de inmuebles existentes."
       }
     },
     {
@@ -1162,7 +1192,8 @@
         47,
         70,
         74,
-        81
+        81,
+        84
       ],
       "entry": "Para corredores de propiedades y quienes los acompañan en una operación (compradores, vendedores, arrendadores, administradores). Diagnóstico inicial: leer planos y superficies, distinguir observación visible, evidencia documental, hipótesis técnica y decisión profesional, y reconocer qué no puede afirmar un corredor.",
       "exit": "Armar y defender una carpeta de evaluación inmobiliaria para una operación de corretaje: descripción del inmueble, antecedentes documentales, revisión normativa inicial, riesgos, costos preliminares, mantenimiento y recomendaciones que indiquen qué verificar y a qué profesional derivar, sin declarar estabilidad, legalidad ni ausencia de riesgo.",
@@ -1184,6 +1215,9 @@
         "ARQ-453",
         "ARQ-454",
         "ARQ-804",
+        "ARQ-836",
+        "ARQ-837",
+        "ARQ-838",
         "ARQ-348",
         "ARQ-349",
         "ARQ-378",
@@ -1195,22 +1229,29 @@
         "ARQ-371",
         "ARQ-372",
         "ARQ-368",
+        "ARQ-834",
         "ARQ-742",
         "ARQ-743",
+        "ARQ-835",
         "ARQ-418",
         "ARQ-420",
         "ARQ-464",
+        "ARQ-839",
         "ARQ-694",
-        "ARQ-819"
+        "ARQ-819",
+        "ARQ-831",
+        "ARQ-832",
+        "ARQ-833",
+        "ARQ-840"
       ],
       "case_files": [
         "cases/EVALUACION-TECNICA-INMUEBLES.md",
         "cases/DECISION-INTEGRAL-RESILIENTE.md"
       ],
       "formal_checkpoints": [
-        "ARQ-394 · puerta DOCUMENTOS COHERENTES O DERIVAR",
+        "ARQ-837 · puerta DOCUMENTOS COHERENTES O DERIVAR",
         "ARQ-360 · puerta RIESGO DE EMPLAZAMIENTO: CONTINUAR / CONDICIONAR / DESCARTAR",
-        "ARQ-420 · puerta RECOMENDACIÓN JUSTIFICADA CON SENSIBILIDAD Y LÍMITES"
+        "ARQ-840 · puerta CONTINUAR / CONDICIONAR / DERIVAR / DESISTIR"
       ],
       "activity_boundary": "Las actividades son simulaciones de evaluación educativa. El corredor puede organizar antecedentes, registrar observaciones visibles, formular preguntas y advertir al cliente qué falta verificar; la estabilidad estructural, la legalidad de lo construido, el diagnóstico de patologías, la tasación y la ausencia de riesgo corresponden a arquitectos, ingenieros, inspectores, tasadores y organismos competentes. Esta ruta no habilita para esas funciones. Ninguna conclusión se basa solo en fotografías o inspecciones visuales informales."
     }

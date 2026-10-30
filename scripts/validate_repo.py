@@ -61,7 +61,7 @@ def main() -> int:
         ),
         "LICENSING_AUDIT.md": (
             f"{PROGRAM['class_count']} clases y {PROGRAM['part_count']} README de parte",
-            "631 URLs externas únicas y 2.419 relaciones clase–fuente",
+            "635 URLs externas únicas y 2.441 relaciones clase–fuente",
         ),
     }
     for relative, claims in current_document_claims.items():

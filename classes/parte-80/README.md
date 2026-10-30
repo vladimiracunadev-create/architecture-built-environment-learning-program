@@ -148,4 +148,4 @@ Esta parte comienza con **Arquitectura en desiertos, altura y aislamiento** y cu
 
 ## Navegación
 
-[← Parte 79](../parte-79/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 81 →](../parte-81/README.md)
+[← Parte 79](../parte-79/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 81 →](../parte-81/README.md)

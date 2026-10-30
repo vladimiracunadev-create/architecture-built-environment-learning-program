@@ -3,12 +3,12 @@
   "principle": "Una clase no es solo un tema: es una decisión sustentada.",
   "generated_on": "2026-10-12",
   "generated_from": [
-    "830 class Markdown files",
+    "840 class Markdown files",
     "data/catalog.json",
     "sources/bibliography.json",
     "five editorial pilot overrides"
   ],
-  "decision_count": 830,
+  "decision_count": 840,
   "manual_editorial_pilots": [
     "ARQ-001",
     "ARQ-240",
@@ -6254,7 +6254,8 @@
       ],
       "introduces": "1. Identificar y delimitar las condiciones necesarias para responder la pregunta central de reconstrucción y memoria de desastres. 2.",
       "dependencies": [
-        "ARQ-089"
+        "ARQ-089",
+        "ARQ-834"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de reconstrucción y memoria de desastres.",
@@ -19565,7 +19566,8 @@
       "introduces": "ARQ-266 separó fuga de aire y condiciones de ensayo. Aquí volvemos a difusión, sin incorporar aire en el modelo. HIG-INT-01 adopta una interfaz fría y dos disposiciones ficticias de resistencia al vapor.",
       "dependencies": [
         "ARQ-268",
-        "ARQ-278"
+        "ARQ-278",
+        "ARQ-838"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de vapor, condensación y capacidad de secado.",
@@ -26047,7 +26049,8 @@
       "introduces": "ARQ-348 relacionó componentes y servicios. Esta clase abre REC-RED-01 , una red de tareas con duraciones ficticias, y REC-FUNC-01 , una curva de servicio independiente. Calcularás una secuencia crítica y una pérdida equivalente dentro de sus modelos.",
       "dependencies": [
         "ARQ-350",
-        "ARQ-357"
+        "ARQ-357",
+        "ARQ-838"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de daño, reparación y recuperación funcional.",
@@ -26338,6 +26341,7 @@
       "dependencies": [
         "ARQ-359",
         "ARQ-369",
+        "ARQ-834",
         "ARQ-354"
       ],
       "outcomes": [
@@ -26929,7 +26933,8 @@
       "introduces": "La clase cierra la parte 36. Construirás un expediente para un servicio comunitario ficticio, con alternativas distintas y criterios verificables. Resolverás presupuestos de superficie y cambios de implantación sin asignar amenazas reales a predios inexistentes.",
       "dependencies": [
         "ARQ-361",
-        "ARQ-370"
+        "ARQ-370",
+        "ARQ-840"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de decisión de localizar, adaptar o no construir.",
@@ -27641,7 +27646,8 @@
       ],
       "introduces": "Construirás IFZ-REL-01 , un grafo de exposición hipotética, y IFZ-CONTEO-01 , un registro simulado de partículas depositadas. No se generan incendios ni se ensayan materiales. Los modelos permiten distinguir rutas, distribuciones y evidencia; no predicen ignición ni establecen zonas seguras.",
       "dependencies": [
-        "ARQ-369"
+        "ARQ-369",
+        "ARQ-834"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de incendio de interfaz urbano-forestal.",
@@ -27913,7 +27919,9 @@
       ],
       "introduces": "Entregarás un registro de riesgos de un sitio ficticio, compararás tres decisiones de localización y elaborarás la estructura de un plan de preparación. No producirás mapas de evacuación reales ni indicarás cotas universales de seguridad. Las rutas y recomendaciones operativas para una localidad deben provenir de autoridades y fuentes competentes.",
       "dependencies": [
-        "ARQ-372"
+        "ARQ-372",
+        "ARQ-831",
+        "ARQ-834"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de del peligro al riesgo: sitio, personas y decisiones.",
@@ -28222,7 +28230,8 @@
       ],
       "introduces": "Recibe el método de ARQ-374: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.",
       "dependencies": [
-        "ARQ-376"
+        "ARQ-376",
+        "ARQ-834"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de cascadas de eventos y dependencia de infraestructuras.",
@@ -28370,7 +28379,8 @@
       ],
       "introduces": "Recibe el método de ARQ-376: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.",
       "dependencies": [
-        "ARQ-378"
+        "ARQ-378",
+        "ARQ-834"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de planes de emergencia: roles, comunicación y apoyo.",
@@ -28444,7 +28454,9 @@
       ],
       "introduces": "Recibe el método de ARQ-377: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.",
       "dependencies": [
-        "ARQ-379"
+        "ARQ-379",
+        "ARQ-833",
+        "ARQ-838"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de inspección y restricciones después de un evento.",
@@ -28518,7 +28530,8 @@
       ],
       "introduces": "Recibe el método de ARQ-378: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.",
       "dependencies": [
-        "ARQ-380"
+        "ARQ-380",
+        "ARQ-833"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de reconstrucción, reubicación y reducción de riesgo.",
@@ -28593,7 +28606,8 @@
       "introduces": "Recibe el método de ARQ-379: conservar datos, versiones y límites. El nuevo caso tiene identificador propio y no hereda magnitudes del capítulo anterior salvo que se indique expresamente. Elaborarás un registro reproducible, resolverás un caso numérico y una práctica diferente, y cerrarás con una decisión que distinga lo comprobado de lo pendiente.",
       "dependencies": [
         "ARQ-381",
-        "ARQ-471"
+        "ARQ-471",
+        "ARQ-834"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de ejercicio integrado de incertidumbre y decisión.",
@@ -31078,7 +31092,8 @@
       "introduces": "Recibe ARQ-411 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.",
       "dependencies": [
         "ARQ-413",
-        "ARQ-816"
+        "ARQ-816",
+        "ARQ-832"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de superficies útiles, construidas y criterios de medición.",
@@ -31140,7 +31155,8 @@
       "introduces": "Recibe ARQ-412 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.",
       "dependencies": [
         "ARQ-414",
-        "ARQ-816"
+        "ARQ-816",
+        "ARQ-832"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de cubicaciones y cantidades de obra.",
@@ -31466,7 +31482,8 @@
       "introduces": "Recibe ARQ-417 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.",
       "dependencies": [
         "ARQ-419",
-        "ARQ-809"
+        "ARQ-809",
+        "ARQ-831"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de costo de ciclo de vida y mantenimiento.",
@@ -31527,7 +31544,8 @@
       ],
       "introduces": "Recibe ARQ-418 y conserva sus definiciones; los parámetros nuevos se identifican explícitamente y no reescriben el caso anterior. Elaborarás un registro reproducible, resolverás un caso cuantitativo, contrastarás al menos una variante y cerrarás distinguiendo cálculo, evidencia, decisión y asunto pendiente.",
       "dependencies": [
-        "ARQ-420"
+        "ARQ-420",
+        "ARQ-835"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de valor, asequibilidad y economía social.",
@@ -31590,6 +31608,7 @@
       "dependencies": [
         "ARQ-471",
         "ARQ-809",
+        "ARQ-831",
         "ARQ-421"
       ],
       "outcomes": [
@@ -33760,7 +33779,8 @@
       ],
       "introduces": "Elaborarás un dossier inicial que distinga observaciones, hipótesis, información faltante y decisiones suspendidas. No entrarás a edificios dañados, no retirarás elementos ni realizarás ensayos destructivos. No se enseña a declarar estabilidad ni a elegir refuerzos sin evaluación especializada.",
       "dependencies": [
-        "ARQ-452"
+        "ARQ-452",
+        "ARQ-836"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de reconocer valor y daño antes de intervenir.",
@@ -33921,7 +33941,9 @@
       ],
       "introduces": "ARQ-453 continúa desde ARQ-452; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. El trabajo sobre existentes requiere conservar una separación estricta entre registro , interpretación y propuesta .",
       "dependencies": [
-        "ARQ-454"
+        "ARQ-454",
+        "ARQ-836",
+        "ARQ-838"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de humedad, sales, fisuras y causas posibles.",
@@ -33995,7 +34017,9 @@
       ],
       "introduces": "ARQ-454 continúa desde ARQ-453; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. El trabajo sobre existentes requiere conservar una separación estricta entre registro , interpretación y propuesta .",
       "dependencies": [
-        "ARQ-455"
+        "ARQ-455",
+        "ARQ-836",
+        "ARQ-838"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de inspección, ensayos y diagnóstico diferencial.",
@@ -34775,7 +34799,9 @@
       ],
       "introduces": "ARQ-464 continúa desde ARQ-463; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. Durante la operación, un edificio cambia por uso, mantenimiento, sustituciones y fallas.",
       "dependencies": [
-        "ARQ-465"
+        "ARQ-465",
+        "ARQ-833",
+        "ARQ-839"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de mantenimiento preventivo, predictivo y correctivo.",
@@ -34849,7 +34875,8 @@
       ],
       "introduces": "ARQ-465 continúa desde ARQ-464; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. Durante la operación, un edificio cambia por uso, mantenimiento, sustituciones y fallas.",
       "dependencies": [
-        "ARQ-466"
+        "ARQ-466",
+        "ARQ-833"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de inspecciones, garantías y trazabilidad.",
@@ -50412,7 +50439,8 @@
       ],
       "introduces": "La clase profundiza en contratos, seguros y distribución de responsabilidades para gestionar encargos, relaciones, riesgos y recursos sin ocultar responsabilidades ni conflictos. Recibe de ARQ-693 un registro de decisiones, fuentes y pendientes. No basta con reconocer vocabulario: el estudiante debe transformar una pregunta en un procedimiento que otra persona pueda reconstruir, criticar y corregir.",
       "dependencies": [
-        "ARQ-695"
+        "ARQ-695",
+        "ARQ-831"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de contratos, seguros y distribución de responsabilidades.",
@@ -53340,7 +53368,8 @@
       ],
       "introduces": "La clase profundiza en política de suelo, captura de valor y regulación para relacionar decisiones espaciales con instituciones, mercados, derechos y experiencias sin reducir la ciudad a indicadores. Recibe de ARQ-741 un registro de decisiones, fuentes y pendientes. No basta con reconocer vocabulario: el estudiante debe transformar una pregunta en un procedimiento que otra persona pueda reconstruir, criticar y corregir.",
       "dependencies": [
-        "ARQ-743"
+        "ARQ-743",
+        "ARQ-835"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de política de suelo, captura de valor y regulación.",
@@ -53401,7 +53430,8 @@
       ],
       "introduces": "La clase profundiza en mercados de vivienda, arriendo y asequibilidad para relacionar decisiones espaciales con instituciones, mercados, derechos y experiencias sin reducir la ciudad a indicadores. Recibe de ARQ-742 un registro de decisiones, fuentes y pendientes. No basta con reconocer vocabulario: el estudiante debe transformar una pregunta en un procedimiento que otra persona pueda reconstruir, criticar y corregir.",
       "dependencies": [
-        "ARQ-744"
+        "ARQ-744",
+        "ARQ-835"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de mercados de vivienda, arriendo y asequibilidad.",
@@ -56945,7 +56975,8 @@
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-031 , ARQ-111 , ARQ-141 , ARQ-149 , ARQ-411 no forma por sí solo una secuencia doméstica de decisión. Dentro de Antes de construir: decisión, terreno, legalidad y permisos , la tarea es convertir una intención doméstica en una decisión GO, REDISEÑAR o DETENER sustentada por antecedentes del predio, riesgos, atribuciones y capacidad financiera. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
         "ARQ-802",
-        "ARQ-810"
+        "ARQ-810",
+        "ARQ-832"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico.",
@@ -57037,7 +57068,8 @@
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-004 , ARQ-393 , ARQ-394 , ARQ-481 no forma por sí solo una secuencia doméstica de decisión. Dentro de Antes de construir: decisión, terreno, legalidad y permisos , la tarea es convertir una intención doméstica en una decisión GO, REDISEÑAR o DETENER sustentada por antecedentes del predio, riesgos, atribuciones y capacidad financiera. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
         "ARQ-803",
-        "ARQ-810"
+        "ARQ-810",
+        "ARQ-837"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de documentos del terreno y de la vivienda: dominio, rol, planos, permisos y recepciones existentes.",
@@ -57129,7 +57161,8 @@
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-123 , ARQ-124 , ARQ-393 , ARQ-394 no forma por sí solo una secuencia doméstica de decisión. Dentro de Antes de construir: decisión, terreno, legalidad y permisos , la tarea es convertir una intención doméstica en una decisión GO, REDISEÑAR o DETENER sustentada por antecedentes del predio, riesgos, atribuciones y capacidad financiera. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
         "ARQ-804",
-        "ARQ-810"
+        "ARQ-810",
+        "ARQ-837"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de certificado de informaciones previas, plan regulador y restricciones del predio.",
@@ -57873,7 +57906,8 @@
       ],
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-021 , ARQ-026 , ARQ-381 , ARQ-804 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
-        "ARQ-812"
+        "ARQ-812",
+        "ARQ-836"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de levantamiento con medidas, cotas, deslindes, superficies y fotografías.",
@@ -58428,7 +58462,8 @@
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-414 , ARQ-415 , ARQ-416 , ARQ-417 , ARQ-816 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
         "ARQ-818",
-        "ARQ-827"
+        "ARQ-827",
+        "ARQ-839"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de análisis de precios unitarios, presupuesto completo, iva y contingencia.",
@@ -58521,7 +58556,8 @@
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-394 , ARQ-401 , ARQ-403 , ARQ-409 , ARQ-807 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
         "ARQ-819",
-        "ARQ-820"
+        "ARQ-820",
+        "ARQ-837"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de expediente de permiso: documentos, ingreso, observaciones y seguimiento dom.",
@@ -58613,7 +58649,8 @@
       ],
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-404 , ARQ-405 , ARQ-406 , ARQ-407 , ARQ-417 no forma por sí solo una secuencia doméstica de decisión. Dentro de Proyecto, presupuesto detallado, compras y autorización , la tarea es coordinar información técnica, cantidades, precios, contratos y habilitaciones sin confundir una estimación educativa con proyecto ejecutable o autorización. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
-        "ARQ-820"
+        "ARQ-820",
+        "ARQ-831"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de cotizaciones, contratos, subcontratistas, seguros, garantías y pagos.",
@@ -59615,7 +59652,7 @@
         "class-specific"
       ],
       "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo puede una persona propietaria abordar término de obra, certificados, recepción definitiva, garantías y mantenimiento , producir carpeta de cierre de ambos casos con planos finales, certificados, recepción o archivo aplicable, garantías, pendientes, manual y comparación final y demostrar que terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación? Fallo crítico de esta clase: terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación.",
-      "placement": "Cierra la Parte 83: integra lo producido en ARQ-829 · Atrasos, sobrecostos y descubrimientos imprevistos: órdenes de cambio para responder «¿Cómo puede una persona propietaria abordar término de obra, certificados, recepción definitiva, garantías y mantenimiento , producir carpeta de cierre de ambos casos con planos finales, certificados, recepción o archivo aplicable, garantías, pendientes, manual y comparación final y demostrar que terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación? Fallo crítico de esta clase: terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación.». La transición hacia el taller final EST-10 y el portafolio longitudinal transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.",
+      "placement": "Cierra la Parte 83: integra lo producido en ARQ-829 · Atrasos, sobrecostos y descubrimientos imprevistos: órdenes de cambio para responder «¿Cómo puede una persona propietaria abordar término de obra, certificados, recepción definitiva, garantías y mantenimiento , producir carpeta de cierre de ambos casos con planos finales, certificados, recepción o archivo aplicable, garantías, pendientes, manual y comparación final y demostrar que terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación? Fallo crítico de esta clase: terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación.». La transición hacia ARQ-831 · Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.",
       "prerequisites": [
         "ARQ-309",
         "ARQ-330",
@@ -59626,7 +59663,7 @@
       ],
       "introduces": "Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-309 , ARQ-330 , ARQ-410 , ARQ-430 , ARQ-490 no forma por sí solo una secuencia doméstica de decisión. Dentro de Construcción, control de gastos, recepción y mantenimiento , la tarea es seguir la obra mediante hitos verificables de seguridad, calidad, costo y cambio hasta formar una carpeta de recepción y mantenimiento. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.",
       "dependencies": [
-        "EST-10"
+        "ARQ-831"
       ],
       "outcomes": [
         "Identificar y delimitar las condiciones necesarias para responder la pregunta central de término de obra, certificados, recepción definitiva, garantías y mantenimiento.",
@@ -59639,10 +59676,10 @@
         "La entrega responde explícitamente a la pregunta: ¿Cómo puede una persona propietaria abordar término de obra, certificados, recepción definitiva, garantías y mantenimiento , producir carpeta de cierre de ambos casos con planos finales, certificados, recepción o archivo aplicable, garantías, pendientes, manual y comparación final y demostrar que terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación? Fallo crítico de esta clase: terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación.",
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Audita una carpeta con treinta ítems y cinco ausencias. Clasifica qué impide recepción, qué impide uso seguro, qué queda como pendiente contractual y qué alimenta mantenimiento. Trabaja en una hoja que conserve fórmula y unidades.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
-        "La evidencia deja disponible una entrada comprobable para EST-10.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-831.",
         "- Cerrar demasiado pronto: en ARQ-830, una apariencia convincente no demuestra mantenimiento y reapertura. Vuelve al primer dato sin origen o al primer cambio sin autorización."
       ],
-      "next_connection": "La continuidad es EST-10, donde la evidencia se incorpora al portafolio longitudinal y a la defensa final.",
+      "next_connection": "La continuidad inmediata es ARQ-831 · Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
         {
           "decision": "marco nacional, competencias, responsabilidades, regla general de permiso, base de derechos municipales, control de obra y recepción.",
@@ -59695,6 +59732,718 @@
             "https://www.minvu.gob.cl/elementos-tecnicos/formularios/formularios-de-permisos-de-obra-menor/"
           ],
           "application": "Consulta: listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166. Límite: la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo, estructura y otras leyes pueden cambiar el expediente. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-831",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Qué cubre realmente una póliza de un inmueble o de una obra, qué deja fuera y qué debe hacer la persona asegurada para que la cobertura exista cuando ocurra el daño? Fallo crítico de esta clase: una póliza vigente no demuestra que el daño esté cubierto, que la suma asegurada alcance ni que el riesgo siga siendo el que se declaró al contratar.",
+      "placement": "Abre la Parte 84 porque plantea primero el problema «¿Qué cubre realmente una póliza de un inmueble o de una obra, qué deja fuera y qué debe hacer la persona asegurada para que la cobertura exista cuando ocurra el daño? Fallo crítico de esta clase: una póliza vigente no demuestra que el daño esté cubierto, que la suma asegurada alcance ni que el riesgo siga siendo el que se declaró al contratar.». La transición desde ARQ-830 · Término de obra, certificados, recepción definitiva, garantías y mantenimiento conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-832 · Valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo desarrollará a continuación.",
+      "prerequisites": [
+        "ARQ-371",
+        "ARQ-418",
+        "ARQ-420",
+        "ARQ-694",
+        "ARQ-819",
+        "ARQ-830"
+      ],
+      "introduces": "En el programa, ARQ-694 y ARQ-819 nombran el seguro como parte de la distribución de responsabilidades, pero ninguna clase abre una póliza y la lee cláusula por cláusula. Quien evalúa un inmueble, administra una copropiedad o prepara una obra suele oír frases como «está asegurado» o «tiene seguro de incendio». Esa frase no contesta nada útil: no dice qué eventos cubre, hasta qué monto, con qué retención, con qué exclusiones ni quién puede reclamar.",
+      "dependencies": [
+        "ARQ-832",
+        "ARQ-833",
+        "ARQ-838"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites.",
+        "Producir y comprobar la evidencia declarada por la clase: En el programa, ARQ-694 y ARQ-819 nombran el seguro como parte de la distribución de responsabilidades, pero ninguna clase abre una póliza y la lee cláusula por cláusula. Quien evalúa un inmueble, administra una copropiedad o prepara una obra suele oír frases como «está asegurado» o «tiene seguro de incendio». Esa frase no contesta nada útil: no dice qué eventos cubre, hasta qué monto, con qué retención, con qué exclusiones ni quién puede reclamar.",
+        "Justificar una decisión de seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Obtén una póliza real propia o un modelo de condiciones generales publicado por una compañía y por la Comisión para el Mercado Financiero. Si usas una póliza real, trabaja sin compartirla. Completa la tabla de cinco pasadas con cláusulas citadas.",
+      "evidence": "En el programa, ARQ-694 y ARQ-819 nombran el seguro como parte de la distribución de responsabilidades, pero ninguna clase abre una póliza y la lee cláusula por cláusula. Quien evalúa un inmueble, administra una copropiedad o prepara una obra suele oír frases como «está asegurado» o «tiene seguro de incendio». Esa frase no contesta nada útil: no dice qué eventos cubre, hasta qué monto, con qué retención, con qué exclusiones ni quién puede reclamar.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Qué cubre realmente una póliza de un inmueble o de una obra, qué deja fuera y qué debe hacer la persona asegurada para que la cobertura exista cuando ocurra el daño? Fallo crítico de esta clase: una póliza vigente no demuestra que el daño esté cubierto, que la suma asegurada alcance ni que el riesgo siga siendo el que se declaró al contratar.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Obtén una póliza real propia o un modelo de condiciones generales publicado por una compañía y por la Comisión para el Mercado Financiero. Si usas una póliza real, trabaja sin compartirla. Completa la tabla de cinco pasadas con cláusulas citadas.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-832.",
+        "- Leer solo las condiciones particulares: el resumen de una página omite exclusiones y obligaciones que están en las generales. Vuelve a las cinco pasadas."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-832 · Valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "ubica al organismo supervisor y los servicios públicos para consultar seguros contratados y orientar tras temporales.",
+          "source_ids": [
+            "source-cmfchile-cl-5b365b7aed"
+          ],
+          "source_titles": [
+            "[[CL-CMF]] Portal de la Comisión para el Mercado Financiero"
+          ],
+          "locators": [
+            "https://www.cmfchile.cl/"
+          ],
+          "application": "Consulta: página principal y accesos visibles a «Conoce tus seguros», «Temporales en regiones», estadísticas del mercado de seguros y atención ciudadana. Límite: no se leyó ninguna circular ni norma de seguros; la existencia de un servicio no describe su procedimiento ni garantiza cobertura. Fecha de"
+        },
+        {
+          "decision": "localiza la norma que, según la clase, regula el contrato de seguro.",
+          "source_ids": [
+            "source-bcn-cl-e6924dcc0e"
+          ],
+          "source_titles": [
+            "[[CL-COMERCIO]] Código de Comercio"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=1974"
+          ],
+          "application": "Consulta: enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído. Límite: la clase no cita artículos ni versión; antes de afirmar una obligación o un plazo debe leerse el título correspondiente en su edición vigente y consultarse a un abogado. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-832",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Alcanza la suma asegurada para reconstruir el bien, y cómo se comparan una pérdida anual esperada pequeña y un escenario extremo que supera la capacidad de pago de quien lo soporta? Fallo crítico de esta clase: un promedio anual bajo no demuestra que el escenario extremo sea soportable.",
+      "placement": "Ocupa el lugar 2 de la Parte 84. Se estudia después de ARQ-831 · Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites porque usa esa base para responder «¿Alcanza la suma asegurada para reconstruir el bien, y cómo se comparan una pérdida anual esperada pequeña y un escenario extremo que supera la capacidad de pago de quien lo soporta? Fallo crítico de esta clase: un promedio anual bajo no demuestra que el escenario extremo sea soportable.». Se ubica antes de ARQ-833 · Siniestro, evidencia y reclamación: antes, durante y después del daño porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-412",
+        "ARQ-413",
+        "ARQ-415",
+        "ARQ-418",
+        "ARQ-420",
+        "ARQ-831"
+      ],
+      "introduces": "Una persona puede tener un seguro vigente y estar, aun así, mal protegida por dos razones distintas. La primera es que la suma asegurada no coincide con lo que costaría reconstruir hoy, con precios de hoy y con las exigencias de hoy. La segunda es que el riesgo se evalúa por su promedio, y el promedio oculta la cola: un evento que ocurre rara vez pero que, cuando ocurre, destruye el bien y el patrimonio asociado.",
+      "dependencies": [
+        "ARQ-833",
+        "ARQ-835",
+        "ARQ-840"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo.",
+        "Producir y comprobar la evidencia declarada por la clase: Una persona puede tener un seguro vigente y estar, aun así, mal protegida por dos razones distintas. La primera es que la suma asegurada no coincide con lo que costaría reconstruir hoy, con precios de hoy y con las exigencias de hoy. La segunda es que el riesgo se evalúa por su promedio, y el promedio oculta la cola: un evento que ocurre rara vez pero que, cuando ocurre, destruye el bien y el patrimonio asociado.",
+        "Justificar una decisión de valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Elige un inmueble didáctico de superficie conocida. Estima tres valores de reconstrucción (bajo, medio y alto) cambiando el costo por metro cuadrado, el recargo de demolición y honorarios y la contingencia. Anota fecha y fuente de cada costo, o márcalo HIPOTÉTICO .",
+      "evidence": "Una persona puede tener un seguro vigente y estar, aun así, mal protegida por dos razones distintas. La primera es que la suma asegurada no coincide con lo que costaría reconstruir hoy, con precios de hoy y con las exigencias de hoy. La segunda es que el riesgo se evalúa por su promedio, y el promedio oculta la cola: un evento que ocurre rara vez pero que, cuando ocurre, destruye el bien y el patrimonio asociado.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Alcanza la suma asegurada para reconstruir el bien, y cómo se comparan una pérdida anual esperada pequeña y un escenario extremo que supera la capacidad de pago de quien lo soporta? Fallo crítico de esta clase: un promedio anual bajo no demuestra que el escenario extremo sea soportable.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Elige un inmueble didáctico de superficie conocida. Estima tres valores de reconstrucción (bajo, medio y alto) cambiando el costo por metro cuadrado, el recargo de demolición y honorarios y la contingencia. Anota fecha y fuente de cada costo, o márcalo HIPOTÉTICO .",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-833.",
+        "- Asegurar por avalúo o por precio de compra: se corrige estimando el valor de reconstrucción con rango y fecha. - Incluir el suelo en la suma: el suelo no se reconstruye; sepáralo."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-833 · Siniestro, evidencia y reclamación: antes, durante y después del daño; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "ubica al supervisor y las estadísticas públicas para contrastar supuestos del mercado.",
+          "source_ids": [
+            "source-cmfchile-cl-5b365b7aed"
+          ],
+          "source_titles": [
+            "[[CL-CMF]] Portal de la Comisión para el Mercado Financiero"
+          ],
+          "locators": [
+            "https://www.cmfchile.cl/"
+          ],
+          "application": "Consulta: página principal y accesos visibles a información de seguros y estadísticas del mercado de seguros. Límite: no se consultó ninguna cifra de primas ni de siniestralidad; los montos de la clase son hipotéticos. Fecha de"
+        },
+        {
+          "decision": "referencia para distinguir superficies y exigencias vigentes que afectan el costo de reconstruir.",
+          "source_ids": [
+            "source-bcn-cl-d4f1889418"
+          ],
+          "source_titles": [
+            "CL-OGUC Decreto 47: Ordenanza General de Urbanismo y Construcciones"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=8201"
+          ],
+          "application": "Consulta: texto oficial localizado; los criterios de superficie edificada y las exigencias aplicables a una reconstrucción deben revalidarse en el expediente concreto. Límite: la clase no cita numerales ni versión; una redacción aislada no determina aplicabilidad sin predio, actuación y fecha. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-833",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Qué evidencia debe existir antes del evento, qué debe hacerse durante y justo después, y cómo se ordena una reclamación para que el daño y la cobertura puedan sustentarse? Fallo crítico de esta clase: sin evidencia del estado previo y del daño, ni el mejor contrato permite sustentar una indemnización.",
+      "placement": "Ocupa el lugar 3 de la Parte 84. Se estudia después de ARQ-832 · Valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo porque usa esa base para responder «¿Qué evidencia debe existir antes del evento, qué debe hacerse durante y justo después, y cómo se ordena una reclamación para que el daño y la cobertura puedan sustentarse? Fallo crítico de esta clase: sin evidencia del estado previo y del daño, ni el mejor contrato permite sustentar una indemnización.». Se ubica antes de ARQ-834 · Leer un evento catastrófico: pronóstico, alerta, observación e impacto porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-378",
+        "ARQ-379",
+        "ARQ-465",
+        "ARQ-831",
+        "ARQ-832"
+      ],
+      "introduces": "Una póliza describe qué se cubre; el siniestro obliga a probar que el daño ocurrió, que ocurrió por una causa cubierta, que el bien estaba en el estado declarado y que el asegurado cumplió sus obligaciones. En la práctica muchos reclamos se complican no por falta de cobertura sino por falta de evidencia: fotografías sin fecha, documentos perdidos, reparaciones de urgencia que borraron el daño o avisos fuera de plazo. ARQ-378 enseña inspección y restricciones después de un evento y ARQ-465 enseña trazabilidad de garantías; esta clase une esas capacidades con el proceso de reclamación.",
+      "dependencies": [
+        "ARQ-834",
+        "ARQ-838",
+        "ARQ-840"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de siniestro, evidencia y reclamación: antes, durante y después del daño.",
+        "Producir y comprobar la evidencia declarada por la clase: Una póliza describe qué se cubre; el siniestro obliga a probar que el daño ocurrió, que ocurrió por una causa cubierta, que el bien estaba en el estado declarado y que el asegurado cumplió sus obligaciones. En la práctica muchos reclamos se complican no por falta de cobertura sino por falta de evidencia: fotografías sin fecha, documentos perdidos, reparaciones de urgencia que borraron el daño o avisos fuera de plazo. ARQ-378 enseña inspección y restricciones después de un evento y ARQ-465 enseña trazabilidad de garantías; esta clase une esas capacidades con el proceso de reclamación.",
+        "Justificar una decisión de siniestro, evidencia y reclamación: antes, durante y después del daño mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Construye la línea base de una vivienda didáctica o la tuya: lista de documentos con ubicación, inventario fotográfico por recinto con nombres con fecha y cronograma de revisión anual. Redacta una hoja de una página con el protocolo de las primeras 72 horas adaptado a tu bien, con los teléfonos del corredor y la compañía y el plazo de aviso que figura en tu póliza o el que debes preguntar. Simula un siniestro: otra persona te entrega fotografías de un daño hipotético y tú armas la cronología y la lista de documentos que faltan.",
+      "evidence": "Una póliza describe qué se cubre; el siniestro obliga a probar que el daño ocurrió, que ocurrió por una causa cubierta, que el bien estaba en el estado declarado y que el asegurado cumplió sus obligaciones. En la práctica muchos reclamos se complican no por falta de cobertura sino por falta de evidencia: fotografías sin fecha, documentos perdidos, reparaciones de urgencia que borraron el daño o avisos fuera de plazo. ARQ-378 enseña inspección y restricciones después de un evento y ARQ-465 enseña trazabilidad de garantías; esta clase une esas capacidades con el proceso de reclamación.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Qué evidencia debe existir antes del evento, qué debe hacerse durante y justo después, y cómo se ordena una reclamación para que el daño y la cobertura puedan sustentarse? Fallo crítico de esta clase: sin evidencia del estado previo y del daño, ni el mejor contrato permite sustentar una indemnización.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye la línea base de una vivienda didáctica o la tuya: lista de documentos con ubicación, inventario fotográfico por recinto con nombres con fecha y cronograma de revisión anual. Redacta una hoja de una página con el protocolo de las primeras 72 horas adaptado a tu bien, con los teléfonos del corredor y la compañía y el plazo de aviso que figura en tu póliza o el que debes preguntar. Simula un siniestro: otra persona te entrega fotografías de un daño hipotético y tú armas la cronología y la lista de documentos que faltan.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-834.",
+        "- Limpiar antes de fotografiar: el daño desaparece como evidencia. Documenta primero."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-834 · Leer un evento catastrófico: pronóstico, alerta, observación e impacto; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "ubica servicios públicos para consultar seguros contratados y orientarse tras temporales.",
+          "source_ids": [
+            "source-cmfchile-cl-5b365b7aed"
+          ],
+          "source_titles": [
+            "[[CL-CMF]] Portal de la Comisión para el Mercado Financiero"
+          ],
+          "locators": [
+            "https://www.cmfchile.cl/"
+          ],
+          "application": "Consulta: página principal y accesos visibles a «Conoce tus seguros», «Temporales en regiones» y atención ciudadana. Límite: no se leyó el procedimiento de reclamo ni sus plazos; la existencia de un servicio no garantiza resultado. Fecha de"
+        },
+        {
+          "decision": "localiza la norma que, según la clase, regula el contrato de seguro y el siniestro.",
+          "source_ids": [
+            "source-bcn-cl-e6924dcc0e"
+          ],
+          "source_titles": [
+            "[[CL-COMERCIO]] Código de Comercio"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=1974"
+          ],
+          "application": "Consulta: enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído. Límite: la clase no cita artículos, plazos ni recursos; deben leerse en la edición vigente y consultarse a un abogado. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-834",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se lee un evento catastrófico a partir de fuentes oficiales para distinguir qué se pronosticó, qué se alertó, qué se midió y qué daño se confirmó, sin convertir un balance parcial en cifra final ni en explicación de la causa? Fallo crítico de esta clase: un balance parcial no puede leerse como cifra final ni como causa del daño.",
+      "placement": "Ocupa el lugar 4 de la Parte 84. Se estudia después de ARQ-833 · Siniestro, evidencia y reclamación: antes, durante y después del daño porque usa esa base para responder «¿Cómo se lee un evento catastrófico a partir de fuentes oficiales para distinguir qué se pronosticó, qué se alertó, qué se midió y qué daño se confirmó, sin convertir un balance parcial en cifra final ni en explicación de la causa? Fallo crítico de esta clase: un balance parcial no puede leerse como cifra final ni como causa del daño.». Se ubica antes de ARQ-835 · Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-088",
+        "ARQ-351",
+        "ARQ-353",
+        "ARQ-368",
+        "ARQ-371",
+        "ARQ-375",
+        "ARQ-377",
+        "ARQ-380",
+        "ARQ-833"
+      ],
+      "introduces": "La información sobre un evento llega en capas que se mezclan: el pronóstico de la víspera, los avisos y alertas de las instituciones, las mediciones, los balances de damnificados que cambian cada día, las notas de prensa que resumen y las opiniones sobre responsabilidades. Quien aprende de un evento, o quien evalúa un inmueble expuesto a eventos similares, necesita una disciplina de lectura que mantenga cada capa en su lugar. La biblioteca de casos del repositorio (cases/catastrofes-chile) aplica esa disciplina; esta clase la enseña.",
+      "dependencies": [
+        "ARQ-835",
+        "ARQ-840"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de leer un evento catastrófico: pronóstico, alerta, observación e impacto.",
+        "Producir y comprobar la evidencia declarada por la clase: La información sobre un evento llega en capas que se mezclan: el pronóstico de la víspera, los avisos y alertas de las instituciones, las mediciones, los balances de damnificados que cambian cada día, las notas de prensa que resumen y las opiniones sobre responsabilidades. Quien aprende de un evento, o quien evalúa un inmueble expuesto a eventos similares, necesita una disciplina de lectura que mantenga cada capa en su lugar. La biblioteca de casos del repositorio (cases/catastrofes-chile) aplica esa disciplina; esta clase la enseña.",
+        "Justificar una decisión de leer un evento catastrófico: pronóstico, alerta, observación e impacto mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Elige un evento con al menos dos comunicados oficiales de fechas distintas. Extrae todas las cifras en una tabla con columnas fuente, fecha, hora si existe, categoría, valor y capa (pronóstico, alerta, observación, impacto). Marca qué cifras cambiaron entre una fecha y otra y qué categorías no coinciden.",
+      "evidence": "La información sobre un evento llega en capas que se mezclan: el pronóstico de la víspera, los avisos y alertas de las instituciones, las mediciones, los balances de damnificados que cambian cada día, las notas de prensa que resumen y las opiniones sobre responsabilidades. Quien aprende de un evento, o quien evalúa un inmueble expuesto a eventos similares, necesita una disciplina de lectura que mantenga cada capa en su lugar. La biblioteca de casos del repositorio (cases/catastrofes-chile) aplica esa disciplina; esta clase la enseña.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Cómo se lee un evento catastrófico a partir de fuentes oficiales para distinguir qué se pronosticó, qué se alertó, qué se midió y qué daño se confirmó, sin convertir un balance parcial en cifra final ni en explicación de la causa? Fallo crítico de esta clase: un balance parcial no puede leerse como cifra final ni como causa del daño.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Elige un evento con al menos dos comunicados oficiales de fechas distintas. Extrae todas las cifras en una tabla con columnas fuente, fecha, hora si existe, categoría, valor y capa (pronóstico, alerta, observación, impacto). Marca qué cifras cambiaron entre una fecha y otra y qué categorías no coinciden.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-835.",
+        "- Citar una cifra sin fecha: los balances cambian; toda cifra lleva fecha y categoría. - Sumar balances de fuentes distintas: pueden medir cosas diferentes."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-835 · Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "respalda las cifras, alertas y medidas citadas, siempre como balances a la fecha.",
+          "source_ids": [
+            "source-senapred-cl-e0779d9258"
+          ],
+          "source_titles": [
+            "[[CL-SENAPRED-NEWS]] Noticias de SENAPRED, enero y julio de 2026"
+          ],
+          "locators": [
+            "https://www.senapred.cl/noticias/"
+          ],
+          "application": "Consulta: listado de noticias y los comunicados del 8, 13 y 17 de julio de 2026 y del 16, 18, 19 y 22 de enero y 27 de febrero de 2026, leídos mediante extracción automática de cada página. Límite: son comunicados institucionales, no informes técnicos ni balances de cierre; no se leyeron informes de la Dirección Meteorológica, la DGA ni evaluaciones de daño. Fecha de"
+        },
+        {
+          "decision": "ejemplo de un caso con decisión territorial documentada.",
+          "source_ids": [
+            "source-minvu-gob-cl-0c71cb5c17"
+          ],
+          "source_titles": [
+            "[[CL-MINVU-VSL]] Aluvión Villa Santa Lucía 2017"
+          ],
+          "locators": [
+            "https://www.minvu.gob.cl/reconstruccion/aluvion-villa-santa-lucia-2017/"
+          ],
+          "application": "Consulta: página de reconstrucción del MINVU, con 21 fallecidos, un desaparecido y relocalización definitiva. Límite: no explica el mecanismo físico ni reproduce el informe técnico de SERNAGEOMIN, que no fue leído. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-835",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Qué factores del inmueble, del territorio y del riesgo pueden aumentar o reducir su valor, cómo se formulan esas hipótesis con supuestos comprobables y dónde termina lo que puede afirmar un corredor frente a lo que corresponde a una tasación? Fallo crítico de esta clase: un precio de oferta, o una comparación sin supuestos, no es un valor, y ninguna lectura de mercado reemplaza una tasación.",
+      "placement": "Ocupa el lugar 5 de la Parte 84. Se estudia después de ARQ-834 · Leer un evento catastrófico: pronóstico, alerta, observación e impacto porque usa esa base para responder «¿Qué factores del inmueble, del territorio y del riesgo pueden aumentar o reducir su valor, cómo se formulan esas hipótesis con supuestos comprobables y dónde termina lo que puede afirmar un corredor frente a lo que corresponde a una tasación? Fallo crítico de esta clase: un precio de oferta, o una comparación sin supuestos, no es un valor, y ninguna lectura de mercado reemplaza una tasación.». Se ubica antes de ARQ-836 · Inspección visual de un inmueble existente: ficha educativa y límites porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-411",
+        "ARQ-412",
+        "ARQ-418",
+        "ARQ-419",
+        "ARQ-742",
+        "ARQ-743",
+        "ARQ-832",
+        "ARQ-834"
+      ],
+      "introduces": "El corredor de propiedades convive con tres palabras que se usan como equivalentes y no lo son: precio, valor y costo. El precio es lo que se pide o se pagó en una operación concreta; el valor es una estimación fundada de lo que un inmueble podría transarse bajo ciertas condiciones; el costo es lo que se gasta en construir o reparar. Un inmueble puede tener un precio de oferta alto con un valor fundado más bajo, o un costo de reparación elevado que no se traslada al precio.",
+      "dependencies": [
+        "ARQ-836",
+        "ARQ-840"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación.",
+        "Producir y comprobar la evidencia declarada por la clase: El corredor de propiedades convive con tres palabras que se usan como equivalentes y no lo son: precio, valor y costo. El precio es lo que se pide o se pagó en una operación concreta; el valor es una estimación fundada de lo que un inmueble podría transarse bajo ciertas condiciones; el costo es lo que se gasta en construir o reparar. Un inmueble puede tener un precio de oferta alto con un valor fundado más bajo, o un costo de reparación elevado que no se traslada al precio.",
+        "Justificar una decisión de valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Escoge dos inmuebles didácticos. Completa la ficha de factores con dato, fuente y fecha por cada uno de los cinco grupos y marca los datos que faltan. Formula dos hipótesis de valor y, para cada una, la evidencia que la confirmaría y la que la refutaría.",
+      "evidence": "El corredor de propiedades convive con tres palabras que se usan como equivalentes y no lo son: precio, valor y costo. El precio es lo que se pide o se pagó en una operación concreta; el valor es una estimación fundada de lo que un inmueble podría transarse bajo ciertas condiciones; el costo es lo que se gasta en construir o reparar. Un inmueble puede tener un precio de oferta alto con un valor fundado más bajo, o un costo de reparación elevado que no se traslada al precio.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Qué factores del inmueble, del territorio y del riesgo pueden aumentar o reducir su valor, cómo se formulan esas hipótesis con supuestos comprobables y dónde termina lo que puede afirmar un corredor frente a lo que corresponde a una tasación? Fallo crítico de esta clase: un precio de oferta, o una comparación sin supuestos, no es un valor, y ninguna lectura de mercado reemplaza una tasación.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Escoge dos inmuebles didácticos. Completa la ficha de factores con dato, fuente y fecha por cada uno de los cinco grupos y marca los datos que faltan. Formula dos hipótesis de valor y, para cada una, la evidencia que la confirmaría y la que la refutaría.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-836.",
+        "- Usar el precio de oferta como valor: una oferta es una pretensión, no una transacción. - Comparar inmuebles sin igualar supuestos: superficie, antigüedad y condición cambian la comparación."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-836 · Inspección visual de un inmueble existente: ficha educativa y límites; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "identifica el documento que informa uso de suelo y afectaciones, base de los factores urbanísticos.",
+          "source_ids": [
+            "source-minvu-gob-cl-79c0909b50"
+          ],
+          "source_titles": [
+            "Responsable: Ministerio de Vivienda y Urbanismo de Chile. Consulta registrada: 2026-09-21."
+          ],
+          "locators": [
+            "https://www.minvu.gob.cl/elementos-tecnicos/formularios/0-certificados-y-otros/"
+          ],
+          "application": "Consulta: solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles. Límite: el ejemplo educativo no es un certificado emitido y no reemplaza la lectura profesional del instrumento territorial. Fecha de"
+        },
+        {
+          "decision": "referencia a las condiciones urbanísticas que afectan lo edificable.",
+          "source_ids": [
+            "source-bcn-cl-d4f1889418"
+          ],
+          "source_titles": [
+            "CL-OGUC Decreto 47: Ordenanza General de Urbanismo y Construcciones"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=8201"
+          ],
+          "application": "Consulta: texto oficial localizado; las normas de constructibilidad y uso deben revalidarse en el expediente concreto. Límite: la clase no cita numerales; no asegura vigencia de una redacción aislada ni determina aplicabilidad sin predio y fecha. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-836",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se observa un inmueble existente de modo que lo visible quede registrado sin interpretaciones prematuras, y qué decisión debe tomar quien observa cuando lo que ve excede lo que puede afirmar? Fallo crítico de esta clase: una inspección visual informal no puede declarar estabilidad, legalidad ni ausencia de riesgo.",
+      "placement": "Ocupa el lugar 6 de la Parte 84. Se estudia después de ARQ-835 · Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación porque usa esa base para responder «¿Cómo se observa un inmueble existente de modo que lo visible quede registrado sin interpretaciones prematuras, y qué decisión debe tomar quien observa cuando lo que ve excede lo que puede afirmar? Fallo crítico de esta clase: una inspección visual informal no puede declarar estabilidad, legalidad ni ausencia de riesgo.». Se ubica antes de ARQ-837 · Plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-451",
+        "ARQ-453",
+        "ARQ-454",
+        "ARQ-804",
+        "ARQ-811",
+        "ARQ-835"
+      ],
+      "introduces": "Quien participa en una operación inmobiliaria visita muchos inmuebles. Mira, fotografía y conversa. Lo que ve influye en lo que dice, y lo que dice influye en lo que decide un cliente.",
+      "dependencies": [
+        "ARQ-837",
+        "ARQ-838",
+        "ARQ-839"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de inspección visual de un inmueble existente: ficha educativa y límites.",
+        "Producir y comprobar la evidencia declarada por la clase: Quien participa en una operación inmobiliaria visita muchos inmuebles. Mira, fotografía y conversa. Lo que ve influye en lo que dice, y lo que dice influye en lo que decide un cliente.",
+        "Justificar una decisión de inspección visual de un inmueble existente: ficha educativa y límites mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Recorre un inmueble didáctico o uno propio siguiendo la pauta, con una hora máxima. Completa la ficha con al menos seis hallazgos, cada uno con fotografía y ubicación en croquis. Revisa la ficha y reescribe cualquier observación que contenga causa o gravedad.",
+      "evidence": "Quien participa en una operación inmobiliaria visita muchos inmuebles. Mira, fotografía y conversa. Lo que ve influye en lo que dice, y lo que dice influye en lo que decide un cliente.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Cómo se observa un inmueble existente de modo que lo visible quede registrado sin interpretaciones prematuras, y qué decisión debe tomar quien observa cuando lo que ve excede lo que puede afirmar? Fallo crítico de esta clase: una inspección visual informal no puede declarar estabilidad, legalidad ni ausencia de riesgo.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Recorre un inmueble didáctico o uno propio siguiendo la pauta, con una hora máxima. Completa la ficha con al menos seis hallazgos, cada uno con fotografía y ubicación en croquis. Revisa la ficha y reescribe cualquier observación que contenga causa o gravedad.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-837.",
+        "- Escribir «grieta estructural» en observación: es una hipótesis; describe medidas y ubicación. - Omitir la declaración de alcance: sin ella, la ausencia de hallazgos parece una garantía."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-837 · Plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "marco nacional de competencias, permiso y recepción que fundamenta qué documentos deben existir.",
+          "source_ids": [
+            "source-bcn-cl-a37867bedc"
+          ],
+          "source_titles": [
+            "URB-LGUC Ley General de Urbanismo y Construcciones: texto consolidado consultado"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=13560"
+          ],
+          "application": "Consulta: texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase. Límite: no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, DOM o asesoría profesional. Fecha de"
+        },
+        {
+          "decision": "condiciones técnicas y categorías reglamentarias que dan contexto a lo que debe existir.",
+          "source_ids": [
+            "source-bcn-cl-d4f1889418"
+          ],
+          "source_titles": [
+            "CL-OGUC Decreto 47: Ordenanza General de Urbanismo y Construcciones"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=8201"
+          ],
+          "application": "Consulta: texto oficial localizado; los artículos que se citen deben revalidarse en el expediente concreto. Límite: la clase no asegura vigencia de una redacción aislada ni determina aplicabilidad sin fecha, predio y actuación. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-837",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se detecta y se describe la diferencia entre lo que dicen los planos y permisos de un inmueble y lo que existe en la realidad, y qué consecuencias y preguntas deben seguir sin afirmar que la construcción está o no está regularizada? Fallo crítico de esta clase: que una construcción exista, se use o se venda no demuestra que esté permitida ni recibida.",
+      "placement": "Ocupa el lugar 7 de la Parte 84. Se estudia después de ARQ-836 · Inspección visual de un inmueble existente: ficha educativa y límites porque usa esa base para responder «¿Cómo se detecta y se describe la diferencia entre lo que dicen los planos y permisos de un inmueble y lo que existe en la realidad, y qué consecuencias y preguntas deben seguir sin afirmar que la construcción está o no está regularizada? Fallo crítico de esta clase: que una construcción exista, se use o se venda no demuestra que esté permitida ni recibida.». Se ubica antes de ARQ-838 · Humedad, fisuras y daño posterior a un sismo: de la observación a la derivación porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-393",
+        "ARQ-394",
+        "ARQ-395",
+        "ARQ-802",
+        "ARQ-803",
+        "ARQ-807",
+        "ARQ-818",
+        "ARQ-836"
+      ],
+      "introduces": "Una de las situaciones más frecuentes en una operación inmobiliaria es la vivienda que «tiene una ampliación»: un dormitorio agregado, un segundo nivel, una terraza techada, un local en la fachada. La construcción existe y se usa; los papeles, en cambio, pueden mostrar la superficie original, una ampliación con permiso pero sin recepción, o ninguna autorización. Un cliente que no lo sabe puede comprar un inmueble con superficie menor a la que cree, con limitaciones para financiar o asegurar, o con una obligación de regularizar.",
+      "dependencies": [
+        "ARQ-838",
+        "ARQ-840"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado.",
+        "Producir y comprobar la evidencia declarada por la clase: Una de las situaciones más frecuentes en una operación inmobiliaria es la vivienda que «tiene una ampliación»: un dormitorio agregado, un segundo nivel, una terraza techada, un local en la fachada. La construcción existe y se usa; los papeles, en cambio, pueden mostrar la superficie original, una ampliación con permiso pero sin recepción, o ninguna autorización. Un cliente que no lo sabe puede comprar un inmueble con superficie menor a la que cree, con limitaciones para financiar o asegurar, o con una obligación de regularizar.",
+        "Justificar una decisión de plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Con un expediente didáctico de cinco documentos, construye la matriz de coincidencia. Incluye al menos una diferencia de superficie, una de destino y un elemento sin antecedente. Para cada una escribe la pregunta, a quién va dirigida y qué decisión comercial depende de la respuesta.",
+      "evidence": "Una de las situaciones más frecuentes en una operación inmobiliaria es la vivienda que «tiene una ampliación»: un dormitorio agregado, un segundo nivel, una terraza techada, un local en la fachada. La construcción existe y se usa; los papeles, en cambio, pueden mostrar la superficie original, una ampliación con permiso pero sin recepción, o ninguna autorización. Un cliente que no lo sabe puede comprar un inmueble con superficie menor a la que cree, con limitaciones para financiar o asegurar, o con una obligación de regularizar.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Cómo se detecta y se describe la diferencia entre lo que dicen los planos y permisos de un inmueble y lo que existe en la realidad, y qué consecuencias y preguntas deben seguir sin afirmar que la construcción está o no está regularizada? Fallo crítico de esta clase: que una construcción exista, se use o se venda no demuestra que esté permitida ni recibida.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con un expediente didáctico de cinco documentos, construye la matriz de coincidencia. Incluye al menos una diferencia de superficie, una de destino y un elemento sin antecedente. Para cada una escribe la pregunta, a quién va dirigida y qué decisión comercial depende de la respuesta.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-838.",
+        "- Usar el avalúo como prueba de legalidad: es un registro fiscal. - Confundir permiso con recepción: el permiso autoriza construir; la recepción acredita lo construido."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-838 · Humedad, fisuras y daño posterior a un sismo: de la observación a la derivación; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "marco nacional, regla general de permiso, control de obra y recepción.",
+          "source_ids": [
+            "source-bcn-cl-a37867bedc"
+          ],
+          "source_titles": [
+            "URB-LGUC Ley General de Urbanismo y Construcciones: texto consolidado consultado"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=13560"
+          ],
+          "application": "Consulta: texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase. Límite: no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, DOM o asesoría profesional. Fecha de"
+        },
+        {
+          "decision": "localiza los formularios nacionales y distingue actuaciones del solicitante y de la DOM.",
+          "source_ids": [
+            "source-minvu-gob-cl-1c45b421b1"
+          ],
+          "source_titles": [
+            "[[CL-DOM-FORMS]] Formularios de trámites de Direcciones de Obras Municipales"
+          ],
+          "locators": [
+            "https://www.minvu.gob.cl/elementos-tecnicos/formularios-de-tramites-direcciones-de-obras-municipales-dom/"
+          ],
+          "application": "Consulta: página oficial y familias de certificados, obras menores y obras de edificación disponibles en la fecha de consulta. Límite: un formulario no prueba que el caso cumpla condiciones ni que el expediente esté completo. Fecha de"
+        },
+        {
+          "decision": "identifica el documento que informa uso de suelo y afectaciones para comparar destino.",
+          "source_ids": [
+            "source-minvu-gob-cl-79c0909b50"
+          ],
+          "source_titles": [
+            "Responsable: Ministerio de Vivienda y Urbanismo de Chile. Consulta registrada: 2026-09-21."
+          ],
+          "locators": [
+            "https://www.minvu.gob.cl/elementos-tecnicos/formularios/0-certificados-y-otros/"
+          ],
+          "application": "Consulta: solicitud y formato oficial de CIP, certificados de número, afectación y copropiedad disponibles. Límite: el ejemplo educativo no es un certificado emitido y no reemplaza la lectura profesional del instrumento territorial. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-838",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se distinguen y se registran las señales de humedad y de fisuración, incluidas las posteriores a un sismo, para priorizar qué derivar a quién y con qué urgencia, sin diagnosticar causa ni gravedad? Fallo crítico de esta clase: una fisura o una mancha no permite deducir causa, gravedad ni seguridad sin diagnóstico profesional.",
+      "placement": "Ocupa el lugar 8 de la Parte 84. Se estudia después de ARQ-837 · Plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado porque usa esa base para responder «¿Cómo se distinguen y se registran las señales de humedad y de fisuración, incluidas las posteriores a un sismo, para priorizar qué derivar a quién y con qué urgencia, sin diagnosticar causa ni gravedad? Fallo crítico de esta clase: una fisura o una mancha no permite deducir causa, gravedad ni seguridad sin diagnóstico profesional.». Se ubica antes de ARQ-839 · Costos de reparación, mantenimiento y habilitación antes de arrendar o vender porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-267",
+        "ARQ-349",
+        "ARQ-378",
+        "ARQ-453",
+        "ARQ-454",
+        "ARQ-836",
+        "ARQ-837"
+      ],
+      "introduces": "La humedad y las fisuras son las señales de deterioro que más preocupan a quien compra, arrienda o administra un inmueble, y las que con más frecuencia se interpretan mal. Una mancha puede ser condensación, una fuga, una filtración de lluvia, capilaridad desde el suelo o la huella de un problema ya reparado. Una fisura puede ser retracción de un revestimiento, un movimiento sin consecuencia o la señal de un daño estructural.",
+      "dependencies": [
+        "ARQ-839",
+        "ARQ-840"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de humedad, fisuras y daño posterior a un sismo: de la observación a la derivación.",
+        "Producir y comprobar la evidencia declarada por la clase: La humedad y las fisuras son las señales de deterioro que más preocupan a quien compra, arrienda o administra un inmueble, y las que con más frecuencia se interpretan mal. Una mancha puede ser condensación, una fuga, una filtración de lluvia, capilaridad desde el suelo o la huella de un problema ya reparado. Una fisura puede ser retracción de un revestimiento, un movimiento sin consecuencia o la señal de un daño estructural.",
+        "Justificar una decisión de humedad, fisuras y daño posterior a un sismo: de la observación a la derivación mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Con fotografías didácticas de dos fisuras y dos manchas, completa un registro con ubicación en croquis, descripción y medición, hipótesis rotulada, riesgo identificado, verificación y derivación. Define una pauta de monitoreo de una fisura con fechas, punto de medición y referencia fotográfica. Ordena las cuatro señales por prioridad y explica el criterio.",
+      "evidence": "La humedad y las fisuras son las señales de deterioro que más preocupan a quien compra, arrienda o administra un inmueble, y las que con más frecuencia se interpretan mal. Una mancha puede ser condensación, una fuga, una filtración de lluvia, capilaridad desde el suelo o la huella de un problema ya reparado. Una fisura puede ser retracción de un revestimiento, un movimiento sin consecuencia o la señal de un daño estructural.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Cómo se distinguen y se registran las señales de humedad y de fisuración, incluidas las posteriores a un sismo, para priorizar qué derivar a quién y con qué urgencia, sin diagnosticar causa ni gravedad? Fallo crítico de esta clase: una fisura o una mancha no permite deducir causa, gravedad ni seguridad sin diagnóstico profesional.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con fotografías didácticas de dos fisuras y dos manchas, completa un registro con ubicación en croquis, descripción y medición, hipótesis rotulada, riesgo identificado, verificación y derivación. Define una pauta de monitoreo de una fisura con fechas, punto de medición y referencia fotográfica. Ordena las cuatro señales por prioridad y explica el criterio.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-839.",
+        "- Sellar o pintar antes de registrar: destruye evidencia. - Medir una vez: no informa sobre actividad; repite en fechas y puntos fijos."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-839 · Costos de reparación, mantenimiento y habilitación antes de arrendar o vender; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "muestra las categorías oficiales de daño en vivienda y que una parte queda «en evaluación».",
+          "source_ids": [
+            "source-senapred-cl-e0779d9258"
+          ],
+          "source_titles": [
+            "[[CL-SENAPRED-NEWS]] Noticias de SENAPRED, enero y julio de 2026"
+          ],
+          "locators": [
+            "https://www.senapred.cl/noticias/"
+          ],
+          "application": "Consulta: comunicados de julio de 2026 sobre un sistema frontal, con daños en viviendas clasificados como menor, mayor, destruida y en evaluación. Límite: son balances parciales; no describen patologías ni causas constructivas. Fecha de"
+        },
+        {
+          "decision": "ubica el tipo de solicitud que puede corresponder a reparaciones mayores.",
+          "source_ids": [
+            "source-minvu-gob-cl-6f3b1062bc"
+          ],
+          "source_titles": [
+            "CL-MINVU-EDIF-FORMS Formularios de permisos de edificación"
+          ],
+          "locators": [
+            "https://www.minvu.gob.cl/elementos-tecnicos/formularios/formularios-de-permisos-de-edificacion/"
+          ],
+          "application": "Consulta: listado oficial de obra nueva, ampliación mayor a 100 m², alteración, reparación y reconstrucción. Límite: la selección final depende del régimen vigente y de la clasificación realizada con profesional competente y DOM. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-839",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se estima, con un rango y supuestos declarados, cuánto costaría reparar, mantener o habilitar un inmueble para arrendarlo o venderlo, y qué condiciones ocultas pueden romper esa estimación? Fallo crítico de esta clase: un rango de costo sin alcance, fecha, supuestos ni condición oculta no es un presupuesto.",
+      "placement": "Ocupa el lugar 9 de la Parte 84. Se estudia después de ARQ-838 · Humedad, fisuras y daño posterior a un sismo: de la observación a la derivación porque usa esa base para responder «¿Cómo se estima, con un rango y supuestos declarados, cuánto costaría reparar, mantener o habilitar un inmueble para arrendarlo o venderlo, y qué condiciones ocultas pueden romper esa estimación? Fallo crítico de esta clase: un rango de costo sin alcance, fecha, supuestos ni condición oculta no es un presupuesto.». Se ubica antes de ARQ-840 · Carpeta de evaluación inmobiliaria y puerta de decisión de operación porque la evidencia producida aquí debe estar disponible para ese paso.",
+      "prerequisites": [
+        "ARQ-413",
+        "ARQ-415",
+        "ARQ-418",
+        "ARQ-464",
+        "ARQ-817",
+        "ARQ-836",
+        "ARQ-838"
+      ],
+      "introduces": "Quien prepara un inmueble para arrendar o vender necesita una idea de cuánto gastar y en qué. Un propietario pregunta si conviene pintar, reparar el baño o cambiar la cocina; un corredor debe aconsejar si conviene vender «tal cual» o preparar el inmueble; un administrador debe programar el mantenimiento. La respuesta que se da a la ligera, «unos dos millones», tiene dos problemas: no dice qué incluye y no dice qué puede cambiarla.",
+      "dependencies": [
+        "ARQ-840"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de costos de reparación, mantenimiento y habilitación antes de arrendar o vender.",
+        "Producir y comprobar la evidencia declarada por la clase: Quien prepara un inmueble para arrendar o vender necesita una idea de cuánto gastar y en qué. Un propietario pregunta si conviene pintar, reparar el baño o cambiar la cocina; un corredor debe aconsejar si conviene vender «tal cual» o preparar el inmueble; un administrador debe programar el mantenimiento. La respuesta que se da a la ligera, «unos dos millones», tiene dos problemas: no dice qué incluye y no dice qué puede cambiarla.",
+        "Justificar una decisión de costos de reparación, mantenimiento y habilitación antes de arrendar o vender mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Con la lista de hallazgos de un inmueble didáctico, clasifica cada intervención por tipo. Mide cantidades. Asigna rangos con rótulo HIPOTÉTICO o con cotizaciones fechadas.",
+      "evidence": "Quien prepara un inmueble para arrendar o vender necesita una idea de cuánto gastar y en qué. Un propietario pregunta si conviene pintar, reparar el baño o cambiar la cocina; un corredor debe aconsejar si conviene vender «tal cual» o preparar el inmueble; un administrador debe programar el mantenimiento. La respuesta que se da a la ligera, «unos dos millones», tiene dos problemas: no dice qué incluye y no dice qué puede cambiarla.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Cómo se estima, con un rango y supuestos declarados, cuánto costaría reparar, mantener o habilitar un inmueble para arrendarlo o venderlo, y qué condiciones ocultas pueden romper esa estimación? Fallo crítico de esta clase: un rango de costo sin alcance, fecha, supuestos ni condición oculta no es un presupuesto.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con la lista de hallazgos de un inmueble didáctico, clasifica cada intervención por tipo. Mide cantidades. Asigna rangos con rótulo HIPOTÉTICO o con cotizaciones fechadas.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para ARQ-840.",
+        "- Dar un monto sin alcance: siempre dice qué incluye y qué excluye. - Mezclar estimación y cotización: rotúlalas por separado."
+      ],
+      "next_connection": "La continuidad inmediata es ARQ-840 · Carpeta de evaluación inmobiliaria y puerta de decisión de operación; conserva el método y vuelve a verificar datos y límites.",
+      "foundations": [
+        {
+          "decision": "diferencia solicitudes y declaraciones de obras menores que pueden acompañar algunas reparaciones.",
+          "source_ids": [
+            "source-minvu-gob-cl-82d25962c7"
+          ],
+          "source_titles": [
+            "[[CL-DOM-MINOR]] Formularios de permisos de obras menores"
+          ],
+          "locators": [
+            "https://www.minvu.gob.cl/elementos-tecnicos/formularios/formularios-de-permisos-de-obra-menor/"
+          ],
+          "application": "Consulta: listado oficial de ampliación hasta 100 m², modificaciones y regímenes especiales, con referencias a OGUC 5.1.4 y LGUC 166. Límite: la superficie no concede exención automática; ruralidad, copropiedad, patrimonio, riesgo y estructura pueden cambiar el expediente. Fecha de"
+        },
+        {
+          "decision": "confirma que la declaración de instalaciones está dirigida a instaladores y profesionales autorizados.",
+          "source_ids": [
+            "source-sec-cl-e8080a2a87"
+          ],
+          "source_titles": [
+            "[[CL-SEC]] e-Declarador SEC"
+          ],
+          "locators": [
+            "https://www.sec.cl/e-declarador/"
+          ],
+          "application": "Consulta: servicio oficial y descripción de TE1 para instalaciones eléctricas interiores y TC6 para instalaciones interiores de gas. Límite: la mención de TE1 o TC6 no determina que correspondan en todo proyecto ni habilita al propietario para diseñar, ejecutar o declarar la instalación. Fecha de"
+        }
+      ]
+    },
+    {
+      "class_id": "ARQ-840",
+      "review_status": "corpus-reviewed",
+      "review_method": "full-lesson-question-outcome-practice-sources-neighbours",
+      "profile": [
+        "curricular",
+        "class-specific"
+      ],
+      "need": "Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo se reúne en una carpeta coherente todo lo observado, documentado y estimado sobre un inmueble para decidir si continuar, condicionar, derivar o desistir de una operación, indicando qué verificar y qué riesgos permanecen? Fallo crítico de esta clase: una recomendación comercial no puede ocultar un peligro crítico, una restricción legal o una verificación pendiente.",
+      "placement": "Cierra la Parte 84: integra lo producido en ARQ-839 · Costos de reparación, mantenimiento y habilitación antes de arrendar o vender para responder «¿Cómo se reúne en una carpeta coherente todo lo observado, documentado y estimado sobre un inmueble para decidir si continuar, condicionar, derivar o desistir de una operación, indicando qué verificar y qué riesgos permanecen? Fallo crítico de esta clase: una recomendación comercial no puede ocultar un peligro crítico, una restricción legal o una verificación pendiente.». La transición hacia el taller final EST-10 y el portafolio longitudinal transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.",
+      "prerequisites": [
+        "ARQ-360",
+        "ARQ-394",
+        "ARQ-420",
+        "ARQ-831",
+        "ARQ-832",
+        "ARQ-833",
+        "ARQ-834",
+        "ARQ-835",
+        "ARQ-836",
+        "ARQ-837",
+        "ARQ-838",
+        "ARQ-839"
+      ],
+      "introduces": "Las nueve clases anteriores producen piezas separadas: una lectura de póliza, una hoja de cobertura, una ficha de caso, una ficha de factores de valor, una ficha de inspección, una matriz de coincidencia, un registro de deterioro y una lista de costos. Un cliente no decide con nueve documentos; decide con una recomendación que se apoya en ellos. La dificultad de integrar es doble.",
+      "dependencies": [
+        "EST-10"
+      ],
+      "outcomes": [
+        "Identificar y delimitar las condiciones necesarias para responder la pregunta central de carpeta de evaluación inmobiliaria y puerta de decisión de operación.",
+        "Producir y comprobar la evidencia declarada por la clase: Las nueve clases anteriores producen piezas separadas: una lectura de póliza, una hoja de cobertura, una ficha de caso, una ficha de factores de valor, una ficha de inspección, una matriz de coincidencia, un registro de deterioro y una lista de costos. Un cliente no decide con nueve documentos; decide con una recomendación que se apoya en ellos. La dificultad de integrar es doble.",
+        "Justificar una decisión de carpeta de evaluación inmobiliaria y puerta de decisión de operación mediante fuentes, supuestos, alternativas y límites explícitos."
+      ],
+      "activity": "Con las piezas de dos inmuebles didácticos de las clases anteriores, arma una carpeta completa de diez secciones y un índice. Detecta al menos una contradicción entre piezas y regístrala. Aplica la regla de puerta por escrito con la respuesta y la evidencia de cada pregunta.",
+      "evidence": "Las nueve clases anteriores producen piezas separadas: una lectura de póliza, una hoja de cobertura, una ficha de caso, una ficha de factores de valor, una ficha de inspección, una matriz de coincidencia, un registro de deterioro y una lista de costos. Un cliente no decide con nueve documentos; decide con una recomendación que se apoya en ellos. La dificultad de integrar es doble.",
+      "acceptance": [
+        "La entrega responde explícitamente a la pregunta: ¿Cómo se reúne en una carpeta coherente todo lo observado, documentado y estimado sobre un inmueble para decidir si continuar, condicionar, derivar o desistir de una operación, indicando qué verificar y qué riesgos permanecen? Fallo crítico de esta clase: una recomendación comercial no puede ocultar un peligro crítico, una restricción legal o una verificación pendiente.",
+        "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con las piezas de dos inmuebles didácticos de las clases anteriores, arma una carpeta completa de diez secciones y un índice. Detecta al menos una contradicción entre piezas y regístrala. Aplica la regla de puerta por escrito con la respuesta y la evidencia de cada pregunta.",
+        "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
+        "La evidencia deja disponible una entrada comprobable para EST-10.",
+        "- Promediar riesgos: un peligro crítico no se compensa con buenos factores de ubicación. - Omitir contradicciones: si una pieza contradice a otra, se registra y se resuelve o se deriva."
+      ],
+      "next_connection": "La continuidad es EST-10, donde la evidencia se incorpora al portafolio longitudinal y a la defensa final.",
+      "foundations": [
+        {
+          "decision": "marco nacional de competencias, permiso, control de obra y recepción que sustenta la revisión normativa inicial.",
+          "source_ids": [
+            "source-bcn-cl-a37867bedc"
+          ],
+          "source_titles": [
+            "URB-LGUC Ley General de Urbanismo y Construcciones: texto consolidado consultado"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=13560"
+          ],
+          "application": "Consulta: texto vigente consultado; artículos 1, 4, 5, 9, 16–18, 116, 127, 130 y 143–145 según la afirmación de la clase. Límite: no identifica por sí sola el procedimiento completo del predio ni reemplaza OGUC, instrumento territorial, DOM o asesoría profesional. Fecha de"
+        },
+        {
+          "decision": "ubica servicios públicos para consultar seguros contratados y orientarse tras temporales.",
+          "source_ids": [
+            "source-cmfchile-cl-5b365b7aed"
+          ],
+          "source_titles": [
+            "[[CL-CMF]] Portal de la Comisión para el Mercado Financiero"
+          ],
+          "locators": [
+            "https://www.cmfchile.cl/"
+          ],
+          "application": "Consulta: página principal y accesos visibles a «Conoce tus seguros» y «Temporales en regiones». Límite: no se leyó ninguna norma ni circular; la existencia de un servicio no garantiza cobertura. Fecha de"
+        },
+        {
+          "decision": "ejemplo de balances oficiales con fecha, usado para la lectura de eventos.",
+          "source_ids": [
+            "source-senapred-cl-e0779d9258"
+          ],
+          "source_titles": [
+            "[[CL-SENAPRED-NEWS]] Noticias de SENAPRED, enero y julio de 2026"
+          ],
+          "locators": [
+            "https://www.senapred.cl/noticias/"
+          ],
+          "application": "Consulta: listado de noticias y comunicados de 2026 sobre incendios forestales y sistemas frontales. Límite: son comunicados institucionales y balances parciales; no sustituyen mapas de amenaza ni estudios de riesgo del predio. Fecha de"
         }
       ]
     }

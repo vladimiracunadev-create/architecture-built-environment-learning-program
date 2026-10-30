@@ -104,7 +104,7 @@ Esta parte comienza con **La envolvente como sistema: calor, aire, agua y encuen
 
 **Posición:** Ocupa el lugar 7 de la Parte 27. Se estudia después de ARQ-266 · Barrera de aire y continuidad porque usa esa base para responder «¿Por qué dos muros con la misma resistencia térmica y la misma resistencia total a la difusión pueden tener condiciones internas distintas, y qué cambia cuando un cálculo sin condensación deja de ser compatible con sus propias hipótesis?». Se ubica antes de ARQ-268 · Puentes térmicos y discontinuidades porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-266, ARQ-253, ARQ-261, ARQ-184 · **Salida:** ARQ-268, ARQ-278.
+**Entrada:** ARQ-266, ARQ-253, ARQ-261, ARQ-184 · **Salida:** ARQ-268, ARQ-278, ARQ-838.
 
 **Evidencia:** ARQ-266 separó fuga de aire y condiciones de ensayo. Aquí volvemos a difusión, sin incorporar aire en el modelo. HIG-INT-01 adopta una interfaz fría y dos disposiciones ficticias de resistencia al vapor.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **La envolvente como sistema: calor, aire, agua y encuen
 
 ## Navegación
 
-[← Parte 26](../parte-26/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 28 →](../parte-28/README.md)
+[← Parte 26](../parte-26/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 28 →](../parte-28/README.md)

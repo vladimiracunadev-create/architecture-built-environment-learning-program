@@ -44,9 +44,9 @@ Las actividades son simulaciones de gestión y revisión. El propietario puede o
 
 ## Extensión: riesgo, seguros y decisión de emplazamiento
 
-Perspectiva: **propietario**. Antes de ampliar o comprar, revisa agua, clima y multiamenaza del lugar, la operación posterior y los seguros.
+Perspectiva: **propietario**. Antes de ampliar o comprar, revisa agua, clima y multiamenaza del lugar, la operación posterior y los seguros. La Parte 84 aporta seguros, cobertura frente a eventos y evaluación de inmuebles existentes.
 
-Partes complementarias que esta ruta no recorre por defecto: Parte 36 → Parte 37 → Parte 38 → Parte 47 → Parte 70. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+Partes complementarias que esta ruta no recorre por defecto: Parte 36 → Parte 37 → Parte 38 → Parte 47 → Parte 70 → Parte 84. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
 
 - [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
 - [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.

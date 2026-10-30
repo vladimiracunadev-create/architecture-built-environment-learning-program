@@ -23,7 +23,7 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 ## Evidencia y control editorial
 
 - [Auditoría pedagógica y trazabilidad](AUDITORIA_PEDAGOGICA_Y_TRAZABILIDAD.md) — diagnóstico de la base histórica de 680 clases, cinco pilotos profundos, decisiones, fuentes, cambios y pendientes.
-- [Auditoría de diferencias entre las 830 clases](AUDITORIA_DIFERENCIAS_800_CLASES.md) — huellas, repetición editorial, similitud y registro clase por clase.
+- [Auditoría de diferencias entre las 840 clases](AUDITORIA_DIFERENCIAS_800_CLASES.md) — huellas, repetición editorial, similitud y registro clase por clase.
 - [Auditoría de la ruta de vivienda](AUDITORIA_RUTA_VIVIENDA_2026-10-12.md) — cobertura previa, alcance añadido, fuentes y riesgos residuales.
 - [Guía de presupuesto de vivienda](GUIA_PRESUPUESTO_VIVIENDA.md) — partidas, supuestos, escenarios, caja y control.
 - [Matriz de permisos de vivienda en Chile](MATRIZ_PERMISOS_VIVIENDA_CHILE.md) — trámite, responsable, costo y evidencia.

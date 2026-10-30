@@ -22,9 +22,9 @@ Definir alcance, contratar competencias y gobernar decisiones y riesgos.
 
 ## Extensión: riesgo, seguros y decisión de emplazamiento
 
-Perspectiva: **propietario o mandante**. Aprende a pedir estudios, leer un informe y una póliza, y exigir que una decisión de comprar o construir conserve sus condiciones de detención.
+Perspectiva: **propietario o mandante**. Aprende a pedir estudios, leer un informe y una póliza, y exigir que una decisión de comprar o construir conserve sus condiciones de detención. La Parte 84 aporta la lectura de pólizas y de eventos y la carpeta de evaluación antes de comprar.
 
-Partes complementarias que esta ruta no recorre por defecto: Parte 19 → Parte 35 → Parte 36 → Parte 37 → Parte 70. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+Partes complementarias que esta ruta no recorre por defecto: Parte 19 → Parte 35 → Parte 36 → Parte 37 → Parte 70 → Parte 84. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
 
 - [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
 - [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.

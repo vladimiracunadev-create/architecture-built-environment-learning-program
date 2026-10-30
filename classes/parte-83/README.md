@@ -1,6 +1,6 @@
 # Parte 83 — Construcción, control de gastos, recepción y mantenimiento
 
-**Fase IV · aplicación práctica para propietarios · 10 clases · ARQ-821 → ARQ-830**
+**Fase IV · aplicación práctica para propietarios y operaciones inmobiliarias · 10 clases · ARQ-821 → ARQ-830**
 
 Esta parte comienza con **Instalación de faenas, protección de lo existente, cierres, vecinos, accesos y acopios** y culmina con **Término de obra, certificados, recepción definitiva, garantías y mantenimiento**. Las diez clases forman una secuencia: cada una declara su pregunta, resultado, caso o práctica, fuentes y límites.
 
@@ -132,9 +132,9 @@ Esta parte comienza con **Instalación de faenas, protección de lo existente, c
 
 **Necesidad:** Esta clase existe para resolver una necesidad concreta del recorrido: ¿Cómo puede una persona propietaria abordar término de obra, certificados, recepción definitiva, garantías y mantenimiento , producir carpeta de cierre de ambos casos con planos finales, certificados, recepción o archivo aplicable, garantías, pendientes, manual y comparación final y demostrar que terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación? Fallo crítico de esta clase: terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación.
 
-**Posición:** Cierra la Parte 83: integra lo producido en ARQ-829 · Atrasos, sobrecostos y descubrimientos imprevistos: órdenes de cambio para responder «¿Cómo puede una persona propietaria abordar término de obra, certificados, recepción definitiva, garantías y mantenimiento , producir carpeta de cierre de ambos casos con planos finales, certificados, recepción o archivo aplicable, garantías, pendientes, manual y comparación final y demostrar que terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación? Fallo crítico de esta clase: terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación.». La transición hacia el taller final EST-10 y el portafolio longitudinal transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
+**Posición:** Cierra la Parte 83: integra lo producido en ARQ-829 · Atrasos, sobrecostos y descubrimientos imprevistos: órdenes de cambio para responder «¿Cómo puede una persona propietaria abordar término de obra, certificados, recepción definitiva, garantías y mantenimiento , producir carpeta de cierre de ambos casos con planos finales, certificados, recepción o archivo aplicable, garantías, pendientes, manual y comparación final y demostrar que terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación? Fallo crítico de esta clase: terminar físicamente o pagar el saldo no equivale a contar con recepción, certificados y expediente de operación.». La transición hacia ARQ-831 · Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
 
-**Entrada:** ARQ-309, ARQ-330, ARQ-410, ARQ-430, ARQ-490, ARQ-829 · **Salida:** EST-10.
+**Entrada:** ARQ-309, ARQ-330, ARQ-410, ARQ-430, ARQ-490, ARQ-829 · **Salida:** ARQ-831.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-309 , ARQ-330 , ARQ-410 , ARQ-430 , ARQ-490 no forma por sí solo una secuencia doméstica de decisión. Dentro de Construcción, control de gastos, recepción y mantenimiento , la tarea es seguir la obra mediante hitos verificables de seguridad, calidad, costo y cambio hasta formar una carpeta de recepción y mantenimiento. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Instalación de faenas, protección de lo existente, c
 
 ## Navegación
 
-[← Parte 82](../parte-82/README.md) · [Mapa de las 83 partes](../README.md) · [Índice general →](../README.md)
+[← Parte 82](../parte-82/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 84 →](../parte-84/README.md)

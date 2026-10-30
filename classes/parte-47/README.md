@@ -74,7 +74,7 @@ Esta parte comienza con **Del edificio entregado al edificio que funciona** y cu
 
 **Posición:** Ocupa el lugar 4 de la Parte 47. Se estudia después de ARQ-463 · Manuales útiles y formación de usuarios porque usa esa base para responder «¿Cómo elegir una estrategia de mantenimiento según función, condición y consecuencias, en lugar de aplicar la misma frecuencia a todos los activos?». Se ubica antes de ARQ-465 · Inspecciones, garantías y trazabilidad porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-463 · **Salida:** ARQ-465.
+**Entrada:** ARQ-463 · **Salida:** ARQ-465, ARQ-833, ARQ-839.
 
 **Evidencia:** ARQ-464 continúa desde ARQ-463; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. Durante la operación, un edificio cambia por uso, mantenimiento, sustituciones y fallas.
 
@@ -84,7 +84,7 @@ Esta parte comienza con **Del edificio entregado al edificio que funciona** y cu
 
 **Posición:** Ocupa el lugar 5 de la Parte 47. Se estudia después de ARQ-464 · Mantenimiento preventivo, predictivo y correctivo porque usa esa base para responder «¿Cómo relacionar una inspección y una garantía con el objeto exacto, su versión y la condición observada sin convertir una garantía en prueba de desempeño?». Se ubica antes de ARQ-466 · Medición de confort, consumo y satisfacción porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-464 · **Salida:** ARQ-466.
+**Entrada:** ARQ-464 · **Salida:** ARQ-466, ARQ-833.
 
 **Evidencia:** ARQ-465 continúa desde ARQ-464; cualquier caso o parámetro nuevo se identifica expresamente y no modifica retrospectivamente la clase anterior. Elaborarás un registro trazable, resolverás un caso reproducible, formularás una práctica distinta y cerrarás separando dato, inferencia, requisito, decisión y pendiente. Durante la operación, un edificio cambia por uso, mantenimiento, sustituciones y fallas.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Del edificio entregado al edificio que funciona** y cu
 
 ## Navegación
 
-[← Parte 46](../parte-46/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 48 →](../parte-48/README.md)
+[← Parte 46](../parte-46/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 48 →](../parte-48/README.md)

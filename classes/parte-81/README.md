@@ -1,6 +1,6 @@
 # Parte 81 — Antes de construir: decisión, terreno, legalidad y permisos
 
-**Fase IV · aplicación práctica para propietarios · 10 clases · ARQ-801 → ARQ-810**
+**Fase IV · aplicación práctica para propietarios y operaciones inmobiliarias · 10 clases · ARQ-801 → ARQ-810**
 
 Esta parte comienza con **Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico** y culmina con **Primera puerta de control: decidir si iniciar el proyecto**. Las diez clases forman una secuencia: cada una declara su pregunta, resultado, caso o práctica, fuentes y límites.
 
@@ -44,7 +44,7 @@ Esta parte comienza con **Construir, ampliar, reparar o comprar: definir objetiv
 
 **Posición:** Abre la Parte 81 porque plantea primero el problema «¿Cómo puede una persona propietaria abordar construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico , producir ficha de decisión con necesidades priorizadas, cuatro alternativas comparables, límite financiero y regla GO / REDISEÑAR / DETENER y demostrar que una preferencia no puede presentarse como necesidad ni el financiamiento esperado como dinero disponible? Fallo crítico de esta clase: una preferencia no puede presentarse como necesidad ni el financiamiento esperado como dinero disponible.». La transición desde ARQ-800 · Proyecto final: integrar, verificar, defender y transferir conserva métodos de evidencia y límites, pero no traslada parámetros del bloque anterior. Establece la pregunta y el producto base que ARQ-802 · Documentos del terreno y de la vivienda: dominio, rol, planos, permisos y recepciones existentes desarrollará a continuación.
 
-**Entrada:** ARQ-031, ARQ-111, ARQ-141, ARQ-149, ARQ-411, ARQ-800 · **Salida:** ARQ-802, ARQ-810.
+**Entrada:** ARQ-031, ARQ-111, ARQ-141, ARQ-149, ARQ-411, ARQ-800 · **Salida:** ARQ-802, ARQ-810, ARQ-832.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-031 , ARQ-111 , ARQ-141 , ARQ-149 , ARQ-411 no forma por sí solo una secuencia doméstica de decisión. Dentro de Antes de construir: decisión, terreno, legalidad y permisos , la tarea es convertir una intención doméstica en una decisión GO, REDISEÑAR o DETENER sustentada por antecedentes del predio, riesgos, atribuciones y capacidad financiera. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -54,7 +54,7 @@ Esta parte comienza con **Construir, ampliar, reparar o comprar: definir objetiv
 
 **Posición:** Ocupa el lugar 2 de la Parte 81. Se estudia después de ARQ-801 · Construir, ampliar, reparar o comprar: definir objetivo, alcance y límite económico porque usa esa base para responder «¿Cómo puede una persona propietaria abordar documentos del terreno y de la vivienda: dominio, rol, planos, permisos y recepciones existentes , producir índice de carpeta predial con documento, emisor, fecha, versión, estado, discrepancia y acción de obtención y demostrar que la existencia física de una construcción no demuestra que esté permitida o recibida? Fallo crítico de esta clase: la existencia física de una construcción no demuestra que esté permitida o recibida.». Se ubica antes de ARQ-803 · Certificado de Informaciones Previas, plan regulador y restricciones del predio porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-004, ARQ-393, ARQ-394, ARQ-481, ARQ-801 · **Salida:** ARQ-803, ARQ-810.
+**Entrada:** ARQ-004, ARQ-393, ARQ-394, ARQ-481, ARQ-801 · **Salida:** ARQ-803, ARQ-810, ARQ-837.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-004 , ARQ-393 , ARQ-394 , ARQ-481 no forma por sí solo una secuencia doméstica de decisión. Dentro de Antes de construir: decisión, terreno, legalidad y permisos , la tarea es convertir una intención doméstica en una decisión GO, REDISEÑAR o DETENER sustentada por antecedentes del predio, riesgos, atribuciones y capacidad financiera. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -64,7 +64,7 @@ Esta parte comienza con **Construir, ampliar, reparar o comprar: definir objetiv
 
 **Posición:** Ocupa el lugar 3 de la Parte 81. Se estudia después de ARQ-802 · Documentos del terreno y de la vivienda: dominio, rol, planos, permisos y recepciones existentes porque usa esa base para responder «¿Cómo puede una persona propietaria abordar certificado de informaciones previas, plan regulador y restricciones del predio , producir ficha normativa de predio que separa texto del CIP, medición del proyecto, interpretación profesional y preguntas pendientes a la DOM y demostrar que un parámetro copiado sin predio, comuna, instrumento y fecha no autoriza una solución? Fallo crítico de esta clase: un parámetro copiado sin predio, comuna, instrumento y fecha no autoriza una solución.». Se ubica antes de ARQ-804 · Estado actual: levantamiento, patologías y elementos que no deben intervenirse sin diagnóstico porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-123, ARQ-124, ARQ-393, ARQ-394, ARQ-802 · **Salida:** ARQ-804, ARQ-810.
+**Entrada:** ARQ-123, ARQ-124, ARQ-393, ARQ-394, ARQ-802 · **Salida:** ARQ-804, ARQ-810, ARQ-837.
 
 **Evidencia:** Esta clase existe porque el conocimiento disciplinar ya cubierto en ARQ-123 , ARQ-124 , ARQ-393 , ARQ-394 no forma por sí solo una secuencia doméstica de decisión. Dentro de Antes de construir: decisión, terreno, legalidad y permisos , la tarea es convertir una intención doméstica en una decisión GO, REDISEÑAR o DETENER sustentada por antecedentes del predio, riesgos, atribuciones y capacidad financiera. El lector no ejecuta trabajos reservados o peligrosos: construye un expediente que permita contratar, preguntar, comparar, detener y exigir evidencia.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Construir, ampliar, reparar o comprar: definir objetiv
 
 ## Navegación
 
-[← Parte 80](../parte-80/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 82 →](../parte-82/README.md)
+[← Parte 80](../parte-80/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 82 →](../parte-82/README.md)

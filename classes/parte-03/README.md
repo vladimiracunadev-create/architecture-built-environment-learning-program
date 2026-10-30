@@ -148,4 +148,4 @@ Esta parte comienza con **Dimensiones, conversiones y órdenes de magnitud** y c
 
 ## Navegación
 
-[← Parte 02](../parte-02/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 04 →](../parte-04/README.md)
+[← Parte 02](../parte-02/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 04 →](../parte-04/README.md)

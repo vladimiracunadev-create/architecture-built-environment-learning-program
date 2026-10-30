@@ -11,30 +11,30 @@ Este documento separa integridad curricular, cobertura pedagógica, trazabilidad
 | Identificadores consecutivos | **830/830** | `data/catalog.json`: ARQ-001 → ARQ-830 |
 | Partes curriculares | **83/83** | `data/parts.json` y `classes/parte-01` → `parte-83` |
 | Clases por parte | **10 en cada una** | validador estructural |
-| Clases Markdown | **830** | `classes/parte-XX/ARQ-XXX.md` |
+| Clases Markdown | **840** | `classes/parte-XX/ARQ-XXX.md` |
 | README de parte | **83** | uno por carpeta, generado desde las clases |
 | Fases | **4** | formación transversal; tipologías; profundización; aplicación integrada a vivienda |
 
-“830/830” significa que la malla editorial prevista por la edición 2026.10 está redactada. No significa revisión por pares, acreditación, vigencia normativa universal ni aptitud para ejecutar una obra.
+“840/840” significa que la malla editorial prevista por la edición 2026.10 está redactada. No significa revisión por pares, acreditación, vigencia normativa universal ni aptitud para ejecutar una obra.
 
 ## 2. Cobertura pedagógica dentro de las clases
 
-`scripts/audit_pedagogical_traceability.py --json` inspecciona las 830 fuentes Markdown. La capa común se genera desde `data/pedagogy.json` y se comprueba con `scripts/apply_pedagogy.py --check`.
+`scripts/audit_pedagogical_traceability.py --json` inspecciona las 840 fuentes Markdown. La capa común se genera desde `data/pedagogy.json` y se comprueba con `scripts/apply_pedagogy.py --check`.
 
 | Componente documental | Cobertura | Lectura correcta |
 |---|---:|---|
-| Pregunta central | **830/830** | problema delimitado en todo el programa |
-| Práctica o ejercicio | **830/830** | actividad propia del tema |
-| Evidencia explícita | **830/830** | producto revisable y criterio de aceptación |
-| Fuentes y alcance de uso | **830/830** | apoyo y límite declarados |
-| Mapa visual de aprendizaje | **830/830** | dependencias y transferencia visibles |
-| Autoevaluación, errores, recuperación y continuidad | **830/830** | revisión y avance explícitos |
-| Cadena de decisión documentada | **830/830** | necesidad, posición, dependencias, fuentes, actividad y evidencia |
-| Casos trabajados o razonados | **720/830** | se emplean cuando la disciplina requiere reconstruir una situación |
-| Piloto con revisión editorial manual profunda | **5/830** | muestra del núcleo previo |
+| Pregunta central | **840/840** | problema delimitado en todo el programa |
+| Práctica o ejercicio | **840/840** | actividad propia del tema |
+| Evidencia explícita | **840/840** | producto revisable y criterio de aceptación |
+| Fuentes y alcance de uso | **840/840** | apoyo y límite declarados |
+| Mapa visual de aprendizaje | **840/840** | dependencias y transferencia visibles |
+| Autoevaluación, errores, recuperación y continuidad | **840/840** | revisión y avance explícitos |
+| Cadena de decisión documentada | **840/840** | necesidad, posición, dependencias, fuentes, actividad y evidencia |
+| Casos trabajados o razonados | **730/840** | se emplean cuando la disciplina requiere reconstruir una situación |
+| Piloto con revisión editorial manual profunda | **5/840** | muestra del núcleo previo |
 | Títulos normalizados duplicados | **0** | control de inflación temática |
 
-La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona duplicación y proximidad editorial. Los 830 archivos y las 830 preguntas son distintos. Fase III conserva 120 preguntas, condiciones críticas y gráficas propias sin explicaciones largas no autorizadas repetidas en más de diez clases; Fase IV añade 30 archivos, preguntas, condiciones y gráficas distintas. El corpus tiene una mediana de **2.889 palabras por clase**. Longitud y unicidad verbal describen escala editorial; no demuestran calidad o aprendizaje.
+La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona duplicación y proximidad editorial. Los 840 archivos y las 840 preguntas son distintos. Fase III conserva 120 preguntas, condiciones críticas y gráficas propias sin explicaciones largas no autorizadas repetidas en más de diez clases; Fase IV añade 40 archivos, preguntas, condiciones y gráficas distintas. El corpus tiene una mediana de **2.889 palabras por clase**. Longitud y unicidad verbal describen escala editorial; no demuestran calidad o aprendizaje.
 
 ## 3. Talleres, rutas y portafolio
 
@@ -53,16 +53,16 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 
 | Superficie | Resultado |
 |---|---:|
-| Relaciones clase–fuente derivadas | **2.419** |
-| URLs externas únicas en clases | **631** |
+| Relaciones clase–fuente derivadas | **2.441** |
+| URLs externas únicas en clases | **635** |
 | Dominios externos en clases | **190** |
-| Clases con apartado de fuentes | **830/830** |
-| Relaciones con función declarada | **2.352/2.419** |
-| Relaciones con alcance consultado | **1.965/2.419** |
-| Relaciones con límite declarado | **2.214/2.419** |
-| Relaciones con fecha de consulta | **1.538/2.419** |
-| Relaciones contextualmente completas | **1.366/2.419** |
-| Clases con todos sus usos completos | **442/830** |
+| Clases con apartado de fuentes | **840/840** |
+| Relaciones con función declarada | **2.374/2.441** |
+| Relaciones con alcance consultado | **1.987/2.441** |
+| Relaciones con límite declarado | **2.236/2.441** |
+| Relaciones con fecha de consulta | **1.560/2.441** |
+| Relaciones contextualmente completas | **1.388/2.441** |
+| Clases con todos sus usos completos | **452/840** |
 | Verificación periódica de disponibilidad externa | **pendiente** |
 | Revisión normativa por jurisdicción | **pendiente** |
 
@@ -73,7 +73,7 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 | Salida | Estado | Comprobación |
 |---|---|---|
 | GitHub Pages | generable | build reproducible desde Markdown y manifiestos |
-| Páginas de clase | **830** | una por ARQ |
+| Páginas de clase | **840** | una por ARQ |
 | Portadas de parte | **83** | una por bloque |
 | Páginas de taller | **70** | diez portadas + 60 sesiones |
 | Rutas pedagógicas | **35** | entrada, recorrido, checkpoints, salida y capstone |

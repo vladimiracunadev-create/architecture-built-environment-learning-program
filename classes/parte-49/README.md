@@ -148,4 +148,4 @@ Esta parte comienza con **Casa unifamiliar: sitio, programa y ciclo de vida** y 
 
 ## Navegación
 
-[← Parte 48](../parte-48/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 50 →](../parte-50/README.md)
+[← Parte 48](../parte-48/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 50 →](../parte-50/README.md)

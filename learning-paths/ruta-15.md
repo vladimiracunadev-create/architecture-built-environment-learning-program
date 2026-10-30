@@ -22,9 +22,9 @@ Defender una propuesta habitacional situada desde habitabilidad, asequibilidad, 
 
 ## Extensión: riesgo, seguros y decisión de emplazamiento
 
-Perspectiva: **proyectista de vivienda**. Incorpora sitio, suelo, multiamenaza y contrato al proyecto de vivienda en vez de tratarlos como anexos.
+Perspectiva: **proyectista de vivienda**. Incorpora sitio, suelo, multiamenaza y contrato al proyecto de vivienda en vez de tratarlos como anexos. La Parte 84 aporta el valor y la inspección de viviendas existentes.
 
-Partes complementarias que esta ruta no recorre por defecto: Parte 11 → Parte 19 → Parte 38 → Parte 70 → Parte 82. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+Partes complementarias que esta ruta no recorre por defecto: Parte 11 → Parte 19 → Parte 38 → Parte 70 → Parte 82 → Parte 84. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
 
 - [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
 - [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.

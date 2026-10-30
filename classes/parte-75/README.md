@@ -54,7 +54,7 @@ Esta parte comienza con **Gobernanza urbana, poder y derecho a la ciudad** y cul
 
 **Posición:** Ocupa el lugar 2 de la Parte 75. Se estudia después de ARQ-741 · Gobernanza urbana, poder y derecho a la ciudad porque usa esa base para responder «¿Cómo abordar política de suelo, captura de valor y regulación y comprobar esta condición crítica: el aumento de valor no demuestra mejora distribuida?». Se ubica antes de ARQ-743 · Mercados de vivienda, arriendo y asequibilidad porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-741 · **Salida:** ARQ-743.
+**Entrada:** ARQ-741 · **Salida:** ARQ-743, ARQ-835.
 
 **Evidencia:** La clase profundiza en política de suelo, captura de valor y regulación para relacionar decisiones espaciales con instituciones, mercados, derechos y experiencias sin reducir la ciudad a indicadores. Recibe de ARQ-741 un registro de decisiones, fuentes y pendientes. No basta con reconocer vocabulario: el estudiante debe transformar una pregunta en un procedimiento que otra persona pueda reconstruir, criticar y corregir.
 
@@ -64,7 +64,7 @@ Esta parte comienza con **Gobernanza urbana, poder y derecho a la ciudad** y cul
 
 **Posición:** Ocupa el lugar 3 de la Parte 75. Se estudia después de ARQ-742 · Política de suelo, captura de valor y regulación porque usa esa base para responder «¿Cómo abordar mercados de vivienda, arriendo y asequibilidad y comprobar esta condición crítica: precio de compra aislado no mide carga habitacional?». Se ubica antes de ARQ-744 · Campamentos, informalidad y seguridad de tenencia porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-742 · **Salida:** ARQ-744.
+**Entrada:** ARQ-742 · **Salida:** ARQ-744, ARQ-835.
 
 **Evidencia:** La clase profundiza en mercados de vivienda, arriendo y asequibilidad para relacionar decisiones espaciales con instituciones, mercados, derechos y experiencias sin reducir la ciudad a indicadores. Recibe de ARQ-742 un registro de decisiones, fuentes y pendientes. No basta con reconocer vocabulario: el estudiante debe transformar una pregunta en un procedimiento que otra persona pueda reconstruir, criticar y corregir.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Gobernanza urbana, poder y derecho a la ciudad** y cul
 
 ## Navegación
 
-[← Parte 74](../parte-74/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 76 →](../parte-76/README.md)
+[← Parte 74](../parte-74/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 76 →](../parte-76/README.md)

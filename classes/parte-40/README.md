@@ -148,4 +148,4 @@ Esta parte comienza con **Cómo leer normas, ISO y obligaciones sin confundirlas
 
 ## Navegación
 
-[← Parte 39](../parte-39/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 41 →](../parte-41/README.md)
+[← Parte 39](../parte-39/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 41 →](../parte-41/README.md)

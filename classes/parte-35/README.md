@@ -124,7 +124,7 @@ Esta parte comienza con **Diseñar frente al sismo: comportamiento, daño y lím
 
 **Posición:** Ocupa el lugar 9 de la Parte 35. Se estudia después de ARQ-348 · Componentes no estructurales y anclajes porque usa esa base para responder «¿Por qué completar una reparación estructural no determina por sí solo cuándo un edificio recupera su función, y cómo se representa la diferencia entre tareas, dependencias y servicio disponible?». Se ubica antes de ARQ-350 · Lectura normativa y coordinación interdisciplinaria porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-348, ARQ-329, ARQ-330, ARQ-341 · **Salida:** ARQ-350, ARQ-357.
+**Entrada:** ARQ-348, ARQ-329, ARQ-330, ARQ-341 · **Salida:** ARQ-350, ARQ-357, ARQ-838.
 
 **Evidencia:** ARQ-348 relacionó componentes y servicios. Esta clase abre REC-RED-01 , una red de tareas con duraciones ficticias, y REC-FUNC-01 , una curva de servicio independiente. Calcularás una secuencia crítica y una pérdida equivalente dentro de sus modelos.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Diseñar frente al sismo: comportamiento, daño y lím
 
 ## Navegación
 
-[← Parte 34](../parte-34/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 36 →](../parte-36/README.md)
+[← Parte 34](../parte-34/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 36 →](../parte-36/README.md)

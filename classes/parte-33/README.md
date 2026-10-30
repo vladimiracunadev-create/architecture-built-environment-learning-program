@@ -148,4 +148,4 @@ Esta parte comienza con **Abastecimiento eléctrico y tableros** y culmina con *
 
 ## Navegación
 
-[← Parte 32](../parte-32/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 34 →](../parte-34/README.md)
+[← Parte 32](../parte-32/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 34 →](../parte-34/README.md)

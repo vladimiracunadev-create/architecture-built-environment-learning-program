@@ -148,4 +148,4 @@ Esta parte comienza con **Desglose del trabajo y planificación de construcción
 
 ## Navegación
 
-[← Parte 42](../parte-42/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 44 →](../parte-44/README.md)
+[← Parte 42](../parte-42/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 44 →](../parte-44/README.md)

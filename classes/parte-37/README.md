@@ -114,7 +114,7 @@ Esta parte comienza con **Viento: presión, succión y continuidad de fijaciones
 
 **Posición:** Ocupa el lugar 8 de la Parte 37. Se estudia después de ARQ-367 · Sequía, vegetación y disponibilidad de agua porque usa esa base para responder «¿Cómo examinar el contacto entre edificación y vegetación sin reducir el incendio de interfaz a una distancia única, un material aislado o una sola trayectoria de propagación?». Se ubica antes de ARQ-369 · Amenazas combinadas y falla de suministros porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-367, ARQ-219, ARQ-331, ARQ-338, ARQ-339, ARQ-361 · **Salida:** ARQ-369.
+**Entrada:** ARQ-367, ARQ-219, ARQ-331, ARQ-338, ARQ-339, ARQ-361 · **Salida:** ARQ-369, ARQ-834.
 
 **Evidencia:** Construirás IFZ-REL-01 , un grafo de exposición hipotética, y IFZ-CONTEO-01 , un registro simulado de partículas depositadas. No se generan incendios ni se ensayan materiales. Los modelos permiten distinguir rutas, distribuciones y evidencia; no predicen ignición ni establecen zonas seguras.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Viento: presión, succión y continuidad de fijaciones
 
 ## Navegación
 
-[← Parte 36](../parte-36/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 38 →](../parte-38/README.md)
+[← Parte 36](../parte-36/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 38 →](../parte-38/README.md)

@@ -74,7 +74,7 @@ Esta parte comienza con **Modelos de práctica y propósito de una oficina** y c
 
 **Posición:** Ocupa el lugar 4 de la Parte 70. Se estudia después de ARQ-693 · Honorarios, alcance, exclusiones y cambios porque usa esa base para responder «¿Cómo abordar contratos, seguros y distribución de responsabilidades y comprobar esta condición crítica: el seguro no sustituye prevención ni competencia profesional?». Se ubica antes de ARQ-695 · Clientes, usuarios, mandantes y gobernanza porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-693 · **Salida:** ARQ-695.
+**Entrada:** ARQ-693 · **Salida:** ARQ-695, ARQ-831.
 
 **Evidencia:** La clase profundiza en contratos, seguros y distribución de responsabilidades para gestionar encargos, relaciones, riesgos y recursos sin ocultar responsabilidades ni conflictos. Recibe de ARQ-693 un registro de decisiones, fuentes y pendientes. No basta con reconocer vocabulario: el estudiante debe transformar una pregunta en un procedimiento que otra persona pueda reconstruir, criticar y corregir.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Modelos de práctica y propósito de una oficina** y c
 
 ## Navegación
 
-[← Parte 69](../parte-69/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 71 →](../parte-71/README.md)
+[← Parte 69](../parte-69/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 71 →](../parte-71/README.md)

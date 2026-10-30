@@ -20,6 +20,16 @@ Talleres asociados: **EST-04**. En cada checkpoint debes conservar versión inic
 
 Coordinar un detalle, su montaje, control de calidad y mantenimiento.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **constructor o maestro de obra**. Reconoce qué condiciones de amenaza obligan a detener o adaptar la ejecución, qué evidencia fotográfica y documental conviene conservar para garantías y reclamos, y qué trabajos exigen instalador o especialista autorizado.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 35 → Parte 36 → Parte 37 → Parte 38 → Parte 70 → Parte 84. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-06 · Documentar, contratar, construir y operar](../studios/EST-06/README.md): expediente coordinado con planos, especificaciones, costo, secuencia, controles y plan de entrega.

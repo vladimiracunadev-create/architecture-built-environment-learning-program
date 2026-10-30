@@ -64,7 +64,7 @@ Esta parte comienza con **Tsunami: exposición, aviso y evacuación territorial*
 
 **Posición:** Ocupa el lugar 3 de la Parte 36. Se estudia después de ARQ-352 · Inundación fluvial y ocupación de planicies porque usa esa base para responder «¿Por qué puede inundarse un sector aunque el volumen total de la lluvia parezca compatible con la capacidad de su drenaje, y cómo distinguir falta de conducción, almacenamiento y disponibilidad operativa?». Se ubica antes de ARQ-354 · Marejadas, erosión costera y nivel del mar porque la evidencia producida aquí debe estar disponible para ese paso.
 
-**Entrada:** ARQ-352, ARQ-124, ARQ-302, ARQ-305 · **Salida:** ARQ-359, ARQ-369, ARQ-354.
+**Entrada:** ARQ-352, ARQ-124, ARQ-302, ARQ-305 · **Salida:** ARQ-359, ARQ-369, ARQ-834, ARQ-354.
 
 **Evidencia:** El río del capítulo anterior no se traslada a este caso. PLU-BASE-01 representa un depósito ideal que recibe escorrentía y descarga con una capacidad limitada. Derivarás su balance por intervalos, localizarás el momento de llenado y compararás una falla de salida.
 
@@ -134,7 +134,7 @@ Esta parte comienza con **Tsunami: exposición, aviso y evacuación territorial*
 
 **Posición:** Cierra la Parte 36: integra lo producido en ARQ-359 · Soluciones basadas en naturaleza y límites para responder «¿Cómo comparar localizar, adaptar o no construir cuando las alternativas tienen información desigual y una mejora cuantificable en un aspecto puede dejar abiertas condiciones esenciales?». La transición hacia ARQ-361 · Viento: presión, succión y continuidad de fijaciones transfiere el método y la disciplina de evidencia, no los datos o parámetros particulares de esta parte.
 
-**Entrada:** ARQ-359, ARQ-110, ARQ-119, ARQ-140, ARQ-350, ARQ-351, ARQ-355 · **Salida:** ARQ-361, ARQ-370.
+**Entrada:** ARQ-359, ARQ-110, ARQ-119, ARQ-140, ARQ-350, ARQ-351, ARQ-355 · **Salida:** ARQ-361, ARQ-370, ARQ-840.
 
 **Evidencia:** La clase cierra la parte 36. Construirás un expediente para un servicio comunitario ficticio, con alternativas distintas y criterios verificables. Resolverás presupuestos de superficie y cambios de implantación sin asignar amenazas reales a predios inexistentes.
 
@@ -148,4 +148,4 @@ Esta parte comienza con **Tsunami: exposición, aviso y evacuación territorial*
 
 ## Navegación
 
-[← Parte 35](../parte-35/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 37 →](../parte-37/README.md)
+[← Parte 35](../parte-35/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 37 →](../parte-37/README.md)

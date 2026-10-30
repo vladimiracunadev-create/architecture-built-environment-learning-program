@@ -2,9 +2,9 @@
   "schema_version": 1,
   "edition": "2026.10",
   "title": "Programa Integral de Arquitectura, Construcción y Entorno Habitado",
-  "class_count": 830,
+  "class_count": 840,
   "classes_per_part": 10,
-  "part_count": 83,
+  "part_count": 84,
   "studio_count": 10,
   "sessions_per_studio": 6,
   "studio_session_count": 60,
@@ -36,11 +36,11 @@
     },
     {
       "id": "IV",
-      "title": "aplicación práctica para propietarios",
+      "title": "aplicación práctica para propietarios y operaciones inmobiliarias",
       "first_part": 81,
-      "last_part": 83,
+      "last_part": 84,
       "first_class": "ARQ-801",
-      "last_class": "ARQ-830"
+      "last_class": "ARQ-840"
     }
   ],
   "historical_baseline": {

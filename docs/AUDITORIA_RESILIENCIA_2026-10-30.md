@@ -73,3 +73,15 @@ Las rutas no cambian de número ni de identificador. El enriquecimiento ocurre p
 - Sin pilotos con estudiantes ni revisión profesional (ingeniería geotécnica, estructural, derecho urbanístico, seguros).
 - No existe monitoreo automatizado de normativa; el inventario de vigilancia está en la guía de seguros y en el README de casos.
 - Los 142 patrones editoriales compartidos y las 1.053 relaciones de fuente incompletas siguen siendo trabajo de profundización editorial por clase.
+
+## 7. Actualización posterior: lo que se construyó
+
+Esta sección registra la ejecución posterior al diagnóstico. La línea base de las secciones 1–6 se conserva como foto inicial.
+
+- **Parte 84 · Evaluación de inmuebles, seguros y eventos catastróficos (ARQ-831–840).** La competencia de seguros cumplía los criterios de clase nueva (competencia no desarrollada, problema propio, evidencia nueva, fuentes accesibles), y la solicitud de una ruta de evaluación de inmuebles para corredores añadió cinco competencias sin clase equivalente: valor y plusvalía, inspección visual con ficha, plano frente a realidad, costos de reparación y carpeta con regla de puerta. Se crearon diez clases, sin renumerar ARQ-001–830. Las fases siguen siendo cuatro; la Fase IV amplía su alcance a ARQ-801–840.
+- **RUTA-35** (evaluación técnica de inmuebles para corredores de propiedades), capstone EST-06, sobre 44 clases.
+- **Biblioteca de casos:** siete fichas (CAT-001, CAT-003 a CAT-005 y CAT-2026-001 a 003) con estados de verificación; ninguna llega a `CONFIRMADO`.
+- **Rutas con extensión de riesgo:** RUTA-04, 05, 06, 07, 11, 12, 15, 18, 25, 28, 29, 30 y 34.
+- **Controles:** `scripts/validate_resilience.py` (estructura de fichas, RUTA-35, cálculos didácticos), resumen de CI derivado de `data/program.json` y generador de fases corregido.
+- **No se hizo:** lectura íntegra de normas y de informes técnicos; cronología 2026 completa (tormentas de verano, zonas áridas, nevadas, sequía, marejadas); contraste con corredores, tasadores, aseguradores y abogados; pilotos con estudiantes. Las clases de la Parte 84 son más breves (2.776 palabras como mínimo en el conjunto de Fase IV) y no fueron revisadas por especialistas.
+- **Brechas de las clases nuevas:** el Código de Comercio no cargó, por lo que ninguna clase cita artículos de seguros; la regulación del corretaje y su deber de información requieren revisión jurídica; los precios son hipotéticos.

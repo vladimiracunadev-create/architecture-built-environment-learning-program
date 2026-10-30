@@ -148,4 +148,4 @@ Esta parte comienza con **Paisaje como sistema vivo y cultural** y culmina con *
 
 ## Navegación
 
-[← Parte 12](../parte-12/README.md) · [Mapa de las 83 partes](../README.md) · [Parte 14 →](../parte-14/README.md)
+[← Parte 12](../parte-12/README.md) · [Mapa de las 84 partes](../README.md) · [Parte 14 →](../parte-14/README.md)
