@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "description": "Registro de afirmaciones normativas verificadas contra fuente oficial. Cada artículo que una clase de la Parte 84 cita debe figurar aquí con su fuente, el método de lectura y el nivel alcanzado. Ver docs/NIVELES_DE_VERIFICACION.md.",
+  "levels": {
+    "N2-texto": "texto oficial descargado y leído mediante extracción de texto (cita literal contrastable)",
+    "N2-contrastado": "texto oficial leído en dos pasadas independientes de extracción asistida con resultado coincidente",
+    "N2-una-pasada": "texto oficial leído en una pasada de extracción asistida; contrastar antes de citar un plazo"
+  },
+  "instruments": {
+    "LEY-20667": {
+      "title": "Ley 20.667 que regula el contrato de seguro (Título VIII del Libro II del Código de Comercio, arts. 512 a 601)",
+      "authority": "Biblioteca del Congreso Nacional de Chile",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1050848",
+      "consulted_on": "2026-10-30",
+      "currency": "texto de la ley de 2013; no se contrastó con la versión consolidada vigente"
+    },
+    "DS-1055": {
+      "title": "Decreto Supremo 1055 de 2012 de Hacienda, reglamento de los auxiliares del comercio de seguros",
+      "authority": "Ministerio de Hacienda; texto publicado por la Comisión para el Mercado Financiero",
+      "locator": "https://www.cmfchile.cl/transparencia/documentos/Decreto_1055_Reglamento_Auxiliares_201511.pdf",
+      "consulted_on": "2026-10-30",
+      "currency": "versión generada por la BCN el 2 de noviembre de 2015; no se contrastó con la edición vigente"
+    }
+  },
+  "claims": [
+    {"id": "LEY-20667-512", "instrument": "LEY-20667", "article": "512", "level": "N2-una-pasada", "claim": "el contrato de seguro transfiere uno o más riesgos al asegurador a cambio de una prima, y éste se obliga a indemnizar el daño o pagar la prestación pactada", "used_in": ["ARQ-831"]},
+    {"id": "LEY-20667-513m", "instrument": "LEY-20667", "article": "513", "level": "N2-contrastado", "claim": "el artículo 513, letra m), define infraseguro", "used_in": ["ARQ-832"]},
+    {"id": "LEY-20667-520", "instrument": "LEY-20667", "article": "520", "level": "N2-una-pasada", "claim": "el asegurado debe tener interés asegurable, que debe existir al ocurrir el siniestro; si cesa durante la vigencia el contrato termina con devolución de prima no devengada", "used_in": ["ARQ-831"]},
+    {"id": "LEY-20667-524", "instrument": "LEY-20667", "article": "524", "level": "N2-contrastado", "claim": "obligaciones del asegurado: responder con veracidad al asegurador (n.º 1); avisar el siniestro tan pronto sea posible una vez que lo conoce (n.º 7), sin un número de días fijado; acreditar el siniestro y describir sus circunstancias y consecuencias (n.º 8)", "used_in": ["ARQ-831", "ARQ-833"]},
+    {"id": "LEY-20667-525", "instrument": "LEY-20667", "article": "525", "level": "N2-una-pasada", "claim": "declaración del riesgo: el asegurador que no preguntó no puede invocar errores u omisiones; sanciones distintas antes y después del siniestro", "used_in": ["ARQ-831"]},
+    {"id": "LEY-20667-526", "instrument": "LEY-20667", "article": "526", "level": "N2-contrastado", "claim": "los aumentos sustanciales del riesgo deben comunicarse dentro de cinco días desde que se conocen; el asegurador dispone de 30 días para rescindir o proponer cambios", "used_in": ["ARQ-831"]},
+    {"id": "LEY-20667-541", "instrument": "LEY-20667", "article": "541", "level": "N2-contrastado", "claim": "las acciones del contrato prescriben en cuatro años desde que la obligación es exigible; la denuncia del siniestro interrumpe la prescripción que corre contra el asegurado; el plazo no puede acortarse por cláusulas de caducidad", "used_in": ["ARQ-833"]},
+    {"id": "LEY-20667-542", "instrument": "LEY-20667", "article": "542", "level": "N2-contrastado", "claim": "las normas del título son imperativas, con excepciones para ciertos seguros de daños contratados individualmente por personas jurídicas con prima anual superior a 200 UF y para casco y transporte marítimo y aéreo", "used_in": ["ARQ-831"]},
+    {"id": "LEY-20667-543", "instrument": "LEY-20667", "article": "543", "level": "N2-contrastado", "claim": "las controversias sobre la procedencia o el monto de una indemnización se resuelven por árbitro o, bajo 10.000 UF, a elección del asegurado ante la justicia ordinaria; la ley no regula el procedimiento de liquidación ni fija plazo de pago", "used_in": ["ARQ-831", "ARQ-833"]},
+    {"id": "LEY-20667-546", "instrument": "LEY-20667", "article": "546", "level": "N2-una-pasada", "claim": "interés asegurable en seguros de bienes", "used_in": ["ARQ-831"]},
+    {"id": "LEY-20667-552", "instrument": "LEY-20667", "article": "552", "level": "N2-contrastado", "claim": "la suma asegurada es el máximo de la indemnización y en seguros de bienes ésta no puede exceder el valor del bien o del interés al momento del siniestro", "used_in": ["ARQ-832"]},
+    {"id": "LEY-20667-553", "instrument": "LEY-20667", "article": "553", "level": "N2-contrastado", "claim": "si la suma asegurada es inferior al valor del bien al momento del siniestro se aplica la regla proporcional; las partes pueden pactar que no se aplique", "used_in": ["ARQ-832"]},
+    {"id": "LEY-20667-558", "instrument": "LEY-20667", "article": "558", "level": "N2-contrastado", "claim": "sobreseguro: cualquiera de las partes puede pedir reducir suma y prima; ante un siniestro se indemniza el daño efectivo; si hay mala fe del asegurado el contrato es nulo", "used_in": ["ARQ-832"]},
+    {"id": "LEY-20667-571", "instrument": "LEY-20667", "article": "571", "level": "N2-una-pasada", "claim": "en seguros de responsabilidad civil el aviso debe darse dentro de un plazo razonable", "used_in": ["ARQ-833"]},
+    {"id": "LEY-20667-589", "instrument": "LEY-20667", "article": "589", "level": "N2-una-pasada", "claim": "interés asegurable en seguros de bienes: lícito, patrimonial y valuable en dinero", "used_in": ["ARQ-831"]},
+    {"id": "DS-1055-23", "instrument": "DS-1055", "article": "23", "level": "N2-texto", "claim": "el informe de liquidación debe emitirse dentro del más breve plazo y sin exceder 45 días corridos desde la denuncia; excepciones de 180 días corridos para siniestros marítimos de casco o avería gruesa y de 90 días corridos para seguros individuales del primer grupo con prima anual superior a 100 UF", "used_in": ["ARQ-833"]},
+    {"id": "DS-1055-24", "instrument": "DS-1055", "article": "24", "level": "N2-texto", "claim": "ante diferencias de criterio el liquidador puede emitir un preinforme que admite observaciones por escrito dentro de 5 días", "used_in": ["ARQ-833"]},
+    {"id": "DS-1055-25", "instrument": "DS-1055", "article": "25", "level": "N2-texto", "claim": "el informe se remite al asegurado y simultáneamente al asegurador; los liquidadores no pueden solicitar un finiquito antes de emitir el informe o de responder una impugnación", "used_in": ["ARQ-833"]},
+    {"id": "DS-1055-26", "instrument": "DS-1055", "article": "26", "level": "N2-texto", "claim": "la compañía y el asegurado tienen 10 días para impugnar el informe; la respuesta se da en 6 días; en liquidación directa la compañía paga en 6 días si determina procedencia y monto", "used_in": ["ARQ-833"]},
+    {"id": "DS-1055-29", "instrument": "DS-1055", "article": "29", "level": "N2-texto", "claim": "los plazos del reglamento son de días hábiles salvo disposición en contrario; los de liquidación del art. 23 son corridos", "used_in": ["ARQ-833"]},
+    {"id": "DS-1055-30", "instrument": "DS-1055", "article": "30", "level": "N2-texto", "claim": "las comunicaciones al asegurado se hacen al correo indicado en la denuncia, con carta certificada como alternativa", "used_in": ["ARQ-833"]}
+  ]
+}

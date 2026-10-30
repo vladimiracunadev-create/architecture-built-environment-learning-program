@@ -3,7 +3,7 @@
 **Edición auditada:** 2026.10  
 **Alcance:** `ARQ-001`–`ARQ-840`
 **Registro clase por clase:** [`audits/class-distinctness.csv`](audits/class-distinctness.csv)  
-**Resumen legible por máquina:** [`../data/audits/class-distinctness.json`](../data/audits/class-distinctness.json)
+**Resumen legible por máquina:** `../data/audits/class-distinctness.json`
 
 ## Por qué se hizo
 

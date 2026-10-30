@@ -2,7 +2,7 @@
 
 Guía complementaria de [ARQ-418](../classes/parte-42/ARQ-418.md), [ARQ-420](../classes/parte-42/ARQ-420.md), [ARQ-694](../classes/parte-70/ARQ-694.md) y [ARQ-819](../classes/parte-82/ARQ-819.md). No es asesoría de seguros, legal ni financiera. El alcance de una cobertura depende siempre del contrato concreto (póliza, condiciones generales y particulares, endosos).
 
-**Estado de verificación:** los conceptos son pedagógicos y generales. Ninguna norma ni póliza fue leída en fuente primaria al redactar esta guía; antes de citar un artículo, verifica la edición vigente. Para Chile, el punto de partida oficial es la Comisión para el Mercado Financiero (CMF) y el título del Código de Comercio sobre contrato de seguro, `REVISIÓN_ESPECIALIZADA_PENDIENTE`.
+**Estado de verificación:** las reglas legales que cita el programa (Ley 20.667 y Decreto Supremo 1055 de liquidadores) se registran con su nivel en `data/verificacion.json` y se desarrollan en [ARQ-831](../classes/parte-84/ARQ-831.md), [ARQ-832](../classes/parte-84/ARQ-832.md) y [ARQ-833](../classes/parte-84/ARQ-833.md). Los demás conceptos son pedagógicos y generales; antes de aplicar un artículo a una póliza concreta se lee la edición vigente (véanse los [niveles de verificación](NIVELES_DE_VERIFICACION.md)).
 
 ## 1. El seguro como instrumento de gestión del riesgo
 
@@ -58,11 +58,11 @@ Todos los precios de ejercicio son **HIPOTÉTICOS** hasta citarse con fecha, reg
 | Qué vigilar | Autoridad | Frecuencia sugerida |
 |---|---|---|
 | Normativa y circulares de seguros | CMF | semestral |
-| Texto vigente del contrato de seguro | Biblioteca del Congreso Nacional | anual |
+| Título VIII del Libro II del Código de Comercio (Ley 20.667) y DS 1055 | Biblioteca del Congreso Nacional / CMF | semestral |
 | Condiciones de póliza hipotecaria | CMF y asegurador | al contratar |
 | Mapas de amenaza y áreas de riesgo | SENAPRED, SERNAGEOMIN, DGA, municipalidad | por proyecto |
 
-No existe monitoreo automático implementado.
+La lista completa está en `data/vigilancia.json`; `scripts/check_sources.py` comprueba cada mes que los localizadores respondan (no lee el contenido).
 
 ## 7. Límites
 

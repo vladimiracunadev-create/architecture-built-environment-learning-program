@@ -85,13 +85,12 @@ Integra descripción arquitectónica, antecedentes técnicos, revisión normativ
 
 Se evalúa con la [rúbrica común](../docs/RUBRICA_COMUN.md) y se presenta en [EST-06](../studios/EST-06/README.md).
 
-## Normativa y fuentes: estado de verificación
+## Normativa y fuentes: nivel de verificación
 
-Las referencias a LGUC, OGUC, instrumentos de planificación territorial, DOM, MINVU, SENAPRED y SHOA son punteros de estudio. **Ningún artículo ni versión fue leído en fuente primaria al redactar este caso**; antes de citar un numeral, verifícalo en la fuente oficial vigente. Las obligaciones legales del corretaje (por ejemplo, información al consumidor) no se tratan aquí y requieren revisión jurídica especializada: `REVISIÓN_ESPECIALIZADA_PENDIENTE`.
+Las reglas sobre seguros y liquidación de siniestros que usan los laboratorios están registradas en [`data/verificacion.json`](../data/verificacion.json), con texto oficial leído (Ley 20.667 y Decreto Supremo 1055). Las referencias a LGUC, OGUC, instrumentos de planificación territorial, DOM, MINVU, SENAPRED y SHOA remiten a las fuentes oficiales indicadas en las clases ARQ-836 a ARQ-840 y se leen en su edición vigente para cada predio, según los [niveles de verificación](../docs/NIVELES_DE_VERIFICACION.md). Los deberes legales de información del corretaje no se interpretan aquí: la carpeta exige no ocultar lo conocido ni afirmar lo desconocido y deriva la interpretación jurídica a quien corresponda.
 
-## Brechas pendientes
+## Soluciones y alcance
 
-- Falta una secuencia propia de **valoración y plusvalía** (hoy solo ARQ-742, 743 y 418). Candidata: clase *Factores que afectan el valor de un inmueble y límites de la tasación*.
-- Falta una clase de **inspección visual de inmuebles existentes con ficha educativa**; hoy se apoya en ARQ-453, 454 y 804, orientadas a patrimonio y vivienda propia.
-- Falta contraste con corredores y tasadores en ejercicio, y un piloto con estudiantes.
-- Los laboratorios no tienen todavía soluciones resueltas con datos verificados.
+- Los diez laboratorios tienen [solución modelo](EVALUACION-TECNICA-INMUEBLES-SOLUCIONES.md), con datos hipotéticos rotulados y resultado de la regla de puerta.
+- Las cinco competencias que no tenían clase se desarrollan en [ARQ-835–840](../classes/parte-84/README.md): valor y plusvalía, inspección visual con ficha, plano frente a permiso y realidad, humedad y fisuras, costos y carpeta final.
+- La ruta no habilita para inspeccionar, tasar, certificar ni liquidar; esos son límites declarados de diseño, no tareas por completar.

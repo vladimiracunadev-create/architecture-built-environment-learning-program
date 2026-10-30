@@ -4,8 +4,8 @@
   "generated_on": "2026-10-12",
   "policy": "Registro derivado de las secciones 'Fuentes y alcance de uso'. Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, aplicabilidad normativa, permiso de redistribución ni respaldo institucional. Si no consta una licencia, se registra como desconocida y se conserva sólo el enlace.",
   "class_count": 840,
-  "citation_occurrences": 2445,
-  "unique_sources": 637,
+  "citation_occurrences": 2446,
+  "unique_sources": 638,
   "unique_domains": 191,
   "traceability": {
     "required_context_fields": [
@@ -15,12 +15,12 @@
       "accessed_on"
     ],
     "field_coverage": {
-      "function": 2378,
-      "consultation_scope": 1991,
-      "limitation": 2240,
-      "accessed_on": 1564
+      "function": 2379,
+      "consultation_scope": 1992,
+      "limitation": 2241,
+      "accessed_on": 1565
     },
-    "complete_uses": 1392,
+    "complete_uses": 1393,
     "partial_uses": 1053,
     "classes_with_all_uses_complete": 452,
     "classes_requiring_context_review": 388,
@@ -5867,6 +5867,38 @@
         }
       ],
       "usage_count": 4
+    },
+    {
+      "id": "source-cmfchile-cl-4e714f5724",
+      "type": "reference",
+      "title": "[[CL-DS-1055]] Decreto Supremo 1055 de 2012, reglamento de los auxiliares del comercio de seguros",
+      "locator": "https://www.cmfchile.cl/transparencia/documentos/Decreto_1055_Reglamento_Auxiliares_201511.pdf",
+      "publisher_or_author": {
+        "name": "Ministerio de Hacienda, publicado por la Comisión para el Mercado Financiero",
+        "basis": "class-text"
+      },
+      "authority_domain": "cmfchile.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-833.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-833.md",
+          "function": "respalda los plazos de liquidación, preinforme, impugnación y pago y la prohibición de pedir finiquito antes del informe.",
+          "consultation_scope": "PDF de 14 páginas, generado por la BCN en noviembre de 2015, leído mediante extracción de texto; artículos 23 a 26, 29 y 30.",
+          "limitation": "versión de 2015; no se contrastó con la edición vigente ni con circulares de la CMF, y sus plazos se aplican a siniestros según fecha de denuncia y tipo de seguro. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 1
     },
     {
       "id": "source-colmap-github-io-84f8285a8e",

@@ -46,8 +46,10 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 | Rutas con diagnóstico, checkpoints, salida y capstone | **35/35** |
 | Dimensiones de la rúbrica común | **5** |
 | Umbral documental | **80/100**, ninguna dimensión bajo 60 % |
-| Fichas de la biblioteca de catástrofes | **10** (todas `PRELIMINAR`; ninguna `CONFIRMADO`) |
-| Cronología de 2026 | **parcial**: marzo, enero, julio, agosto y septiembre; faltan verano altiplánico, tormentas eléctricas, marejadas y sequía |
+| Fichas de la biblioteca de catástrofes | **13** (2 `CONFIRMADO` como contenido de fuente técnica leída; el resto `PRELIMINAR`) |
+| Afirmaciones normativas verificadas | **21** en `data/verificacion.json` |
+| Fuentes vigiladas | **13** en `data/vigilancia.json` |
+| Cronología de 2026 | enero (calor e incendios), marzo (río atmosférico), julio (sistema frontal), agosto (frontal en Antofagasta y tornado), septiembre y octubre (pronósticos), escasez hídrica y tormentas eléctricas; se incorporan las marejadas, el tornado de Diguillín y las lluvias altiplánicas al leer su fuente |
 | Pilotos con estudiantes | **pendiente** |
 | Carga horaria observada | **pendiente** |
 
@@ -55,15 +57,15 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 
 | Superficie | Resultado |
 |---|---:|
-| Relaciones clase–fuente derivadas | **2.445** |
+| Relaciones clase–fuente derivadas | **2.446** |
 | URLs externas únicas en clases | **637** |
 | Dominios externos en clases | **190** |
 | Clases con apartado de fuentes | **840/840** |
-| Relaciones con función declarada | **2.378/2.445** |
-| Relaciones con alcance consultado | **1.991/2.445** |
-| Relaciones con límite declarado | **2.240/2.445** |
-| Relaciones con fecha de consulta | **1.564/2.445** |
-| Relaciones contextualmente completas | **1.392/2.445** |
+| Relaciones con función declarada | **2.379/2.446** |
+| Relaciones con alcance consultado | **1.992/2.446** |
+| Relaciones con límite declarado | **2.241/2.446** |
+| Relaciones con fecha de consulta | **1.565/2.446** |
+| Relaciones contextualmente completas | **1.393/2.446** |
 | Clases con todos sus usos completos | **452/840** |
 | Verificación periódica de disponibilidad externa | **pendiente** |
 | Revisión normativa por jurisdicción | **pendiente** |

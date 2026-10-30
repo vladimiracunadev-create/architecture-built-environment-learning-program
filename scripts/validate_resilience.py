@@ -130,11 +130,90 @@ def check_arithmetic() -> None:
             fail(f"ARQ-{number}: professional-limit statement missing")
 
 
+
+LEDGER = ROOT / "data" / "verificacion.json"
+ARTICLE_RE = re.compile(r"arts?\.\s*((?:\d{2,3}(?:\s*n\.º\s*\d+(?:\s*y\s*\d+)?)?(?:\s*(?:,|y)\s*)?)+)")
+
+
+def check_ledger() -> int:
+    """Every article cited in ARQ-831..833 must exist in the verified-claims ledger."""
+    ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
+    levels = set(ledger["levels"])
+    instruments = set(ledger["instruments"])
+    seen: set[str] = set()
+    known_articles: set[str] = set()
+    for claim in ledger["claims"]:
+        if claim["id"] in seen:
+            fail(f"verification ledger: duplicate claim {claim['id']}")
+        seen.add(claim["id"])
+        if claim["instrument"] not in instruments or claim["level"] not in levels:
+            fail(f"verification ledger: invalid instrument or level in {claim['id']}")
+        if not claim["claim"].strip() or not claim["used_in"]:
+            fail(f"verification ledger: empty claim or usage in {claim['id']}")
+        for class_id in claim["used_in"]:
+            if not (ROOT / "classes" / "parte-84" / f"{class_id}.md").is_file():
+                fail(f"verification ledger: {claim['id']} points to missing {class_id}")
+        known_articles.add(claim["article"])
+    for number in (831, 832, 833):
+        text = (ROOT / "classes" / "parte-84" / f"ARQ-{number}.md").read_text(encoding="utf-8")
+        cited = {value for match in ARTICLE_RE.findall(text) for value in re.findall(r"\d{2,3}", re.sub(r"n\.º\s*\d+(?:\s*y\s*\d+)?", "", match))}
+        missing = cited - known_articles
+        if missing:
+            fail(f"ARQ-{number}: cited articles without a verified claim: {sorted(missing)}")
+    return len(ledger["claims"])
+
+
+REQUIRED_HEADINGS = {
+    "pregunta central": r"^## Pregunta central",
+    "problema y resultado": r"^## Problema y resultado",
+    "mapa de la decisión": r"^## Mapa específico",
+    "práctica guiada": r"^## Práctica guiada",
+    "ejercicio independiente": r"^## Ejercicio independiente",
+    "errores y recuperación": r"^## Errores típicos y recuperación",
+    "evaluación por evidencias": r"^## Evaluación por evidencias",
+    "continuidad": r"^## Continuidad",
+    "fuentes": r"^## Fuentes y alcance de uso",
+    "autoevaluación solucionada": r"^## Autoevaluación con solución razonada",
+}
+
+
+def check_part_84_standard() -> None:
+    """Automated reading of docs/ESTANDAR_DOCUMENTACION_CLASE.md for the Part 84 classes."""
+    for number in range(831, 841):
+        name = f"ARQ-{number}"
+        text = (ROOT / "classes" / "parte-84" / f"{name}.md").read_text(encoding="utf-8")
+        for label, pattern in REQUIRED_HEADINGS.items():
+            if not re.search(pattern, text, re.MULTILINE):
+                fail(f"{name}: missing section '{label}'")
+        if len(re.findall(r"^## .*[Cc]aso", text, re.MULTILINE)) < 1 or len(re.findall(r"[Cc]aso resuelto", text)) < 2:
+            fail(f"{name}: needs at least two worked cases")
+        if "**Fallo crítico de esta clase:**" not in text or "```mermaid" not in text:
+            fail(f"{name}: missing critical failure or learning map")
+        if "**Prerrequisitos recomendados:**" not in text:
+            fail(f"{name}: missing prerequisites")
+        opening = text[:900]
+        if "Material educativo" not in opening:
+            fail(f"{name}: missing educational-material statement in the opening")
+        if "CLP" in text and "HIPOT" not in text.upper():
+            fail(f"{name}: CLP amounts must be labeled HIPOTÉTICO")
+        solved = re.search(r"## Autoevaluación con solución razonada\n(.*?)(?=\n## )", text, re.DOTALL)
+        if not solved or len(re.findall(r"^\d+\. ", solved.group(1), re.MULTILINE)) < 5:
+            fail(f"{name}: self-assessment needs at least five solved items")
+        sources = re.findall(r"\*\*Fecha de consulta:\*\*", text)
+        if len(sources) < 2:
+            fail(f"{name}: needs at least two sources with consultation date")
+        for match in re.finditer(r"(?i)garantiza(?:r|mos)?", text):
+            context = text[max(0, match.start() - 25) : match.end()].lower()
+            if "no " not in context and "ni " not in context:
+                fail(f"{name}: unqualified wording near '{text[match.start() - 40 : match.end() + 20]}'")
+
 def main() -> int:
     cards = check_cases()
     check_route()
     check_arithmetic()
-    print(f"OK: {cards} case cards, RUTA-35 and Part 84 didactic calculations")
+    claims = check_ledger()
+    check_part_84_standard()
+    print(f"OK: {cards} case cards, RUTA-35, Part 84 calculations and standard, {claims} verified claims")
     return 0
 
 

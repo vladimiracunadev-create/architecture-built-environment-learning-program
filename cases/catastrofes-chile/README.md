@@ -34,7 +34,10 @@ Dirección Meteorológica de Chile · SENAPRED · SERNAGEOMIN · Dirección Gene
 | [CAT-2026-004](CAT-2026-004.md) | Río atmosférico en el centro-sur, 14–16 de marzo de 2026 | `PRELIMINAR` | ARQ-353, 362, 370, 372 | Informe de la DMC; impactos citados desde medios, sin balance oficial |
 | [CAT-2026-005](CAT-2026-005.md) | Sistema frontal en Antofagasta, 11 de agosto de 2026 | `PRELIMINAR` | ARQ-353, 364, 377 | Solo pronóstico y medidas preventivas; sin impacto |
 | [CAT-2026-006](CAT-2026-006.md) | Río atmosférico pronosticado para el 23 y 24 de septiembre de 2026 | `PRELIMINAR` | ARQ-352, 353, 372, 377 | Solo pronóstico y alertas; sin impacto |
-| CAT-2026-* | Resto de la cronología de 2026 | `SIN_DATOS` | ARQ-351–380 | **No construida:** lluvias altiplánicas del verano, tormentas eléctricas, marejadas y sequía; no se encontraron fuentes oficiales de esos eventos en las páginas consultadas |
+| [CAT-2026-007](CAT-2026-007.md) | Tornado EF1 entre Yungay y Tucapel, 28 de agosto de 2026 | `CONFIRMADO` | ARQ-348, 361, 364, 369 | Informe técnico preliminar de la DMC leído completo; sin balance de viviendas |
+| [CAT-2026-008](CAT-2026-008.md) | Zonas de escasez hídrica con decretos de 2026 | `CONFIRMADO` | ARQ-367, 805, 835 | Decretos y vigencias de la página oficial de la DGA; sin índices ni impactos |
+| [CAT-2026-009](CAT-2026-009.md) | Aviso de tormentas eléctricas A544/2026, 11–13 de octubre de 2026 | `PRELIMINAR` | ARQ-361, 364, 833 | Solo pronóstico de la DMC |
+| CAT-2026-* | Resto de la cronología de 2026 | `SIN_DATOS` | ARQ-351–380 | Sin ficha: marejadas de julio (aviso de la Armada visto solo en resumen), tornado de Diguillín del 27 de julio (visto solo en resumen) y lluvias altiplánicas del verano (sin fuente oficial hallada); se incorporan al leer su fuente |
 
 Los candidatos se nombran por ser eventos públicamente conocidos; ninguna cifra, causa o responsabilidad está afirmada aquí.
 

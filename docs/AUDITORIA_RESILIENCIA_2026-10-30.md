@@ -86,10 +86,15 @@ Esta sección registra la ejecución posterior al diagnóstico. La línea base d
 - **Controles:** `scripts/validate_resilience.py` (estructura de fichas, RUTA-35 y cálculos didácticos, entre ellos la pérdida esperada y el costo correctivo), resumen de CI derivado de `data/program.json`, cifras de fuentes derivadas de la bibliografía en el validador y generador de fases corregido.
 - **Documentación:** guía de la biblioteca de casos, tabla de scripts y flujo de regeneración en la arquitectura del repositorio, CONTRIBUTING con el flujo completo y glosario ordenado.
 
-### Pendientes que este repositorio no puede resolver por sí solo
+### Verificación y vigilancia: cómo funciona el programa sin terceros
 
-- Revisión de especialistas: ingeniería geotécnica y estructural, derecho de seguros y de corretaje, tasación y seguros.
-- Contraste con corredores, tasadores y aseguradores en ejercicio, y pilotos con estudiantes.
-- Lectura íntegra de los informes técnicos de SERNAGEOMIN, CONAF, DGA y SHOA, y de los balances de cierre de SENAPRED.
-- Eventos de 2026 sin fuente oficial hallada: lluvias altiplánicas de verano, tormentas eléctricas, marejadas y sequía.
-- Vigilancia periódica de normas y fuentes: sigue siendo manual y no hay monitoreo automático.
+- **Normas:** cada artículo citado en ARQ-831–833 está en `data/verificacion.json` con instrumento, nivel de lectura y clases de uso (21 afirmaciones; el DS 1055 leído en texto, la Ley 20.667 en dos pasadas o en una). El validador falla si una clase cita un artículo que no está registrado.
+- **Estándar pedagógico:** `scripts/validate_resilience.py` lee las diez clases de la Parte 84 contra el estándar de documentación (pregunta, fallo crítico, mapa, dos casos resueltos, práctica, ejercicio, errores, evaluación, autoevaluación con al menos cinco ítems resueltos, continuidad, fuentes con fecha) y recalcula sus cifras.
+- **Casos:** trece fichas con estados por campo; las de fuente técnica leída completa llegan a `CONFIRMADO` como contenido de esa fuente (CAT-2026-007 y 008) y las demás quedan `PRELIMINAR` con lo que falta para elevarlas.
+- **Laboratorios:** los diez laboratorios de evaluación de inmuebles tienen solución modelo.
+- **Vigilancia:** `data/vigilancia.json` y el workflow mensual `source-watch.yml` comprueban la disponibilidad de 13 fuentes oficiales; la lectura del contenido sigue la frecuencia indicada en cada ítem.
+- **Aprendizaje:** el programa define seis instrumentos de verificación para quien estudia ([niveles de verificación](NIVELES_DE_VERIFICACION.md)).
+
+### Alcance por diseño
+
+Dictámenes, firmas, tasaciones, liquidaciones y certificaciones corresponden a profesionales y organismos habilitados; el programa lo declara en los límites de cada clase y no pretende sustituirlos. La cronología de 2026 sigue abierta: se incorporan las marejadas de julio, el tornado de Diguillín y las lluvias altiplánicas de verano cuando se lea su fuente oficial.

@@ -27,6 +27,7 @@ Armar y defender una carpeta de evaluación inmobiliaria para una operación de 
 Las 44 clases se recorren en orden después de nivelar sólo las brechas observadas. Cada documento producido alimenta el siguiente y conserva versión, fuente, responsable, supuesto y condición de reapertura.
 
 - [EVALUACION TECNICA INMUEBLES](../cases/EVALUACION-TECNICA-INMUEBLES.md)
+- [EVALUACION TECNICA INMUEBLES SOLUCIONES](../cases/EVALUACION-TECNICA-INMUEBLES-SOLUCIONES.md)
 - [DECISION INTEGRAL RESILIENTE](../cases/DECISION-INTEGRAL-RESILIENTE.md)
 
 ## Puertas formales, crítica y recuperación

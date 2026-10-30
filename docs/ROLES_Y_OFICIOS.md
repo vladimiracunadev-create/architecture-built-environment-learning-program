@@ -14,6 +14,18 @@ El programa no presenta la arquitectura como trabajo de una sola persona. Las fi
 | puesta en marcha, operación y diagnóstico | ROL-068–072 | comisionamiento, facility management, mantenimiento, auditoría y patologías |
 | mandante, permisos, autoridades y conocimiento | ROL-073–080 | propietario, activos, permisos, revisión, autoridad, docencia e investigación |
 
+## Perfiles complementarios para operaciones inmobiliarias y seguros
+
+El mapa de 80 roles no se altera. Estos perfiles aparecen en la [RUTA-35](../learning-paths/ruta-35.md) y en la Parte 84 y se relacionan con roles existentes sin reemplazarlos.
+
+| Perfil | Función en el programa | Rol de apoyo | Límite |
+|---|---|---|---|
+| corredor de propiedades | ordena antecedentes, registra lo visible y deriva (ARQ-835–840) | ROL-073 (propietario) y ROL-075 (permisos) como contrapartes | no inspecciona, tasa ni certifica |
+| tasador | método y comparables que sostienen un valor (ARQ-835) | ROL-070 (activos) | el programa no enseña a tasar |
+| corredor de seguros | asesora coberturas sobre la póliza concreta (ARQ-831–832) | ROL-073 | el programa enseña a leer una póliza, no a recomendarla |
+| liquidador de siniestros | investiga el siniestro y propone el monto según el DS 1055 (ARQ-833) | ROL-071 (auditoría) | el programa explica sus plazos y los derechos del asegurado |
+| administrador de copropiedad | contrata seguros comunes y lleva actas (ARQ-831, 840) | ROL-069 (facility management) | no sustituye a un ingeniero ante daños |
+
 ## Qué evita este mapa
 
 - atribuir a una sola persona todas las decisiones y comprobaciones;

@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Vigilancia de fuentes
+
+on:
+  schedule:
+    - cron: "17 9 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Disponibilidad de fuentes oficiales
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Comprobar la lista de vigilancia y una muestra de la bibliografía
+        run: python scripts/check_sources.py --bibliography 60
+      - name: Publicar el informe como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-check
+          path: |
+            docs/audits/source-check.md
+            data/audits/source-check.json
+      - name: Resumen
+        if: always()
+        run: |
+          echo "### Vigilancia de fuentes" >> "$GITHUB_STEP_SUMMARY"
+          cat docs/audits/source-check.md >> "$GITHUB_STEP_SUMMARY"

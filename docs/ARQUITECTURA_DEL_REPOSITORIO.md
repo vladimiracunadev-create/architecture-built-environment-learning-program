@@ -22,6 +22,8 @@ classes/ + studios/ ─┐  │  │  │  │
 | `data/pedagogy.json` | evaluación, talleres y rutas |
 | `classes/parte-XX/ARQ-XXX.md` | contenido editorial de las clases |
 | `data/pedagogical-decisions.json` | cinco pilotos con revisión editorial manual profunda |
+| `data/verificacion.json` | afirmaciones normativas verificadas contra texto oficial, con nivel y clases de uso |
+| `data/vigilancia.json` | fuentes oficiales vigiladas, frecuencia de revisión y dependencias |
 
 ## Salidas derivadas
 
@@ -67,7 +69,8 @@ Los archivos con sufijo `v1.0`, `INDICE_680_CLASES_v1.0.md`, `STATUS_v1.0.json`,
 | `audit_pedagogical_traceability.py` | verifica que cada cadena apunte a fuentes existentes | `--json` |
 | `audit_class_distinctness.py` | duplicación y proximidad editorial | `--check` (y `--write` para actualizar) |
 | `validate_homeowner_budget.py` | plantillas de presupuesto y sus pruebas aritméticas | sí |
-| `validate_resilience.py` | fichas de caso, RUTA-35 y cálculos didácticos de la Parte 84 | sí |
+| `validate_resilience.py` | fichas de caso, RUTA-35, registro de afirmaciones verificadas, estándar pedagógico y cálculos de la Parte 84 | sí |
+| `check_sources.py` | disponibilidad de las fuentes de `data/vigilancia.json` (y de una muestra de la bibliografía) | no; se ejecuta mensualmente en `source-watch.yml` |
 | `build_site.py` | portal estático | sí |
 | `validate_repo.py` | coherencia global: identificadores, partes, rutas, fuentes, enlaces, UTF-8 y sitio | sí |
 | `expand_curriculum.py`, `expand_homeowner_path.py`, `expand_resilience_path.py`, `import_legacy_reader.py` | ayudantes de autoría única que registran ampliaciones en los manifiestos; **no** forman parte del flujo corriente y no deben ejecutarse sobre una rama ya ampliada sin leerlos | no |

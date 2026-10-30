@@ -1246,6 +1246,7 @@
       ],
       "case_files": [
         "cases/EVALUACION-TECNICA-INMUEBLES.md",
+        "cases/EVALUACION-TECNICA-INMUEBLES-SOLUCIONES.md",
         "cases/DECISION-INTEGRAL-RESILIENTE.md"
       ],
       "formal_checkpoints": [

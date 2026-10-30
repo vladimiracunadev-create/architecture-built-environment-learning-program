@@ -5,10 +5,10 @@ Este directorio responde de forma auditable a **qué fuentes utiliza cada clase*
 | Medida | Resultado |
 |---|---:|
 | Clases inspeccionadas | **840** |
-| Apariciones de URL en fuentes | **2445** |
-| URLs externas únicas | **637** |
+| Apariciones de URL en fuentes | **2446** |
+| URLs externas únicas | **638** |
 | Dominios únicos | **191** |
-| Usos con contexto completo | **1392/2445** |
+| Usos con contexto completo | **1393/2446** |
 | Clases con todos sus usos completos | **452/840** |
 
 El registro completo está en [`bibliography.json`](bibliography.json). Su esquema v3 registra o infiere: título; autor, organización o dominio de autoridad; URL; fecha de consulta cuando consta en la clase; tipo de fuente; función, alcance y límite por clase; licencia cuando se declara; y si el recurso se redistribuye o sólo se enlaza. Cada relación queda marcada como `complete` o `partial` e incluye la lista exacta de campos ausentes.
@@ -21,12 +21,12 @@ La presencia de un enlace demuestra localización, no calidad bibliográfica ni 
 
 | Campo exigido | Cobertura actual | Porcentaje |
 |---|---:|---:|
-| Afirmación o función que apoya | **2378/2445** | **97.3%** |
-| Parte o alcance efectivamente consultado | **1991/2445** | **81.4%** |
-| Límite de interpretación | **2240/2445** | **91.6%** |
-| Fecha de consulta | **1564/2445** | **64.0%** |
+| Afirmación o función que apoya | **2379/2446** | **97.3%** |
+| Parte o alcance efectivamente consultado | **1992/2446** | **81.4%** |
+| Límite de interpretación | **2241/2446** | **91.6%** |
+| Fecha de consulta | **1565/2446** | **64.0%** |
 
-En conjunto, **1392/2445 (56.9%)** usos tienen los cuatro campos y **1053** requieren revisión editorial. Esto se publica como brecha; no se reemplaza con inferencias o fechas inventadas.
+En conjunto, **1393/2446 (57.0%)** usos tienen los cuatro campos y **1053** requieren revisión editorial. Esto se publica como brecha; no se reemplaza con inferencias o fechas inventadas.
 
 ## Requisitos según el tipo de fuente
 
@@ -35,7 +35,7 @@ En conjunto, **1392/2445 (56.9%)** usos tienen los cuatro campos y **1053** requ
 | Norma o estándar | 65 | organismo, código, edición o año, jurisdicción y artículo/sección consultada |
 | Organismo público | 191 | institución, documento o página, fecha/versión y competencia territorial |
 | Académica o educativa | 59 | autoría, título, institución/editorial, edición o año y capítulo/página cuando corresponda |
-| Referencia web | 322 | autor o institución, título, fecha de publicación/actualización y sección consultada |
+| Referencia web | 323 | autor o institución, título, fecha de publicación/actualización y sección consultada |
 
 Los libros deben añadir editorial, edición, año, ISBN cuando exista y páginas o capítulos consultados. Un DOI, ISBN o URL es un localizador: no sustituye la explicación de qué afirmación respalda.
 
@@ -66,7 +66,7 @@ Los libros deben añadir editorial, edición, año, ISBN cuando exista y página
 
 ## Qué demuestra y qué no
 
-El registro demuestra que una URL aparece en la sección de fuentes de una clase y permite localizar sus usos. No demuestra que la fuente siga disponible, que se haya leído íntegramente, que sea aplicable en una jurisdicción concreta ni que su institución respalde el programa. La disponibilidad en vivo de las 637 URLs y la vigencia normativa siguen pendientes.
+El registro demuestra que una URL aparece en la sección de fuentes de una clase y permite localizar sus usos. No demuestra que la fuente siga disponible, que se haya leído íntegramente, que sea aplicable en una jurisdicción concreta ni que su institución respalde el programa. La disponibilidad en vivo de las 638 URLs y la vigencia normativa siguen pendientes.
 
 Para entender de dónde provienen la secuencia, las indicaciones y los ejercicios, consulta [Procedencia editorial](../docs/PROCEDENCIA_EDITORIAL.md). Para el criterio de uso y límites, consulta [Fuentes y evidencia](../docs/FUENTES_Y_EVIDENCIA.md).
 
