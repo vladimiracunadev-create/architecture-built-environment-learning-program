@@ -1,4 +1,4 @@
-# 34 rutas de aprendizaje
+# 35 rutas de aprendizaje
 
 Las rutas reorganizan las cuatro fases para permitir profundización y aplicación sin duplicar clases. Cada una declara perfil de entrada, diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización. No conceden credenciales ni atribuciones profesionales.
 
@@ -38,6 +38,7 @@ Las rutas reorganizan las cuatro fases para permitir profundización y aplicaci�
 | 32 | Visualización | Comunicar espacio, datos, tiempo e incertidumbre mediante un sistema visual accesible y verificable. | [Abrir RUTA-32](../learning-paths/ruta-32.md) |
 | 33 | Inteligencia artificial aplicada | Diseñar y auditar un uso de IA con propósito, datos, riesgos, pruebas, supervisión y retiro. | [Abrir RUTA-33](../learning-paths/ruta-33.md) |
 | 34 | Vivienda propia y ampliación para propietarios | Organizar y defender dos expedientes educativos —CASA-NUEVA-80 y AMPLIACION-24— desde factibilidad hasta recepción y mantenimiento, con costos, permisos, responsabilidades y límites verificables. | [Abrir RUTA-34](../learning-paths/ruta-34.md) |
+| 35 | Evaluación técnica de inmuebles para corredores de propiedades | Armar y defender una carpeta de evaluación inmobiliaria para una operación de corretaje: descripción del inmueble, antecedentes documentales, revisión normativa inicial, riesgos, costos preliminares, mantenimiento y recomendaciones que indiquen qué verificar y a qué profesional derivar, sin declarar estabilidad, legalidad ni ausencia de riesgo. | [Abrir RUTA-35](../learning-paths/ruta-35.md) |
 
 ## Contrato común
 

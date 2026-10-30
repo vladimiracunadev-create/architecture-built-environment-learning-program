@@ -36,7 +36,7 @@ Cada carpeta tiene un README con sus diez preguntas, resultados y enlaces. Es la
 
 ### Por ruta
 
-Las 34 rutas conectan partes no contiguas alrededor de una responsabilidad o especialización. Cada guía declara diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización.
+Las 35 rutas conectan partes no contiguas alrededor de una responsabilidad o especialización. Cada guía declara diagnóstico, partes esenciales, talleres de checkpoint, evidencia de salida, capstone y criterio de finalización.
 
 ### Por taller vertical
 

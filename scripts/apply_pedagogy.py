@@ -403,7 +403,7 @@ def route_markdown(route: dict, studios: dict[str, dict]) -> str:
 
 {classes}
 
-Las 30 clases se recorren en orden después de nivelar sólo las brechas observadas. Cada documento producido alimenta el siguiente y conserva versión, fuente, responsable, supuesto y condición de reapertura.
+Las {len(route['class_sequence'])} clases se recorren en orden después de nivelar sólo las brechas observadas. Cada documento producido alimenta el siguiente y conserva versión, fuente, responsable, supuesto y condición de reapertura.
 
 {cases}
 

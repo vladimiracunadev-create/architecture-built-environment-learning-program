@@ -114,7 +114,8 @@
         "RUTA-09",
         "RUTA-11",
         "RUTA-12",
-        "RUTA-34"
+        "RUTA-34",
+        "RUTA-35"
       ]
     },
     {
@@ -1132,6 +1133,86 @@
         "role": "propietario",
         "focus": "Antes de ampliar o comprar, revisa agua, clima y multiamenaza del lugar, la operación posterior y los seguros."
       }
+    },
+    {
+      "id": "RUTA-35",
+      "title": "Evaluación técnica de inmuebles para corredores de propiedades",
+      "parts": [
+        1,
+        11,
+        12,
+        15,
+        19,
+        21,
+        22,
+        24,
+        26,
+        27,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        46,
+        47,
+        70,
+        74,
+        81
+      ],
+      "entry": "Para corredores de propiedades y quienes los acompañan en una operación (compradores, vendedores, arrendadores, administradores). Diagnóstico inicial: leer planos y superficies, distinguir observación visible, evidencia documental, hipótesis técnica y decisión profesional, y reconocer qué no puede afirmar un corredor.",
+      "exit": "Armar y defender una carpeta de evaluación inmobiliaria para una operación de corretaje: descripción del inmueble, antecedentes documentales, revisión normativa inicial, riesgos, costos preliminares, mantenimiento y recomendaciones que indiquen qué verificar y a qué profesional derivar, sin declarar estabilidad, legalidad ni ausencia de riesgo.",
+      "capstone": "EST-06",
+      "class_sequence": [
+        "ARQ-412",
+        "ARQ-101",
+        "ARQ-802",
+        "ARQ-803",
+        "ARQ-393",
+        "ARQ-394",
+        "ARQ-395",
+        "ARQ-805",
+        "ARQ-110",
+        "ARQ-184",
+        "ARQ-190",
+        "ARQ-261",
+        "ARQ-267",
+        "ARQ-453",
+        "ARQ-454",
+        "ARQ-804",
+        "ARQ-348",
+        "ARQ-349",
+        "ARQ-378",
+        "ARQ-351",
+        "ARQ-352",
+        "ARQ-353",
+        "ARQ-356",
+        "ARQ-360",
+        "ARQ-371",
+        "ARQ-372",
+        "ARQ-368",
+        "ARQ-742",
+        "ARQ-743",
+        "ARQ-418",
+        "ARQ-420",
+        "ARQ-464",
+        "ARQ-694",
+        "ARQ-819"
+      ],
+      "case_files": [
+        "cases/EVALUACION-TECNICA-INMUEBLES.md",
+        "cases/DECISION-INTEGRAL-RESILIENTE.md"
+      ],
+      "formal_checkpoints": [
+        "ARQ-394 · puerta DOCUMENTOS COHERENTES O DERIVAR",
+        "ARQ-360 · puerta RIESGO DE EMPLAZAMIENTO: CONTINUAR / CONDICIONAR / DESCARTAR",
+        "ARQ-420 · puerta RECOMENDACIÓN JUSTIFICADA CON SENSIBILIDAD Y LÍMITES"
+      ],
+      "activity_boundary": "Las actividades son simulaciones de evaluación educativa. El corredor puede organizar antecedentes, registrar observaciones visibles, formular preguntas y advertir al cliente qué falta verificar; la estabilidad estructural, la legalidad de lo construido, el diagnóstico de patologías, la tasación y la ausencia de riesgo corresponden a arquitectos, ingenieros, inspectores, tasadores y organismos competentes. Esta ruta no habilita para esas funciones. Ninguna conclusión se basa solo en fotografías o inspecciones visuales informales."
     }
   ]
 }

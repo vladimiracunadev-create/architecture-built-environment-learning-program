@@ -44,7 +44,7 @@ No se inicia una expansión creando títulos. Primero se actualiza la [matriz de
 | Personas, sociedad y accesibilidad | implementado y ampliado | Partes 04, 18, 75 y 79 | coevaluar con personas y comunidades bajo consentimiento | evidencia de participación y correcciones incorporadas |
 | Taller vertical y proyectos | implementado y ampliado | EST-01–10 | pilotar carga, crítica, iteración y transferencia | resultados de cohortes y ajustes documentados |
 | Evaluación y portafolio | implementado | rúbrica, evidencias y talleres | medir fiabilidad entre evaluadores y calidad de retroalimentación | piloto con doble corrección |
-| Rutas de especialización | implementado | 34 rutas | revisar solapamientos sin duplicar clases | diagnóstico, capstone y salida comprobados por ruta |
+| Rutas de especialización | implementado | 35 rutas | revisar solapamientos sin duplicar clases | diagnóstico, capstone y salida comprobados por ruta |
 | Glosario | implementado con mantenimiento continuo | `docs/GLOSARIO_ACUMULATIVO.md` | añadir sólo términos conectados a clases y relaciones | revisión terminológica por disciplina |
 | Fuentes y trazabilidad | implementado con brecha conocida | 2.419 usos; 1.366 completos | completar alcance, límite, fecha y función sin inferir datos | 100 % de usos contextualmente completos |
 | Recursos visuales | parcial | diagramas de dependencia y visuales distribuidos | priorizar sección, detalle, mapa y comparación que enseñen | auditoría visual y accesibilidad |
@@ -136,6 +136,7 @@ Una clase nueva debe aportar una competencia nueva, profundidad demostrable, int
 
 | Fecha | Decisión | Evidencia | Consecuencia |
 |---|---|---|---|
+| 2026-10-30 | añadir RUTA-35 para corredores de propiedades | auditoría: RUTA-12, 30 y 34 no cubren la evaluación de inmuebles existentes en operaciones de corretaje | ruta sobre 34 clases existentes, caso con 10 laboratorios y 35 rutas; clases de valoración e inspección quedan como brechas |
 | 2026-10-12 | añadir Fase IV y RUTA-34 para vivienda nueva y ampliación | auditoría de cobertura previa, dos casos, presupuesto verificable y fuentes oficiales chilenas | ARQ-801–830, Partes 81–83, 34 rutas y controles de costos en CI |
 | 2026-10-06 | preservar ARQ-001–680 como núcleo y añadir Fase III | auditoría de cobertura y solicitud de más clases y temas | numeración continua ARQ-681–800 |
 | 2026-10-06 | centralizar conteos y títulos | valores repetidos en scripts, CI y docs; títulos leídos desde HTML histórico | `data/program.json` y `data/parts.json` pasan a ser canónicos |

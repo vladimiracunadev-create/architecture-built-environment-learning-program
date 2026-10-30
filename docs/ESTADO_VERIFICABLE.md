@@ -43,7 +43,7 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 | Talleres verticales | **10** |
 | Sesiones integradoras | **60** |
 | Fases por taller | **6**: diagnóstico, investigación, alternativas, crítica, revisión y defensa |
-| Rutas con diagnóstico, checkpoints, salida y capstone | **34/34** |
+| Rutas con diagnóstico, checkpoints, salida y capstone | **35/35** |
 | Dimensiones de la rúbrica común | **5** |
 | Umbral documental | **80/100**, ninguna dimensión bajo 60 % |
 | Pilotos con estudiantes | **pendiente** |
@@ -76,7 +76,7 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 | Páginas de clase | **830** | una por ARQ |
 | Portadas de parte | **83** | una por bloque |
 | Páginas de taller | **70** | diez portadas + 60 sesiones |
-| Rutas pedagógicas | **34** | entrada, recorrido, checkpoints, salida y capstone |
+| Rutas pedagógicas | **35** | entrada, recorrido, checkpoints, salida y capstone |
 | Casos domésticos aplicados | **2** | casa nueva de 80 m² y ampliación de 24 m², ambos didácticos |
 | Presupuestos verificables | **2 CSV + 1 XLSX** | esquema, fórmulas y controles validados en CI |
 | Recursos transversales del lector v1.0 | **755** | colección histórica conservada |

@@ -20,7 +20,7 @@ Esta matriz evita dos errores: omitir un patrón documental útil y copiar una f
 | Bibliografía central trazable | esquema v3: 631 URLs, 2.419 usos, estado completo/parcial y campos ausentes por clase | Aplicado |
 | Fuentes con alcance y límites | sección dedicada en 830/830 clases | Aplicado |
 | Cómo usar el programa | guía para perfiles y recorridos | Aplicado |
-| Rutas por interés o responsabilidad | 34 rutas y mapa de 80 roles/oficios | Aplicado |
+| Rutas por interés o responsabilidad | 35 rutas y mapa de 80 roles/oficios | Aplicado |
 | Estado comprobable y brechas | cobertura exacta, comandos y límites explícitos | Aplicado |
 | Licencia separada de código y contenido | Apache-2.0 + CC BY-NC-SA 4.0 | Aplicado |
 | Licencias de datos y activos | inventarios dedicados | Aplicado |

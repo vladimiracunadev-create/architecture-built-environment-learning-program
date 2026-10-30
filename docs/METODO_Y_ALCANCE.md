@@ -2,7 +2,7 @@
 
 ## Qué es este programa
 
-Una malla educativa secuencial de **830 clases en 83 partes**, complementada por **diez talleres verticales con 60 sesiones** y 34 rutas verificables. Integra historia, representación, personas, territorio, estructuras, materiales, instalaciones, gestión, patrimonio, operación, tipologías complejas, investigación, práctica profesional, tecnologías contemporáneas y una aplicación completa a vivienda.
+Una malla educativa secuencial de **830 clases en 83 partes**, complementada por **diez talleres verticales con 60 sesiones** y 35 rutas verificables. Integra historia, representación, personas, territorio, estructuras, materiales, instalaciones, gestión, patrimonio, operación, tipologías complejas, investigación, práctica profesional, tecnologías contemporáneas y una aplicación completa a vivienda.
 
 La unidad de trabajo es la clase Markdown. Las 830 clases son la fuente editorial; los índices de parte y GitHub Pages son superficies de acceso derivadas. La estructura completa puede recorrerse desde el [índice curricular](../classes/README.md).
 

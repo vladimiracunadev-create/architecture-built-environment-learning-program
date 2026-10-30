@@ -2,7 +2,7 @@
 
 # 🏛️ Programa Integral de Arquitectura, Construcción y Entorno Habitado
 
-## **830 clases · 60 sesiones de taller · 34 rutas · del encargo a la vivienda construida y operada**
+## **830 clases · 60 sesiones de taller · 35 rutas · del encargo a la vivienda construida y operada**
 
 **Un currículo secuencial en español con evidencia, crítica, revisión y portafolio para estudiar arquitectura como una coordinación de personas, lugar, historia, materia, sistemas, recursos, responsabilidades, operación y tiempo.**
 
@@ -10,7 +10,7 @@
 [![Deploy Pages](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/actions/workflows/deploy-pages.yml)
 [![Clases](https://img.shields.io/badge/clases-830%20·%2083%20partes-b85c38?style=for-the-badge)](classes/README.md)
 [![Talleres](https://img.shields.io/badge/talleres-10%20·%2060%20sesiones-1d6b68?style=for-the-badge)](studios/README.md)
-[![Rutas](https://img.shields.io/badge/rutas-34-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
+[![Rutas](https://img.shields.io/badge/rutas-35-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
 [![Fuentes](https://img.shields.io/badge/fuentes-631%20URLs%20·%20190%20dominios-ddb967?style=for-the-badge)](sources/README.md)
 [![Trazabilidad](https://img.shields.io/badge/usos%20completos-1.366%20de%202.419-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
@@ -295,7 +295,7 @@ Las Partes 81–83 convierten conocimientos dispersos en una secuencia doméstic
 
 La [guía completa](docs/COMO_USAR_EL_PROGRAMA.md) propone entradas diferentes para estudiantes, docentes, profesionales, mandantes y lectores por tipología.
 
-## 🧭 34 rutas de aprendizaje
+## 🧭 35 rutas de aprendizaje
 
 Las doce rutas troncales organizan el núcleo transversal; las 21 rutas siguientes incorporan tipologías y Fase III para completar los recorridos de especialización:
 
@@ -312,9 +312,11 @@ Las doce rutas troncales organizan el núcleo transversal; las 21 rutas siguient
 - [**Operación y rehabilitación**](learning-paths/ruta-11.md) — puesta en marcha, mantenimiento, posocupación, patologías y mejora.
 - [**Mandante informado y desarrollo de servicios**](learning-paths/ruta-12.md) — decisiones, encargos, riesgos, contratación y recepción.
 
-Otras 22 rutas permiten especializarse en urbanismo, paisaje, vivienda, diseño computacional, fabricación digital, bioclimática, iluminación, acústica, interiores, salud, educación, transporte, infraestructura, industria y logística, centros de datos, diseño sísmico, resiliencia, desarrollo inmobiliario, investigación, visualización, IA aplicada y autogestión informada de vivienda. Cada ruta reutiliza el núcleo y declara diagnóstico, checkpoints, capstone y criterio de salida. [Comparar las 34 rutas →](docs/RUTAS_DE_APRENDIZAJE.md)
+Otras 23 rutas permiten especializarse en urbanismo, paisaje, vivienda, diseño computacional, fabricación digital, bioclimática, iluminación, acústica, interiores, salud, educación, transporte, infraestructura, industria y logística, centros de datos, diseño sísmico, resiliencia, desarrollo inmobiliario, investigación, visualización, IA aplicada y autogestión informada de vivienda. Cada ruta reutiliza el núcleo y declara diagnóstico, checkpoints, capstone y criterio de salida. [Comparar las 34 rutas →](docs/RUTAS_DE_APRENDIZAJE.md)
 
 La [Ruta 34 · Construye tu vivienda: de la idea a la operación](learning-paths/ruta-34.md) reúne las 30 clases nuevas, los casos [CASA-NUEVA-80](cases/CASA-NUEVA-80.md) y [AMPLIACION-24](cases/AMPLIACION-24.md), la [matriz de permisos](docs/MATRIZ_PERMISOS_VIVIENDA_CHILE.md) y una [planilla auditable de presupuesto](templates/presupuesto-vivienda-ampliacion.xlsx).
+
+La [Ruta 35 · Evaluación técnica de inmuebles para corredores de propiedades](learning-paths/ruta-35.md) enseña a leer un inmueble existente, ordenar sus antecedentes, reconocer riesgos y derivar al profesional competente mediante una ficha de inspección educativa y diez laboratorios ([caso](cases/EVALUACION-TECNICA-INMUEBLES.md)); no habilita para inspeccionar, tasar ni certificar.
 
 ## 👷 Ochenta roles y oficios
 
@@ -377,7 +379,7 @@ El portal reúne guías mantenidas sobre estándar de clase, método, auditoría
 | [GitHub Pages](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/) | navegación, búsqueda y lectura HTML |
 | [830 Markdown](classes/README.md) | fuentes editables y revisión en Git |
 | [60 sesiones de taller](studios/README.md) | integración, crítica, revisión y defensa |
-| [34 rutas verificables](docs/RUTAS_DE_APRENDIZAJE.md) | diagnóstico, checkpoints, capstone y salida |
+| [35 rutas verificables](docs/RUTAS_DE_APRENDIZAJE.md) | diagnóstico, checkpoints, capstone y salida |
 | [Lector offline v1.0](programa-arquitectura-lector-definitivo-v1.0.html) | biblioteca autosuficiente sin servidor |
 | [20 clases finales en Markdown](Arquitectura_20_Clases_Finales_v1.0.md) | bloque ARQ-661–680 consolidado |
 | [20 clases finales en PDF](Arquitectura_20_Clases_Finales_v1.0.pdf) | lectura e impresión |
@@ -443,7 +445,7 @@ Una comprobación verde demuestra coherencia reproducible del repositorio. No de
 │       ├── README.md             # propósito, preguntas, resultados y navegación
 │       └── ARQ-XXX.md            # diez clases por parte
 ├── studios/                      # 10 talleres · 60 sesiones integradoras
-├── learning-paths/               # 34 rutas con entrada, checkpoints y capstone
+├── learning-paths/               # 35 rutas con entrada, checkpoints y capstone
 ├── cases/                        # casos domésticos didácticos y comparables
 ├── templates/                    # presupuestos CSV y planilla XLSX auditable
 ├── evidence/                     # convención privada de evidencias y portafolio

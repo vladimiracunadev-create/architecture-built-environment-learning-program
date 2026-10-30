@@ -44,5 +44,7 @@ El glosario sirve para conectar conceptos, no para reemplazar las clases. Cada e
 | validación | validation | comprobación de que la solución sirve para el uso previsto bajo condiciones declaradas | verificación, usuario, prueba | [ARQ-136](../classes/parte-14/ARQ-136.md) |
 | verificación | verification | comprobación de que una salida satisface requisitos y reglas definidos | cálculo, inspección, prueba | [ARQ-200](../classes/parte-20/ARQ-200.md) |
 | wayfinding | wayfinding | sistema espacial, sensorial e informativo que permite orientarse y decidir recorridos | señalética, legibilidad, accesibilidad | [ARQ-175](../classes/parte-18/ARQ-175.md) |
+| ficha de inspección educativa | educational inspection sheet | registro que separa observación visible, evidencia documental, hipótesis, riesgo, verificación pendiente, derivación y decisión comercial; no es un informe pericial | derivación, patología, límites profesionales | [ARQ-454](../classes/parte-46/ARQ-454.md) |
+| plusvalía | property value appreciation | aumento de valor atribuible a ubicación, infraestructura o normativa, que debe expresarse con supuestos y datos citados y no equivale a una tasación | depreciación, obsolescencia, suelo | [ARQ-742](../classes/parte-75/ARQ-742.md) |
 
 Para ampliar una entrada debe añadirse una relación útil y un enlace a una clase; no se incorporan definiciones aisladas para aumentar el conteo.
