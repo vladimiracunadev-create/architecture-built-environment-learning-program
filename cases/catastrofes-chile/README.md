@@ -22,12 +22,13 @@ Dirección Meteorológica de Chile · SENAPRED · SERNAGEOMIN · Dirección Gene
 
 | ID | Evento (nombre público) | Estado | Clases | Observación |
 |---|---|---|---|---|
-| CAT-001 | Terremoto y tsunami del 27 de febrero de 2010 | `SIN_DATOS` | ARQ-341–351 | Candidato; requiere SHOA, SENAPRED, SERNAGEOMIN y literatura académica |
+| [CAT-001](CAT-001.md) | Terremoto del 27 de febrero de 2010 | `PRELIMINAR` | ARQ-341–351 | Parámetros básicos con respaldo parcial; lectura íntegra de fuentes pendiente |
 | CAT-002 | Incendio de Valparaíso, abril de 2014 | `SIN_DATOS` | ARQ-368, 377, 379 | Candidato; requiere CONAF y fuentes municipales |
 | CAT-003 | Aluvión en Atacama, marzo de 2015 | `SIN_DATOS` | ARQ-353, 372 | Candidato; requiere DMC, DGA y SERNAGEOMIN |
 | CAT-004 | Incendios forestales de 2017 y de 2024 | `SIN_DATOS` | ARQ-368, 375 | Candidato; requiere CONAF y SENAPRED |
 | CAT-005 | Aluvión de Villa Santa Lucía, diciembre de 2017 | `SIN_DATOS` | ARQ-372, 376 | Candidato; requiere SERNAGEOMIN |
-| CAT-2026-* | Cronología verificada desde el 1 de enero de 2026 | `SIN_DATOS` | ARQ-351–380 | **No construida.** Requiere registros oficiales; no se aceptan titulares |
+| [CAT-2026-001](CAT-2026-001.md) | Sistema frontal de julio de 2026 | `PRELIMINAR` | ARQ-353, 361–369, 377 | Basado en comunicados oficiales de SENAPRED del 13 y 17 de julio; balance parcial |
+| CAT-2026-* | Resto de la cronología desde el 1 de enero de 2026 | `SIN_DATOS` | ARQ-351–380 | **No construida** (incendios, calor, tormentas de verano, lluvias en zonas áridas, nevadas, sequía); requiere registros oficiales |
 
 Los candidatos se nombran por ser eventos públicamente conocidos; ninguna cifra, causa o responsabilidad está afirmada aquí.
 
