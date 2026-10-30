@@ -4,9 +4,9 @@
   "generated_on": "2026-10-12",
   "policy": "Registro derivado de las secciones 'Fuentes y alcance de uso'. Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, aplicabilidad normativa, permiso de redistribución ni respaldo institucional. Si no consta una licencia, se registra como desconocida y se conserva sólo el enlace.",
   "class_count": 840,
-  "citation_occurrences": 2446,
-  "unique_sources": 638,
-  "unique_domains": 191,
+  "citation_occurrences": 2449,
+  "unique_sources": 640,
+  "unique_domains": 193,
   "traceability": {
     "required_context_fields": [
       "function",
@@ -15,12 +15,12 @@
       "accessed_on"
     ],
     "field_coverage": {
-      "function": 2379,
-      "consultation_scope": 1992,
-      "limitation": 2241,
-      "accessed_on": 1565
+      "function": 2382,
+      "consultation_scope": 1995,
+      "limitation": 2244,
+      "accessed_on": 1568
     },
-    "complete_uses": 1393,
+    "complete_uses": 1396,
     "partial_uses": 1053,
     "classes_with_all_uses_complete": 452,
     "classes_requiring_context_review": 388,
@@ -6833,6 +6833,38 @@
         }
       ],
       "usage_count": 5
+    },
+    {
+      "id": "source-doi-org-a14ac2bba2",
+      "type": "reference",
+      "title": "[[CL-BELTRAN-2018]] Beltrán, Maddison y Elliott · ¿Se capitaliza el riesgo de inundación en el valor de las propiedades?",
+      "locator": "https://doi.org/10.1016/j.ecolecon.2017.12.015",
+      "publisher_or_author": {
+        "name": "Beltrán, A., Maddison, D. y Elliott, R. J. R. (2018), Ecological Economics 146: 668–685",
+        "basis": "class-text"
+      },
+      "authority_domain": "doi.org",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-835.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-835.md",
+          "function": "respalda que existe literatura revisada por pares que estudia la relación entre riesgo de inundación y valor de las propiedades y que la magnitud depende del mercado.",
+          "consultation_scope": "registro bibliográfico (revista, volumen, páginas y título, que describe un metaanálisis del mercado de vivienda); no se leyeron los hallazgos.",
+          "limitation": "no se afirma ningún resultado numérico; la magnitud en un mercado chileno concreto es una pregunta empírica. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 1
     },
     {
       "id": "source-eae-mma-gob-cl-6dc140cc94",
@@ -19096,6 +19128,48 @@
         }
       ],
       "usage_count": 1
+    },
+    {
+      "id": "source-ivsc-org-179e8c9798",
+      "type": "reference",
+      "title": "[[CL-IVSC-INSPECCIONES]] IVSC · Inspección de activos tangibles en el proceso de valoración",
+      "locator": "https://www.ivsc.org/wp-content/uploads/2024/06/IVSC-Perspectives-Paper-Inspections.pdf",
+      "publisher_or_author": {
+        "name": "International Valuation Standards Council, Tangible Assets Board, junio de 2024",
+        "basis": "class-text"
+      },
+      "authority_domain": "ivsc.org",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-835.md",
+        "classes/parte-84/ARQ-836.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-835.md",
+          "function": "muestra que el estándar internacional de valoración promueve la transparencia sobre la inspección y deja al valuador decidir cuánta investigación necesita.",
+          "consultation_scope": "documento de 24 páginas leído mediante extracción de texto de la introducción; fragmentos sobre la inspección como una de varias formas de reunir evidencia.",
+          "limitation": "es un documento de perspectivas que complementa y no reemplaza a las normas de valoración; no se leyó completo ni es una norma chilena. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-836.md",
+          "function": "muestra que el estándar internacional de valoración promueve la transparencia sobre la inspección y deja al valuador decidir cuánta investigación necesita.",
+          "consultation_scope": "documento de 24 páginas leído mediante extracción de texto de la introducción; fragmentos sobre la inspección como una de varias formas de reunir evidencia.",
+          "limitation": "es un documento de perspectivas que complementa y no reemplaza a las normas de valoración; no se leyó completo ni es una norma chilena. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 2
     },
     {
       "id": "source-junji-gob-cl-07960f5716",

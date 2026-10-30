@@ -88,11 +88,11 @@ Esta sección registra la ejecución posterior al diagnóstico. La línea base d
 
 ### Verificación y vigilancia: cómo funciona el programa sin terceros
 
-- **Normas:** cada artículo citado en ARQ-831–833 está en `data/verificacion.json` con instrumento, nivel de lectura y clases de uso (21 afirmaciones; el DS 1055 leído en texto, la Ley 20.667 en dos pasadas o en una). El validador falla si una clase cita un artículo que no está registrado.
+- **Normas:** cada artículo citado en ARQ-831–833 está en `data/verificacion.json` con instrumento, nivel de lectura y clases de uso (25 afirmaciones; el DS 1055 leído en texto, la Ley 20.667 en dos pasadas o en una). El validador falla si una clase cita un artículo que no está registrado.
 - **Estándar pedagógico:** `scripts/validate_resilience.py` lee las diez clases de la Parte 84 contra el estándar de documentación (pregunta, fallo crítico, mapa, dos casos resueltos, práctica, ejercicio, errores, evaluación, autoevaluación con al menos cinco ítems resueltos, continuidad, fuentes con fecha) y recalcula sus cifras.
-- **Casos:** trece fichas con estados por campo; las de fuente técnica leída completa llegan a `CONFIRMADO` como contenido de esa fuente (CAT-2026-007 y 008) y las demás quedan `PRELIMINAR` con lo que falta para elevarlas.
+- **Casos:** quince fichas con estados por campo; las de fuente técnica leída completa llegan a `CONFIRMADO` como contenido de esa fuente (CAT-2026-007 y 008) y las demás quedan `PRELIMINAR` con lo que falta para elevarlas.
 - **Laboratorios:** los diez laboratorios de evaluación de inmuebles tienen solución modelo.
-- **Vigilancia:** `data/vigilancia.json` y el workflow mensual `source-watch.yml` comprueban la disponibilidad de 13 fuentes oficiales; la lectura del contenido sigue la frecuencia indicada en cada ítem.
+- **Vigilancia:** `data/vigilancia.json` y el workflow mensual `source-watch.yml` comprueban la disponibilidad de 17 fuentes oficiales; la lectura del contenido sigue la frecuencia indicada en cada ítem.
 - **Aprendizaje:** el programa define seis instrumentos de verificación para quien estudia ([niveles de verificación](NIVELES_DE_VERIFICACION.md)).
 
 ### Alcance por diseño

@@ -13,7 +13,7 @@ Se conserva el modelo existente: Apache-2.0 para código propio; CC BY-NC-SA 4.0
 - archivos legales, README, documentación, clases, fuentes, datos, scripts, activos y workflows;
 - dos PDF, lector offline, generador de GitHub Pages y salida `site/` reconstruida;
 - historial versionado, ramas remotas y autores de commit observables;
-- 638 URLs externas únicas y 2.446 relaciones clase–fuente;
+- 640 URLs externas únicas y 2.449 relaciones clase–fuente;
 - pipeline local y workflows de `main`.
 
 ## RESUELTO
@@ -34,7 +34,7 @@ Se conserva el modelo existente: Apache-2.0 para código propio; CC BY-NC-SA 4.0
 
 ## RIESGO RESIDUAL
 
-- La trazabilidad automática registra 2.446 relaciones clase–fuente y 1.393 usos contextualmente completos; los valores ausentes permanecen `null` y no se inventan metadatos.
+- La trazabilidad automática registra 2.449 relaciones clase–fuente y 1.396 usos contextualmente completos; los valores ausentes permanecen `null` y no se inventan metadatos.
 - La disponibilidad, vigencia, versión y términos de las URLs externas pueden cambiar.
 - Los PDF y el lector histórico sólo pueden auditarse hasta la procedencia documentada y sus hashes; su formato compuesto dificulta la señalización a nivel de fragmento.
 - Los workflows usan versiones mayores de acciones de GitHub, no SHAs inmutables. Esto es un riesgo de cadena de suministro, no una contradicción del modelo de licencias.

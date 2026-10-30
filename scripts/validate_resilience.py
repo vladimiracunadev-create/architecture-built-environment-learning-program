@@ -124,6 +124,29 @@ def check_arithmetic() -> None:
     ):
         if clp(value) not in class_839:
             fail(f"ARQ-839: {label} {clp(value)} not found")
+
+    solution = (ROOT / "cases" / "DECISION-INTEGRAL-RESILIENTE-SOLUCION.md").read_text(encoding="utf-8")
+    annuity = (1 - 1.04**-20) / 0.04
+    construction = 100 * 850_000
+    terrains = {
+        "A": dict(land=60_000_000, studies=2_800_000, mitigation=9_500_000, scenarios=((0.10, 4_000_000), (0.02, 22_000_000), (0.004, 60_000_000)), covered=False),
+        "B": dict(land=38_000_000, studies=6_500_000, mitigation=18_000_000, scenarios=((0.05, 6_000_000), (0.01, 35_000_000), (0.003, 93_500_000)), covered=False),
+        "C": dict(land=52_000_000, studies=2_200_000, mitigation=7_000_000, scenarios=((0.03, 8_000_000), (0.006, 45_000_000), (0.002, 93_500_000)), covered=True),
+    }
+    for name, data in terrains.items():
+        initial = data["land"] + construction + data["studies"] + data["mitigation"]
+        retained = [loss - (min(max(loss - 500_000, 0), 85_000_000) if data["covered"] else 0) for _, loss in data["scenarios"]]
+        expected_retained = sum(prob * value for (prob, _), value in zip(data["scenarios"], retained))
+        present_value = expected_retained * annuity
+        for label, value in (
+            ("costo inicial", initial),
+            ("pérdida retenida", round(expected_retained)),
+            ("valor presente", round(present_value)),
+            ("total", round(initial + present_value)),
+            ("extremo retenido", round(retained[-1])),
+        ):
+            if clp(value) not in solution:
+                fail(f"integrated case, terrain {name}: {label} {clp(value)} not found")
     for number in range(831, 841):
         text = (ROOT / "classes" / "parte-84" / f"ARQ-{number}.md").read_text(encoding="utf-8")
         if "no certifica" not in text and "no es " not in text:
@@ -150,9 +173,14 @@ def check_ledger() -> int:
             fail(f"verification ledger: invalid instrument or level in {claim['id']}")
         if not claim["claim"].strip() or not claim["used_in"]:
             fail(f"verification ledger: empty claim or usage in {claim['id']}")
-        for class_id in claim["used_in"]:
-            if not (ROOT / "classes" / "parte-84" / f"{class_id}.md").is_file():
-                fail(f"verification ledger: {claim['id']} points to missing {class_id}")
+        for used in claim["used_in"]:
+            if used.startswith("ARQ-"):
+                number = int(used[4:])
+                target = ROOT / "classes" / f"parte-{(number - 1) // 10 + 1:02d}" / f"{used}.md"
+            else:
+                target = ROOT / used
+            if not target.is_file():
+                fail(f"verification ledger: {claim['id']} points to missing {used}")
         known_articles.add(claim["article"])
     for number in (831, 832, 833):
         text = (ROOT / "classes" / "parte-84" / f"ARQ-{number}.md").read_text(encoding="utf-8")

@@ -11,8 +11,8 @@
 [![Clases](https://img.shields.io/badge/clases-840%20·%2084%20partes-b85c38?style=for-the-badge)](classes/README.md)
 [![Talleres](https://img.shields.io/badge/talleres-10%20·%2060%20sesiones-1d6b68?style=for-the-badge)](studios/README.md)
 [![Rutas](https://img.shields.io/badge/rutas-35-1d6b68?style=for-the-badge)](docs/RUTAS_DE_APRENDIZAJE.md)
-[![Fuentes](https://img.shields.io/badge/fuentes-638%20URLs%20·%20191%20dominios-ddb967?style=for-the-badge)](sources/README.md)
-[![Trazabilidad](https://img.shields.io/badge/usos%20completos-1.393%20de%202.446-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
+[![Fuentes](https://img.shields.io/badge/fuentes-640%20URLs%20·%20193%20dominios-ddb967?style=for-the-badge)](sources/README.md)
+[![Trazabilidad](https://img.shields.io/badge/usos%20completos-1.396%20de%202.449-1d6b68?style=for-the-badge)](sources/README.md#una-url-no-basta)
 [![Idioma](https://img.shields.io/badge/idioma-español-102f38?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-3fb950?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC%20BY--NC--SA%204.0-7c5cff?style=for-the-badge)](LICENSE-CONTENT.md)
@@ -110,7 +110,7 @@ afirmación → fuente → localizador → autoridad → edición/fecha
            → parte consultada → uso en la clase → límite → vigencia
 ```
 
-El registro no oculta sus brechas. De las **2.446 relaciones clase–fuente**, **1.393 (57,0 %)** declaran simultáneamente función, alcance consultado, límite y fecha; **1.053** requieren completar al menos uno de esos campos. **452/840 clases** tienen todos sus usos contextualizados. CI conserva estos valores como mínimos y falla si la trazabilidad retrocede.
+El registro no oculta sus brechas. De las **2.449 relaciones clase–fuente**, **1.396 (57,0 %)** declaran simultáneamente función, alcance consultado, límite y fecha; **1.053** requieren completar al menos uno de esos campos. **452/840 clases** tienen todos sus usos contextualizados. CI conserva estos valores como mínimos y falla si la trazabilidad retrocede.
 
 Los requisitos cambian según la fuente: un libro necesita edición y páginas; una norma, organismo, jurisdicción, versión y numeral; una web, autor institucional, fecha y sección consultada. El estándar completo está en [Estándar de fuentes y trazabilidad](docs/ESTANDAR_DE_FUENTES.md) y la medición reproducible en el [registro central](sources/README.md).
 
@@ -152,9 +152,9 @@ El programa no se apoya en una bibliografía anónima al final. Estas son fuente
 | física | [OpenStax University Physics, equilibrio estático](https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium) | 02, 03, 05, 06, 14, 19, 20, 35, 46 | fundamento académico abierto; no constituye cálculo estructural de una obra |
 | riesgo | [UNDRR · Disaster risk terminology](https://www.undrr.org/terminology/disaster-risk) | 01, 09, 11, 35, 36, 38, 45, 48 | vocabulario de amenaza, exposición y vulnerabilidad; no produce por sí solo una evaluación local |
 
-El registro completo clasifica **638 fuentes**: **191 organismos públicos**, **65 normas o estándares**, **59 fuentes académicas** y **323 referencias técnicas o institucionales**. Cuando se incorpora un libro debe registrarse autor, título, año, edición, editorial, ISBN si existe y capítulo o páginas consultadas. Cuando esos datos no están documentados, el uso permanece parcial: no se inventan para completar una tabla.
+El registro completo clasifica **640 fuentes**: **191 organismos públicos**, **65 normas o estándares**, **59 fuentes académicas** y **325 referencias técnicas o institucionales**. Cuando se incorpora un libro debe registrarse autor, título, año, edición, editorial, ISBN si existe y capítulo o páginas consultadas. Cuando esos datos no están documentados, el uso permanece parcial: no se inventan para completar una tabla.
 
-El registro reproducible detecta **2.446 relaciones clase–fuente**, **638 URLs externas únicas** y **190 dominios** en las secciones de fuentes de las 840 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas. El estado actual de las 637 entradas es `registrada-no-verificada-en-vivo`: CI comprueba coherencia offline, no promete que una URL externa siga disponible o vigente.
+El registro reproducible detecta **2.449 relaciones clase–fuente**, **640 URLs externas únicas** y **193 dominios** en las secciones de fuentes de las 840 clases. El lector v1.0 conserva además **611 fichas editoriales curadas** como recursos navegables; son dos mediciones distintas. El estado actual de las 637 entradas es `registrada-no-verificada-en-vivo`: CI comprueba coherencia offline, no promete que una URL externa siga disponible o vigente.
 
 Cada relación aspira a distinguir:
 
@@ -283,7 +283,7 @@ Las Partes 81–83 convierten conocimientos dispersos en una secuencia doméstic
 
 ### Riesgo, seguros e inmuebles existentes (Parte 84)
 
-Diez clases (ARQ-831–840) sobre contrato de seguro y coberturas, valor de reconstrucción e infraseguro, evidencia para siniestros y reclamaciones, lectura de eventos catastróficos, factores de valor de un inmueble, inspección visual con ficha, plano frente a permiso y realidad, humedad y fisuras, costos de reparación y la carpeta de evaluación con regla de puerta. Alimentan la [Ruta 35 · Evaluación técnica de inmuebles para corredores de propiedades](learning-paths/ruta-35.md), los [diez laboratorios resueltos](cases/EVALUACION-TECNICA-INMUEBLES-SOLUCIONES.md) y la [biblioteca de 13 fichas de eventos en Chile](cases/catastrofes-chile/README.md). Las normas que citan están registradas con su nivel de lectura en `data/verificacion.json`; los [niveles de verificación](docs/NIVELES_DE_VERIFICACION.md) explican qué garantiza y qué no cada control.
+Diez clases (ARQ-831–840) sobre contrato de seguro y coberturas, valor de reconstrucción e infraseguro, evidencia para siniestros y reclamaciones, lectura de eventos catastróficos, factores de valor de un inmueble, inspección visual con ficha, plano frente a permiso y realidad, humedad y fisuras, costos de reparación y la carpeta de evaluación con regla de puerta. Alimentan la [Ruta 35 · Evaluación técnica de inmuebles para corredores de propiedades](learning-paths/ruta-35.md), los [diez laboratorios resueltos](cases/EVALUACION-TECNICA-INMUEBLES-SOLUCIONES.md) y la [biblioteca de 15 fichas de eventos en Chile](cases/catastrofes-chile/README.md). Las normas que citan están registradas con su nivel de lectura en `data/verificacion.json`; los [niveles de verificación](docs/NIVELES_DE_VERIFICACION.md) explican qué garantiza y qué no cada control.
 
 ➡️ [Abrir el índice Markdown completo](classes/README.md) · [Explorar las partes en Pages](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/partes/)
 
@@ -401,7 +401,7 @@ El lector offline y `STATUS_v1.0.json` conservan la entrega histórica de 680 cl
 | Capa pedagógica | anatomía y cadenas de decisión 840/840; cinco pilotos editoriales profundos | efectividad con estudiantes y revisión externa pendientes |
 | Talleres | 10 talleres y 60 sesiones | supervisión profesional o universitaria |
 | Capa Markdown | 840 clases + 84 README de parte + índice | calidad homogénea |
-| Fuentes en clases | 2.446 relaciones; 638 URLs; 1.393 usos completos | 1.053 usos parciales; vigencia externa pendiente |
+| Fuentes en clases | 2.449 relaciones; 640 URLs; 1.396 usos completos | 1.053 usos parciales; vigencia externa pendiente |
 | Fichas navegables v1.0 | 611 fichas curadas; 0 sin URL | identidad con el registro derivado |
 | Portal | clases, partes y 755 recursos con enlaces internos validados | accesibilidad WCAG certificada |
 | Artefactos | lector y PDF con hashes versionados | validez técnica para obra |

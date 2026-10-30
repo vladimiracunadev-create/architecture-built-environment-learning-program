@@ -1,0 +1,38 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Error o ambigüedad en una clase
+description: Un cálculo, una explicación o un ejercicio es incorrecto, confuso o inconsistente
+title: "[clase] "
+labels: ["contenido"]
+body:
+  - type: input
+    id: clase
+    attributes:
+      label: Clase o documento
+      description: Por ejemplo ARQ-832
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de problema
+      options:
+        - Cálculo o cifra
+        - Explicación técnica
+        - Ejercicio o solución
+        - Enlace o fuente
+        - Redacción o accesibilidad
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Qué está mal y por qué
+      description: Si hay un cálculo, incluye los datos y tu resultado
+    validations:
+      required: true
+  - type: input
+    id: fuente
+    attributes:
+      label: Fuente que respalda tu corrección
+      description: Preferentemente oficial o técnica

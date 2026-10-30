@@ -29,6 +29,7 @@ Partes complementarias que esta ruta no recorre por defecto: Parte 35 → Parte 
 - [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
 - [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
 - [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+- [Geotecnia y sismo: leer un informe y formular el encargo](../cases/GEOTECNIA-INFORME-Y-ENCARGO.md) y la [matriz de materiales y amenazas](../docs/MATRIZ_MATERIALES_AMENAZAS.md).
 
 ## Capstone
 

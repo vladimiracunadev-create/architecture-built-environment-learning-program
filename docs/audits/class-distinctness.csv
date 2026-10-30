@@ -832,9 +832,9 @@ ARQ-830,83,"Término de obra, certificados, recepción definitiva, garantías y 
 ARQ-831,84,"Seguros de inmuebles y obra: contrato, coberturas, exclusiones y límites",4550,94dae116cfbabd4b,9af98e61ea9b7f90,f3ba938fc79e37d3,e91cdb4426b8bbf1,1.0000,ARQ-833,0.0092
 ARQ-832,84,"Valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo",3898,639b02072d07e831,69ed41b6e9c14778,3d5863d06581a0c1,788614e264204574,1.0000,ARQ-839,0.0132
 ARQ-833,84,"Siniestro, evidencia y reclamación: antes, durante y después del daño",4458,e33e71157c3eb98d,344db9ce40b88c0e,75a4305b6a76f71d,b26e03d50cefc4c0,1.0000,ARQ-832,0.0111
-ARQ-834,84,"Leer un evento catastrófico: pronóstico, alerta, observación e impacto",3614,ce8fce8113190eaf,5336d16963307697,0faaa7864a93777b,d895ce0dbc94699e,1.0000,ARQ-835,0.0112
-ARQ-835,84,"Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación",3532,99b85a8100200b15,92b6612cbccc3ce5,77407eb0e03a6649,f03e65e8fb27efe8,1.0000,ARQ-839,0.0119
-ARQ-836,84,Inspección visual de un inmueble existente: ficha educativa y límites,3358,a7c4b82e2c029bf0,9f45a2626cee753a,29174c5263445048,2a89b3b451865e2c,1.0000,ARQ-838,0.0133
+ARQ-834,84,"Leer un evento catastrófico: pronóstico, alerta, observación e impacto",3614,ce8fce8113190eaf,5336d16963307697,0faaa7864a93777b,d895ce0dbc94699e,1.0000,ARQ-835,0.0109
+ARQ-835,84,"Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación",4102,a0f9ca4807bc23b2,92b6612cbccc3ce5,77407eb0e03a6649,f03e65e8fb27efe8,1.0000,ARQ-839,0.0116
+ARQ-836,84,Inspección visual de un inmueble existente: ficha educativa y límites,3587,5556bd24f9cd46f2,9f45a2626cee753a,29174c5263445048,2a89b3b451865e2c,1.0000,ARQ-838,0.0133
 ARQ-837,84,"Plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado",3657,46a4dbc7b693f7ef,cee5bd05edb12373,c9192576eb2e1e77,b49ad32e808fdfc1,1.0000,ARQ-840,0.0131
 ARQ-838,84,"Humedad, fisuras y daño posterior a un sismo: de la observación a la derivación",3485,cdd74089fdd976c4,9b74418dc8e5e864,12c6e39defef1ef5,d8e87fc3a924ee3f,1.0000,ARQ-836,0.0133
 ARQ-839,84,"Costos de reparación, mantenimiento y habilitación antes de arrendar o vender",3408,c4349e17945b33ae,f532bd48974bea5c,6f232890015e8555,de6a5cc7543d41dd,1.0000,ARQ-832,0.0132

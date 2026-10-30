@@ -82,6 +82,7 @@ DOC_PAGES = {
     ),
     "ESTADO_VERIFICABLE.md": ("estado.html", "Estado verificable"),
     "NIVELES_DE_VERIFICACION.md": ("niveles-de-verificacion.html", "Niveles de verificación"),
+    "MATRIZ_MATERIALES_AMENAZAS.md": ("materiales-y-amenazas.html", "Matriz de materiales y amenazas"),
     "GUIA_BIBLIOTECA_DE_CASOS.md": ("guia-biblioteca-de-casos.html", "Guía de la biblioteca de casos"),
     "SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md": ("seguros-y-riesgo.html", "Seguros y gestión económica del riesgo"),
     "AUDITORIA_RESILIENCIA_2026-10-30.md": ("auditoria-resiliencia.html", "Auditoría de seguridad y resiliencia"),

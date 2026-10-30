@@ -46,9 +46,9 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 | Rutas con diagnóstico, checkpoints, salida y capstone | **35/35** |
 | Dimensiones de la rúbrica común | **5** |
 | Umbral documental | **80/100**, ninguna dimensión bajo 60 % |
-| Fichas de la biblioteca de catástrofes | **13** (2 `CONFIRMADO` como contenido de fuente técnica leída; el resto `PRELIMINAR`) |
-| Afirmaciones normativas verificadas | **21** en `data/verificacion.json` |
-| Fuentes vigiladas | **13** en `data/vigilancia.json` |
+| Fichas de la biblioteca de catástrofes | **15** (2 `CONFIRMADO` como contenido de fuente técnica leída; el resto `PRELIMINAR`) |
+| Afirmaciones normativas verificadas | **25** en `data/verificacion.json` (seguros, liquidación de siniestros y diseño sísmico) |
+| Fuentes vigiladas | **17** en `data/vigilancia.json` |
 | Cronología de 2026 | enero (calor e incendios), marzo (río atmosférico), julio (sistema frontal), agosto (frontal en Antofagasta y tornado), septiembre y octubre (pronósticos), escasez hídrica y tormentas eléctricas; se incorporan las marejadas, el tornado de Diguillín y las lluvias altiplánicas al leer su fuente |
 | Pilotos con estudiantes | **pendiente** |
 | Carga horaria observada | **pendiente** |
@@ -57,18 +57,18 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 
 | Superficie | Resultado |
 |---|---:|
-| Relaciones clase–fuente derivadas | **2.446** |
+| Relaciones clase–fuente derivadas | **2.449** |
 | URLs externas únicas en clases | **638** |
-| Dominios externos en clases | **191** |
+| Dominios externos en clases | **193** |
 | Clases con apartado de fuentes | **840/840** |
-| Relaciones con función declarada | **2.379/2.446** |
-| Relaciones con alcance consultado | **1.992/2.446** |
-| Relaciones con límite declarado | **2.241/2.446** |
-| Relaciones con fecha de consulta | **1.565/2.446** |
-| Relaciones contextualmente completas | **1.393/2.446** |
+| Relaciones con función declarada | **2.382/2.449** |
+| Relaciones con alcance consultado | **1.995/2.449** |
+| Relaciones con límite declarado | **2.244/2.449** |
+| Relaciones con fecha de consulta | **1.568/2.449** |
+| Relaciones contextualmente completas | **1.396/2.449** |
 | Clases con todos sus usos completos | **452/840** |
 | Verificación periódica de disponibilidad externa | **implementada** (`scripts/check_sources.py`, mensual; comprueba que el enlace responda, no su contenido) |
-| Revisión normativa por jurisdicción | **parcial**: 21 afirmaciones sobre seguros verificadas contra texto oficial; LGUC y OGUC se leen por predio y edición |
+| Revisión normativa por jurisdicción | **parcial**: 25 afirmaciones (seguros, liquidación y diseño sísmico) verificadas contra texto oficial; LGUC, OGUC y NCh se leen por predio y edición |
 
 Las 611 fichas del lector offline son un inventario histórico. `sources/bibliography.json` es el registro actual derivado de las clases y conserva los faltantes como datos explícitos, sin inventar fechas, páginas o alcances.
 
@@ -82,7 +82,7 @@ Las 611 fichas del lector offline son un inventario histórico. `sources/bibliog
 | Páginas de taller | **70** | diez portadas + 60 sesiones |
 | Rutas pedagógicas | **35** | entrada, recorrido, checkpoints, salida y capstone |
 | Casos domésticos aplicados | **2** | casa nueva de 80 m² y ampliación de 24 m², ambos didácticos |
-| Casos de decisión y evaluación | **3** | decisión integral de construcción resiliente, evaluación técnica de inmuebles (con diez laboratorios resueltos) y biblioteca de 13 fichas de eventos |
+| Casos de decisión y evaluación | **3** | decisión integral de construcción resiliente, evaluación técnica de inmuebles (con diez laboratorios resueltos) y biblioteca de 15 fichas de eventos |
 | Presupuestos verificables | **2 CSV + 1 XLSX** | esquema, fórmulas y controles validados en CI |
 | Recursos transversales del lector v1.0 | **755** | colección histórica conservada |
 | Lector offline y PDF v1.0 | conservados | hashes versionados |

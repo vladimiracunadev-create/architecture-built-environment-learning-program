@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Propuesta de caso o evento
+description: Propón un evento chileno para la biblioteca de casos
+title: "[caso] "
+labels: ["casos"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Los casos se registran con fuente primaria, fecha de consulta y estado de verificación por campo
+        (`CONFIRMADO`, `PRELIMINAR`, `HIPÓTESIS`, `SIN_DATOS`). Lee `docs/GUIA_BIBLIOTECA_DE_CASOS.md` antes de proponer.
+  - type: input
+    id: evento
+    attributes:
+      label: Evento, lugar y fecha
+    validations:
+      required: true
+  - type: textarea
+    id: fuentes
+    attributes:
+      label: Fuentes primarias
+      description: Una por línea, con URL (SENAPRED, DMC, DGA, SERNAGEOMIN, SHOA, MINVU, CONAF, CMF, municipalidades o literatura revisada por pares)
+    validations:
+      required: true
+  - type: textarea
+    id: clases
+    attributes:
+      label: Clases del programa que respalda

@@ -41,4 +41,4 @@ Con estos seis instrumentos, la verificación del aprendizaje no depende de que 
 
 ## Lista de vigilancia
 
-`data/vigilancia.json` lista 13 fuentes (normas, portales y servicios oficiales) con su frecuencia de revisión y las clases o fichas que dependen de ellas. La comprobación de disponibilidad es automática; la lectura del contenido sigue la frecuencia indicada.
+`data/vigilancia.json` lista 17 fuentes (normas, portales y servicios oficiales) con su frecuencia de revisión y las clases o fichas que dependen de ellas. La comprobación de disponibilidad es automática; la lectura del contenido sigue la frecuencia indicada.

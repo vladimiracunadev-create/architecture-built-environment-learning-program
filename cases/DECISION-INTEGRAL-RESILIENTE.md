@@ -51,3 +51,27 @@ No se crean talleres nuevos.
 ## Límites
 
 Es un ejercicio de decisión, no un estudio de riesgo, un informe geotécnico ni una autorización de obra. Ningún resultado sustituye ensayos, cálculos ni permisos.
+
+## Materiales para resolverlo
+
+- [Solución modelo](DECISION-INTEGRAL-RESILIENTE-SOLUCION.md), con tres terrenos hipotéticos, matriz multiamenaza, presupuesto por escenarios, pérdida esperada y escenario extremo, y la regla de puerta aplicada.
+- [Geotecnia y sismo: leer un informe y formular el encargo](GEOTECNIA-INFORME-Y-ENCARGO.md), con la base normativa del Decreto 61 verificada.
+- [Matriz de materiales y sistemas frente a amenazas](../docs/MATRIZ_MATERIALES_AMENAZAS.md).
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md) y las clases [ARQ-831–833](../classes/parte-84/README.md).
+- [Biblioteca de eventos en Chile](catastrofes-chile/README.md) para lecciones de eventos reales.
+
+## Plantillas del expediente
+
+**Ficha de terreno** (una por terreno): superficie; precio; servicios; acceso; antecedentes prediales; certificado de informaciones previas (fecha y número); instrumento de planificación; áreas de riesgo; peligro dominante a verificar; datos que faltan; fuente y fecha de cada dato.
+
+**Matriz multiamenaza** (una fila por amenaza): amenaza · exposición · vulnerabilidad de la vivienda · riesgo cualitativo · datos que faltan · especialista · fuente oficial. Amenaza, exposición, vulnerabilidad y riesgo se escriben en columnas separadas.
+
+**Tabla de costos por escenarios:** terreno · obra · estudios · mitigación · costo inicial; pérdida anual esperada bruta y retenida; valor presente de la retenida (tasa y horizonte declarados); retención en el escenario extremo. Todo monto con fecha, región y rótulo HIPOTÉTICO si no está cotizado.
+
+**Regla de puerta** (por terreno, por escrito): peligro crítico sin resolver (sí/no y evidencia) · restricción legal sin resolver (sí/no y evidencia) · pendientes que podrían cambiar la decisión (lista) · resultado entre CONSTRUIR, ESTUDIAR MÁS, REDISEÑAR, CAMBIAR DE TERRENO y NO CONSTRUIR.
+
+**Plan de continuidad:** ruta de evacuación, punto de reunión, alternativa de alojamiento, copias de la línea base y de la póliza, valor de reposición y fecha de su última actualización.
+
+## Criterio de evaluación
+
+Se evalúa con la [rúbrica común](../docs/RUBRICA_COMUN.md). Una decisión «construir» con un peligro crítico o una restricción legal sin resolver mantiene la evidencia pendiente aunque el resto sea favorable.

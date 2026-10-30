@@ -13,4 +13,6 @@ Los documentos de una etapa alimentan la siguiente. No se borra una hipótesis c
 
 - [Decisión integral de construcción resiliente en Chile](DECISION-INTEGRAL-RESILIENTE.md): comparación de tres terrenos y decisión justificada.
 - [Evaluación técnica de inmuebles para corredores de propiedades](EVALUACION-TECNICA-INMUEBLES.md): ficha de inspección educativa, diez laboratorios y carpeta final; con [soluciones modelo](EVALUACION-TECNICA-INMUEBLES-SOLUCIONES.md).
+- [Solución modelo de la decisión integral](DECISION-INTEGRAL-RESILIENTE-SOLUCION.md): tres terrenos, matriz multiamenaza, costos, pérdida esperada y regla de puerta.
+- [Geotecnia y sismo: leer un informe y formular el encargo](GEOTECNIA-INFORME-Y-ENCARGO.md).
 - [Biblioteca de catástrofes y eventos en Chile](catastrofes-chile/README.md): ficha estándar y registro con estados de verificación.

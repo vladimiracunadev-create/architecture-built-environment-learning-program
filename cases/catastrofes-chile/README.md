@@ -23,10 +23,11 @@ Dirección Meteorológica de Chile · SENAPRED · SERNAGEOMIN · Dirección Gene
 | ID | Evento (nombre público) | Estado | Clases | Observación |
 |---|---|---|---|---|
 | [CAT-001](CAT-001.md) | Terremoto del 27 de febrero de 2010 | `PRELIMINAR` | ARQ-341–351 | Parámetros de la ruptura leídos en un artículo de 2010; daños y alertas sin consultar |
-| CAT-002 | Incendio de Valparaíso, abril de 2014 | `SIN_DATOS` | ARQ-368, 377, 379 | Candidato; requiere CONAF y fuentes municipales |
+| [CAT-002](CAT-002.md) | Incendio de interfaz en Valparaíso, abril de 2014 | `PRELIMINAR` | ARQ-085, 088, 368, 377, 379 | Tres balances con cifras y categorías distintas; informe de CONAF no leído |
 | [CAT-003](CAT-003.md) | Aluviones de Atacama y Antofagasta, marzo de 2015 | `PRELIMINAR` | ARQ-353, 372, 375 | Cifras de víctimas en conflicto entre fuentes; lectura íntegra pendiente |
 | [CAT-004](CAT-004.md) | Incendios de Viña del Mar y Valparaíso, febrero de 2024 | `PRELIMINAR` | ARQ-368, 369, 377, 379 | Cifras de fallecidos en conflicto; informe técnico de CONAF no leído |
 | [CAT-005](CAT-005.md) | Aluvión de Villa Santa Lucía, diciembre de 2017 | `PRELIMINAR` | ARQ-360, 372, 379 | Víctimas según MINVU; mecanismo descrito de forma distinta por fuentes |
+| [CAT-007](CAT-007.md) | Sismo del Pasaje de Drake y alerta de tsunami en Magallanes y la Antártica, mayo de 2025 | `PRELIMINAR` | ARQ-351, 358, 360, 377 | Extremo austral; magnitud y hora difieren entre fuentes; sin daños reportados |
 | CAT-006 | Incendios forestales de 2017 | `SIN_DATOS` | ARQ-368, 375 | Candidato; requiere CONAF y SENAPRED |
 | [CAT-2026-001](CAT-2026-001.md) | Sistema frontal de julio de 2026, centro-norte y centro-sur | `PRELIMINAR` | ARQ-353, 361–369, 377 | Aviso de la DMC y balances de SENAPRED del 17 y 19 de julio; sin cierre |
 | [CAT-2026-002](CAT-2026-002.md) | Sistema frontal en el sur, 6–8 de julio de 2026 | `PRELIMINAR` | ARQ-353, 362, 372, 377 | Comunicado de SENAPRED del 8 de julio; balance al inicio del evento |
@@ -47,4 +48,4 @@ La clase [ARQ-834](../../classes/parte-84/ARQ-834.md) enseña a leer estos casos
 
 ## Cobertura regional
 
-Las 16 regiones y la Antártica chilena se consideran donde sean pertinentes. No se fuerza un evento por región ni por categoría.
+Cobertura actual: Arica y Parinacota (decreto de escasez), Atacama y Antofagasta (aluviones de 2015 y avisos de 2026), Coquimbo y Valparaíso (2014, 2024 y 2026), Metropolitana, O'Higgins, Maule, Ñuble, Biobío, La Araucanía, Los Ríos y Los Lagos (2010, 2017, 2024 y 2026) y Magallanes y la Antártica chilena (2025). Faltan casos de Tarapacá, Aysén y Los Lagos austral con fuente leída. No se fuerza un evento por región ni por categoría.

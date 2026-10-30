@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Fuente o norma desactualizada
+description: Una clase o caso cita una norma, cifra o enlace que cambió o dejó de responder
+title: "[fuente] "
+labels: ["fuentes"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. Este programa registra qué fuente leyó, en qué fecha y con qué nivel (ver `docs/NIVELES_DE_VERIFICACION.md`).
+        Indica la fuente oficial que muestra el cambio; una nota de prensa sirve para localizarla, no para sustituirla.
+  - type: input
+    id: ubicacion
+    attributes:
+      label: Clase, ficha o documento afectado
+      description: Por ejemplo ARQ-833, CAT-2026-001 o docs/ESTADO_VERIFICABLE.md
+    validations:
+      required: true
+  - type: textarea
+    id: afirmacion
+    attributes:
+      label: Afirmación que habría cambiado
+      description: Cita breve de lo que dice el programa
+    validations:
+      required: true
+  - type: input
+    id: fuente
+    attributes:
+      label: Fuente oficial que muestra el cambio
+      description: URL y, si existe, número de norma, artículo y fecha
+    validations:
+      required: true
+  - type: textarea
+    id: nota
+    attributes:
+      label: Comentarios

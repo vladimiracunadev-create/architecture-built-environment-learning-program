@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+blank_issues_enabled: true
+contact_links:
+  - name: Estado verificable del programa
+    url: https://github.com/vladimiracunadev-create/architecture-built-environment-learning-program/blob/main/docs/ESTADO_VERIFICABLE.md
+    about: Antes de abrir un issue, revisa qué está verificado y qué brechas están registradas
