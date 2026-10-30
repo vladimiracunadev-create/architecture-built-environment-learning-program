@@ -8,3 +8,8 @@ Estos expedientes son **simulaciones educativas**, no proyectos aptos para const
 Cada decisión usa uno de tres estados: `REQUISITO CONFIRMADO`, `VERIFICAR EN DOM / ESPECIALISTA` o `SUPUESTO DIDÁCTICO`. Los precios de ejemplo están rotulados `HIPOTÉTICO`; el estudiante debe sustituirlos por tres cotizaciones comparables, con fecha, ubicación, unidad, IVA, transporte, plazo y disponibilidad.
 
 Los documentos de una etapa alimentan la siguiente. No se borra una hipótesis cuando cambia: se conserva la versión anterior, la evidencia nueva, la decisión revisada y la persona responsable.
+
+## Casos de resiliencia
+
+- [Decisión integral de construcción resiliente en Chile](DECISION-INTEGRAL-RESILIENTE.md): comparación de tres terrenos y decisión justificada.
+- [Biblioteca de catástrofes y eventos en Chile](catastrofes-chile/README.md): ficha estándar y registro con estados de verificación.

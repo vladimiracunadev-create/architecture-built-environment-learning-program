@@ -49,3 +49,6 @@ Este directorio reúne la documentación transversal del Programa Integral de Ar
 Para cifras y estado editorial actual prevalece [Estado verificable](ESTADO_VERIFICABLE.md). Los archivos raíz con sufijo `v1.0` preservan la fotografía de una entrega y no deben interpretarse como un tablero vigente.
 
 El sitio publicado ofrece estos documentos en HTML desde la [portada de documentación](https://vladimiracunadev-create.github.io/architecture-built-environment-learning-program/documentacion.html).
+
+- [Auditoría de seguridad y resiliencia 2026-10-30](AUDITORIA_RESILIENCIA_2026-10-30.md)
+- [Seguros y gestión económica del riesgo](SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md)

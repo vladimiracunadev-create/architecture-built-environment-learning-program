@@ -153,13 +153,14 @@ def curriculum_index(catalog: list[dict], titles: dict[int, str], program: dict)
         )
     return f"""# Currículo completo
 
-## {program['class_count']} clases · {program['part_count']} partes · tres fases
+## {program['class_count']} clases · {program['part_count']} partes · {len(program['phases'])} fases
 
 Este índice es la entrada Markdown al programa. Cada parte tiene diez clases y un README propio generado desde las preguntas y resultados declarados en sus fuentes.
 
 - **Fase I — Partes 01–48:** fundamentos, representación, historia, personas, territorio, proyecto, técnica, construcción, gestión, operación e investigación.
 - **Fase II — Partes 49–68:** tipologías edilicias, infraestructuras y casos integradores.
 - **Fase III — Partes 69–80:** profundización, especializaciones, investigación e innovación responsable.
+- **Fase IV — Partes 81–83:** aplicación práctica para propietarios: vivienda propia, ampliación y presupuesto.
 
 ## Anatomía documental de una clase
 
