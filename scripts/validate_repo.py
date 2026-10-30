@@ -43,6 +43,16 @@ def fail(message: str) -> None:
     raise SystemExit(1)
 
 
+def _bibliography_summary() -> tuple[str, str]:
+    """Figures quoted by LICENSING_AUDIT.md, read from the derived bibliography."""
+    data = json.loads((ROOT / "sources" / "bibliography.json").read_text(encoding="utf-8"))
+    thousands = lambda value: f"{value:,}".replace(",", ".")
+    return thousands(data["unique_sources"]), thousands(data["citation_occurrences"])
+
+
+BIBLIOGRAPHY_SUMMARY = _bibliography_summary()
+
+
 def main() -> int:
     if PROGRAM["class_count"] != PROGRAM["part_count"] * PROGRAM["classes_per_part"]:
         fail("data/program.json class, part and class-per-part counts disagree")
@@ -61,7 +71,7 @@ def main() -> int:
         ),
         "LICENSING_AUDIT.md": (
             f"{PROGRAM['class_count']} clases y {PROGRAM['part_count']} README de parte",
-            "635 URLs externas únicas y 2.441 relaciones clase–fuente",
+            f"{BIBLIOGRAPHY_SUMMARY[0]} URLs externas únicas y {BIBLIOGRAPHY_SUMMARY[1]} relaciones clase–fuente",
         ),
     }
     for relative, claims in current_document_claims.items():

@@ -76,12 +76,20 @@ Las rutas no cambian de número ni de identificador. El enriquecimiento ocurre p
 
 ## 7. Actualización posterior: lo que se construyó
 
-Esta sección registra la ejecución posterior al diagnóstico. La línea base de las secciones 1–6 se conserva como foto inicial.
+Esta sección registra la ejecución posterior al diagnóstico. La línea base de las secciones 1–6 se conserva como foto inicial y sus afirmaciones de «no se crea ninguna clase» y «ninguna norma leída» quedan superadas por lo que sigue.
 
-- **Parte 84 · Evaluación de inmuebles, seguros y eventos catastróficos (ARQ-831–840).** La competencia de seguros cumplía los criterios de clase nueva (competencia no desarrollada, problema propio, evidencia nueva, fuentes accesibles), y la solicitud de una ruta de evaluación de inmuebles para corredores añadió cinco competencias sin clase equivalente: valor y plusvalía, inspección visual con ficha, plano frente a realidad, costos de reparación y carpeta con regla de puerta. Se crearon diez clases, sin renumerar ARQ-001–830. Las fases siguen siendo cuatro; la Fase IV amplía su alcance a ARQ-801–840.
+- **Parte 84 · Evaluación de inmuebles, seguros y eventos catastróficos (ARQ-831–840).** La competencia de seguros cumplía los criterios de clase nueva y la ruta de evaluación de inmuebles para corredores añadió cinco competencias sin clase equivalente. Se crearon diez clases, de entre 3.284 y 4.480 palabras cada una (con el contrato pedagógico generado), sin renumerar ARQ-001–830. Las fases siguen siendo cuatro; la Fase IV amplía su alcance a ARQ-801–840. Tras una primera versión más breve, cada clase incorporó un segundo caso resuelto con cifras y una autoevaluación con solución razonada.
+- **Seguros con base legal.** ARQ-831–833 citan artículos de la Ley 20.667 (Título VIII del Libro II del Código de Comercio) a partir de una lectura asistida del texto y de la nota educativa de la CMF. Sigue pendiente contrastar con la versión consolidada vigente y leer el reglamento de liquidadores.
 - **RUTA-35** (evaluación técnica de inmuebles para corredores de propiedades), capstone EST-06, sobre 44 clases.
-- **Biblioteca de casos:** siete fichas (CAT-001, CAT-003 a CAT-005 y CAT-2026-001 a 003) con estados de verificación; ninguna llega a `CONFIRMADO`.
+- **Biblioteca de casos:** diez fichas (CAT-001, 003, 004, 005 y CAT-2026-001 a 006). Ninguna llega a `CONFIRMADO` como caso; se leyeron comunicados de SENAPRED, avisos e informes de la DMC y un artículo académico sobre el 27F. Dos fichas de 2026 son solo de pronóstico y alertas.
 - **Rutas con extensión de riesgo:** RUTA-04, 05, 06, 07, 11, 12, 15, 18, 25, 28, 29, 30 y 34.
-- **Controles:** `scripts/validate_resilience.py` (estructura de fichas, RUTA-35, cálculos didácticos), resumen de CI derivado de `data/program.json` y generador de fases corregido.
-- **No se hizo:** lectura íntegra de normas y de informes técnicos; cronología 2026 completa (tormentas de verano, zonas áridas, nevadas, sequía, marejadas); contraste con corredores, tasadores, aseguradores y abogados; pilotos con estudiantes. Las clases de la Parte 84 son más breves (2.776 palabras como mínimo en el conjunto de Fase IV) y no fueron revisadas por especialistas.
-- **Brechas de las clases nuevas:** el Código de Comercio no cargó, por lo que ninguna clase cita artículos de seguros; la regulación del corretaje y su deber de información requieren revisión jurídica; los precios son hipotéticos.
+- **Controles:** `scripts/validate_resilience.py` (estructura de fichas, RUTA-35 y cálculos didácticos, entre ellos la pérdida esperada y el costo correctivo), resumen de CI derivado de `data/program.json`, cifras de fuentes derivadas de la bibliografía en el validador y generador de fases corregido.
+- **Documentación:** guía de la biblioteca de casos, tabla de scripts y flujo de regeneración en la arquitectura del repositorio, CONTRIBUTING con el flujo completo y glosario ordenado.
+
+### Pendientes que este repositorio no puede resolver por sí solo
+
+- Revisión de especialistas: ingeniería geotécnica y estructural, derecho de seguros y de corretaje, tasación y seguros.
+- Contraste con corredores, tasadores y aseguradores en ejercicio, y pilotos con estudiantes.
+- Lectura íntegra de los informes técnicos de SERNAGEOMIN, CONAF, DGA y SHOA, y de los balances de cierre de SENAPRED.
+- Eventos de 2026 sin fuente oficial hallada: lluvias altiplánicas de verano, tormentas eléctricas, marejadas y sequía.
+- Vigilancia periódica de normas y fuentes: sigue siendo manual y no hay monitoreo automático.

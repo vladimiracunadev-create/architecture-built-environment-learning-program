@@ -42,7 +42,8 @@ Las correcciones se hacen en la fuente correspondiente y luego se regeneran las 
 |---|---|
 | `classes/` | 840 clases y 84 portadas de parte |
 | `studios/` | 10 talleres verticales y 60 sesiones |
-| `learning-paths/` | 33 recorridos con entrada, salida y capstone |
+| `learning-paths/` | 35 recorridos con entrada, salida y capstone |
+| `cases/` | casos domésticos y de decisión (CASA-NUEVA-80, AMPLIACION-24, evaluación de inmuebles, decisión integral) y la [biblioteca de catástrofes](../cases/catastrofes-chile/README.md) |
 | `docs/` | método, auditoría, cobertura, evaluación, derechos y mantenimiento |
 | `data/` | manifiestos canónicos y registros pedagógicos |
 | `sources/` | bibliografía derivada y su estado de trazabilidad |
@@ -55,13 +56,30 @@ Las correcciones se hacen en la fuente correspondiente y luego se regeneran las 
 
 Los archivos con sufijo `v1.0`, `INDICE_680_CLASES_v1.0.md`, `STATUS_v1.0.json`, el lector HTML y los PDF son fotografías de la entrega histórica de 680 clases. Se conservan en sus rutas originales para no romper enlaces ni checksums. No son fuentes de verdad del programa actual. `data/program.json` declara explícitamente esta frontera.
 
+## Scripts
+
+| Script | Función | Se ejecuta en CI |
+|---|---|---|
+| `generate_curriculum_docs.py` | índices de clases y portadas de parte desde manifiestos y clases | `--check` |
+| `apply_pedagogy.py` | contrato pedagógico de cada clase, talleres y rutas desde `data/pedagogy.json` | `--check` |
+| `build_pedagogical_decisions.py` | cadena de decisión por clase desde el corpus completo | `--check` |
+| `build_bibliography.py` | bibliografía derivada y trazabilidad por uso | `--check` |
+| `audit_pedagogical_traceability.py` | verifica que cada cadena apunte a fuentes existentes | `--json` |
+| `audit_class_distinctness.py` | duplicación y proximidad editorial | `--check` (y `--write` para actualizar) |
+| `validate_homeowner_budget.py` | plantillas de presupuesto y sus pruebas aritméticas | sí |
+| `validate_resilience.py` | fichas de caso, RUTA-35 y cálculos didácticos de la Parte 84 | sí |
+| `build_site.py` | portal estático | sí |
+| `validate_repo.py` | coherencia global: identificadores, partes, rutas, fuentes, enlaces, UTF-8 y sitio | sí |
+| `expand_curriculum.py`, `expand_homeowner_path.py`, `expand_resilience_path.py`, `import_legacy_reader.py` | ayudantes de autoría única que registran ampliaciones en los manifiestos; **no** forman parte del flujo corriente y no deben ejecutarse sobre una rama ya ampliada sin leerlos | no |
+
 ## Flujo de modificación
 
-1. Modificar una fuente canónica o una clase.
-2. Regenerar bibliografía y decisiones.
-3. Aplicar la capa pedagógica.
-4. Regenerar índices y sitio.
-5. Ejecutar auditoría, validación y comprobación de deriva.
-6. Revisar el diff y mantener separadas las referencias históricas.
+1. Modificar una fuente canónica o una clase (y, si hay una parte nueva, `data/program.json`, `data/parts.json` y `data/catalog.json`).
+2. Regenerar en este orden, repitiéndolo hasta que `--check` no detecte cambios, porque las salidas se alimentan entre sí: `apply_pedagogy.py`, `build_pedagogical_decisions.py`, `build_bibliography.py`, `generate_curriculum_docs.py` y `audit_class_distinctness.py --write`.
+3. Actualizar a mano las cifras citadas en documentos vigentes (`docs/ESTADO_VERIFICABLE.md`, README, `docs/AUDITORIA_DIFERENCIAS_800_CLASES.md`); el validador exige algunas y deriva otras de `data/`.
+4. Reconstruir el sitio y ejecutar la validación completa, incluidas las comprobaciones `--check`.
+5. Revisar el diff y mantener separadas las referencias históricas, que conservan sus cifras de época.
+
+Una comprobación verde demuestra coherencia reproducible; no demuestra exactitud técnica, validación profesional ni eficacia pedagógica.
 
 Los comandos canónicos están en [Estado verificable](ESTADO_VERIFICABLE.md).

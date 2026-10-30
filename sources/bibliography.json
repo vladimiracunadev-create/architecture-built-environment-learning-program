@@ -4,8 +4,8 @@
   "generated_on": "2026-10-12",
   "policy": "Registro derivado de las secciones 'Fuentes y alcance de uso'. Una URL registrada demuestra trazabilidad editorial, no vigencia, lectura íntegra, aplicabilidad normativa, permiso de redistribución ni respaldo institucional. Si no consta una licencia, se registra como desconocida y se conserva sólo el enlace.",
   "class_count": 840,
-  "citation_occurrences": 2441,
-  "unique_sources": 635,
+  "citation_occurrences": 2445,
+  "unique_sources": 637,
   "unique_domains": 191,
   "traceability": {
     "required_context_fields": [
@@ -15,12 +15,12 @@
       "accessed_on"
     ],
     "field_coverage": {
-      "function": 2374,
-      "consultation_scope": 1987,
-      "limitation": 2236,
-      "accessed_on": 1560
+      "function": 2378,
+      "consultation_scope": 1991,
+      "limitation": 2240,
+      "accessed_on": 1564
     },
-    "complete_uses": 1388,
+    "complete_uses": 1392,
     "partial_uses": 1053,
     "classes_with_all_uses_complete": 452,
     "classes_requiring_context_review": 388,
@@ -3211,10 +3211,10 @@
       "usage_count": 49
     },
     {
-      "id": "source-bcn-cl-e6924dcc0e",
+      "id": "source-bcn-cl-b9d6e32412",
       "type": "public-body",
-      "title": "[[CL-COMERCIO]] Código de Comercio",
-      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1974",
+      "title": "[[CL-LEY-20667]] Ley 20.667, que regula el contrato de seguro",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1050848",
       "publisher_or_author": {
         "name": "Biblioteca del Congreso Nacional de Chile",
         "basis": "class-text"
@@ -3228,29 +3228,39 @@
       "redistribution": "link-only",
       "used_in": [
         "classes/parte-84/ARQ-831.md",
+        "classes/parte-84/ARQ-832.md",
         "classes/parte-84/ARQ-833.md"
       ],
       "uses": [
         {
           "class": "classes/parte-84/ARQ-831.md",
-          "function": "localiza la norma que, según la clase, regula el contrato de seguro.",
-          "consultation_scope": "enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído.",
-          "limitation": "la clase no cita artículos ni versión; antes de afirmar una obligación o un plazo debe leerse el título correspondiente en su edición vigente y consultarse a un abogado. Fecha de",
+          "function": "respalda las reglas sobre definición del contrato, interés asegurable, declaración y agravación del riesgo, infraseguro, aviso del siniestro y prescripción.",
+          "consultation_scope": "texto de la ley obtenido por la exportación XML de LeyChile y resumido con una herramienta automática; artículos 512, 520, 524–526, 541, 546, 552–553, 558, 571 y 589 según la afirmación de la clase.",
+          "limitation": "lectura asistida y no íntegra; no se contrastó con la versión consolidada vigente ni con modificaciones posteriores, y no se leyó el reglamento de liquidadores; cada numeral debe verificarse antes de usarlo y su aplicación a una póliza concreta corresponde a un abogado. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-832.md",
+          "function": "respalda las reglas sobre definición del contrato, interés asegurable, declaración y agravación del riesgo, infraseguro, aviso del siniestro y prescripción.",
+          "consultation_scope": "texto de la ley obtenido por la exportación XML de LeyChile y resumido con una herramienta automática; artículos 512, 520, 524–526, 541, 546, 552–553, 558, 571 y 589 según la afirmación de la clase.",
+          "limitation": "lectura asistida y no íntegra; no se contrastó con la versión consolidada vigente ni con modificaciones posteriores, y no se leyó el reglamento de liquidadores; cada numeral debe verificarse antes de usarlo y su aplicación a una póliza concreta corresponde a un abogado. Fecha de",
           "accessed_on": "30 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
         },
         {
           "class": "classes/parte-84/ARQ-833.md",
-          "function": "localiza la norma que, según la clase, regula el contrato de seguro y el siniestro.",
-          "consultation_scope": "enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído.",
-          "limitation": "la clase no cita artículos, plazos ni recursos; deben leerse en la edición vigente y consultarse a un abogado. Fecha de",
+          "function": "respalda las reglas sobre definición del contrato, interés asegurable, declaración y agravación del riesgo, infraseguro, aviso del siniestro y prescripción.",
+          "consultation_scope": "texto de la ley obtenido por la exportación XML de LeyChile y resumido con una herramienta automática; artículos 512, 520, 524–526, 541, 546, 552–553, 558, 571 y 589 según la afirmación de la clase.",
+          "limitation": "lectura asistida y no íntegra; no se contrastó con la versión consolidada vigente ni con modificaciones posteriores, y no se leyó el reglamento de liquidadores; cada numeral debe verificarse antes de usarlo y su aplicación a una póliza concreta corresponde a un abogado. Fecha de",
           "accessed_on": "30 de octubre de 2026",
           "traceability_status": "complete",
           "missing_fields": []
         }
       ],
-      "usage_count": 2
+      "usage_count": 3
     },
     {
       "id": "source-bibliotecadigital-mineduc-cl-f10af272c1",
@@ -5721,6 +5731,80 @@
         }
       ],
       "usage_count": 1
+    },
+    {
+      "id": "source-climatologia-meteochile-gob-cl-93b55adde7",
+      "type": "reference",
+      "title": "[[CL-DMC-CLIMAHOY]] El Clima Hoy, 18 de marzo de 2026",
+      "locator": "https://climatologia.meteochile.gob.cl/publicaciones/climaHoy/climaHoy20260318.pdf",
+      "publisher_or_author": {
+        "name": "Dirección Meteorológica de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "climatologia.meteochile.gob.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-834.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-834.md",
+          "function": "ejemplo de observación meteorológica con registros históricos y de impactos atribuidos a medios.",
+          "consultation_scope": "informe de dos páginas leído mediante extracción de texto del PDF; descripción sinóptica, precipitación diaria y ranking de estaciones de Los Ángeles y Curicó.",
+          "limitation": "no es un balance de daños ni atribuye el evento al cambio climático. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 1
+    },
+    {
+      "id": "source-cmfchile-cl-09c42b23a0",
+      "type": "reference",
+      "title": "[[CL-CMF-EDUCA]] Código de Comercio, nota de CMF Educa",
+      "locator": "https://www.cmfchile.cl/educa/621/w3-article-13977.html",
+      "publisher_or_author": {
+        "name": "Comisión para el Mercado Financiero de Chile",
+        "basis": "class-text"
+      },
+      "authority_domain": "cmfchile.cl",
+      "status": "registrada-no-verificada-en-vivo",
+      "license": {
+        "status": "unknown",
+        "identifier": null
+      },
+      "redistribution": "link-only",
+      "used_in": [
+        "classes/parte-84/ARQ-831.md",
+        "classes/parte-84/ARQ-833.md"
+      ],
+      "uses": [
+        {
+          "class": "classes/parte-84/ARQ-831.md",
+          "function": "explica en lenguaje no técnico las reglas de prueba del contrato, retracto, pluralidad de seguros, prescripción y vía de controversias.",
+          "consultation_scope": "nota educativa sobre el nuevo Título VIII del Libro II del Código de Comercio, con derechos del asegurado, normas imperativas y excepciones.",
+          "limitation": "es divulgación institucional y no reemplaza el texto legal ni una asesoría; no se contrastó cada afirmación con el artículo. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        },
+        {
+          "class": "classes/parte-84/ARQ-833.md",
+          "function": "explica en lenguaje no técnico las reglas de prueba del contrato, retracto, pluralidad de seguros, prescripción y vía de controversias.",
+          "consultation_scope": "nota educativa sobre el nuevo Título VIII del Libro II del Código de Comercio, con derechos del asegurado, normas imperativas y excepciones.",
+          "limitation": "es divulgación institucional y no reemplaza el texto legal ni una asesoría; no se contrastó cada afirmación con el artículo. Fecha de",
+          "accessed_on": "30 de octubre de 2026",
+          "traceability_status": "complete",
+          "missing_fields": []
+        }
+      ],
+      "usage_count": 2
     },
     {
       "id": "source-cmfchile-cl-5b365b7aed",

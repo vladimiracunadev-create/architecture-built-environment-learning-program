@@ -52,3 +52,4 @@ El sitio publicado ofrece estos documentos en HTML desde la [portada de document
 
 - [Auditoría de seguridad y resiliencia 2026-10-30](AUDITORIA_RESILIENCIA_2026-10-30.md)
 - [Seguros y gestión económica del riesgo](SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md)
+- [Guía de la biblioteca de casos](GUIA_BIBLIOTECA_DE_CASOS.md)

@@ -18,7 +18,7 @@ La revisión separa el contrato pedagógico generado, que debe ser común, del c
 | archivos inspeccionados | 840 | cubre el catálogo completo, no una muestra |
 | archivos completos exactamente distintos | 840 | no hay copias binarias de una clase con otro nombre |
 | preguntas centrales presentes y distintas | 840/840 | cada clase formula una pregunta diferente |
-| extensión | 1.247–5.441 palabras; mediana 2.889 | mide desarrollo, no calidad por sí sola |
+| extensión | 1.247–5.441 palabras; mediana 2.895 | mide desarrollo, no calidad por sí sola |
 | proporción mediana de prosa editorial usada por una sola clase | 94,10 % | la mayor parte del texto largo no se repite literalmente |
 | mayor similitud de cinco palabras dentro de una misma parte | 67,05 % | hay bloques históricos con una base común todavía demasiado dominante |
 | patrones editoriales largos repetidos en más de diez clases | 142 | la base anterior conserva familias que requieren diferenciación posterior |
@@ -48,7 +48,7 @@ La similitud mediana de cinco palabras dentro de cada parte es 56,92 %. Este ind
 
 ## Resultado específico de las 40 clases de aplicación a vivienda e inmuebles
 
-Las clases `ARQ-801`–`ARQ-840` forman Fase IV. Sus 40 archivos, preguntas, condiciones críticas y diagramas son distintos. Tienen entre 2.776 y 5.441 palabras (las diez clases de la Parte 84 son más breves que las de las Partes 81–83); la mediana de prosa larga exclusiva es 76,12 %. Las Partes 81–83 comparten deliberadamente vocabulario, límites profesionales, método de comparación y controles documentales para que los casos `CASA-NUEVA-80` y `AMPLIACION-24` sean auditables a lo largo de la ruta.
+Las clases `ARQ-801`–`ARQ-840` forman Fase IV. Sus 40 archivos, preguntas, condiciones críticas y diagramas son distintos. Tienen entre 3.358 y 5.441 palabras (las diez clases de la Parte 84 son más breves que las de las Partes 81–83); la mediana de prosa larga exclusiva es 76,12 %. Las Partes 81–83 comparten deliberadamente vocabulario, límites profesionales, método de comparación y controles documentales para que los casos `CASA-NUEVA-80` y `AMPLIACION-24` sean auditables a lo largo de la ruta.
 
 ## Diferencias reales que sí permanecen entre clases
 

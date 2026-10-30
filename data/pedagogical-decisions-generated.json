@@ -59771,7 +59771,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Obtén una póliza real propia o un modelo de condiciones generales publicado por una compañía y por la Comisión para el Mercado Financiero. Si usas una póliza real, trabaja sin compartirla. Completa la tabla de cinco pasadas con cláusulas citadas.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-832.",
-        "- Leer solo las condiciones particulares: el resumen de una página omite exclusiones y obligaciones que están en las generales. Vuelve a las cinco pasadas."
+        "1. Una póliza dice «incendio y adicionales»."
       ],
       "next_connection": "La continuidad inmediata es ARQ-832 · Valor de reconstrucción, infraseguro y pérdida esperada frente a escenario extremo; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -59789,17 +59789,30 @@
           "application": "Consulta: página principal y accesos visibles a «Conoce tus seguros», «Temporales en regiones», estadísticas del mercado de seguros y atención ciudadana. Límite: no se leyó ninguna circular ni norma de seguros; la existencia de un servicio no describe su procedimiento ni garantiza cobertura. Fecha de"
         },
         {
-          "decision": "localiza la norma que, según la clase, regula el contrato de seguro.",
+          "decision": "respalda las reglas sobre definición del contrato, interés asegurable, declaración y agravación del riesgo, infraseguro, aviso del siniestro y prescripción.",
           "source_ids": [
-            "source-bcn-cl-e6924dcc0e"
+            "source-bcn-cl-b9d6e32412"
           ],
           "source_titles": [
-            "[[CL-COMERCIO]] Código de Comercio"
+            "[[CL-LEY-20667]] Ley 20.667, que regula el contrato de seguro"
           ],
           "locators": [
-            "https://www.bcn.cl/leychile/navegar?idNorma=1974"
+            "https://www.bcn.cl/leychile/navegar?idNorma=1050848"
           ],
-          "application": "Consulta: enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído. Límite: la clase no cita artículos ni versión; antes de afirmar una obligación o un plazo debe leerse el título correspondiente en su edición vigente y consultarse a un abogado. Fecha de"
+          "application": "Consulta: texto de la ley obtenido por la exportación XML de LeyChile y resumido con una herramienta automática; artículos 512, 520, 524–526, 541, 546, 552–553, 558, 571 y 589 según la afirmación de la clase. Límite: lectura asistida y no íntegra; no se contrastó con la versión consolidada vigente ni con modificaciones posteriores, y no se leyó el reglamento de liquidadores; cada numeral debe verificarse antes de usarlo y su aplicación a una póliza concreta corresponde a un abogado. Fecha de"
+        },
+        {
+          "decision": "explica en lenguaje no técnico las reglas de prueba del contrato, retracto, pluralidad de seguros, prescripción y vía de controversias.",
+          "source_ids": [
+            "source-cmfchile-cl-09c42b23a0"
+          ],
+          "source_titles": [
+            "[[CL-CMF-EDUCA]] Código de Comercio, nota de CMF Educa"
+          ],
+          "locators": [
+            "https://www.cmfchile.cl/educa/621/w3-article-13977.html"
+          ],
+          "application": "Consulta: nota educativa sobre el nuevo Título VIII del Libro II del Código de Comercio, con derechos del asegurado, normas imperativas y excepciones. Límite: es divulgación institucional y no reemplaza el texto legal ni una asesoría; no se contrastó cada afirmación con el artículo. Fecha de"
         }
       ]
     },
@@ -59839,7 +59852,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Elige un inmueble didáctico de superficie conocida. Estima tres valores de reconstrucción (bajo, medio y alto) cambiando el costo por metro cuadrado, el recargo de demolición y honorarios y la contingencia. Anota fecha y fuente de cada costo, o márcalo HIPOTÉTICO .",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-833.",
-        "- Asegurar por avalúo o por precio de compra: se corrige estimando el valor de reconstrucción con rango y fecha. - Incluir el suelo en la suma: el suelo no se reconstruye; sepáralo."
+        "1. Si la suma asegurada fuera igual al valor de reconstrucción, ¿qué retiene la persona en un daño de 40 millones?"
       ],
       "next_connection": "La continuidad inmediata es ARQ-833 · Siniestro, evidencia y reclamación: antes, durante y después del daño; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -59868,6 +59881,19 @@
             "https://www.bcn.cl/leychile/navegar?idNorma=8201"
           ],
           "application": "Consulta: texto oficial localizado; los criterios de superficie edificada y las exigencias aplicables a una reconstrucción deben revalidarse en el expediente concreto. Límite: la clase no cita numerales ni versión; una redacción aislada no determina aplicabilidad sin predio, actuación y fecha. Fecha de"
+        },
+        {
+          "decision": "respalda las reglas sobre definición del contrato, interés asegurable, declaración y agravación del riesgo, infraseguro, aviso del siniestro y prescripción.",
+          "source_ids": [
+            "source-bcn-cl-b9d6e32412"
+          ],
+          "source_titles": [
+            "[[CL-LEY-20667]] Ley 20.667, que regula el contrato de seguro"
+          ],
+          "locators": [
+            "https://www.bcn.cl/leychile/navegar?idNorma=1050848"
+          ],
+          "application": "Consulta: texto de la ley obtenido por la exportación XML de LeyChile y resumido con una herramienta automática; artículos 512, 520, 524–526, 541, 546, 552–553, 558, 571 y 589 según la afirmación de la clase. Límite: lectura asistida y no íntegra; no se contrastó con la versión consolidada vigente ni con modificaciones posteriores, y no se leyó el reglamento de liquidadores; cada numeral debe verificarse antes de usarlo y su aplicación a una póliza concreta corresponde a un abogado. Fecha de"
         }
       ]
     },
@@ -59906,7 +59932,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Construye la línea base de una vivienda didáctica o la tuya: lista de documentos con ubicación, inventario fotográfico por recinto con nombres con fecha y cronograma de revisión anual. Redacta una hoja de una página con el protocolo de las primeras 72 horas adaptado a tu bien, con los teléfonos del corredor y la compañía y el plazo de aviso que figura en tu póliza o el que debes preguntar. Simula un siniestro: otra persona te entrega fotografías de un daño hipotético y tú armas la cronología y la lista de documentos que faltan.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-834.",
-        "- Limpiar antes de fotografiar: el daño desaparece como evidencia. Documenta primero."
+        "1. ¿Por qué fotografiar antes de limpiar?"
       ],
       "next_connection": "La continuidad inmediata es ARQ-834 · Leer un evento catastrófico: pronóstico, alerta, observación e impacto; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -59924,17 +59950,30 @@
           "application": "Consulta: página principal y accesos visibles a «Conoce tus seguros», «Temporales en regiones» y atención ciudadana. Límite: no se leyó el procedimiento de reclamo ni sus plazos; la existencia de un servicio no garantiza resultado. Fecha de"
         },
         {
-          "decision": "localiza la norma que, según la clase, regula el contrato de seguro y el siniestro.",
+          "decision": "respalda las reglas sobre definición del contrato, interés asegurable, declaración y agravación del riesgo, infraseguro, aviso del siniestro y prescripción.",
           "source_ids": [
-            "source-bcn-cl-e6924dcc0e"
+            "source-bcn-cl-b9d6e32412"
           ],
           "source_titles": [
-            "[[CL-COMERCIO]] Código de Comercio"
+            "[[CL-LEY-20667]] Ley 20.667, que regula el contrato de seguro"
           ],
           "locators": [
-            "https://www.bcn.cl/leychile/navegar?idNorma=1974"
+            "https://www.bcn.cl/leychile/navegar?idNorma=1050848"
           ],
-          "application": "Consulta: enlace oficial a la norma; el texto no cargó al consultarlo, de modo que ningún artículo fue leído. Límite: la clase no cita artículos, plazos ni recursos; deben leerse en la edición vigente y consultarse a un abogado. Fecha de"
+          "application": "Consulta: texto de la ley obtenido por la exportación XML de LeyChile y resumido con una herramienta automática; artículos 512, 520, 524–526, 541, 546, 552–553, 558, 571 y 589 según la afirmación de la clase. Límite: lectura asistida y no íntegra; no se contrastó con la versión consolidada vigente ni con modificaciones posteriores, y no se leyó el reglamento de liquidadores; cada numeral debe verificarse antes de usarlo y su aplicación a una póliza concreta corresponde a un abogado. Fecha de"
+        },
+        {
+          "decision": "explica en lenguaje no técnico las reglas de prueba del contrato, retracto, pluralidad de seguros, prescripción y vía de controversias.",
+          "source_ids": [
+            "source-cmfchile-cl-09c42b23a0"
+          ],
+          "source_titles": [
+            "[[CL-CMF-EDUCA]] Código de Comercio, nota de CMF Educa"
+          ],
+          "locators": [
+            "https://www.cmfchile.cl/educa/621/w3-article-13977.html"
+          ],
+          "application": "Consulta: nota educativa sobre el nuevo Título VIII del Libro II del Código de Comercio, con derechos del asegurado, normas imperativas y excepciones. Límite: es divulgación institucional y no reemplaza el texto legal ni una asesoría; no se contrastó cada afirmación con el artículo. Fecha de"
         }
       ]
     },
@@ -59976,7 +60015,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Elige un evento con al menos dos comunicados oficiales de fechas distintas. Extrae todas las cifras en una tabla con columnas fuente, fecha, hora si existe, categoría, valor y capa (pronóstico, alerta, observación, impacto). Marca qué cifras cambiaron entre una fecha y otra y qué categorías no coinciden.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-835.",
-        "- Citar una cifra sin fecha: los balances cambian; toda cifra lleva fecha y categoría. - Sumar balances de fuentes distintas: pueden medir cosas diferentes."
+        "1. Un comunicado dice «alerta roja»."
       ],
       "next_connection": "La continuidad inmediata es ARQ-835 · Valor, plusvalía y depreciación de un inmueble: factores y límites de la tasación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -60005,6 +60044,19 @@
             "https://www.minvu.gob.cl/reconstruccion/aluvion-villa-santa-lucia-2017/"
           ],
           "application": "Consulta: página de reconstrucción del MINVU, con 21 fallecidos, un desaparecido y relocalización definitiva. Límite: no explica el mecanismo físico ni reproduce el informe técnico de SERNAGEOMIN, que no fue leído. Fecha de"
+        },
+        {
+          "decision": "ejemplo de observación meteorológica con registros históricos y de impactos atribuidos a medios.",
+          "source_ids": [
+            "source-climatologia-meteochile-gob-cl-93b55adde7"
+          ],
+          "source_titles": [
+            "[[CL-DMC-CLIMAHOY]] El Clima Hoy, 18 de marzo de 2026"
+          ],
+          "locators": [
+            "https://climatologia.meteochile.gob.cl/publicaciones/climaHoy/climaHoy20260318.pdf"
+          ],
+          "application": "Consulta: informe de dos páginas leído mediante extracción de texto del PDF; descripción sinóptica, precipitación diaria y ranking de estaciones de Los Ángeles y Curicó. Límite: no es un balance de daños ni atribuye el evento al cambio climático. Fecha de"
         }
       ]
     },
@@ -60045,7 +60097,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Escoge dos inmuebles didácticos. Completa la ficha de factores con dato, fuente y fecha por cada uno de los cinco grupos y marca los datos que faltan. Formula dos hipótesis de valor y, para cada una, la evidencia que la confirmaría y la que la refutaría.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-836.",
-        "- Usar el precio de oferta como valor: una oferta es una pretensión, no una transacción. - Comparar inmuebles sin igualar supuestos: superficie, antigüedad y condición cambian la comparación."
+        "1. Una publicación dice «excelente plusvalía»."
       ],
       "next_connection": "La continuidad inmediata es ARQ-836 · Inspección visual de un inmueble existente: ficha educativa y límites; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -60113,7 +60165,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Recorre un inmueble didáctico o uno propio siguiendo la pauta, con una hora máxima. Completa la ficha con al menos seis hallazgos, cada uno con fotografía y ubicación en croquis. Revisa la ficha y reescribe cualquier observación que contenga causa o gravedad.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-837.",
-        "- Escribir «grieta estructural» en observación: es una hipótesis; describe medidas y ubicación. - Omitir la declaración de alcance: sin ella, la ausencia de hallazgos parece una garantía."
+        "1. Escribiste «muro en buen estado»."
       ],
       "next_connection": "La continuidad inmediata es ARQ-837 · Plano, permiso y realidad: ampliaciones no regularizadas y destino autorizado; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -60182,7 +60234,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con un expediente didáctico de cinco documentos, construye la matriz de coincidencia. Incluye al menos una diferencia de superficie, una de destino y un elemento sin antecedente. Para cada una escribe la pregunta, a quién va dirigida y qué decisión comercial depende de la respuesta.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-838.",
-        "- Usar el avalúo como prueba de legalidad: es un registro fiscal. - Confundir permiso con recepción: el permiso autoriza construir; la recepción acredita lo construido."
+        "1. El avalúo muestra 100 m² y la recepción 72 m²."
       ],
       "next_connection": "La continuidad inmediata es ARQ-838 · Humedad, fisuras y daño posterior a un sismo: de la observación a la derivación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -60263,7 +60315,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con fotografías didácticas de dos fisuras y dos manchas, completa un registro con ubicación en croquis, descripción y medición, hipótesis rotulada, riesgo identificado, verificación y derivación. Define una pauta de monitoreo de una fisura con fechas, punto de medición y referencia fotográfica. Ordena las cuatro señales por prioridad y explica el criterio.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-839.",
-        "- Sellar o pintar antes de registrar: destruye evidencia. - Medir una vez: no informa sobre actividad; repite en fechas y puntos fijos."
+        "1. Una fisura de 0,3 mm en un revestimiento, ¿es segura?"
       ],
       "next_connection": "La continuidad inmediata es ARQ-839 · Costos de reparación, mantenimiento y habilitación antes de arrendar o vender; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -60330,7 +60382,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con la lista de hallazgos de un inmueble didáctico, clasifica cada intervención por tipo. Mide cantidades. Asigna rangos con rótulo HIPOTÉTICO o con cotizaciones fechadas.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para ARQ-840.",
-        "- Dar un monto sin alcance: siempre dice qué incluye y qué excluye. - Mezclar estimación y cotización: rotúlalas por separado."
+        "1. Una cotización de CLP 900.000 y una estimación propia de CLP 1.100.000 para lo mismo."
       ],
       "next_connection": "La continuidad inmediata es ARQ-840 · Carpeta de evaluación inmobiliaria y puerta de decisión de operación; conserva el método y vuelve a verificar datos y límites.",
       "foundations": [
@@ -60402,7 +60454,7 @@
         "La actividad conserva las fronteras del caso y permite reconstruir el procedimiento: Con las piezas de dos inmuebles didácticos de las clases anteriores, arma una carpeta completa de diez secciones y un índice. Detecta al menos una contradicción entre piezas y regístrala. Aplica la regla de puerta por escrito con la respuesta y la evidencia de cada pregunta.",
         "Cada afirmación externa puede seguirse hasta una fuente, su alcance consultado y su límite.",
         "La evidencia deja disponible una entrada comprobable para EST-10.",
-        "- Promediar riesgos: un peligro crítico no se compensa con buenos factores de ubicación. - Omitir contradicciones: si una pieza contradice a otra, se registra y se resuelve o se deriva."
+        "1. Todas las piezas son favorables salvo una fisura nueva tras un sismo."
       ],
       "next_connection": "La continuidad es EST-10, donde la evidencia se incorpora al portafolio longitudinal y a la defensa final.",
       "foundations": [

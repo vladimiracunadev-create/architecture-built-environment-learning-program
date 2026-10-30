@@ -12,4 +12,5 @@ Los documentos de una etapa alimentan la siguiente. No se borra una hipótesis c
 ## Casos de resiliencia
 
 - [Decisión integral de construcción resiliente en Chile](DECISION-INTEGRAL-RESILIENTE.md): comparación de tres terrenos y decisión justificada.
+- [Evaluación técnica de inmuebles para corredores de propiedades](EVALUACION-TECNICA-INMUEBLES.md): ficha de inspección educativa, diez laboratorios y carpeta final.
 - [Biblioteca de catástrofes y eventos en Chile](catastrofes-chile/README.md): ficha estándar y registro con estados de verificación.

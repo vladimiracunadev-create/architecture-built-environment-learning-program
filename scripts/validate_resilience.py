@@ -99,6 +99,31 @@ def check_arithmetic() -> None:
     for label, value in (("bajo", low), ("medio", medium), ("alto", high), ("total", round(medium * 1.15))):
         if clp(value) not in class_839:
             fail(f"ARQ-839: {label} total {clp(value)} not found")
+    scenarios = ((0.05, 5_000_000), (0.01, 40_000_000), (0.002, reconstruction))
+    gross = round(sum(prob * loss for prob, loss in scenarios))
+    ratio_exact = 60_000_000 / reconstruction
+
+    def retained(loss: int, proportional: bool) -> float:
+        base = loss * ratio_exact if proportional else loss
+        return loss - min(max(base - 300_000, 0), 60_000_000)
+
+    with_rule = round(sum(prob * retained(loss, True) for prob, loss in scenarios))
+    without_rule = round(sum(prob * retained(loss, False) for prob, loss in scenarios))
+    for label, value in (("pérdida bruta", gross), ("retenida con regla", with_rule), ("retenida sin regla", without_rule)):
+        if clp(value) not in class_832:
+            fail(f"ARQ-832: {label} {clp(value)} not found")
+    class_835 = (ROOT / "classes" / "parte-84" / "ARQ-835.md").read_text(encoding="utf-8")
+    if clp(98_000_000 + 1_200_000 - 86_000_000) not in class_835 or "la brecha baja" in class_835:
+        fail("ARQ-835: gap arithmetic is inconsistent")
+    corrective = 3 * 650_000 + 480_000
+    corrective_total = round(corrective * 1.15)
+    for label, value in (
+        ("correctivo", corrective_total),
+        ("diferencia con cinco años preventivos", corrective_total - 5 * 210_000),
+        ("esperado al 20 %", round(0.2 * corrective_total)),
+    ):
+        if clp(value) not in class_839:
+            fail(f"ARQ-839: {label} {clp(value)} not found")
     for number in range(831, 841):
         text = (ROOT / "classes" / "parte-84" / f"ARQ-{number}.md").read_text(encoding="utf-8")
         if "no certifica" not in text and "no es " not in text:

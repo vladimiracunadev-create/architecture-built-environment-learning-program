@@ -34,7 +34,7 @@ Este documento separa integridad curricular, cobertura pedagógica, trazabilidad
 | Piloto con revisión editorial manual profunda | **5/840** | muestra del núcleo previo |
 | Títulos normalizados duplicados | **0** | control de inflación temática |
 
-La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona duplicación y proximidad editorial. Los 840 archivos y las 840 preguntas son distintos. Fase III conserva 120 preguntas, condiciones críticas y gráficas propias sin explicaciones largas no autorizadas repetidas en más de diez clases; Fase IV añade 40 archivos, preguntas, condiciones y gráficas distintas. El corpus tiene una mediana de **2.889 palabras por clase**. Longitud y unicidad verbal describen escala editorial; no demuestran calidad o aprendizaje.
+La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona duplicación y proximidad editorial. Los 840 archivos y las 840 preguntas son distintos. Fase III conserva 120 preguntas, condiciones críticas y gráficas propias sin explicaciones largas no autorizadas repetidas en más de diez clases; Fase IV añade 40 archivos, preguntas, condiciones y gráficas distintas. El corpus tiene una mediana de **2.895 palabras por clase**. Longitud y unicidad verbal describen escala editorial; no demuestran calidad o aprendizaje.
 
 ## 3. Talleres, rutas y portafolio
 
@@ -46,6 +46,8 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 | Rutas con diagnóstico, checkpoints, salida y capstone | **35/35** |
 | Dimensiones de la rúbrica común | **5** |
 | Umbral documental | **80/100**, ninguna dimensión bajo 60 % |
+| Fichas de la biblioteca de catástrofes | **10** (todas `PRELIMINAR`; ninguna `CONFIRMADO`) |
+| Cronología de 2026 | **parcial**: marzo, enero, julio, agosto y septiembre; faltan verano altiplánico, tormentas eléctricas, marejadas y sequía |
 | Pilotos con estudiantes | **pendiente** |
 | Carga horaria observada | **pendiente** |
 
@@ -53,15 +55,15 @@ La [auditoría de diferencias](AUDITORIA_DIFERENCIAS_800_CLASES.md) inspecciona 
 
 | Superficie | Resultado |
 |---|---:|
-| Relaciones clase–fuente derivadas | **2.441** |
-| URLs externas únicas en clases | **635** |
+| Relaciones clase–fuente derivadas | **2.445** |
+| URLs externas únicas en clases | **637** |
 | Dominios externos en clases | **190** |
 | Clases con apartado de fuentes | **840/840** |
-| Relaciones con función declarada | **2.374/2.441** |
-| Relaciones con alcance consultado | **1.987/2.441** |
-| Relaciones con límite declarado | **2.236/2.441** |
-| Relaciones con fecha de consulta | **1.560/2.441** |
-| Relaciones contextualmente completas | **1.388/2.441** |
+| Relaciones con función declarada | **2.378/2.445** |
+| Relaciones con alcance consultado | **1.991/2.445** |
+| Relaciones con límite declarado | **2.240/2.445** |
+| Relaciones con fecha de consulta | **1.564/2.445** |
+| Relaciones contextualmente completas | **1.392/2.445** |
 | Clases con todos sus usos completos | **452/840** |
 | Verificación periódica de disponibilidad externa | **pendiente** |
 | Revisión normativa por jurisdicción | **pendiente** |

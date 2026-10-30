@@ -34,13 +34,11 @@ No existe un CLA. Esto reduce fricción, pero significa que una futura doble lic
 
 1. Crea una rama descriptiva.
 2. Edita la fuente Markdown en `classes/`.
-3. Ejecuta `python scripts/generate_curriculum_docs.py --check`.
-4. Ejecuta `python scripts/build_pedagogical_decisions.py --check`.
-5. Ejecuta `python scripts/audit_pedagogical_traceability.py --json`.
-6. Ejecuta `python scripts/build_bibliography.py --check`.
-7. Ejecuta `python scripts/build_site.py`.
-8. Ejecuta `python scripts/validate_repo.py`.
-9. Abre un pull request explicando el cambio, la evidencia y las superficies revisadas.
+3. Si cambiaste una clase, regenera las salidas derivadas en el orden descrito en [Arquitectura del repositorio](docs/ARQUITECTURA_DEL_REPOSITORIO.md) (`apply_pedagogy.py`, `build_pedagogical_decisions.py`, `build_bibliography.py`, `generate_curriculum_docs.py`, `audit_class_distinctness.py --write`).
+4. Ejecuta las comprobaciones: `generate_curriculum_docs.py --check`, `build_pedagogical_decisions.py --check`, `apply_pedagogy.py --check`, `audit_pedagogical_traceability.py --json`, `audit_class_distinctness.py --check`, `build_bibliography.py --check`, `validate_homeowner_budget.py` y `validate_resilience.py`.
+5. Ejecuta `python scripts/build_site.py` y después `python scripts/validate_repo.py`.
+6. Para un caso de catástrofe, sigue la [guía de la biblioteca de casos](docs/GUIA_BIBLIOTECA_DE_CASOS.md): fuente primaria, fecha de consulta y estados de verificación.
+7. Abre un pull request explicando el cambio, la evidencia y las superficies revisadas.
 
 Todos los commits del pull request deben incluir `Signed-off-by: Nombre <correo>` mediante `git commit -s`.
 
@@ -54,6 +52,6 @@ El directorio `site/` es generado y no se versiona.
 - [ ] Los conteos del README y del estado verificable siguen coincidiendo con el repositorio.
 - [ ] Se revisaron las páginas HTML afectadas, incluida una vista estrecha cuando cambia el diseño.
 - [ ] No se añadieron secretos, datos personales ni material sin procedencia.
-- [ ] Las tres comprobaciones locales terminan correctamente.
+- [ ] Todas las comprobaciones locales del flujo terminan correctamente.
 
 La aprobación editorial de un pull request no equivale a una revisión profesional externa del programa completo.

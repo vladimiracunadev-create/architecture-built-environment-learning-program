@@ -46,7 +46,7 @@ No se inicia una expansión creando títulos. Primero se actualiza la [matriz de
 | Evaluación y portafolio | implementado | rúbrica, evidencias y talleres | medir fiabilidad entre evaluadores y calidad de retroalimentación | piloto con doble corrección |
 | Rutas de especialización | implementado | 35 rutas | revisar solapamientos sin duplicar clases | diagnóstico, capstone y salida comprobados por ruta |
 | Glosario | implementado con mantenimiento continuo | `docs/GLOSARIO_ACUMULATIVO.md` | añadir sólo términos conectados a clases y relaciones | revisión terminológica por disciplina |
-| Fuentes y trazabilidad | implementado con brecha conocida | 2.441 usos; 1.388 completos | completar alcance, límite, fecha y función sin inferir datos | 100 % de usos contextualmente completos |
+| Fuentes y trazabilidad | implementado con brecha conocida | 2.445 usos; 1.392 completos | completar alcance, límite, fecha y función sin inferir datos | 100 % de usos contextualmente completos |
 | Recursos visuales | parcial | diagramas de dependencia y visuales distribuidos | priorizar sección, detalle, mapa y comparación que enseñen | auditoría visual y accesibilidad |
 | Revisión externa | pendiente | estado publicado como pendiente | muestra estratificada por especialidad y riesgo | revisores, alcance, fecha y cambios registrados |
 | Pilotos pedagógicos | pendiente | arquitectura de evaluación definida | ejecutar cohortes pequeñas y medir tiempo, errores y transferencia | informe de resultados y decisiones de revisión |
