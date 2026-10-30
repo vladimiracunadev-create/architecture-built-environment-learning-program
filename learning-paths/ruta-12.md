@@ -20,6 +20,16 @@ Talleres asociados: **EST-02, EST-05, EST-06**. En cada checkpoint debes conserv
 
 Definir alcance, contratar competencias y gobernar decisiones y riesgos.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **propietario o mandante**. Aprende a pedir estudios, leer un informe y una póliza, y exigir que una decisión de comprar o construir conserve sus condiciones de detención.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 19 → Parte 35 → Parte 36 → Parte 37 → Parte 70. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-06 · Documentar, contratar, construir y operar](../studios/EST-06/README.md): expediente coordinado con planos, especificaciones, costo, secuencia, controles y plan de entrega.

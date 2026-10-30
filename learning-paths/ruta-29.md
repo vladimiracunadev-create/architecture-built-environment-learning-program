@@ -20,6 +20,16 @@ Talleres asociados: **EST-10**. En cada checkpoint debes conservar versión inic
 
 Comparar medidas de reducción, preparación, continuidad y recuperación para escenarios múltiples.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **gestor de emergencias**. Une el peligro con la decisión de emplazar, la obligación normativa, el costo de recuperación y la transferencia del riesgo.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 11 → Parte 19 → Parte 40 → Parte 42 → Parte 70. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-10 · Proyecto interdisciplinario, especialización y transferencia](../studios/EST-10/README.md): proyecto final interdisciplinario, dossier técnico, portafolio de versiones, defensa y agenda de investigación.

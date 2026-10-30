@@ -20,6 +20,16 @@ Talleres asociados: **EST-10**. En cada checkpoint debes conservar versión inic
 
 Defender una propuesta habitacional situada desde habitabilidad, asequibilidad, cuidado y ciclo de vida.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **proyectista de vivienda**. Incorpora sitio, suelo, multiamenaza y contrato al proyecto de vivienda en vez de tratarlos como anexos.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 11 → Parte 19 → Parte 38 → Parte 70 → Parte 82. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-10 · Proyecto interdisciplinario, especialización y transferencia](../studios/EST-10/README.md): proyecto final interdisciplinario, dossier técnico, portafolio de versiones, defensa y agenda de investigación.

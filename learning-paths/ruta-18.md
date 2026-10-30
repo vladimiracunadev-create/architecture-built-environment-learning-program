@@ -20,6 +20,16 @@ Talleres asociados: **EST-10**. En cada checkpoint debes conservar versión inic
 
 Comparar estrategias pasivas bajo clima actual y futuro mediante evidencia y medición.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **proyectista bioclimático**. Contrasta las estrategias pasivas con inundación, incendio y calor extremo y con su costo de ciclo de vida.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 36 → Parte 38 → Parte 42. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-10 · Proyecto interdisciplinario, especialización y transferencia](../studios/EST-10/README.md): proyecto final interdisciplinario, dossier técnico, portafolio de versiones, defensa y agenda de investigación.

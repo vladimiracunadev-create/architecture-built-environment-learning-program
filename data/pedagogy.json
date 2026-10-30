@@ -297,7 +297,15 @@
       ],
       "entry": "Fundamentos de observación, escala, representación y participación.",
       "exit": "Comparar decisiones territoriales con evidencia social, ecológica y multiamenaza.",
-      "capstone": "EST-05"
+      "capstone": "EST-05",
+      "risk_extension": {
+        "parts": [
+          19,
+          40
+        ],
+        "role": "urbanista o planificador",
+        "focus": "Antes de proponer un uso, decide con qué antecedentes de suelo y restricciones legales se descarta o se condiciona un terreno."
+      }
     },
     {
       "id": "RUTA-05",
@@ -318,7 +326,17 @@
       ],
       "entry": "Dominio básico de unidades, vectores, equilibrio y lectura de secciones.",
       "exit": "Formular y revisar modelos estructurales conceptuales con límites explícitos.",
-      "capstone": "EST-05"
+      "capstone": "EST-05",
+      "risk_extension": {
+        "parts": [
+          11,
+          36,
+          37,
+          42
+        ],
+        "role": "calculista o geotécnico",
+        "focus": "Identifica qué datos del sitio, del agua y del clima condicionan la solución y qué encargo profesional falta formular."
+      }
     },
     {
       "id": "RUTA-06",
@@ -360,7 +378,17 @@
       ],
       "entry": "Comprensión general del ciclo del proyecto y de las responsabilidades.",
       "exit": "Preparar y defender un expediente de alcance, costo, plazo, calidad y cambios.",
-      "capstone": "EST-06"
+      "capstone": "EST-06",
+      "risk_extension": {
+        "parts": [
+          19,
+          35,
+          38,
+          70
+        ],
+        "role": "constructor o inspector",
+        "focus": "Revisa qué condiciones del terreno y de amenaza obligan a detener la obra y cómo se distribuyen responsabilidades, garantías y seguros."
+      }
     },
     {
       "id": "RUTA-08",
@@ -443,7 +471,17 @@
       ],
       "entry": "Comprensión del edificio como activo usado, mantenido y transformado.",
       "exit": "Diagnosticar, priorizar y documentar una intervención compatible y mantenible.",
-      "capstone": "EST-06"
+      "capstone": "EST-06",
+      "risk_extension": {
+        "parts": [
+          36,
+          37,
+          38,
+          42
+        ],
+        "role": "administrador de inmuebles",
+        "focus": "Planifica mantenimiento, inspección posterior a eventos y costo de ciclo de vida frente a las amenazas del sitio."
+      }
     },
     {
       "id": "RUTA-12",
@@ -463,7 +501,18 @@
       ],
       "entry": "Interés en formular encargos y revisar evidencia sin asumir atribuciones profesionales.",
       "exit": "Definir alcance, contratar competencias y gobernar decisiones y riesgos.",
-      "capstone": "EST-06"
+      "capstone": "EST-06",
+      "risk_extension": {
+        "parts": [
+          19,
+          35,
+          36,
+          37,
+          70
+        ],
+        "role": "propietario o mandante",
+        "focus": "Aprende a pedir estudios, leer un informe y una póliza, y exigir que una decisión de comprar o construir conserve sus condiciones de detención."
+      }
     },
     {
       "id": "RUTA-13",
@@ -522,7 +571,18 @@
       ],
       "entry": "Programa, representación, sitio y diversidad de hogares.",
       "exit": "Defender una propuesta habitacional situada desde habitabilidad, asequibilidad, cuidado y ciclo de vida.",
-      "capstone": "EST-10"
+      "capstone": "EST-10",
+      "risk_extension": {
+        "parts": [
+          11,
+          19,
+          38,
+          70,
+          82
+        ],
+        "role": "proyectista de vivienda",
+        "focus": "Incorpora sitio, suelo, multiamenaza y contrato al proyecto de vivienda en vez de tratarlos como anexos."
+      }
     },
     {
       "id": "RUTA-16",
@@ -586,7 +646,16 @@
       ],
       "entry": "Balances básicos, clima, sección y representación de flujos.",
       "exit": "Comparar estrategias pasivas bajo clima actual y futuro mediante evidencia y medición.",
-      "capstone": "EST-10"
+      "capstone": "EST-10",
+      "risk_extension": {
+        "parts": [
+          36,
+          38,
+          42
+        ],
+        "role": "proyectista bioclimático",
+        "focus": "Contrasta las estrategias pasivas con inundación, incendio y calor extremo y con su costo de ciclo de vida."
+      }
     },
     {
       "id": "RUTA-19",
@@ -746,7 +815,16 @@
       ],
       "entry": "Matemática, territorio, camino de cargas y lectura de sistemas.",
       "exit": "Formular un anteproyecto de infraestructura con niveles de servicio, dependencias y ciclo de vida.",
-      "capstone": "EST-10"
+      "capstone": "EST-10",
+      "risk_extension": {
+        "parts": [
+          37,
+          40,
+          70
+        ],
+        "role": "especialista en infraestructura",
+        "focus": "Evalúa continuidad de servicio frente a tormentas y heladas, y las obligaciones y seguros que rodean al operador."
+      }
     },
     {
       "id": "RUTA-26",
@@ -822,7 +900,17 @@
       ],
       "entry": "Equilibrio, materiales, suelo, representación y límites del modelo.",
       "exit": "Coordinar forma, sistema resistente, componentes, continuidad y recuperación con especialistas.",
-      "capstone": "EST-10"
+      "capstone": "EST-10",
+      "risk_extension": {
+        "parts": [
+          11,
+          36,
+          42,
+          70
+        ],
+        "role": "especialista en sismo",
+        "focus": "Sitúa el diseño sísmico en un terreno concreto, junto con inundación y tsunami, y con su costo y cobertura de seguro."
+      }
     },
     {
       "id": "RUTA-29",
@@ -849,7 +937,18 @@
       ],
       "entry": "Lectura territorial, personas, sistemas y vocabulario de riesgo.",
       "exit": "Comparar medidas de reducción, preparación, continuidad y recuperación para escenarios múltiples.",
-      "capstone": "EST-10"
+      "capstone": "EST-10",
+      "risk_extension": {
+        "parts": [
+          11,
+          19,
+          40,
+          42,
+          70
+        ],
+        "role": "gestor de emergencias",
+        "focus": "Une el peligro con la decisión de emplazar, la obligación normativa, el costo de recuperación y la transferencia del riesgo."
+      }
     },
     {
       "id": "RUTA-30",
@@ -1021,7 +1120,18 @@
         "ARQ-820 · puerta NO INICIAR SIN HABILITACIONES",
         "ARQ-830 · auditoría de cierre y mantenimiento"
       ],
-      "activity_boundary": "Las actividades son simulaciones de gestión y revisión. El propietario puede organizar antecedentes, registrar observaciones y comparar ofertas; proyectos, cálculos, instalaciones, firmas, inspecciones y autorizaciones corresponden a profesionales, instaladores u organismos competentes cuando la normativa lo exige."
+      "activity_boundary": "Las actividades son simulaciones de gestión y revisión. El propietario puede organizar antecedentes, registrar observaciones y comparar ofertas; proyectos, cálculos, instalaciones, firmas, inspecciones y autorizaciones corresponden a profesionales, instaladores u organismos competentes cuando la normativa lo exige.",
+      "risk_extension": {
+        "parts": [
+          36,
+          37,
+          38,
+          47,
+          70
+        ],
+        "role": "propietario",
+        "focus": "Antes de ampliar o comprar, revisa agua, clima y multiamenaza del lugar, la operación posterior y los seguros."
+      }
     }
   ]
 }

@@ -417,6 +417,21 @@ En cada puerta, otra persona debe reconstruir una operación, localizar una fuen
 
 {route['activity_boundary']}
 """
+    risk_extension = ""
+    if route.get("risk_extension"):
+        extension = route["risk_extension"]
+        extra = " → ".join(f"Parte {part:02d}" for part in extension["parts"])
+        risk_extension = f"""## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **{extension['role']}**. {extension['focus']}
+
+Partes complementarias que esta ruta no recorre por defecto: {extra}. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
+"""
     return f"""# {route['id']} · {route['title']}
 
 ## Para quién y punto de entrada
@@ -439,7 +454,7 @@ Talleres asociados: **{checkpoints}**. En cada checkpoint debes conservar versi�
 
 {route['exit']}{detail}
 
-## Capstone
+{risk_extension}## Capstone
 
 [{capstone['id']} · {capstone['title']}](../studios/{capstone['id']}/README.md): {capstone['product']}.
 

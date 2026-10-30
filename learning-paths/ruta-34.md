@@ -42,6 +42,16 @@ En cada puerta, otra persona debe reconstruir una operación, localizar una fuen
 Las actividades son simulaciones de gestión y revisión. El propietario puede organizar antecedentes, registrar observaciones y comparar ofertas; proyectos, cálculos, instalaciones, firmas, inspecciones y autorizaciones corresponden a profesionales, instaladores u organismos competentes cuando la normativa lo exige.
 
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **propietario**. Antes de ampliar o comprar, revisa agua, clima y multiamenaza del lugar, la operación posterior y los seguros.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 36 → Parte 37 → Parte 38 → Parte 47 → Parte 70. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-06 · Documentar, contratar, construir y operar](../studios/EST-06/README.md): expediente coordinado con planos, especificaciones, costo, secuencia, controles y plan de entrega.

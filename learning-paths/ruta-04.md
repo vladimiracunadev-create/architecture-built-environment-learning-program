@@ -20,6 +20,16 @@ Talleres asociados: **EST-01, EST-02, EST-03, EST-05**. En cada checkpoint debes
 
 Comparar decisiones territoriales con evidencia social, ecológica y multiamenaza.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **urbanista o planificador**. Antes de proponer un uso, decide con qué antecedentes de suelo y restricciones legales se descarta o se condiciona un terreno.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 19 → Parte 40. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-05 · Desempeño ambiental y resiliencia](../studios/EST-05/README.md): estrategia de desempeño y resiliencia con modelos, escenarios, límites y prioridades de verificación.

@@ -735,6 +735,11 @@ def build_learning_paths(pedagogy: dict) -> None:
             lambda match: f'href="{REPO_URL}/blob/main/cases/{match.group(1)}"',
             rendered,
         )
+        rendered = re.sub(
+            r'href="\.\./docs/([^"]+)"',
+            lambda match: f'href="{REPO_URL}/blob/main/docs/{match.group(1)}"',
+            rendered,
+        )
         write(
             f"rutas/{route['id'].lower()}.html",
             shell(f"{route['id']} · {route['title']}", f'<main id="main" class="doc">{rendered}</main>', prefix="../"),

@@ -20,6 +20,16 @@ Talleres asociados: **EST-03, EST-06**. En cada checkpoint debes conservar versi
 
 Diagnosticar, priorizar y documentar una intervención compatible y mantenible.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **administrador de inmuebles**. Planifica mantenimiento, inspección posterior a eventos y costo de ciclo de vida frente a las amenazas del sitio.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 36 → Parte 37 → Parte 38 → Parte 42. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-06 · Documentar, contratar, construir y operar](../studios/EST-06/README.md): expediente coordinado con planos, especificaciones, costo, secuencia, controles y plan de entrega.

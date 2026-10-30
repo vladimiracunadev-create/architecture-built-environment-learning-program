@@ -20,6 +20,16 @@ Talleres asociados: **EST-06**. En cada checkpoint debes conservar versión inic
 
 Preparar y defender un expediente de alcance, costo, plazo, calidad y cambios.
 
+## Extensión: riesgo, seguros y decisión de emplazamiento
+
+Perspectiva: **constructor o inspector**. Revisa qué condiciones del terreno y de amenaza obligan a detener la obra y cómo se distribuyen responsabilidades, garantías y seguros.
+
+Partes complementarias que esta ruta no recorre por defecto: Parte 19 → Parte 35 → Parte 38 → Parte 70. Se estudian en su orden interno cuando el diagnóstico muestra una brecha.
+
+- [Decisión integral de construcción resiliente en Chile](../cases/DECISION-INTEGRAL-RESILIENTE.md): expediente que compara terrenos y exige una decisión justificada.
+- [Seguros y gestión económica del riesgo](../docs/SEGUROS_Y_GESTION_ECONOMICA_DEL_RIESGO.md): guía para leer pólizas y comparar retención y transferencia.
+- [Biblioteca de catástrofes y eventos en Chile](../cases/catastrofes-chile/README.md): casos con estados de verificación.
+
 ## Capstone
 
 [EST-06 · Documentar, contratar, construir y operar](../studios/EST-06/README.md): expediente coordinado con planos, especificaciones, costo, secuencia, controles y plan de entrega.
